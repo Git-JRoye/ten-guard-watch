@@ -131,7 +131,7 @@
         }
         
         #assessment-results {
-            display: none !important;
+            display: none;
             margin-top: 30px;
             padding: 30px;
             background: rgba(255, 255, 255, 0.1);
@@ -381,6 +381,10 @@
             
             const percentage = Math.round((score / (totalQuestions * 2)) * 100);
             
+            console.log('Answers:', answers);
+            console.log('Score:', score);
+            console.log('Percentage:', percentage);
+            
             // Hide assessment box and show results
             document.getElementById('assessment-box').style.display = 'none';
             document.getElementById('progress-bar').style.display = 'none';
@@ -392,8 +396,14 @@
             `;
             
             document.getElementById('recommendations').innerHTML = getRecommendations();
-            document.getElementById('assessment-results').style.display = 'block';
-            document.getElementById('assessment-results').scrollIntoView({ behavior: 'smooth' });
+            
+            // Force show results
+            const resultsElement = document.getElementById('assessment-results');
+            resultsElement.style.display = 'block';
+            resultsElement.style.visibility = 'visible';
+            
+            // Scroll to results
+            resultsElement.scrollIntoView({ behavior: 'smooth' });
         }
         
         function getScoreMessage(percentage) {
