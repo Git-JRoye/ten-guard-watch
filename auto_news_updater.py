@@ -225,6 +225,42 @@ def create_backup(html_file):
         logging.error(f"Error creating backup: {e}")
         return None
 
+def generate_professional_summary(article):
+    """Generate a professional Security Weekly-style summary"""
+    title = article["title"]
+    summary = article["summary"]
+    source = article["source"]
+    
+    # Create a concise, professional summary
+    if len(summary) > 200:
+        summary = summary[:200] + "..."
+    
+    # Determine impact based on keywords
+    impact_keywords = {
+        "critical": "Critical vulnerability requiring immediate attention and patching.",
+        "exploit": "Active exploitation observed in the wild, requiring immediate defensive measures.",
+        "breach": "Data breach affecting organizations and requiring incident response procedures.",
+        "malware": "Malicious software campaign targeting users and organizations.",
+        "phishing": "Social engineering campaign targeting users with fraudulent communications.",
+        "ransomware": "Ransomware attack campaign targeting organizations for financial gain.",
+        "vulnerability": "Security vulnerability affecting systems and requiring patching.",
+        "threat": "Emerging threat affecting cybersecurity landscape and requiring awareness.",
+        "attack": "Cyber attack campaign targeting organizations and individuals.",
+        "hack": "Unauthorized access campaign targeting systems and data."
+    }
+    
+    # Find matching impact keywords
+    impact = "Cybersecurity development requiring attention and monitoring."
+    for keyword, impact_text in impact_keywords.items():
+        if keyword.lower() in title.lower() or keyword.lower() in summary.lower():
+            impact = impact_text
+            break
+    
+    return {
+        "summary": summary,
+        "impact": impact
+    }
+
 def update_html():
     """Update the HTML file with latest articles"""
     html_file = "tenguardwatch.html"
@@ -243,7 +279,10 @@ def update_html():
         
         # Fetch articles
         logging.info("Fetching latest articles...")
-        articles = fetch_hacker_news() + fetch_dark_reading() + fetch_security_week()
+        articles = fetch_hacker_news() + fetch_security_week()
+        
+        # Remove Dark Reading since we updated the disclaimer
+        # articles = fetch_hacker_news() + fetch_dark_reading() + fetch_security_week()
         
         # If we don't have enough articles, try backup source
         if len(articles) < 5:
@@ -258,15 +297,18 @@ def update_html():
         # Generate ticker items
         ticker_items = "".join([f'<div class="ticker-item">{article["title"]}</div>' for article in articles])
         
-        # Generate service cards
-        service_cards = "".join([
-            f'<div class="service-card" data-aos="fade-up">'
-            f'<h3>{article["title"]}</h3>'
-            f'<p>{article["summary"]}</p>'
-            f'<p>Source: {article["source"]} - <a href="{article["link"]}" target="_blank">Read Full Article</a></p>'
-            f'<a href="{article["link"]}" target="_blank" class="button-link">Read Full Article</a>'
-            f'</div>' for article in articles
-        ])
+        # Generate professional service cards with Security Weekly format
+        service_cards = ""
+        for article in articles:
+            professional = generate_professional_summary(article)
+            service_cards += f'''
+            <div class="service-card" data-aos="fade-up">
+                <h3>{article["title"]}</h3>
+                <p><strong>Summary:</strong> {professional["summary"]}</p>
+                <p><strong>Impact:</strong> {professional["impact"]}</p>
+                <p>Source: {article["source"]} - <a href="{article["link"]}" target="_blank">Read Full Article</a></p>
+                <a href="{article["link"]}" target="_blank" class="button-link">Read Full Article</a>
+            </div>'''
         
         # Update ticker section
         content = re.sub(
@@ -278,13 +320,13 @@ def update_html():
             flags=re.DOTALL
         )
         
-        # Update cyber news section
+        # Update cyber news section with updated disclaimer
         content = re.sub(
             r'<section class="cyber-news" data-aos="fade-up">.*?</section>',
             f'<section class="cyber-news" data-aos="fade-up">'
             f'<h1>Daily Cyber News</h1>'
             f'<p>Stay informed with the latest trends and developments in cybersecurity.</p>'
-            f'<p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, Dark Reading, and SecurityWeek. For full content, visit the original publication by following the provided links.</p>'
+            f'<p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>'
             f'{service_cards}'
             f'</section>',
             content,
@@ -305,7 +347,7 @@ def update_html():
         with open("update_info.json", "w") as f:
             json.dump(update_info, f, indent=2)
         
-        logging.info(f"Successfully updated {html_file} with {len(articles)} articles.")
+        logging.info(f"Successfully updated {html_file} with {len(articles)} articles using professional Security Weekly format.")
         return True
         
     except Exception as e:

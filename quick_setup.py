@@ -41,7 +41,8 @@ def setup_cron():
     """Set up cron job for automation"""
     print("⏰ Setting up automated scheduling...")
     current_dir = os.getcwd()
-    cron_command = f"0 9 * * 1 cd {current_dir} && {sys.executable} auto_news_updater.py"
+    # Daily updates at 9 AM instead of weekly
+    cron_command = f"0 9 * * * cd {current_dir} && {sys.executable} auto_news_updater.py"
     
     try:
         # Get current crontab
@@ -54,7 +55,7 @@ def setup_cron():
             new_crontab = current_crontab + f"\n{cron_command}\n" if current_crontab else f"{cron_command}\n"
             subprocess.run(["crontab", "-"], input=new_crontab, text=True)
             print("✅ Cron job added successfully!")
-            print(f"   Schedule: Every Monday at 9 AM")
+            print(f"   Schedule: Every day at 9 AM")
             print(f"   Command: {cron_command}")
         else:
             print("✅ Cron job already exists!")
@@ -90,10 +91,11 @@ def main():
     
     print("\n🎉 Setup Complete!")
     print("\n📋 Next Steps:")
-    print("1. Your website will update automatically every Monday at 9 AM")
+    print("1. Your website will update automatically every day at 9 AM")
     print("2. Run 'python3 auto_news_updater.py' to update manually")
     print("3. Run 'python3 check_status.py' to check update status")
     print("4. Check 'news_updater.log' for detailed logs")
+    print("5. Articles will now use professional Security Weekly-style format")
     
     print("\n🔧 Manual Commands:")
     print("   Update now: python3 auto_news_updater.py")
