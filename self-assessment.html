@@ -33,52 +33,166 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <style>
+        .assessment-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        #progress-bar {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            height: 30px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #progress-fill {
+            background: linear-gradient(90deg, #10b981, #059669);
+            height: 100%;
+            width: 20%;
+            border-radius: 25px;
+            transition: width 0.5s ease;
+        }
+        
+        #progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .assessment-box {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 40px;
+            border: 2px solid #10b981;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        #question-title {
+            color: #10b981;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        #question-text {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            text-align: center;
+            line-height: 1.6;
+        }
+        
+        .option-button {
+            display: block;
+            width: 100%;
+            padding: 15px 20px;
+            margin: 10px 0;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            font-size: 16px;
+        }
+        
+        .option-button:hover {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: #10b981;
+            transform: translateY(-2px);
+        }
+        
+        .option-button.selected {
+            background: rgba(16, 185, 129, 0.2);
+            border-color: #10b981;
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+        }
+        
+        .assessment-buttons {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .assessment-buttons button {
+            padding: 12px 30px;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        
         #assessment-results {
             display: none !important;
             margin-top: 30px;
-            padding: 20px;
+            padding: 30px;
             background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
+            border-radius: 15px;
             border: 2px solid #10b981;
-        }
-        
-        .question-group {
-            margin-bottom: 25px;
-            padding: 15px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 8px;
-        }
-        
-        .question-group h3 {
-            color: #10b981;
-            margin-bottom: 15px;
-        }
-        
-        .question-group label {
-            display: block;
-            margin: 10px 0;
-            padding: 8px;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        
-        .question-group label:hover {
-            background: rgba(16, 185, 129, 0.1);
-        }
-        
-        .question-group input[type="radio"] {
-            margin-right: 10px;
+            text-align: center;
         }
         
         #score-display {
-            text-align: center;
             margin: 20px 0;
         }
         
         #score-display h3 {
-            font-size: 2em;
+            font-size: 2.5em;
             color: #10b981;
+            margin-bottom: 15px;
+        }
+        
+        #score-display p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        #recommendations {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        #recommendations h3 {
+            color: #10b981;
+            margin-bottom: 15px;
+        }
+        
+        #recommendations ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        #recommendations li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        #recommendations li:before {
+            content: "🔒 ";
+            margin-right: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .assessment-box {
+                padding: 20px;
+                margin: 0 10px;
+            }
+            
+            .option-button {
+                padding: 12px 15px;
+                font-size: 14px;
+            }
         }
     </style>
 </head>
@@ -113,46 +227,23 @@
             Take our comprehensive security assessment to identify potential vulnerabilities in your current setup. This quick evaluation will help you understand your security posture and identify areas for improvement.
         </p>
         
-        <div class="assessment-form" data-aos="fade-up">
-            <h2>Security Assessment Questions</h2>
-            <form id="security-assessment">
-                <div class="question-group">
-                    <h3>1. Do you have antivirus software installed and updated?</h3>
-                    <label><input type="radio" name="antivirus" value="yes"> Yes, regularly updated</label>
-                    <label><input type="radio" name="antivirus" value="no"> No</label>
-                    <label><input type="radio" name="antivirus" value="sometimes"> Sometimes updated</label>
+        <div class="assessment-container" data-aos="fade-up">
+            <div id="progress-bar">
+                <div id="progress-fill"></div>
+                <span id="progress-text">Question 1 of 5</span>
+            </div>
+            
+            <div class="assessment-box" id="assessment-box">
+                <div id="question-container">
+                    <h2 id="question-title">Security Assessment</h2>
+                    <p id="question-text">Let's evaluate your cybersecurity posture with a few quick questions.</p>
+                    <div id="question-options"></div>
+                    <div class="assessment-buttons">
+                        <button id="next-btn" class="button-link" style="display: none;">Next Question</button>
+                        <button id="finish-btn" class="button-link" style="display: none;">Get My Security Score</button>
+                    </div>
                 </div>
-
-                <div class="question-group">
-                    <h3>2. Do you use strong, unique passwords for all accounts?</h3>
-                    <label><input type="radio" name="passwords" value="yes"> Yes, all unique and strong</label>
-                    <label><input type="radio" name="passwords" value="no"> No, I reuse passwords</label>
-                    <label><input type="radio" name="passwords" value="sometimes"> Some are strong, some aren't</label>
-                </div>
-
-                <div class="question-group">
-                    <h3>3. Do you have two-factor authentication enabled?</h3>
-                    <label><input type="radio" name="2fa" value="yes"> Yes, on all important accounts</label>
-                    <label><input type="radio" name="2fa" value="no"> No</label>
-                    <label><input type="radio" name="2fa" value="some"> On some accounts</label>
-                </div>
-
-                <div class="question-group">
-                    <h3>4. Do you regularly update your software and operating system?</h3>
-                    <label><input type="radio" name="updates" value="yes"> Yes, automatically</label>
-                    <label><input type="radio" name="updates" value="no"> No, rarely</label>
-                    <label><input type="radio" name="updates" value="sometimes"> Sometimes</label>
-                </div>
-
-                <div class="question-group">
-                    <h3>5. Do you have a backup strategy for your important data?</h3>
-                    <label><input type="radio" name="backup" value="yes"> Yes, automated backups</label>
-                    <label><input type="radio" name="backup" value="no"> No backup strategy</label>
-                    <label><input type="radio" name="backup" value="manual"> Manual backups occasionally</label>
-                </div>
-
-                <button type="submit" class="button-link">Get My Security Score</button>
-            </form>
+            </div>
         </div>
 
         <div id="assessment-results" style="display: none;">
@@ -171,25 +262,128 @@
 
     <!-- Assessment Script -->
     <script>
-        // Ensure results are hidden on page load
+        const questions = [
+            {
+                question: "Do you have antivirus software installed and updated?",
+                options: [
+                    { text: "Yes, regularly updated", value: "yes" },
+                    { text: "No", value: "no" },
+                    { text: "Sometimes updated", value: "sometimes" }
+                ]
+            },
+            {
+                question: "Do you use strong, unique passwords for all accounts?",
+                options: [
+                    { text: "Yes, all unique and strong", value: "yes" },
+                    { text: "No, I reuse passwords", value: "no" },
+                    { text: "Some are strong, some aren't", value: "sometimes" }
+                ]
+            },
+            {
+                question: "Do you have two-factor authentication enabled?",
+                options: [
+                    { text: "Yes, on all important accounts", value: "yes" },
+                    { text: "No", value: "no" },
+                    { text: "On some accounts", value: "some" }
+                ]
+            },
+            {
+                question: "Do you regularly update your software and operating system?",
+                options: [
+                    { text: "Yes, automatically", value: "yes" },
+                    { text: "No, rarely", value: "no" },
+                    { text: "Sometimes", value: "sometimes" }
+                ]
+            },
+            {
+                question: "Do you have a backup strategy for your important data?",
+                options: [
+                    { text: "Yes, automated backups", value: "yes" },
+                    { text: "No backup strategy", value: "no" },
+                    { text: "Manual backups occasionally", value: "manual" }
+                ]
+            }
+        ];
+
+        let currentQuestion = 0;
+        let answers = [];
+
         document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('assessment-results').style.display = 'none';
+            showQuestion();
         });
 
-        document.getElementById('security-assessment').addEventListener('submit', function(e) {
-            e.preventDefault();
+        function showQuestion() {
+            const question = questions[currentQuestion];
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
             
-            const formData = new FormData(this);
+            // Update progress bar
+            document.getElementById('progress-fill').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = `Question ${currentQuestion + 1} of ${questions.length}`;
+            
+            // Update question content
+            document.getElementById('question-text').textContent = question.question;
+            
+            // Create option buttons
+            const optionsContainer = document.getElementById('question-options');
+            optionsContainer.innerHTML = '';
+            
+            question.options.forEach((option, index) => {
+                const button = document.createElement('button');
+                button.className = 'option-button';
+                button.textContent = option.text;
+                button.dataset.value = option.value;
+                
+                button.addEventListener('click', function() {
+                    // Remove selected class from all buttons
+                    document.querySelectorAll('.option-button').forEach(btn => btn.classList.remove('selected'));
+                    // Add selected class to clicked button
+                    this.classList.add('selected');
+                    
+                    // Store answer
+                    answers[currentQuestion] = option.value;
+                    
+                    // Show appropriate button
+                    if (currentQuestion === questions.length - 1) {
+                        document.getElementById('finish-btn').style.display = 'inline-block';
+                        document.getElementById('next-btn').style.display = 'none';
+                    } else {
+                        document.getElementById('next-btn').style.display = 'inline-block';
+                        document.getElementById('finish-btn').style.display = 'none';
+                    }
+                });
+                
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        document.getElementById('next-btn').addEventListener('click', function() {
+            if (answers[currentQuestion] !== undefined) {
+                currentQuestion++;
+                showQuestion();
+                this.style.display = 'none';
+            }
+        });
+
+        document.getElementById('finish-btn').addEventListener('click', function() {
+            calculateScore();
+        });
+
+        function calculateScore() {
             let score = 0;
-            let totalQuestions = 5;
+            let totalQuestions = questions.length;
             
             // Calculate score
-            for (let [name, value] of formData.entries()) {
-                if (value === 'yes') score += 2;
-                else if (value === 'sometimes' || value === 'some') score += 1;
-            }
+            answers.forEach(answer => {
+                if (answer === 'yes') score += 2;
+                else if (answer === 'sometimes' || answer === 'some' || answer === 'manual') score += 1;
+            });
             
             const percentage = Math.round((score / (totalQuestions * 2)) * 100);
+            
+            // Hide assessment box and show results
+            document.getElementById('assessment-box').style.display = 'none';
+            document.getElementById('progress-bar').style.display = 'none';
             
             // Display results
             document.getElementById('score-display').innerHTML = `
@@ -197,10 +391,10 @@
                 <p>${getScoreMessage(percentage)}</p>
             `;
             
-            document.getElementById('recommendations').innerHTML = getRecommendations(formData);
+            document.getElementById('recommendations').innerHTML = getRecommendations();
             document.getElementById('assessment-results').style.display = 'block';
             document.getElementById('assessment-results').scrollIntoView({ behavior: 'smooth' });
-        });
+        }
         
         function getScoreMessage(percentage) {
             if (percentage >= 80) return "Excellent! You have strong security practices.";
@@ -209,22 +403,22 @@
             else return "Your security posture needs significant improvement.";
         }
         
-        function getRecommendations(formData) {
-            let recommendations = "<h3>Recommendations:</h3><ul>";
+        function getRecommendations() {
+            let recommendations = "<h3>🔒 Security Recommendations:</h3><ul>";
             
-            if (formData.get('antivirus') !== 'yes') {
+            if (answers[0] !== 'yes') {
                 recommendations += "<li>Install and regularly update antivirus software</li>";
             }
-            if (formData.get('passwords') !== 'yes') {
+            if (answers[1] !== 'yes') {
                 recommendations += "<li>Use a password manager to create and store unique passwords</li>";
             }
-            if (formData.get('2fa') !== 'yes') {
+            if (answers[2] !== 'yes') {
                 recommendations += "<li>Enable two-factor authentication on all important accounts</li>";
             }
-            if (formData.get('updates') !== 'yes') {
+            if (answers[3] !== 'yes') {
                 recommendations += "<li>Enable automatic software updates</li>";
             }
-            if (formData.get('backup') !== 'yes') {
+            if (answers[4] !== 'yes') {
                 recommendations += "<li>Implement automated backup solutions</li>";
             }
             
