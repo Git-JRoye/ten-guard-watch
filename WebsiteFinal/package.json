@@ -1,0 +1,13 @@
+{
+  "name": "tenguard-watch",
+  "version": "1.0.0",
+  "description": "TenGuard Security Website with Automated News Updates",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site ready'"
+  },
+  "keywords": ["cybersecurity", "news", "automation"],
+  "author": "Johnny Roye",
+  "license": "MIT"
+}
