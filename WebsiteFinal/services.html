@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - TenGuard Security</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_v5.css">
+    <!-- AOS Library CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- AOS Library JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+           <nav>
+            <div class="logo">
+                <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+            </div>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+            </ul>
+			<!-- Secure Your Consultation Button -->
+        <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+        </nav>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services" data-aos="fade-up">
+        <h2>Our Services</h2>
+
+        <div class="service-card" data-aos="fade-right">
+            <img src="assets/lock.png" alt="Managed Security">
+            <div>
+                <h3>Managed Security Services</h3>
+                <p>Continuous system monitoring, proactive threat detection, and incident response to safeguard your home and business.</p>
+            </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-left">
+            <img src="assets/refresh.png" alt="Patch Management">
+            <div>
+                <h3>Patch Management</h3>
+                <p>Automated patch deployment and compliance reporting to eliminate vulnerabilities effectively.</p>
+            </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-right">
+            <img src="assets/consult.png" alt="Cybersecurity Consulting">
+            <div>
+                <h3>Cybersecurity Consulting</h3>
+                <p>Comprehensive risk assessments and tailored strategies to fortify your IT environment.</p>
+            </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-left">
+            <img src="assets/hardware.png" alt="IT Hardware Assessment">
+            <div>
+                <h3>IT Hardware Assessment</h3>
+                <p>Infrastructure evaluations and procurement guidance to enhance performance and reliability.</p>
+            </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-right">
+            <img src="assets/compliance.png" alt="Compliance and Governance">
+            <div>
+                <h3>Compliance and Governance</h3>
+                <p>Achieve and maintain regulatory compliance through expert assessments and policy development.</p>
+            </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-left">
+            <img src="assets/alert.png" alt="Incident Response">
+            <div>
+                <h3>Incident Response</h3>
+                <p>Rapid containment, remediation, and system recovery to minimize business disruptions.</p>
+            </div>
+        </div>
+
+        <!-- New Section: Employee Training and Awareness -->
+        <div class="service-card" data-aos="fade-up">
+            <img src="assets/employeetraining.png" alt="Employee Training">
+            <div>
+                <h3>Employee Training and Awareness</h3>
+                <p>Reduce risks through tailored training programs that educate on security best practices and address client-specific risks.</p>
+            </div>
+        </div>
+		<!-- Self-Assessment Button -->
+		<div class="self-assessment-button" style="text-align: center; margin-top: 20px;">
+			<a href="self-assessment.html" class="button-link">Discover Your Security Needs</a>
+		</div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+        <div class="footer-line"></div>
+		<a href="index.html" class="button-link">Return Home</a>
+    </footer>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 1000, /* Animation duration in milliseconds */
+            once: true, /* Only animate on first scroll */
+        });
+    </script>
+	
+	<script src="script.js"></script>
+
+</body>
+</html>

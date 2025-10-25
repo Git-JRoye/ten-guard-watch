@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TenGuard Security</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_v5.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+    <nav>
+        <div class="logo">
+            <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+        </div>
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- Navigation Links -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tenguardwatch.html">TenGuard Watch</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <!-- Contact Section -->
+    <section class="contact-section blue-tint" data-aos="fade-up">
+        <h1>Contact</h1>
+        <p data-aos="fade-left">Have questions? Reach out using the form below!</p>
+        <form id="contact-form"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            data-aos="zoom-in"
+            class="contact-form"
+        >
+            <input type="hidden" name="access_key" value="4b880c1a-ce2e-489d-8af1-a2c6d0c3bd66">
+            <input type="hidden" name="redirect" value="https://www.tenguardsecurity.com/thanks">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+            
+            <!-- hCaptcha Implementation -->
+            <div class="h-captcha" data-captcha="true"></div>
+            
+            <label>
+                Your Name:
+                <input type="text" name="name" placeholder="Name" required>
+            </label>
+            <label>
+                Your Email:
+                <input type="email" name="email" placeholder="Email" required>
+            </label>
+            <label>
+                Your Message:
+                <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="glowing-effect">Secure Your Consultation</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+        <div class="footer-line"></div>
+		<a href="index.html" class="button-link">Return Home</a>
+    </footer>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+
+    <!-- Web3Forms Script -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+
+    <!-- Client-Side Validation Script -->
+    <script>
+        const form = document.getElementById('contact-form');
+
+        form.addEventListener('submit', function(e) {
+            const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+
+            if (!hCaptcha) {
+                e.preventDefault();
+                alert("Please fill out the captcha field");
+                return;
+            }
+        });
+    </script>
+	
+	<script src="script.js"></script>
+
+</body>
+</html>
+

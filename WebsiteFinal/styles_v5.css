@@ -1,0 +1,1466 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Flexbox Setup with Background */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    margin: 0;
+    background: url('assets/background3.jpg') no-repeat center center/cover; /* Background image */
+    color: #e5e7eb; /* Light gray text color */
+    padding-top: 125px; /* Prevent content overlap with the fixed header */
+}
+
+/* Main Content Section (Unified) */
+section {
+    flex: 1; /* Push footer to the bottom */
+    padding: 150px 20px;
+    text-align: center;
+    border-radius: 10px;
+
+    margin: 20px auto;
+    max-width: 90%; /* Same width for all sections */
+    background: rgba(30, 41, 59, 0.8); /* Semi-transparent blue overlay */
+    color: #e5e7eb; /* Light gray text color */
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(30, 41, 59, 0.9);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #10b981;
+    z-index: 1000;
+}
+
+
+/* Logo Styling */
+.logo img {
+    width: 500px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+    display: flex; /* Ensures horizontal layout */
+    flex-wrap: nowrap; /* Prevents wrapping of links */
+    justify-content: space-between; /* Spaces out items evenly */
+    align-items: center; /* Aligns items vertically in the center */
+    list-style: none; /* Removes default list styling (bullets) */
+    margin: 0; /* Resets margins */
+    padding: 0; /* Resets padding */
+    gap: 20px; /* Adds spacing between links */
+}
+.nav-links a {
+    color: #38bdf8; /* Neon blue for link text */
+    text-decoration: none; /* Removes underline */
+    font-weight: 600; /* Makes text bold */
+}
+.nav-links a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #1e90ff; /* Changes color on hover */
+}
+
+/* Hamburger Menu Styles (Hidden by Default) */
+.hamburger {
+    display: none; /* Hidden for desktop */
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+/* General Blue Tint Background */
+.blue-tint {
+    padding: 50px 20px; /* Consistent padding */
+    background: rgba(30, 41, 59, 0.8); /* Blue-tint background */
+    color: #e5e7eb; /* Light gray text */
+    border-radius: 10px; /* Smooth rounded corners */
+    max-width: 90%; /* Uniform width for all sections */
+    margin: 20px auto; /* Center the sections horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Hero Section */
+.hero.blue-tint,
+.values.blue-tint,
+.statistics-section.blue-tint {
+    max-width: 90%; /* Set consistent width */
+    margin: 20px auto; /* Align uniformly */
+}
+
+
+
+/* Hero Section */
+
+/* Gradient Effect for Hero Section Header */
+.hero h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Hero Header */
+.hero h1:hover {
+    transform: scale(1.07); /* Slight enlargement */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse gradient on hover */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+
+/* Glow Effect on Hover */
+.hero:hover {
+    transform: scale(1.05); /* Slight enlargement */
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6); /* Add green glow */
+}
+
+.hero p {
+    font-size: 1.4rem; /* Increased font size */
+    margin-bottom: 30px;
+    line-height: 1.6; /* Improved readability */
+}
+
+/* General Button Styling */
+.hero .button-link {
+    display: inline-block;
+    padding: 10px 20px; /* Uniform padding for all buttons */
+    margin: 10px auto; /* Center and add spacing for mobile */
+    background: #10b981; /* Green button background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded edges */
+    font-size: 1rem;
+    font-weight: bold; /* Highlight importance */
+    max-width: 250px; /* Limit button width */
+    width: 100%; /* Allow flexibility */
+    transition: background 0.3s ease;
+}
+
+/* Hover Effect for Buttons */
+.hero .button-link:hover {
+    background: #059669; /* Darker green on hover */
+}
+
+
+/* Values Section */
+.values {
+    text-align: center; /* Ensure the text is centered */
+    padding: 40px 20px; /* Add spacing around the section */
+    margin: 0 auto; /* Center the section */
+    max-width: 900px; /* Limit the section's width */
+}
+
+/* Gradient Effect for Why Protection Is Necessary Header */
+.values h2 {
+    font-size: 2rem; /* Adjust font size */
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+    margin-bottom: 20px; /* Space below the header */
+    text-align: center; /* Center the text */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Why Protection Is Necessary Header */
+.values h2:hover {
+    transform: scale(1.1); /* Slightly enlarge */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse gradient on hover */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+
+
+/* Updated Services Section */
+.services {
+    flex: 1; /* Ensures it takes up available vertical space */
+    padding: 20px 40px; /* Add more padding for wider layout */
+    text-align: center; /* Centers the content */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 95%; /* Increase max-width for wider layout */
+    background: rgba(30, 41, 59, 0.8); /* Matches the blue-tinted background */
+    color: #e5e7eb; /* Light gray text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add subtle shadow for depth */
+}
+
+/* Service Card Styles */
+.service-card {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center-align the text and images */
+    justify-content: center; /* Center-align within the container */
+    margin: 30px 10px; /* Adjust margins for better spacing */
+    padding: 25px; /* Increase padding for wider blocks */
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow for better depth */
+    color: #e5e7eb; /* Light text color to match the overall theme */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Gradient Effect for Our Services Header */
+.services h2 {
+    font-size: 2.5rem; /* Font size to match section headers */
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to the text */
+    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+    margin-bottom: 20px; /* Add spacing below the header */
+    text-align: center; /* Center the text */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Our Services Header */
+.services h2:hover {
+    transform: scale(1.1); /* Slight enlargement */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse gradient on hover */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+
+/* Hover Effect for Service Cards */
+.service-card:hover {
+    transform: scale(1.05); /* Slight enlargement */
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6); /* Green glowing shadow */
+}
+
+/* Service Card Image */
+.service-card img {
+    width: 110px; /* Slightly larger image */
+    height: 110px;
+    object-fit: cover; /* Ensures proportional scaling without distortion */
+    border-radius: 10px; /* Optional: Matches the card's rounded corners */
+    margin-bottom: 15px;
+}
+
+
+
+/* Gradient Effect for Service Card Headers */
+.service-card h3 {
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+    margin-bottom: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Headers */
+.service-card h3:hover {
+    transform: scale(1.1); /* Slight enlargement */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse gradient on hover */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+/* Adjust Paragraph Styling for Services Section */
+.services p, 
+.service-card p {
+    font-size: 1.1rem; /* Adjust to match the rest of the website */
+    line-height: 1.6; /* Improve readability with better line spacing */
+    color: #e5e7eb; /* Maintain light gray color */
+    margin: 10px 0; /* Add consistent spacing around paragraphs */
+    text-align: center; /* Ensure text is centered */
+}
+
+
+/* Why Protection Is Necessary Section (Service-Card Style) */
+.service-values {
+    display: flex;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    justify-content: space-around; /* Spread cards evenly */
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+
+.value-card {
+    text-align: center;
+    max-width: 300px; /* Width control */
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover Effect for Entire Card */
+.value-card:hover {
+    transform: scale(1.05)!important; /* Slightly enlarge and lift the card */
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6) !important; /* Add glowing shadow */
+}
+
+/* Ensure AOS Doesn't Interfere */
+[data-aos] .value-card {
+    transform: none !important; /* Reset AOS transform */
+}
+
+/* Image Styling */
+.value-card img {
+    width: 80px; /* Set fixed width for image */
+    height: 80px; /* Set fixed height for image */
+    margin-bottom: 15px; /* Space below image */
+    transition: none; /* Remove image-specific hover effect */
+}
+
+/* Heading Styling */
+.value-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensures the background applies to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text itself transparent so the gradient shows */
+    text-align: center; /* Ensures proper alignment */
+	transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover transitions */
+}
+
+/* Hover Effect */
+.value-card h3:hover {
+    transform: scale(1.05); /* Slightly enlarge the text */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse the gradient */
+	-webkit-background-clip: text; /* Ensure the gradient is clipped to the text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+/* Paragraph Styling */
+.value-card p {
+    font-size: 1rem; /* Paragraph text size */
+    color: #e5e7eb; /* Light gray text */
+}
+
+.value-card p {
+    font-size: 1.1rem; /* Increased font size */
+    line-height: 1.5; /* Enhanced readability */
+    color: #e5e7eb; /* Retain current color */
+}
+
+
+/* Gradient Effect for About TenGuard Security Header */
+.about h1 {
+    font-size: 2.5rem; /* Adjust font size */
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+    margin-bottom: 20px; /* Add space below header */
+    text-align: center; /* Center align text */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for About TenGuard Security Header */
+.about h1:hover {
+    transform: scale(1.1); /* Slightly enlarge text */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse gradient on hover */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+
+/* About Section Paragraph Styling */
+.about p {
+    font-size: 1.4rem; /* Increased font size */
+    margin-bottom: 30px;
+    line-height: 1.6; /* Improved readability */
+}
+
+.about.blue-tint {
+    max-width: 75%;
+    margin: 50;
+}
+
+/* Certifications Section */
+.certifications {
+    text-align: center;
+    margin: 40px auto;
+    padding: 0; /* Remove extra padding */
+    background: none; /* Remove the additional light background */
+    border-radius: 0; /* Remove unnecessary rounded corners */
+    box-shadow: none; /* Remove any extra shadows */
+}
+
+/* Certification Cards */
+.certifications .value {
+    text-align: center;
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.1); /* Matches the transparent card background in Core Values */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for consistency */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover Effect for Certification Cards */
+.certifications .value:hover {
+    transform: scale(1.05); /* Pop-out effect on hover */
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6); /* Glowing shadow */
+}
+
+/* Certification Titles */
+.certifications .value h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Make text gradient visible */
+}
+
+/* Certification Descriptions */
+.certifications .value p {
+    font-size: 1rem;
+    color: #e5e7eb; /* Light gray text */
+    line-height: 1.5;
+}
+
+/* Gradient Effect for Our Certifications Header */
+.certifications h2 {
+    font-size: 2.5rem; /* Match font size with About TenGuard Security */
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+    margin-bottom: 20px; /* Add space below header */
+    text-align: center; /* Center align text */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Our Certifications Header */
+.certifications h2:hover {
+    transform: scale(1.1); /* Slightly enlarge text */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse gradient on hover */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+
+.certification-importance {
+    margin-top: 20px; /* Add spacing above the section */
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e5e7eb; /* Light gray text */
+}
+
+.certification-importance ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.certification-importance li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    line-height: 1.5; /* Improve readability */
+}
+
+.certification-importance li strong {
+    color: #10b981; /* Highlight certification names with a green accent */
+}
+
+
+/* Certifications Section */
+.index-certifications {
+    padding: 50px 20px;
+    background: rgba(30, 41, 59, 0.5); /* Semi-transparent blue tint */
+    color: #ffffff; /* White text */
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for consistency */
+    margin: 40px auto; /* Add spacing between sections */
+    max-width: 90%; /* Ensure the section doesn’t stretch too wide */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover effects */
+}
+
+/* Hover Effect for Certifications Section */
+.index-certifications:hover {
+    transform: scale(1.02); /* Slight enlargement */
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6); /* Green glowing shadow */
+}
+
+/* Heading Styles with Gradient Hover Effect */
+.index-certifications h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Default gradient: green to blue */
+    -webkit-background-clip: text; /* Applies the gradient to the text only */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add slight shadow for better contrast */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover transitions */
+}
+
+/* Hover Effect for Heading */
+.index-certifications h2:hover {
+    transform: scale(1.05); /* Slightly enlarge the text */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse the gradient on hover */
+    -webkit-background-clip: text; /* Ensure the gradient is clipped to the text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+/* Paragraph Styles */
+.index-certifications p {
+    font-size: 1.2rem;
+    color: #e5e7eb; /* Light gray for readability */
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Certification Logos */
+.certification-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.certification-logos img {
+    width: 80px;
+    height: auto;
+    opacity: 0.9;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effects for logos */
+}
+
+.certification-logos img:hover {
+    transform: scale(1.1); /* Slight enlargement on hover */
+    opacity: 1;
+}
+
+
+
+
+.glowing-effect {
+    background: #10b981; /* Button background color */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove any borders */
+    padding: 10px 20px; /* Same padding as other buttons */
+    border-radius: 5px; /* Rounded edges */
+    font-size: 1rem; /* Text size */
+    font-weight: 600; /* Bold text */
+    cursor: pointer; /* Pointer cursor */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+    animation: buttonPulse 2s infinite; /* Add glowing pulse animation */
+    box-shadow: 0 0 5px #10b981; /* Initial shadow */
+}
+
+.glowing-effect:hover {
+    background: #059669; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
+/* Contact Us Section */
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Stack fields vertically */
+    align-items: center; /* Center align the form */
+    max-width: 600px; /* Set a max-width for the form container */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Contact Form Section */
+.contact-form:hover {
+    transform: scale(1.02); /* Slight enlargement */
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6); /* Green glowing shadow */
+}
+
+.contact-form h2 {
+    margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.contact-form p {
+    margin-bottom: 20px; /* Add spacing below the description */
+    text-align: center; /* Center-align text */
+}
+
+/* Secure Your Consultation Button */
+.consult-button {
+    position: absolute; /* Position it in the top-right corner of the header */
+    top: 10px;
+    right: 20px;
+    background: #10b981; /* Green button consistent with contact form */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none; /* Remove border for cleaner look */
+    border-radius: 5px; /* Rounded corners for consistency */
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease; /* Add smooth hover and pop effects */
+    animation: buttonPulse 2s infinite; /* Add glowing pulse animation */
+	z-index: 1000; /* Ensure it stays above other elements */
+}
+
+/* Hover Effect for Secure Your Consultation Button */
+.consult-button:hover {
+	background: #059669; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+/* Input and Textarea Styles */
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Full width of the container */
+    max-width: 500px; /* Prevent fields from being too wide */
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9); /* Slightly opaque background */
+    color: #333; /* Dark text color */
+    transition: box-shadow 0.3s ease, border 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Inputs */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    box-shadow: 0 4px 8px rgba(16, 185, 129, 0.6); /* Green glowing shadow */
+    border-color: #10b981; /* Change border color to green */
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 120px; /* Larger height for the message box */
+    resize: none; /* Prevent resizing for consistent layout */
+}
+
+/* Submit Button Styling */
+.contact-form button {
+    background: #10b981; /* Consistent button styling */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover transitions */
+}
+
+/* Hover Effect for Submit Button */
+.contact-form button:hover {
+    background: #059669; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge */
+    box-shadow: none; /* Remove green glowing shadow */
+}
+
+/* Contact Section Heading Styling */
+.contact-section h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensures the background applies to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text itself transparent so the gradient shows */
+    text-align: center; /* Align text to center */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover transitions */
+}
+
+/* Hover Effect for Contact Heading */
+.contact-section h1:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse the gradient */
+    -webkit-background-clip: text; /* Ensure the gradient is clipped to the text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+/* Self-Assessment Section Heading Styling */
+.self-assessment-heading {
+    font-size: 2.5rem; /* Matches other section headings */
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensures the gradient applies to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text itself transparent so the gradient shows */
+    text-align: center; /* Align text to center */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover transitions */
+}
+
+/* Hover Effect for Self-Assessment Heading */
+.self-assessment-heading:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse the gradient */
+    -webkit-background-clip: text; /* Ensure the gradient is clipped to the text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+/* Core Values Section - Fixed Alignment and Symmetry */
+.core-values {
+    display: flex;
+    justify-content: center; /* Center the section */
+    flex-wrap: wrap; /* Wrap cards to a new line if needed */
+    gap: 20px; /* Add consistent spacing between cards */
+    margin: 40px auto; /* Center the section and add spacing */
+    max-width: 1200px; /* Constrain the maximum width of the section */
+    text-align: center; /* Center-align the text */
+}
+
+
+
+.value {
+    flex: 1 1 300px; /* Make cards flexible with a consistent size */
+    max-width: 300px; /* Limit maximum width */
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for separation */
+    padding: 20px;
+    margin: 0 auto; /* Center-align each card within the grid */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
+}
+
+/* Image Styling */
+.value img {
+    width: 80px; /* Consistent icon size */
+    height: 80px;
+    margin-bottom: 15px; /* Space below the icon */
+}
+
+/* Heading Styling */
+.value h3 {
+    font-size: 1.5rem; /* Match headings on services */
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Transparent text for gradient */
+    margin-bottom: 10px; /* Space below heading */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover transitions */
+}
+
+/* Hover Effect for Headings */
+.value h3:hover {
+    transform: scale(1.1); /* Slight enlargement */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse gradient */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+/* Paragraph Styling */
+.value p {
+    font-size: 1rem; /* Same text size as other sections */
+    color: #e5e7eb; /* Light gray text color */
+}
+
+/* Hover Effect for Cards */
+.value:hover {
+    transform: scale(1.02); /* Slight enlargement for the entire card */
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6); /* Add green glow */
+}
+
+
+
+
+/* General Button Styles */
+.button-link, .cta-button {
+    display: inline-block; /* Makes the link behave like a button */
+    padding: 10px 20px; /* Padding for size */
+    background: #10b981; /* Green button background */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    font-weight: 600; /* Bold text */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center-align text */
+    cursor: pointer; /* Pointer cursor for hover */
+    margin: 10px; /* Space between buttons */
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover Effect for All Buttons */
+.button-link:hover, .cta-button:hover {
+    background: #059669; /* Darker green */
+    transform: scale(1.05); /* Add pop effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Center Buttons in CTA Section */
+.cta {
+    text-align: center; /* Center align */
+    margin: 20px auto; /* Space around section */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    gap: 15px; /* Space between elements */
+}
+
+/* Paragraph Styling in CTA Section */
+.cta p {
+    margin: 0; /* Remove default margins */
+    font-size: 1.2rem; /* Adjust font size */
+    color: #e5e7eb; /* Light gray text */
+    text-align: center; /* Center text */
+}
+
+
+.cyber-news {
+    padding-top: 20px; /* Reduce padding to bring the section up */
+    margin-top: 0;
+}
+
+.cyber-news h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    line-height: 1.2;
+    text-align: center;
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensures the background applies to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text itself transparent so the gradient shows */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover transitions */
+}
+
+.cyber-news h1:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse the gradient */
+    -webkit-background-clip: text; /* Ensure the gradient is clipped to the text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+.cyber-news p {
+    margin-bottom: 20px; /* Adds spacing below the introductory text */
+}
+
+.cyber-news-post {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: rgba(30, 41, 59, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cyber-news-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.cyber-news-post p:last-of-type {
+    margin-bottom: 0 !important; /* Completely remove spacing below the summary */
+}
+
+.source {
+    margin-top: 5px !important; /* Reduce spacing above the source */
+    padding-top: 0 !important; /* Ensure no extra padding */
+}
+
+
+.button-link {
+    margin-bottom: 20px;
+}
+
+/* Result Section Styling */
+.result-section {
+    padding: 30px 20px;
+    margin-top: 30px;
+    background: rgba(30, 41, 59, 0.85); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.result-section h2 {
+    font-size: 2rem; /* Base font size */
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Initial gradient */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Transparent to show gradient */
+    text-align: center; /* Center align text */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth transitions */
+    word-wrap: break-word; /* Ensure proper wrapping */
+    overflow-wrap: break-word;
+}
+
+/* Hover Effect for Reverse Gradient */
+.result-section h2:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse gradient */
+    -webkit-background-clip: text; /* Ensure gradient applies */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+.result-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #e5e7eb;
+}
+
+/* Progress Bar Styling */
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    width: 0%;
+    height: 10px;
+    background-color: #10b981;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+
+/* Ticker Section Styled for Theme */
+.ticker-section {
+    background: linear-gradient(to right, #1e293b, #0f172a); /* Subtle gradient */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    color: #ffffff; /* Default text color */
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 90%;
+    overflow: hidden;
+}
+
+/* News Ticker Styles */
+.news-ticker {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.ticker-wrapper {
+    display: flex;
+    animation: scroll-ticker 50s linear infinite; /* Smooth scrolling */
+    white-space: nowrap;
+    transform: translateX(100%); /* Start just off-screen */
+}
+
+/* Individual Ticker Items */
+.ticker-item {
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #10b981, #38bdf8); /* Gradient: Neon Green to Neon Blue */
+    -webkit-background-clip: text; /* Clip gradient to text */
+    -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+    background-size: 200% 200%; /* Enlarges the gradient for smooth shifting */
+    animation: gradient-shift 5s infinite; /* Animation for gradient */
+}
+
+.ticker-item:hover {
+    color: #1e90ff; /* Brighter blue on hover */
+}
+
+.disclaimer {
+    font-size: 0.9rem; /* Slightly smaller font size for secondary information */
+    font-style: italic; /* Makes the text visually distinct */
+    color: #a1a1a1; /* Light gray to blend subtly with the theme */
+    background-color: rgba(30, 41, 59, 0.5); /* Semi-transparent background to match theme */
+    padding: 10px 15px; /* Adds spacing around the text */
+    margin: 20px 0; /* Space above and below the disclaimer */
+    border-left: 4px solid #10b981; /* Adds a green accent for visual interest */
+    border-radius: 5px; /* Smooth rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Specific styles for the self-assessment form */
+#cyber-assessment-form label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+    font-size: 1rem;
+    color: #ffffff; /* Matches your background for visibility */
+    padding: 5px 10px;
+}
+
+/* Fix the label width for consistent alignment */
+#cyber-assessment-form label span {
+    width: 70%; /* Adjust label width for alignment */
+    text-align: left;
+    font-size: 1rem;
+    color: #ffffff; /* Matches your background */
+}
+
+/* Style for dropdowns inside the self-assessment form */
+#cyber-assessment-form select {
+    width: 30%; /* Dropdown width aligned with labels */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Style for the form container */
+#cyber-assessment-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for the submit button */
+#cyber-assessment-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cyber-assessment-form button:hover {
+    background-color: #059669;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    #cyber-assessment-form label {
+        flex-direction: column; /* Stack label and dropdown vertically */
+        align-items: flex-start;
+    }
+
+    #cyber-assessment-form label span,
+    #cyber-assessment-form select {
+        width: 100%; /* Full width for mobile */
+    }
+}
+
+/* General Button Styling (Desktop) */
+.result-section a.button-link {
+    display: inline-block; /* Inline-block to prevent full-width buttons */
+    width: auto; /* Use the content size for desktop */
+    margin: 10px 5px; /* Add consistent spacing */
+    text-align: center; /* Center-align text */
+}
+
+/* Mobile-Specific Adjustments */
+@media screen and (max-width: 768px) {
+    .result-section a.button-link {
+        display: block; /* Stack buttons vertically on mobile */
+        width: 80%; /* Set button width for mobile */
+        margin: 10px auto; /* Add space between buttons */
+    }
+}
+
+/* Mobile-Specific Adjustments */
+@media screen and (max-width: 768px) {
+    .result-section h2 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        line-height: 1.2; /* Improve spacing for multi-line text */
+        padding: 0 20px; /* Ensure padding for edge-to-edge text */
+    }
+	.result-section p {
+        font-size: 1rem; /* Smaller paragraph size for mobile */
+        line-height: 1.4; /* Slightly tighter line height for compact appearance */
+        margin: 5px 0; /* Reduce spacing for mobile */
+    }
+}
+/* Cybersecurity By The Numbers Section */
+.statistics-section {
+    padding: 50px 20px;
+    background: rgba(30, 41, 59, 0.5); /* Semi-transparent blue tint to match */
+    color: #ffffff; /* White text to match the theme */
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for consistency */
+    margin: 40px auto; /* Add spacing between sections */
+    max-width: 90%; /* Ensure the section doesn’t stretch too wide */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions */
+}
+
+/* Hover Effect for Statistics Section */
+.statistics-section:hover {
+    transform: scale(1.02); /* Slight enlargement */
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6); /* Green glowing shadow */
+}
+
+/* Heading Styles with Gradient Hover Effect */
+.statistics-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #10b981, #38bdf8); /* Default gradient: green to blue */
+    -webkit-background-clip: text; /* Applies the gradient to the text only */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add slight shadow for better contrast */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover transitions */
+}
+
+/* Hover Effect for Heading */
+.statistics-section h2:hover {
+    transform: scale(1.05); /* Slightly enlarge the text */
+    background: linear-gradient(90deg, #38bdf8, #10b981); /* Reverse the gradient on hover */
+    -webkit-background-clip: text; /* Ensure the gradient is clipped to the text */
+    -webkit-text-fill-color: transparent; /* Maintain gradient visibility */
+}
+
+/* List Styles */
+.statistics ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 20px 0;
+}
+
+.statistics li {
+    font-size: 1.2rem; /* Match font size of other sections */
+    margin: 10px 0;
+    color: #e5e7eb; /* Light gray for readability */
+	font-weight: bold;
+}
+
+/* Source Text and Links */
+.source {
+    font-size: 0.9rem;
+    color: #d1d5db; /* Light gray text for secondary info */
+    margin-top: 20px;
+}
+
+.source a {
+    color: #38bdf8; /* Blue for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.source a:hover {
+    text-decoration: underline; /* Add underline for hover effect */
+}
+
+.mobile-consult-button {
+    display: inline-block; /* Prevent it from taking up the full width */
+    margin: 10px auto; /* Center the button horizontally */
+    background: #10b981; /* Match theme */
+    color: #ffffff; /* White text */
+    font-size: 1rem; /* Adjust for mobile readability */
+    padding: 10px 20px; /* Same padding as other buttons */
+    border-radius: 5px; /* Rounded edges for aesthetics */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Highlight importance */
+    transition: background 0.3s ease;
+    animation: buttonPulse 2s infinite; /* Add the pulse animation */
+    width: auto; /* Ensure button width adjusts to content */
+}
+
+.mobile-consult-button:hover {
+    background: #059669; /* Slightly darker green on hover */
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-consult-button {
+        display: block; /* Ensure visibility on mobile */
+    }
+}
+
+/* Keyframes for Glowing Effect */
+@keyframes buttonPulse {
+    0% {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 0 5px #10b981;
+    }
+    50% {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 0 20px #38bdf8;
+    }
+    100% {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 0 5px #10b981;
+    }
+}
+
+
+
+
+/* Gradient Animation Keyframes */
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Keyframes for Smooth Scrolling */
+@keyframes scroll-ticker {
+    0% {
+        transform: translateX(25%); /* Start immediately on-screen */
+    }
+    100% {
+        transform: translateX(-100%); /* End fully off-screen */
+    }
+}
+
+@keyframes mobile-scroll-ticker {
+    0% {
+        transform: translateX(15%); /* Start fully off-screen to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* End fully off-screen to the left */
+    }
+}
+
+
+/* Responsive Design for Core Values Section */
+@media screen and (max-width: 768px) {
+
+    .about {
+        text-align: center; /* Center-align the text */
+        padding: 20px; /* Adjust padding for mobile */
+    }
+
+    .about h1 {
+        font-size: 1.5rem; /* Reduce heading size */
+		line-height: 1.2; /* Adjust line height to keep it compact */
+        margin-bottom: 10px; /* Add space below the heading */
+    }
+
+    .about p {
+        font-size: 1rem; /* Adjust paragraph size */
+        line-height: 1.5; /* Improve readability */
+        margin-bottom: 20px; /* Add space below the text */
+    }
+
+    .core-values {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+        align-items: center; /* Center-align stacked cards */
+    }
+
+    .value {
+        max-width: 90%; /* Full-width cards for smaller screens */
+        margin-bottom: 20px; /* Space between stacked cards */
+    }
+    .cta a {
+        display: block; /* Stack buttons vertically on small screens */
+        width: 80%; /* Make buttons wider */
+        margin: 10px auto; /* Center the buttons */
+    }
+}
+
+
+/* Footer Styling */
+footer {
+    background: rgba(30, 41, 59, 0.9); /* Semi-transparent dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 3px solid #10b981; /* Consistent border style */
+    position: relative; /* Proper behavior with flexbox */
+    bottom: 0;
+    width: 100%; /* Full-width footer */
+}
+
+
+/* Mobile Button Styling */
+@media screen and (max-width: 768px) {
+    .hero .button-link {
+        width: 100%; /* Ensure buttons are consistent in width */
+        max-width: none; /* Remove max-width for mobile */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-values {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center-align stacked cards */
+    }
+
+    .value-card {
+        max-width: 90%; /* Reduce card width for smaller screens */
+        margin-bottom: 20px; /* Add space between stacked cards */
+    }
+
+    .value-card img {
+        width: 60px; /* Reduce image size for mobile */
+        height: 60px;
+        margin-bottom: 10px; /* Adjust spacing below images */
+    }
+
+    .value-card h3 {
+        font-size: 1.2rem; /* Smaller headings */
+    }
+
+    .value-card p {
+        font-size: 1rem; /* Reduce text size */
+        text-align: center;
+
+    }
+
+    section {
+        padding: 50px 10px;
+
+    }
+}
+@media (max-width: 768px) {
+    /* Logo Adjustments */
+    .logo img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    /* Header Flexbox for Mobile */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /* Navigation Menu Styling */
+    .nav-links {
+        display: none; /* Hide nav-links by default */
+        flex-direction: column; /* Stack links vertically */
+        justify-content: flex-start;
+        align-items: flex-start; /* Align links to the left */
+        position: fixed; /* Fixed for consistent dropdown */
+        top: 0; /* Align to the top of the screen */
+        left: 0; /* Align to the same side as the hamburger menu */
+        background: rgba(30, 41, 59, 0.95); /* Match site theme */
+        border-radius: 0 10px 10px 0; /* Rounded edges on the right */
+        padding: 80px 20px 20px 20px; /* Add top padding to account for header */
+        width: 220px; /* Sidebar width */
+        height: 100vh; /* Full viewport height for the menu */
+        box-shadow: 4px 0 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+        z-index: 1001; /* Ensure it appears above other content */
+        overflow-y: auto; /* Allow scrolling if content is too tall */
+    }
+
+    .nav-links.active {
+        display: flex; /* Show the nav-links when active */
+    }
+
+    /* Styling for Individual Links */
+    .nav-links li {
+        margin: 15px 0; /* Space between each link */
+    }
+
+    .nav-links a {
+        color: #ffffff; /* Ensure readability */
+        font-size: 1.2rem; /* Slightly larger for mobile */
+        text-decoration: none; /* Remove underline */
+        transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+        color: #10b981; /* Highlight links on hover */
+    }
+
+    /* Hamburger Menu Styles */
+    .hamburger {
+        display: flex; /* Show hamburger icon on mobile */
+        flex-direction: column;
+        cursor: pointer;
+        gap: 5px;
+        margin-top: 10px; /* Add space below the logo */
+        z-index: 1100; /* Ensure it appears above nav-links */
+    }
+
+    .hamburger span {
+        width: 25px;
+        height: 3px;
+        background: #fff; /* White bars for contrast */
+        transition: all 0.3s ease;
+    }
+
+    /* Hamburger Icon Animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.5rem; /* Reduce the heading size for mobile */
+        line-height: 1.3; /* Adjust line height for better spacing */
+        margin-bottom: 15px; /* Add some spacing below */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Reduce paragraph text size */
+        margin-bottom: 20px; /* Add spacing below the paragraph */
+    }
+}
+
+/* Mobile-Specific Styles */
+@media screen and (max-width: 768px) {
+    .ticker-section {
+        padding: 5px; /* Reduced padding for mobile */
+        font-size: 12px; /* Ensure readability */
+    }
+
+
+    .ticker-wrapper {
+        animation: mobile-scroll-ticker 60s linear infinite; /* Faster scroll for mobile */
+        transform: translateX(0%); /* Ensure it starts on-screen */
+    }
+
+    .ticker-item {
+        margin-right: 15px; /* Tighter spacing */
+    }
+}
+
+/* Mobile Compatibility for Secure Your Consultation Button */
+@media (max-width: 768px) {
+    .consult-button {
+        display: none; /*hide btton on mobile devices */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .statistics-section {
+        padding: 30px 10px;
+    }
+    .statistics li {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

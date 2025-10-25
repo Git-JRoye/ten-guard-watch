@@ -1,0 +1,62 @@
+2025-10-24 20:12:45,802 - INFO - Starting automated news update...
+2025-10-24 20:12:45,803 - INFO - Backup created: tenguardwatch.html.backup_20251024_201245
+2025-10-24 20:12:45,803 - INFO - Fetching latest articles...
+2025-10-24 20:12:45,951 - INFO - Successfully fetched 5 articles from Hacker News
+2025-10-24 20:12:46,032 - ERROR - Error fetching Dark Reading: 403 Client Error: Forbidden for url: https://www.darkreading.com/
+2025-10-24 20:12:46,034 - INFO - Successfully updated tenguardwatch.html with 5 articles.
+2025-10-24 20:12:46,034 - INFO - Update completed successfully in 0.23 seconds
+2025-10-24 20:24:06,547 - INFO - Starting automated news update...
+2025-10-24 20:24:06,548 - INFO - Backup created: tenguardwatch.html.backup_20251024_202406
+2025-10-24 20:24:06,548 - INFO - Fetching latest articles...
+2025-10-24 20:24:06,675 - INFO - Successfully fetched 5 articles from Hacker News
+2025-10-24 20:24:06,762 - ERROR - Error fetching Dark Reading: 403 Client Error: Forbidden for url: https://www.darkreading.com/
+2025-10-24 20:24:06,764 - INFO - Successfully updated tenguardwatch.html with 5 articles.
+2025-10-24 20:24:06,764 - INFO - Update completed successfully in 0.22 seconds
+2025-10-24 20:26:16,589 - INFO - Starting automated news update...
+2025-10-24 20:26:16,589 - INFO - Backup created: tenguardwatch.html.backup_20251024_202616
+2025-10-24 20:26:16,589 - INFO - Fetching latest articles...
+2025-10-24 20:26:16,710 - INFO - Successfully fetched 5 articles from Hacker News
+2025-10-24 20:26:16,821 - ERROR - Error fetching Dark Reading: 403 Client Error: Forbidden for url: https://www.darkreading.com/
+2025-10-24 20:26:17,143 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-24 20:26:17,143 - INFO - Successfully fetched 0 articles from SecurityWeek
+2025-10-24 20:26:17,144 - ERROR - Error updating HTML: tuple indices must be integers or slices, not str
+2025-10-24 20:26:17,144 - ERROR - Update failed. Check logs for details.
+2025-10-24 20:27:51,854 - INFO - Starting automated news update...
+2025-10-24 20:27:51,855 - INFO - Backup created: tenguardwatch.html.backup_20251024_202751
+2025-10-24 20:27:51,855 - INFO - Fetching latest articles...
+2025-10-24 20:27:51,966 - INFO - Successfully fetched 5 articles from Hacker News
+2025-10-24 20:27:52,041 - ERROR - Error fetching Dark Reading: 403 Client Error: Forbidden for url: https://www.darkreading.com/
+2025-10-24 20:27:52,337 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-24 20:27:52,337 - INFO - Successfully fetched 0 articles from SecurityWeek
+2025-10-24 20:27:52,339 - INFO - Successfully updated tenguardwatch.html with 5 articles.
+2025-10-24 20:27:52,339 - INFO - Update completed successfully in 0.48 seconds
+2025-10-24 20:29:51,331 - INFO - Starting automated news update...
+2025-10-24 20:29:51,331 - INFO - Backup created: tenguardwatch.html.backup_20251024_202951
+2025-10-24 20:29:51,331 - INFO - Fetching latest articles...
+2025-10-24 20:29:51,465 - INFO - Successfully fetched 5 articles from Hacker News
+2025-10-24 20:29:51,551 - ERROR - Error fetching Dark Reading: 403 Client Error: Forbidden for url: https://www.darkreading.com/
+2025-10-24 20:29:52,043 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-24 20:29:52,043 - INFO - Processing SecurityWeek item 1
+2025-10-24 20:29:52,043 - WARNING - No link tag found in item 1
+2025-10-24 20:29:52,043 - INFO - Processing SecurityWeek item 2
+2025-10-24 20:29:52,043 - WARNING - No link tag found in item 2
+2025-10-24 20:29:52,043 - INFO - Processing SecurityWeek item 3
+2025-10-24 20:29:52,043 - WARNING - No link tag found in item 3
+2025-10-24 20:29:52,043 - INFO - Successfully fetched 0 articles from SecurityWeek
+2025-10-24 20:29:52,045 - INFO - Successfully updated tenguardwatch.html with 5 articles.
+2025-10-24 20:29:52,045 - INFO - Update completed successfully in 0.71 seconds
+2025-10-24 20:30:16,593 - INFO - Starting automated news update...
+2025-10-24 20:30:16,593 - INFO - Backup created: tenguardwatch.html.backup_20251024_203016
+2025-10-24 20:30:16,593 - INFO - Fetching latest articles...
+2025-10-24 20:30:16,695 - INFO - Successfully fetched 5 articles from Hacker News
+2025-10-24 20:30:16,772 - ERROR - Error fetching Dark Reading: 403 Client Error: Forbidden for url: https://www.darkreading.com/
+2025-10-24 20:30:17,073 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-24 20:30:17,073 - INFO - Processing SecurityWeek item 1
+2025-10-24 20:30:17,073 - INFO - Added SecurityWeek article: Critical Windows Server WSUS Vulnerability Exploit...
+2025-10-24 20:30:17,073 - INFO - Processing SecurityWeek item 2
+2025-10-24 20:30:17,073 - INFO - Added SecurityWeek article: Hackers Target Perplexity Comet Browser Users...
+2025-10-24 20:30:17,073 - INFO - Processing SecurityWeek item 3
+2025-10-24 20:30:17,073 - INFO - Added SecurityWeek article: North Korean Hackers Aim at European Drone Compani...
+2025-10-24 20:30:17,073 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-10-24 20:30:17,074 - INFO - Successfully updated tenguardwatch.html with 8 articles.
+2025-10-24 20:30:17,075 - INFO - Update completed successfully in 0.48 seconds

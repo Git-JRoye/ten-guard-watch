@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Kimsuky Exploits BlueKeep RDP Vulnerability to Breach Systems in South Korea and Japan</div><div class="ticker-item">SuperCard X Android Malware Enables Contactless ATM and PoS Fraud via NFC Relay Attacks</div><div class="ticker-item">5 Reasons Device Management Isn't Device Trust​</div><div class="ticker-item">⚡ THN Weekly Recap: iOS Zero-Days, 4Chan Breach, NTLM Exploits, WhatsApp Spyware & More</div><div class="ticker-item">Hackers Abuse Russian Bulletproof Host Proton66 for Global Attacks and Malware Delivery</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Weekly Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and Dark Reading. For full content, visit the original publication by following the provided links.</p><div class="service-card" data-aos="fade-up"><h3>Kimsuky Exploits BlueKeep RDP Vulnerability to Breach Systems in South Korea and Japan</h3><p>Cybersecurity researchers have flagged a new malicious campaign related to the North Korean state-sponsored threat actor known as Kimsuky  that exploits a now-patched vulnerability impacting Microsoft Remote Desktop Services to gain initial access.  The activity has been named Larva-24005  by the AhnLab Security Intelligence Center (ASEC).  "In some systems, initial access was gained through exploiting the RDP vulnerability (BlueKeep, CVE-2019-0708)," the South Korean cybersecurity company said . "While an RDP vulnerability scanner was found in the compromised system, there is no evidence of its actual use."   CVE-2019-0708  (CVSS score: 9.8) is a critical wormable bug  in Remote Desktop Services that could enable remote code execution, allowing unauthenticated attackers to install arbitrary programs, access data, and even create new accounts with full user rights.  However, in order for an adversary to exploit the flaw, they would need to send a specially crafted...</p><p>Source: <a href="https://thehackernews.com/2025/04/kimsuky-exploits-bluekeep-rdp.html" target="_blank">Kimsuky Exploits BlueKeep RDP Vulnerability to Breach Systems in South Korea and Japan</a></p><a href="https://thehackernews.com/2025/04/kimsuky-exploits-bluekeep-rdp.html" target="_blank" class="button-link">Read Full Article</a></div><div class="service-card" data-aos="fade-up"><h3>SuperCard X Android Malware Enables Contactless ATM and PoS Fraud via NFC Relay Attacks</h3><p>A new Android malware-as-a-service (MaaS) platform named SuperCard X  can facilitate near-field communication ( NFC ) relay attacks, enabling cybercriminals to conduct fraudulent cashouts.  The active campaign is targeting customers of banking institutions and card issuers in Italy with an aim to compromise payment card data, fraud prevention firm Cleafy said in an analysis. There is evidence to suggest that the service is promoted on Telegram channels.  SuperCard X "employs a multi-stage approach combining social engineering (via smishing and phone calls), malicious application installation, and NFC data interception for highly effective fraud," security researchers Federico Valentini‍, Alessandro Strino, and Michele Roviello said .   The new Android malware, the work of a Chinese-speaking threat actor, has been observed being propagated via three different bogus apps, duping victims into installing them via social engineering techniques like deceptive SMS or WhatsApp mess...</p><p>Source: <a href="https://thehackernews.com/2025/04/supercard-x-android-malware-enables.html" target="_blank">SuperCard X Android Malware Enables Contactless ATM and PoS Fraud via NFC Relay Attacks</a></p><a href="https://thehackernews.com/2025/04/supercard-x-android-malware-enables.html" target="_blank" class="button-link">Read Full Article</a></div><div class="service-card" data-aos="fade-up"><h3>5 Reasons Device Management Isn't Device Trust​</h3><p>The problem is simple: all breaches start with initial access, and initial access comes down to two primary attack vectors – credentials and devices. This is not news; every report you can find on the threat landscape depicts the same picture.    The solution is more complex. For this article, we'll focus on the device threat vector. The risk they pose is significant, which is why device management tools like Mobile Device Management (MDM) and Endpoint Detection and Response (EDR) are essential components of an organization's security infrastructure.  However, relying solely on these tools to manage device risk actually creates a false sense of security. Instead of the blunt tools of device management, organizations are looking for solutions that deliver device trust . Device trust provides a comprehensive, risk-based approach to device security enforcement, closing the large gaps left behind by traditional device management solutions. Here are 5 of those limitations and how to ov...</p><p>Source: <a href="https://thehackernews.com/2025/04/5-reasons-device-management-isnt-device.html" target="_blank">5 Reasons Device Management Isn't Device Trust​</a></p><a href="https://thehackernews.com/2025/04/5-reasons-device-management-isnt-device.html" target="_blank" class="button-link">Read Full Article</a></div><div class="service-card" data-aos="fade-up"><h3>⚡ THN Weekly Recap: iOS Zero-Days, 4Chan Breach, NTLM Exploits, WhatsApp Spyware & More</h3><p>Can a harmless click really lead to a full-blown cyberattack?  Surprisingly, yes — and that's exactly what we saw in last week's activity. Hackers are getting better at hiding inside everyday actions: opening a file, running a project, or logging in like normal. No loud alerts. No obvious red flags. Just quiet entry through small gaps — like a misconfigured pipeline, a trusted browser feature, or reused login tokens. These aren't just tech issues — they're habits being exploited.  Let's walk through the biggest updates from the week and what they mean for your security.  ⚡ Threat of the Week  Recently Patched Windows Flaw Comes Under Active Exploitation — A recently patched security flaw affecting Windows NTLM has been exploited  by malicious actors to leak NTLM hashes or user passwords and infiltrate systems since March 19, 2025. The flaw, CVE-2025-24054 (CVSS score: 6.5), is a hash disclosure spoofing bug that was fixed by Microsoft last month as part of its Patch Tuesday updates...</p><p>Source: <a href="https://thehackernews.com/2025/04/thn-weekly-recap-ios-zero-days-4chan.html" target="_blank">⚡ THN Weekly Recap: iOS Zero-Days, 4Chan Breach, NTLM Exploits, WhatsApp Spyware & More</a></p><a href="https://thehackernews.com/2025/04/thn-weekly-recap-ios-zero-days-4chan.html" target="_blank" class="button-link">Read Full Article</a></div><div class="service-card" data-aos="fade-up"><h3>Hackers Abuse Russian Bulletproof Host Proton66 for Global Attacks and Malware Delivery</h3><p>Cybersecurity researchers have disclosed a surge in "mass scanning, credential brute-forcing, and exploitation attempts" originating from IP addresses associated with a Russian bulletproof hosting service provider named Proton66 .  The activity, detected since January 8, 2025, targeted organizations worldwide, according to a two-part analysis published by Trustwave SpiderLabs last week.   "Net blocks 45.135.232.0/24 and 45.140.17.0/24 were particularly active in terms of mass scanning and brute-force attempts," security researchers Pawel Knapczyk and Dawid Nesterowicz said . "Several of the offending IP addresses were not previously seen to be involved in malicious activity or were inactive for over two years."  The Russian autonomous system Proton66 is assessed  to be linked to another autonomous system named PROSPERO. Last year, French security firm Intrinsec detailed their connections to bulletproof services marketed on Russian cybercrime forums under ...</p><p>Source: <a href="https://thehackernews.com/2025/04/hackers-abuse-russian-bulletproof-host.html" target="_blank">Hackers Abuse Russian Bulletproof Host Proton66 for Global Attacks and Malware Delivery</a></p><a href="https://thehackernews.com/2025/04/hackers-abuse-russian-bulletproof-host.html" target="_blank" class="button-link">Read Full Article</a></div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
