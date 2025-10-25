@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Assessment - TenGuard Security</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_v5.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+            </div>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tenguardwatch.html">TenGuard Watch</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Security Assessment Section -->
+    <section class="hero blue-tint" data-aos="fade-up" data-aos-once="true">
+        <h1>Are You Protected? Security Assessment</h1>
+        <p>
+            Take our comprehensive security assessment to identify potential vulnerabilities in your current setup. This quick evaluation will help you understand your security posture and identify areas for improvement.
+        </p>
+        
+        <div class="assessment-form" data-aos="fade-up">
+            <h2>Security Assessment Questions</h2>
+            <form id="security-assessment">
+                <div class="question-group">
+                    <h3>1. Do you have antivirus software installed and updated?</h3>
+                    <label><input type="radio" name="antivirus" value="yes"> Yes, regularly updated</label>
+                    <label><input type="radio" name="antivirus" value="no"> No</label>
+                    <label><input type="radio" name="antivirus" value="sometimes"> Sometimes updated</label>
+                </div>
+
+                <div class="question-group">
+                    <h3>2. Do you use strong, unique passwords for all accounts?</h3>
+                    <label><input type="radio" name="passwords" value="yes"> Yes, all unique and strong</label>
+                    <label><input type="radio" name="passwords" value="no"> No, I reuse passwords</label>
+                    <label><input type="radio" name="passwords" value="sometimes"> Some are strong, some aren't</label>
+                </div>
+
+                <div class="question-group">
+                    <h3>3. Do you have two-factor authentication enabled?</h3>
+                    <label><input type="radio" name="2fa" value="yes"> Yes, on all important accounts</label>
+                    <label><input type="radio" name="2fa" value="no"> No</label>
+                    <label><input type="radio" name="2fa" value="some"> On some accounts</label>
+                </div>
+
+                <div class="question-group">
+                    <h3>4. Do you regularly update your software and operating system?</h3>
+                    <label><input type="radio" name="updates" value="yes"> Yes, automatically</label>
+                    <label><input type="radio" name="updates" value="no"> No, rarely</label>
+                    <label><input type="radio" name="updates" value="sometimes"> Sometimes</label>
+                </div>
+
+                <div class="question-group">
+                    <h3>5. Do you have a backup strategy for your important data?</h3>
+                    <label><input type="radio" name="backup" value="yes"> Yes, automated backups</label>
+                    <label><input type="radio" name="backup" value="no"> No backup strategy</label>
+                    <label><input type="radio" name="backup" value="manual"> Manual backups occasionally</label>
+                </div>
+
+                <button type="submit" class="button-link">Get My Security Score</button>
+            </form>
+        </div>
+
+        <div id="assessment-results" style="display: none;">
+            <h2>Your Security Assessment Results</h2>
+            <div id="score-display"></div>
+            <div id="recommendations"></div>
+            <a href="contact.html" class="button-link">Get Professional Security Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+        <div class="footer-line"></div>
+    </footer>
+
+    <!-- Assessment Script -->
+    <script>
+        document.getElementById('security-assessment').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            let score = 0;
+            let totalQuestions = 5;
+            
+            // Calculate score
+            for (let [name, value] of formData.entries()) {
+                if (value === 'yes') score += 2;
+                else if (value === 'sometimes' || value === 'some') score += 1;
+            }
+            
+            const percentage = Math.round((score / (totalQuestions * 2)) * 100);
+            
+            // Display results
+            document.getElementById('score-display').innerHTML = `
+                <h3>Security Score: ${percentage}%</h3>
+                <p>${getScoreMessage(percentage)}</p>
+            `;
+            
+            document.getElementById('recommendations').innerHTML = getRecommendations(formData);
+            document.getElementById('assessment-results').style.display = 'block';
+            document.getElementById('assessment-results').scrollIntoView({ behavior: 'smooth' });
+        });
+        
+        function getScoreMessage(percentage) {
+            if (percentage >= 80) return "Excellent! You have strong security practices.";
+            else if (percentage >= 60) return "Good security practices, but there's room for improvement.";
+            else if (percentage >= 40) return "Your security needs attention in several areas.";
+            else return "Your security posture needs significant improvement.";
+        }
+        
+        function getRecommendations(formData) {
+            let recommendations = "<h3>Recommendations:</h3><ul>";
+            
+            if (formData.get('antivirus') !== 'yes') {
+                recommendations += "<li>Install and regularly update antivirus software</li>";
+            }
+            if (formData.get('passwords') !== 'yes') {
+                recommendations += "<li>Use a password manager to create and store unique passwords</li>";
+            }
+            if (formData.get('2fa') !== 'yes') {
+                recommendations += "<li>Enable two-factor authentication on all important accounts</li>";
+            }
+            if (formData.get('updates') !== 'yes') {
+                recommendations += "<li>Enable automatic software updates</li>";
+            }
+            if (formData.get('backup') !== 'yes') {
+                recommendations += "<li>Implement automated backup solutions</li>";
+            }
+            
+            recommendations += "</ul>";
+            return recommendations;
+        }
+    </script>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
