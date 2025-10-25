@@ -1,0 +1,125 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Smishing Triad Linked to 194,000 Malicious Domains in Global Phishing Operation</div><div class="ticker-item">Newly Patched Critical Microsoft WSUS Flaw Comes Under Active Exploitation</div><div class="ticker-item">APT36 Targets Indian Government with Golang-Based DeskRAT Malware Campaign</div><div class="ticker-item">The Cybersecurity Perception Gap: Why Executives and Practitioners See Risk Differently</div><div class="ticker-item">3,000 YouTube Videos Exposed as Malware Traps in Massive Ghost Network Operation</div><div class="ticker-item">Critical Windows Server WSUS Vulnerability Exploited in the Wild</div><div class="ticker-item">Hackers Target Perplexity Comet Browser Users</div><div class="ticker-item">North Korean Hackers Aim at European Drone Companies</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up">
+            <h1>Daily Cyber News</h1>
+            <p>Stay informed with the latest trends and developments in cybersecurity.</p>
+            <p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>            <div class="service-card" data-aos="fade-up">
+                <h3>Smishing Triad Linked to 194,000 Malicious Domains in Global Phishing Operation</h3>
+                <p><strong>Summary:</strong> A China-linked threat group known as the "Smishing Triad" has been attributed to over 194,000 malicious domains since January 2024, targeting users worldwide with fraudulent SMS messages. The campaign focuses on toll violation and package delivery scams, generating over $1 billion in profits over three years. Despite using Hong Kong-based registrars, the infrastructure primarily operates through U.S. cloud services.</p>
+                <p><strong>Impact:</strong> High-volume mobile phishing campaign affecting global users with sophisticated social engineering tactics.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/smishing-triad-linked-to-194000.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/smishing-triad-linked-to-194000.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>            <div class="service-card" data-aos="fade-up">
+                <h3>Newly Patched Critical Microsoft WSUS Flaw Comes Under Active Exploitation</h3>
+                <p><strong>Summary:</strong> Microsoft released emergency out-of-band security updates for CVE-2025-59287, a critical remote code execution vulnerability in Windows Server Update Service (WSUS) with a CVSS score of 9.8. The flaw involves deserialization of untrusted data, allowing unauthenticated attackers to execute arbitrary code over the network. A proof-of-concept exploit is publicly available and active exploitation has been observed in the wild.</p>
+                <p><strong>Impact:</strong> Critical vulnerability affecting Windows servers with WSUS Server Role enabled, requiring immediate patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/microsoft-issues-emergency-patch-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/microsoft-issues-emergency-patch-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>            <div class="service-card" data-aos="fade-up">
+                <h3>APT36 Targets Indian Government with Golang-Based DeskRAT Malware Campaign</h3>
+                <p><strong>Summary:</strong> Pakistan-linked threat actor APT36 (Transparent Tribe) has been observed targeting Indian government entities with a new Golang-based malware called DeskRAT. The campaign uses spear-phishing emails with ZIP attachments or Google Drive links containing malicious files. The attack displays a decoy PDF while executing the malware payload from a compromised server.</p>
+                <p><strong>Impact:</strong> State-sponsored espionage campaign targeting government infrastructure with sophisticated social engineering tactics.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/apt36-targets-indian-government-with.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/apt36-targets-indian-government-with.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>            <div class="service-card" data-aos="fade-up">
+                <h3>The Cybersecurity Perception Gap: Why Executives and Practitioners See Risk Differently</h3>
+                <p><strong>Summary:</strong> Bitdefender's 2025 Cybersecurity Assessment reveals a significant perception gap between C-level executives and cybersecurity practitioners. While 93% of professionals express confidence in managing cyber risk, only 45% of C-level executives are "very confident" compared to mid-level practitioners. This disconnect affects resource allocation and risk prioritization decisions.</p>
+                <p><strong>Impact:</strong> Organizational blind spots in cybersecurity risk management due to misaligned perceptions between leadership and technical teams.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/the-cybersecurity-perception-gap-why.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/the-cybersecurity-perception-gap-why.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>            <div class="service-card" data-aos="fade-up">
+                <h3>3,000 YouTube Videos Exposed as Malware Traps in Massive Ghost Network Operation</h3>
+                <p><strong>Summary:</strong> Check Point discovered a malicious YouTube network that has published over 3,000 videos since 2021, with activity tripling in 2025. The "YouTube Ghost Network" uses hacked accounts to promote videos about pirated software and Roblox cheats, leading users to stealer malware. Some videos garnered 147,000-293,000 views before Google's intervention.</p>
+                <p><strong>Impact:</strong> Large-scale abuse of YouTube's trust signals to distribute malware through popular gaming and software content.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/3000-youtube-videos-exposed-as-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/3000-youtube-videos-exposed-as-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Windows Server WSUS Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> CVE-2025-59287, a critical remote code execution vulnerability in Windows Server Update Service (WSUS), is being actively exploited in the wild. The flaw allows unauthenticated attackers to execute arbitrary code, with proof-of-concept exploits publicly available.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate patching for organizations using WSUS servers.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-windows-server-wsus-vulnerability-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-windows-server-wsus-vulnerability-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div>            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers Target Perplexity Comet Browser Users</h3>
+                <p><strong>Summary:</strong> Shortly after Perplexity launched its Comet browser, threat actors began targeting users with fraudulent domains and fake applications. The rapid emergence of malicious infrastructure demonstrates how quickly cybercriminals adapt to new technologies and platforms.</p>
+                <p><strong>Impact:</strong> Users of new browser technology face immediate targeting by malicious actors seeking to exploit early adoption.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackers-target-perplexity-comet-browser-users/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hackers-target-perplexity-comet-browser-users/" target="_blank" class="button-link">Read Full Article</a>
+            </div>            <div class="service-card" data-aos="fade-up">
+                <h3>North Korean Hackers Aim at European Drone Companies</h3>
+                <p><strong>Summary:</strong> The Lazarus Group, a North Korean state-sponsored threat actor, has been targeting European companies developing unmanned aerial vehicle (UAV) technology. The campaign uses fake job offers as a social engineering vector to infiltrate organizations and steal sensitive information related to drone technology.</p>
+                <p><strong>Impact:</strong> State-sponsored espionage targeting critical defense and technology sectors in Europe for strategic intelligence gathering.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/north-korean-hackers-aim-at-european-drone-companies/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/north-korean-hackers-aim-at-european-drone-companies/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
