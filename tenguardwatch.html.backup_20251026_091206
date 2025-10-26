@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Smishing Triad Linked to 194,000 Malicious Domains in Global Phishing Operation</div><div class="ticker-item">Newly Patched Critical Microsoft WSUS Flaw Comes Under Active Exploitation</div><div class="ticker-item">APT36 Targets Indian Government with Golang-Based DeskRAT Malware Campaign</div><div class="ticker-item">The Cybersecurity Perception Gap: Why Executives and Practitioners See Risk Differently</div><div class="ticker-item">3,000 YouTube Videos Exposed as Malware Traps in Massive Ghost Network Operation</div><div class="ticker-item">$1M WhatsApp Hack Flops: Only Low-Risk Bugs Disclosed to Meta After Pwn2Own Withdrawal</div><div class="ticker-item">OpenAI Atlas Omnibox Is Vulnerable to Jailbreaks</div><div class="ticker-item">Critical Windows Server WSUS Vulnerability Exploited in the Wild</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Smishing Triad Linked to 194,000 Malicious Domains in Global Phishing Operation</h3>
+                <p><strong>Summary:</strong> The threat actors behind a large-scale, ongoing smishing campaign have been attributed to more than 194,000 malicious domains since January 1, 2024, targeting a broad range of services across the worl...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/smishing-triad-linked-to-194000.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/smishing-triad-linked-to-194000.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Newly Patched Critical Microsoft WSUS Flaw Comes Under Active Exploitation</h3>
+                <p><strong>Summary:</strong> Microsoft on Thursday released  out-of-band security updates to patch a critical-severity Windows Server Update Service (WSUS) vulnerability with a proof-of-concept (Poc) exploit publicly available an...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/microsoft-issues-emergency-patch-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/microsoft-issues-emergency-patch-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APT36 Targets Indian Government with Golang-Based DeskRAT Malware Campaign</h3>
+                <p><strong>Summary:</strong> A Pakistan-nexus threat actor has been observed targeting Indian government entities as part of spear-phishing attacks designed to deliver a Golang-based malware known as DeskRAT .  The activity, obse...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/apt36-targets-indian-government-with.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/apt36-targets-indian-government-with.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Cybersecurity Perception Gap: Why Executives and Practitioners See Risk Differently</h3>
+                <p><strong>Summary:</strong> Does your organization suffer from a cybersecurity perception gap? Findings from the  Bitdefender 2025 Cybersecurity Assessment  suggest the answer is probably "yes" — and many leaders may not even re...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/the-cybersecurity-perception-gap-why.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/the-cybersecurity-perception-gap-why.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>3,000 YouTube Videos Exposed as Malware Traps in Massive Ghost Network Operation</h3>
+                <p><strong>Summary:</strong> A malicious network of YouTube accounts has been observed publishing and promoting videos that lead to malware downloads, essentially abusing the popularity and trust associated with the video hosting...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/3000-youtube-videos-exposed-as-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/3000-youtube-videos-exposed-as-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>$1M WhatsApp Hack Flops: Only Low-Risk Bugs Disclosed to Meta After Pwn2Own Withdrawal</h3>
+                <p><strong>Summary:</strong> WhatsApp told SecurityWeek that the two low-impact vulnerabilities cannot be used for arbitrary code execution.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/1m-whatsapp-hack-flops-only-low-risk-bugs-disclosed-to-meta-after-pwn2own-withdrawal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/1m-whatsapp-hack-flops-only-low-risk-bugs-disclosed-to-meta-after-pwn2own-withdrawal/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI Atlas Omnibox Is Vulnerable to Jailbreaks</h3>
+                <p><strong>Summary:</strong> Researchers have discovered that a prompt can be disguised as an url, and accepted by Atlas as an url in the omnibox.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chatgpt-atlas-omnibox-is-vulnerable-to-jailbreaks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chatgpt-atlas-omnibox-is-vulnerable-to-jailbreaks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Windows Server WSUS Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> CVE-2025-59287 allows a remote, unauthenticated attacker to execute arbitrary code and a PoC exploit is available.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-windows-server-wsus-vulnerability-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-windows-server-wsus-vulnerability-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
