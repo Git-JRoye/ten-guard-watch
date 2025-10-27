@@ -102,3 +102,17 @@
 2025-10-27 09:16:51,269 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-10-27 09:16:51,270 - INFO - Successfully updated tenguardwatch.html with 8 articles using professional Security Weekly format.
 2025-10-27 09:16:51,271 - INFO - Update completed successfully in 0.60 seconds
+2025-10-27 13:22:15,948 - INFO - Starting automated news update...
+2025-10-27 13:22:15,949 - INFO - Backup created: tenguardwatch.html.backup_20251027_132215
+2025-10-27 13:22:15,949 - INFO - Fetching latest articles...
+2025-10-27 13:22:16,309 - INFO - Successfully fetched 3 articles from Hacker News
+2025-10-27 13:22:16,743 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-27 13:22:16,743 - INFO - Processing SecurityWeek item 1
+2025-10-27 13:22:16,743 - INFO - Added SecurityWeek article: New Firefox Extensions Required to Disclose Data C...
+2025-10-27 13:22:16,743 - INFO - Processing SecurityWeek item 2
+2025-10-27 13:22:16,743 - INFO - Added SecurityWeek article: Year-Old WordPress Plugin Flaws Exploited to Hack ...
+2025-10-27 13:22:16,743 - INFO - Processing SecurityWeek item 3
+2025-10-27 13:22:16,744 - INFO - Added SecurityWeek article: Ransomware Payments Dropped in Q3 2025: Analysis...
+2025-10-27 13:22:16,744 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-10-27 13:22:16,746 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-10-27 13:22:16,746 - INFO - Update completed successfully in 0.80 seconds
