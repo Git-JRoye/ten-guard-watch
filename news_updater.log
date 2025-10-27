@@ -88,3 +88,17 @@
 2025-10-26 09:12:06,746 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-10-26 09:12:06,747 - INFO - Successfully updated tenguardwatch.html with 8 articles using professional Security Weekly format.
 2025-10-26 09:12:06,747 - INFO - Update completed successfully in 0.52 seconds
+2025-10-27 09:16:50,673 - INFO - Starting automated news update...
+2025-10-27 09:16:50,674 - INFO - Backup created: tenguardwatch.html.backup_20251027_091650
+2025-10-27 09:16:50,674 - INFO - Fetching latest articles...
+2025-10-27 09:16:50,903 - INFO - Successfully fetched 5 articles from Hacker News
+2025-10-27 09:16:51,267 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-27 09:16:51,267 - INFO - Processing SecurityWeek item 1
+2025-10-27 09:16:51,268 - INFO - Added SecurityWeek article: $1M WhatsApp Hack Flops: Only Low-Risk Bugs Disclo...
+2025-10-27 09:16:51,268 - INFO - Processing SecurityWeek item 2
+2025-10-27 09:16:51,268 - INFO - Added SecurityWeek article: OpenAI Atlas Omnibox Is Vulnerable to Jailbreaks...
+2025-10-27 09:16:51,268 - INFO - Processing SecurityWeek item 3
+2025-10-27 09:16:51,268 - INFO - Added SecurityWeek article: Critical Windows Server WSUS Vulnerability Exploit...
+2025-10-27 09:16:51,269 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-10-27 09:16:51,270 - INFO - Successfully updated tenguardwatch.html with 8 articles using professional Security Weekly format.
+2025-10-27 09:16:51,271 - INFO - Update completed successfully in 0.60 seconds
