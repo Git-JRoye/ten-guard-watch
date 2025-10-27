@@ -36,7 +36,7 @@ def fetch_hacker_news():
         soup = BeautifulSoup(response.text, "html.parser")
         articles = []
         
-        for item in soup.find_all("div", class_="body-post clear")[:5]:
+        for item in soup.find_all("div", class_="body-post clear")[:3]:
             try:
                 title = item.find("h2").text.strip()
                 link = item.find("a")["href"]
