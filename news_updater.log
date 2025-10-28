@@ -116,3 +116,17 @@
 2025-10-27 13:22:16,744 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-10-27 13:22:16,746 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-10-27 13:22:16,746 - INFO - Update completed successfully in 0.80 seconds
+2025-10-28 09:14:18,932 - INFO - Starting automated news update...
+2025-10-28 09:14:18,932 - INFO - Backup created: tenguardwatch.html.backup_20251028_091418
+2025-10-28 09:14:18,933 - INFO - Fetching latest articles...
+2025-10-28 09:14:19,213 - INFO - Successfully fetched 3 articles from Hacker News
+2025-10-28 09:14:19,499 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-28 09:14:19,499 - INFO - Processing SecurityWeek item 1
+2025-10-28 09:14:19,499 - INFO - Added SecurityWeek article: Chainguard Raises $280 Million in Growth Funding...
+2025-10-28 09:14:19,499 - INFO - Processing SecurityWeek item 2
+2025-10-28 09:14:19,500 - INFO - Added SecurityWeek article: Massive China-Linked Smishing Campaign Leveraged 1...
+2025-10-28 09:14:19,500 - INFO - Processing SecurityWeek item 3
+2025-10-28 09:14:19,500 - INFO - Added SecurityWeek article: New Firefox Extensions Required to Disclose Data C...
+2025-10-28 09:14:19,500 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-10-28 09:14:19,502 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-10-28 09:14:19,502 - INFO - Update completed successfully in 0.57 seconds
