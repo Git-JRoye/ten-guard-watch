@@ -130,3 +130,17 @@
 2025-10-28 09:14:19,500 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-10-28 09:14:19,502 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-10-28 09:14:19,502 - INFO - Update completed successfully in 0.57 seconds
+2025-10-29 09:14:26,312 - INFO - Starting automated news update...
+2025-10-29 09:14:26,312 - INFO - Backup created: tenguardwatch.html.backup_20251029_091426
+2025-10-29 09:14:26,312 - INFO - Fetching latest articles...
+2025-10-29 09:14:26,541 - INFO - Successfully fetched 3 articles from Hacker News
+2025-10-29 09:14:27,004 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-29 09:14:27,004 - INFO - Processing SecurityWeek item 1
+2025-10-29 09:14:27,005 - INFO - Added SecurityWeek article: CISA Warns of Exploited DELMIA Factory Software Vu...
+2025-10-29 09:14:27,005 - INFO - Processing SecurityWeek item 2
+2025-10-29 09:14:27,005 - INFO - Added SecurityWeek article: New Attack Targets DDR5 Memory to Steal Keys From ...
+2025-10-29 09:14:27,005 - INFO - Processing SecurityWeek item 3
+2025-10-29 09:14:27,005 - INFO - Added SecurityWeek article: Stragglers From Myanmar Scam Center Raided by Army...
+2025-10-29 09:14:27,005 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-10-29 09:14:27,007 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-10-29 09:14:27,007 - INFO - Update completed successfully in 0.70 seconds
