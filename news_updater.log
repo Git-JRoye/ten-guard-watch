@@ -144,3 +144,17 @@
 2025-10-29 09:14:27,005 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-10-29 09:14:27,007 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-10-29 09:14:27,007 - INFO - Update completed successfully in 0.70 seconds
+2025-10-30 09:14:45,808 - INFO - Starting automated news update...
+2025-10-30 09:14:45,809 - INFO - Backup created: tenguardwatch.html.backup_20251030_091445
+2025-10-30 09:14:45,809 - INFO - Fetching latest articles...
+2025-10-30 09:14:45,986 - INFO - Successfully fetched 3 articles from Hacker News
+2025-10-30 09:14:46,306 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-30 09:14:46,306 - INFO - Processing SecurityWeek item 1
+2025-10-30 09:14:46,307 - INFO - Added SecurityWeek article: MITRE Unveils ATT&CK v18 With Updates to Detection...
+2025-10-30 09:14:46,307 - INFO - Processing SecurityWeek item 2
+2025-10-30 09:14:46,307 - INFO - Added SecurityWeek article: AI Security Firm Polygraf Raises $9.5 Million in S...
+2025-10-30 09:14:46,307 - INFO - Processing SecurityWeek item 3
+2025-10-30 09:14:46,307 - INFO - Added SecurityWeek article: CyberRidge Emerges From Stealth With $26 Million f...
+2025-10-30 09:14:46,307 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-10-30 09:14:46,309 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-10-30 09:14:46,310 - INFO - Update completed successfully in 0.50 seconds

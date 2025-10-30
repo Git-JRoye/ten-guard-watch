@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">10 npm Packages Caught Stealing Developer Credentials on Windows, macOS, and Linux</div><div class="ticker-item">Active Exploits Hit Dassault and XWiki — CISA Confirms Critical Flaws Under Attack</div><div class="ticker-item">New TEE.Fail Side-Channel Attack Extracts Secrets from Intel and AMD DDR5 Secure Enclaves</div><div class="ticker-item">CISA Warns of Exploited DELMIA Factory Software Vulnerabilities</div><div class="ticker-item">New Attack Targets DDR5 Memory to Steal Keys From Intel and AMD TEEs</div><div class="ticker-item">Stragglers From Myanmar Scam Center Raided by Army Cross Into Thailand as Buildings are Blown Up</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>10 npm Packages Caught Stealing Developer Credentials on Windows, macOS, and Linux</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a set of 10 malicious npm packages that are designed to deliver an information stealer targeting Windows, Linux, and macOS systems.  "The malware uses four la...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/10-npm-packages-caught-stealing.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/10-npm-packages-caught-stealing.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Active Exploits Hit Dassault and XWiki — CISA Confirms Critical Flaws Under Attack</h3>
+                <p><strong>Summary:</strong> Threat actors are actively exploiting multiple security flaws impacting Dassault Systèmes DELMIA Apriso and XWiki, according to alerts issued by the U.S. Cybersecurity and Infrastructure Security Agen...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/active-exploits-hit-dassault-and-xwiki.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/active-exploits-hit-dassault-and-xwiki.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New TEE.Fail Side-Channel Attack Extracts Secrets from Intel and AMD DDR5 Secure Enclaves</h3>
+                <p><strong>Summary:</strong> A group of academic researchers from Georgia Tech, Purdue University, and Synkhronix have developed a side-channel attack called TEE.Fail  that allows for the extraction of secrets from the trusted ex...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/new-teefail-side-channel-attack.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/new-teefail-side-channel-attack.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Warns of Exploited DELMIA Factory Software Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Two DELMIA Apriso flaws can be chained together to gain privileged access to the application and execute arbitrary code remotely.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-warns-of-exploited-delmia-factory-software-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-warns-of-exploited-delmia-factory-software-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Attack Targets DDR5 Memory to Steal Keys From Intel and AMD TEEs</h3>
+                <p><strong>Summary:</strong> Intel and AMD have published advisories after academics disclosed details of the new TEE.fail attack method.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-attack-targets-ddr5-memory-to-steal-keys-from-intel-and-amd-tees/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-attack-targets-ddr5-memory-to-steal-keys-from-intel-and-amd-tees/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Stragglers From Myanmar Scam Center Raided by Army Cross Into Thailand as Buildings are Blown Up</h3>
+                <p><strong>Summary:</strong> Witnesses on the Thai side of the border reported hearing explosions and seeing smoke coming from the center over the past several nights starting on Friday.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/stragglers-from-myanmar-scam-center-raided-by-army-cross-into-thailand-as-buildings-are-blown-up/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/stragglers-from-myanmar-scam-center-raided-by-army-cross-into-thailand-as-buildings-are-blown-up/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
