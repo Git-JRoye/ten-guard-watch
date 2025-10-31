@@ -158,3 +158,17 @@
 2025-10-30 09:14:46,307 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-10-30 09:14:46,309 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-10-30 09:14:46,310 - INFO - Update completed successfully in 0.50 seconds
+2025-10-31 09:14:26,757 - INFO - Starting automated news update...
+2025-10-31 09:14:26,757 - INFO - Backup created: tenguardwatch.html.backup_20251031_091426
+2025-10-31 09:14:26,757 - INFO - Fetching latest articles...
+2025-10-31 09:14:27,005 - INFO - Successfully fetched 3 articles from Hacker News
+2025-10-31 09:14:27,436 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-10-31 09:14:27,436 - INFO - Processing SecurityWeek item 1
+2025-10-31 09:14:27,437 - INFO - Added SecurityWeek article: Japan Issues OT Security Guidance for Semiconducto...
+2025-10-31 09:14:27,437 - INFO - Processing SecurityWeek item 2
+2025-10-31 09:14:27,437 - INFO - Added SecurityWeek article: Spektrum Labs Emerges From Stealth to Help Compani...
+2025-10-31 09:14:27,437 - INFO - Processing SecurityWeek item 3
+2025-10-31 09:14:27,437 - INFO - Added SecurityWeek article: Reflectiz Raises $22 Million for Website Security ...
+2025-10-31 09:14:27,437 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-10-31 09:14:27,439 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-10-31 09:14:27,439 - INFO - Update completed successfully in 0.68 seconds
