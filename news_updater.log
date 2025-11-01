@@ -172,3 +172,17 @@
 2025-10-31 09:14:27,437 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-10-31 09:14:27,439 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-10-31 09:14:27,439 - INFO - Update completed successfully in 0.68 seconds
+2025-11-01 09:12:25,075 - INFO - Starting automated news update...
+2025-11-01 09:12:25,075 - INFO - Backup created: tenguardwatch.html.backup_20251101_091225
+2025-11-01 09:12:25,075 - INFO - Fetching latest articles...
+2025-11-01 09:12:25,284 - INFO - Successfully fetched 3 articles from Hacker News
+2025-11-01 09:12:25,698 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-11-01 09:12:25,698 - INFO - Processing SecurityWeek item 1
+2025-11-01 09:12:25,698 - INFO - Added SecurityWeek article: In Other News: WhatsApp Passkey-Encrypted Backups,...
+2025-11-01 09:12:25,698 - INFO - Processing SecurityWeek item 2
+2025-11-01 09:12:25,699 - INFO - Added SecurityWeek article: Ukrainian Man Extradited From Ireland to US Over C...
+2025-11-01 09:12:25,699 - INFO - Processing SecurityWeek item 3
+2025-11-01 09:12:25,699 - INFO - Added SecurityWeek article: Open VSX Downplays Impact From GlassWorm Campaign...
+2025-11-01 09:12:25,699 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-11-01 09:12:25,700 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-11-01 09:12:25,700 - INFO - Update completed successfully in 0.63 seconds
