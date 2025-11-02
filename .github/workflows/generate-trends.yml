@@ -1,20 +1,18 @@
 name: Generate Threat Trends Dashboard
 
 on:
-  # Run after the daily news scraper (5 AM ET = 9 AM UTC in winter, 10 AM UTC in summer due to DST)
-  # This job runs 15 minutes after the scraper to ensure news files are committed
+  # Primary: Run automatically after news scraper completes
+  workflow_run:
+    workflows: ["Daily News Update"]  # Matches your news scraper workflow name
+    types:
+      - completed  # Triggers when news scraper finishes successfully
+  
+  # Backup: Schedule (in case workflow_run doesn't trigger)
   schedule:
-    - cron: '15 9 * * *'  # 9:15 AM UTC (winter) / 10:15 AM UTC (summer)
+    - cron: '15 9 * * *'  # 9:15 AM UTC as backup (winter) / 10:15 AM UTC (summer)
   
   # Allow manual triggering for testing
   workflow_dispatch:
-  
-  # Run after news scraper workflow completes (if using workflow_run trigger)
-  # Uncomment if you want this to trigger automatically after scraper
-  # workflow_run:
-  #   workflows: ["Daily News Update"]
-  #   types:
-  #     - completed
 
 jobs:
   generate-trends:
@@ -124,13 +122,18 @@ jobs:
           echo "- Python dependencies not installed" >> $GITHUB_STEP_SUMMARY
           echo "- Template rendering errors" >> $GITHUB_STEP_SUMMARY
 
-# Note on DST (Daylight Saving Time):
-# - Eastern Time (ET) is UTC-5 in winter (EST) and UTC-4 in summer (EDT)
-# - 5 AM ET = 9 AM UTC (winter) or 10 AM UTC (summer)
-# - This workflow runs at 9:15 AM UTC to catch both scenarios
-# - Adjust the cron schedule if you need different timing
+# WORKFLOW CHAINING:
+# - This workflow is chained to run automatically after "Daily News Update" completes
+# - If your news scraper workflow has a different name, update line 6 above
+# - The schedule (line 12) serves as a backup if workflow_run doesn't trigger
+# - You can always trigger manually via workflow_dispatch
 #
-# To run this workflow immediately after the news scraper:
-# 1. Use workflow_run trigger (uncommented above)
-# 2. Or schedule it 10-15 minutes after your scraper's schedule
+# To verify the workflow name matches:
+# 1. Go to Actions tab in GitHub
+# 2. Check the exact name of your news scraper workflow
+# 3. Update "Daily News Update" on line 6 if it's different
+#
+# DST Note:
+# - Eastern Time (ET) is UTC-5 in winter (EST) and UTC-4 in summer (EDT)
+# - Backup schedule runs at 9:15 AM UTC
 
