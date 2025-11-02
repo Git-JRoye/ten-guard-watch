@@ -1,0 +1,33 @@
+{
+  "date": "2025-01-27",
+  "items": [
+    {
+      "title": "Critical Windows WSUS Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/critical-windows-server-wsus-vulnerability-exploited-in-the-wild/",
+      "summary": "CVE-2025-59287, a critical remote code execution vulnerability in Windows Server Update Service (WSUS), is being actively exploited. The flaw allows unauthenticated attackers to execute arbitrary code with proof-of-concept exploits publicly available.",
+      "tags": ["vulnerability", "windows", "exploit", "critical"],
+      "urgency": "High",
+      "slug": "critical-windows-wsus-vulnerability",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Smishing Triad Linked to 194,000 Malicious Domains in Global Phishing Operation",
+      "link": "https://thehackernews.com/2025/10/smishing-triad-linked-to-194000.html",
+      "summary": "A China-linked threat group known as the Smishing Triad has been attributed to over 194,000 malicious domains since January 2024, targeting users worldwide with fraudulent SMS messages about toll violations and package deliveries.",
+      "tags": ["phishing", "smishing", "malware", "campaign"],
+      "urgency": "High",
+      "slug": "smishing-triad-global-operation",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "APT36 Targets Indian Government with Golang-Based DeskRAT Malware",
+      "link": "https://thehackernews.com/2025/10/apt36-targets-indian-government-with.html",
+      "summary": "Pakistan-linked threat actor APT36 (Transparent Tribe) has been observed targeting Indian government entities with a new Golang-based malware called DeskRAT using spear-phishing emails with ZIP attachments or Google Drive links.",
+      "tags": ["apt", "malware", "government", "espionage"],
+      "urgency": "Medium",
+      "slug": "apt36-deskrat-malware-campaign",
+      "source": "The Hacker News"
+    }
+  ]
+}
+
