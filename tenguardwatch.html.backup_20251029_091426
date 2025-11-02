@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Chrome Zero-Day Exploited to Deliver Italian Memento Labs' LeetAgent Spyware</div><div class="ticker-item">SideWinder Adopts New ClickOnce-Based Attack Chain Targeting South Asian Diplomats</div><div class="ticker-item">X Warns Users With Security Keys to Re-Enroll Before November 10 to Avoid Lockouts</div><div class="ticker-item">Chainguard Raises $280 Million in Growth Funding</div><div class="ticker-item">Massive China-Linked Smishing Campaign Leveraged 194,000 Domains</div><div class="ticker-item">New Firefox Extensions Required to Disclose Data Collection Practices</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chrome Zero-Day Exploited to Deliver Italian Memento Labs' LeetAgent Spyware</h3>
+                <p><strong>Summary:</strong> The zero-day exploitation of a now-patched security flaw in Google Chrome led to the distribution of an espionage-related tool from Italian information technology and services provider Memento Labs, a...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/chrome-zero-day-exploited-to-deliver.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/chrome-zero-day-exploited-to-deliver.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SideWinder Adopts New ClickOnce-Based Attack Chain Targeting South Asian Diplomats</h3>
+                <p><strong>Summary:</strong> A European embassy located in the Indian capital of New Delhi, as well as multiple organizations in Sri Lanka, Pakistan, and Bangladesh, have emerged as the target of a new campaign orchestrated by a ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/sidewinder-adopts-new-clickonce-based.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/sidewinder-adopts-new-clickonce-based.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>X Warns Users With Security Keys to Re-Enroll Before November 10 to Avoid Lockouts</h3>
+                <p><strong>Summary:</strong> Social media platform X is urging users who have enrolled for two-factor authentication (2FA) using passkeys and hardware security keys like Yubikeys to re-enroll their key to ensure continued access ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/x-warns-users-with-security-keys-to-re.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/x-warns-users-with-security-keys-to-re.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chainguard Raises $280 Million in Growth Funding</h3>
+                <p><strong>Summary:</strong> Chainguard has raised $636 million in the past six months alone for its software supply chain security solutions.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chainguard-raises-280-million-in-growth-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chainguard-raises-280-million-in-growth-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Massive China-Linked Smishing Campaign Leveraged 194,000 Domains</h3>
+                <p><strong>Summary:</strong> The malicious Smishing Triad domains were used to collect sensitive information, including Social Security numbers.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/massive-china-linked-smishing-campaign-leveraged-194000-domains/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/massive-china-linked-smishing-campaign-leveraged-194000-domains/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Firefox Extensions Required to Disclose Data Collection Practices</h3>
+                <p><strong>Summary:</strong> All new extensions will be required to declare their data collection practices in their manifest file using a specific key.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-firefox-extensions-required-to-disclose-data-collection-practices/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-firefox-extensions-required-to-disclose-data-collection-practices/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

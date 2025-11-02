@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Experts Reports Sharp Increase in Automated Botnet Attacks Targeting PHP Servers and IoT Devices</div><div class="ticker-item">New AI-Targeted Cloaking Attack Tricks AI Crawlers Into Citing Fake Info as Verified Facts</div><div class="ticker-item">Discover Practical AI Tactics for GRC — Join the Free Expert Webinar</div><div class="ticker-item">MITRE Unveils ATT&CK v18 With Updates to Detections, Mobile, ICS</div><div class="ticker-item">AI Security Firm Polygraf Raises $9.5 Million in Seed Funding</div><div class="ticker-item">CyberRidge Emerges From Stealth With $26 Million for Photonic Encryption Solution</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Experts Reports Sharp Increase in Automated Botnet Attacks Targeting PHP Servers and IoT Devices</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are calling attention to a spike in automated attacks targeting PHP servers, IoT devices, and cloud gateways by various botnets such as Mirai , Gafgyt , and Mozi .  "These au...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/experts-reports-sharp-increase-in.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/experts-reports-sharp-increase-in.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New AI-Targeted Cloaking Attack Tricks AI Crawlers Into Citing Fake Info as Verified Facts</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a new security issue in agentic web browsers like OpenAI ChatGPT Atlas that exposes underlying artificial intelligence (AI) models to context poisoning attacks. ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/new-ai-targeted-cloaking-attack-tricks.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/new-ai-targeted-cloaking-attack-tricks.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Discover Practical AI Tactics for GRC — Join the Free Expert Webinar</h3>
+                <p><strong>Summary:</strong> Artificial Intelligence (AI) is rapidly transforming Governance, Risk, and Compliance (GRC) . It's no longer a future concept—it's here, and it's already reshaping how teams operate.  AI's capabilitie...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/discover-practical-ai-tactics-for-grc.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/discover-practical-ai-tactics-for-grc.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MITRE Unveils ATT&CK v18 With Updates to Detections, Mobile, ICS</h3>
+                <p><strong>Summary:</strong> MITRE has unveiled the latest version of ATT&CK, with the most significant changes in the defensive part of the framework.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/mitre-unveils-attck-v18-with-updates-to-detections-mobile-ics/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/mitre-unveils-attck-v18-with-updates-to-detections-mobile-ics/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Security Firm Polygraf Raises $9.5 Million in Seed Funding</h3>
+                <p><strong>Summary:</strong> Polygraf AI has developed proprietary small language model (SLM) technology designed to help organizations mitigate AI risks.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ai-security-firm-polygraf-raises-9-5-million-in-seed-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ai-security-firm-polygraf-raises-9-5-million-in-seed-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CyberRidge Emerges From Stealth With $26 Million for Photonic Encryption Solution</h3>
+                <p><strong>Summary:</strong> The company has built a plug-and-play photonic layer transmission system that encrypts data in transit to prevent interception.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyberridge-emerges-from-stealth-with-26-million-for-photonic-encryption-solution/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyberridge-emerges-from-stealth-with-26-million-for-photonic-encryption-solution/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
