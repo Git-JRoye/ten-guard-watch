@@ -228,3 +228,17 @@
 2025-11-03 09:16:37,597 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-11-03 09:16:37,599 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-11-03 09:16:37,599 - INFO - Update completed successfully in 0.57 seconds
+2025-11-04 09:15:30,409 - INFO - Starting automated news update...
+2025-11-04 09:15:30,409 - INFO - Backup created: tenguardwatch.html.backup_20251104_091530
+2025-11-04 09:15:30,409 - INFO - Fetching latest articles...
+2025-11-04 09:15:30,618 - INFO - Successfully fetched 3 articles from Hacker News
+2025-11-04 09:15:30,996 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-11-04 09:15:30,996 - INFO - Processing SecurityWeek item 1
+2025-11-04 09:15:30,996 - INFO - Added SecurityWeek article: Ukrainian Extradited to US Faces Charges in Jabber...
+2025-11-04 09:15:30,996 - INFO - Processing SecurityWeek item 2
+2025-11-04 09:15:30,996 - INFO - Added SecurityWeek article: How Software Development Teams Can Securely and Et...
+2025-11-04 09:15:30,997 - INFO - Processing SecurityWeek item 3
+2025-11-04 09:15:30,997 - INFO - Added SecurityWeek article: Who is Zico Kolter? A Professor Leads OpenAI Safet...
+2025-11-04 09:15:30,997 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-11-04 09:15:30,999 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-11-04 09:15:30,999 - INFO - Update completed successfully in 0.59 seconds
