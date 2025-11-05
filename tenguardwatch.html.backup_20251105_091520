@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Google's AI 'Big Sleep' Finds 5 New Vulnerabilities in Apple's Safari WebKit</div><div class="ticker-item">U.S. Prosecutors Indict Cybersecurity Insiders Accused of BlackCat Ransomware Attacks</div><div class="ticker-item">Microsoft Detects "SesameOp" Backdoor Using OpenAI's API as a Stealth Command Channel</div><div class="ticker-item">Ukrainian Extradited to US Faces Charges in Jabber Zeus Cybercrime Case</div><div class="ticker-item">How Software Development Teams Can Securely and Ethically Deploy AI Tools</div><div class="ticker-item">Who is Zico Kolter? A Professor Leads OpenAI Safety Panel With Power to Halt Unsafe AI Releases</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google's AI 'Big Sleep' Finds 5 New Vulnerabilities in Apple's Safari WebKit</h3>
+                <p><strong>Summary:</strong> Google's artificial intelligence (AI)-powered cybersecurity agent called Big Sleep  has been credited by Apple for discovering as many as five different security flaws in the WebKit component used in ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/googles-ai-big-sleep-finds-5-new.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/googles-ai-big-sleep-finds-5-new.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>U.S. Prosecutors Indict Cybersecurity Insiders Accused of BlackCat Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> Federal prosecutors in the U.S. have accused  a trio of allegedly hacking the networks of five U.S. companies with BlackCat (aka ALPHV) ransomware between May and November 2023 and extorting them.  Ry...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/us-prosecutors-indict-cybersecurity.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/us-prosecutors-indict-cybersecurity.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Detects "SesameOp" Backdoor Using OpenAI's API as a Stealth Command Channel</h3>
+                <p><strong>Summary:</strong> Microsoft has disclosed details of a novel backdoor dubbed SesameOp  that uses OpenAI Assistants Application Programming Interface (API) for command-and-control (C2) communications.  "Instead of relyi...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/microsoft-detects-sesameop-backdoor.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/microsoft-detects-sesameop-backdoor.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ukrainian Extradited to US Faces Charges in Jabber Zeus Cybercrime Case</h3>
+                <p><strong>Summary:</strong> Yuriy Igorevich Rybtsov, aka MrICQ, was arrested in Italy and lost his appeal to avoid extradition to the US.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ukrainian-extradited-to-us-faces-charges-in-jabber-zeus-cybercrime-case/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ukrainian-extradited-to-us-faces-charges-in-jabber-zeus-cybercrime-case/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How Software Development Teams Can Securely and Ethically Deploy AI Tools</h3>
+                <p><strong>Summary:</strong> To deploy AI tools securely and ethically, teams must balance innovation with accountability—establishing strong governance, upskilling developers, and enforcing rigorous code reviews.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/how-software-development-teams-can-securely-and-ethically-deploy-ai-tools/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/how-software-development-teams-can-securely-and-ethically-deploy-ai-tools/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Who is Zico Kolter? A Professor Leads OpenAI Safety Panel With Power to Halt Unsafe AI Releases</h3>
+                <p><strong>Summary:</strong> Kolter leads a panel at OpenAI that has the authority to halt the ChatGPT maker’s release of new AI systems if it finds them unsafe.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/who-is-zico-kolter-a-professor-leads-openai-safety-panel-with-power-to-halt-unsafe-ai-releases/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/who-is-zico-kolter-a-professor-leads-openai-safety-panel-with-power-to-halt-unsafe-ai-releases/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

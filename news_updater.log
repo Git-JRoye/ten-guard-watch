@@ -242,3 +242,17 @@
 2025-11-04 09:15:30,997 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-11-04 09:15:30,999 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-11-04 09:15:30,999 - INFO - Update completed successfully in 0.59 seconds
+2025-11-05 09:15:20,500 - INFO - Starting automated news update...
+2025-11-05 09:15:20,500 - INFO - Backup created: tenguardwatch.html.backup_20251105_091520
+2025-11-05 09:15:20,501 - INFO - Fetching latest articles...
+2025-11-05 09:15:20,714 - INFO - Successfully fetched 3 articles from Hacker News
+2025-11-05 09:15:21,127 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-11-05 09:15:21,128 - INFO - Processing SecurityWeek item 1
+2025-11-05 09:15:21,128 - INFO - Added SecurityWeek article: US Sanctions North Korean Bankers Accused of Laund...
+2025-11-05 09:15:21,128 - INFO - Processing SecurityWeek item 2
+2025-11-05 09:15:21,128 - INFO - Added SecurityWeek article: CISA Warns of CWP Vulnerability Exploited in the W...
+2025-11-05 09:15:21,128 - INFO - Processing SecurityWeek item 3
+2025-11-05 09:15:21,128 - INFO - Added SecurityWeek article: Critical Flaw in Popular React Native NPM Package ...
+2025-11-05 09:15:21,129 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-11-05 09:15:21,130 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-11-05 09:15:21,130 - INFO - Update completed successfully in 0.63 seconds
