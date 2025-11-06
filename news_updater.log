@@ -256,3 +256,17 @@
 2025-11-05 09:15:21,129 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-11-05 09:15:21,130 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-11-05 09:15:21,130 - INFO - Update completed successfully in 0.63 seconds
+2025-11-06 09:15:08,095 - INFO - Starting automated news update...
+2025-11-06 09:15:08,096 - INFO - Backup created: tenguardwatch.html.backup_20251106_091508
+2025-11-06 09:15:08,096 - INFO - Fetching latest articles...
+2025-11-06 09:15:08,313 - INFO - Successfully fetched 3 articles from Hacker News
+2025-11-06 09:15:08,855 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-11-06 09:15:08,855 - INFO - Processing SecurityWeek item 1
+2025-11-06 09:15:08,855 - INFO - Added SecurityWeek article: Malware Now Uses AI During Execution to Mutate and...
+2025-11-06 09:15:08,855 - INFO - Processing SecurityWeek item 2
+2025-11-06 09:15:08,856 - INFO - Added SecurityWeek article: Webinar Today: Scattered Spider Exposed – Critical...
+2025-11-06 09:15:08,856 - INFO - Processing SecurityWeek item 3
+2025-11-06 09:15:08,856 - INFO - Added SecurityWeek article: Flare Raises $30 Million for Threat Exposure Manag...
+2025-11-06 09:15:08,856 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-11-06 09:15:08,858 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-11-06 09:15:08,858 - INFO - Update completed successfully in 0.76 seconds
