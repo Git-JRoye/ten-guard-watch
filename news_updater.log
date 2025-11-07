@@ -270,3 +270,17 @@
 2025-11-06 09:15:08,856 - INFO - Successfully fetched 3 articles from SecurityWeek
 2025-11-06 09:15:08,858 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
 2025-11-06 09:15:08,858 - INFO - Update completed successfully in 0.76 seconds
+2025-11-07 09:14:06,350 - INFO - Starting automated news update...
+2025-11-07 09:14:06,350 - INFO - Backup created: tenguardwatch.html.backup_20251107_091406
+2025-11-07 09:14:06,350 - INFO - Fetching latest articles...
+2025-11-07 09:14:06,508 - INFO - Successfully fetched 3 articles from Hacker News
+2025-11-07 09:14:06,883 - INFO - Found 3 items using selector: section.zox-art-wrap.zoxrel.zox-art-small
+2025-11-07 09:14:06,884 - INFO - Processing SecurityWeek item 1
+2025-11-07 09:14:06,884 - INFO - Added SecurityWeek article: 18 Arrested in Crackdown on Credit Card Fraud Ring...
+2025-11-07 09:14:06,884 - INFO - Processing SecurityWeek item 2
+2025-11-07 09:14:06,884 - INFO - Added SecurityWeek article: Researchers Hack ChatGPT Memories and Web Search F...
+2025-11-07 09:14:06,884 - INFO - Processing SecurityWeek item 3
+2025-11-07 09:14:06,884 - INFO - Added SecurityWeek article: Truffle Security Raises $25 Million for Secret Sca...
+2025-11-07 09:14:06,885 - INFO - Successfully fetched 3 articles from SecurityWeek
+2025-11-07 09:14:06,886 - INFO - Successfully updated tenguardwatch.html with 6 articles using professional Security Weekly format.
+2025-11-07 09:14:06,887 - INFO - Update completed successfully in 0.54 seconds
