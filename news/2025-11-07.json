@@ -1,0 +1,85 @@
+{
+  "date": "2025-11-07",
+  "items": [
+    {
+      "title": "Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The activity involved the exploitation of CVE-2025-21042  (CVSS score: 8.8), an out-of-bounds write flaw in the \"libimagecodec.quram.so\" component that could allow remote attackers to execute arbitrary code, according to Palo Alto Networks Unit 42. The issue was addressed  by Samsung in April 2025.  \"This vulnerability was actively exploited in the wild before Samsung patched it in April 2025, following reports of in-the-wild attacks,\" Unit 42 said . Potential targets of the activity, tracked as CL-UNK-1054, are located in Iraq, Iran, Turkey, and Morocco based on VirusTotal submission data.  The development comes as Samsung disclosed  in September 2025 that another flaw in the same library (CVE-2025-21043, CVSS score: 8.8) had also been exploited in the wild as a...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "samsung-zero-click-flaw-exploited-to-deploy-landfa",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools",
+      "link": "https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html",
+      "summary": "A China-linked threat actor has been attributed to a cyber attack targeting an U.S. non-profit organization with an aim to establish long-term persistence, as part of broader activity aimed at U.S. entities that are linked to or involved in policy issues.  The organization, according to a report  from Broadcom's Symantec and Carbon Black teams, is \"active in attempting to influence U.S. government policy on international issues.\" The attackers managed to gain access to the network for several weeks in April 2025.  The first sign of activity occurred on April 5, 2025, when mass scanning efforts were detected against a server by leveraging various well-known exploits, including CVE-2022-26134  (Atlassian), CVE-2021-44228  (Apache Log4j), CVE-2017-9805  (Apache Struts), and CVE-2017-17562  (GoAhead Web Server).   No further actions were recorded until April 16, when the attacks executed several curl commands to test internet connectivity, after which the Windows command-lin...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "from-log4j-to-iis-chinas-hackers-turn-legacy-bugs-",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software supply chain security company Socket, the packages were published in 2023 and 2024 by a user named \" shanhai666 \" and are designed to run malicious code after specific trigger dates in August 2027 and November 2028. The packages were collectively downloaded 9,488 times.  \"The most dangerous package, Sharp7Extend, targets industrial PLCs with dual sabotage mechanisms: immediate random process termination and silent write failures that begin 30-90 minutes after installation, affecting safety-critical systems in manufacturing environments,\" security researcher Kush Pandya said .   The list of malicious packages is below -   MyDbRepository (Last updated on May 13, 2023)  MCDbRepository (Last updated on June 5, 2024)  Sharp7Extend (Last updated on August 14, 2024)  SqlDbRepo...",
+      "tags": [
+        "malware",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "hidden-logic-bombs-in-malware-laced-nuget-packages",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests",
+      "link": "https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-controversial-ransomware-report-goot",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "landfall-android-spyware-targeted-samsung-phones-v",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Radical Empowerment From Your Leadership: Understood by Few, Essential for All",
+      "link": "https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/",
+      "summary": "When leaders redefine power as trust instead of control, teams unlock their potential — and organizations find their edge.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "radical-empowerment-from-your-leadership-understoo",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    }
+  ]
+}

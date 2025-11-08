@@ -1,0 +1,117 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Vibe-Coded Malicious VS Code Extension Found with Built-In Ransomware Capabilities</div><div class="ticker-item">Trojanized ESET Installers Drop Kalambur Backdoor in Phishing Attacks on Ukraine</div><div class="ticker-item">Cisco Warns of New Firewall Attack Exploiting CVE-2025-20333 and CVE-2025-20362</div><div class="ticker-item">18 Arrested in Crackdown on Credit Card Fraud Rings</div><div class="ticker-item">Researchers Hack ChatGPT Memories and Web Search Features</div><div class="ticker-item">Truffle Security Raises $25 Million for Secret Scanning Engine</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vibe-Coded Malicious VS Code Extension Found with Built-In Ransomware Capabilities</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a malicious Visual Studio Code (VS Code) extension with basic ransomware capabilities that appears to be created with the help of artificial intelligence – in ot...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/vibe-coded-malicious-vs-code-extension.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/vibe-coded-malicious-vs-code-extension.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Trojanized ESET Installers Drop Kalambur Backdoor in Phishing Attacks on Ukraine</h3>
+                <p><strong>Summary:</strong> A previously unknown threat activity cluster has been observed impersonating Slovak cybersecurity company ESET as part of phishing attacks targeting Ukrainian entities.  The campaign, detected in May ...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/trojanized-eset-installers-drop.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/trojanized-eset-installers-drop.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cisco Warns of New Firewall Attack Exploiting CVE-2025-20333 and CVE-2025-20362</h3>
+                <p><strong>Summary:</strong> Cisco on Wednesday disclosed that it became aware of a new attack variant that's designed to target devices running Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Fi...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/cisco-warns-of-new-firewall-attack.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/cisco-warns-of-new-firewall-attack.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>18 Arrested in Crackdown on Credit Card Fraud Rings</h3>
+                <p><strong>Summary:</strong> Between 2016 and 2021, the suspects defrauded 4.3 million cardholders in 193 countries of €300 million (~$346 million).</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/18-arrested-in-crackdown-on-credit-card-fraud-rings/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/18-arrested-in-crackdown-on-credit-card-fraud-rings/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Hack ChatGPT Memories and Web Search Features</h3>
+                <p><strong>Summary:</strong> Tenable researchers discovered seven vulnerabilities, including ones affecting the latest GPT model.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/researchers-hack-chatgpt-memories-and-web-search-features/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/researchers-hack-chatgpt-memories-and-web-search-features/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Truffle Security Raises $25 Million for Secret Scanning Engine</h3>
+                <p><strong>Summary:</strong> The investment will fuel the development of Truffle’s enterprise-grade secrets detection, verification, and remediation platform.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/truffle-security-raises-25-million-for-secret-scanning-engine/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/truffle-security-raises-25-million-for-secret-scanning-engine/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

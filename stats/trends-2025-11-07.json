@@ -1,20 +1,142 @@
 {
   "tag_counts": {
-    "7_days": {},
-    "30_days": {}
+    "7_days": {
+      "vulnerability": 3,
+      "malware": 3,
+      "critical": 3,
+      "attack": 2,
+      "apt": 1,
+      "ransomware": 1,
+      "cybersecurity": 1
+    },
+    "30_days": {
+      "vulnerability": 3,
+      "malware": 3,
+      "critical": 3,
+      "attack": 2,
+      "apt": 1,
+      "ransomware": 1,
+      "cybersecurity": 1
+    }
   },
   "urgency_counts": {
-    "7_days": {},
-    "30_days": {}
+    "7_days": {
+      "High": 3,
+      "Medium": 2,
+      "Low": 1
+    },
+    "30_days": {
+      "High": 3,
+      "Medium": 2,
+      "Low": 1
+    }
   },
-  "top_sources": {},
-  "top_keywords": {},
-  "daily_counts": [],
-  "top_articles": [],
+  "top_sources": {
+    "The Hacker News": 3,
+    "SecurityWeek": 3
+  },
+  "top_keywords": {
+    "cve": 7,
+    "samsung": 6,
+    "exploited": 5,
+    "april": 5,
+    "packages": 5,
+    "flaw": 4,
+    "android": 4,
+    "security": 4,
+    "activity": 4,
+    "zero": 3,
+    "landfall": 3,
+    "spyware": 3,
+    "via": 3,
+    "attacks": 3,
+    "according": 3,
+    "wild": 3,
+    "targets": 3,
+    "malicious": 3,
+    "last": 3,
+    "updated": 3
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 6
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools",
+      "link": "https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html",
+      "summary": "A China-linked threat actor has been attributed to a cyber attack targeting an U.S. non-profit organization with an aim to establish long-term persistence, as part of broader activity aimed at U.S. en",
+      "urgency": "Medium",
+      "date": "2025-11-07",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ]
+    },
+    {
+      "title": "In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests",
+      "link": "https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech.",
+      "urgency": "Medium",
+      "date": "2025-11-07",
+      "tags": [
+        "ransomware"
+      ]
+    },
+    {
+      "title": "Radical Empowerment From Your Leadership: Understood by Few, Essential for All",
+      "link": "https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/",
+      "summary": "When leaders redefine power as trust instead of control, teams unlock their potential — and organizations find their edge.",
+      "urgency": "Low",
+      "date": "2025-11-07",
+      "tags": [
+        "cybersecurity"
+      ]
+    }
+  ],
   "kpis": {
-    "total_7_days": 0,
-    "total_30_days": 0,
-    "top_tag": "N/A",
-    "last_update": "2025-11-07T09:31:33.060329"
+    "total_7_days": 6,
+    "total_30_days": 6,
+    "top_tag": "vulnerability",
+    "last_update": "2025-11-07T21:11:37.531641"
   }
 }

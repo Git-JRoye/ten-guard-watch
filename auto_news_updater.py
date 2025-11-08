@@ -225,6 +225,86 @@ def create_backup(html_file):
         logging.error(f"Error creating backup: {e}")
         return None
 
+def extract_tags_and_urgency(article):
+    """Extract tags and urgency from article title and summary"""
+    title = article["title"].lower()
+    summary = article.get("summary", "").lower()
+    text = title + " " + summary
+    
+    # Extract tags based on keywords
+    tags = []
+    tag_keywords = {
+        "vulnerability": ["vulnerability", "cve", "exploit", "patch"],
+        "malware": ["malware", "trojan", "virus", "backdoor"],
+        "phishing": ["phishing", "smishing", "social engineering"],
+        "ransomware": ["ransomware", "encryption", "decrypt"],
+        "breach": ["breach", "leak", "data exposure", "compromised"],
+        "apt": ["apt", "nation-state", "espionage", "government"],
+        "attack": ["attack", "campaign", "targeting"],
+        "critical": ["critical", "zero-day", "actively exploited"]
+    }
+    
+    for tag, keywords in tag_keywords.items():
+        if any(kw in text for kw in keywords):
+            tags.append(tag)
+    
+    # Determine urgency
+    urgency = "Low"
+    if any(kw in text for kw in ["critical", "zero-day", "actively exploited", "emergency"]):
+        urgency = "High"
+    elif any(kw in text for kw in ["exploit", "breach", "ransomware", "attack"]):
+        urgency = "Medium"
+    
+    return tags, urgency
+
+def generate_slug(title):
+    """Generate a URL-friendly slug from title"""
+    slug = re.sub(r'[^\w\s-]', '', title.lower())
+    slug = re.sub(r'[-\s]+', '-', slug)
+    return slug[:50]  # Limit length
+
+def save_articles_to_json(articles):
+    """Save articles to JSON file for trends dashboard"""
+    try:
+        # Create news directory if it doesn't exist
+        news_dir = "news"
+        os.makedirs(news_dir, exist_ok=True)
+        
+        # Get today's date
+        date_str = datetime.now().strftime("%Y-%m-%d")
+        json_file = os.path.join(news_dir, f"{date_str}.json")
+        
+        # Prepare items for JSON
+        items = []
+        for article in articles:
+            tags, urgency = extract_tags_and_urgency(article)
+            item = {
+                "title": article["title"],
+                "link": article["link"],
+                "summary": article.get("summary", ""),
+                "tags": tags if tags else ["cybersecurity"],
+                "urgency": urgency,
+                "slug": generate_slug(article["title"]),
+                "source": article.get("source", "Unknown"),
+                "date": date_str
+            }
+            items.append(item)
+        
+        # Save to JSON
+        data = {
+            "date": date_str,
+            "items": items
+        }
+        
+        with open(json_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        
+        logging.info(f"Saved {len(items)} articles to {json_file}")
+        return True
+    except Exception as e:
+        logging.error(f"Error saving articles to JSON: {e}")
+        return False
+
 def generate_professional_summary(article):
     """Generate a professional Security Weekly-style summary"""
     title = article["title"]
@@ -336,6 +416,9 @@ def update_html():
         # Write updated content
         with open(html_file, "w", encoding="utf-8") as file:
             file.write(content)
+        
+        # Save articles to JSON for trends dashboard
+        save_articles_to_json(articles)
         
         # Save update metadata
         update_info = {

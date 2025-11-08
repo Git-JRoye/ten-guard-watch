@@ -34,7 +34,7 @@
             "name": "TenGuard Security",
             "url": "https://www.tenguardsecurity.com"
         },
-        "dateModified": "2025-11-07T09:31:33.060329",
+        "dateModified": "2025-11-07T21:11:37.531641",
         "isAccessibleForFree": true
     }
     </script>
@@ -418,15 +418,322 @@
     <section class="dashboard-section blue-tint" data-aos="fade-up" data-aos-once="true">
         <h1>🛡️ Threat Trends Dashboard</h1>
         <p style="font-size: 1.2em; margin-bottom: 10px;">Real-time cybersecurity intelligence powered by TenGuard Security</p>
-        <p class="update-info">Last updated: <strong>November 07, 2025 at 09:31 AM UTC</strong></p>
+        <p class="update-info">Last updated: <strong>November 07, 2025 at 09:11 PM UTC</strong></p>
         
         
-        <!-- No Data State -->
-        <div class="no-data">
-            <h2>📊 No Data Yet</h2>
-            <p>The threat trends dashboard is being populated with data.</p>
-            <p>Check back soon for the latest cybersecurity intelligence!</p>
+        <!-- KPI Cards -->
+        <div class="kpi-grid">
+            <div class="kpi-card" data-aos="fade-right">
+                <div class="kpi-label">Last 7 Days</div>
+                <div class="kpi-value">6</div>
+                <div class="kpi-label">Threats Tracked</div>
+            </div>
+            <div class="kpi-card" data-aos="fade-up">
+                <div class="kpi-label">Last 30 Days</div>
+                <div class="kpi-value">6</div>
+                <div class="kpi-label">Threats Tracked</div>
+            </div>
+            <div class="kpi-card" data-aos="fade-left">
+                <div class="kpi-label">Top Category</div>
+                <div class="kpi-value" style="font-size: 1.8em;">vulnerability</div>
+                <div class="kpi-label">Most Common Tag</div>
+            </div>
+            <div class="kpi-card" data-aos="fade-up">
+                <div class="kpi-label">Threat Level</div>
+                <div class="kpi-value" style="font-size: 1.8em; color: #dc3545;">High</div>
+                <div class="kpi-label">Primary Urgency</div>
+            </div>
         </div>
+        
+        <!-- Charts -->
+        <div class="chart-grid">
+            <div class="chart-container" data-aos="fade-right">
+                <h2>📊 Threat Categories (30 Days)</h2>
+                <div class="chart-wrapper">
+                    <canvas id="tagChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="chart-container" data-aos="fade-left">
+                <h2>⚠️ Urgency Distribution</h2>
+                <div class="chart-wrapper">
+                    <canvas id="urgencyChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="chart-container" data-aos="fade-right">
+                <h2>📈 Daily Threat Activity</h2>
+                <div class="chart-wrapper">
+                    <canvas id="dailyChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="chart-container" data-aos="fade-left">
+                <h2>🔑 Top Keywords</h2>
+                <div class="chart-wrapper">
+                    <canvas id="keywordChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Top Articles -->
+        <div class="articles-section" data-aos="fade-up">
+            <h2>🔥 Top Threat Articles</h2>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html" target="_blank" rel="noopener noreferrer">
+                        Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2025-11-07</span>
+                </div>
+                <div class="article-summary">A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a "commercial-grade" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The </div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">malware</span>
+                    
+                    <span class="tag">attack</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html" target="_blank" rel="noopener noreferrer">
+                        Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2025-11-07</span>
+                </div>
+                <div class="article-summary">A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">malware</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/" target="_blank" rel="noopener noreferrer">
+                        Landfall Android Spyware Targeted Samsung Phones via Zero-Day
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2025-11-07</span>
+                </div>
+                <div class="article-summary">Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">malware</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html" target="_blank" rel="noopener noreferrer">
+                        From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-medium">Medium</span>
+                    <span>2025-11-07</span>
+                </div>
+                <div class="article-summary">A China-linked threat actor has been attributed to a cyber attack targeting an U.S. non-profit organization with an aim to establish long-term persistence, as part of broader activity aimed at U.S. en</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">apt</span>
+                    
+                    <span class="tag">attack</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/" target="_blank" rel="noopener noreferrer">
+                        In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-medium">Medium</span>
+                    <span>2025-11-07</span>
+                </div>
+                <div class="article-summary">Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech.</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">ransomware</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/" target="_blank" rel="noopener noreferrer">
+                        Radical Empowerment From Your Leadership: Understood by Few, Essential for All
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-low">Low</span>
+                    <span>2025-11-07</span>
+                </div>
+                <div class="article-summary">When leaders redefine power as trust instead of control, teams unlock their potential — and organizations find their edge.</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">cybersecurity</span>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <!-- Data Tables -->
+        <div class="data-table" data-aos="fade-up">
+            <h2>📰 Top Threat Sources</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Articles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>The Hacker News</td>
+                        <td><strong>3</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>SecurityWeek</td>
+                        <td><strong>3</strong></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="data-table" data-aos="fade-up">
+            <h2>🔤 Top Keywords</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Keyword</th>
+                        <th>Frequency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>cve</td>
+                        <td><strong>7</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>samsung</td>
+                        <td><strong>6</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>exploited</td>
+                        <td><strong>5</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>april</td>
+                        <td><strong>5</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>packages</td>
+                        <td><strong>5</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>flaw</td>
+                        <td><strong>4</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>android</td>
+                        <td><strong>4</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>security</td>
+                        <td><strong>4</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>activity</td>
+                        <td><strong>4</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>zero</td>
+                        <td><strong>3</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>landfall</td>
+                        <td><strong>3</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>spyware</td>
+                        <td><strong>3</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>via</td>
+                        <td><strong>3</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>attacks</td>
+                        <td><strong>3</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>according</td>
+                        <td><strong>3</strong></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
         
         
         <!-- CTA Section -->
@@ -462,6 +769,192 @@
             info: '#38bdf8'          // Blue for info
         };
         
+        
+        // Tag Chart
+        const tagCtx = document.getElementById('tagChart').getContext('2d');
+        new Chart(tagCtx, {
+            type: 'bar',
+            data: {
+                labels: ["vulnerability", "malware", "critical", "attack", "apt", "ransomware", "cybersecurity"],
+                datasets: [{
+                    label: 'Occurrences',
+                    data: [3, 3, 3, 2, 1, 1, 1],
+                    backgroundColor: chartColors.primary,
+                    borderColor: chartColors.secondary,
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return 'Count: ' + context.parsed.y;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0,
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Urgency Chart
+        const urgencyCtx = document.getElementById('urgencyChart').getContext('2d');
+        new Chart(urgencyCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['High', 'Medium', 'Low'],
+                datasets: [{
+                    data: [3, 2, 1],
+                    backgroundColor: [
+                        chartColors.danger,
+                        chartColors.warning,
+                        chartColors.success
+                    ],
+                    borderWidth: 2,
+                    borderColor: 'rgba(30, 41, 59, 0.8)'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#e5e7eb'
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ' + context.parsed + ' threats';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Daily Chart
+        const dailyCtx = document.getElementById('dailyChart').getContext('2d');
+        new Chart(dailyCtx, {
+            type: 'line',
+            data: {
+                labels: ["2025-11-07"],
+                datasets: [{
+                    label: 'Threats per Day',
+                    data: [6],
+                    borderColor: chartColors.primary,
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointRadius: 3,
+                    pointHoverRadius: 6,
+                    pointBackgroundColor: chartColors.secondary,
+                    pointBorderColor: chartColors.primary
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0,
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Keyword Chart
+        const keywordCtx = document.getElementById('keywordChart').getContext('2d');
+        new Chart(keywordCtx, {
+            type: 'bar',
+            data: {
+                labels: ["cve", "samsung", "exploited", "april", "packages", "flaw", "android", "security", "activity", "zero"],
+                datasets: [{
+                    label: 'Frequency',
+                    data: [7, 6, 5, 5, 5, 4, 4, 4, 4, 3],
+                    backgroundColor: chartColors.secondary,
+                    borderColor: chartColors.primary,
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0,
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    }
+                }
+            }
+        });
         
         
         // Email form handling
