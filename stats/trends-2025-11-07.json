@@ -1,47 +1,48 @@
 {
   "tag_counts": {
     "7_days": {
+      "critical": 4,
       "vulnerability": 3,
       "malware": 3,
-      "critical": 3,
-      "attack": 2,
-      "apt": 1,
-      "ransomware": 1,
-      "cybersecurity": 1
+      "attack": 3,
+      "apt": 2,
+      "ransomware": 2,
+      "cybersecurity": 2
     },
     "30_days": {
+      "critical": 4,
       "vulnerability": 3,
       "malware": 3,
-      "critical": 3,
-      "attack": 2,
-      "apt": 1,
-      "ransomware": 1,
-      "cybersecurity": 1
+      "attack": 3,
+      "apt": 2,
+      "ransomware": 2,
+      "cybersecurity": 2
     }
   },
   "urgency_counts": {
     "7_days": {
-      "High": 3,
-      "Medium": 2,
-      "Low": 1
+      "High": 4,
+      "Medium": 3,
+      "Low": 2
     },
     "30_days": {
-      "High": 3,
-      "Medium": 2,
-      "Low": 1
+      "High": 4,
+      "Medium": 3,
+      "Low": 2
     }
   },
   "top_sources": {
     "The Hacker News": 3,
-    "SecurityWeek": 3
+    "SecurityWeek": 3,
+    "BleepingComputer": 3
   },
   "top_keywords": {
     "cve": 7,
     "samsung": 6,
+    "flaw": 5,
     "exploited": 5,
     "april": 5,
     "packages": 5,
-    "flaw": 4,
     "android": 4,
     "security": 4,
     "activity": 4,
@@ -50,17 +51,17 @@
     "spyware": 3,
     "via": 3,
     "attacks": 3,
+    "attackers": 3,
     "according": 3,
     "wild": 3,
     "targets": 3,
     "malicious": 3,
-    "last": 3,
-    "updated": 3
+    "systems": 3
   },
   "daily_counts": [
     {
       "date": "2025-11-07",
-      "count": 6
+      "count": 9
     }
   ],
   "top_articles": [
@@ -101,6 +102,17 @@
       ]
     },
     {
+      "title": "Critical Cisco UCCX flaw lets attackers run commands as root",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-uccx-flaw-lets-hackers-run-commands-as-root/",
+      "summary": "",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
       "title": "From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools",
       "link": "https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html",
       "summary": "A China-linked threat actor has been attributed to a cyber attack targeting an U.S. non-profit organization with an aim to establish long-term persistence, as part of broader activity aimed at U.S. en",
@@ -123,6 +135,17 @@
       ]
     },
     {
+      "title": "How a ransomware gang encrypted Nevada government's systems",
+      "link": "https://www.bleepingcomputer.com/news/security/how-a-ransomware-gang-encrypted-nevada-governments-systems/",
+      "summary": "",
+      "urgency": "Medium",
+      "date": "2025-11-07",
+      "tags": [
+        "ransomware",
+        "apt"
+      ]
+    },
+    {
       "title": "Radical Empowerment From Your Leadership: Understood by Few, Essential for All",
       "link": "https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/",
       "summary": "When leaders redefine power as trust instead of control, teams unlock their potential — and organizations find their edge.",
@@ -131,12 +154,22 @@
       "tags": [
         "cybersecurity"
       ]
+    },
+    {
+      "title": "Windows 11 Store gets Ninite-style multi-app installer feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-store-gets-ninite-style-multi-app-installer-feature/",
+      "summary": "",
+      "urgency": "Low",
+      "date": "2025-11-07",
+      "tags": [
+        "cybersecurity"
+      ]
     }
   ],
   "kpis": {
-    "total_7_days": 6,
-    "total_30_days": 6,
-    "top_tag": "vulnerability",
-    "last_update": "2025-11-07T21:11:37.531641"
+    "total_7_days": 9,
+    "total_30_days": 9,
+    "top_tag": "critical",
+    "last_update": "2025-11-07T21:24:02.201404"
   }
 }

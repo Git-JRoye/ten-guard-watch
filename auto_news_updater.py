@@ -178,6 +178,131 @@ def fetch_security_week():
         logging.error(f"Error fetching from SecurityWeek: {e}")
         return []
 
+def fetch_bleepingcomputer():
+    """Fetch latest articles from BleepingComputer"""
+    try:
+        url = "https://www.bleepingcomputer.com/"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept-Encoding': 'gzip, deflate',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+        }
+        response = requests.get(url, headers=headers, timeout=30)
+        response.raise_for_status()
+        
+        soup = BeautifulSoup(response.text, "html.parser")
+        articles = []
+        
+        # Try multiple selectors to find articles on BleepingComputer
+        selectors_to_try = [
+            "article",
+            "div.article",
+            "div.post-item",
+            "div.article-item",
+            "li.article-item"
+        ]
+        
+        items = []
+        for selector in selectors_to_try:
+            items = soup.select(selector)[:3]  # Get top 3
+            if items:
+                logging.info(f"Found {len(items)} items using selector: {selector}")
+                break
+        
+        # If no items found, try finding by class patterns
+        if not items:
+            items = soup.find_all(["article", "div"], class_=lambda x: x and any(word in str(x).lower() for word in ["article", "post", "news", "item"]))[:3]
+        
+        for i, item in enumerate(items):
+            try:
+                logging.info(f"Processing BleepingComputer item {i+1}")
+                
+                # Find title - could be in h1, h2, h3, h4, or a tag
+                title = None
+                link = None
+                
+                # Try finding title in heading tags
+                title_tag = item.find(["h1", "h2", "h3", "h4", "h5"])
+                if title_tag:
+                    title = title_tag.get_text().strip()
+                    # Check if heading contains a link
+                    link_tag = title_tag.find("a")
+                    if link_tag and link_tag.get("href"):
+                        link = link_tag.get("href")
+                
+                # If no title found, try finding link first and get title from it
+                if not title or not link:
+                    link_tag = item.find("a", href=True)
+                    if link_tag:
+                        link = link_tag.get("href")
+                        # Get title from link text or nearby heading
+                        if not title:
+                            title = link_tag.get_text().strip()
+                            if not title or len(title) < 10:
+                                # Try finding heading near the link
+                                heading = link_tag.find(["h1", "h2", "h3", "h4"])
+                                if heading:
+                                    title = heading.get_text().strip()
+                
+                # Make sure link is absolute
+                if link:
+                    if link.startswith("/"):
+                        link = url.rstrip("/") + link
+                    elif not link.startswith("http"):
+                        link = url + link
+                
+                # Find summary/excerpt
+                summary = ""
+                # Try common summary selectors
+                summary_selectors = [
+                    "p.excerpt",
+                    "div.excerpt",
+                    "p.summary",
+                    "div.summary",
+                    "p.description",
+                    "div.description"
+                ]
+                
+                for selector in summary_selectors:
+                    summary_elem = item.select_one(selector)
+                    if summary_elem:
+                        summary = summary_elem.get_text().strip()
+                        break
+                
+                # If no summary found, try first paragraph
+                if not summary:
+                    p_tag = item.find("p")
+                    if p_tag:
+                        summary = p_tag.get_text().strip()
+                        # Limit summary length
+                        if len(summary) > 300:
+                            summary = summary[:300] + "..."
+                
+                if title and link:
+                    articles.append({
+                        "title": title,
+                        "link": link,
+                        "summary": summary,
+                        "source": "BleepingComputer"
+                    })
+                    logging.info(f"Added BleepingComputer article: {title[:50]}...")
+                else:
+                    logging.warning(f"Skipping BleepingComputer item {i+1} - missing title or link")
+                    
+            except Exception as e:
+                logging.warning(f"Skipping BleepingComputer article due to error: {e}")
+                continue
+                
+        logging.info(f"Successfully fetched {len(articles)} articles from BleepingComputer")
+        return articles
+        
+    except Exception as e:
+        logging.error(f"Error fetching from BleepingComputer: {e}")
+        return []
+
 def fetch_cybersecurity_news():
     """Fetch from Cybersecurity News as backup source"""
     try:
@@ -200,7 +325,7 @@ def fetch_cybersecurity_news():
                     if link_tag and link_tag.get("href"):
                         link = link_tag["href"] if link_tag["href"].startswith("http") else url + link_tag["href"]
                         summary = item.find("p").text.strip() if item.find("p") else ""
-                        articles.append({"title": title, "link": link, "summary": summary, "source": "BleepingComputer"})
+                        articles.append({"title": title, "link": link, "summary": summary, "source": "Cybersecurity News"})
             except Exception as e:
                 logging.warning(f"Error parsing Cybersecurity News article: {e}")
                 continue
@@ -359,7 +484,7 @@ def update_html():
         
         # Fetch articles
         logging.info("Fetching latest articles...")
-        articles = fetch_hacker_news() + fetch_security_week()
+        articles = fetch_hacker_news() + fetch_security_week() + fetch_bleepingcomputer()
         
         # Remove Dark Reading since we updated the disclaimer
         # articles = fetch_hacker_news() + fetch_dark_reading() + fetch_security_week()
@@ -406,7 +531,7 @@ def update_html():
             f'<section class="cyber-news" data-aos="fade-up">'
             f'<h1>Daily Cyber News</h1>'
             f'<p>Stay informed with the latest trends and developments in cybersecurity.</p>'
-            f'<p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>'
+            f'<p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>'
             f'{service_cards}'
             f'</section>',
             content,

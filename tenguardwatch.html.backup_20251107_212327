@@ -36,10 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</div><div class="ticker-item">From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools</div><div class="ticker-item">Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation</div><div class="ticker-item">In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</div><div class="ticker-item">Landfall Android Spyware Targeted Samsung Phones via Zero-Day</div><div class="ticker-item">Radical Empowerment From Your Leadership: Understood by Few, Essential for All</div><div class="ticker-item">How a ransomware gang encrypted Nevada government's systems</div><div class="ticker-item">Windows 11 Store gets Ninite-style multi-app installer feature</div><div class="ticker-item">Critical Cisco UCCX flaw lets attackers run commands as root</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</div><div class="ticker-item">From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools</div><div class="ticker-item">Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation</div><div class="ticker-item">In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</div><div class="ticker-item">Landfall Android Spyware Targeted Samsung Phones via Zero-Day</div><div class="ticker-item">Radical Empowerment From Your Leadership: Understood by Few, Essential for All</div></div></div></section>
 
         <!-- Blog Section -->
-        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
             <div class="service-card" data-aos="fade-up">
                 <h3>Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</h3>
                 <p><strong>Summary:</strong> A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a "commercial-grade" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ...</p>
@@ -81,27 +81,6 @@
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
                 <p>Source: SecurityWeek - <a href="https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/" target="_blank">Read Full Article</a></p>
                 <a href="https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>How a ransomware gang encrypted Nevada government's systems</h3>
-                <p><strong>Summary:</strong> </p>
-                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/how-a-ransomware-gang-encrypted-nevada-governments-systems/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/how-a-ransomware-gang-encrypted-nevada-governments-systems/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Windows 11 Store gets Ninite-style multi-app installer feature</h3>
-                <p><strong>Summary:</strong> </p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-store-gets-ninite-style-multi-app-installer-feature/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-store-gets-ninite-style-multi-app-installer-feature/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Critical Cisco UCCX flaw lets attackers run commands as root</h3>
-                <p><strong>Summary:</strong> </p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critical-cisco-uccx-flaw-lets-hackers-run-commands-as-root/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/critical-cisco-uccx-flaw-lets-hackers-run-commands-as-root/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->

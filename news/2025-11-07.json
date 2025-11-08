@@ -80,6 +80,44 @@
       "slug": "radical-empowerment-from-your-leadership-understoo",
       "source": "SecurityWeek",
       "date": "2025-11-07"
+    },
+    {
+      "title": "How a ransomware gang encrypted Nevada government's systems",
+      "link": "https://www.bleepingcomputer.com/news/security/how-a-ransomware-gang-encrypted-nevada-governments-systems/",
+      "summary": "",
+      "tags": [
+        "ransomware",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "how-a-ransomware-gang-encrypted-nevada-governments",
+      "source": "BleepingComputer",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Windows 11 Store gets Ninite-style multi-app installer feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-store-gets-ninite-style-multi-app-installer-feature/",
+      "summary": "",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "windows-11-store-gets-ninite-style-multi-app-insta",
+      "source": "BleepingComputer",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Critical Cisco UCCX flaw lets attackers run commands as root",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-uccx-flaw-lets-hackers-run-commands-as-root/",
+      "summary": "",
+      "tags": [
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-cisco-uccx-flaw-lets-attackers-run-comman",
+      "source": "BleepingComputer",
+      "date": "2025-11-07"
     }
   ]
 }
