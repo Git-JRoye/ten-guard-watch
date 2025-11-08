@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">OpenAI Unveils Aardvark: GPT-5 Agent That Finds and Fixes Code Flaws Automatically</div><div class="ticker-item">Nation-State Hackers Deploy New Airstalk Malware in Suspected Supply Chain Attack</div><div class="ticker-item">China-Linked Hackers Exploit Windows Shortcut Flaw to Target European Diplomats</div><div class="ticker-item">In Other News: WhatsApp Passkey-Encrypted Backups, Russia Targets Meduza Malware, New Mastercard Solution</div><div class="ticker-item">Ukrainian Man Extradited From Ireland to US Over Conti Ransomware Charges</div><div class="ticker-item">Open VSX Downplays Impact From GlassWorm Campaign</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI Unveils Aardvark: GPT-5 Agent That Finds and Fixes Code Flaws Automatically</h3>
+                <p><strong>Summary:</strong> OpenAI has announced the launch of an "agentic security researcher" that's powered by its GPT-5 large language model (LLM) and is programmed to emulate a human expert capable of scanning, understandin...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/openai-unveils-aardvark-gpt-5-agent.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/openai-unveils-aardvark-gpt-5-agent.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nation-State Hackers Deploy New Airstalk Malware in Suspected Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> A suspected nation-state threat actor has been linked to the distribution of a new malware called Airstalk as part of a likely supply chain attack.  Palo Alto Networks Unit 42 said it's tracking the c...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/nation-state-hackers-deploy-new.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/nation-state-hackers-deploy-new.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked Hackers Exploit Windows Shortcut Flaw to Target European Diplomats</h3>
+                <p><strong>Summary:</strong> A China-affiliated threat actor known as UNC6384  has been linked to a fresh set of attacks exploiting an unpatched Windows shortcut vulnerability to target European diplomatic and government entities...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/china-linked-hackers-exploit-windows.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/china-linked-hackers-exploit-windows.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: WhatsApp Passkey-Encrypted Backups, Russia Targets Meduza Malware, New Mastercard Solution</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: several interesting Android malware families, UN cybercrime treaty, criminal complaint against Clearview AI in Europe.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-whatsapp-passkey-encrypted-backups-russia-targets-meduza-malware-new-mastercard-solution/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-whatsapp-passkey-encrypted-backups-russia-targets-meduza-malware-new-mastercard-solution/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ukrainian Man Extradited From Ireland to US Over Conti Ransomware Charges</h3>
+                <p><strong>Summary:</strong> Oleksii Oleksiyovych Lytvynenko is now in the US after being held in custody in Ireland since 2023.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ukrainian-man-extradited-from-ireland-to-us-over-conti-ransomware-charges/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ukrainian-man-extradited-from-ireland-to-us-over-conti-ransomware-charges/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Open VSX Downplays Impact From GlassWorm Campaign</h3>
+                <p><strong>Summary:</strong> Open VSX fully contained the GlassWorm attacks and says it was not a self-replicating worm in the traditional sense.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/open-vsx-downplays-impact-from-glassworm-campaign/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/open-vsx-downplays-impact-from-glassworm-campaign/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
