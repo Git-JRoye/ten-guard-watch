@@ -196,101 +196,85 @@ def fetch_bleepingcomputer():
         soup = BeautifulSoup(response.text, "html.parser")
         articles = []
         
-        # Try multiple selectors to find articles on BleepingComputer
-        selectors_to_try = [
-            "article",
-            "div.article",
-            "div.post-item",
-            "div.article-item",
-            "li.article-item"
-        ]
+        # Based on screenshot: articles are in ul#bc-home-news-main-wrap > li
+        # Title is in h4.bc_latest_news_text > a
+        items = soup.select("ul#bc-home-news-main-wrap li")[:15]  # Get more to filter
         
-        items = []
-        for selector in selectors_to_try:
-            items = soup.select(selector)[:3]  # Get top 3
-            if items:
-                logging.info(f"Found {len(items)} items using selector: {selector}")
-                break
-        
-        # If no items found, try finding by class patterns
         if not items:
-            items = soup.find_all(["article", "div"], class_=lambda x: x and any(word in str(x).lower() for word in ["article", "post", "news", "item"]))[:3]
+            # Fallback: try alternative selectors
+            items = soup.select("li.bc_latest_news_item, li.article-item, article, div.bc_latest_news_text")[:15]
+        
+        logging.info(f"Found {len(items)} potential items from BleepingComputer")
         
         for i, item in enumerate(items):
             try:
-                logging.info(f"Processing BleepingComputer item {i+1}")
-                
-                # Find title - could be in h1, h2, h3, h4, or a tag
                 title = None
                 link = None
+                summary = ""
                 
-                # Try finding title in heading tags
-                title_tag = item.find(["h1", "h2", "h3", "h4", "h5"])
-                if title_tag:
-                    title = title_tag.get_text().strip()
-                    # Check if heading contains a link
-                    link_tag = title_tag.find("a")
-                    if link_tag and link_tag.get("href"):
+                # Method 1: Find h4 with class bc_latest_news_text (from screenshot)
+                h4_tag = item.find("h4", class_="bc_latest_news_text")
+                if h4_tag:
+                    link_tag = h4_tag.find("a", href=True)
+                    if link_tag:
+                        title = link_tag.get_text().strip()
                         link = link_tag.get("href")
                 
-                # If no title found, try finding link first and get title from it
+                # Method 2: If no h4 found, try finding any h4 with a link
+                if not title or not link:
+                    h4_tag = item.find("h4")
+                    if h4_tag:
+                        link_tag = h4_tag.find("a", href=True)
+                        if link_tag:
+                            title = link_tag.get_text().strip()
+                            link = link_tag.get("href")
+                
+                # Method 3: Try finding any link with a substantial title
                 if not title or not link:
                     link_tag = item.find("a", href=True)
                     if link_tag:
-                        link = link_tag.get("href")
-                        # Get title from link text or nearby heading
-                        if not title:
-                            title = link_tag.get_text().strip()
-                            if not title or len(title) < 10:
-                                # Try finding heading near the link
-                                heading = link_tag.find(["h1", "h2", "h3", "h4"])
-                                if heading:
-                                    title = heading.get_text().strip()
+                        potential_title = link_tag.get_text().strip()
+                        # Only use if it looks like a title (not too short, not too long)
+                        if len(potential_title) > 20 and len(potential_title) < 200:
+                            title = potential_title
+                            link = link_tag.get("href")
                 
-                # Make sure link is absolute
                 if link:
+                    # Make sure link is absolute
                     if link.startswith("/"):
                         link = url.rstrip("/") + link
                     elif not link.startswith("http"):
                         link = url + link
-                
-                # Find summary/excerpt
-                summary = ""
-                # Try common summary selectors
-                summary_selectors = [
-                    "p.excerpt",
-                    "div.excerpt",
-                    "p.summary",
-                    "div.summary",
-                    "p.description",
-                    "div.description"
-                ]
-                
-                for selector in summary_selectors:
-                    summary_elem = item.select_one(selector)
+                    
+                    # Find summary/excerpt
+                    # Look for summary in the item
+                    summary_elem = item.find("p", class_=lambda x: x and ("excerpt" in str(x).lower() or "summary" in str(x).lower()))
+                    if not summary_elem:
+                        summary_elem = item.find("div", class_=lambda x: x and ("excerpt" in str(x).lower() or "summary" in str(x).lower()))
                     if summary_elem:
                         summary = summary_elem.get_text().strip()
-                        break
-                
-                # If no summary found, try first paragraph
-                if not summary:
-                    p_tag = item.find("p")
-                    if p_tag:
-                        summary = p_tag.get_text().strip()
-                        # Limit summary length
-                        if len(summary) > 300:
-                            summary = summary[:300] + "..."
-                
-                if title and link:
-                    articles.append({
-                        "title": title,
-                        "link": link,
-                        "summary": summary,
-                        "source": "BleepingComputer"
-                    })
-                    logging.info(f"Added BleepingComputer article: {title[:50]}...")
+                    else:
+                        # Try first paragraph
+                        p_tag = item.find("p")
+                        if p_tag:
+                            summary = p_tag.get_text().strip()
+                            if len(summary) > 300:
+                                summary = summary[:300] + "..."
+                    
+                    if title and link:
+                        articles.append({
+                            "title": title,
+                            "link": link,
+                            "summary": summary,
+                            "source": "BleepingComputer"
+                        })
+                        logging.info(f"Added BleepingComputer article: {title[:50]}...")
+                        
+                        # Stop after getting 3 articles
+                        if len(articles) >= 3:
+                            break
                 else:
-                    logging.warning(f"Skipping BleepingComputer item {i+1} - missing title or link")
+                    logging.debug(f"No link found in BleepingComputer item {i+1}")
                     
             except Exception as e:
                 logging.warning(f"Skipping BleepingComputer article due to error: {e}")
@@ -335,6 +319,102 @@ def fetch_cybersecurity_news():
     except Exception as e:
         logging.error(f"Error fetching Cybersecurity News: {e}")
         return []
+
+def normalize_title(title):
+    """Normalize title for comparison by removing special chars and converting to lowercase"""
+    if not title:
+        return ""
+    # Convert to lowercase
+    normalized = title.lower()
+    # Remove special characters and extra spaces
+    normalized = re.sub(r'[^\w\s]', '', normalized)
+    # Remove extra spaces
+    normalized = ' '.join(normalized.split())
+    return normalized
+
+def are_titles_similar(title1, title2, threshold=0.7):
+    """
+    Check if two titles are similar (same story from different sources)
+    Uses normalized title comparison and word overlap
+    """
+    if not title1 or not title2:
+        return False
+    
+    norm1 = normalize_title(title1)
+    norm2 = normalize_title(title2)
+    
+    # Exact match after normalization
+    if norm1 == norm2:
+        return True
+    
+    # Check if one title contains the other (for cases like "Article Title" vs "Article Title - Updated")
+    if len(norm1) > 20 and len(norm2) > 20:
+        if norm1 in norm2 or norm2 in norm1:
+            return True
+    
+    # Word-based similarity check
+    words1 = set(norm1.split())
+    words2 = set(norm2.split())
+    
+    # Remove common stopwords for better comparison
+    stopwords = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'from', 'as', 'is', 'was', 'are', 'were', 'been', 'be', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'must', 'can', 'this', 'that', 'these', 'those'}
+    words1 = words1 - stopwords
+    words2 = words2 - stopwords
+    
+    if not words1 or not words2:
+        return False
+    
+    # Calculate Jaccard similarity (intersection over union)
+    intersection = len(words1 & words2)
+    union = len(words1 | words2)
+    
+    if union == 0:
+        return False
+    
+    similarity = intersection / union
+    
+    # Also check if significant words overlap
+    significant_words1 = {w for w in words1 if len(w) > 4}  # Words longer than 4 chars
+    significant_words2 = {w for w in words2 if len(w) > 4}
+    
+    if significant_words1 and significant_words2:
+        significant_overlap = len(significant_words1 & significant_words2) / len(significant_words1 | significant_words2)
+        if significant_overlap >= threshold:
+            return True
+    
+    return similarity >= threshold
+
+def deduplicate_articles(articles):
+    """
+    Remove duplicate articles across different sources.
+    If two articles have similar titles, keep the first one encountered.
+    """
+    if not articles:
+        return articles
+    
+    unique_articles = []
+    seen_titles = []
+    
+    for article in articles:
+        title = article.get("title", "")
+        is_duplicate = False
+        
+        # Check against all previously seen titles
+        for seen_title in seen_titles:
+            if are_titles_similar(title, seen_title):
+                logging.info(f"Skipping duplicate article: '{title[:60]}...' (similar to: '{seen_title[:60]}...')")
+                is_duplicate = True
+                break
+        
+        if not is_duplicate:
+            unique_articles.append(article)
+            seen_titles.append(title)
+    
+    removed_count = len(articles) - len(unique_articles)
+    if removed_count > 0:
+        logging.info(f"Removed {removed_count} duplicate article(s). Kept {len(unique_articles)} unique articles.")
+    
+    return unique_articles
 
 def create_backup(html_file):
     """Create a backup of the current HTML file"""
@@ -489,11 +569,17 @@ def update_html():
         # Remove Dark Reading since we updated the disclaimer
         # articles = fetch_hacker_news() + fetch_dark_reading() + fetch_security_week()
         
-        # If we don't have enough articles, try backup source
+        # Remove duplicate articles across sources
+        logging.info(f"Checking for duplicates among {len(articles)} articles...")
+        articles = deduplicate_articles(articles)
+        
+        # If we don't have enough articles after deduplication, try backup source
         if len(articles) < 5:
-            logging.info("Not enough articles, trying backup source...")
+            logging.info("Not enough articles after deduplication, trying backup source...")
             backup_articles = fetch_cybersecurity_news()
-            articles.extend(backup_articles)
+            # Deduplicate backup articles too
+            all_articles = articles + backup_articles
+            articles = deduplicate_articles(all_articles)
         
         if not articles:
             logging.error("No articles fetched. Aborting update.")

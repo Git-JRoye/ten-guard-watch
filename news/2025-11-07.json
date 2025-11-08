@@ -82,40 +82,38 @@
       "date": "2025-11-07"
     },
     {
-      "title": "How a ransomware gang encrypted Nevada government's systems",
-      "link": "https://www.bleepingcomputer.com/news/security/how-a-ransomware-gang-encrypted-nevada-governments-systems/",
-      "summary": "",
+      "title": "Malicious NuGet packages drop disruptive 'time bombs'",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-nuget-packages-drop-disruptive-time-bombs/",
+      "summary": "Several malicious packages on NuGet have sabotage payloads scheduled to activate in 2027 and 2028, targeting database implementations and Siemens S7 industrial control devices.",
       "tags": [
-        "ransomware",
-        "apt"
+        "attack"
       ],
-      "urgency": "Medium",
-      "slug": "how-a-ransomware-gang-encrypted-nevada-governments",
+      "urgency": "Low",
+      "slug": "malicious-nuget-packages-drop-disruptive-time-bomb",
       "source": "BleepingComputer",
       "date": "2025-11-07"
     },
     {
-      "title": "Windows 11 Store gets Ninite-style multi-app installer feature",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-store-gets-ninite-style-multi-app-installer-feature/",
-      "summary": "",
+      "title": "Microsoft testing faster Quick Machine Recovery in Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-faster-quick-machine-recovery-in-windows-11/",
+      "summary": "Microsoft is testing a faster version of Quick Machine Recovery (QMR) and updated Smart App Control (SAC), allowing users to toggle it without requiring a Windows clean install.",
       "tags": [
         "cybersecurity"
       ],
       "urgency": "Low",
-      "slug": "windows-11-store-gets-ninite-style-multi-app-insta",
+      "slug": "microsoft-testing-faster-quick-machine-recovery-in",
       "source": "BleepingComputer",
       "date": "2025-11-07"
     },
     {
-      "title": "Critical Cisco UCCX flaw lets attackers run commands as root",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-uccx-flaw-lets-hackers-run-commands-as-root/",
-      "summary": "",
+      "title": "How to find and remove viral AI notetakers",
+      "link": "https://www.bleepingcomputer.com/go/68/",
+      "summary": "Your AI notetaker just joined...but did anyone invite it?",
       "tags": [
-        "attack",
-        "critical"
+        "cybersecurity"
       ],
-      "urgency": "High",
-      "slug": "critical-cisco-uccx-flaw-lets-attackers-run-comman",
+      "urgency": "Low",
+      "slug": "how-to-find-and-remove-viral-ai-notetakers",
       "source": "BleepingComputer",
       "date": "2025-11-07"
     }

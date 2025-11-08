@@ -36,7 +36,7 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</div><div class="ticker-item">From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools</div><div class="ticker-item">Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation</div><div class="ticker-item">In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</div><div class="ticker-item">Landfall Android Spyware Targeted Samsung Phones via Zero-Day</div><div class="ticker-item">Radical Empowerment From Your Leadership: Understood by Few, Essential for All</div><div class="ticker-item">Malicious NuGet packages drop disruptive 'time bombs'</div><div class="ticker-item">Microsoft testing faster Quick Machine Recovery in Windows 11</div><div class="ticker-item">How to find and remove viral AI notetakers</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</div><div class="ticker-item">From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools</div><div class="ticker-item">Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation</div><div class="ticker-item">In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</div><div class="ticker-item">Landfall Android Spyware Targeted Samsung Phones via Zero-Day</div><div class="ticker-item">Radical Empowerment From Your Leadership: Understood by Few, Essential for All</div><div class="ticker-item">Malicious NuGet packages drop disruptive 'time bombs'</div><div class="ticker-item">Microsoft testing faster Quick Machine Recovery in Windows 11</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
@@ -95,13 +95,6 @@
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
                 <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-faster-quick-machine-recovery-in-windows-11/" target="_blank">Read Full Article</a></p>
                 <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-faster-quick-machine-recovery-in-windows-11/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>How to find and remove viral AI notetakers</h3>
-                <p><strong>Summary:</strong> Your AI notetaker just joined...but did anyone invite it?</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/68/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/go/68/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
