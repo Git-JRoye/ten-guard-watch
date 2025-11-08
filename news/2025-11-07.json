@@ -44,6 +44,44 @@
       "date": "2025-11-07"
     },
     {
+      "title": "Enterprise Credentials at Risk – Same Old, Same Old?",
+      "link": "https://thehackernews.com/2025/11/enterprise-credentials-at-risk-same-old.html",
+      "summary": "Imagine this: Sarah from accounting gets what looks like a routine password reset email from your organization's cloud provider. She clicks the link, types in her credentials, and goes back to her spreadsheet. But unknown to her, she's just made a big mistake. Sarah just accidentally handed over her login details to cybercriminals who are laughing all the way to their dark web marketplace, where they'll sell her credentials for about $15. Not much as a one-off, but a serious money-making operation when scaled up.  The credential compromise lifecycle   Users create credentials:  With dozens of standalone business apps (each with its own login) your employees must create numerous accounts. But keeping track of multiple unique usernames/passwords is a pain, so they reuse passwords or make tiny variations.  Hackers compromise credentials:  Attackers snag these credentials through phishing, brute force attacks, third-party breaches, or exposed API keys. And many times, no...",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "enterprise-credentials-at-risk-same-old-same-old",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Google Launches New Maps Feature to Help Businesses Report Review-Based Extortion Attempts",
+      "link": "https://thehackernews.com/2025/11/google-launches-new-maps-feature-to.html",
+      "summary": "Google on Thursday said it's rolling out a dedicated form to allow businesses listed on Google Maps to report extortion attempts made by threat actors who post inauthentic bad reviews on the platform and demand ransoms to remove the negative comments.  The approach is designed to tackle a common practice called review bombing , where online users intentionally post negative user reviews in an attempt to harm a product, a service, or a business.  \"Bad actors try to circumvent our moderation systems and flood a business's profile with fake one-star reviews,\" Laurie Richardson, vice president of Trust & Safety at Google, said . \"Following this initial attack, the scammers directly contact the business owner, often through third-party messaging apps, to demand payment.\"  The threat actors warn of further escalation should the victim fail to pay the fee, risking potential damage to their public rating and reputation. These ploys are seen as an attempt to coe...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-launches-new-maps-feature-to-help-businesse",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Vibe-Coded Malicious VS Code Extension Found with Built-In Ransomware Capabilities",
+      "link": "https://thehackernews.com/2025/11/vibe-coded-malicious-vs-code-extension.html",
+      "summary": "Cybersecurity researchers have flagged a malicious Visual Studio Code (VS Code) extension with basic ransomware capabilities that appears to be created with the help of artificial intelligence – in other words, vibe-coded.  Secure Annex researcher John Tuckner, who flagged  the extension \" susvsex ,\" said it does not attempt to hide its malicious functionality. The extension was uploaded on November 5, 2025, by a user named \"suspublisher18\" along with the description \"Just testing\" and the email address \"donotsupport@example[.]com.\"  \"Automatically zips, uploads, and encrypts files from C:\\Users\\Public\\testing (Windows) or /tmp/testing (macOS) on first launch,\" reads the description of the extension. As of November 6, Microsoft has stepped in to remove  it from the official VS Code Extension Marketplace.   According to details shared by \"suspublisher18,\" the extension is designed to automatically activate itself on any even...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "vibe-coded-malicious-vs-code-extension-found-with-",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
       "title": "In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests",
       "link": "https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/",
       "summary": "Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech.",
@@ -82,6 +120,44 @@
       "date": "2025-11-07"
     },
     {
+      "title": "Data Exposure Vulnerability Found in Deep Learning Tool Keras",
+      "link": "https://www.securityweek.com/data-exposure-vulnerability-found-in-deep-learning-tool-keras/",
+      "summary": "The vulnerability is tracked as CVE-2025-12058 and it can be exploited for arbitrary file loading and conducting SSRF attacks.",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "data-exposure-vulnerability-found-in-deep-learning",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "ClickFix Attacks Against macOS Users Evolving",
+      "link": "https://www.securityweek.com/clickfix-attacks-against-macos-users-evolving/",
+      "summary": "ClickFix prompts typically contain instructions for Windows users, but now they are tailored for macOS and they are getting increasingly convincing.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "clickfix-attacks-against-macos-users-evolving",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "DOJ Antitrust Review Clears Google’s $32 Billion Acquisition of Wiz",
+      "link": "https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/",
+      "summary": "Google’s acquisition of Wiz is expected to close in 2026, but there are other reviews that need to be cleared.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "doj-antitrust-review-clears-googles-32-billion-acq",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
       "title": "Malicious NuGet packages drop disruptive 'time bombs'",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-nuget-packages-drop-disruptive-time-bombs/",
       "summary": "Several malicious packages on NuGet have sabotage payloads scheduled to activate in 2027 and 2028, targeting database implementations and Siemens S7 industrial control devices.",
@@ -106,14 +182,27 @@
       "date": "2025-11-07"
     },
     {
-      "title": "How to find and remove viral AI notetakers",
-      "link": "https://www.bleepingcomputer.com/go/68/",
-      "summary": "Your AI notetaker just joined...but did anyone invite it?",
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
       "tags": [
-        "cybersecurity"
+        "critical"
       ],
-      "urgency": "Low",
-      "slug": "how-to-find-and-remove-viral-ai-notetakers",
+      "urgency": "High",
+      "slug": "5-critical-microsoft-365-security-settings-you-cou",
+      "source": "BleepingComputer",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "QNAP fixes seven NAS zero-day flaws exploited at Pwn2Own",
+      "link": "https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/",
+      "summary": "QNAP has fixed seven zero-day vulnerabilities that security researchers exploited to hack QNAP network-attached storage (NAS) devices during the Pwn2Own Ireland 2025 competition.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "qnap-fixes-seven-nas-zero-day-flaws-exploited-at-p",
       "source": "BleepingComputer",
       "date": "2025-11-07"
     }

@@ -36,7 +36,7 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</div><div class="ticker-item">From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools</div><div class="ticker-item">Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation</div><div class="ticker-item">Enterprise Credentials at Risk – Same Old, Same Old?</div><div class="ticker-item">Google Launches New Maps Feature to Help Businesses Report Review-Based Extortion Attempts</div><div class="ticker-item">Vibe-Coded Malicious VS Code Extension Found with Built-In Ransomware Capabilities</div><div class="ticker-item">In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</div><div class="ticker-item">Landfall Android Spyware Targeted Samsung Phones via Zero-Day</div><div class="ticker-item">Radical Empowerment From Your Leadership: Understood by Few, Essential for All</div><div class="ticker-item">Data Exposure Vulnerability Found in Deep Learning Tool Keras</div><div class="ticker-item">ClickFix Attacks Against macOS Users Evolving</div><div class="ticker-item">DOJ Antitrust Review Clears Google’s $32 Billion Acquisition of Wiz</div><div class="ticker-item">Malicious NuGet packages drop disruptive 'time bombs'</div><div class="ticker-item">Microsoft testing faster Quick Machine Recovery in Windows 11</div><div class="ticker-item">5 Critical Microsoft 365 Security Settings You Could Be Missing</div><div class="ticker-item">QNAP fixes seven NAS zero-day flaws exploited at Pwn2Own</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</div><div class="ticker-item">From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools</div><div class="ticker-item">Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation</div><div class="ticker-item">In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</div><div class="ticker-item">Landfall Android Spyware Targeted Samsung Phones via Zero-Day</div><div class="ticker-item">Radical Empowerment From Your Leadership: Understood by Few, Essential for All</div><div class="ticker-item">Malicious NuGet packages drop disruptive 'time bombs'</div><div class="ticker-item">Microsoft testing faster Quick Machine Recovery in Windows 11</div><div class="ticker-item">How to find and remove viral AI notetakers</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
@@ -62,27 +62,6 @@
                 <a href="https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Enterprise Credentials at Risk – Same Old, Same Old?</h3>
-                <p><strong>Summary:</strong> Imagine this: Sarah from accounting gets what looks like a routine password reset email from your organization's cloud provider. She clicks the link, types in her credentials, and goes back to her spr...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/enterprise-credentials-at-risk-same-old.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/11/enterprise-credentials-at-risk-same-old.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Google Launches New Maps Feature to Help Businesses Report Review-Based Extortion Attempts</h3>
-                <p><strong>Summary:</strong> Google on Thursday said it's rolling out a dedicated form to allow businesses listed on Google Maps to report extortion attempts made by threat actors who post inauthentic bad reviews on the platform ...</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/google-launches-new-maps-feature-to.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/11/google-launches-new-maps-feature-to.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Vibe-Coded Malicious VS Code Extension Found with Built-In Ransomware Capabilities</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a malicious Visual Studio Code (VS Code) extension with basic ransomware capabilities that appears to be created with the help of artificial intelligence – in ot...</p>
-                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/vibe-coded-malicious-vs-code-extension.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/11/vibe-coded-malicious-vs-code-extension.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</h3>
                 <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech.</p>
                 <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
@@ -104,27 +83,6 @@
                 <a href="https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Data Exposure Vulnerability Found in Deep Learning Tool Keras</h3>
-                <p><strong>Summary:</strong> The vulnerability is tracked as CVE-2025-12058 and it can be exploited for arbitrary file loading and conducting SSRF attacks.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/data-exposure-vulnerability-found-in-deep-learning-tool-keras/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/data-exposure-vulnerability-found-in-deep-learning-tool-keras/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>ClickFix Attacks Against macOS Users Evolving</h3>
-                <p><strong>Summary:</strong> ClickFix prompts typically contain instructions for Windows users, but now they are tailored for macOS and they are getting increasingly convincing.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/clickfix-attacks-against-macos-users-evolving/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/clickfix-attacks-against-macos-users-evolving/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>DOJ Antitrust Review Clears Google’s $32 Billion Acquisition of Wiz</h3>
-                <p><strong>Summary:</strong> Google’s acquisition of Wiz is expected to close in 2026, but there are other reviews that need to be cleared.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
                 <h3>Malicious NuGet packages drop disruptive 'time bombs'</h3>
                 <p><strong>Summary:</strong> Several malicious packages on NuGet have sabotage payloads scheduled to activate in 2027 and 2028, targeting database implementations and Siemens S7 industrial control devices.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
@@ -139,18 +97,11 @@
                 <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-faster-quick-machine-recovery-in-windows-11/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>5 Critical Microsoft 365 Security Settings You Could Be Missing</h3>
-                <p><strong>Summary:</strong> A checklist for securing Microsoft 365.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/67/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/go/67/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>QNAP fixes seven NAS zero-day flaws exploited at Pwn2Own</h3>
-                <p><strong>Summary:</strong> QNAP has fixed seven zero-day vulnerabilities that security researchers exploited to hack QNAP network-attached storage (NAS) devices during the Pwn2Own Ireland 2025 competition.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>How to find and remove viral AI notetakers</h3>
+                <p><strong>Summary:</strong> Your AI notetaker just joined...but did anyone invite it?</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/68/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/68/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->

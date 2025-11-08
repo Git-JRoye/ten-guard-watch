@@ -36,7 +36,7 @@ def fetch_hacker_news():
         soup = BeautifulSoup(response.text, "html.parser")
         articles = []
         
-        for item in soup.find_all("div", class_="body-post clear")[:3]:
+        for item in soup.find_all("div", class_="body-post clear")[:6]:
             try:
                 title = item.find("h2").text.strip()
                 link = item.find("a")["href"]
@@ -118,14 +118,14 @@ def fetch_security_week():
         
         items = []
         for selector in selectors_to_try:
-            items = soup.select(selector)[:3]  # Get top 3
+            items = soup.select(selector)[:6]  # Get top 6 to allow for deduplication
             if items:
                 logging.info(f"Found {len(items)} items using selector: {selector}")
                 break
         
         if not items:
             # Fallback: look for any article-like structure
-            items = soup.find_all(["article", "div"], class_=lambda x: x and any(word in x.lower() for word in ["post", "article", "news", "item"]))[:3]
+            items = soup.find_all(["article", "div"], class_=lambda x: x and any(word in x.lower() for word in ["post", "article", "news", "item"]))[:6]
         
         for i, item in enumerate(items):
             try:
@@ -270,8 +270,8 @@ def fetch_bleepingcomputer():
                         })
                         logging.info(f"Added BleepingComputer article: {title[:50]}...")
                         
-                        # Stop after getting 3 articles
-                        if len(articles) >= 3:
+                        # Stop after getting 6 articles (will be deduplicated later)
+                        if len(articles) >= 6:
                             break
                 else:
                     logging.debug(f"No link found in BleepingComputer item {i+1}")
@@ -562,7 +562,8 @@ def update_html():
         with open(html_file, "r", encoding="utf-8") as file:
             content = file.read()
         
-        # Fetch articles
+        # Fetch articles (fetching 6 from each source = 18 total)
+        # This allows deduplication to create variable daily counts for better trend visualization
         logging.info("Fetching latest articles...")
         articles = fetch_hacker_news() + fetch_security_week() + fetch_bleepingcomputer()
         
@@ -570,6 +571,8 @@ def update_html():
         # articles = fetch_hacker_news() + fetch_dark_reading() + fetch_security_week()
         
         # Remove duplicate articles across sources
+        # After deduplication, we'll have a variable number (typically 8-15 unique articles)
+        # This creates meaningful trends in the daily activity chart
         logging.info(f"Checking for duplicates among {len(articles)} articles...")
         articles = deduplicate_articles(articles)
         
