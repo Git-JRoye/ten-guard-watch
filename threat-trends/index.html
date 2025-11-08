@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Threat Trends Dashboard | TenGuard Security</title>
     <meta name="description" content="Real-time cybersecurity threat trends and intelligence dashboard powered by TenGuard Security. Track emerging threats, vulnerabilities, and security incidents.">
+    <meta name="keywords" content="threat trends, cybersecurity intelligence, threat dashboard, security analytics, TenGuard Security">
+    <meta name="author" content="TenGuard Security">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.tenguardsecurity.com/threat-trends/">
     <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="TenGuard Security RSS Feed">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles_v5.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -25,142 +39,149 @@
     }
     </script>
     
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        /* Dashboard-specific styles matching site theme */
+        .dashboard-section {
+            background: rgba(30, 41, 59, 0.8);
+            color: #e5e7eb;
+            padding: 50px 20px;
+            border-radius: 10px;
+            max-width: 90%;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
+        .dashboard-section h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            text-align: center;
         }
         
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
+        .dashboard-section h2 {
+            font-size: 2rem;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            text-align: center;
         }
         
-        header {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 30px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        }
-        
-        h1 {
-            color: #667eea;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        
-        .subtitle {
-            color: #666;
-            font-size: 1.1em;
+        .dashboard-section h3 {
+            font-size: 1.5rem;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
         }
         
         .kpi-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
-            margin-bottom: 30px;
+            margin: 30px 0;
         }
         
         .kpi-card {
-            background: white;
+            background: rgba(30, 41, 59, 0.6);
             padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            transition: all 0.3s ease;
         }
         
         .kpi-card:hover {
-            transform: translateY(-5px);
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6);
+            border-color: #10b981;
         }
         
         .kpi-value {
             font-size: 2.5em;
             font-weight: bold;
-            color: #667eea;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin: 10px 0;
         }
         
         .kpi-label {
-            color: #666;
+            color: #e5e7eb;
             font-size: 0.9em;
             text-transform: uppercase;
             letter-spacing: 1px;
+            opacity: 0.8;
         }
         
         .chart-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
             gap: 30px;
-            margin-bottom: 30px;
+            margin: 30px 0;
         }
         
         .chart-container {
-            background: white;
+            background: rgba(30, 41, 59, 0.6);
             padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            border: 2px solid rgba(16, 185, 129, 0.3);
         }
         
         .chart-container h2 {
-            color: #667eea;
-            margin-bottom: 20px;
             font-size: 1.5em;
+            margin-bottom: 20px;
         }
         
         .chart-wrapper {
             position: relative;
             height: 300px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            padding: 10px;
         }
         
         .articles-section {
-            background: white;
+            background: rgba(30, 41, 59, 0.6);
             padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            margin-bottom: 30px;
+            border-radius: 10px;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            margin: 30px 0;
         }
         
         .article-card {
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #10b981;
             padding: 20px;
             margin-bottom: 20px;
-            background: #f8f9fa;
+            background: rgba(0, 0, 0, 0.2);
             border-radius: 8px;
             transition: all 0.3s ease;
         }
         
         .article-card:hover {
-            background: #e9ecef;
+            background: rgba(0, 0, 0, 0.3);
             transform: translateX(5px);
+            box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
         }
         
         .article-title {
             font-size: 1.3em;
-            color: #333;
             margin-bottom: 10px;
         }
         
         .article-title a {
-            color: #667eea;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             text-decoration: none;
         }
         
         .article-title a:hover {
-            text-decoration: underline;
+            background: linear-gradient(90deg, #38bdf8, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         
         .urgency-badge {
@@ -184,19 +205,21 @@
         }
         
         .urgency-low {
-            background: #28a745;
+            background: #10b981;
             color: white;
         }
         
         .article-meta {
-            color: #666;
+            color: #e5e7eb;
             font-size: 0.9em;
             margin-bottom: 10px;
+            opacity: 0.8;
         }
         
         .article-summary {
-            color: #555;
+            color: #e5e7eb;
             line-height: 1.6;
+            margin: 10px 0;
         }
         
         .tags {
@@ -205,23 +228,75 @@
         
         .tag {
             display: inline-block;
-            background: #e9ecef;
+            background: rgba(16, 185, 129, 0.2);
+            color: #10b981;
             padding: 4px 10px;
             border-radius: 15px;
             font-size: 0.85em;
             margin-right: 8px;
             margin-top: 5px;
-            color: #495057;
+            border: 1px solid rgba(16, 185, 129, 0.4);
+        }
+        
+        .data-table {
+            width: 100%;
+            background: rgba(30, 41, 59, 0.6);
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            margin: 30px 0;
+        }
+        
+        .data-table h2 {
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .data-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .data-table th {
+            background: rgba(16, 185, 129, 0.3);
+            color: #e5e7eb;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid rgba(16, 185, 129, 0.5);
+        }
+        
+        .data-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e5e7eb;
+        }
+        
+        .data-table tr:hover {
+            background: rgba(16, 185, 129, 0.1);
+        }
+        
+        .no-data {
+            text-align: center;
+            padding: 60px 20px;
+            color: #e5e7eb;
+        }
+        
+        .no-data h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            opacity: 0.7;
         }
         
         .cta-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: rgba(30, 41, 59, 0.8);
+            color: #e5e7eb;
             padding: 50px 30px;
-            border-radius: 15px;
+            border-radius: 10px;
             text-align: center;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin: 30px auto;
+            max-width: 90%;
+            border: 2px solid rgba(16, 185, 129, 0.3);
         }
         
         .cta-section h2 {
@@ -232,25 +307,7 @@
         .cta-section p {
             font-size: 1.2em;
             margin-bottom: 30px;
-            opacity: 0.95;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background: white;
-            color: #667eea;
-            padding: 15px 40px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.1em;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            opacity: 0.9;
         }
         
         .email-form {
@@ -263,78 +320,41 @@
         .email-form input {
             flex: 1;
             padding: 15px;
-            border: none;
-            border-radius: 30px;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            border-radius: 5px;
             font-size: 1em;
+            background: rgba(30, 41, 59, 0.6);
+            color: #e5e7eb;
+        }
+        
+        .email-form input::placeholder {
+            color: rgba(229, 231, 235, 0.5);
         }
         
         .email-form button {
-            background: #333;
+            background: #10b981;
             color: white;
             border: none;
             padding: 15px 30px;
-            border-radius: 30px;
+            border-radius: 5px;
             font-weight: bold;
             cursor: pointer;
             transition: background 0.3s ease;
         }
         
         .email-form button:hover {
-            background: #555;
+            background: #059669;
         }
         
-        .data-table {
-            width: 100%;
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            margin-bottom: 30px;
-        }
-        
-        .data-table table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        
-        .data-table th {
-            background: #667eea;
-            color: white;
-            padding: 15px;
-            text-align: left;
-            font-weight: 600;
-        }
-        
-        .data-table td {
-            padding: 12px 15px;
-            border-bottom: 1px solid #e9ecef;
-        }
-        
-        .data-table tr:hover {
-            background: #f8f9fa;
-        }
-        
-        .no-data {
-            text-align: center;
-            padding: 60px 20px;
-            color: #666;
-        }
-        
-        .no-data h2 {
-            font-size: 2em;
-            margin-bottom: 15px;
-            color: #999;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 30px;
-            color: white;
-            opacity: 0.9;
+        .update-info {
+            color: #e5e7eb;
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-top: 10px;
         }
         
         @media (max-width: 768px) {
-            h1 {
+            .dashboard-section h1 {
                 font-size: 1.8em;
             }
             
@@ -357,14 +377,36 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🛡️ Threat Trends Dashboard</h1>
-            <p class="subtitle">Real-time cybersecurity intelligence powered by TenGuard Security</p>
-            <p class="subtitle" style="font-size: 0.9em; margin-top: 10px;">
-                Last updated: <strong>November 07, 2025 at 09:31 AM UTC</strong>
-            </p>
-        </header>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../assets/svglogo.svg" alt="TenGuard Security Logo">
+            </div>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../services.html">Services</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../tenguardwatch.html">TenGuard Watch</a></li>
+                <li><a href="index.html" class="active">Threat Trends</a></li>
+            </ul>
+            <a href="../contact.html" class="button-link consult-button">Secure Your Consultation</a>
+        </nav>
+    </header>
+    
+    <!-- Dashboard Section -->
+    <section class="dashboard-section blue-tint" data-aos="fade-up" data-aos-once="true">
+        <h1>🛡️ Threat Trends Dashboard</h1>
+        <p style="font-size: 1.2em; margin-bottom: 10px;">Real-time cybersecurity intelligence powered by TenGuard Security</p>
+        <p class="update-info">Last updated: <strong>November 07, 2025 at 09:31 AM UTC</strong></p>
         
         
         <!-- No Data State -->
@@ -376,36 +418,36 @@
         
         
         <!-- CTA Section -->
-        <div class="cta-section">
+        <div class="cta-section blue-tint" data-aos="fade-up">
             <h2>🛡️ Protect Your Business Today</h2>
             <p>Get a free 15-minute cybersecurity assessment from our CISSP-certified experts</p>
-            <a href="/contact.html" class="cta-button">Book Free Assessment</a>
+            <a href="../contact.html" class="button-link">Book Free Assessment</a>
             
             <!-- Email Capture Form -->
             <!-- REPLACE WEBHOOK_URL with your actual Zapier webhook URL in secrets -->
-            <form class="email-form" method="POST" action="https://hooks.zapier.com/hooks/catch/PLACEHOLDER/" id="emailForm">
+            <form class="email-form" method="POST" action="https://hooks.zapier.com/hooks/catch/YOUR_WEBHOOK_ID/" id="emailForm">
                 <input type="email" name="email" placeholder="Enter your email for threat alerts" required aria-label="Email address">
                 <button type="submit">Subscribe</button>
             </form>
         </div>
-        
-        <footer>
-            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
-            <p style="margin-top: 10px; font-size: 0.9em;">
-                Dashboard auto-generated from threat intelligence feeds
-            </p>
-        </footer>
-    </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+        <div class="footer-line"></div>
+        <a href="../index.html" class="button-link">Return Home</a>
+    </footer>
     
     <script>
-        // Chart.js configuration
+        // Chart.js configuration matching site theme
         const chartColors = {
-            primary: '#667eea',
-            secondary: '#764ba2',
-            success: '#28a745',
-            warning: '#ffc107',
-            danger: '#dc3545',
-            info: '#17a2b8'
+            primary: '#10b981',      // Green (site primary)
+            secondary: '#38bdf8',    // Blue (site secondary)
+            success: '#10b981',       // Green for low urgency
+            warning: '#ffc107',      // Yellow for medium urgency
+            danger: '#dc3545',       // Red for high urgency
+            info: '#38bdf8'          // Blue for info
         };
         
         
@@ -433,6 +475,14 @@
                 this.reset();
             });
         });
+        
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
     </script>
+    
+    <script src="../script.js"></script>
 </body>
 </html>

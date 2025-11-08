@@ -61,13 +61,13 @@ def render_dashboard():
     # Determine top urgency
     if urgency_values[0] >= max(urgency_values):
         top_urgency = 'High'
-        urgency_color = '#dc3545'
+        urgency_color = '#dc3545'  # Red
     elif urgency_values[1] >= max(urgency_values):
         top_urgency = 'Medium'
-        urgency_color = '#ffc107'
+        urgency_color = '#ffc107'  # Yellow
     else:
         top_urgency = 'Low'
-        urgency_color = '#28a745'
+        urgency_color = '#10b981'  # Green (site theme)
     
     daily_counts = metrics.get('daily_counts', [])
     daily_labels = [item['date'] for item in daily_counts[-30:]]
