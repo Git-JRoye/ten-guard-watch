@@ -1,0 +1,211 @@
+{
+  "date": "2025-11-12",
+  "items": [
+    {
+      "title": "Google Launches 'Private AI Compute' — Secure AI Processing with On-Device-Level Privacy",
+      "link": "https://thehackernews.com/2025/11/google-launches-private-ai-compute.html",
+      "summary": "Google on Tuesday unveiled a new privacy-enhancing technology called Private AI Compute  to process artificial intelligence (AI) queries in a secure platform in the cloud.  The company said  it has built Private AI Compute to \"unlock the full speed and power of Gemini cloud models for AI experiences, while ensuring your personal data stays private to you and is not accessible to anyone else, not even Google.\"  Private AI Compute has been described as a \"secure, fortified space\" for processing sensitive user data in a manner that's analogous to on-device processing but with extended AI capabilities. It's powered by Trillium  Tensor Processing Units (TPUs) and Titanium  Intelligence Enclaves (TIE), allowing the company to use its frontier models without sacrificing on security and privacy.  In other words, the privacy infrastructure is designed to take advantage of the computational speed and power of the cloud while retaining the security and privacy assuran...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-launches-private-ai-compute-secure-ai-proce",
+      "source": "The Hacker News",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "WhatsApp Malware 'Maverick' Hijacks Browser Sessions to Target Brazil's Biggest Banks",
+      "link": "https://thehackernews.com/2025/11/whatsapp-malware-maverick-hijacks.html",
+      "summary": "Threat hunters have uncovered similarities between a banking malware called Coyote and a newly disclosed malicious program dubbed Maverick that has been propagated via WhatsApp.  According to a report  from CyberProof, both malware strains are written in .NET, target Brazilian users and banks, and feature identical functionality to decrypt, targeting banking URLs and monitor banking applications. More importantly, both include the ability to spread through WhatsApp Web .  Maverick was first documented  by Trend Micro early last month, attributing it to a threat actor dubbed Water Saci . The campaign involves two components: A self-propagating malware referred to as SORVEPOTEL that's spread via the desktop web version of WhatsApp and is used to deliver a ZIP archive containing the Maverick payload.  The malware is designed to monitor active browser window tabs for URLs that match a hard-coded list of financial institutions in Latin America. Should the URLs match, it establishes con...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "whatsapp-malware-maverick-hijacks-browser-sessions",
+      "source": "The Hacker News",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "GootLoader Is Back, Using a New Font Trick to Hide Malware on WordPress Sites",
+      "link": "https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html",
+      "summary": "The malware known as GootLoader  has resurfaced yet again after a brief spike in activity earlier this March, according to new findings from Huntress.  The cybersecurity company said it observed three GootLoader infections since October 27, 2025, out of which two resulted in hands-on keyboard intrusions with domain controller compromise taking place within 17 hours of initial infection.  \"GootLoader is back and now leveraging custom WOFF2 fonts with glyph substitution to obfuscate filenames,\" security researcher Anna Pham said , adding the malware \"exploits WordPress comment endpoints to deliver XOR-encrypted ZIP payloads with unique keys per file.\"  GootLoader, affiliated with a threat actor tracked as Hive0127 (aka UNC2565), is a JavaScript-based malware loader  that's often distributed via search engine optimization (SEO) poisoning tactics to deliver additional payloads, including ransomware.   In a report published last September, Microsoft revealed  the th...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "gootloader-is-back-using-a-new-font-trick-to-hide-",
+      "source": "The Hacker News",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "CISO's Expert Guide To AI Supply Chain Attacks",
+      "link": "https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html",
+      "summary": "AI-enabled supply chain attacks jumped 156% last year. Discover why traditional defenses are failing and what CISOs must do now to protect their organizations.  Download the full CISO's expert guide to AI Supply chain attacks here .   TL;DR   AI-enabled supply chain attacks are exploding in scale and sophistication  - Malicious package uploads to open-source repositories jumped 156% in the past year .  AI-generated malware has game-changing characteristics  - It's polymorphic by default, context-aware, semantically camouflaged, and temporally evasive.  Real attacks are already happening  - From the 3CX breach  affecting 600,000 companies to NullBulge attacks  weaponizing Hugging Face and GitHub repositories.  Detection times have dramatically increased  - IBM's 2025 report  shows breaches take an average of 276 days to identify, with AI-assisted attacks potentially extending this window.  Traditional security tools are struggling  - Static analysis and signature-based detec...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisos-expert-guide-to-ai-supply-chain-attacks",
+      "source": "The Hacker News",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Npm Package Targeting GitHub-Owned Repositories Flagged as Red Team Exercise",
+      "link": "https://thehackernews.com/2025/11/researchers-detect-malicious-npm.html",
+      "summary": "Cybersecurity researchers have discovered a malicious npm package named \"@acitons/artifact\" that typosquats the legitimate \" @actions/artifact \" package with the intent to target GitHub-owned repositories.  \"We think the intent was to have this script execute during a build of a GitHub-owned repository, exfiltrate the tokens available to the build environment, and then use those tokens to publish new malicious artifacts as GitHub,\" Veracode said  in an analysis.  The cybersecurity company said it observed six versions of the package – from 4.0.12 to 4.0.17 – that incorporated a post-install hook to download and run malware. That said, the latest version available for download  from npm is 4.0.10, indicating that the threat actor behind the package, blakesdev , has removed all the offending versions.   The package was first uploaded on October 29, 2025, and has since accrued 31,398 weekly downloads. In total, it has been downloaded 47,405 times , according...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "npm-package-targeting-github-owned-repositories-fl",
+      "source": "The Hacker News",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Android Trojan 'Fantasy Hub' Malware Service Turns Telegram Into a Hub for Hackers",
+      "link": "https://thehackernews.com/2025/11/android-trojan-fantasy-hub-malware.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new Android remote access trojan (RAT) called Fantasy Hub  that's sold on Russian-speaking Telegram channels under a Malware-as-a-Service (MaaS) model.  According to its seller, the malware enables device control and espionage, allowing threat actors to collect SMS messages, contacts, call logs, images, and videos, as well as intercept, reply, and delete incoming notifications.  \"It's a MaaS product with seller documentation, videos, and a bot-driven subscription model that helps novice attackers by providing a low barrier to entry,\" Zimperium researcher Vishnu Pratapagiri said  in a report last week.  \"Because it targets financial workflows (fake windows for banks) and abuses the SMS handler role (for intercepting 2-factor SMS), it poses a direct threat to enterprise customers using BYOD and to any organization whose employees rely on mobile banking or sensitive mobile apps.\"  The threat actor, in their...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "android-trojan-fantasy-hub-malware-service-turns-t",
+      "source": "The Hacker News",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "ICS Patch Tuesday: Vulnerabilities Addressed by Siemens, Rockwell, Aveva, Schneider",
+      "link": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-addressed-by-siemens-rockwell-aveva-schneider/",
+      "summary": "An Aveva vulnerability also impacts Schneider Electric products and both vendors have published advisories.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "ics-patch-tuesday-vulnerabilities-addressed-by-sie",
+      "source": "SecurityWeek",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Adobe Patches 29 Vulnerabilities",
+      "link": "https://www.securityweek.com/adobe-patches-29-vulnerabilities/",
+      "summary": "Adobe has fixed InDesign, InCopy, Photoshop, Illustrator, Pass, Substance 3D Stager, and Format Plugins vulnerabilities.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "adobe-patches-29-vulnerabilities",
+      "source": "SecurityWeek",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Microsoft Patches Actively Exploited Windows Kernel Zero-Day",
+      "link": "https://www.securityweek.com/microsoft-patches-actively-exploited-windows-kernel-zero-day/",
+      "summary": "Microsoft’s latest Patch Tuesday updates address more than 60 vulnerabilities in Windows and other products.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-actively-exploited-windows-kerne",
+      "source": "SecurityWeek",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Tenzai Raises $75 Million in Seed Funding to Build AI-Powered Pentesting Platform",
+      "link": "https://www.securityweek.com/tenzai-raises-75-million-in-seed-funding-to-build-ai-powered-pentesting-platform/",
+      "summary": "Tel Aviv, Israel based Tenzai has developed an AI-driven platform for penetration testing, which it says can continuously identify and address vulnerabilities.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "tenzai-raises-75-million-in-seed-funding-to-build-",
+      "source": "SecurityWeek",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Critical Triofox Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/critical-triofox-vulnerability-exploited-in-the-wild/",
+      "summary": "A threat actor has exploited the issue to create a new administrator account and then used the account to execute remote access tools.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-triofox-vulnerability-exploited-in-the-wi",
+      "source": "SecurityWeek",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "New Firefox Protections Halve the Number of Trackable Users",
+      "link": "https://www.securityweek.com/new-firefox-protections-halve-the-number-of-trackable-users/",
+      "summary": "Mozilla has implemented fresh fingerprinting protections to prevent hidden trackers from identifying Firefox users.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "new-firefox-protections-halve-the-number-of-tracka",
+      "source": "SecurityWeek",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Rhadamanthys infostealer disrupted as cybercriminals lose server access",
+      "link": "https://www.bleepingcomputer.com/news/security/rhadamanthys-infostealer-disrupted-as-cybercriminals-lose-server-access/",
+      "summary": "The Rhadamanthys infostealer operation has been disrupted, with numerous \"customers\" of the malware-as-a-service reporting that they no longer have access to their servers.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "rhadamanthys-infostealer-disrupted-as-cybercrimina",
+      "source": "BleepingComputer",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Synology fixes BeeStation zero-days demoed at Pwn2Own Ireland",
+      "link": "https://www.bleepingcomputer.com/news/security/synology-fixes-beestation-zero-days-demoed-at-pwn2own-ireland/",
+      "summary": "Synology has addressed a critical-severity remote code execution (RCE) vulnerability in BeeStation products that was demonstrated at the recent Pwn2Own hacking competition.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "synology-fixes-beestation-zero-days-demoed-at-pwn2",
+      "source": "BleepingComputer",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "5-critical-microsoft-365-security-settings-you-cou",
+      "source": "BleepingComputer",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Hackers abuse Triofox antivirus feature to deploy remote access tools",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-triofox-antivirus-feature-to-deploy-remote-access-tools/",
+      "summary": "Hackers exploited a critical vulnerability and the built-in antivirus feature in Gladinet's Triofox file-sharing and remote-access platform to achieve remote code execution with SYSTEM privileges.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "hackers-abuse-triofox-antivirus-feature-to-deploy-",
+      "source": "BleepingComputer",
+      "date": "2025-11-12"
+    }
+  ]
+}
