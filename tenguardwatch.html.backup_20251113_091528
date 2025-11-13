@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Google Launches 'Private AI Compute' — Secure AI Processing with On-Device-Level Privacy</div><div class="ticker-item">WhatsApp Malware 'Maverick' Hijacks Browser Sessions to Target Brazil's Biggest Banks</div><div class="ticker-item">GootLoader Is Back, Using a New Font Trick to Hide Malware on WordPress Sites</div><div class="ticker-item">CISO's Expert Guide To AI Supply Chain Attacks</div><div class="ticker-item">Npm Package Targeting GitHub-Owned Repositories Flagged as Red Team Exercise</div><div class="ticker-item">Android Trojan 'Fantasy Hub' Malware Service Turns Telegram Into a Hub for Hackers</div><div class="ticker-item">ICS Patch Tuesday: Vulnerabilities Addressed by Siemens, Rockwell, Aveva, Schneider</div><div class="ticker-item">Adobe Patches 29 Vulnerabilities</div><div class="ticker-item">Microsoft Patches Actively Exploited Windows Kernel Zero-Day</div><div class="ticker-item">Tenzai Raises $75 Million in Seed Funding to Build AI-Powered Pentesting Platform</div><div class="ticker-item">Critical Triofox Vulnerability Exploited in the Wild</div><div class="ticker-item">New Firefox Protections Halve the Number of Trackable Users</div><div class="ticker-item">Rhadamanthys infostealer disrupted as cybercriminals lose server access</div><div class="ticker-item">Synology fixes BeeStation zero-days demoed at Pwn2Own Ireland</div><div class="ticker-item">5 Critical Microsoft 365 Security Settings You Could Be Missing</div><div class="ticker-item">Hackers abuse Triofox antivirus feature to deploy remote access tools</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Launches 'Private AI Compute' — Secure AI Processing with On-Device-Level Privacy</h3>
+                <p><strong>Summary:</strong> Google on Tuesday unveiled a new privacy-enhancing technology called Private AI Compute  to process artificial intelligence (AI) queries in a secure platform in the cloud.  The company said  it has bu...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/google-launches-private-ai-compute.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/google-launches-private-ai-compute.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WhatsApp Malware 'Maverick' Hijacks Browser Sessions to Target Brazil's Biggest Banks</h3>
+                <p><strong>Summary:</strong> Threat hunters have uncovered similarities between a banking malware called Coyote and a newly disclosed malicious program dubbed Maverick that has been propagated via WhatsApp.  According to a report...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/whatsapp-malware-maverick-hijacks.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/whatsapp-malware-maverick-hijacks.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GootLoader Is Back, Using a New Font Trick to Hide Malware on WordPress Sites</h3>
+                <p><strong>Summary:</strong> The malware known as GootLoader  has resurfaced yet again after a brief spike in activity earlier this March, according to new findings from Huntress.  The cybersecurity company said it observed three...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISO's Expert Guide To AI Supply Chain Attacks</h3>
+                <p><strong>Summary:</strong> AI-enabled supply chain attacks jumped 156% last year. Discover why traditional defenses are failing and what CISOs must do now to protect their organizations.  Download the full CISO's expert guide t...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Npm Package Targeting GitHub-Owned Repositories Flagged as Red Team Exercise</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a malicious npm package named "@acitons/artifact" that typosquats the legitimate " @actions/artifact " package with the intent to target GitHub-owned reposito...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/researchers-detect-malicious-npm.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/researchers-detect-malicious-npm.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Android Trojan 'Fantasy Hub' Malware Service Turns Telegram Into a Hub for Hackers</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new Android remote access trojan (RAT) called Fantasy Hub  that's sold on Russian-speaking Telegram channels under a Malware-as-a-Service (MaaS) m...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/android-trojan-fantasy-hub-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/android-trojan-fantasy-hub-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ICS Patch Tuesday: Vulnerabilities Addressed by Siemens, Rockwell, Aveva, Schneider</h3>
+                <p><strong>Summary:</strong> An Aveva vulnerability also impacts Schneider Electric products and both vendors have published advisories.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-addressed-by-siemens-rockwell-aveva-schneider/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-addressed-by-siemens-rockwell-aveva-schneider/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Adobe Patches 29 Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Adobe has fixed InDesign, InCopy, Photoshop, Illustrator, Pass, Substance 3D Stager, and Format Plugins vulnerabilities.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/adobe-patches-29-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/adobe-patches-29-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Patches Actively Exploited Windows Kernel Zero-Day</h3>
+                <p><strong>Summary:</strong> Microsoft’s latest Patch Tuesday updates address more than 60 vulnerabilities in Windows and other products.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-patches-actively-exploited-windows-kernel-zero-day/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-patches-actively-exploited-windows-kernel-zero-day/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tenzai Raises $75 Million in Seed Funding to Build AI-Powered Pentesting Platform</h3>
+                <p><strong>Summary:</strong> Tel Aviv, Israel based Tenzai has developed an AI-driven platform for penetration testing, which it says can continuously identify and address vulnerabilities.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tenzai-raises-75-million-in-seed-funding-to-build-ai-powered-pentesting-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tenzai-raises-75-million-in-seed-funding-to-build-ai-powered-pentesting-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Triofox Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> A threat actor has exploited the issue to create a new administrator account and then used the account to execute remote access tools.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-triofox-vulnerability-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-triofox-vulnerability-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Firefox Protections Halve the Number of Trackable Users</h3>
+                <p><strong>Summary:</strong> Mozilla has implemented fresh fingerprinting protections to prevent hidden trackers from identifying Firefox users.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-firefox-protections-halve-the-number-of-trackable-users/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-firefox-protections-halve-the-number-of-trackable-users/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Rhadamanthys infostealer disrupted as cybercriminals lose server access</h3>
+                <p><strong>Summary:</strong> The Rhadamanthys infostealer operation has been disrupted, with numerous "customers" of the malware-as-a-service reporting that they no longer have access to their servers.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/rhadamanthys-infostealer-disrupted-as-cybercriminals-lose-server-access/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/rhadamanthys-infostealer-disrupted-as-cybercriminals-lose-server-access/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Synology fixes BeeStation zero-days demoed at Pwn2Own Ireland</h3>
+                <p><strong>Summary:</strong> Synology has addressed a critical-severity remote code execution (RCE) vulnerability in BeeStation products that was demonstrated at the recent Pwn2Own hacking competition.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/synology-fixes-beestation-zero-days-demoed-at-pwn2own-ireland/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/synology-fixes-beestation-zero-days-demoed-at-pwn2own-ireland/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>5 Critical Microsoft 365 Security Settings You Could Be Missing</h3>
+                <p><strong>Summary:</strong> A checklist for securing Microsoft 365.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/67/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/67/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers abuse Triofox antivirus feature to deploy remote access tools</h3>
+                <p><strong>Summary:</strong> Hackers exploited a critical vulnerability and the built-in antivirus feature in Gladinet's Triofox file-sharing and remote-access platform to achieve remote code execution with SYSTEM privileges.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-triofox-antivirus-feature-to-deploy-remote-access-tools/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-triofox-antivirus-feature-to-deploy-remote-access-tools/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,209 @@
+{
+  "date": "2025-11-13",
+  "items": [
+    {
+      "title": "CISA Flags Critical WatchGuard Fireware Flaw Exposing 54,000 Fireboxes to No-Login Attacks",
+      "link": "https://thehackernews.com/2025/11/cisa-flags-critical-watchguard-fireware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting WatchGuard Fireware  to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation.  The vulnerability in question is CVE-2025-9242 (CVSS score: 9.3), an out-of-bounds write vulnerability affecting Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including 12.11.3 and 2025.1.  \"WatchGuard Firebox contains an out-of-bounds write vulnerability in the OS iked process that may allow a remote unauthenticated attacker to execute arbitrary code,\" CISA said in an advisory.  Details of the vulnerability were shared  by watchTowr Labs last month, with the cybersecurity company stating that the issue stems from a missing length check on an identification buffer used during the IKE handshake process.   \"The server does attempt certificate validation, but that validation happens after the vulnerable code run...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-flags-critical-watchguard-fireware-flaw-expos",
+      "source": "The Hacker News",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Over 67,000 Fake npm Packages Flood Registry in Worm-Like Spam Attack",
+      "link": "https://thehackernews.com/2025/11/over-46000-fake-npm-packages-flood.html",
+      "summary": "Cybersecurity researchers are calling attention to a large-scale spam campaign that has flooded the npm registry with thousands of fake packages since early 2024 as part of a likely financially motivated effort.  \"The packages were systematically published over an extended period, flooding the npm registry with junk packages that survived in the ecosystem for almost two years,\" Endor Labs researchers Cris Staicu and Kiran Raj said  in a Tuesday report.  The coordinated campaign has so far published as many as 67,579 packages , according to SourceCodeRED security researcher Paul McCarty, who first flagged  the activity. The end goal is quite unusual – It's designed to inundate the npm registry with random packages rather than focusing on data theft or other malicious behaviors.  The worm-life propagation mechanism and the use of a distinctive naming scheme that relies on Indonesian names and food terms for the newly created packages have lent it the moniker IndonesianFood...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "over-67000-fake-npm-packages-flood-registry-in-wor",
+      "source": "The Hacker News",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Google Sues China-Based Hackers Behind $1 Billion Lighthouse Phishing Platform",
+      "link": "https://thehackernews.com/2025/11/google-sues-china-based-hackers-behind.html",
+      "summary": "Google has filed a civil lawsuit in the U.S. District Court for the Southern District of New York (SDNY) against China-based hackers who are behind a massive Phishing-as-a-Service (PhaaS) platform called Lighthouse that has ensnared over 1 million users across 120 countries.  The PhaaS kit is used to conduct large-scale SMS phishing attacks that exploit trusted brands like E-ZPass and USPS to steal people's financial information by prompting them to click on a link using lures related to fake toll fees or package deliveries. While the scam in itself is fairly simple, it's the industrial scale of the operation that has allowed it to illegally make more than a billion dollars over the past three years.  \"They exploit the reputations of Google and other brands by illegally displaying our trademarks and services on fraudulent websites,\" Halimah DeLaine Prado, General Counsel at Google, said . \"We found at least 107 website templates featuring Google's branding o...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-sues-china-based-hackers-behind-1-billion-l",
+      "source": "The Hacker News",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Amazon Uncovers Attacks Exploited Cisco ISE and Citrix NetScaler as Zero-Day Flaws",
+      "link": "https://thehackernews.com/2025/11/amazon-uncovers-attacks-exploited-cisco.html",
+      "summary": "Amazon's threat intelligence team on Wednesday disclosed that it observed an advanced threat actor exploiting two then-zero-day security flaws in Cisco Identity Service Engine (ISE) and Citrix NetScaler ADC products as part of attacks designed to deliver custom malware.  \"This discovery highlights the trend of threat actors focusing on critical identity and network access control infrastructure – the systems enterprises rely on to enforce security policies and manage authentication across their networks,\" CJ Moses, CISO of Amazon Integrated Security, said in a report  shared with The Hacker News.   The attacks were flagged by its MadPot  honeypot network, with the activity weaponizing the following two vulnerabilities -   CVE-2025-5777  or Citrix Bleed 2 (CVSS score: 9.3) - An insufficient input validation vulnerability in Citrix NetScaler ADC and Gateway that could be exploited by an attacker to bypass authentication. (Fixed by Citrix in June 2025 )  CVE-2025-20337  (CV...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "amazon-uncovers-attacks-exploited-cisco-ise-and-ci",
+      "source": "The Hacker News",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "[Webinar] Learn How Leading Security Teams Reduce Attack Surface Exposure with DASR",
+      "link": "https://thehackernews.com/2025/11/webinar-learn-how-leading-security.html",
+      "summary": "Every day, security teams face the same problem—too many risks, too many alerts, and not enough time. You fix one issue, and three more show up. It feels like you're always one step behind.  But what if there was a smarter way to stay ahead—without adding more work or stress?  Join The Hacker News and Bitdefender for a free cybersecurity webinar  to learn about a new approach called Dynamic Attack Surface Reduction (DASR) —a method that helps security teams close gaps before attackers even find them.  Most tools today only tell you what's wrong. They scan, report, and give you long lists of problems. But they don't help you fix them fast enough.   The truth is, the attack surface keeps changing—new apps, cloud systems, remote devices, misconfigurations. It never stops.  Attackers only need one open door. And that's why traditional defenses often fail—they react too slowly.  Meet DASR: A Smarter Way to Stay Safe  Dynamic Attack Surface Reduction (DASR) changes how we defend.  Instead o...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-learn-how-leading-security-teams-reduce-at",
+      "source": "The Hacker News",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Active Directory Under Siege: Why Critical Infrastructure Needs Stronger Security",
+      "link": "https://thehackernews.com/2025/11/active-directory-under-siege-why.html",
+      "summary": "Active Directory remains the authentication backbone for  over 90%  of Fortune 1000 companies. AD's importance has grown as companies adopt hybrid and cloud infrastructure, but so has its complexity. Every application, user, and device traces back to AD for authentication and authorization, making it the ultimate target. For attackers, it represents the holy grail: compromise Active Directory , and you can access the entire network.  Why attackers target Active Directory   AD serves as the gatekeeper for everything in your enterprise. So, when adversaries compromise AD, they gain privileged access that lets them create accounts, modify permissions, disable security controls, and move laterally, all without triggering most alerts.  The  2024 Change Healthcare breach  showed what can happen when AD is compromised. In this attack, hackers exploited a server lacking multifactor authentication, pivoted to AD, escalated privileges, and then executed a highly costly cyberattac...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "active-directory-under-siege-why-critical-infrastr",
+      "source": "The Hacker News",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Firefox 145 and Chrome 142 Patch High-Severity Flaws in Latest Releases",
+      "link": "https://www.securityweek.com/firefox-145-and-chrome-142-patch-high-severity-flaws-in-latest-releases/",
+      "summary": "Google and Mozilla have released fresh Chrome and Firefox updates that address multiple high-severity security defects.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "firefox-145-and-chrome-142-patch-high-severity-fla",
+      "source": "SecurityWeek",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "China’s Cyber Silence Is More Worrying Than Russia’s Noise, Chief Cybersecurity Strategist Says",
+      "link": "https://www.securityweek.com/chinas-cyber-silence-is-more-worrying-than-russias-noise-chief-cybersecurity-strategist-says/",
+      "summary": "NTT’s chief cybersecurity strategist Mihoko Matsubara on the new geopolitics of hacking, the “chicken and egg” problem of 5G, and the AGI threat to society.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "chinas-cyber-silence-is-more-worrying-than-russias",
+      "source": "SecurityWeek",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "How TTP-based Defenses Outperform Traditional IoC Hunting",
+      "link": "https://www.securityweek.com/how-ttp-based-defenses-outperform-traditional-ioc-hunting/",
+      "summary": "Behavioral detection allows defenders to recognize activity patterns like privilege escalation, credential theft, and lateral movement—often ahead of encryption or data exfiltration.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "how-ttp-based-defenses-outperform-traditional-ioc-",
+      "source": "SecurityWeek",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Virtual Event Today: CISO Forum 2025 Virtual Summit",
+      "link": "https://www.securityweek.com/virtual-event-today-ciso-forum-2025-virtual-summit/",
+      "summary": "From the evolving role of AI to the realities of cloud risk and governance, the CISO Forum Virtual Summit brings together CISOs, researchers, and innovators to share practical insights and strategies.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "virtual-event-today-ciso-forum-2025-virtual-summit",
+      "source": "SecurityWeek",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Sweet Security Raises $75 Million for Cloud and AI Security",
+      "link": "https://www.securityweek.com/sweet-security-raises-75-million-for-cloud-and-ai-security/",
+      "summary": "The cybersecurity startup will use the investment to accelerate global expansion and product innovation.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "sweet-security-raises-75-million-for-cloud-and-ai-",
+      "source": "SecurityWeek",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Google Sues Chinese Cybercriminals Behind ‘Lighthouse’ Phishing Kit",
+      "link": "https://www.securityweek.com/google-sues-chinese-cybercriminals-behind-lighthouse-phishing-kit/",
+      "summary": "Google is targeting the threat group known as Smishing Triad, which used over 194,000 malicious domains in a campaign.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "google-sues-chinese-cybercriminals-behind-lighthou",
+      "source": "SecurityWeek",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Google sues to dismantle Chinese phishing platform behind US toll scams",
+      "link": "https://www.bleepingcomputer.com/news/security/google-sues-to-dismantle-chinese-phishing-platform-behind-us-toll-scams/",
+      "summary": "Google has filed a lawsuit to dismantle the \"Lighthouse\" phishing-as-a-service platform used by cybercriminals worldwide to steal credit card information through SMS phishing attacks impersonating the U.S. Postal Service and E-ZPass toll systems.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-sues-to-dismantle-chinese-phishing-platform",
+      "source": "BleepingComputer",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Save on this ethical hacking course bundle: $40 through November 20",
+      "link": "https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-course-bundle-40-through-november-20/",
+      "summary": "For those looking to build ethical hacking skills without the hefty price tag of certification courses, The All-in-One Super-Sized Ethical Hacking Bundle offers a more accessible entry point. From November 3rd through the 20th, the bundle is available for $39.97, down from its regular price of $1,09...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "save-on-this-ethical-hacking-course-bundle-40-thro",
+      "source": "BleepingComputer",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "5-critical-microsoft-365-security-settings-you-cou",
+      "source": "BleepingComputer",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Windows 11 now supports 3rd-party apps for native passkey management",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-11-now-supports-3rd-party-apps-for-native-passkey-management/",
+      "summary": "Microsoft announced that passwordless authentication is now easier on Windows 11 through native support for third-party passkey managers, the first ones supported being 1Password and Bitwarden.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "windows-11-now-supports-3rd-party-apps-for-native-",
+      "source": "BleepingComputer",
+      "date": "2025-11-13"
+    }
+  ]
+}
