@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CISA Flags Critical WatchGuard Fireware Flaw Exposing 54,000 Fireboxes to No-Login Attacks</div><div class="ticker-item">Over 67,000 Fake npm Packages Flood Registry in Worm-Like Spam Attack</div><div class="ticker-item">Google Sues China-Based Hackers Behind $1 Billion Lighthouse Phishing Platform</div><div class="ticker-item">Amazon Uncovers Attacks Exploited Cisco ISE and Citrix NetScaler as Zero-Day Flaws</div><div class="ticker-item">[Webinar] Learn How Leading Security Teams Reduce Attack Surface Exposure with DASR</div><div class="ticker-item">Active Directory Under Siege: Why Critical Infrastructure Needs Stronger Security</div><div class="ticker-item">Firefox 145 and Chrome 142 Patch High-Severity Flaws in Latest Releases</div><div class="ticker-item">China’s Cyber Silence Is More Worrying Than Russia’s Noise, Chief Cybersecurity Strategist Says</div><div class="ticker-item">How TTP-based Defenses Outperform Traditional IoC Hunting</div><div class="ticker-item">Virtual Event Today: CISO Forum 2025 Virtual Summit</div><div class="ticker-item">Sweet Security Raises $75 Million for Cloud and AI Security</div><div class="ticker-item">Google Sues Chinese Cybercriminals Behind ‘Lighthouse’ Phishing Kit</div><div class="ticker-item">Google sues to dismantle Chinese phishing platform behind US toll scams</div><div class="ticker-item">Save on this ethical hacking course bundle: $40 through November 20</div><div class="ticker-item">5 Critical Microsoft 365 Security Settings You Could Be Missing</div><div class="ticker-item">Windows 11 now supports 3rd-party apps for native passkey management</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Flags Critical WatchGuard Fireware Flaw Exposing 54,000 Fireboxes to No-Login Attacks</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting WatchGuard Fireware  to its Known Exploited Vulnerabilities ( KEV ) catalog, bas...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/cisa-flags-critical-watchguard-fireware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/cisa-flags-critical-watchguard-fireware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Over 67,000 Fake npm Packages Flood Registry in Worm-Like Spam Attack</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are calling attention to a large-scale spam campaign that has flooded the npm registry with thousands of fake packages since early 2024 as part of a likely financially motiva...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/over-46000-fake-npm-packages-flood.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/over-46000-fake-npm-packages-flood.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Sues China-Based Hackers Behind $1 Billion Lighthouse Phishing Platform</h3>
+                <p><strong>Summary:</strong> Google has filed a civil lawsuit in the U.S. District Court for the Southern District of New York (SDNY) against China-based hackers who are behind a massive Phishing-as-a-Service (PhaaS) platform cal...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/google-sues-china-based-hackers-behind.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/google-sues-china-based-hackers-behind.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Amazon Uncovers Attacks Exploited Cisco ISE and Citrix NetScaler as Zero-Day Flaws</h3>
+                <p><strong>Summary:</strong> Amazon's threat intelligence team on Wednesday disclosed that it observed an advanced threat actor exploiting two then-zero-day security flaws in Cisco Identity Service Engine (ISE) and Citrix NetScal...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/amazon-uncovers-attacks-exploited-cisco.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/amazon-uncovers-attacks-exploited-cisco.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] Learn How Leading Security Teams Reduce Attack Surface Exposure with DASR</h3>
+                <p><strong>Summary:</strong> Every day, security teams face the same problem—too many risks, too many alerts, and not enough time. You fix one issue, and three more show up. It feels like you're always one step behind.  But what ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/webinar-learn-how-leading-security.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/webinar-learn-how-leading-security.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Active Directory Under Siege: Why Critical Infrastructure Needs Stronger Security</h3>
+                <p><strong>Summary:</strong> Active Directory remains the authentication backbone for  over 90%  of Fortune 1000 companies. AD's importance has grown as companies adopt hybrid and cloud infrastructure, but so has its complexity. ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/active-directory-under-siege-why.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/active-directory-under-siege-why.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Firefox 145 and Chrome 142 Patch High-Severity Flaws in Latest Releases</h3>
+                <p><strong>Summary:</strong> Google and Mozilla have released fresh Chrome and Firefox updates that address multiple high-severity security defects.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/firefox-145-and-chrome-142-patch-high-severity-flaws-in-latest-releases/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/firefox-145-and-chrome-142-patch-high-severity-flaws-in-latest-releases/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China’s Cyber Silence Is More Worrying Than Russia’s Noise, Chief Cybersecurity Strategist Says</h3>
+                <p><strong>Summary:</strong> NTT’s chief cybersecurity strategist Mihoko Matsubara on the new geopolitics of hacking, the “chicken and egg” problem of 5G, and the AGI threat to society.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chinas-cyber-silence-is-more-worrying-than-russias-noise-chief-cybersecurity-strategist-says/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chinas-cyber-silence-is-more-worrying-than-russias-noise-chief-cybersecurity-strategist-says/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How TTP-based Defenses Outperform Traditional IoC Hunting</h3>
+                <p><strong>Summary:</strong> Behavioral detection allows defenders to recognize activity patterns like privilege escalation, credential theft, and lateral movement—often ahead of encryption or data exfiltration.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/how-ttp-based-defenses-outperform-traditional-ioc-hunting/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/how-ttp-based-defenses-outperform-traditional-ioc-hunting/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Virtual Event Today: CISO Forum 2025 Virtual Summit</h3>
+                <p><strong>Summary:</strong> From the evolving role of AI to the realities of cloud risk and governance, the CISO Forum Virtual Summit brings together CISOs, researchers, and innovators to share practical insights and strategies.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/virtual-event-today-ciso-forum-2025-virtual-summit/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/virtual-event-today-ciso-forum-2025-virtual-summit/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Sweet Security Raises $75 Million for Cloud and AI Security</h3>
+                <p><strong>Summary:</strong> The cybersecurity startup will use the investment to accelerate global expansion and product innovation.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sweet-security-raises-75-million-for-cloud-and-ai-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sweet-security-raises-75-million-for-cloud-and-ai-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Sues Chinese Cybercriminals Behind ‘Lighthouse’ Phishing Kit</h3>
+                <p><strong>Summary:</strong> Google is targeting the threat group known as Smishing Triad, which used over 194,000 malicious domains in a campaign.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-sues-chinese-cybercriminals-behind-lighthouse-phishing-kit/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-sues-chinese-cybercriminals-behind-lighthouse-phishing-kit/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google sues to dismantle Chinese phishing platform behind US toll scams</h3>
+                <p><strong>Summary:</strong> Google has filed a lawsuit to dismantle the "Lighthouse" phishing-as-a-service platform used by cybercriminals worldwide to steal credit card information through SMS phishing attacks impersonating the...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-sues-to-dismantle-chinese-phishing-platform-behind-us-toll-scams/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-sues-to-dismantle-chinese-phishing-platform-behind-us-toll-scams/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Save on this ethical hacking course bundle: $40 through November 20</h3>
+                <p><strong>Summary:</strong> For those looking to build ethical hacking skills without the hefty price tag of certification courses, The All-in-One Super-Sized Ethical Hacking Bundle offers a more accessible entry point. From Nov...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-course-bundle-40-through-november-20/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-course-bundle-40-through-november-20/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>5 Critical Microsoft 365 Security Settings You Could Be Missing</h3>
+                <p><strong>Summary:</strong> A checklist for securing Microsoft 365.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/67/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/67/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Windows 11 now supports 3rd-party apps for native passkey management</h3>
+                <p><strong>Summary:</strong> Microsoft announced that passwordless authentication is now easier on Windows 11 through native support for third-party passkey managers, the first ones supported being 1Password and Bitwarden.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/windows-11-now-supports-3rd-party-apps-for-native-passkey-management/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/windows-11-now-supports-3rd-party-apps-for-native-passkey-management/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

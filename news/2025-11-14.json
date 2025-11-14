@@ -1,0 +1,208 @@
+{
+  "date": "2025-11-14",
+  "items": [
+    {
+      "title": "Fortinet FortiWeb Flaw Actively Exploited in the Wild Before Company's Silent Patch",
+      "link": "https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html",
+      "summary": "Cybersecurity researchers are sounding the alert about an authentication bypass vulnerability in Fortinet Fortiweb WAF that could allow an attacker to take over admin accounts and completely compromise a device.  \"The watchTowr team is seeing active, indiscriminate in-the-wild exploitation of what appears to be a silently patched vulnerability in Fortinet's FortiWeb product,\" Benjamin Harris, watchTowr CEO and founder, said in a statement.  \"Patched in version 8.0.2, the vulnerability allows attackers to perform actions as a privileged user - with in-the-wild exploitation focusing on adding a new administrator account as a basic persistence mechanism for the attackers.\"   The cybersecurity company said it was able to successfully reproduce the vulnerability  and create a working proof-of-concept (Poc). It has also released  an artifact generator tool for the authentication bypass to help identify susceptible devices.  According to details shared  by Defused and...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-fortiweb-flaw-actively-exploited-in-the-w",
+      "source": "The Hacker News",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Russian Hackers Create 4,300 Fake Travel Sites to Steal Hotel Guests' Payment Data",
+      "link": "https://thehackernews.com/2025/11/russian-hackers-create-4300-fake-travel.html",
+      "summary": "A Russian-speaking threat behind an ongoing, mass phishing campaign has registered more than 4,300 domain names  since the start of the year.  The activity , per Netcraft security researcher Andrew Brandt, is designed to target customers of the hospitality industry, specifically hotel guests who may have travel reservations with spam emails. The campaign is said to have begun in earnest around February 2025.  Of the 4,344 domains tied to the attack, 685 domains contain the name \"Booking\", followed by 18 with \"Expedia,\" 13 with \"Agoda,\" and 12 with \"Airbnb,\" indicating an attempt to target all popular booking and rental platforms.  \"The ongoing campaign employs a sophisticated phishing kit that customizes the page presented to the site visitor depending on a unique string in the URL path when the target first visits the website,\" Brandt said. \"The customizations use the logos from major online travel industry brands, including Airb...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russian-hackers-create-4300-fake-travel-sites-to-s",
+      "source": "The Hacker News",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Fake Chrome Extension \"Safery\" Steals Ethereum Wallet Seed Phrases Using Sui Blockchain",
+      "link": "https://thehackernews.com/2025/11/fake-chrome-extension-safery-steals.html",
+      "summary": "Cybersecurity researchers have uncovered a malicious Chrome extension that poses as a legitimate Ethereum wallet but harbors functionality to exfiltrate users' seed phrases.  The name of the extension is \"Safery: Ethereum Wallet,\" with the threat actor describing it as a \"secure wallet for managing Ethereum cryptocurrency with flexible settings.\" It was uploaded to the Chrome Web Store on September 29, 2025, and was updated as recently as November 12. It's still available for download  as of writing.  \"Marketed as a simple, secure Ethereum (ETH) wallet, it contains a backdoor that exfiltrates seed phrases by encoding them into Sui addresses and broadcasting microtransactions from a threat actor-controlled Sui wallet,\" Socket security researcher Kirill Boychenko said .   Specifically, the malware present within the browser add-on is designed to steal wallet mnemonic phrases by encoding them as fake Sui wallet addresses and then using micro-transact...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "fake-chrome-extension-safery-steals-ethereum-walle",
+      "source": "The Hacker News",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "When Attacks Come Faster Than Patches: Why 2026 Will be the Year of Machine-Speed Security",
+      "link": "https://thehackernews.com/2025/11/when-attacks-come-faster-than-patches.html",
+      "summary": "The Race for Every New CVE  Based on multiple 2025 industry reports: roughly 50 to 61 percent of newly disclosed vulnerabilities saw exploit code weaponized within 48 hours. Using the CISA Known Exploited Vulnerabilities Catalog  as a reference, hundreds of software flaws are now confirmed as actively targeted within days of public disclosure. Each new announcement now triggers a global race between attackers and defenders. Both sides monitor the same feeds, but one moves at machine speed while the other moves at human speed.  Major threat actors have fully industrialized their response. The moment a new vulnerability appears in public databases, automated scripts scrape, parse, and assess it for exploitation potential, and now these efforts are getting ever more streamlined through the use of AI. Meanwhile, IT and security teams often enter triage mode, reading advisories, classifying severity, and queuing updates for the next patch cycle. That delay is precisely the gap the adversar...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "when-attacks-come-faster-than-patches-why-2026-wil",
+      "source": "The Hacker News",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Operation Endgame Dismantles Rhadamanthys, Venom RAT, and Elysium Botnet in Global Crackdown",
+      "link": "https://thehackernews.com/2025/11/operation-endgame-dismantles.html",
+      "summary": "Malware families like Rhadamanthys Stealer , Venom RAT , and the Elysium botnet have been disrupted as part of a coordinated law enforcement operation led by Europol and Eurojust.  The activity, which is taking place between November 10 and 13, 2025, marks the latest phase of Operation Endgame , an ongoing operation  designed to take down criminal infrastructures and combat ransomware enablers worldwide.  Besides dismantling the \"three large cybercrime enablers,\" authorities have also arrested the main suspect behind Venom RAT in Greece on November 3, more than 1,025 servers have been taken down, and 20 domains have been seized.   \"The dismantled malware infrastructure consisted of hundreds of thousands of infected computers containing several million stolen credentials,\" Europol said  in a statement. \"Many of the victims were not aware of the infection of their systems.\"  It's currently not clear if the Elysium botnet Europol refers to is the same pr...",
+      "tags": [
+        "malware",
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "operation-endgame-dismantles-rhadamanthys-venom-ra",
+      "source": "The Hacker News",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Cisco 0-Days, AI Bug Bounties, Crypto Heists, State-Linked Leaks and 20 More Stories",
+      "link": "https://thehackernews.com/2025/11/threatsday-bulletin-cisco-0-days-ai-bug.html",
+      "summary": "Behind every click, there's a risk waiting to be tested. A simple ad, email, or link can now hide something dangerous. Hackers are getting smarter, using new tools to sneak past filters and turn trusted systems against us.  But security teams are fighting back. They're building faster defenses, better ways to spot attacks, and stronger systems to keep people safe. It's a constant race — every move by attackers sparks a new response from defenders.  In this week's ThreatsDay Bulletin, we look at the latest moves in that race — from new malware and data leaks to AI tools, government actions, and major security updates shaping the digital world right now.                       U.K. moves to tighten cyber rules for key sectors                      U.K. Debuts Cyber Security and Resilience Bill                        The U.K. government has proposed a new Cyber Security and Resilience Bill that aims to strengthen national security and secure public services like healthcare, drinking wat...",
+      "tags": [
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-cisco-0-days-ai-bug-bounties-c",
+      "source": "The Hacker News",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Anthropic Says Claude AI Powered 90% of Chinese Espionage Campaign",
+      "link": "https://www.securityweek.com/anthropic-says-claude-ai-powered-90-of-chinese-espionage-campaign/",
+      "summary": "A state-sponsored threat actor manipulated Claude Code to execute cyberattacks on roughly 30 organizations worldwide.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "anthropic-says-claude-ai-powered-90-of-chinese-esp",
+      "source": "SecurityWeek",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Google Says Chinese ‘Lighthouse’ Phishing Kit Disrupted Following Lawsuit",
+      "link": "https://www.securityweek.com/google-says-chinese-lighthouse-phishing-kit-disrupted-following-lawsuit/",
+      "summary": "The cybercriminals informed customers that their cloud server was shut down due to complaints.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "google-says-chinese-lighthouse-phishing-kit-disrup",
+      "source": "SecurityWeek",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "ChatGPT Vulnerability Exposed Underlying Cloud Infrastructure",
+      "link": "https://www.securityweek.com/chatgpt-vulnerability-exposed-underlying-cloud-infrastructure/",
+      "summary": "A researcher found a way to exploit an SSRF vulnerability related to custom GPTs to obtain an Azure access token.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "chatgpt-vulnerability-exposed-underlying-cloud-inf",
+      "source": "SecurityWeek",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "1,000+ Servers Hit in Law Enforcement Takedown of Rhadamanthys, VenomRAT, Elysium",
+      "link": "https://www.securityweek.com/1000-servers-hit-in-law-enforcement-takedown-of-rhadamanthys-venomrat-elysium/",
+      "summary": "An individual believed to have been involved in the operation of VenomRAT was arrested recently in Greece.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "1000-servers-hit-in-law-enforcement-takedown-of-rh",
+      "source": "SecurityWeek",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "CISA Updates Guidance on Patching Cisco Devices Targeted in China-Linked Attacks",
+      "link": "https://www.securityweek.com/cisa-updates-guidance-on-patching-cisco-devices-targeted-in-china-linked-attacks/",
+      "summary": "Federal agencies have reported as ‘patched’ ASA or FTD devices running software versions vulnerable to attacks.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-updates-guidance-on-patching-cisco-devices-ta",
+      "source": "SecurityWeek",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Webinar Today: The Future of Industrial Network Security",
+      "link": "https://www.securityweek.com/webinar-today-the-future-of-industrial-network-security/",
+      "summary": "Join us as speakers from Cisco outline important steps industrial organizations can take to safeguard operations, achieve compliance, and enable sustainable growth.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "webinar-today-the-future-of-industrial-network-sec",
+      "source": "SecurityWeek",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "DoorDash hit by new data breach in October exposing user information",
+      "link": "https://www.bleepingcomputer.com/news/security/doordash-hit-by-new-data-breach-in-october-exposing-user-information/",
+      "summary": "DoorDash has disclosed a data breach that hit the food delivery platform this October. Beginning yesterday evening, DoorDash, which serves millions of customers across the U.S., Canada, Australia, and New Zealand, started emailing those impacted by the newly discovered security incident.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "doordash-hit-by-new-data-breach-in-october-exposin",
+      "source": "BleepingComputer",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Fortinet FortiWeb flaw with public PoC exploited to create admin users",
+      "link": "https://www.bleepingcomputer.com/news/security/fortiweb-flaw-with-public-poc-actively-exploited-to-create-admin-users/",
+      "summary": "A Fortinet FortiWeb path traversal vulnerability is being actively exploited to create new administrative users on exposed devices without requiring authentication",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-fortiweb-flaw-with-public-poc-exploited-t",
+      "source": "BleepingComputer",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "5-critical-microsoft-365-security-settings-you-cou",
+      "source": "BleepingComputer",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Kraken ransomware benchmarks systems for optimal encryption choice",
+      "link": "https://www.bleepingcomputer.com/news/security/kraken-ransomware-benchmarks-systems-for-optimal-encryption-choice/",
+      "summary": "The Kraken ransomware, which targets Windows, Linux/VMware ESXi systems, is testing machines to check how fast it can encrypt data without overloading them.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "kraken-ransomware-benchmarks-systems-for-optimal-e",
+      "source": "BleepingComputer",
+      "date": "2025-11-14"
+    }
+  ]
+}
