@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Fortinet FortiWeb Flaw Actively Exploited in the Wild Before Company's Silent Patch</div><div class="ticker-item">Russian Hackers Create 4,300 Fake Travel Sites to Steal Hotel Guests' Payment Data</div><div class="ticker-item">Fake Chrome Extension "Safery" Steals Ethereum Wallet Seed Phrases Using Sui Blockchain</div><div class="ticker-item">When Attacks Come Faster Than Patches: Why 2026 Will be the Year of Machine-Speed Security</div><div class="ticker-item">Operation Endgame Dismantles Rhadamanthys, Venom RAT, and Elysium Botnet in Global Crackdown</div><div class="ticker-item">ThreatsDay Bulletin: Cisco 0-Days, AI Bug Bounties, Crypto Heists, State-Linked Leaks and 20 More Stories</div><div class="ticker-item">Anthropic Says Claude AI Powered 90% of Chinese Espionage Campaign</div><div class="ticker-item">Google Says Chinese ‘Lighthouse’ Phishing Kit Disrupted Following Lawsuit</div><div class="ticker-item">ChatGPT Vulnerability Exposed Underlying Cloud Infrastructure</div><div class="ticker-item">1,000+ Servers Hit in Law Enforcement Takedown of Rhadamanthys, VenomRAT, Elysium</div><div class="ticker-item">CISA Updates Guidance on Patching Cisco Devices Targeted in China-Linked Attacks</div><div class="ticker-item">Webinar Today: The Future of Industrial Network Security</div><div class="ticker-item">DoorDash hit by new data breach in October exposing user information</div><div class="ticker-item">Fortinet FortiWeb flaw with public PoC exploited to create admin users</div><div class="ticker-item">5 Critical Microsoft 365 Security Settings You Could Be Missing</div><div class="ticker-item">Kraken ransomware benchmarks systems for optimal encryption choice</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet FortiWeb Flaw Actively Exploited in the Wild Before Company's Silent Patch</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are sounding the alert about an authentication bypass vulnerability in Fortinet Fortiweb WAF that could allow an attacker to take over admin accounts and completely compromis...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian Hackers Create 4,300 Fake Travel Sites to Steal Hotel Guests' Payment Data</h3>
+                <p><strong>Summary:</strong> A Russian-speaking threat behind an ongoing, mass phishing campaign has registered more than 4,300 domain names  since the start of the year.  The activity , per Netcraft security researcher Andrew Br...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/russian-hackers-create-4300-fake-travel.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/russian-hackers-create-4300-fake-travel.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake Chrome Extension "Safery" Steals Ethereum Wallet Seed Phrases Using Sui Blockchain</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have uncovered a malicious Chrome extension that poses as a legitimate Ethereum wallet but harbors functionality to exfiltrate users' seed phrases.  The name of the extension...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/fake-chrome-extension-safery-steals.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/fake-chrome-extension-safery-steals.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>When Attacks Come Faster Than Patches: Why 2026 Will be the Year of Machine-Speed Security</h3>
+                <p><strong>Summary:</strong> The Race for Every New CVE  Based on multiple 2025 industry reports: roughly 50 to 61 percent of newly disclosed vulnerabilities saw exploit code weaponized within 48 hours. Using the CISA Known Explo...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/when-attacks-come-faster-than-patches.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/when-attacks-come-faster-than-patches.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Operation Endgame Dismantles Rhadamanthys, Venom RAT, and Elysium Botnet in Global Crackdown</h3>
+                <p><strong>Summary:</strong> Malware families like Rhadamanthys Stealer , Venom RAT , and the Elysium botnet have been disrupted as part of a coordinated law enforcement operation led by Europol and Eurojust.  The activity, which...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/operation-endgame-dismantles.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/operation-endgame-dismantles.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: Cisco 0-Days, AI Bug Bounties, Crypto Heists, State-Linked Leaks and 20 More Stories</h3>
+                <p><strong>Summary:</strong> Behind every click, there's a risk waiting to be tested. A simple ad, email, or link can now hide something dangerous. Hackers are getting smarter, using new tools to sneak past filters and turn trust...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/threatsday-bulletin-cisco-0-days-ai-bug.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/threatsday-bulletin-cisco-0-days-ai-bug.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Anthropic Says Claude AI Powered 90% of Chinese Espionage Campaign</h3>
+                <p><strong>Summary:</strong> A state-sponsored threat actor manipulated Claude Code to execute cyberattacks on roughly 30 organizations worldwide.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/anthropic-says-claude-ai-powered-90-of-chinese-espionage-campaign/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/anthropic-says-claude-ai-powered-90-of-chinese-espionage-campaign/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Says Chinese ‘Lighthouse’ Phishing Kit Disrupted Following Lawsuit</h3>
+                <p><strong>Summary:</strong> The cybercriminals informed customers that their cloud server was shut down due to complaints.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-says-chinese-lighthouse-phishing-kit-disrupted-following-lawsuit/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-says-chinese-lighthouse-phishing-kit-disrupted-following-lawsuit/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ChatGPT Vulnerability Exposed Underlying Cloud Infrastructure</h3>
+                <p><strong>Summary:</strong> A researcher found a way to exploit an SSRF vulnerability related to custom GPTs to obtain an Azure access token.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chatgpt-vulnerability-exposed-underlying-cloud-infrastructure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chatgpt-vulnerability-exposed-underlying-cloud-infrastructure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>1,000+ Servers Hit in Law Enforcement Takedown of Rhadamanthys, VenomRAT, Elysium</h3>
+                <p><strong>Summary:</strong> An individual believed to have been involved in the operation of VenomRAT was arrested recently in Greece.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/1000-servers-hit-in-law-enforcement-takedown-of-rhadamanthys-venomrat-elysium/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/1000-servers-hit-in-law-enforcement-takedown-of-rhadamanthys-venomrat-elysium/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Updates Guidance on Patching Cisco Devices Targeted in China-Linked Attacks</h3>
+                <p><strong>Summary:</strong> Federal agencies have reported as ‘patched’ ASA or FTD devices running software versions vulnerable to attacks.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-updates-guidance-on-patching-cisco-devices-targeted-in-china-linked-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-updates-guidance-on-patching-cisco-devices-targeted-in-china-linked-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar Today: The Future of Industrial Network Security</h3>
+                <p><strong>Summary:</strong> Join us as speakers from Cisco outline important steps industrial organizations can take to safeguard operations, achieve compliance, and enable sustainable growth.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/webinar-today-the-future-of-industrial-network-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/webinar-today-the-future-of-industrial-network-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DoorDash hit by new data breach in October exposing user information</h3>
+                <p><strong>Summary:</strong> DoorDash has disclosed a data breach that hit the food delivery platform this October. Beginning yesterday evening, DoorDash, which serves millions of customers across the U.S., Canada, Australia, and...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/doordash-hit-by-new-data-breach-in-october-exposing-user-information/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/doordash-hit-by-new-data-breach-in-october-exposing-user-information/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet FortiWeb flaw with public PoC exploited to create admin users</h3>
+                <p><strong>Summary:</strong> A Fortinet FortiWeb path traversal vulnerability is being actively exploited to create new administrative users on exposed devices without requiring authentication</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fortiweb-flaw-with-public-poc-actively-exploited-to-create-admin-users/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fortiweb-flaw-with-public-poc-actively-exploited-to-create-admin-users/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>5 Critical Microsoft 365 Security Settings You Could Be Missing</h3>
+                <p><strong>Summary:</strong> A checklist for securing Microsoft 365.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/67/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/67/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Kraken ransomware benchmarks systems for optimal encryption choice</h3>
+                <p><strong>Summary:</strong> The Kraken ransomware, which targets Windows, Linux/VMware ESXi systems, is testing machines to check how fast it can encrypt data without overloading them.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/kraken-ransomware-benchmarks-systems-for-optimal-encryption-choice/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/kraken-ransomware-benchmarks-systems-for-optimal-encryption-choice/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
