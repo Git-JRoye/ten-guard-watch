@@ -36,24 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet</div><div class="ticker-item">Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies</div><div class="ticker-item">North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels</div><div class="ticker-item">Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks</div><div class="ticker-item">Iranian Hackers Launch 'SpearSpecter' Spy Operation on Defense & Government Targets</div><div class="ticker-item">Ransomware's Fragmentation Reaches a Breaking Point While LockBit Returns</div><div class="ticker-item">Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability</div><div class="ticker-item">CYBERCOM 2.0: Pentagon Unveils Plan to Fix Cyber Talent Shortfalls</div><div class="ticker-item">Watch on Demand: CISO Forum 2025 Virtual Summit</div><div class="ticker-item">In Other News: Deepwatch Layoffs, macOS Vulnerability, Amazon AI Bug Bounty</div><div class="ticker-item">Checkout.com Discloses Data Breach After Extortion Attempt</div><div class="ticker-item">Washington Post Says Nearly 10,000 Employees Impacted by Oracle Hack</div><div class="ticker-item">Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors</div><div class="ticker-item">Decades-old ‘Finger’ protocol abused in ClickFix malware attacks</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Jaguar Land Rover cyberattack cost the company over $220 million</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels</div><div class="ticker-item">Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks</div><div class="ticker-item">Iranian Hackers Launch 'SpearSpecter' Spy Operation on Defense & Government Targets</div><div class="ticker-item">Ransomware's Fragmentation Reaches a Breaking Point While LockBit Returns</div><div class="ticker-item">Chinese Hackers Use Anthropic's AI to Launch Automated Cyber Espionage Campaign</div><div class="ticker-item">Now-Patched Fortinet FortiWeb Flaw Exploited in Attacks to Create Admin Accounts</div><div class="ticker-item">Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability</div><div class="ticker-item">CYBERCOM 2.0: Pentagon Unveils Plan to Fix Cyber Talent Shortfalls</div><div class="ticker-item">Watch on Demand: CISO Forum 2025 Virtual Summit</div><div class="ticker-item">In Other News: Deepwatch Layoffs, macOS Vulnerability, Amazon AI Bug Bounty</div><div class="ticker-item">Checkout.com Discloses Data Breach After Extortion Attempt</div><div class="ticker-item">Washington Post Says Nearly 10,000 Employees Impacted by Oracle Hack</div><div class="ticker-item">Logitech confirms data breach after Clop extortion attack</div><div class="ticker-item">Five plead guilty to helping North Koreans infiltrate US firms</div><div class="ticker-item">5 Critical Google Workspace Security Settings You Could Be Missing</div><div class="ticker-item">Anthropic claims of Claude AI-automated cyberattacks met with doubt</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet</h3>
-                <p><strong>Summary:</strong> The botnet malware known as RondoDox  has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.  The vulner...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies</h3>
-                <p><strong>Summary:</strong> The U.S. Department of Justice (DoJ) on Friday announced  that five individuals have pleaded guilty to assisting North Korea's illicit revenue generation schemes by enabling information technology (IT...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/five-us-citizens-plead-guilty-to.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/11/five-us-citizens-plead-guilty-to.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels</h3>
                 <p><strong>Summary:</strong> The North Korean threat actors behind the Contagious Interview  campaign have once again tweaked their tactics by using JSON storage services to stage malicious payloads.  "The threat actors have rece...</p>
@@ -81,6 +67,20 @@
                 <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/ransomwares-fragmentation-reaches.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/11/ransomwares-fragmentation-reaches.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese Hackers Use Anthropic's AI to Launch Automated Cyber Espionage Campaign</h3>
+                <p><strong>Summary:</strong> State-sponsored threat actors from China used artificial intelligence (AI) technology developed by Anthropic to orchestrate automated cyber attacks as part of a "highly sophisticated espionage campaig...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/chinese-hackers-use-anthropics-ai-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/chinese-hackers-use-anthropics-ai-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Now-Patched Fortinet FortiWeb Flaw Exploited in Attacks to Create Admin Accounts</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are sounding the alert about an authentication bypass vulnerability in Fortinet Fortiweb Web Application Firewall (WAF) that could allow an attacker to take over admin accoun...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability</h3>
@@ -125,32 +125,32 @@
                 <a href="https://www.securityweek.com/washington-post-says-nearly-10000-employees-impacted-by-oracle-hack/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors</h3>
-                <p><strong>Summary:</strong> Microsoft has confirmed it is investigating a bug causing the Windows 10 KB5068781 extended security update to fail to install with 0x800f0922 errors on devices with corporate licensing.</p>
+                <h3>Logitech confirms data breach after Clop extortion attack</h3>
+                <p><strong>Summary:</strong> Hardware accessory giant Logitech has confirmed it suffered a data breach in a cyberattack claimed by the Clop extortion gang, which conducted Oracle E-Business Suite data theft attacks in July.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/logitech-confirms-data-breach-after-clop-extortion-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/logitech-confirms-data-breach-after-clop-extortion-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Five plead guilty to helping North Koreans infiltrate US firms</h3>
+                <p><strong>Summary:</strong> The U.S. Department of Justice announced that five individuals pleaded guilty to aiding North Korea's illicit revenue generation schemes, including remote IT worker fraud and cryptocurrency theft.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5068781-esu-update-may-fail-with-0x800f0922-errors/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5068781-esu-update-may-fail-with-0x800f0922-errors/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/five-plead-guilty-to-helping-north-koreans-infiltrate-us-firms/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/five-plead-guilty-to-helping-north-koreans-infiltrate-us-firms/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Decades-old ‘Finger’ protocol abused in ClickFix malware attacks</h3>
-                <p><strong>Summary:</strong> The decades-old "finger" command is making a comeback,, with threat actors using the protocol to retrieve remote commands to execute on Windows devices.</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/decades-old-finger-protocol-abused-in-clickfix-malware-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/decades-old-finger-protocol-abused-in-clickfix-malware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>5 Critical Google Workspace Security Settings You Could Be Missing</h3>
+                <p><strong>Summary:</strong> A checklist for securing Google Workspace.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
-                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
-                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Jaguar Land Rover cyberattack cost the company over $220 million</h3>
-                <p><strong>Summary:</strong> Jaguar Land Rover (JLR) published its financial results for July 1 to September 30, warning that the cost of a recent cyberattack totaled £196 million ($220 million) in the quarter.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Anthropic claims of Claude AI-automated cyberattacks met with doubt</h3>
+                <p><strong>Summary:</strong> Anthropic reports that a Chinese state-sponsored threat group, tracked as GTG-1002, carried out a cyber-espionage operation that was largely automated through the abuse of the company's Claude Code AI...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/anthropic-claims-of-claude-ai-automated-cyberattacks-met-with-doubt/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/anthropic-claims-of-claude-ai-automated-cyberattacks-met-with-doubt/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
