@@ -1,0 +1,212 @@
+{
+  "date": "2025-11-18",
+  "items": [
+    {
+      "title": "Microsoft Mitigates Record 15.72 Tbps DDoS Attack Driven by AISURU Botnet",
+      "link": "https://thehackernews.com/2025/11/microsoft-mitigates-record-572-tbps.html",
+      "summary": "Microsoft on Monday disclosed that it automatically detected and neutralized a distributed denial-of-service (DDoS) attack targeting a single endpoint in Australia that measured 15.72 terabits per second (Tbps) and nearly 3.64 billion packets per second (pps).  The tech giant said it was the largest DDoS attack ever observed in the cloud, and that it originated from a TurboMirai-class Internet of Things (IoT botnet known as AISURU . It's currently not known who was targeted by the attack.  \"The attack involved extremely high-rate UDP floods targeting a specific public IP address, launched from over 500,000 source IPs across various regions,\" Microsoft's Sean Whalen said .   \"These sudden UDP bursts had minimal source spoofing and used random source ports, which helped simplify traceback and facilitated provider enforcement.\"  According to data from QiAnXin XLab, the AISURU botnet is powered  by nearly 300,000 infected devices, most of which are routers, sec...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-mitigates-record-1572-tbps-ddos-attack-d",
+      "source": "The Hacker News",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Google Issues Security Fix for Actively Exploited Chrome V8 Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/google-issues-security-fix-for-actively.html",
+      "summary": "Google on Monday released  security updates for its Chrome browser to address two security flaws, including one that has come under active exploitation in the wild.  The vulnerability in question is CVE-2025-13223 (CVSS score: 8.8), a type confusion vulnerability in the V8 JavaScript and WebAssembly engine that could be exploited to achieve arbitrary code execution or program crashes.  \"Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page,\" according to a description  of the flaw in the NIST National Vulnerability Database (NVD).  Clément Lecigne of Google's Threat Analysis Group (TAG) has been credited with discovering and reporting the flaw on November 12, 2025. Google has not shared any details on who is behind the attacks, who may have been targeted, or the scale of such efforts.  However, the tech giant acknowledged that an \"exploit for CVE-2025-13223 exists in the...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "google-issues-security-fix-for-actively-exploited-",
+      "source": "The Hacker News",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "New EVALUSION ClickFix Campaign Delivers Amatera Stealer and NetSupport RAT",
+      "link": "https://thehackernews.com/2025/11/new-evalusion-clickfix-campaign.html",
+      "summary": "Cybersecurity researchers have discovered malware campaigns using the now-prevalent ClickFix  social engineering tactic to deploy Amatera Stealer  and NetSupport RAT .  The activity, observed this month, is being tracked  by eSentire under the moniker EVALUSION .  First spotted  in June 2025, Amatera is assessed  to be an evolution of ACR (short for \"AcridRain\") Stealer, which was available under the malware-as-a-service (MaaS) model until sales of the malware were suspended in mid-July 2024. Amatera is available for purchase via subscription plans that go from $199 per month to $1,499 for a year.   \"Amatera provides threat actors with extensive data exfiltration capabilities targeting crypto-wallets, browsers, messaging applications, FTP clients, and email services,\" the Canadian cybersecurity vendor said. \"Notably, Amatera employs advanced evasion techniques such as WoW64 SysCalls to circumvent user-mode hooking mechanisms commonly used by sandboxes, Anti-Vi...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "new-evalusion-clickfix-campaign-delivers-amatera-s",
+      "source": "The Hacker News",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "⚡ Weekly Recap: Fortinet Exploited, China's AI Hacks, PhaaS Empire Falls & More",
+      "link": "https://thehackernews.com/2025/11/weekly-recap-fortinet-exploited-chinas.html",
+      "summary": "This week showed just how fast things can go wrong when no one's watching. Some attacks were silent and sneaky. Others used tools we trust every day — like AI, VPNs, or app stores — to cause damage without setting off alarms.  It's not just about hacking anymore. Criminals are building systems to make money, spy, or spread malware like it's a business. And in some cases, they're using the same apps and services that businesses rely on — flipping the script without anyone noticing at first.  The scary part? Some threats weren't even bugs — just clever use of features we all take for granted. And by the time people figured it out, the damage was done.  Let's look at what really happened, why it matters, and what we should all be thinking about now.  ⚡ Threat of the Week  Silently Patched Fortinet Flaw Comes Under Attack  — A vulnerability that was patched by Fortinet in FortiWeb Web Application Firewall (WAF) has been exploited in the wild since early October 2025 by threat actors to c...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "-weekly-recap-fortinet-exploited-chinas-ai-hacks-p",
+      "source": "The Hacker News",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "5 Reasons Why Attackers Are Phishing Over LinkedIn",
+      "link": "https://thehackernews.com/2025/11/5-reasons-why-attackers-are-phishing.html",
+      "summary": "Phishing attacks are no longer confined to the email inbox, with 1 in 3 phishing attacks now taking place over non-email channels  like social media, search engines, and messaging apps.  LinkedIn in particular has become a hotbed for phishing attacks, and for good reason. Attackers are running sophisticated spear-phishing attacks against company executives, with recent campaigns seen targeting enterprises in financial services  and technology  verticals.   But phishing outside of email remains severely underreported — not exactly surprising when we consider that most of the industry's phishing metrics come from email security tools.  Your initial thought might be \"why do I care about employees getting phished on LinkedIn?\" Well, while LinkedIn is a personal app, it's routinely used for work purposes, accessed from corporate devices, and attackers are specifically targeting business accounts like Microsoft Entra and Google Workspace.  So, LinkedIn phishing is a key threat that busi...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "5-reasons-why-attackers-are-phishing-over-linkedin",
+      "source": "The Hacker News",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Dragon Breath Uses RONINGLOADER to Disable Security Tools and Deploy Gh0st RAT",
+      "link": "https://thehackernews.com/2025/11/dragon-breath-uses-roningloader-to.html",
+      "summary": "The threat actor known as Dragon Breath  has been observed making use of a multi-stage loader codenamed RONINGLOADER to deliver a modified variant of a remote access trojan called Gh0st RAT.  The campaign, which is primarily aimed at Chinese-speaking users, employs trojanized NSIS installers masquerading as legitimate like Google Chrome and Microsoft Teams, according to Elastic Security Labs.  \"The infection chain employs a multi-stage delivery mechanism that leverages various evasion techniques, with many redundancies aimed at neutralising endpoint security products popular in the Chinese market,\" security researchers Jia Yu Chan and Salim Bitam said . \"These include bringing a legitimately signed driver, deploying custom WDAC policies, and tampering with the Microsoft Defender binary through PPL  [Protected Process Light] abuse.\"  Dragon Breath, also known as APT-Q-27 and Golden Eye, was previously highlighted  by Sophos in May 2023 in connection with a campaign ...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "dragon-breath-uses-roningloader-to-disable-securit",
+      "source": "The Hacker News",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Chrome 142 Update Patches Exploited Zero-Day",
+      "link": "https://www.securityweek.com/chrome-142-update-patches-exploited-zero-day/",
+      "summary": "The flaw was reported by Google’s Threat Analysis Group and was likely exploited by a commercial spyware vendor.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "chrome-142-update-patches-exploited-zero-day",
+      "source": "SecurityWeek",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Iranian Hackers Target Defense and Government Officials in Ongoing Campaign",
+      "link": "https://www.securityweek.com/iranian-hackers-target-defense-and-government-officials-in-ongoing-campaign/",
+      "summary": "The state-sponsored APT has been targeting the victims’ family members to increase pressure on their targets.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "iranian-hackers-target-defense-and-government-offi",
+      "source": "SecurityWeek",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "DoorDash Says Personal Information Stolen in Data Breach",
+      "link": "https://www.securityweek.com/doordash-says-personal-information-stolen-in-data-breach/",
+      "summary": "Names, addresses, email addresses, and phone numbers were compromised after an employee fell for a social engineering attack.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "doordash-says-personal-information-stolen-in-data-",
+      "source": "SecurityWeek",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "5 Plead Guilty in US to Helping North Korean IT Workers",
+      "link": "https://www.securityweek.com/5-plead-guilty-in-us-to-helping-north-korean-it-workers/",
+      "summary": "Audricus Phagnasay, Jason Salazar, Alexander Paul Travis, Erick Ntekereze, and Oleksandr Didenko have pleaded guilty.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "5-plead-guilty-in-us-to-helping-north-korean-it-wo",
+      "source": "SecurityWeek",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Logitech Confirms Data Breach Following Designation as Oracle Hack Victim",
+      "link": "https://www.securityweek.com/logitech-confirms-data-breach-following-designation-as-oracle-hack-victim/",
+      "summary": "Logitech was listed on the Cl0p ransomware leak website in early November, but its disclosure does not mention Oracle.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "logitech-confirms-data-breach-following-designatio",
+      "source": "SecurityWeek",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Widespread Exploitation of XWiki Vulnerability Observed",
+      "link": "https://www.securityweek.com/widespread-exploitation-of-xwiki-vulnerability-observed/",
+      "summary": "The exploitation of the recent XWiki vulnerability has expanded to botnets, cryptocurrency miners, scanners, and custom tools.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "widespread-exploitation-of-xwiki-vulnerability-obs",
+      "source": "SecurityWeek",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Microsoft: Windows 10 KB5072653 OOB update fixes ESU install errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5072653-oob-update-fixes-esu-install-errors/",
+      "summary": "Microsoft has released an emergency Windows 10 KB5072653 out-of-band update to resolve ongoing issues with installing the November extended security updates.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-windows-10-kb5072653-oob-update-fixes-es",
+      "source": "BleepingComputer",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Malicious NPM packages abuse Adspect redirects to evade security",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-abuse-adspect-redirects-to-evade-security/",
+      "summary": "Seven packages published on the Node Package Manager (npm) registry use the Adspect cloud-based service to separate researchers from potential victims and lead them to malicious locations.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-npm-packages-abuse-adspect-redirects-to-",
+      "source": "BleepingComputer",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "xAI's Grok 4.1 rolls out with improved quality and speed for free",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/xais-grok-41-rolls-out-with-improved-quality-and-speed-for-free/",
+      "summary": "Elon Musk-owned xAI has started rolling out Grok 4.1, which is an upgrade to the existing Grok 4 model, and it delivers some incremental improvements.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "xais-grok-41-rolls-out-with-improved-quality-and-s",
+      "source": "BleepingComputer",
+      "date": "2025-11-18"
+    }
+  ]
+}

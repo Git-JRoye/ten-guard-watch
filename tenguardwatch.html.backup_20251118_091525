@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Rust Adoption Drives Android Memory Safety Bugs Below 20% for First Time</div><div class="ticker-item">RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet</div><div class="ticker-item">Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies</div><div class="ticker-item">North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels</div><div class="ticker-item">Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks</div><div class="ticker-item">Iranian Hackers Launch 'SpearSpecter' Spy Operation on Defense & Government Targets</div><div class="ticker-item">Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability</div><div class="ticker-item">CYBERCOM 2.0: Pentagon Unveils Plan to Fix Cyber Talent Shortfalls</div><div class="ticker-item">Watch on Demand: CISO Forum 2025 Virtual Summit</div><div class="ticker-item">In Other News: Deepwatch Layoffs, macOS Vulnerability, Amazon AI Bug Bounty</div><div class="ticker-item">Checkout.com Discloses Data Breach After Extortion Attempt</div><div class="ticker-item">Washington Post Says Nearly 10,000 Employees Impacted by Oracle Hack</div><div class="ticker-item">Google to flag Android apps with excessive battery use on the Play Store</div><div class="ticker-item">Get started learning the CISSP security domains for just $30 through 11/20</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Rust Adoption Drives Android Memory Safety Bugs Below 20% for First Time</h3>
+                <p><strong>Summary:</strong> Google has disclosed that the company's continued adoption of the Rust programming language in Android has resulted in the number of memory safety vulnerabilities falling below 20% of total vulnerabil...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/rust-adoption-drives-android-memory.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/rust-adoption-drives-android-memory.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet</h3>
+                <p><strong>Summary:</strong> The botnet malware known as RondoDox  has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.  The vulner...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies</h3>
+                <p><strong>Summary:</strong> The U.S. Department of Justice (DoJ) on Friday announced  that five individuals have pleaded guilty to assisting North Korea's illicit revenue generation schemes by enabling information technology (IT...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/five-us-citizens-plead-guilty-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/five-us-citizens-plead-guilty-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels</h3>
+                <p><strong>Summary:</strong> The North Korean threat actors behind the Contagious Interview  campaign have once again tweaked their tactics by using JSON storage services to stage malicious payloads.  "The threat actors have rece...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/north-korean-hackers-turn-json-services.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/north-korean-hackers-turn-json-services.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Iranian Hackers Launch 'SpearSpecter' Spy Operation on Defense & Government Targets</h3>
+                <p><strong>Summary:</strong> The Iranian state-sponsored threat actor known as APT42  has been observed targeting individuals and organizations that are of interest to the Islamic Revolutionary Guard Corps (IRGC) as part of a new...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/iranian-hackers-launch-spearspecter-spy.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/iranian-hackers-launch-spearspecter-spy.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability</h3>
+                <p><strong>Summary:</strong> Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CYBERCOM 2.0: Pentagon Unveils Plan to Fix Cyber Talent Shortfalls</h3>
+                <p><strong>Summary:</strong> The goal is to produce a cyber force capable of defeating threats posed by major adversaries such as China.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cybercom-2-0-pentagon-unveils-plan-to-fix-cyber-talent-shortfalls/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cybercom-2-0-pentagon-unveils-plan-to-fix-cyber-talent-shortfalls/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Watch on Demand: CISO Forum 2025 Virtual Summit</h3>
+                <p><strong>Summary:</strong> The CISO Forum Virtual Summit brought together CISOs, researchers, and innovators to share practical insights and strategies.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/virtual-event-today-ciso-forum-2025-virtual-summit/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/virtual-event-today-ciso-forum-2025-virtual-summit/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: Deepwatch Layoffs, macOS Vulnerability, Amazon AI Bug Bounty</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: EchoGram attack undermines AI guardrails, Asahi brewer still crippled after ransomware attack, Sora 2 system prompt uncovered.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-deepwatch-layoffs-macos-vulnerability-amazon-ai-bug-bounty/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-deepwatch-layoffs-macos-vulnerability-amazon-ai-bug-bounty/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Checkout.com Discloses Data Breach After Extortion Attempt</h3>
+                <p><strong>Summary:</strong> The information was stolen from a legacy cloud file storage system, not from its payment processing platform.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/checkout-com-discloses-data-breach-after-extortion-attempt/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/checkout-com-discloses-data-breach-after-extortion-attempt/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Washington Post Says Nearly 10,000 Employees Impacted by Oracle Hack</h3>
+                <p><strong>Summary:</strong> The media company admitted that cybercriminals attempted to extort a payment after stealing personal information.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/washington-post-says-nearly-10000-employees-impacted-by-oracle-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/washington-post-says-nearly-10000-employees-impacted-by-oracle-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google to flag Android apps with excessive battery use on the Play Store</h3>
+                <p><strong>Summary:</strong> Google will start taking action on Android apps in the official Google Play store that have high background activity and cause excessive battery draining.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-to-flag-android-apps-with-excessive-battery-use-on-the-play-store/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-to-flag-android-apps-with-excessive-battery-use-on-the-play-store/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Get started learning the CISSP security domains for just $30 through 11/20</h3>
+                <p><strong>Summary:</strong> The CISSP certification remains one of the top certifications for cybersecurity professionals looking to advance their careers in security management. For those ready to tackle this comprehensive exam...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/get-started-learning-the-cissp-security-domains-for-just-30-through-11-20/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/get-started-learning-the-cissp-security-domains-for-just-30-through-11-20/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors</h3>
+                <p><strong>Summary:</strong> Microsoft has confirmed it is investigating a bug causing the Windows 10 KB5068781 extended security update to fail to install with 0x800f0922 errors on devices with corporate licensing.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5068781-esu-update-may-fail-with-0x800f0922-errors/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5068781-esu-update-may-fail-with-0x800f0922-errors/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
