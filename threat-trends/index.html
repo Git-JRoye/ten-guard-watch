@@ -34,7 +34,7 @@
             "name": "TenGuard Security",
             "url": "https://www.tenguardsecurity.com"
         },
-        "dateModified": "2025-11-18T09:34:09.236237",
+        "dateModified": "2025-11-19T09:15:28.965275",
         "isAccessibleForFree": true
     }
     </script>
@@ -418,7 +418,7 @@
     <section class="dashboard-section blue-tint" data-aos="fade-up" data-aos-once="true">
         <h1>🛡️ Threat Trends Dashboard</h1>
         <p style="font-size: 1.2em; margin-bottom: 10px;">Real-time cybersecurity intelligence powered by TenGuard Security</p>
-        <p class="update-info">Last updated: <strong>November 18, 2025 at 09:34 AM UTC</strong></p>
+        <p class="update-info">Last updated: <strong>November 19, 2025 at 09:15 AM UTC</strong></p>
         
         
         <!-- KPI Cards -->
@@ -430,7 +430,7 @@
             </div>
             <div class="kpi-card" data-aos="fade-up">
                 <div class="kpi-label">Last 30 Days</div>
-                <div class="kpi-value">192</div>
+                <div class="kpi-value">208</div>
                 <div class="kpi-label">Threats Tracked</div>
             </div>
             <div class="kpi-card" data-aos="fade-left">
@@ -724,17 +724,17 @@
                     
                     <tr>
                         <td>The Hacker News</td>
-                        <td><strong>72</strong></td>
+                        <td><strong>78</strong></td>
                     </tr>
                     
                     <tr>
                         <td>SecurityWeek</td>
-                        <td><strong>72</strong></td>
+                        <td><strong>78</strong></td>
                     </tr>
                     
                     <tr>
                         <td>BleepingComputer</td>
-                        <td><strong>48</strong></td>
+                        <td><strong>52</strong></td>
                     </tr>
                     
                 </tbody>
@@ -754,57 +754,62 @@
                     
                     <tr>
                         <td>security</td>
-                        <td><strong>97</strong></td>
+                        <td><strong>108</strong></td>
                     </tr>
                     
                     <tr>
                         <td>threat</td>
-                        <td><strong>66</strong></td>
+                        <td><strong>71</strong></td>
                     </tr>
                     
                     <tr>
                         <td>google</td>
-                        <td><strong>65</strong></td>
+                        <td><strong>66</strong></td>
                     </tr>
                     
                     <tr>
                         <td>attacks</td>
-                        <td><strong>58</strong></td>
+                        <td><strong>65</strong></td>
                     </tr>
                     
                     <tr>
                         <td>malware</td>
-                        <td><strong>58</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>exploited</td>
-                        <td><strong>56</strong></td>
+                        <td><strong>60</strong></td>
                     </tr>
                     
                     <tr>
                         <td>code</td>
-                        <td><strong>56</strong></td>
+                        <td><strong>59</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>exploited</td>
+                        <td><strong>58</strong></td>
                     </tr>
                     
                     <tr>
                         <td>vulnerability</td>
-                        <td><strong>55</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>cve</td>
-                        <td><strong>50</strong></td>
+                        <td><strong>58</strong></td>
                     </tr>
                     
                     <tr>
                         <td>microsoft</td>
-                        <td><strong>47</strong></td>
+                        <td><strong>54</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cve</td>
+                        <td><strong>53</strong></td>
                     </tr>
                     
                     <tr>
                         <td>attack</td>
-                        <td><strong>45</strong></td>
+                        <td><strong>48</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>phishing</td>
+                        <td><strong>44</strong></td>
                     </tr>
                     
                     <tr>
@@ -813,18 +818,13 @@
                     </tr>
                     
                     <tr>
+                        <td>researchers</td>
+                        <td><strong>42</strong></td>
+                    </tr>
+                    
+                    <tr>
                         <td>data</td>
-                        <td><strong>40</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>campaign</td>
-                        <td><strong>38</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>flaw</td>
-                        <td><strong>37</strong></td>
+                        <td><strong>41</strong></td>
                     </tr>
                     
                 </tbody>
@@ -872,10 +872,10 @@
         new Chart(tagCtx, {
             type: 'bar',
             data: {
-                labels: ["attack", "vulnerability", "critical", "cybersecurity", "malware", "breach", "phishing", "ransomware", "apt"],
+                labels: ["attack", "vulnerability", "cybersecurity", "critical", "malware", "breach", "phishing", "apt", "ransomware"],
                 datasets: [{
                     label: 'Occurrences',
-                    data: [81, 59, 44, 42, 41, 25, 21, 20, 19],
+                    data: [89, 61, 49, 44, 43, 26, 25, 20, 20],
                     backgroundColor: chartColors.primary,
                     borderColor: chartColors.secondary,
                     borderWidth: 2
@@ -926,7 +926,7 @@
             data: {
                 labels: ['High', 'Medium', 'Low'],
                 datasets: [{
-                    data: [45, 76, 71],
+                    data: [45, 84, 79],
                     backgroundColor: [
                         chartColors.danger,
                         chartColors.warning,
@@ -962,10 +962,10 @@
         new Chart(dailyCtx, {
             type: 'line',
             data: {
-                labels: ["2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18"],
+                labels: ["2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18", "2025-11-19"],
                 datasets: [{
                     label: 'Threats per Day',
-                    data: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+                    data: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
                     borderColor: chartColors.primary,
                     backgroundColor: 'rgba(16, 185, 129, 0.1)',
                     tension: 0.4,
@@ -1012,10 +1012,10 @@
         new Chart(keywordCtx, {
             type: 'bar',
             data: {
-                labels: ["security", "threat", "google", "attacks", "malware", "exploited", "code", "vulnerability", "cve", "microsoft"],
+                labels: ["security", "threat", "google", "attacks", "malware", "code", "exploited", "vulnerability", "microsoft", "cve"],
                 datasets: [{
                     label: 'Frequency',
-                    data: [97, 66, 65, 58, 58, 56, 56, 55, 50, 47],
+                    data: [108, 71, 66, 65, 60, 59, 58, 58, 54, 53],
                     backgroundColor: chartColors.secondary,
                     borderColor: chartColors.primary,
                     borderWidth: 2
