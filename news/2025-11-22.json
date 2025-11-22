@@ -1,0 +1,214 @@
+{
+  "date": "2025-11-22",
+  "items": [
+    {
+      "title": "Matrix Push C2 Uses Browser Notifications for Fileless, Cross-Platform Phishing Attacks",
+      "link": "https://thehackernews.com/2025/11/matrix-push-c2-uses-browser.html",
+      "summary": "Bad actors are leveraging browser notifications as a vector for phishing attacks to distribute malicious links by means of a new command-and-control (C2) platform called Matrix Push C2.  \"This browser-native, fileless framework leverages push notifications, fake alerts, and link redirects to target victims across operating systems,\" Blackfog researcher Brenda Robb said  in a Thursday report.  In these attacks, prospective targets are tricked into allowing browser notifications through social engineering on malicious or legitimate-but-compromised websites.  Once a user agrees to receive notifications from the site, the attackers take advantage of the web push notification mechanism  built into the web browser to send alerts that look like they have been sent by the operating system or the browser itself, leveraging trusted branding, familiar logos, and convincing language to maintain the ruse.  These include alerts about, say, suspicious logins or browser updates, along with ...",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "matrix-push-c2-uses-browser-notifications-for-file",
+      "source": "The Hacker News",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting Oracle Identity Manager to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability in question is CVE-2025-61757 (CVSS score: 9.8), a case of missing authentication for a critical function that can result in pre-authenticated remote code execution. The vulnerability affects versions 12.2.1.4.0 and 14.1.2.1.0. It was addressed  by Oracle as part of its quarterly updates released last month.   \"Oracle Fusion Middleware contains a missing authentication for a critical function vulnerability, allowing unauthenticated remote attackers to take over Identity Manager,\" CISA said.  Searchlight Cyber researchers Adam Kues and Shubham Shah, who discovered  the flaw, said it can permit an attacker to access API endpoints that, in turn, can allow them \"to manipulate authentication flows, escalate privileges, and ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-warns-of-actively-exploited-critical-oracle-i",
+      "source": "The Hacker News",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Grafana Patches CVSS 10.0 SCIM Flaw Enabling Impersonation and Privilege Escalation",
+      "link": "https://thehackernews.com/2025/11/grafana-patches-cvss-100-scim-flaw.html",
+      "summary": "Grafana has released security updates to address a maximum severity security flaw that could allow privilege escalation or user impersonation under certain configurations.  The vulnerability, tracked as CVE-2025-41115 , carries a CVSS score of 10.0. It resides in the System for Cross-domain Identity Management ( SCIM ) component that allows automated user provisioning and management. First introduced  in April 2025, it's currently in public preview.  \"In Grafana versions 12.x where SCIM provisioning is enabled and configured, a vulnerability in user identity handling allows a malicious or compromised SCIM client to provision a user with a numeric externalId, which in turn could allow for overriding internal user IDs and lead to impersonation or privilege escalation,\" Grafana's Vardan Torosyan said .   That said, successful exploitation hinges on both conditions being met -   enableSCIM feature flag is set to true  user_sync_enabled config option in the [auth.scim] bl...",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "grafana-patches-cvss-100-scim-flaw-enabling-impers",
+      "source": "The Hacker News",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Google Brings AirDrop Compatibility to Android's Quick Share Using Rust-Hardened Security",
+      "link": "https://thehackernews.com/2025/11/google-adds-airdrop-compatibility-to.html",
+      "summary": "In a surprise move, Google on Thursday announced  that it has updated Quick Share, its peer-to-peer file transfer service, to work with Apple's equipment AirDrop, allowing users to more easily share files and photos between Android and iPhone devices.  The cross-platform sharing feature is currently limited to the Pixel 10 lineup and works with iPhone, iPad, and macOS devices, with plans to expand to additional Android devices in the future.  In order to transfer a file from a Pixel 10 phone over AirDrop, the only caveat is that the owner of the Apple device is required to make sure their iPhone (or iPad or Mac) is discoverable to anyone – which can be enabled for 10 minutes.  Likewise, to receive content from an Apple device, Android device users will need to adjust their Quick Share visibility settings to Everyone for 10 minutes or be in Receive mode on the Quick Share page, according to a support document  published by Google.   \"We built Quick Share's interoperability...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-brings-airdrop-compatibility-to-androids-qu",
+      "source": "The Hacker News",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Why IT Admins Choose Samsung for Mobile Security",
+      "link": "https://thehackernews.com/2025/11/why-it-admins-choose-samsung-for-mobile.html",
+      "summary": "Ever wonder how some IT teams keep corporate data safe without slowing down employees? Of course you have.  Mobile devices are essential for modern work—but with mobility comes risk. IT admins, like you, juggle protecting sensitive data while keeping teams productive. That's why more enterprises are turning to Samsung for mobile security.  Hey—you're busy, so here's a quick-read article on what makes Samsung Galaxy devices and Knox Suite really stand out.  Security built in. Management simplified.  Samsung Galaxy devices come with Samsung Knox  built in at the manufacturing stage, creating a hardware foundation that extends visibility and control across your security infrastructure.   Simplified management with Knox Suite:  Samsung's all-in-one package to manage and secure work devices grants centralized control without the need for extra tools or workflows (that got your attention!).  Integrated security:  Samsung Knox is built into both hardware and software, giving multi-la...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "why-it-admins-choose-samsung-for-mobile-security",
+      "source": "The Hacker News",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "APT24 Deploys BADAUDIO in Years-Long Espionage Hitting Taiwan and 1,000+ Domains",
+      "link": "https://thehackernews.com/2025/11/apt24-deploys-badaudio-in-years-long.html",
+      "summary": "A China-nexus threat actor known as APT24  has been observed using a previously undocumented malware dubbed BADAUDIO to establish persistent remote access to compromised networks as part of a nearly three-year campaign.  \"While earlier operations relied on broad strategic web compromises to compromise legitimate websites, APT24 has recently pivoted to using more sophisticated vectors targeting organizations in Taiwan,\" Google Threat Intelligence Group (GTIG) researchers Harsh Parashar, Tierra Duncan, and Dan Perez said .  \"This includes the repeated compromise of a regional digital marketing firm to execute supply chain attacks and the use of targeted phishing campaigns.\"  APT24, also called Pitty Tiger, is the moniker assigned  to a suspected Chinese hacking group that has targeted government, healthcare, construction and engineering, mining, non-profit, and telecommunications sectors in the U.S. and Taiwan. The group is also known to engage in cyber operations wh...",
+      "tags": [
+        "malware",
+        "phishing",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apt24-deploys-badaudio-in-years-long-espionage-hit",
+      "source": "The Hacker News",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "In Other News: ATM Jackpotting, WhatsApp-NSO Lawsuit Continues, CISA Hiring",
+      "link": "https://www.securityweek.com/in-other-news-atm-jackpotting-whatsapp-nso-lawsuit-continues-cisa-hiring/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: surge in Palo Alto Networks scanning, WEL Companies data breach impacts 120,000 people, AI second-order prompt injection attack.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-atm-jackpotting-whatsapp-nso-lawsuit",
+      "source": "SecurityWeek",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/",
+      "summary": "CVE-2025-61757 is an unauthenticated remote code execution vulnerability affecting Oracle Identity Manager.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-oracle-identity-manager-flaw-possibly-exp",
+      "source": "SecurityWeek",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Over 370 Organizations Take Part in GridEx VIII Grid Security Exercise",
+      "link": "https://www.securityweek.com/over-370-organizations-take-part-in-gridex-viii-grid-security-exercise/",
+      "summary": "The number of participants in the cyber and physical grid security exercise increased by nearly 50% compared to two years ago.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "over-370-organizations-take-part-in-gridex-viii-gr",
+      "source": "SecurityWeek",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "SonicWall Patches High-Severity Flaws in Firewalls, Email Security Appliance",
+      "link": "https://www.securityweek.com/sonicwall-patches-high-severity-flaws-in-firewalls-email-security-appliance/",
+      "summary": "The vulnerabilities could be exploited to cause a denial-of-service (DoS) condition, execute arbitrary code, or access arbitrary files and directories.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "sonicwall-patches-high-severity-flaws-in-firewalls",
+      "source": "SecurityWeek",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Chinese Cyberspies Deploy ‘BadAudio’ Malware via Supply Chain Attacks",
+      "link": "https://www.securityweek.com/chinese-cyberspies-deploy-badaudio-malware-via-supply-chain-attacks/",
+      "summary": "APT24 has been relying on various techniques to drop the BadAudio downloader and then deploy additional payloads.",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "chinese-cyberspies-deploy-badaudio-malware-via-sup",
+      "source": "SecurityWeek",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "SquareX and Perplexity Quarrel Over Alleged Comet Browser Vulnerability",
+      "link": "https://www.securityweek.com/squarex-and-perplexity-quarrel-over-alleged-comet-browser-vulnerability/",
+      "summary": "SquareX claims to have found a way to abuse a hidden Comet API to execute local commands, but Perplexity says the research is fake.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "squarex-and-perplexity-quarrel-over-alleged-comet-",
+      "source": "SecurityWeek",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "CISA warns Oracle Identity Manager RCE flaw is being actively exploited",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-oracle-identity-manager-rce-flaw-is-being-actively-exploited/",
+      "summary": "The U.S. Cybersecurity & Infrastructure Security Agency (CISA) is warning government agencies to patch an Oracle Identity Manager tracked as CVE-2025-61757 that has been exploited in attacks, potentially as a zero-day.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-warns-oracle-identity-manager-rce-flaw-is-bei",
+      "source": "BleepingComputer",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Nvidia confirms October Windows updates cause gaming issues",
+      "link": "https://www.bleepingcomputer.com/news/technology/nvidia-fixes-gaming-issues-caused-by-october-windows-update/",
+      "summary": "Nvidia has confirmed that last month's security updates are causing gaming performance issues on Windows 11 24H2 and Windows 11 25H2 systems.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "nvidia-confirms-october-windows-updates-cause-gami",
+      "source": "BleepingComputer",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Microsoft: Out-of-band update fixes Windows 11 hotpatch install loop",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-out-of-band-update-fixes-windows-11-hotpatch-install-loop/",
+      "summary": "Microsoft has released an out-of-band cumulative update to fix a known issue causing the November 2025 KB5068966 hotpatch update to reinstall on Windows 11 systems repeatedly.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-out-of-band-update-fixes-windows-11-hotp",
+      "source": "BleepingComputer",
+      "date": "2025-11-22"
+    }
+  ]
+}
