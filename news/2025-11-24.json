@@ -1,0 +1,212 @@
+{
+  "date": "2025-11-24",
+  "items": [
+    {
+      "title": "ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access",
+      "link": "https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html",
+      "summary": "A recently patched security flaw in Microsoft Windows Server Update Services (WSUS) has been exploited by threat actors to distribute malware known as ShadowPad.  \"The attacker targeted Windows Servers with WSUS enabled, exploiting CVE-2025-59287 for initial access,\" AhnLab Security Intelligence Center (ASEC) said  in a report published last week. \"They then used PowerCat , an open-source PowerShell-based Netcat utility, to obtain a system shell (CMD). Subsequently, they downloaded and installed ShadowPad using certutil and curl.\"  ShadowPad , assessed to be a successor to PlugX, is a modular backdoor widely used by Chinese state-sponsored hacking groups. It first emerged in 2015. In an analysis published in August 2021, SentinelOne called  it a \"masterpiece of privately sold malware in Chinese espionage.\"   CVE-2025-59287 , addressed by Microsoft last month, refers to a critical deserialization flaw in WSUS that could be exploited to achieve remote code ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "shadowpad-malware-actively-exploits-wsus-vulnerabi",
+      "source": "The Hacker News",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "China-Linked APT31 Launches Stealthy Cyberattacks on Russian IT Using Cloud Services",
+      "link": "https://thehackernews.com/2025/11/china-linked-apt31-launches-stealthy.html",
+      "summary": "The China-linked advanced persistent threat (APT) group known as APT31  has been attributed to cyber attacks targeting the Russian information technology (IT) sector between 2024 and 2025 while staying undetected for extended periods of time.  \"In the period from 2024 to 2025, the Russian IT sector, especially companies working as contractors and integrators of solutions for government agencies, faced a series of targeted computer attacks,\" Positive Technologies researchers Daniil Grigoryan and Varvara Koloskova said  in a technical report.  APT31, also known as Altaire, Bronze Vinewood, Judgement Panda, PerplexedGoblin, RedBravo, Red Keres, and Violet Typhoon (formerly Zirconium), is assessed to be active since at least 2010. It has a track record of striking a wide range of sectors, including governments, financial, and aerospace and defense, high tech, construction and engineering, telecommunications, media, and insurance.   The cyber espionage group is primarily focused ...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-apt31-launches-stealthy-cyberattacks-",
+      "source": "The Hacker News",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Matrix Push C2 Uses Browser Notifications for Fileless, Cross-Platform Phishing Attacks",
+      "link": "https://thehackernews.com/2025/11/matrix-push-c2-uses-browser.html",
+      "summary": "Bad actors are leveraging browser notifications as a vector for phishing attacks to distribute malicious links by means of a new command-and-control (C2) platform called Matrix Push C2.  \"This browser-native, fileless framework leverages push notifications, fake alerts, and link redirects to target victims across operating systems,\" Blackfog researcher Brenda Robb said  in a Thursday report.  In these attacks, prospective targets are tricked into allowing browser notifications through social engineering on malicious or legitimate-but-compromised websites.  Once a user agrees to receive notifications from the site, the attackers take advantage of the web push notification mechanism  built into the web browser to send alerts that look like they have been sent by the operating system or the browser itself, leveraging trusted branding, familiar logos, and convincing language to maintain the ruse.  These include alerts about, say, suspicious logins or browser updates, along with ...",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "matrix-push-c2-uses-browser-notifications-for-file",
+      "source": "The Hacker News",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting Oracle Identity Manager to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability in question is CVE-2025-61757 (CVSS score: 9.8), a case of missing authentication for a critical function that can result in pre-authenticated remote code execution. The vulnerability affects versions 12.2.1.4.0 and 14.1.2.1.0. It was addressed  by Oracle as part of its quarterly updates released last month.   \"Oracle Fusion Middleware contains a missing authentication for a critical function vulnerability, allowing unauthenticated remote attackers to take over Identity Manager,\" CISA said.  Searchlight Cyber researchers Adam Kues and Shubham Shah, who discovered  the flaw, said it can permit an attacker to access API endpoints that, in turn, can allow them \"to manipulate authentication flows, escalate privileges, and ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-warns-of-actively-exploited-critical-oracle-i",
+      "source": "The Hacker News",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Grafana Patches CVSS 10.0 SCIM Flaw Enabling Impersonation and Privilege Escalation",
+      "link": "https://thehackernews.com/2025/11/grafana-patches-cvss-100-scim-flaw.html",
+      "summary": "Grafana has released security updates to address a maximum severity security flaw that could allow privilege escalation or user impersonation under certain configurations.  The vulnerability, tracked as CVE-2025-41115 , carries a CVSS score of 10.0. It resides in the System for Cross-domain Identity Management ( SCIM ) component that allows automated user provisioning and management. First introduced  in April 2025, it's currently in public preview.  \"In Grafana versions 12.x where SCIM provisioning is enabled and configured, a vulnerability in user identity handling allows a malicious or compromised SCIM client to provision a user with a numeric externalId, which in turn could allow for overriding internal user IDs and lead to impersonation or privilege escalation,\" Grafana's Vardan Torosyan said .   That said, successful exploitation hinges on both conditions being met -   enableSCIM feature flag is set to true  user_sync_enabled config option in the [auth.scim] bl...",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "grafana-patches-cvss-100-scim-flaw-enabling-impers",
+      "source": "The Hacker News",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Google Brings AirDrop Compatibility to Android's Quick Share Using Rust-Hardened Security",
+      "link": "https://thehackernews.com/2025/11/google-adds-airdrop-compatibility-to.html",
+      "summary": "In a surprise move, Google on Thursday announced  that it has updated Quick Share, its peer-to-peer file transfer service, to work with Apple's equipment AirDrop, allowing users to more easily share files and photos between Android and iPhone devices.  The cross-platform sharing feature is currently limited to the Pixel 10 lineup and works with iPhone, iPad, and macOS devices, with plans to expand to additional Android devices in the future.  In order to transfer a file from a Pixel 10 phone over AirDrop, the only caveat is that the owner of the Apple device is required to make sure their iPhone (or iPad or Mac) is discoverable to anyone – which can be enabled for 10 minutes.  Likewise, to receive content from an Apple device, Android device users will need to adjust their Quick Share visibility settings to Everyone for 10 minutes or be in Receive mode on the Quick Share page, according to a support document  published by Google.   \"We built Quick Share's interoperability...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-brings-airdrop-compatibility-to-androids-qu",
+      "source": "The Hacker News",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "In Other News: ATM Jackpotting, WhatsApp-NSO Lawsuit Continues, CISA Hiring",
+      "link": "https://www.securityweek.com/in-other-news-atm-jackpotting-whatsapp-nso-lawsuit-continues-cisa-hiring/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: surge in Palo Alto Networks scanning, WEL Companies data breach impacts 120,000 people, AI second-order prompt injection attack.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-atm-jackpotting-whatsapp-nso-lawsuit",
+      "source": "SecurityWeek",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/",
+      "summary": "CVE-2025-61757 is an unauthenticated remote code execution vulnerability affecting Oracle Identity Manager.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-oracle-identity-manager-flaw-possibly-exp",
+      "source": "SecurityWeek",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Over 370 Organizations Take Part in GridEx VIII Grid Security Exercise",
+      "link": "https://www.securityweek.com/over-370-organizations-take-part-in-gridex-viii-grid-security-exercise/",
+      "summary": "The number of participants in the cyber and physical grid security exercise increased by nearly 50% compared to two years ago.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "over-370-organizations-take-part-in-gridex-viii-gr",
+      "source": "SecurityWeek",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "SonicWall Patches High-Severity Flaws in Firewalls, Email Security Appliance",
+      "link": "https://www.securityweek.com/sonicwall-patches-high-severity-flaws-in-firewalls-email-security-appliance/",
+      "summary": "The vulnerabilities could be exploited to cause a denial-of-service (DoS) condition, execute arbitrary code, or access arbitrary files and directories.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "sonicwall-patches-high-severity-flaws-in-firewalls",
+      "source": "SecurityWeek",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Chinese Cyberspies Deploy ‘BadAudio’ Malware via Supply Chain Attacks",
+      "link": "https://www.securityweek.com/chinese-cyberspies-deploy-badaudio-malware-via-supply-chain-attacks/",
+      "summary": "APT24 has been relying on various techniques to drop the BadAudio downloader and then deploy additional payloads.",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "chinese-cyberspies-deploy-badaudio-malware-via-sup",
+      "source": "SecurityWeek",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "SquareX and Perplexity Quarrel Over Alleged Comet Browser Vulnerability",
+      "link": "https://www.securityweek.com/squarex-and-perplexity-quarrel-over-alleged-comet-browser-vulnerability/",
+      "summary": "SquareX claims to have found a way to abuse a hidden Comet API to execute local commands, but Perplexity says the research is fake.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "squarex-and-perplexity-quarrel-over-alleged-comet-",
+      "source": "SecurityWeek",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Google enables Pixel-to-iPhone file sharing via Quick Share, AirDrop",
+      "link": "https://www.bleepingcomputer.com/news/mobile/google-enables-pixel-to-iphone-file-sharing-via-quick-share-airdrop/",
+      "summary": "Google has added interoperability support between Android Quick Share and Apple AirDrop, to let users share files between Pixel devices and iPhones.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-enables-pixel-to-iphone-file-sharing-via-qu",
+      "source": "BleepingComputer",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Enterprise password security and secrets management with Passwork 7",
+      "link": "https://www.bleepingcomputer.com/news/security/enterprise-password-security-and-secrets-management-with-passwork-7/",
+      "summary": "Passwork 7 unifies enterprise password and secrets management in a self-hosted platform. Organizations can automate credential workflows and test the full system with a free trial and up to 50% Black Friday savings.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "enterprise-password-security-and-secrets-managemen",
+      "source": "BleepingComputer",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-24"
+    },
+    {
+      "title": "Iberia discloses customer data leak after vendor security breach",
+      "link": "https://www.bleepingcomputer.com/news/security/iberia-discloses-customer-data-leak-after-vendor-security-breach/",
+      "summary": "Spanish flag carrier Iberia has begun notifying customers of a data security incident stemming from a compromise at one of its suppliers. The disclosure comes days after a threat actor claimed on hacker forums to have access to 77 GB of data allegedly stolen from the airline.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "iberia-discloses-customer-data-leak-after-vendor-s",
+      "source": "BleepingComputer",
+      "date": "2025-11-24"
+    }
+  ]
+}

@@ -36,17 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access</div><div class="ticker-item">China-Linked APT31 Launches Stealthy Cyberattacks on Russian IT Using Cloud Services</div><div class="ticker-item">Matrix Push C2 Uses Browser Notifications for Fileless, Cross-Platform Phishing Attacks</div><div class="ticker-item">CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability</div><div class="ticker-item">Grafana Patches CVSS 10.0 SCIM Flaw Enabling Impersonation and Privilege Escalation</div><div class="ticker-item">Google Brings AirDrop Compatibility to Android's Quick Share Using Rust-Hardened Security</div><div class="ticker-item">In Other News: ATM Jackpotting, WhatsApp-NSO Lawsuit Continues, CISA Hiring</div><div class="ticker-item">Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day</div><div class="ticker-item">Over 370 Organizations Take Part in GridEx VIII Grid Security Exercise</div><div class="ticker-item">SonicWall Patches High-Severity Flaws in Firewalls, Email Security Appliance</div><div class="ticker-item">Chinese Cyberspies Deploy ‘BadAudio’ Malware via Supply Chain Attacks</div><div class="ticker-item">SquareX and Perplexity Quarrel Over Alleged Comet Browser Vulnerability</div><div class="ticker-item">Google enables Pixel-to-iPhone file sharing via Quick Share, AirDrop</div><div class="ticker-item">Enterprise password security and secrets management with Passwork 7</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Iberia discloses customer data leak after vendor security breach</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">China-Linked APT31 Launches Stealthy Cyberattacks on Russian IT Using Cloud Services</div><div class="ticker-item">Matrix Push C2 Uses Browser Notifications for Fileless, Cross-Platform Phishing Attacks</div><div class="ticker-item">CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability</div><div class="ticker-item">Grafana Patches CVSS 10.0 SCIM Flaw Enabling Impersonation and Privilege Escalation</div><div class="ticker-item">Google Brings AirDrop Compatibility to Android's Quick Share Using Rust-Hardened Security</div><div class="ticker-item">Why IT Admins Choose Samsung for Mobile Security</div><div class="ticker-item">In Other News: ATM Jackpotting, WhatsApp-NSO Lawsuit Continues, CISA Hiring</div><div class="ticker-item">Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day</div><div class="ticker-item">Over 370 Organizations Take Part in GridEx VIII Grid Security Exercise</div><div class="ticker-item">SonicWall Patches High-Severity Flaws in Firewalls, Email Security Appliance</div><div class="ticker-item">Chinese Cyberspies Deploy ‘BadAudio’ Malware via Supply Chain Attacks</div><div class="ticker-item">SquareX and Perplexity Quarrel Over Alleged Comet Browser Vulnerability</div><div class="ticker-item">WhatsApp API flaw let researchers scrape 3.5 billion accounts</div><div class="ticker-item">Cox Enterprises discloses Oracle E-Business Suite data breach</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Piecing Together the Puzzle: A Qilin Ransomware Investigation</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access</h3>
-                <p><strong>Summary:</strong> A recently patched security flaw in Microsoft Windows Server Update Services (WSUS) has been exploited by threat actors to distribute malware known as ShadowPad.  "The attacker targeted Windows Server...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>China-Linked APT31 Launches Stealthy Cyberattacks on Russian IT Using Cloud Services</h3>
                 <p><strong>Summary:</strong> The China-linked advanced persistent threat (APT) group known as APT31  has been attributed to cyber attacks targeting the Russian information technology (IT) sector between 2024 and 2025 while stayin...</p>
@@ -81,6 +74,13 @@
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/google-adds-airdrop-compatibility-to.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/11/google-adds-airdrop-compatibility-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Why IT Admins Choose Samsung for Mobile Security</h3>
+                <p><strong>Summary:</strong> Ever wonder how some IT teams keep corporate data safe without slowing down employees? Of course you have.  Mobile devices are essential for modern work—but with mobility comes risk. IT admins, like y...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/why-it-admins-choose-samsung-for-mobile.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/why-it-admins-choose-samsung-for-mobile.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: ATM Jackpotting, WhatsApp-NSO Lawsuit Continues, CISA Hiring</h3>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/squarex-and-perplexity-quarrel-over-alleged-comet-browser-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Google enables Pixel-to-iPhone file sharing via Quick Share, AirDrop</h3>
-                <p><strong>Summary:</strong> Google has added interoperability support between Android Quick Share and Apple AirDrop, to let users share files between Pixel devices and iPhones.</p>
+                <h3>WhatsApp API flaw let researchers scrape 3.5 billion accounts</h3>
+                <p><strong>Summary:</strong> Researchers compiled a list of 3.5 billion WhatsApp mobile phone numbers and associated personal information by abusing a contact-discovery API that lacked rate limiting.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/mobile/google-enables-pixel-to-iphone-file-sharing-via-quick-share-airdrop/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/mobile/google-enables-pixel-to-iphone-file-sharing-via-quick-share-airdrop/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/whatsapp-api-flaw-let-researchers-scrape-35-billion-accounts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/whatsapp-api-flaw-let-researchers-scrape-35-billion-accounts/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Enterprise password security and secrets management with Passwork 7</h3>
-                <p><strong>Summary:</strong> Passwork 7 unifies enterprise password and secrets management in a self-hosted platform. Organizations can automate credential workflows and test the full system with a free trial and up to 50% Black ...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/enterprise-password-security-and-secrets-management-with-passwork-7/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/enterprise-password-security-and-secrets-management-with-passwork-7/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Cox Enterprises discloses Oracle E-Business Suite data breach</h3>
+                <p><strong>Summary:</strong> Cox Enterprises is notifying impacted individuals of a data breach that exposed their personal data to hackers who breached the company network after exploiting a zero-day flaw in Oracle E-Business Su...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cox-enterprises-discloses-oracle-e-business-suite-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cox-enterprises-discloses-oracle-e-business-suite-data-breach/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: How phishing attacks evolved in 2025</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Iberia discloses customer data leak after vendor security breach</h3>
-                <p><strong>Summary:</strong> Spanish flag carrier Iberia has begun notifying customers of a data security incident stemming from a compromise at one of its suppliers. The disclosure comes days after a threat actor claimed on hack...</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/iberia-discloses-customer-data-leak-after-vendor-security-breach/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/iberia-discloses-customer-data-leak-after-vendor-security-breach/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Piecing Together the Puzzle: A Qilin Ransomware Investigation</h3>
+                <p><strong>Summary:</strong> Huntress analysts reconstructed a Qilin ransomware attack from a single endpoint, using limited logs to reveal rogue ScreenConnect access, failed infostealer attempts, and the ransomware execution pat...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/piecing-together-the-puzzle-a-qilin-ransomware-investigation/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/piecing-together-the-puzzle-a-qilin-ransomware-investigation/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
