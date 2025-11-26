@@ -1,0 +1,212 @@
+{
+  "date": "2025-11-26",
+  "items": [
+    {
+      "title": "RomCom Uses SocGholish Fake Update Attacks to Deliver Mythic Agent Malware",
+      "link": "https://thehackernews.com/2025/11/romcom-uses-socgholish-fake-update.html",
+      "summary": "The threat actors behind a malware family known as RomCom targeted a U.S.-based civil engineering company via a JavaScript loader dubbed SocGholish to deliver the Mythic Agent.  \"This is the first time that a RomCom payload has been observed being distributed by SocGholish,\" Arctic Wolf Labs researcher Jacob Faires said  in a Tuesday report.  The activity has been attributed with medium-to-high confidence to Unit 29155  of Russia's Main Directorate of the General Staff of the Armed Forces of the Russian Federation, also known as GRU. According to the cybersecurity company, the targeted entity had worked for a city with close ties to Ukraine in the past.   SocGholish  (aka FakeUpdates), linked to a financially motivated operator tracked as TA569 (aka Gold Prelude, Mustard Tempest, Purple Vallhund, and UNC1543), serves as an initial access broker, allowing other threat actors to drop a wide range of payloads. Some of its known customers are Evil Corp, LockBit, Dridex, and ...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "romcom-uses-socgholish-fake-update-attacks-to-deli",
+      "source": "The Hacker News",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "FBI Reports $262M in ATO Fraud as Researchers Cite Growing AI Phishing and Holiday Scams",
+      "link": "https://thehackernews.com/2025/11/fbi-reports-262m-in-ato-fraud-as.html",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has warned  that cybercriminals are impersonating financial institutions with an aim to steal money or sensitive information to facilitate account takeover (ATO) fraud schemes.  The activity targets individuals, businesses, and organizations of varied sizes and across sectors, the agency said, adding the fraudulent schemes have led to more than $262 million in losses since the start of the year. The FBI said it has received over 5,100 complaints.  ATO fraud typically refers to attacks that enable threat actors to obtain unauthorized access to an online financial institution, payroll system, or health savings account to siphon data and funds for personal gain. The access is often obtained by approaching targets through social engineering techniques, such as texts, calls, and emails that prey on users' fears, or via bogus websites.  These methods make it possible for attackers to deceive users into providing their login credentials on a...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-reports-262m-in-ato-fraud-as-researchers-cite-",
+      "source": "The Hacker News",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "Years of JSONFormatter and CodeBeautify Leaks Expose Thousands of Passwords and API Keys",
+      "link": "https://thehackernews.com/2025/11/years-of-jsonformatter-and-codebeautify.html",
+      "summary": "New research has found that organizations in various sensitive sectors, including governments, telecoms, and critical infrastructure, are pasting passwords and credentials into online tools like JSONformatter and CodeBeautify that are used to format and validate code.  Cybersecurity company watchTowr Labs said  it captured a dataset of over 80,000 files on these sites, uncovering thousands of usernames, passwords, repository authentication keys, Active Directory credentials, database credentials, FTP credentials, cloud environment keys, LDAP configuration information, helpdesk API keys, meeting room API keys, SSH session recordings, and all kinds of personal information.  This includes five years of historical JSONFormatter content and one year of historical CodeBeautify content, totalling over 5GB worth of enriched, annotated JSON data.   Organizations impacted by the leak span critical national infrastructure, government, finance, insurance, banking, technology, retail, aerospace, t...",
+      "tags": [
+        "breach",
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "years-of-jsonformatter-and-codebeautify-leaks-expo",
+      "source": "The Hacker News",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "JackFix Uses Fake Windows Update Pop-Ups on Adult Sites to Deliver Multiple Stealers",
+      "link": "https://thehackernews.com/2025/11/jackfix-uses-fake-windows-update-pop.html",
+      "summary": "Cybersecurity researchers are calling attention to a new campaign that's leveraging a combination of ClickFix  lures and fake adult websites to deceive users into running malicious commands under the guise of a \"critical\" Windows security update.  \"Campaign leverages fake adult websites (xHamster, PornHub clones) as its phishing mechanism, likely distributed via malvertising,\" Acronis said  in a new report shared with The Hacker News. \"The adult theme, and possible connection to shady websites, adds to the victim's psychological pressure to comply with sudden 'security update' installation.\"  ClickFix-style attacks  have surged over the past year, typically tricking users into running malicious commands on their own machines using prompts for technical fixes or completing CAPTCHA verification checks. According to data  from Microsoft, ClickFix has become the most common initial access method, accounting for 47% of attacks.  The latest camp...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "jackfix-uses-fake-windows-update-pop-ups-on-adult-",
+      "source": "The Hacker News",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "ToddyCat's New Hacking Tools Steal Outlook Emails and Microsoft 365 Access Tokens",
+      "link": "https://thehackernews.com/2025/11/toddycats-new-hacking-tools-steal.html",
+      "summary": "The threat actor known as ToddyCat  has been observed adopting new methods to obtain access to corporate email data belonging to target companies, including using a custom tool dubbed TCSectorCopy.  \"This attack allows them to obtain tokens for the OAuth 2.0 authorization protocol using the user's browser, which can be used outside the perimeter of the compromised infrastructure to access corporate mail,\" Kaspersky said  in a technical breakdown.  ToddyCat, assessed to be active since 2020, has a track record  of targeting various organizations in Europe and Asia with various tools, Samurai and TomBerBil to retain access and steal cookies and credentials from web browsers like Google Chrome and Microsoft Edge.   Earlier this April, the hacking group was attributed  to the exploitation of a security flaw in ESET Command Line Scanner (CVE-2024-11859, CVSS score: 6.8) to deliver a previously undocumented malware codenamed TCESB.   Kaspersky said it detected in attacks that ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "toddycats-new-hacking-tools-steal-outlook-emails-a",
+      "source": "The Hacker News",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "3 SOC Challenges You Need to Solve Before 2026",
+      "link": "https://thehackernews.com/2025/11/3-soc-challenges-you-need-to-solve.html",
+      "summary": "2026 will mark a pivotal shift in cybersecurity. Threat actors are moving from experimenting with AI to making it their primary weapon, using it to scale attacks, automate reconnaissance, and craft hyper-realistic social engineering campaigns.  The Storm on the Horizon  Global world instability, coupled with rapid technological advancement, will force security teams to adapt not just their defensive technologies but their entire workforce approach. The average SOC already processes about 11,000 alerts daily, but the volume and sophistication of threats are accelerating. For business leaders, this translates to direct impacts on operational continuity, regulatory compliance, and bottom-line financials.  SOCs that can't keep pace won't just struggle; they'll fail spectacularly. Solve these three core issues now, or pay dearly later.  1. Evasive Threats Are Slipping Through—And Getting Smarter Fast  Attackers have mastered evasion. ClickFix campaigns trick employees into pas...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "3-soc-challenges-you-need-to-solve-before-2026",
+      "source": "The Hacker News",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "Dartmouth College Confirms Data Theft in Oracle Hack",
+      "link": "https://www.securityweek.com/dartmouth-college-confirms-data-theft-in-oracle-hack/",
+      "summary": "Dartmouth College has disclosed a data breach after cybercriminals leaked over 226 Gb of files stolen from the university.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "dartmouth-college-confirms-data-theft-in-oracle-ha",
+      "source": "SecurityWeek",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "Russian Hackers Target US Engineering Firm Because of Work Done for Ukrainian Sister City",
+      "link": "https://www.securityweek.com/russian-hackers-target-us-engineering-firm-because-of-work-done-for-ukrainian-sister-city/",
+      "summary": "The attack on the engineering firm was identified by Arctic Wolf in September before it could disrupt the engineering company’s operations or spread further.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russian-hackers-target-us-engineering-firm-because",
+      "source": "SecurityWeek",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "CISA Warns of Spyware Targeting Messaging App Users",
+      "link": "https://www.securityweek.com/cisa-warns-of-spyware-targeting-messaging-app-users/",
+      "summary": "CISA has described the techniques used by attackers and pointed out that the focus is on high-value individuals.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-warns-of-spyware-targeting-messaging-app-user",
+      "source": "SecurityWeek",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "AI Agent Security Firm Vijil Raises $17 Million",
+      "link": "https://www.securityweek.com/ai-agent-security-firm-vijil-raises-17-million/",
+      "summary": "Focusing on improving the resilience of AI agents, the startup will use the funding to accelerate deployments of its platform.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ai-agent-security-firm-vijil-raises-17-million",
+      "source": "SecurityWeek",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "Alumni, Student, and Staff Information Stolen From Harvard University",
+      "link": "https://www.securityweek.com/alumni-student-and-staff-information-stolen-from-harvard-university/",
+      "summary": "A phone phishing attack led to the compromise of a system containing information about alumni, donors, students, staff, and other individuals.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "alumni-student-and-staff-information-stolen-from-h",
+      "source": "SecurityWeek",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "Fluent Bit Vulnerabilities Expose Cloud Services to Takeover",
+      "link": "https://www.securityweek.com/fluent-bit-vulnerabilities-expose-cloud-services-to-takeover/",
+      "summary": "Five flaws in the open source tool may lead to path traversal attacks, remote code execution, denial-of-service, and tag manipulation.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fluent-bit-vulnerabilities-expose-cloud-services-t",
+      "source": "SecurityWeek",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "OnSolve CodeRED cyberattack disrupts emergency alert systems nationwide",
+      "link": "https://www.bleepingcomputer.com/news/security/onsolve-codered-cyberattack-disrupts-emergency-alert-systems-nationwide/",
+      "summary": "Risk management company Crisis24 has confirmed its OnSolve CodeRED platform suffered a cyberattack that disrupted emergency notification systems used by state and local governments, police departments, and fire agencies across the United States.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "onsolve-codered-cyberattack-disrupts-emergency-ale",
+      "source": "BleepingComputer",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "The Black Friday 2025 Cybersecurity, IT, VPN, & Antivirus Deals",
+      "link": "https://www.bleepingcomputer.com/news/security/the-black-friday-2025-cybersecurity-it-vpn-and-antivirus-deals/",
+      "summary": "Black Friday 2025 is almost here, and early deals are already live across security software, online courses, system administration tools, antivirus products, and VPN services. These discounts are limited-time offers and vary by provider, so if you see something that fits your needs, it's best to act...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "the-black-friday-2025-cybersecurity-it-vpn-antivir",
+      "source": "BleepingComputer",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "Access to 1,000+ courses for nonstop growth is on sale for $18",
+      "link": "https://www.bleepingcomputer.com/offer/deals/access-to-1-000-plus-courses-for-nonstop-growth-is-on-sale-for-18/",
+      "summary": "EDU Unlimited by StackSkills removes traditional barriers to education and offers flexible, lifetime access to a platform built for both personal and professional growth. And lifetime access to all of this is currently on sale for just $17.97 (MSRP $600) during this pre-Black Friday sale.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "access-to-1000-courses-for-nonstop-growth-is-on-sa",
+      "source": "BleepingComputer",
+      "date": "2025-11-26"
+    }
+  ]
+}
