@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">RomCom Uses SocGholish Fake Update Attacks to Deliver Mythic Agent Malware</div><div class="ticker-item">FBI Reports $262M in ATO Fraud as Researchers Cite Growing AI Phishing and Holiday Scams</div><div class="ticker-item">Years of JSONFormatter and CodeBeautify Leaks Expose Thousands of Passwords and API Keys</div><div class="ticker-item">JackFix Uses Fake Windows Update Pop-Ups on Adult Sites to Deliver Multiple Stealers</div><div class="ticker-item">ToddyCat's New Hacking Tools Steal Outlook Emails and Microsoft 365 Access Tokens</div><div class="ticker-item">3 SOC Challenges You Need to Solve Before 2026</div><div class="ticker-item">Dartmouth College Confirms Data Theft in Oracle Hack</div><div class="ticker-item">Russian Hackers Target US Engineering Firm Because of Work Done for Ukrainian Sister City</div><div class="ticker-item">CISA Warns of Spyware Targeting Messaging App Users</div><div class="ticker-item">AI Agent Security Firm Vijil Raises $17 Million</div><div class="ticker-item">Alumni, Student, and Staff Information Stolen From Harvard University</div><div class="ticker-item">Fluent Bit Vulnerabilities Expose Cloud Services to Takeover</div><div class="ticker-item">OnSolve CodeRED cyberattack disrupts emergency alert systems nationwide</div><div class="ticker-item">The Black Friday 2025 Cybersecurity, IT, VPN, & Antivirus Deals</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Access to 1,000+ courses for nonstop growth is on sale for $18</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RomCom Uses SocGholish Fake Update Attacks to Deliver Mythic Agent Malware</h3>
+                <p><strong>Summary:</strong> The threat actors behind a malware family known as RomCom targeted a U.S.-based civil engineering company via a JavaScript loader dubbed SocGholish to deliver the Mythic Agent.  "This is the first tim...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/romcom-uses-socgholish-fake-update.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/romcom-uses-socgholish-fake-update.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI Reports $262M in ATO Fraud as Researchers Cite Growing AI Phishing and Holiday Scams</h3>
+                <p><strong>Summary:</strong> The U.S. Federal Bureau of Investigation (FBI) has warned  that cybercriminals are impersonating financial institutions with an aim to steal money or sensitive information to facilitate account takeov...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/fbi-reports-262m-in-ato-fraud-as.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/fbi-reports-262m-in-ato-fraud-as.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Years of JSONFormatter and CodeBeautify Leaks Expose Thousands of Passwords and API Keys</h3>
+                <p><strong>Summary:</strong> New research has found that organizations in various sensitive sectors, including governments, telecoms, and critical infrastructure, are pasting passwords and credentials into online tools like JSONf...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/years-of-jsonformatter-and-codebeautify.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/years-of-jsonformatter-and-codebeautify.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>JackFix Uses Fake Windows Update Pop-Ups on Adult Sites to Deliver Multiple Stealers</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are calling attention to a new campaign that's leveraging a combination of ClickFix  lures and fake adult websites to deceive users into running malicious commands under the ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/jackfix-uses-fake-windows-update-pop.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/jackfix-uses-fake-windows-update-pop.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ToddyCat's New Hacking Tools Steal Outlook Emails and Microsoft 365 Access Tokens</h3>
+                <p><strong>Summary:</strong> The threat actor known as ToddyCat  has been observed adopting new methods to obtain access to corporate email data belonging to target companies, including using a custom tool dubbed TCSectorCopy.  "...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/toddycats-new-hacking-tools-steal.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/toddycats-new-hacking-tools-steal.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>3 SOC Challenges You Need to Solve Before 2026</h3>
+                <p><strong>Summary:</strong> 2026 will mark a pivotal shift in cybersecurity. Threat actors are moving from experimenting with AI to making it their primary weapon, using it to scale attacks, automate reconnaissance, and craft hy...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/3-soc-challenges-you-need-to-solve.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/3-soc-challenges-you-need-to-solve.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dartmouth College Confirms Data Theft in Oracle Hack</h3>
+                <p><strong>Summary:</strong> Dartmouth College has disclosed a data breach after cybercriminals leaked over 226 Gb of files stolen from the university.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dartmouth-college-confirms-data-theft-in-oracle-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dartmouth-college-confirms-data-theft-in-oracle-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian Hackers Target US Engineering Firm Because of Work Done for Ukrainian Sister City</h3>
+                <p><strong>Summary:</strong> The attack on the engineering firm was identified by Arctic Wolf in September before it could disrupt the engineering company’s operations or spread further.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/russian-hackers-target-us-engineering-firm-because-of-work-done-for-ukrainian-sister-city/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/russian-hackers-target-us-engineering-firm-because-of-work-done-for-ukrainian-sister-city/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Warns of Spyware Targeting Messaging App Users</h3>
+                <p><strong>Summary:</strong> CISA has described the techniques used by attackers and pointed out that the focus is on high-value individuals.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-warns-of-spyware-targeting-messaging-app-users/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-warns-of-spyware-targeting-messaging-app-users/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Agent Security Firm Vijil Raises $17 Million</h3>
+                <p><strong>Summary:</strong> Focusing on improving the resilience of AI agents, the startup will use the funding to accelerate deployments of its platform.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ai-agent-security-firm-vijil-raises-17-million/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ai-agent-security-firm-vijil-raises-17-million/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Alumni, Student, and Staff Information Stolen From Harvard University</h3>
+                <p><strong>Summary:</strong> A phone phishing attack led to the compromise of a system containing information about alumni, donors, students, staff, and other individuals.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/alumni-student-and-staff-information-stolen-from-harvard-university/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/alumni-student-and-staff-information-stolen-from-harvard-university/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fluent Bit Vulnerabilities Expose Cloud Services to Takeover</h3>
+                <p><strong>Summary:</strong> Five flaws in the open source tool may lead to path traversal attacks, remote code execution, denial-of-service, and tag manipulation.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fluent-bit-vulnerabilities-expose-cloud-services-to-takeover/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fluent-bit-vulnerabilities-expose-cloud-services-to-takeover/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OnSolve CodeRED cyberattack disrupts emergency alert systems nationwide</h3>
+                <p><strong>Summary:</strong> Risk management company Crisis24 has confirmed its OnSolve CodeRED platform suffered a cyberattack that disrupted emergency notification systems used by state and local governments, police departments...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/onsolve-codered-cyberattack-disrupts-emergency-alert-systems-nationwide/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/onsolve-codered-cyberattack-disrupts-emergency-alert-systems-nationwide/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Black Friday 2025 Cybersecurity, IT, VPN, & Antivirus Deals</h3>
+                <p><strong>Summary:</strong> Black Friday 2025 is almost here, and early deals are already live across security software, online courses, system administration tools, antivirus products, and VPN services. These discounts are limi...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/the-black-friday-2025-cybersecurity-it-vpn-and-antivirus-deals/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/the-black-friday-2025-cybersecurity-it-vpn-and-antivirus-deals/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Access to 1,000+ courses for nonstop growth is on sale for $18</h3>
+                <p><strong>Summary:</strong> EDU Unlimited by StackSkills removes traditional barriers to education and offers flexible, lifetime access to a platform built for both personal and professional growth. And lifetime access to all of...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/access-to-1-000-plus-courses-for-nonstop-growth-is-on-sale-for-18/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/access-to-1-000-plus-courses-for-nonstop-growth-is-on-sale-for-18/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

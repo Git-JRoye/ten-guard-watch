@@ -1,0 +1,207 @@
+{
+  "date": "2025-11-27",
+  "items": [
+    {
+      "title": "Gainsight Expands Impacted Customer List Following Salesforce Security Alert",
+      "link": "https://thehackernews.com/2025/11/gainsight-expands-impacted-customer.html",
+      "summary": "Gainsight has disclosed that the recent suspicious activity targeting its applications has affected more customers than previously thought.  The company said  Salesforce initially provided a list of 3 impacted customers and that it has \"expanded to a larger list\" as of November 21, 2025. It did not reveal the exact number of customers who were impacted, but its CEO, Chuck Ganapathi, said  \"we presently know of only a handful of customers who had their data affected.\"  The development comes as Salesforce warned of detected \"unusual activity\" related to Gainsight-published applications connected to the platform, prompting the company to revoke all access and refresh tokens associated with them. The breach has been claimed by a notorious cybercrime group known as ShinyHunters (aka Bling Libra).  A number of other precautionary steps have been enacted to contain the incident. This includes Zendesk, Gong.io, and HubSpot temporarily suspending their Gainsight...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "gainsight-expands-impacted-customer-list-following",
+      "source": "The Hacker News",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Shai-Hulud v2 Spreads From npm to Maven, as Campaign Exposes Thousands of Secrets",
+      "link": "https://thehackernews.com/2025/11/shai-hulud-v2-campaign-spreads-from-npm.html",
+      "summary": "The second wave of the Shai-Hulud supply chain attack  has spilled over to the Maven ecosystem after compromising more than 830 packages in the npm registry.  The Socket Research Team said it identified a Maven Central package named org.mvnpm:posthog-node:4.18.1 that embeds the same two components associated with Sha1-Hulud: the \"setup_bun.js\" loader and the main payload \"bun_environment.js.\" The company told The Hacker News that org.mvnpm:posthog-node:4.18.1 was the only Java package identified so far.  \"This means the PostHog project has compromised releases in both the JavaScript/npm and Java/Maven ecosystems, driven by the same Shai Hulud v2 payload,\" the cybersecurity company said  in a Tuesday update.  It's worth noting that the Maven Central package is not published by PostHog itself. Rather, the \"org.mvnpm\" coordinates  are generated via an automated mvnpm process  that rebuilds npm packages as Maven artifacts. The Maven Central said...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "shai-hulud-v2-spreads-from-npm-to-maven-as-campaig",
+      "source": "The Hacker News",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Qilin Ransomware Turns South Korean MSP Breach Into 28-Victim 'Korean Leaks' Data Heist",
+      "link": "https://thehackernews.com/2025/11/qilin-ransomware-turns-south-korean-msp.html",
+      "summary": "South Korea's financial sector has been targeted by what has been described as a sophisticated supply chain attack that led to the deployment of Qilin ransomware.  \"This operation combined the capabilities of a major Ransomware-as-a-Service (RaaS) group, Qilin, with potential involvement from North Korean state-affiliated actors (Moonstone Sleet), leveraging Managed Service Provider (MSP) compromise as the initial access vector,\" Bitdefender said  in a report shared with The Hacker News.  Qilin has emerged as one of the most active ransomware operations this year, with the RaaS crew exhibiting \"explosive growth\" in the month of October 2025 by claiming  over 180 victims . The group is responsible for 29% of all ransomware attacks, per data from NCC Group .  The Romanian cybersecurity company said it decided to dig deeper after uncovering an unusual spike  in ransomware victims from South Korea in September 2025, when it became the second-most affected countr...",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "qilin-ransomware-turns-south-korean-msp-breach-int",
+      "source": "The Hacker News",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "When Your $2M Security Detection Fails: Can your SOC Save You?",
+      "link": "https://thehackernews.com/2025/11/when-your-2m-security-detection-fails.html",
+      "summary": "Enterprises today are expected to have at least 6-8 detection tools, as detection is considered a standard investment and the first line of defense. Yet security leaders struggle to justify dedicating resources further down the alert lifecycle to their superiors.  As a result, most organizations' security investments are asymmetrical, robust detection tools paired with an under-resourced SOC, their last line of defense.  A recent case study  demonstrates how companies with a standardized SOC prevented a sophisticated phishing attack that bypassed leading email security tools. In this case study, a cross-company phishing campaign targeted C-suite executives at multiple enterprises. Eight different email security tools across these organizations failed to detect the attack, and phishing emails reached executive inboxes. However, each organization's SOC team detected the attack immediately after employees reported the suspicious emails.  Why did all eight detection tools identica...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "when-your-2m-security-detection-fails-can-your-soc",
+      "source": "The Hacker News",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Webinar: Learn to Spot Risks and Patch Safely with Community-Maintained Tools",
+      "link": "https://thehackernews.com/2025/11/webinar-learn-to-spot-risks-and-patch.html",
+      "summary": "If you're using community tools like Chocolatey or Winget to keep systems updated, you're not alone. These platforms are fast, flexible, and easy to work with—making them favorites for IT teams. But there's a catch...  The very tools that make your job easier might also be the reason your systems are at risk.  These tools are run by the community. That means anyone can add or update packages. Some packages may be old, missing safety checks, or changed by mistake or on purpose. Hackers look for these weak spots. This has already happened in places like NPM and PyPI. The same risks can happen with Windows tools too.  To help you patch safely without slowing down, there's a free webinar coming up . It's led by Gene Moody, Field CTO at Action1 . He'll walk through how these tools work, where the risks are, and how to protect your systems while keeping updates on track.  In this session, he'll test how safe these tools really are. You'll get practical steps you can use right away—n...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "webinar-learn-to-spot-risks-and-patch-safely-with-",
+      "source": "The Hacker News",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Chrome Extension Caught Injecting Hidden Solana Transfer Fees Into Raydium Swaps",
+      "link": "https://thehackernews.com/2025/11/chrome-extension-caught-injecting.html",
+      "summary": "Cybersecurity researchers have discovered a new malicious extension on the Chrome Web Store that's capable of injecting a stealthy Solana transfer into a swap transaction and transferring the funds to an attacker-controlled cryptocurrency wallet.  The extension, named Crypto Copilot , was first published  by a user named \"sjclark76\" on May 7, 2024. The developer describes the browser add-on as offering the ability to \"trade crypto directly on X with real-time insights and seamless execution.\" The extension has 12 installs and remains available for download as of writing.   \"Behind the interface, the extension injects an extra transfer into every Solana swap, siphoning a minimum of 0.0013 SOL or 0.05% of the trade amount to a hardcoded attacker-controlled wallet,\" Socket security researcher Kush Pandya said  in a Tuesday report.  Specifically, the extension incorporates obfuscated code that comes to life when a user performs a Raydium swap, manipulatin...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "chrome-extension-caught-injecting-hidden-solana-tr",
+      "source": "The Hacker News",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Clover Security Raises $36 Million to Secure Software by Design",
+      "link": "https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/",
+      "summary": "The cybersecurity startup embeds AI agents into widely used tools to identify design flaws and eliminate them early.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "clover-security-raises-36-million-to-secure-softwa",
+      "source": "SecurityWeek",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI",
+      "link": "https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/",
+      "summary": "Cybercriminals impersonating financial institutions have targeted individuals, businesses, and organizations of different sizes.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "account-takeover-fraud-caused-262-million-in-losse",
+      "source": "SecurityWeek",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Thousands of Secrets Leaked on Code Formatting Platforms",
+      "link": "https://www.securityweek.com/thousands-of-secrets-leaked-on-code-formatting-platforms/",
+      "summary": "JSONFormatter and CodeBeautify users exposed credentials, authentication keys, configuration information, private keys, and other secrets.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "thousands-of-secrets-leaked-on-code-formatting-pla",
+      "source": "SecurityWeek",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Cybersecurity Is Now a Core Business Discipline",
+      "link": "https://www.securityweek.com/cybersecurity-is-now-a-core-business-discipline/",
+      "summary": "Boardroom conversations about cyber can no longer be siloed apart from strategy, operations, or geopolitics.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cybersecurity-is-now-a-core-business-discipline",
+      "source": "SecurityWeek",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Ransomware Attack Disrupts Local Emergency Alert System Across US",
+      "link": "https://www.securityweek.com/ransomware-attack-disrupts-local-emergency-alert-system-across-us/",
+      "summary": "The OnSolve CodeRED platform has been targeted by the Inc Ransom ransomware group, resulting in disruptions and a data breach.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "ransomware-attack-disrupts-local-emergency-alert-s",
+      "source": "SecurityWeek",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Opti Raises $20 Million for Identity Security Platform",
+      "link": "https://www.securityweek.com/opti-raises-20-million-for-identity-security-platform/",
+      "summary": "The cybersecurity startup plans to use the seed funding to accelerate product expansion and global growth.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "opti-raises-20-million-for-identity-security-platf",
+      "source": "SecurityWeek",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "New ShadowV2 botnet malware used AWS outage as a test opportunity",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shadowv2-botnet-malware-used-aws-outage-as-a-test-opportunity/",
+      "summary": "A new Mirai-based botnet malware named 'ShadowV2' has been observed targeting IoT devices from D-Link, TP-Link, and other vendors with exploits for known vulnerabilities.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-shadowv2-botnet-malware-used-aws-outage-as-a-t",
+      "source": "BleepingComputer",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "NordVPN Black Friday Deal: Unlock 77% off VPN plans in 2025",
+      "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-unlock-77-percent-off-vpn-plans-in-2025/",
+      "summary": "The NordVPN Black Friday Deal is now live, and you can get the best discount available: 77% off that applies automatically when you follow our link. If you've been waiting for the right moment to upgrade your online security, privacy, and streaming freedom, this is the one VPN deals this Black Frida...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "nordvpn-black-friday-deal-unlock-77-off-vpn-plans-",
+      "source": "BleepingComputer",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-27"
+    },
+    {
+      "title": "Popular Forge library gets fix for signature verification bypass flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/popular-forge-library-gets-fix-for-signature-verification-bypass-flaw/",
+      "summary": "A vulnerability in the 'node-forge' package, a popular JavaScript cryptography library, could be exploited to bypass signature verifications by crafting data that appears valid.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "popular-forge-library-gets-fix-for-signature-verif",
+      "source": "BleepingComputer",
+      "date": "2025-11-27"
+    }
+  ]
+}
