@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Gainsight Expands Impacted Customer List Following Salesforce Security Alert</div><div class="ticker-item">Shai-Hulud v2 Spreads From npm to Maven, as Campaign Exposes Thousands of Secrets</div><div class="ticker-item">Qilin Ransomware Turns South Korean MSP Breach Into 28-Victim 'Korean Leaks' Data Heist</div><div class="ticker-item">When Your $2M Security Detection Fails: Can your SOC Save You?</div><div class="ticker-item">Webinar: Learn to Spot Risks and Patch Safely with Community-Maintained Tools</div><div class="ticker-item">Chrome Extension Caught Injecting Hidden Solana Transfer Fees Into Raydium Swaps</div><div class="ticker-item">Clover Security Raises $36 Million to Secure Software by Design</div><div class="ticker-item">Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</div><div class="ticker-item">Thousands of Secrets Leaked on Code Formatting Platforms</div><div class="ticker-item">Cybersecurity Is Now a Core Business Discipline</div><div class="ticker-item">Ransomware Attack Disrupts Local Emergency Alert System Across US</div><div class="ticker-item">Opti Raises $20 Million for Identity Security Platform</div><div class="ticker-item">New ShadowV2 botnet malware used AWS outage as a test opportunity</div><div class="ticker-item">NordVPN Black Friday Deal: Unlock 77% off VPN plans in 2025</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Popular Forge library gets fix for signature verification bypass flaw</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Gainsight Expands Impacted Customer List Following Salesforce Security Alert</h3>
+                <p><strong>Summary:</strong> Gainsight has disclosed that the recent suspicious activity targeting its applications has affected more customers than previously thought.  The company said  Salesforce initially provided a list of 3...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/gainsight-expands-impacted-customer.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/gainsight-expands-impacted-customer.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Shai-Hulud v2 Spreads From npm to Maven, as Campaign Exposes Thousands of Secrets</h3>
+                <p><strong>Summary:</strong> The second wave of the Shai-Hulud supply chain attack  has spilled over to the Maven ecosystem after compromising more than 830 packages in the npm registry.  The Socket Research Team said it identifi...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/shai-hulud-v2-campaign-spreads-from-npm.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/shai-hulud-v2-campaign-spreads-from-npm.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Qilin Ransomware Turns South Korean MSP Breach Into 28-Victim 'Korean Leaks' Data Heist</h3>
+                <p><strong>Summary:</strong> South Korea's financial sector has been targeted by what has been described as a sophisticated supply chain attack that led to the deployment of Qilin ransomware.  "This operation combined the capabil...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/qilin-ransomware-turns-south-korean-msp.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/qilin-ransomware-turns-south-korean-msp.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>When Your $2M Security Detection Fails: Can your SOC Save You?</h3>
+                <p><strong>Summary:</strong> Enterprises today are expected to have at least 6-8 detection tools, as detection is considered a standard investment and the first line of defense. Yet security leaders struggle to justify dedicating...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/when-your-2m-security-detection-fails.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/when-your-2m-security-detection-fails.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar: Learn to Spot Risks and Patch Safely with Community-Maintained Tools</h3>
+                <p><strong>Summary:</strong> If you're using community tools like Chocolatey or Winget to keep systems updated, you're not alone. These platforms are fast, flexible, and easy to work with—making them favorites for IT teams. But t...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/webinar-learn-to-spot-risks-and-patch.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/webinar-learn-to-spot-risks-and-patch.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chrome Extension Caught Injecting Hidden Solana Transfer Fees Into Raydium Swaps</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a new malicious extension on the Chrome Web Store that's capable of injecting a stealthy Solana transfer into a swap transaction and transferring the funds to...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/chrome-extension-caught-injecting.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/chrome-extension-caught-injecting.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Clover Security Raises $36 Million to Secure Software by Design</h3>
+                <p><strong>Summary:</strong> The cybersecurity startup embeds AI agents into widely used tools to identify design flaws and eliminate them early.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</h3>
+                <p><strong>Summary:</strong> Cybercriminals impersonating financial institutions have targeted individuals, businesses, and organizations of different sizes.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Thousands of Secrets Leaked on Code Formatting Platforms</h3>
+                <p><strong>Summary:</strong> JSONFormatter and CodeBeautify users exposed credentials, authentication keys, configuration information, private keys, and other secrets.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/thousands-of-secrets-leaked-on-code-formatting-platforms/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/thousands-of-secrets-leaked-on-code-formatting-platforms/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cybersecurity Is Now a Core Business Discipline</h3>
+                <p><strong>Summary:</strong> Boardroom conversations about cyber can no longer be siloed apart from strategy, operations, or geopolitics.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cybersecurity-is-now-a-core-business-discipline/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cybersecurity-is-now-a-core-business-discipline/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ransomware Attack Disrupts Local Emergency Alert System Across US</h3>
+                <p><strong>Summary:</strong> The OnSolve CodeRED platform has been targeted by the Inc Ransom ransomware group, resulting in disruptions and a data breach.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ransomware-attack-disrupts-local-emergency-alert-system-across-us/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ransomware-attack-disrupts-local-emergency-alert-system-across-us/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Opti Raises $20 Million for Identity Security Platform</h3>
+                <p><strong>Summary:</strong> The cybersecurity startup plans to use the seed funding to accelerate product expansion and global growth.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/opti-raises-20-million-for-identity-security-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/opti-raises-20-million-for-identity-security-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New ShadowV2 botnet malware used AWS outage as a test opportunity</h3>
+                <p><strong>Summary:</strong> A new Mirai-based botnet malware named 'ShadowV2' has been observed targeting IoT devices from D-Link, TP-Link, and other vendors with exploits for known vulnerabilities.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-shadowv2-botnet-malware-used-aws-outage-as-a-test-opportunity/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-shadowv2-botnet-malware-used-aws-outage-as-a-test-opportunity/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>NordVPN Black Friday Deal: Unlock 77% off VPN plans in 2025</h3>
+                <p><strong>Summary:</strong> The NordVPN Black Friday Deal is now live, and you can get the best discount available: 77% off that applies automatically when you follow our link. If you've been waiting for the right moment to upgr...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-unlock-77-percent-off-vpn-plans-in-2025/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-unlock-77-percent-off-vpn-plans-in-2025/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Popular Forge library gets fix for signature verification bypass flaw</h3>
+                <p><strong>Summary:</strong> A vulnerability in the 'node-forge' package, a popular JavaScript cryptography library, could be exploited to bypass signature verifications by crafting data that appears valid.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/popular-forge-library-gets-fix-for-signature-verification-bypass-flaw/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/popular-forge-library-gets-fix-for-signature-verification-bypass-flaw/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
