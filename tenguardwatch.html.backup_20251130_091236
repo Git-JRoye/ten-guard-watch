@@ -36,7 +36,7 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages</div><div class="ticker-item">North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware</div><div class="ticker-item">Why Organizations Are Turning to RPAM</div><div class="ticker-item">MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants</div><div class="ticker-item">Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan</div><div class="ticker-item">Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update</div><div class="ticker-item">French Soccer Federation Hit by Cyberattack, Member Data Stolen</div><div class="ticker-item">In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked</div><div class="ticker-item">Asahi Data Breach Impacts 2 Million Individuals</div><div class="ticker-item">OpenAI User Data Exposed in Mixpanel Hack</div><div class="ticker-item">Clover Security Raises $36 Million to Secure Software by Design</div><div class="ticker-item">Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</div><div class="ticker-item">Japanese beer giant Asahi says data breach hit 1.5 million people</div><div class="ticker-item">Leak confirms OpenAI is preparing ads on ChatGPT for public roll out</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Save on this ethical hacking bundle: $33 through December 7th</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages</div><div class="ticker-item">North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware</div><div class="ticker-item">Why Organizations Are Turning to RPAM</div><div class="ticker-item">MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants</div><div class="ticker-item">Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan</div><div class="ticker-item">Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update</div><div class="ticker-item">French Soccer Federation Hit by Cyberattack, Member Data Stolen</div><div class="ticker-item">In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked</div><div class="ticker-item">Asahi Data Breach Impacts 2 Million Individuals</div><div class="ticker-item">OpenAI User Data Exposed in Mixpanel Hack</div><div class="ticker-item">Clover Security Raises $36 Million to Secure Software by Design</div><div class="ticker-item">Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</div><div class="ticker-item">Save on this ethical hacking bundle: $33 through December 7th</div><div class="ticker-item">Man behind in-flight Evil Twin WiFi attacks gets 7 years in prison</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Microsoft: Windows updates make password login option invisible</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Japanese beer giant Asahi says data breach hit 1.5 million people</h3>
-                <p><strong>Summary:</strong> Asahi Group Holdings, Japan's largest beer producer, has finished the investigation into the September cyberattack and found that the incident has impacted up to 1.9 million individuals.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/japanese-beer-giant-asahi-says-data-breach-hit-15-million-people/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/japanese-beer-giant-asahi-says-data-breach-hit-15-million-people/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Save on this ethical hacking bundle: $33 through December 7th</h3>
+                <p><strong>Summary:</strong> Cybersecurity skills can cost thousands to acquire through formal training programs. The All-in-One Super-Sized Ethical Hacking Bundle is a cheaper alternative with 18 professional cybersecurity cours...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Leak confirms OpenAI is preparing ads on ChatGPT for public roll out</h3>
-                <p><strong>Summary:</strong> OpenAI is now internally testing 'ads' inside ChatGPT that could redefine the web economy.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Man behind in-flight Evil Twin WiFi attacks gets 7 years in prison</h3>
+                <p><strong>Summary:</strong> A 44-year-old man was sentenced to seven years and four months in prison for operating an "evil twin" WiFi network to steal the data of unsuspecting travelers at various airports across Australia.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/man-behind-in-flight-evil-twin-wifi-attacks-gets-7-years-in-prison/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/man-behind-in-flight-evil-twin-wifi-attacks-gets-7-years-in-prison/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: How phishing attacks evolved in 2025</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Save on this ethical hacking bundle: $33 through December 7th</h3>
-                <p><strong>Summary:</strong> Cybersecurity skills can cost thousands to acquire through formal training programs. The All-in-One Super-Sized Ethical Hacking Bundle is a cheaper alternative with 18 professional cybersecurity cours...</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Microsoft: Windows updates make password login option invisible</h3>
+                <p><strong>Summary:</strong> Microsoft warned users that Windows 11 updates released since August may cause the password sign-in option to disappear from the lock screen options, even though the button remains functional.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-updates-hide-password-icon-on-lock-screen/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-updates-hide-password-icon-on-lock-screen/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
