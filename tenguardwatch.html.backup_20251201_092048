@@ -36,31 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New Albiriox MaaS Malware Targets 400+ Apps for On-Device Fraud and Screen Control</div><div class="ticker-item">Tomiris Shifts to Public-Service Implants for Stealthier C2 in Attacks on Government Targets</div><div class="ticker-item">CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to KEV</div><div class="ticker-item">Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages</div><div class="ticker-item">North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware</div><div class="ticker-item">Why Organizations Are Turning to RPAM</div><div class="ticker-item">Australian Man Sentenced to Prison for Wi-Fi Attacks at Airports and on Flights</div><div class="ticker-item">French Soccer Federation Hit by Cyberattack, Member Data Stolen</div><div class="ticker-item">In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked</div><div class="ticker-item">Asahi Data Breach Impacts 2 Million Individuals</div><div class="ticker-item">OpenAI User Data Exposed in Mixpanel Hack</div><div class="ticker-item">Clover Security Raises $36 Million to Secure Software by Design</div><div class="ticker-item">Police takes down Cryptomixer cryptocurrency mixing service</div><div class="ticker-item">Japanese beer giant Asahi says data breach hit 1.5 million people</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Leak confirms OpenAI is preparing ads on ChatGPT for public roll out</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages</div><div class="ticker-item">North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware</div><div class="ticker-item">Why Organizations Are Turning to RPAM</div><div class="ticker-item">MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants</div><div class="ticker-item">Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan</div><div class="ticker-item">Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update</div><div class="ticker-item">French Soccer Federation Hit by Cyberattack, Member Data Stolen</div><div class="ticker-item">In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked</div><div class="ticker-item">Asahi Data Breach Impacts 2 Million Individuals</div><div class="ticker-item">OpenAI User Data Exposed in Mixpanel Hack</div><div class="ticker-item">Clover Security Raises $36 Million to Secure Software by Design</div><div class="ticker-item">Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</div><div class="ticker-item">Japanese beer giant Asahi says data breach hit 1.5 million people</div><div class="ticker-item">Leak confirms OpenAI is preparing ads on ChatGPT for public roll out</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Save on this ethical hacking bundle: $33 through December 7th</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>New Albiriox MaaS Malware Targets 400+ Apps for On-Device Fraud and Screen Control</h3>
-                <p><strong>Summary:</strong> A new Android malware named Albiriox  has been advertised under a malware-as-a-service (MaaS) model to offer a "full spectrum" of features to facilitate on-device fraud (ODF), screen manipulation, and...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-albiriox-maas-malware-targets-400.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/new-albiriox-maas-malware-targets-400.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Tomiris Shifts to Public-Service Implants for Stealthier C2 in Attacks on Government Targets</h3>
-                <p><strong>Summary:</strong> The threat actor known as Tomiris  has been attributed to attacks targeting foreign ministries, intergovernmental organizations, and government entities in Russia with an aim to establish remote acces...</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/tomiris-shifts-to-public-service.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/tomiris-shifts-to-public-service.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to KEV</h3>
-                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has updated  its Known Exploited Vulnerabilities ( KEV ) catalog to include a security flaw impacting OpenPLC ScadaBR, citing evidence ...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages</h3>
                 <p><strong>Summary:</strong> Cybersecurity researchers have discovered vulnerable code in legacy Python packages that could potentially pave the way for a supply chain compromise on the Python Package Index (PyPI) via a domain ta...</p>
@@ -83,11 +62,25 @@
                 <a href="https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Australian Man Sentenced to Prison for Wi-Fi Attacks at Airports and on Flights</h3>
-                <p><strong>Summary:</strong> Michael Clapsis has been sentenced to 7 years and 4 months in prison for stealing sensitive information.</p>
+                <h3>MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have shed light on a cross-tenant blind spot that allows attackers to bypass Microsoft Defender for Office 365 protections via the guest access  feature in Teams.  "When user...</p>
                 <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/australian-man-sentenced-to-prison-for-wi-fi-attacks-at-airports-and-on-flights/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/australian-man-sentenced-to-prison-for-wi-fi-attacks-at-airports-and-on-flights/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan</h3>
+                <p><strong>Summary:</strong> The threat actor known as Bloody Wolf  has been attributed to a cyber attack campaign that has targeted Kyrgyzstan since at least June 2025 with the goal of delivering NetSupport RAT.  As of October 2...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update</h3>
+                <p><strong>Summary:</strong> Microsoft has announced plans to improve the security of Entra ID authentication by blocking unauthorized script injection attacks starting a year from now.  The update to its Content Security Policy ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>French Soccer Federation Hit by Cyberattack, Member Data Stolen</h3>
@@ -125,11 +118,11 @@
                 <a href="https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Police takes down Cryptomixer cryptocurrency mixing service</h3>
-                <p><strong>Summary:</strong> Law enforcement officers from Switzerland and Germany have taken down the Cryptomixer cryptocurrency-mixing service, believed to have helped cybercriminals launder stolen funds.</p>
+                <h3>Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</h3>
+                <p><strong>Summary:</strong> Cybercriminals impersonating financial institutions have targeted individuals, businesses, and organizations of different sizes.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/police-takes-down-cryptomixer-cryptocurrency-mixing-service/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/police-takes-down-cryptomixer-cryptocurrency-mixing-service/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Japanese beer giant Asahi says data breach hit 1.5 million people</h3>
@@ -139,6 +132,13 @@
                 <a href="https://www.bleepingcomputer.com/news/security/japanese-beer-giant-asahi-says-data-breach-hit-15-million-people/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
+                <h3>Leak confirms OpenAI is preparing ads on ChatGPT for public roll out</h3>
+                <p><strong>Summary:</strong> OpenAI is now internally testing 'ads' inside ChatGPT that could redefine the web economy.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: How phishing attacks evolved in 2025</h3>
                 <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
                 <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Leak confirms OpenAI is preparing ads on ChatGPT for public roll out</h3>
-                <p><strong>Summary:</strong> OpenAI is now internally testing 'ads' inside ChatGPT that could redefine the web economy.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Save on this ethical hacking bundle: $33 through December 7th</h3>
+                <p><strong>Summary:</strong> Cybersecurity skills can cost thousands to acquire through formal training programs. The All-in-One Super-Sized Ethical Hacking Bundle is a cheaper alternative with 18 professional cybersecurity cours...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
