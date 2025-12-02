@@ -1,0 +1,205 @@
+{
+  "date": "2025-12-02",
+  "items": [
+    {
+      "title": "Google Patches 107 Android Flaws, Including Two Framework Bugs Exploited in the Wild",
+      "link": "https://thehackernews.com/2025/12/google-patches-107-android-flaws.html",
+      "summary": "Google on Monday released monthly security updates for the Android operating system, including two vulnerabilities that it said have been exploited in the wild.  The patch addresses  a total of 107 security flaws spanning different components, including Framework, System, Kernel, as well as those from Arm, Imagination Technologies, MediaTek, Qualcomm, and Unison.  The two high-severity shortcomings that have been exploited are listed below -   CVE-2025-48633  - An information disclosure vulnerability in Framework  CVE-2025-48572  - An elevation of privilege vulnerability in Framework   As is customary, Google has not released any additional details about the nature of the attacks, exploiting them, if they have been chained together or used separately, and the scale of such efforts. It's not known who is behind the attacks.   However, the tech giant acknowledged in its advisory that there are indications they \"may be under limited, targeted exploitation.\"  Also fixed by G...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-patches-107-android-flaws-including-two-fra",
+      "source": "The Hacker News",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "India Orders Phone Makers to Pre-Install Government App to Tackle Telecom Fraud",
+      "link": "https://thehackernews.com/2025/12/india-orders-phone-makers-to-pre.html",
+      "summary": "India's telecommunications ministry has ordered major mobile device manufacturers to preload a government-backed cybersecurity app named Sanchar Saathi on all new phones within 90 days.  According to a report  from Reuters, the app cannot be deleted or disabled from users' devices.  Sanchar Saathi , available on the web and via mobile apps for Android and iOS, allows users to report suspected fraud, spam, and malicious web links through call, SMS, or WhatsApp; block stolen handsets; and allow a mobile subscriber to check the number of mobile connections taken in their name.  One of its important features is the ability to report incoming international calls that start with the country code for India (i.e., +91) to facilitate fraud.  \"Such international calls are received by illegal telecom setups over the internet from foreign countries and sent to Indian citizens disguised as domestic calls,\" the government notes on the website. \"Reporting about such calls help...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "india-orders-phone-makers-to-pre-install-governmen",
+      "source": "The Hacker News",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "ShadyPanda Turns Popular Browser Extensions with 4.3 Million Installs Into Spyware",
+      "link": "https://thehackernews.com/2025/12/shadypanda-turns-popular-browser.html",
+      "summary": "A threat actor known as ShadyPanda  has been linked to a seven-year-long browser extension campaign that has amassed over 4.3 million installations over time.  Five of these extensions started off as legitimate programs before malicious changes were introduced in mid-2024, according to a report  from Koi Security, attracting 300,000 installs. These extensions have since been taken down.  \"These extensions now run hourly remote code execution – downloading and executing arbitrary JavaScript with full browser access,\" security researcher Tuval Admoni said in a report shared with The Hacker News. \"They monitor every website visit, exfiltrate encrypted browsing history, and collect complete browser fingerprints.\"  To make matters worse, one of the extensions, Clean Master, was featured and verified by Google at one point. This trust-building exercise allowed the attackers to expand their user base and silently issue malicious updates years later without attracting any...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "shadypanda-turns-popular-browser-extensions-with-4",
+      "source": "The Hacker News",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "⚡ Weekly Recap: Hot CVEs, npm Worm Returns, Firefox RCE, M365 Email Raid & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-hot-cves-npm-worm-returns.html",
+      "summary": "Hackers aren't kicking down the door anymore. They just use the same tools we use every day — code packages, cloud accounts, email, chat, phones, and \"trusted\" partners — and turn them against us.  One bad download can leak your keys. One weak vendor can expose many customers at once. One guest invite, one link on a phone, one bug in a common tool, and suddenly your mail, chats, repos, and servers are in play.  Every story below is a reminder that your \"safe\" tools might be the real weak spot.  ⚡ Threat of the Week  Shai-Hulud Returns with More Aggression — The npm registry was targeted  a second time  by a self-replicating worm that went by the moniker \"Sha1-Hulud: The Second Coming,\" affecting over 800 packages and 27,000 GitHub repositories. Like in the previous iteration, the main objective  was to steal sensitive data like API keys, cloud credentials, and npm and GitHub authentication information, and facilitate deeper supply chain compromise in a worm-like fashion. Th...",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "-weekly-recap-hot-cves-npm-worm-returns-firefox-rc",
+      "source": "The Hacker News",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "Webinar: The \"Agentic\" Trojan Horse: Why the New AI Browsers War is a Nightmare for Security Teams",
+      "link": "https://thehackernews.com/2025/12/webinar-agentic-trojan-horse-why-new-ai.html",
+      "summary": "The AI browser wars are coming to a desktop near you, and you need to start worrying about their security challenges.  For the last two decades, whether you used Chrome, Edge, or Firefox, the fundamental paradigm remained the same: a passive window through which a human user viewed and interacted with the internet.  That era is over. We are currently witnessing a shift that renders the old OS-centric browser debates irrelevant. The new battleground is agentic AI browsers, and for security professionals, it represents a terrifying inversion of the traditional threat landscape.  A new webinar dives into the issue of AI browsers , their risks, and how security teams can deal with them.  Even today, the browser is the main interface for AI consumption; it is where most users access AI assistants such as ChatGPT or Gemini, use AI-enabled SaaS applications, and engage AI agents.  AI providers were the first to recognize this, which is why we've seen a spate of new 'agentic' AI browsers bein...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "webinar-the-agentic-trojan-horse-why-the-new-ai-br",
+      "source": "The Hacker News",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "New Albiriox MaaS Malware Targets 400+ Apps for On-Device Fraud and Screen Control",
+      "link": "https://thehackernews.com/2025/12/new-albiriox-maas-malware-targets-400.html",
+      "summary": "A new Android malware named Albiriox  has been advertised under a malware-as-a-service (MaaS) model to offer a \"full spectrum\" of features to facilitate on-device fraud (ODF), screen manipulation, and real-time interaction with infected devices.  The malware embeds a hard-coded list comprising over 400 applications spanning banking, financial technology, payment processors, cryptocurrency exchanges, digital wallets, and trading platforms.  \"The malware leverages dropper applications distributed through social engineering lures, combined with packing techniques, to evade static detection and deliver its payload,\" Cleafy researchers Federico Valentini, Alessandro Strino, Gianluca Scotti, and Simone Mattia said .  Albiriox is said to have been first advertised as part of a limited recruitment phase in late September 2025, before shifting to a MaaS offering a month later. There is evidence to suggest that the threat actors are Russian-speaking based on their activity o...",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "new-albiriox-maas-malware-targets-400-apps-for-on-",
+      "source": "The Hacker News",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "Facial Recognition’s Trust Problem",
+      "link": "https://www.securityweek.com/facial-recognitions-trust-problem/",
+      "summary": "Two technologies — one for public safety, one for controlled entry — show why trust in facial recognition must be earned, not assumed.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "facial-recognitions-trust-problem",
+      "source": "SecurityWeek",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "$29 Million Worth of Bitcoin Seized in Cryptomixer Takedown",
+      "link": "https://www.securityweek.com/29-million-worth-of-bitcoin-seized-in-cryptomixer-takedown/",
+      "summary": "Cryptomixer was targeted by law enforcement in Operation Olympia for facilitating cybercrime and money laundering.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "29-million-worth-of-bitcoin-seized-in-cryptomixer-",
+      "source": "SecurityWeek",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "New Albiriox Android Malware Developed by Russian Cybercriminals",
+      "link": "https://www.securityweek.com/new-albiriox-android-malware-developed-by-russian-cybercriminals/",
+      "summary": "Albiriox is a banking trojan offered under a malware-as-a-service model for $720 per month.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-albiriox-android-malware-developed-by-russian-",
+      "source": "SecurityWeek",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "CISA Warns of ScadaBR Vulnerability After Hacktivist ICS Attack",
+      "link": "https://www.securityweek.com/cisa-warns-of-scadabr-vulnerability-after-hacktivist-ics-attack/",
+      "summary": "CISA has added CVE-2021-26829 to its Known Exploited Vulnerabilities (KEV) catalog.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-warns-of-scadabr-vulnerability-after-hacktivi",
+      "source": "SecurityWeek",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "Australian Man Sentenced to Prison for Wi-Fi Attacks at Airports and on Flights",
+      "link": "https://www.securityweek.com/australian-man-sentenced-to-prison-for-wi-fi-attacks-at-airports-and-on-flights/",
+      "summary": "Michael Clapsis has been sentenced to 7 years and 4 months in prison for stealing sensitive information.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "australian-man-sentenced-to-prison-for-wi-fi-attac",
+      "source": "SecurityWeek",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "French Soccer Federation Hit by Cyberattack, Member Data Stolen",
+      "link": "https://www.securityweek.com/french-soccer-federation-hit-by-cyberattack-member-data-stolen/",
+      "summary": "According to the federation, the unauthorized access was carried out using a compromised account.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "french-soccer-federation-hit-by-cyberattack-member",
+      "source": "SecurityWeek",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "Be a global communicator with with all 14 Babbel languages in this deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/be-a-global-communicator-with-with-all-14-babbel-languages-in-this-deal/",
+      "summary": "The Babbel lifetime language learning platform gives you access to 14 languages and more than 10,000 hours of high-quality educational content designed to help you confidently connect across cultures. Get lifetime access to Babbel's languages for $129.99 through StackSocial's code LEARN through Dec....",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "be-a-global-communicator-with-with-all-14-babbel-l",
+      "source": "BleepingComputer",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "Glassworm malware returns in third wave of malicious VS Code packages",
+      "link": "https://www.bleepingcomputer.com/news/security/glassworm-malware-returns-in-third-wave-of-malicious-vs-code-packages/",
+      "summary": "The Glassworm campaign, which first emerged on the OpenVSX and Microsoft Visual Studio marketplaces in October, is now in its third wave, with 24 new packages added on the two platforms.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "glassworm-malware-returns-in-third-wave-of-malicio",
+      "source": "BleepingComputer",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-02"
+    },
+    {
+      "title": "SmartTube YouTube app for Android TV breached to push malicious update",
+      "link": "https://www.bleepingcomputer.com/news/security/smarttube-youtube-app-for-android-tv-breached-to-push-malicious-update/",
+      "summary": "The popular open-source SmartTube YouTube client for Android TV was compromised after an attacker gained access to the developer's signing keys, leading to a malicious update being pushed to users.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "smarttube-youtube-app-for-android-tv-breached-to-p",
+      "source": "BleepingComputer",
+      "date": "2025-12-02"
+    }
+  ]
+}
