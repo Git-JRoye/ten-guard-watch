@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Google Patches 107 Android Flaws, Including Two Framework Bugs Exploited in the Wild</div><div class="ticker-item">India Orders Phone Makers to Pre-Install Government App to Tackle Telecom Fraud</div><div class="ticker-item">ShadyPanda Turns Popular Browser Extensions with 4.3 Million Installs Into Spyware</div><div class="ticker-item">⚡ Weekly Recap: Hot CVEs, npm Worm Returns, Firefox RCE, M365 Email Raid & More</div><div class="ticker-item">Webinar: The "Agentic" Trojan Horse: Why the New AI Browsers War is a Nightmare for Security Teams</div><div class="ticker-item">New Albiriox MaaS Malware Targets 400+ Apps for On-Device Fraud and Screen Control</div><div class="ticker-item">Facial Recognition’s Trust Problem</div><div class="ticker-item">$29 Million Worth of Bitcoin Seized in Cryptomixer Takedown</div><div class="ticker-item">New Albiriox Android Malware Developed by Russian Cybercriminals</div><div class="ticker-item">CISA Warns of ScadaBR Vulnerability After Hacktivist ICS Attack</div><div class="ticker-item">Australian Man Sentenced to Prison for Wi-Fi Attacks at Airports and on Flights</div><div class="ticker-item">French Soccer Federation Hit by Cyberattack, Member Data Stolen</div><div class="ticker-item">Be a global communicator with with all 14 Babbel languages in this deal</div><div class="ticker-item">Glassworm malware returns in third wave of malicious VS Code packages</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">SmartTube YouTube app for Android TV breached to push malicious update</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Patches 107 Android Flaws, Including Two Framework Bugs Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> Google on Monday released monthly security updates for the Android operating system, including two vulnerabilities that it said have been exploited in the wild.  The patch addresses  a total of 107 se...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/google-patches-107-android-flaws.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/google-patches-107-android-flaws.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>India Orders Phone Makers to Pre-Install Government App to Tackle Telecom Fraud</h3>
+                <p><strong>Summary:</strong> India's telecommunications ministry has ordered major mobile device manufacturers to preload a government-backed cybersecurity app named Sanchar Saathi on all new phones within 90 days.  According to ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/india-orders-phone-makers-to-pre.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/india-orders-phone-makers-to-pre.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ShadyPanda Turns Popular Browser Extensions with 4.3 Million Installs Into Spyware</h3>
+                <p><strong>Summary:</strong> A threat actor known as ShadyPanda  has been linked to a seven-year-long browser extension campaign that has amassed over 4.3 million installations over time.  Five of these extensions started off as ...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/shadypanda-turns-popular-browser.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/shadypanda-turns-popular-browser.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Hot CVEs, npm Worm Returns, Firefox RCE, M365 Email Raid & More</h3>
+                <p><strong>Summary:</strong> Hackers aren't kicking down the door anymore. They just use the same tools we use every day — code packages, cloud accounts, email, chat, phones, and "trusted" partners — and turn them against us.  On...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/weekly-recap-hot-cves-npm-worm-returns.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/weekly-recap-hot-cves-npm-worm-returns.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar: The "Agentic" Trojan Horse: Why the New AI Browsers War is a Nightmare for Security Teams</h3>
+                <p><strong>Summary:</strong> The AI browser wars are coming to a desktop near you, and you need to start worrying about their security challenges.  For the last two decades, whether you used Chrome, Edge, or Firefox, the fundamen...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/webinar-agentic-trojan-horse-why-new-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/webinar-agentic-trojan-horse-why-new-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Albiriox MaaS Malware Targets 400+ Apps for On-Device Fraud and Screen Control</h3>
+                <p><strong>Summary:</strong> A new Android malware named Albiriox  has been advertised under a malware-as-a-service (MaaS) model to offer a "full spectrum" of features to facilitate on-device fraud (ODF), screen manipulation, and...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-albiriox-maas-malware-targets-400.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-albiriox-maas-malware-targets-400.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Facial Recognition’s Trust Problem</h3>
+                <p><strong>Summary:</strong> Two technologies — one for public safety, one for controlled entry — show why trust in facial recognition must be earned, not assumed.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/facial-recognitions-trust-problem/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/facial-recognitions-trust-problem/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>$29 Million Worth of Bitcoin Seized in Cryptomixer Takedown</h3>
+                <p><strong>Summary:</strong> Cryptomixer was targeted by law enforcement in Operation Olympia for facilitating cybercrime and money laundering.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/29-million-worth-of-bitcoin-seized-in-cryptomixer-takedown/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/29-million-worth-of-bitcoin-seized-in-cryptomixer-takedown/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Albiriox Android Malware Developed by Russian Cybercriminals</h3>
+                <p><strong>Summary:</strong> Albiriox is a banking trojan offered under a malware-as-a-service model for $720 per month.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-albiriox-android-malware-developed-by-russian-cybercriminals/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-albiriox-android-malware-developed-by-russian-cybercriminals/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Warns of ScadaBR Vulnerability After Hacktivist ICS Attack</h3>
+                <p><strong>Summary:</strong> CISA has added CVE-2021-26829 to its Known Exploited Vulnerabilities (KEV) catalog.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-warns-of-scadabr-vulnerability-after-hacktivist-ics-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-warns-of-scadabr-vulnerability-after-hacktivist-ics-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Australian Man Sentenced to Prison for Wi-Fi Attacks at Airports and on Flights</h3>
+                <p><strong>Summary:</strong> Michael Clapsis has been sentenced to 7 years and 4 months in prison for stealing sensitive information.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/australian-man-sentenced-to-prison-for-wi-fi-attacks-at-airports-and-on-flights/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/australian-man-sentenced-to-prison-for-wi-fi-attacks-at-airports-and-on-flights/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>French Soccer Federation Hit by Cyberattack, Member Data Stolen</h3>
+                <p><strong>Summary:</strong> According to the federation, the unauthorized access was carried out using a compromised account.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/french-soccer-federation-hit-by-cyberattack-member-data-stolen/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/french-soccer-federation-hit-by-cyberattack-member-data-stolen/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Be a global communicator with with all 14 Babbel languages in this deal</h3>
+                <p><strong>Summary:</strong> The Babbel lifetime language learning platform gives you access to 14 languages and more than 10,000 hours of high-quality educational content designed to help you confidently connect across cultures....</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/be-a-global-communicator-with-with-all-14-babbel-languages-in-this-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/be-a-global-communicator-with-with-all-14-babbel-languages-in-this-deal/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Glassworm malware returns in third wave of malicious VS Code packages</h3>
+                <p><strong>Summary:</strong> The Glassworm campaign, which first emerged on the OpenVSX and Microsoft Visual Studio marketplaces in October, is now in its third wave, with 24 new packages added on the two platforms.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/glassworm-malware-returns-in-third-wave-of-malicious-vs-code-packages/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/glassworm-malware-returns-in-third-wave-of-malicious-vs-code-packages/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SmartTube YouTube app for Android TV breached to push malicious update</h3>
+                <p><strong>Summary:</strong> The popular open-source SmartTube YouTube client for Android TV was compromised after an attacker gained access to the developer's signing keys, leading to a malicious update being pushed to users.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/smarttube-youtube-app-for-android-tv-breached-to-push-malicious-update/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/smarttube-youtube-app-for-android-tv-breached-to-push-malicious-update/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
