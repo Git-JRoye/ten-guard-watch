@@ -1,0 +1,210 @@
+{
+  "date": "2025-12-04",
+  "items": [
+    {
+      "title": "Record 29.7 Tbps DDoS Attack Linked to AISURU Botnet with up to 4 Million Infected Hosts",
+      "link": "https://thehackernews.com/2025/12/record-297-tbps-ddos-attack-linked-to.html",
+      "summary": "Cloudflare on Wednesday said it detected and mitigated the largest ever distributed denial-of-service (DDoS) attack that measured at 29.7 terabits per second (Tbps).  The activity, the web infrastructure and security company said, originated from a DDoS botnet-for-hire known as AISURU , which has been linked to a number of hyper-volumetric DDoS attacks  over the past year. The attack lasted for 69 seconds. It did not disclose the target of the attack.  The botnet has prominently targeted telecommunication providers, gaming companies, hosting providers, and financial services. Also tackled by Cloudflare was a 14.1 Bpps DDoS attack from the same botnet. AISURU is believed to be powered by a massive network comprising an estimated 1-4 million infected hosts worldwide.   \"The 29.7 Tbps was a UDP carpet-bombing attack bombarding an average of 15,000 destination ports per second,\" Omer Yoachimik and Jorge Pacheco said . \"The distributed attack randomized various packet attrib...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "record-297-tbps-ddos-attack-linked-to-aisuru-botne",
+      "source": "The Hacker News",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Critical RSC Bugs in React and Next.js Allow Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/critical-rsc-bugs-in-react-and-nextjs.html",
+      "summary": "A maximum-severity security flaw has been disclosed in React Server Components (RSC) that, if successfully exploited, could result in remote code execution.  The vulnerability, tracked as CVE-2025-55182, carries a CVSS score of 10.0. The vulnerability has been codenamed React2shell.  It allows \"unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints,\" the React Team said  in an alert issued today.  \"Even if your app does not implement any React Server Function endpoints, it may still be vulnerable if your app supports React Server Components.\"  According to cloud security firm Wiz , the issue is a case of logical deserialization that stems from processing RSC payloads in an unsafe manner. As a result, an unauthenticated attacker could craft a malicious HTTP request to any Server Function endpoint that, when deserialized by React, achieves execution of arbitrary JavaScript code on the server.  ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-rsc-bugs-in-react-and-nextjs-allow-unauth",
+      "source": "The Hacker News",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Discover the AI Tools Fueling the Next Cybercrime Wave — Watch the Webinar",
+      "link": "https://thehackernews.com/2025/12/discover-ai-tools-fueling-next.html",
+      "summary": "Remember when phishing emails were easy to spot? Bad grammar, weird formatting, and requests from a \"Prince\" in a distant country?  Those days are over.  Today, a 16-year-old with zero coding skills and a $200 allowance can launch a campaign that rivals state-sponsored hackers. They don't need to be smart; they just need to subscribe to the right AI tool.  We are witnessing the industrialization of cybercrime. The barrier to entry has collapsed, and your current email filters are looking for threats that no longer exist.      Watch the Live Breakdown of AI Phishing Tools ➜    The New \"Big Three\" of Cybercrime  Security leaders don't need another lecture on what phishing is. You need to see exactly what you are up against. This isn't science fiction—these tools are being sold on the dark web right now.  In this webinar , we are going inside the \"AI Phishing Factory\" to deconstruct the three tools rewriting the threat landscape:   WormGPT:  Think of...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "discover-the-ai-tools-fueling-the-next-cybercrime-",
+      "source": "The Hacker News",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Microsoft Silently Patches Windows LNK Flaw After Years of Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/microsoft-silently-patches-windows-lnk.html",
+      "summary": "Microsoft has silently plugged a security flaw that has been exploited by several threat actors since 2017 as part of the company's November 2025 Patch Tuesday updates , according to ACROS Security's 0patch .  The vulnerability in question is CVE-2025-9491  (CVSS score: 7.8/7.0), which has been described as a Windows Shortcut (LNK) file UI misinterpretation vulnerability that could lead to remote code execution.  \"The specific flaw exists within the handling of .LNK files,\" according to a description in the NIST National Vulnerability Database (NVD). \"Crafted data in an .LNK file can cause hazardous content in the file to be invisible to a user who inspects the file via the Windows-provided user interface. An attacker can leverage this vulnerability to execute code in the context of the current user.\"   In other words, these shortcut files are crafted such that viewing their properties in Windows conceals the malicious commands executed by them out of the u...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-silently-patches-windows-lnk-flaw-after-",
+      "source": "The Hacker News",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "WordPress King Addons Flaw Under Active Attack Lets Hackers Make Admin Accounts",
+      "link": "https://thehackernews.com/2025/12/wordpress-king-addons-flaw-under-active.html",
+      "summary": "A critical security flaw impacting a WordPress plugin known as King Addons for Elementor has come under active exploitation in the wild.  The vulnerability, CVE-2025-8489  (CVSS score: 9.8), is a case of privilege escalation that allows unauthenticated attackers to grant themselves administrative privileges by simply specifying the administrator user role during registration.  It affects versions from 24.12.92 through 51.1.14. It was patched by the maintainers in version 51.1.35 released on September 25, 2025. Security researcher Peter Thaleikis has been credited with discovering and reporting the flaw. The plugin has over 10,000 active installs.   \"This is due to the plugin not properly restricting the roles that users can register with,\" Wordfence said  in an alert. \"This makes it possible for unauthenticated attackers to register with administrator-level user accounts.\"  Specifically, the issue is rooted in the \"handle_register_ajax()\" function that...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "wordpress-king-addons-flaw-under-active-attack-let",
+      "source": "The Hacker News",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Brazil Hit by Banking Trojan Spread via WhatsApp Worm and RelayNFC NFC Relay Fraud",
+      "link": "https://thehackernews.com/2025/12/brazil-hit-by-banking-trojan-spread-via.html",
+      "summary": "The threat actor known as Water Saci  is actively evolving its tactics, switching to a sophisticated, highly layered infection chain that uses HTML Application (HTA) files and PDFs to propagate via WhatsApp a worm that deploys a banking trojan in attacks targeting users in Brazil.  The latest wave is characterized by the attackers shifting from PowerShell to a Python-based variant that spreads the malware in a worm-like manner over WhatsApp Web.  \"Their new multi-format attack chain and possible use of artificial intelligence (AI) to convert propagation scripts from PowerShell to Python exemplifies a layered approach that has enabled Water Saci to bypass conventional security controls, exploit user trust across multiple channels, and ramp up their infection rates,\" Trend Micro researchers Jeffrey Francis Bonaobra, Sarah Pearl Camiling, Joe Soares, Byron Gelera, Ian Kenefick, and Emmanuel Panopio said .  In these attacks, users receive messages from trusted contacts on WhatsA...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "brazil-hit-by-banking-trojan-spread-via-whatsapp-w",
+      "source": "The Hacker News",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Niobium Raises $23 Million for FHE Hardware Acceleration",
+      "link": "https://www.securityweek.com/niobium-raises-23-million-for-fhe-hardware-acceleration/",
+      "summary": "The startup will invest the funds in accelerating development of its second-generation fully homomorphic encryption (FHE) platforms.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "niobium-raises-23-million-for-fhe-hardware-acceler",
+      "source": "SecurityWeek",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Critical King Addons Vulnerability Exploited to Hack WordPress Sites",
+      "link": "https://www.securityweek.com/critical-king-addons-vulnerability-exploited-to-hack-wordpress-sites/",
+      "summary": "A critical-severity vulnerability in the King Addons for Elementor plugin for WordPress has been exploited to take over websites.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-king-addons-vulnerability-exploited-to-ha",
+      "source": "SecurityWeek",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Arizona Attorney General Sues Chinese Online Retailer Temu Over Data Theft Claims",
+      "link": "https://www.securityweek.com/arizona-attorney-general-sues-chinese-online-retailer-temu-over-data-theft-claims/",
+      "summary": "Arizona is the latest state to sue Temu and its parent company PDD Holdings over allegations that the Chinese online retailer is stealing customers’ data.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "arizona-attorney-general-sues-chinese-online-retai",
+      "source": "SecurityWeek",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "ServiceNow to Acquire Identity Security Firm Veza in Reported $1 Billion Deal",
+      "link": "https://www.securityweek.com/servicenow-to-acquire-identity-security-firm-veza-in-reported-1-billion-deal/",
+      "summary": "Veza Security was recently valued at more than $800 million after raising $108 million in Series D funding.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "servicenow-to-acquire-identity-security-firm-veza-",
+      "source": "SecurityWeek",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Penn and Phoenix Universities Disclose Data Breach After Oracle Hack",
+      "link": "https://www.securityweek.com/penn-and-phoenix-universities-disclose-data-breach-after-oracle-hack/",
+      "summary": "The University of Pennsylvania and the University of Phoenix confirm that they are victims of the recent Oracle EBS hacking campaign.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "penn-and-phoenix-universities-disclose-data-breach",
+      "source": "SecurityWeek",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "re:Invent 2025: AWS and Security Vendors Unveil New Products and Capabilities",
+      "link": "https://www.securityweek.com/reinvent-2025-aws-and-security-vendors-unveil-new-products-and-capabilities/",
+      "summary": "AWS and cybersecurity vendors have made several announcements at the cloud giant’s re:Invent 2025 event.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "reinvent-2025-aws-and-security-vendors-unveil-new-",
+      "source": "SecurityWeek",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Marquis data breach impacts over 74 US banks, credit unions",
+      "link": "https://www.bleepingcomputer.com/news/security/marquis-data-breach-impacts-over-74-us-banks-credit-unions/",
+      "summary": "Financial software provider Marquis Software Solutions is warning that it suffered a data breach that impacted dozens of banks and credit unions across the US.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "marquis-data-breach-impacts-over-74-us-banks-credi",
+      "source": "BleepingComputer",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "Critical flaw in WordPress add-on for Elementor exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wordpress-add-on-for-elementor-exploited-in-attacks/",
+      "summary": "Attackers are exploiting a critical-severity privilege escalation vulnerability (CVE-2025-8489) in the King Addons for Elementor plugin for WordPress, which lets them obtain administrative permissions during the registration process.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-flaw-in-wordpress-add-on-for-elementor-ex",
+      "source": "BleepingComputer",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-04"
+    },
+    {
+      "title": "French DIY retail giant Leroy Merlin discloses a data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/french-diy-retail-giant-leroy-merlin-discloses-a-data-breach/",
+      "summary": "Leroy Merlin is sending security breach notifications to customers in France, informing them that their personal data was compromised.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "french-diy-retail-giant-leroy-merlin-discloses-a-d",
+      "source": "BleepingComputer",
+      "date": "2025-12-04"
+    }
+  ]
+}
