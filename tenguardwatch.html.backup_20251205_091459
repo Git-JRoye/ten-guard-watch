@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Record 29.7 Tbps DDoS Attack Linked to AISURU Botnet with up to 4 Million Infected Hosts</div><div class="ticker-item">Critical RSC Bugs in React and Next.js Allow Unauthenticated Remote Code Execution</div><div class="ticker-item">Discover the AI Tools Fueling the Next Cybercrime Wave — Watch the Webinar</div><div class="ticker-item">Microsoft Silently Patches Windows LNK Flaw After Years of Active Exploitation</div><div class="ticker-item">WordPress King Addons Flaw Under Active Attack Lets Hackers Make Admin Accounts</div><div class="ticker-item">Brazil Hit by Banking Trojan Spread via WhatsApp Worm and RelayNFC NFC Relay Fraud</div><div class="ticker-item">Niobium Raises $23 Million for FHE Hardware Acceleration</div><div class="ticker-item">Critical King Addons Vulnerability Exploited to Hack WordPress Sites</div><div class="ticker-item">Arizona Attorney General Sues Chinese Online Retailer Temu Over Data Theft Claims</div><div class="ticker-item">ServiceNow to Acquire Identity Security Firm Veza in Reported $1 Billion Deal</div><div class="ticker-item">Penn and Phoenix Universities Disclose Data Breach After Oracle Hack</div><div class="ticker-item">re:Invent 2025: AWS and Security Vendors Unveil New Products and Capabilities</div><div class="ticker-item">Marquis data breach impacts over 74 US banks, credit unions</div><div class="ticker-item">Critical flaw in WordPress add-on for Elementor exploited in attacks</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">French DIY retail giant Leroy Merlin discloses a data breach</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Record 29.7 Tbps DDoS Attack Linked to AISURU Botnet with up to 4 Million Infected Hosts</h3>
+                <p><strong>Summary:</strong> Cloudflare on Wednesday said it detected and mitigated the largest ever distributed denial-of-service (DDoS) attack that measured at 29.7 terabits per second (Tbps).  The activity, the web infrastruct...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/record-297-tbps-ddos-attack-linked-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/record-297-tbps-ddos-attack-linked-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical RSC Bugs in React and Next.js Allow Unauthenticated Remote Code Execution</h3>
+                <p><strong>Summary:</strong> A maximum-severity security flaw has been disclosed in React Server Components (RSC) that, if successfully exploited, could result in remote code execution.  The vulnerability, tracked as CVE-2025-551...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/critical-rsc-bugs-in-react-and-nextjs.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/critical-rsc-bugs-in-react-and-nextjs.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Discover the AI Tools Fueling the Next Cybercrime Wave — Watch the Webinar</h3>
+                <p><strong>Summary:</strong> Remember when phishing emails were easy to spot? Bad grammar, weird formatting, and requests from a "Prince" in a distant country?  Those days are over.  Today, a 16-year-old with zero coding skills a...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/discover-ai-tools-fueling-next.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/discover-ai-tools-fueling-next.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Silently Patches Windows LNK Flaw After Years of Active Exploitation</h3>
+                <p><strong>Summary:</strong> Microsoft has silently plugged a security flaw that has been exploited by several threat actors since 2017 as part of the company's November 2025 Patch Tuesday updates , according to ACROS Security's ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/microsoft-silently-patches-windows-lnk.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/microsoft-silently-patches-windows-lnk.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WordPress King Addons Flaw Under Active Attack Lets Hackers Make Admin Accounts</h3>
+                <p><strong>Summary:</strong> A critical security flaw impacting a WordPress plugin known as King Addons for Elementor has come under active exploitation in the wild.  The vulnerability, CVE-2025-8489  (CVSS score: 9.8), is a case...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/wordpress-king-addons-flaw-under-active.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/wordpress-king-addons-flaw-under-active.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Brazil Hit by Banking Trojan Spread via WhatsApp Worm and RelayNFC NFC Relay Fraud</h3>
+                <p><strong>Summary:</strong> The threat actor known as Water Saci  is actively evolving its tactics, switching to a sophisticated, highly layered infection chain that uses HTML Application (HTA) files and PDFs to propagate via Wh...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/brazil-hit-by-banking-trojan-spread-via.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/brazil-hit-by-banking-trojan-spread-via.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Niobium Raises $23 Million for FHE Hardware Acceleration</h3>
+                <p><strong>Summary:</strong> The startup will invest the funds in accelerating development of its second-generation fully homomorphic encryption (FHE) platforms.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/niobium-raises-23-million-for-fhe-hardware-acceleration/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/niobium-raises-23-million-for-fhe-hardware-acceleration/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical King Addons Vulnerability Exploited to Hack WordPress Sites</h3>
+                <p><strong>Summary:</strong> A critical-severity vulnerability in the King Addons for Elementor plugin for WordPress has been exploited to take over websites.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-king-addons-vulnerability-exploited-to-hack-wordpress-sites/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-king-addons-vulnerability-exploited-to-hack-wordpress-sites/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Arizona Attorney General Sues Chinese Online Retailer Temu Over Data Theft Claims</h3>
+                <p><strong>Summary:</strong> Arizona is the latest state to sue Temu and its parent company PDD Holdings over allegations that the Chinese online retailer is stealing customers’ data.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/arizona-attorney-general-sues-chinese-online-retailer-temu-over-data-theft-claims/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/arizona-attorney-general-sues-chinese-online-retailer-temu-over-data-theft-claims/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ServiceNow to Acquire Identity Security Firm Veza in Reported $1 Billion Deal</h3>
+                <p><strong>Summary:</strong> Veza Security was recently valued at more than $800 million after raising $108 million in Series D funding.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/servicenow-to-acquire-identity-security-firm-veza-in-reported-1-billion-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/servicenow-to-acquire-identity-security-firm-veza-in-reported-1-billion-deal/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Penn and Phoenix Universities Disclose Data Breach After Oracle Hack</h3>
+                <p><strong>Summary:</strong> The University of Pennsylvania and the University of Phoenix confirm that they are victims of the recent Oracle EBS hacking campaign.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/penn-and-phoenix-universities-disclose-data-breach-after-oracle-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/penn-and-phoenix-universities-disclose-data-breach-after-oracle-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>re:Invent 2025: AWS and Security Vendors Unveil New Products and Capabilities</h3>
+                <p><strong>Summary:</strong> AWS and cybersecurity vendors have made several announcements at the cloud giant’s re:Invent 2025 event.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/reinvent-2025-aws-and-security-vendors-unveil-new-products-and-capabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/reinvent-2025-aws-and-security-vendors-unveil-new-products-and-capabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Marquis data breach impacts over 74 US banks, credit unions</h3>
+                <p><strong>Summary:</strong> Financial software provider Marquis Software Solutions is warning that it suffered a data breach that impacted dozens of banks and credit unions across the US.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/marquis-data-breach-impacts-over-74-us-banks-credit-unions/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/marquis-data-breach-impacts-over-74-us-banks-credit-unions/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical flaw in WordPress add-on for Elementor exploited in attacks</h3>
+                <p><strong>Summary:</strong> Attackers are exploiting a critical-severity privilege escalation vulnerability (CVE-2025-8489) in the King Addons for Elementor plugin for WordPress, which lets them obtain administrative permissions...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-wordpress-add-on-for-elementor-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-wordpress-add-on-for-elementor-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>French DIY retail giant Leroy Merlin discloses a data breach</h3>
+                <p><strong>Summary:</strong> Leroy Merlin is sending security breach notifications to customers in France, informing them that their personal data was compromised.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/french-diy-retail-giant-leroy-merlin-discloses-a-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/french-diy-retail-giant-leroy-merlin-discloses-a-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
