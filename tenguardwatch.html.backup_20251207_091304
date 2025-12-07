@@ -36,24 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks</div><div class="ticker-item">Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation</div><div class="ticker-item">Zero-Click Agentic Browser Attack Can Delete Entire Google Drive Using Crafted Emails</div><div class="ticker-item">Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch</div><div class="ticker-item">Chinese Hackers Have Started Exploiting the Newly Disclosed React2Shell Vulnerability</div><div class="ticker-item">Intellexa Leaks Reveal Zero-Days and Ads-Based Vector for Predator Spyware Delivery</div><div class="ticker-item">In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor</div><div class="ticker-item">Cloudflare Outage Caused by React2Shell Mitigations</div><div class="ticker-item">Imper.ai Emerges From Stealth Mode With $28 Million in Funding</div><div class="ticker-item">US Organizations Warned of Chinese Malware Used for Long-Term Persistence</div><div class="ticker-item">Lumia Security Raises $18 Million for AI Security and Governance</div><div class="ticker-item">Aisuru Botnet Powers Record DDoS Attack Peaking at 29 Tbps</div><div class="ticker-item">React2Shell flaw exploited to breach 30 orgs, 77k IP addresses vulnerable</div><div class="ticker-item">New wave of VPN login attempts targets Palo Alto GlobalProtect portals</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Block ads for the whole family for life for only $16 in this AdGuard deal</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Zero-Click Agentic Browser Attack Can Delete Entire Google Drive Using Crafted Emails</div><div class="ticker-item">Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch</div><div class="ticker-item">Chinese Hackers Have Started Exploiting the Newly Disclosed React2Shell Vulnerability</div><div class="ticker-item">Intellexa Leaks Reveal Zero-Days and Ads-Based Vector for Predator Spyware Delivery</div><div class="ticker-item">"Getting to Yes": An Anti-Sales Guide for MSPs</div><div class="ticker-item">CISA Reports PRC Hackers Using BRICKSTORM for Long-Term Access in U.S. Systems</div><div class="ticker-item">In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor</div><div class="ticker-item">Cloudflare Outage Caused by React2Shell Mitigations</div><div class="ticker-item">Imper.ai Emerges From Stealth Mode With $28 Million in Funding</div><div class="ticker-item">US Organizations Warned of Chinese Malware Used for Long-Term Persistence</div><div class="ticker-item">Lumia Security Raises $18 Million for AI Security and Governance</div><div class="ticker-item">Aisuru Botnet Powers Record DDoS Attack Peaking at 29 Tbps</div><div class="ticker-item">Barts Health NHS discloses data breach after Oracle zero-day hack</div><div class="ticker-item">FBI warns of virtual kidnapping scams using altered social media photos</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">A Practical Guide to Continuous Attack Surface Visibility</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks</h3>
-                <p><strong>Summary:</strong> Over 30 security vulnerabilities have been disclosed in various artificial intelligence (AI)-powered Integrated Development Environments (IDEs) that combine prompt injection primitives  with legitimat...</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/researchers-uncover-30-flaws-in-ai.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/researchers-uncover-30-flaws-in-ai.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation</h3>
-                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday formally added  a critical security flaw impacting React Server Components (RSC) to its Known Exploited Vulnerabilities ( KEV...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Zero-Click Agentic Browser Attack Can Delete Entire Google Drive Using Crafted Emails</h3>
                 <p><strong>Summary:</strong> A new agentic browser attack targeting Perplexity's Comet browser  that's capable of turning a seemingly innocuous email into a destructive action that wipes a user's entire Google Drive contents, fin...</p>
@@ -81,6 +67,20 @@
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/intellexa-leaks-reveal-zero-days-and.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/12/intellexa-leaks-reveal-zero-days-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>"Getting to Yes": An Anti-Sales Guide for MSPs</h3>
+                <p><strong>Summary:</strong> Most MSPs and MSSPs know how to deliver effective security. The challenge is helping prospects understand why it matters  in business terms. Too often, sales conversations stall because prospects are ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/getting-to-yes-anti-sales-guide-for-msps.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/getting-to-yes-anti-sales-guide-for-msps.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Reports PRC Hackers Using BRICKSTORM for Long-Term Access in U.S. Systems</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday released details of a backdoor named BRICKSTORM  that has been put to use by state-sponsored threat actors from the People'...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/cisa-reports-prc-hackers-using.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/cisa-reports-prc-hackers-using.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor</h3>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/aisuru-botnet-powers-record-ddos-attack-peaking-at-29-tbps/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>React2Shell flaw exploited to breach 30 orgs, 77k IP addresses vulnerable</h3>
-                <p><strong>Summary:</strong> Over 77,000 Internet-exposed IP addresses are vulnerable to the critical React2Shell remote code execution flaw (CVE-2025-55182), with researchers now confirming that attackers have already compromise...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/react2shell-flaw-exploited-to-breach-30-orgs-77k-ip-addresses-vulnerable/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/react2shell-flaw-exploited-to-breach-30-orgs-77k-ip-addresses-vulnerable/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Barts Health NHS discloses data breach after Oracle zero-day hack</h3>
+                <p><strong>Summary:</strong> Barts Health NHS Trust has announced that Clop ransomware actors have stolen files from a database by exploiting a vulnerability in its Oracle E-business Suite software.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/barts-health-nhs-discloses-data-breach-after-oracle-zero-day-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/barts-health-nhs-discloses-data-breach-after-oracle-zero-day-hack/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New wave of VPN login attempts targets Palo Alto GlobalProtect portals</h3>
-                <p><strong>Summary:</strong> A campaign has been observed targeting Palo Alto GlobalProtect portals with login attempts and launching scanning activity against SonicWall SonicOS API endpoints.</p>
+                <h3>FBI warns of virtual kidnapping scams using altered social media photos</h3>
+                <p><strong>Summary:</strong> The FBI warns of criminals altering images shared on social media and using them as fake proof of life photos in virtual kidnapping ransom scams.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-wave-of-vpn-login-attempts-targets-palo-alto-globalprotect-portals/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/new-wave-of-vpn-login-attempts-targets-palo-alto-globalprotect-portals/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-virtual-kidnapping-ransom-scams-using-altered-social-media-photos/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-virtual-kidnapping-ransom-scams-using-altered-social-media-photos/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: How phishing attacks evolved in 2025</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Block ads for the whole family for life for only $16 in this AdGuard deal</h3>
-                <p><strong>Summary:</strong> Adguard is a user-friendly tool that helps you get rid of ads that other blockers miss, and it works for the whole family. Right now, an AdGuard Lifetime Family Plan is also on sale for only $15.97 (r...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/block-ads-for-the-whole-family-for-life-for-only-16-in-this-adguard-deal/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/block-ads-for-the-whole-family-for-life-for-only-16-in-this-adguard-deal/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>A Practical Guide to Continuous Attack Surface Visibility</h3>
+                <p><strong>Summary:</strong> Passive scan data goes stale fast as cloud assets shift daily, leaving teams blind to real exposures. Sprocket Security shows how continuous, automated recon gives accurate, up-to-date attack surface ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/a-practical-guide-to-continuous-attack-surface-visibility/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/a-practical-guide-to-continuous-attack-surface-visibility/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
