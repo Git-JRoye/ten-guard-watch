@@ -36,24 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks</div><div class="ticker-item">MuddyWater Deploys UDPGangster Backdoor in Targeted Turkey-Israel-Azerbaijan Campaign</div><div class="ticker-item">Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks</div><div class="ticker-item">Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation</div><div class="ticker-item">Zero-Click Agentic Browser Attack Can Delete Entire Google Drive Using Crafted Emails</div><div class="ticker-item">Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch</div><div class="ticker-item">In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor</div><div class="ticker-item">Cloudflare Outage Caused by React2Shell Mitigations</div><div class="ticker-item">Imper.ai Emerges From Stealth Mode With $28 Million in Funding</div><div class="ticker-item">US Organizations Warned of Chinese Malware Used for Long-Term Persistence</div><div class="ticker-item">Lumia Security Raises $18 Million for AI Security and Governance</div><div class="ticker-item">Aisuru Botnet Powers Record DDoS Attack Peaking at 29 Tbps</div><div class="ticker-item">OpenAI denies rolling out ads on ChatGPT paid plans</div><div class="ticker-item">Confidently step into IT with this $25 CompTIA course bundle deal</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Portugal updates cybercrime law to exempt security researchers</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks</div><div class="ticker-item">Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation</div><div class="ticker-item">Zero-Click Agentic Browser Attack Can Delete Entire Google Drive Using Crafted Emails</div><div class="ticker-item">Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch</div><div class="ticker-item">Chinese Hackers Have Started Exploiting the Newly Disclosed React2Shell Vulnerability</div><div class="ticker-item">Intellexa Leaks Reveal Zero-Days and Ads-Based Vector for Predator Spyware Delivery</div><div class="ticker-item">In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor</div><div class="ticker-item">Cloudflare Outage Caused by React2Shell Mitigations</div><div class="ticker-item">Imper.ai Emerges From Stealth Mode With $28 Million in Funding</div><div class="ticker-item">US Organizations Warned of Chinese Malware Used for Long-Term Persistence</div><div class="ticker-item">Lumia Security Raises $18 Million for AI Security and Governance</div><div class="ticker-item">Aisuru Botnet Powers Record DDoS Attack Peaking at 29 Tbps</div><div class="ticker-item">React2Shell flaw exploited to breach 30 orgs, 77k IP addresses vulnerable</div><div class="ticker-item">New wave of VPN login attempts targets Palo Alto GlobalProtect portals</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Block ads for the whole family for life for only $16 in this AdGuard deal</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks</h3>
-                <p><strong>Summary:</strong> A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence.  The remote code execution vulnerability in question is CVE-2025...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>MuddyWater Deploys UDPGangster Backdoor in Targeted Turkey-Israel-Azerbaijan Campaign</h3>
-                <p><strong>Summary:</strong> The Iranian hacking group known as MuddyWater  has been observed leveraging a new backdoor dubbed UDPGangster  that uses the User Datagram Protocol (UDP) for command-and-control (C2) purposes.  The cy...</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/muddywater-deploys-udpgangster-backdoor.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/muddywater-deploys-udpgangster-backdoor.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks</h3>
                 <p><strong>Summary:</strong> Over 30 security vulnerabilities have been disclosed in various artificial intelligence (AI)-powered Integrated Development Environments (IDEs) that combine prompt injection primitives  with legitimat...</p>
@@ -81,6 +67,20 @@
                 <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese Hackers Have Started Exploiting the Newly Disclosed React2Shell Vulnerability</h3>
+                <p><strong>Summary:</strong> Two hacking groups with ties to China have been observed weaponizing the newly disclosed security flaw in React Server Components (RSC) within hours of it becoming public knowledge.  The vulnerability...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/chinese-hackers-have-started-exploiting.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/chinese-hackers-have-started-exploiting.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Intellexa Leaks Reveal Zero-Days and Ads-Based Vector for Predator Spyware Delivery</h3>
+                <p><strong>Summary:</strong> A human rights lawyer from Pakistan's Balochistan province received a suspicious link on WhatsApp from an unknown number, marking the first time a civil society member in the country was targeted by I...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/intellexa-leaks-reveal-zero-days-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/intellexa-leaks-reveal-zero-days-and.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor</h3>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/aisuru-botnet-powers-record-ddos-attack-peaking-at-29-tbps/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>OpenAI denies rolling out ads on ChatGPT paid plans</h3>
-                <p><strong>Summary:</strong> ChatGPT is allegedly showing ads to those who pay $20 for the Plus subscription, but OpenAI says this is an app recommendation feature, not an ad.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-denies-rolling-out-ads-on-chatgpt-paid-plans/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-denies-rolling-out-ads-on-chatgpt-paid-plans/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>React2Shell flaw exploited to breach 30 orgs, 77k IP addresses vulnerable</h3>
+                <p><strong>Summary:</strong> Over 77,000 Internet-exposed IP addresses are vulnerable to the critical React2Shell remote code execution flaw (CVE-2025-55182), with researchers now confirming that attackers have already compromise...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/react2shell-flaw-exploited-to-breach-30-orgs-77k-ip-addresses-vulnerable/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/react2shell-flaw-exploited-to-breach-30-orgs-77k-ip-addresses-vulnerable/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Confidently step into IT with this $25 CompTIA course bundle deal</h3>
-                <p><strong>Summary:</strong> If you've ever thought about breaking into IT, or moving up within it, you've probably that certifications helps. That's exactly where the All-in-One CompTIA Certification Prep Courses Bundle shines, ...</p>
+                <h3>New wave of VPN login attempts targets Palo Alto GlobalProtect portals</h3>
+                <p><strong>Summary:</strong> A campaign has been observed targeting Palo Alto GlobalProtect portals with login attempts and launching scanning activity against SonicWall SonicOS API endpoints.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/confidently-step-into-it-with-this-25-comptia-course-bundle-deal/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/confidently-step-into-it-with-this-25-comptia-course-bundle-deal/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-wave-of-vpn-login-attempts-targets-palo-alto-globalprotect-portals/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-wave-of-vpn-login-attempts-targets-palo-alto-globalprotect-portals/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: How phishing attacks evolved in 2025</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Portugal updates cybercrime law to exempt security researchers</h3>
-                <p><strong>Summary:</strong> Portugal has modified its cybercrime law to establish a legal safe harbor for good-faith security research and to make hacking non-punishable under certain strict conditions.</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/portugal-updates-cybercrime-law-to-exempt-security-researchers/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/portugal-updates-cybercrime-law-to-exempt-security-researchers/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Block ads for the whole family for life for only $16 in this AdGuard deal</h3>
+                <p><strong>Summary:</strong> Adguard is a user-friendly tool that helps you get rid of ads that other blockers miss, and it works for the whole family. Right now, an AdGuard Lifetime Family Plan is also on sale for only $15.97 (r...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/block-ads-for-the-whole-family-for-life-for-only-16-in-this-adguard-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/block-ads-for-the-whole-family-for-life-for-only-16-in-this-adguard-deal/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->

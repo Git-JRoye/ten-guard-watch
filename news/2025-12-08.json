@@ -1,0 +1,214 @@
+{
+  "date": "2025-12-08",
+  "items": [
+    {
+      "title": "Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks",
+      "link": "https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html",
+      "summary": "A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence.  The remote code execution vulnerability in question is CVE-2025-6389  (CVSS score: 9.8), which affects all versions of the plugin prior to and including 8.3. It has been patched in version 8.4, released on August 5, 2025. The plugin has more than 1,700 active installations.  \"This is due to the [sneeit_articles_pagination_callback()] function accepting user input and then passing that through call_user_func(),\" Wordfence said . \"This makes it possible for unauthenticated attackers to execute code on the server, which can be leveraged to inject backdoors or, for example, create new administrative user accounts.\"  In other words, the vulnerability can be leveraged to call an arbitrary PHP function, such as wp_insert_user(), to insert a malicious administrator user, which an attacker can then weaponize to seize control of the site an...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "sneeit-wordpress-rce-exploited-in-the-wild-while-i",
+      "source": "The Hacker News",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "MuddyWater Deploys UDPGangster Backdoor in Targeted Turkey-Israel-Azerbaijan Campaign",
+      "link": "https://thehackernews.com/2025/12/muddywater-deploys-udpgangster-backdoor.html",
+      "summary": "The Iranian hacking group known as MuddyWater  has been observed leveraging a new backdoor dubbed UDPGangster  that uses the User Datagram Protocol (UDP) for command-and-control (C2) purposes.  The cyber espionage activity targeted users in Turkey, Israel, and Azerbaijan, according to a report from Fortinet FortiGuard Labs.  \"This malware enables remote control of compromised systems by allowing attackers to execute commands, exfiltrate files, and deploy additional payloads – all communicated through UDP channels designed to evade traditional network defenses,\" security researcher Cara Lin said .  The attack chain involves using spear-phishing tactics to distribute booby-trapped Microsoft Word documents that trigger the execution of a malicious payload once macros are enabled. Some of the phishing messages impersonate the Turkish Republic of Northern Cyprus Ministry of Foreign Affairs and purport to invite recipients to an online seminar titled \"Presidential Elections a...",
+      "tags": [
+        "malware",
+        "phishing",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "muddywater-deploys-udpgangster-backdoor-in-targete",
+      "source": "The Hacker News",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks",
+      "link": "https://thehackernews.com/2025/12/researchers-uncover-30-flaws-in-ai.html",
+      "summary": "Over 30 security vulnerabilities have been disclosed in various artificial intelligence (AI)-powered Integrated Development Environments (IDEs) that combine prompt injection primitives  with legitimate features to achieve data exfiltration and remote code execution.  The security shortcomings have been collectively named IDEsaster  by security researcher Ari Marzouk (MaccariTA). They affect popular IDEs and extensions such as Cursor, Windsurf, Kiro.dev, GitHub Copilot, Zed.dev, Roo Code, Junie, and Cline, among others. Of these, 24 have been assigned CVE identifiers.  \"I think the fact that multiple universal attack chains affected each and every AI IDE tested is the most surprising finding of this research,\" Marzouk told The Hacker News.  \"All AI IDEs (and coding assistants that integrate with them) effectively ignore the base software (IDE) in their threat model. They treat their features as inherently safe because they've been there for years. However, once you add A...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "researchers-uncover-30-flaws-in-ai-coding-tools-en",
+      "source": "The Hacker News",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday formally added  a critical security flaw impacting React Server Components (RSC) to its Known Exploited Vulnerabilities ( KEV ) catalog following reports of active exploitation in the wild.  The vulnerability, CVE-2025-55182  (CVSS score: 10.0), relates to a case of remote code execution that could be triggered by an unauthenticated attacker without requiring any special setup. It's also tracked as React2Shell.  \"Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints,\" CISA said in an advisory.  The problem stems from insecure deserialization  in the library's Flight protocol, which React uses to communicate between a server and client. As a result, it leads to a scenario where an unauthenticated, remote attacker can execute arbi...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-react2shell-flaw-added-to-cisa-kev-after-",
+      "source": "The Hacker News",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Zero-Click Agentic Browser Attack Can Delete Entire Google Drive Using Crafted Emails",
+      "link": "https://thehackernews.com/2025/12/zero-click-agentic-browser-attack-can.html",
+      "summary": "A new agentic browser attack targeting Perplexity's Comet browser  that's capable of turning a seemingly innocuous email into a destructive action that wipes a user's entire Google Drive contents, findings from Straiker STAR Labs show.  The zero-click Google Drive Wiper technique hinges on connecting the browser to services like Gmail and Google Drive to automate routine tasks by granting them access to read emails, as well as browse files and folders, and perform actions like moving, renaming, or deleting content.  For instance, a prompt issued by a benign user might look like this: \"Please check my email and complete all my recent organization tasks.\" This will cause the browser agent to search the inbox for relevant messages and perform the necessary actions.   \"This behavior reflects excessive agency in LLM-powered assistants where the LLM performs actions that go far beyond the user's explicit request,\" security researcher Amanda Rousseau said  in ...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "zero-click-agentic-browser-attack-can-delete-entir",
+      "source": "The Hacker News",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch",
+      "link": "https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html",
+      "summary": "A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity ( XXE ) injection attack.  The vulnerability, tracked as CVE-2025-66516 , is rated 10.0 on the CVSS scoring scale, indicating maximum severity.  \"Critical XXE in Apache Tika tika-core (1.13-3.2.1), tika-pdf-module (2.0.0-3.2.1) and tika-parsers (1.13-1.28.5) modules on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF,\" according to an advisory  for the vulnerability.   It affects the following Maven packages -   org.apache.tika:tika-core >= 1.13, <= 3.2.1 (Patched in version 3.2.2)  org.apache.tika:tika-parser-pdf-module >= 2.0.0, <= 3.2.1 (Patched in version 3.2.2)  org.apache.tika:tika-parsers >= 1.13, < 2.0.0 (Patched in version 2.0.0)   XXE injection  refers to a web security vulnerability that allows an attacker to interfere with an application's processing of XML data. This, in tur...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-xxe-bug-cve-2025-66516-cvss-100-hits-apac",
+      "source": "The Hacker News",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor",
+      "link": "https://www.securityweek.com/in-other-news-x-fined-e120-million-array-flaw-exploited-new-iranian-backdoor/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Akamai patches HTTP smuggling vulnerability, Claude Skills used to execute ransomware, PickleScan flaws.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-x-fined-120-million-array-flaw-explo",
+      "source": "SecurityWeek",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Cloudflare Outage Caused by React2Shell Mitigations",
+      "link": "https://www.securityweek.com/cloudflare-outage-caused-by-react2shell-mitigations/",
+      "summary": "The critical React vulnerability has been exploited in the wild by Chinese and other threat actors.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cloudflare-outage-caused-by-react2shell-mitigation",
+      "source": "SecurityWeek",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Imper.ai Emerges From Stealth Mode With $28 Million in Funding",
+      "link": "https://www.securityweek.com/imper-ai-emerges-from-stealth-mode-with-28-million-in-funding/",
+      "summary": "The cybersecurity startup detects impersonation risk in real-time, across video, phone, and chat communication.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "imperai-emerges-from-stealth-mode-with-28-million-",
+      "source": "SecurityWeek",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "US Organizations Warned of Chinese Malware Used for Long-Term Persistence",
+      "link": "https://www.securityweek.com/us-organizations-warned-of-chinese-malware-used-for-long-term-persistence/",
+      "summary": "Warp Panda has been using the BrickStorm, Junction, and GuestConduit malware in attacks against US organizations.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "us-organizations-warned-of-chinese-malware-used-fo",
+      "source": "SecurityWeek",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Lumia Security Raises $18 Million for AI Security and Governance",
+      "link": "https://www.securityweek.com/lumia-security-raises-18-million-for-ai-security-and-governance/",
+      "summary": "The startup will invest in expanding its engineering and research teams, deepening product integrations, and scaling go-to-market efforts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "lumia-security-raises-18-million-for-ai-security-a",
+      "source": "SecurityWeek",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Aisuru Botnet Powers Record DDoS Attack Peaking at 29 Tbps",
+      "link": "https://www.securityweek.com/aisuru-botnet-powers-record-ddos-attack-peaking-at-29-tbps/",
+      "summary": "Cloudflare recently mitigated a new record-breaking Aisuru attack that peaked at 14.1 Bpps.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "aisuru-botnet-powers-record-ddos-attack-peaking-at",
+      "source": "SecurityWeek",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "OpenAI denies rolling out ads on ChatGPT paid plans",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-denies-rolling-out-ads-on-chatgpt-paid-plans/",
+      "summary": "ChatGPT is allegedly showing ads to those who pay $20 for the Plus subscription, but OpenAI says this is an app recommendation feature, not an ad.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-denies-rolling-out-ads-on-chatgpt-paid-plan",
+      "source": "BleepingComputer",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Confidently step into IT with this $25 CompTIA course bundle deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/confidently-step-into-it-with-this-25-comptia-course-bundle-deal/",
+      "summary": "If you've ever thought about breaking into IT, or moving up within it, you've probably that certifications helps. That's exactly where the All-in-One CompTIA Certification Prep Courses Bundle shines, packing 10 courses and 153 hours of learning content into a single, streamlined program is on sale f...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "confidently-step-into-it-with-this-25-comptia-cour",
+      "source": "BleepingComputer",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Portugal updates cybercrime law to exempt security researchers",
+      "link": "https://www.bleepingcomputer.com/news/security/portugal-updates-cybercrime-law-to-exempt-security-researchers/",
+      "summary": "Portugal has modified its cybercrime law to establish a legal safe harbor for good-faith security research and to make hacking non-punishable under certain strict conditions.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "portugal-updates-cybercrime-law-to-exempt-security",
+      "source": "BleepingComputer",
+      "date": "2025-12-08"
+    }
+  ]
+}
