@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Microsoft Issues Security Fixes for 56 Flaws, Including Active Exploit and Two Zero-Days</div><div class="ticker-item">Fortinet, Ivanti, and SAP Issue Urgent Patches for Authentication and Code Execution Flaws</div><div class="ticker-item">North Korea-linked Actors Exploit React2Shell to Deploy New EtherRAT Malware</div><div class="ticker-item">Four Threat Clusters Using CastleLoader as GrayBravo Expands Its Malware Service Infrastructure</div><div class="ticker-item">Storm-0249 Escalates Ransomware Attacks with ClickFix, Fileless PowerShell, and DLL Sideloading</div><div class="ticker-item">How to Streamline Zero Trust Using the Shared Signals Framework</div><div class="ticker-item">Intel, AMD Processors Affected by PCIe Vulnerabilities</div><div class="ticker-item">UK Sanctions Russian and Chinese Firms Suspected of Being ‘Malign Actors’ in Information Warfare</div><div class="ticker-item">Adobe Patches Nearly 140 Vulnerabilities</div><div class="ticker-item">Microsoft Patches 57 Vulnerabilities, Three Zero-Days</div><div class="ticker-item">Microsoft Names New Operating CISOs in Strategic Move to Strengthen Cyberdefense</div><div class="ticker-item">Prime Security Raises $20 Million to Build Agentic Security Architect</div><div class="ticker-item">SAP fixes three critical vulnerabilities across multiple products</div><div class="ticker-item">Windows PowerShell now warns when running Invoke-WebRequest scripts</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Microsoft releases Windows 10 KB5071546 extended security update</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Issues Security Fixes for 56 Flaws, Including Active Exploit and Two Zero-Days</h3>
+                <p><strong>Summary:</strong> Microsoft closed out 2025 with patches for 56 security flaws  in various products across the Windows platform, including one vulnerability that has been actively exploited in the wild.  Of the 56 flaw...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/microsoft-issues-security-fixes-for-56.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/microsoft-issues-security-fixes-for-56.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet, Ivanti, and SAP Issue Urgent Patches for Authentication and Code Execution Flaws</h3>
+                <p><strong>Summary:</strong> Fortinet, Ivanti, and SAP have moved to address critical security flaws in their products that, if successfully exploited, could result in an authentication bypass and code execution.  The Fortinet vu...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/fortinet-ivanti-and-sap-issue-urgent.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/fortinet-ivanti-and-sap-issue-urgent.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>North Korea-linked Actors Exploit React2Shell to Deploy New EtherRAT Malware</h3>
+                <p><strong>Summary:</strong> Threat actors with ties to North Korea have likely become the latest to exploit the recently disclosed critical React2Shell  security flaw in React Server Components (RSC) to deliver a previously undo...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/north-korea-linked-actors-exploit.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/north-korea-linked-actors-exploit.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Four Threat Clusters Using CastleLoader as GrayBravo Expands Its Malware Service Infrastructure</h3>
+                <p><strong>Summary:</strong> Four distinct threat activity clusters have been observed leveraging a malware loader known as CastleLoader , strengthening the previous assessment that the tool is offered to other threat actors unde...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/four-threat-clusters-using-castleloader.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/four-threat-clusters-using-castleloader.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Storm-0249 Escalates Ransomware Attacks with ClickFix, Fileless PowerShell, and DLL Sideloading</h3>
+                <p><strong>Summary:</strong> The threat actor known as Storm-0249  is likely shifting from its role as an initial access broker to adopt a combination of more advanced tactics like domain spoofing, DLL side-loading, and fileless ...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/storm-0249-escalates-ransomware-attacks.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/storm-0249-escalates-ransomware-attacks.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to Streamline Zero Trust Using the Shared Signals Framework</h3>
+                <p><strong>Summary:</strong> Zero Trust helps organizations shrink their attack surface and respond to threats faster, but many still struggle to implement it because their security tools don't share signals reliably. 88% of orga...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/how-to-streamline-zero-trust-using.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/how-to-streamline-zero-trust-using.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Intel, AMD Processors Affected by PCIe Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The PCIe flaws, found by Intel employees, can be exploited for information disclosure, escalation of privilege, or DoS.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/intel-amd-processors-affected-by-pcie-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/intel-amd-processors-affected-by-pcie-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UK Sanctions Russian and Chinese Firms Suspected of Being ‘Malign Actors’ in Information Warfare</h3>
+                <p><strong>Summary:</strong> Britain and its allies face escalating “hybrid threats … designed to weaken critical national infrastructure, undermine our interests and interfere in our democracies.”</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/uk-sanctions-russian-and-chinese-firms-suspected-of-being-malign-actors-in-information-warfare/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/uk-sanctions-russian-and-chinese-firms-suspected-of-being-malign-actors-in-information-warfare/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Adobe Patches Nearly 140 Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The Experience Manager security update resolves 117 vulnerabilities, including 116 identified as cross-site scripting (XSS) bugs.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/adobe-patches-nearly-140-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/adobe-patches-nearly-140-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Patches 57 Vulnerabilities, Three Zero-Days</h3>
+                <p><strong>Summary:</strong> Microsoft has addressed a Windows vulnerability exploited as zero-day that allows attackers to obtain System privileges.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-patches-57-vulnerabilities-three-zero-days/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-patches-57-vulnerabilities-three-zero-days/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Names New Operating CISOs in Strategic Move to Strengthen Cyberdefense</h3>
+                <p><strong>Summary:</strong> Promotions across Microsoft’s security organization reinforce the company’s shift toward AI-driven defense and tighter operational oversight under Global CISO Igor Tsyganskiy.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-names-new-operating-cisos-in-strategic-move-to-strengthen-cyber-defense/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-names-new-operating-cisos-in-strategic-move-to-strengthen-cyber-defense/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Prime Security Raises $20 Million to Build Agentic Security Architect</h3>
+                <p><strong>Summary:</strong> The AI-powered platform autonomously conducts security design reviews and proactively identifies design flaws across development work.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/prime-security-raises-20-million-to-build-agentic-security-architect/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/prime-security-raises-20-million-to-build-agentic-security-architect/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SAP fixes three critical vulnerabilities across multiple products</h3>
+                <p><strong>Summary:</strong> SAP has released its December security updates addressing 14 vulnerabilities across a range of products, including three critical-severity flaws.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/sap-fixes-three-critical-vulnerabilities-across-multiple-products/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/sap-fixes-three-critical-vulnerabilities-across-multiple-products/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Windows PowerShell now warns when running Invoke-WebRequest scripts</h3>
+                <p><strong>Summary:</strong> Microsoft says Windows PowerShell now warns when running scripts that use the Invoke-WebRequest cmdlet to download web content, aiming to prevent potentially risky code from executing.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-windows-powershell-now-warns-when-running-invoke-webrequest-scripts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-windows-powershell-now-warns-when-running-invoke-webrequest-scripts/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft releases Windows 10 KB5071546 extended security update</h3>
+                <p><strong>Summary:</strong> Microsoft has released the KB5071546 extended security update to resolve 57 security vulnerabilities, including three zero-day flaws.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5071546-extended-security-update/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5071546-extended-security-update/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
