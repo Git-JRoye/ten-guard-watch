@@ -36,17 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks</div><div class="ticker-item">Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild</div><div class="ticker-item">Fake OSINT and GPT Utility GitHub Repos Spread PyStoreRAT Malware Payloads</div><div class="ticker-item">New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale</div><div class="ticker-item">Securing GenAI in the Browser: Policy, Isolation, and Data Controls That Actually Work</div><div class="ticker-item">New React RSC Vulnerabilities Enable DoS and Source Code Exposure</div><div class="ticker-item">In Other News: PromptPwnd Attack, macOS Bounty Complaints, Chinese Hackers Trained in Cisco Academy</div><div class="ticker-item">Gladinet CentreStack Flaw Exploited to Hack Organizations</div><div class="ticker-item">Fieldtex Data Breach Impacts 238,000</div><div class="ticker-item">Recent GeoServer Vulnerability Exploited in Attacks</div><div class="ticker-item">MITRE Releases 2025 List of Top 25 Most Dangerous Software Vulnerabilities</div><div class="ticker-item">Microsoft Bug Bounty Program Expanded to Third-Party Code</div><div class="ticker-item">CyberVolk’s ransomware debut stumbles on cryptography weakness</div><div class="ticker-item">This Montessori-inspired app for kids is now only $40 for life</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Apple fixes two zero-day flaws exploited in 'sophisticated' attacks</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild</div><div class="ticker-item">Fake OSINT and GPT Utility GitHub Repos Spread PyStoreRAT Malware Payloads</div><div class="ticker-item">New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale</div><div class="ticker-item">Securing GenAI in the Browser: Policy, Isolation, and Data Controls That Actually Work</div><div class="ticker-item">New React RSC Vulnerabilities Enable DoS and Source Code Exposure</div><div class="ticker-item">React2Shell Exploitation Escalates into Large-Scale Global Attacks, Forcing Emergency Mitigation</div><div class="ticker-item">In Other News: PromptPwnd Attack, macOS Bounty Complaints, Chinese Hackers Trained in Cisco Academy</div><div class="ticker-item">Gladinet CentreStack Flaw Exploited to Hack Organizations</div><div class="ticker-item">Fieldtex Data Breach Impacts 238,000</div><div class="ticker-item">Recent GeoServer Vulnerability Exploited in Attacks</div><div class="ticker-item">MITRE Releases 2025 List of Top 25 Most Dangerous Software Vulnerabilities</div><div class="ticker-item">Microsoft Bug Bounty Program Expanded to Third-Party Code</div><div class="ticker-item">Apple fixes two zero-day flaws exploited in 'sophisticated' attacks</div><div class="ticker-item">Coupang data breach traced to ex-employee who retained system access</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Fake ‘One Battle After Another’ torrent hides malware in subtitles</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks</h3>
-                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a high-severity flaw impacting Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities ( KEV ) ca...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild</h3>
                 <p><strong>Summary:</strong> Apple on Friday released  security updates for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and its Safari web browser to address two security flaws that it said have been exploited in the wild, one o...</p>
@@ -81,6 +74,13 @@
                 <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>React2Shell Exploitation Escalates into Large-Scale Global Attacks, Forcing Emergency Mitigation</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged  federal agencies to patch the recent React2Shell  vulnerability by December 12, 2025, amid reports of widespread exploitatio...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/react2shell-exploitation-escalates-into.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/react2shell-exploitation-escalates-into.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: PromptPwnd Attack, macOS Bounty Complaints, Chinese Hackers Trained in Cisco Academy</h3>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/microsoft-bug-bounty-program-expanded-to-third-party-code/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>CyberVolk’s ransomware debut stumbles on cryptography weakness</h3>
-                <p><strong>Summary:</strong> The pro-Russia hacktivist group CyberVolk launched a ransomware-as-a-service (RaaS) called VolkLocker that suffered from serious implementation flaws, allowing victims to potentially decrypt files for...</p>
-                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cybervolks-ransomware-debut-stumbles-on-cryptography-weakness/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/cybervolks-ransomware-debut-stumbles-on-cryptography-weakness/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Apple fixes two zero-day flaws exploited in 'sophisticated' attacks</h3>
+                <p><strong>Summary:</strong> Apple has released emergency updates to patch two zero-day vulnerabilities that were exploited in an "extremely sophisticated attack" targeting specific individuals.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-day-flaws-exploited-in-sophisticated-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-day-flaws-exploited-in-sophisticated-attacks/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This Montessori-inspired app for kids is now only $40 for life</h3>
-                <p><strong>Summary:</strong> Finding screen time options that are both educational and stress-free can be a challenge for parents. Pok Pok offers a lifetime subscription to its Montessori-inspired learning app for just $39.97 wit...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-montessori-inspired-app-for-kids-is-now-only-40-for-life/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-montessori-inspired-app-for-kids-is-now-only-40-for-life/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Coupang data breach traced to ex-employee who retained system access</h3>
+                <p><strong>Summary:</strong> A data breach at Coupang that exposed the information of 33.7 million customers has been tied to a former employee who retained access to internal systems after leaving the company.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/coupang-data-breach-traced-to-ex-employee-who-retained-system-access/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/coupang-data-breach-traced-to-ex-employee-who-retained-system-access/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: How phishing attacks evolved in 2025</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Apple fixes two zero-day flaws exploited in 'sophisticated' attacks</h3>
-                <p><strong>Summary:</strong> Apple has released emergency updates to patch two zero-day vulnerabilities that were exploited in an "extremely sophisticated attack" targeting specific individuals.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-day-flaws-exploited-in-sophisticated-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-day-flaws-exploited-in-sophisticated-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Fake ‘One Battle After Another’ torrent hides malware in subtitles</h3>
+                <p><strong>Summary:</strong> A fake torrent for Leonardo DiCaprio's 'One Battle After Another' hides malicious PowerShell malware loaders inside subtitle files that ultimately infect devices with the Agent Tesla RAT malware.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fake-one-battle-after-another-torrent-hides-malware-in-subtitles/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fake-one-battle-after-another-torrent-hides-malware-in-subtitles/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
