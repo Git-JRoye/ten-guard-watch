@@ -1,0 +1,213 @@
+{
+  "date": "2025-12-16",
+  "items": [
+    {
+      "title": "React2Shell Vulnerability Actively Exploited to Deploy Linux Backdoors",
+      "link": "https://thehackernews.com/2025/12/react2shell-vulnerability-actively.html",
+      "summary": "The security vulnerability known as React2Shell  is being exploited by threat actors to deliver malware families like KSwapDoor and ZnDoor, according to findings from Palo Alto Networks Unit 42 and NTT Security.  \"KSwapDoor is a professionally engineered remote access tool designed with stealth in mind,\" Justin Moore, senior manager of threat intel research at Palo Alto Networks Unit 42, said in a statement.  \"It builds an internal mesh network, allowing compromised servers to talk to each other and evade security blocks. It uses military-grade encryption to hide its communications and, most alarmingly, features a 'sleeper' mode that lets attackers bypass firewalls by waking the malware up with a secret, invisible signal.\"  The cybersecurity company noted  that it was previously mistakenly classified as BPFDoor , adding that the Linux backdoor offers interactive shell, command execution, file operations and lateral movement scanning capabilities. It also im...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "react2shell-vulnerability-actively-exploited-to-de",
+      "source": "The Hacker News",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Google to Shut Down Dark Web Monitoring Tool in February 2026",
+      "link": "https://thehackernews.com/2025/12/google-to-shut-down-dark-web-monitoring.html",
+      "summary": "Google has announced that it's discontinuing its dark web report tool in February 2026, less than two years after it was launched as a way for users to monitor if their personal information is found on the dark web.  To that end, scans for new dark web breaches will be stopped on January 15, 2026, and the feature will cease to exist effective February 16, 2026.  \"While the report offered general information, feedback showed that it didn't provide helpful next steps,\" Google said  in a support document. \"We're making this change to instead focus on tools that give you more clear, actionable steps to protect your information online.\"   The tech giant said it will delete all data related to dark web report once the feature is retired in February, but noted that users have an option to delete their monitoring profile ahead of time by following the steps below -   Go to the Dark Web report  Under \"Results with your info,\" click Edit monitoring prof...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "google-to-shut-down-dark-web-monitoring-tool-in-fe",
+      "source": "The Hacker News",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Featured Chrome Browser Extension Caught Intercepting Millions of Users' AI Chats",
+      "link": "https://thehackernews.com/2025/12/featured-chrome-browser-extension.html",
+      "summary": "A Google Chrome extension with a \"Featured\" badge and six million users has been observed  silently gathering every prompt entered by users into artificial intelligence (AI)-powered chatbots like OpenAI ChatGPT, Anthropic Claude, Microsoft Copilot, DeepSeek, Google Gemini, xAI Grok, Meta AI, and Perplexity.  The extension in question is Urban VPN Proxy , which has a 4.7 rating on the Google Chrome Web Store. It's advertised as the \"best secured Free VPN access to any website, and unblock content.\" Its developer is a Delaware-based company named Urban Cyber Security Inc . On the Microsoft Edge Add-ons marketplace, it has 1.3 million installations .   Despite claiming that it allows users to \"protect your online identity, stay protected, and hide your IP,\" an update was pushed to users on July 9, 2025, when version 5.5.0 was released with the AI data harvesting enabled by default using hard-coded settings.  Specifically, this is achieved by means of a t...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "featured-chrome-browser-extension-caught-intercept",
+      "source": "The Hacker News",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "FreePBX Patches Critical SQLi, File-Upload, and AUTHTYPE Bypass Flaws Enabling RCE",
+      "link": "https://thehackernews.com/2025/12/freepbx-authentication-bypass-exposed.html",
+      "summary": "Multiple security vulnerabilities have been disclosed  in the open-source private branch exchange (PBX) platform FreePBX, including a critical flaw that could result in an authentication bypass under certain configurations.  The shortcomings, discovered by Horizon3.ai and reported to the project maintainers on September 15, 2025, are listed below -   CVE-2025-61675  (CVSS score: 8.6) - Numerous authenticated SQL injection vulnerabilities impacting four unique endpoints (basestation, model, firmware, and custom extension) and 11 affected parameters that enable read and write access to the underlying SQL database  CVE-2025-61678  (CVSS score: 8.6) - An authenticated arbitrary file upload vulnerability that allows an attacker to exploit the firmware upload endpoint to upload a PHP web shell after obtaining a valid PHPSESSID and run arbitrary commands to leak the contents of sensitive files (e.g., \"/etc/passwd\")  CVE-2025-66039  (CVSS score: 9.3) - An authentication bypass vulne...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "freepbx-patches-critical-sqli-file-upload-and-auth",
+      "source": "The Hacker News",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "⚡ Weekly Recap: Apple 0-Days, WinRAR Exploit, LastPass Fines, .NET RCE, OAuth Scams & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-apple-0-days-winrar.html",
+      "summary": "If you use a smartphone, browse the web, or unzip files on your computer, you are in the crosshairs this week. Hackers are currently exploiting critical flaws in the daily software we all rely on—and in some cases, they started attacking before a fix was even ready.  Below, we list the urgent updates you need to install right now to stop these active threats.  ⚡ Threat of the Week  Apple and Google Release Fixes for Actively Exploited Flaws  — Apple released security updates for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and Safari web browser to address two zero-days that the company said have been exploited in highly targeted attacks. CVE-2025-14174 has been described as a memory corruption issue, while the second, CVE-2025-43529, is a use-after-free bug. They can both be exploited using maliciously crafted web content to execute arbitrary code. CVE-2025-14174 was also addressed  by Google in its Chrome browser since it resides in its open-source Almost Native Graphics Layer Engi...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "-weekly-recap-apple-0-days-winrar-exploit-lastpass",
+      "source": "The Hacker News",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "A Browser Extension Risk Guide After the ShadyPanda Campaign",
+      "link": "https://thehackernews.com/2025/12/a-browser-extension-risk-guide-after.html",
+      "summary": "In early December 2025, security researchers exposed a cybercrime campaign  that had quietly hijacked popular Chrome and Edge browser extensions on a massive scale.  A threat group dubbed ShadyPanda spent seven years playing the long game, publishing or acquiring harmless extensions, letting them run clean for years to build trust and gain millions of installs, then suddenly flipping them into malware via silent updates. In total, about 4.3 million users installed these once-legitimate add-ons, which suddenly went rogue with spyware and backdoor capabilities.  This tactic was essentially a browser extension supply-chain attack.  The ShadyPanda operators even earned featured and verified badges in the official Chrome Web Store and Microsoft Edge Add-ons site for some extensions, reinforcing user confidence. Because extension updates happen automatically in the background, the attackers were able to push out malicious code without users noticing a thing.  Once activated in mid-2024, the...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "a-browser-extension-risk-guide-after-the-shadypand",
+      "source": "The Hacker News",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Militant Groups Are Experimenting With AI, and the Risks Are Expected to Grow",
+      "link": "https://www.securityweek.com/militant-groups-are-experimenting-with-ai-and-the-risks-are-expected-to-grow/",
+      "summary": "AI can be used by extremist groups to pump out propaganda or deepfakes at scale, widening their reach and expanding their influence.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "militant-groups-are-experimenting-with-ai-and-the-",
+      "source": "SecurityWeek",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Google Sees 5 Chinese Groups Exploiting React2Shell for Malware Delivery",
+      "link": "https://www.securityweek.com/google-sees-5-chinese-groups-exploiting-react2shell-for-malware-delivery/",
+      "summary": "Google has also mentioned seeing React2Shell attacks conducted by Iranian threat actors.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-sees-5-chinese-groups-exploiting-react2shel",
+      "source": "SecurityWeek",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Soverli Raises $2.6 Million for Secure Smartphone OS",
+      "link": "https://www.securityweek.com/soverli-raises-2-6-million-for-secure-smartphone-os/",
+      "summary": "The sovereign smartphone OS runs along Android or iOS, allowing users to switch between secure, isolated environments.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "soverli-raises-26-million-for-secure-smartphone-os",
+      "source": "SecurityWeek",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Atlassian Patches Critical Apache Tika Flaw",
+      "link": "https://www.securityweek.com/atlassian-patches-critical-apache-tika-flaw/",
+      "summary": "Atlassian has released software updates for Bamboo, Bitbucket, Confluence, Crowd, Fisheye/Crucible, and Jira.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "atlassian-patches-critical-apache-tika-flaw",
+      "source": "SecurityWeek",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Third DraftKings Hacker Pleads Guilty",
+      "link": "https://www.securityweek.com/third-draftkings-hacker-pleads-guilty/",
+      "summary": "Nathan Austad admitted in court to launching a credential stuffing attack against a fantasy sports and betting website.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "third-draftkings-hacker-pleads-guilty",
+      "source": "SecurityWeek",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "700Credit Data Breach Impacts 5.8 Million Individuals",
+      "link": "https://www.securityweek.com/700credit-data-breach-impacts-5-8-million-individuals/",
+      "summary": "Hackers stole names, addresses, dates of birth, and Social Security numbers from the credit report and identity verification services provider.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "700credit-data-breach-impacts-58-million-individua",
+      "source": "SecurityWeek",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "SoundCloud confirms breach after member data stolen, VPN access disrupted",
+      "link": "https://www.bleepingcomputer.com/news/security/soundcloud-confirms-breach-after-member-data-stolen-vpn-access-disrupted/",
+      "summary": "Audio streaming platform SoundCloud has confirmed that outages and VPN connection issues over the past few days were caused by a security breach in which threat actors stole a database exposing users' email addresses and profile information.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "soundcloud-confirms-breach-after-member-data-stole",
+      "source": "BleepingComputer",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Google is shutting down its dark web report feature in January",
+      "link": "https://www.bleepingcomputer.com/news/google/google-is-shutting-down-its-dark-web-report-feature-in-january/",
+      "summary": "Google is discontinuing its \"dark web report\" security tool, stating that it wants to focus on other tools it believes are more helpful.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-is-shutting-down-its-dark-web-report-featur",
+      "source": "BleepingComputer",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-16"
+    },
+    {
+      "title": "Askul confirms theft of 740k customer records in ransomware attack",
+      "link": "https://www.bleepingcomputer.com/news/security/askul-confirms-theft-of-740k-customer-records-in-ransomhouse-attack/",
+      "summary": "Japanese e-commerce giant Askul Corporation has confirmed that RansomHouse hackers stole around 740,000 customer records in the ransomware attack it suffered in October.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "askul-confirms-theft-of-740k-customer-records-in-r",
+      "source": "BleepingComputer",
+      "date": "2025-12-16"
+    }
+  ]
+}
