@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">React2Shell Vulnerability Actively Exploited to Deploy Linux Backdoors</div><div class="ticker-item">Google to Shut Down Dark Web Monitoring Tool in February 2026</div><div class="ticker-item">Featured Chrome Browser Extension Caught Intercepting Millions of Users' AI Chats</div><div class="ticker-item">FreePBX Patches Critical SQLi, File-Upload, and AUTHTYPE Bypass Flaws Enabling RCE</div><div class="ticker-item">⚡ Weekly Recap: Apple 0-Days, WinRAR Exploit, LastPass Fines, .NET RCE, OAuth Scams & More</div><div class="ticker-item">A Browser Extension Risk Guide After the ShadyPanda Campaign</div><div class="ticker-item">Militant Groups Are Experimenting With AI, and the Risks Are Expected to Grow</div><div class="ticker-item">Google Sees 5 Chinese Groups Exploiting React2Shell for Malware Delivery</div><div class="ticker-item">Soverli Raises $2.6 Million for Secure Smartphone OS</div><div class="ticker-item">Atlassian Patches Critical Apache Tika Flaw</div><div class="ticker-item">Third DraftKings Hacker Pleads Guilty</div><div class="ticker-item">700Credit Data Breach Impacts 5.8 Million Individuals</div><div class="ticker-item">SoundCloud confirms breach after member data stolen, VPN access disrupted</div><div class="ticker-item">Google is shutting down its dark web report feature in January</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Askul confirms theft of 740k customer records in ransomware attack</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>React2Shell Vulnerability Actively Exploited to Deploy Linux Backdoors</h3>
+                <p><strong>Summary:</strong> The security vulnerability known as React2Shell  is being exploited by threat actors to deliver malware families like KSwapDoor and ZnDoor, according to findings from Palo Alto Networks Unit 42 and NT...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/react2shell-vulnerability-actively.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/react2shell-vulnerability-actively.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google to Shut Down Dark Web Monitoring Tool in February 2026</h3>
+                <p><strong>Summary:</strong> Google has announced that it's discontinuing its dark web report tool in February 2026, less than two years after it was launched as a way for users to monitor if their personal information is found o...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/google-to-shut-down-dark-web-monitoring.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/google-to-shut-down-dark-web-monitoring.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Featured Chrome Browser Extension Caught Intercepting Millions of Users' AI Chats</h3>
+                <p><strong>Summary:</strong> A Google Chrome extension with a "Featured" badge and six million users has been observed  silently gathering every prompt entered by users into artificial intelligence (AI)-powered chatbots like Open...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/featured-chrome-browser-extension.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/featured-chrome-browser-extension.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FreePBX Patches Critical SQLi, File-Upload, and AUTHTYPE Bypass Flaws Enabling RCE</h3>
+                <p><strong>Summary:</strong> Multiple security vulnerabilities have been disclosed  in the open-source private branch exchange (PBX) platform FreePBX, including a critical flaw that could result in an authentication bypass under ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/freepbx-authentication-bypass-exposed.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/freepbx-authentication-bypass-exposed.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Apple 0-Days, WinRAR Exploit, LastPass Fines, .NET RCE, OAuth Scams & More</h3>
+                <p><strong>Summary:</strong> If you use a smartphone, browse the web, or unzip files on your computer, you are in the crosshairs this week. Hackers are currently exploiting critical flaws in the daily software we all rely on—and ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/weekly-recap-apple-0-days-winrar.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/weekly-recap-apple-0-days-winrar.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>A Browser Extension Risk Guide After the ShadyPanda Campaign</h3>
+                <p><strong>Summary:</strong> In early December 2025, security researchers exposed a cybercrime campaign  that had quietly hijacked popular Chrome and Edge browser extensions on a massive scale.  A threat group dubbed ShadyPanda s...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/a-browser-extension-risk-guide-after.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/a-browser-extension-risk-guide-after.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Militant Groups Are Experimenting With AI, and the Risks Are Expected to Grow</h3>
+                <p><strong>Summary:</strong> AI can be used by extremist groups to pump out propaganda or deepfakes at scale, widening their reach and expanding their influence.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/militant-groups-are-experimenting-with-ai-and-the-risks-are-expected-to-grow/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/militant-groups-are-experimenting-with-ai-and-the-risks-are-expected-to-grow/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Sees 5 Chinese Groups Exploiting React2Shell for Malware Delivery</h3>
+                <p><strong>Summary:</strong> Google has also mentioned seeing React2Shell attacks conducted by Iranian threat actors.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-sees-5-chinese-groups-exploiting-react2shell-for-malware-delivery/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-sees-5-chinese-groups-exploiting-react2shell-for-malware-delivery/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Soverli Raises $2.6 Million for Secure Smartphone OS</h3>
+                <p><strong>Summary:</strong> The sovereign smartphone OS runs along Android or iOS, allowing users to switch between secure, isolated environments.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/soverli-raises-2-6-million-for-secure-smartphone-os/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/soverli-raises-2-6-million-for-secure-smartphone-os/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Atlassian Patches Critical Apache Tika Flaw</h3>
+                <p><strong>Summary:</strong> Atlassian has released software updates for Bamboo, Bitbucket, Confluence, Crowd, Fisheye/Crucible, and Jira.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/atlassian-patches-critical-apache-tika-flaw/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/atlassian-patches-critical-apache-tika-flaw/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Third DraftKings Hacker Pleads Guilty</h3>
+                <p><strong>Summary:</strong> Nathan Austad admitted in court to launching a credential stuffing attack against a fantasy sports and betting website.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/third-draftkings-hacker-pleads-guilty/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/third-draftkings-hacker-pleads-guilty/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>700Credit Data Breach Impacts 5.8 Million Individuals</h3>
+                <p><strong>Summary:</strong> Hackers stole names, addresses, dates of birth, and Social Security numbers from the credit report and identity verification services provider.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/700credit-data-breach-impacts-5-8-million-individuals/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/700credit-data-breach-impacts-5-8-million-individuals/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SoundCloud confirms breach after member data stolen, VPN access disrupted</h3>
+                <p><strong>Summary:</strong> Audio streaming platform SoundCloud has confirmed that outages and VPN connection issues over the past few days were caused by a security breach in which threat actors stole a database exposing users'...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/soundcloud-confirms-breach-after-member-data-stolen-vpn-access-disrupted/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/soundcloud-confirms-breach-after-member-data-stolen-vpn-access-disrupted/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google is shutting down its dark web report feature in January</h3>
+                <p><strong>Summary:</strong> Google is discontinuing its "dark web report" security tool, stating that it wants to focus on other tools it believes are more helpful.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/google/google-is-shutting-down-its-dark-web-report-feature-in-january/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/google/google-is-shutting-down-its-dark-web-report-feature-in-january/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Askul confirms theft of 740k customer records in ransomware attack</h3>
+                <p><strong>Summary:</strong> Japanese e-commerce giant Askul Corporation has confirmed that RansomHouse hackers stole around 740,000 customer records in the ransomware attack it suffered in October.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/askul-confirms-theft-of-740k-customer-records-in-ransomhouse-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/askul-confirms-theft-of-740k-customer-records-in-ransomhouse-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
