@@ -1,0 +1,214 @@
+{
+  "date": "2025-12-20",
+  "items": [
+    {
+      "title": "Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers",
+      "link": "https://thehackernews.com/2025/12/russia-linked-hackers-use-microsoft-365.html",
+      "summary": "A suspected Russia-aligned group has been attributed to a phishing campaign that employs device code authentication workflows to steal victims' Microsoft 365 credentials and conduct account takeover attacks.  The activity, ongoing since September 2025, is being tracked by Proofpoint under the moniker UNK_AcademicFlare .  The attacks involve using compromised email addresses belonging to government and military organizations to strike entities within government, think tanks, higher education, and transportation sectors in the U.S. and Europe.  \"Typically, these compromised email addresses are used to conduct benign outreach and rapport building related to the targets' area of expertise to ultimately arrange a fictitious meeting or interview,\" the enterprise security company said .   As part of these efforts, the adversary claims to share a link to a document that includes questions or topics for the email recipient to review before the meeting. The URL points to a Clo...",
+      "tags": [
+        "phishing",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russia-linked-hackers-use-microsoft-365-device-cod",
+      "source": "The Hacker News",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware",
+      "link": "https://thehackernews.com/2025/12/cracked-software-and-youtube-videos.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign that has used cracked software distribution sites as a distribution vector for a new version of a modular and stealthy loader known as CountLoader.  The campaign \"uses CountLoader as the initial tool in a multistage attack for access, evasion, and delivery of additional malware families,\" Cyderes Howler Cell Threat Intelligence team said  in an analysis.  CountLoader was previously  documented  by both Fortinet and Silent Push, detailing the loader's ability to push payloads like Cobalt Strike, AdaptixC2, PureHVNC RAT, Amatera Stealer, and PureMiner. The loader has been detected in the wild since at least June 2025.  The latest attack chain begins when unsuspecting users attempt to download cracked versions of legitimate software like Microsoft Word, which causes them to be redirected to a MediaFire link hosting a malicious ZIP archive, which contains an encrypted ZIP file and a Microsoft Word document wi...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cracked-software-and-youtube-videos-spread-countlo",
+      "source": "The Hacker News",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability",
+      "link": "https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html",
+      "summary": "WatchGuard has released fixes to address a critical security flaw in Fireware OS that it said has been exploited in real-world attacks.  Tracked as CVE-2025-14733  (CVSS score: 9.3), the vulnerability has been described as a case of out-of-bounds write affecting the iked process that could allow a remote unauthenticated attacker to execute arbitrary code.  \"This vulnerability affects both the mobile user VPN with IKEv2 and the branch office VPN using IKEv2 when configured with a dynamic gateway peer,\" the company said  in a Thursday advisory.  \"If the Firebox was previously configured with the mobile user VPN with IKEv2 or a branch office VPN using IKEv2 to a dynamic gateway peer, and both of those configurations have since been deleted, that Firebox may still be vulnerable if a branch office VPN to a static gateway peer is still configured.\"   The vulnerability impacts the following versions of Fireware OS -   2025.1 - Fixed in 2025.1.4  12.x - Fixed in 12.11.6  1...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "watchguard-warns-of-active-exploitation-of-critica",
+      "source": "The Hacker News",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks",
+      "link": "https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html",
+      "summary": "Authorities in Nigeria have announced the arrest of three \"high-profile internet fraud suspects\" who are alleged to have been involved in phishing attacks targeting major corporations, including the main developer behind the RaccoonO365 phishing-as-a-service (PhaaS) scheme.  The Nigeria Police Force National Cybercrime Centre (NPF–NCCC) said investigations conducted in collaboration with Microsoft and the Federal Bureau of Investigation (FBI) led to the identification of Okitipi Samuel, also known as Moses Felix, as the principal suspect and developer of the phishing infrastructure.  \"Investigations reveal that he operated a Telegram channel through which phishing links were sold in exchange for cryptocurrency and hosted fraudulent login portals on Cloudflare using stolen or fraudulently obtained email credentials,\" the NPF said  in a post shared on social media.  In addition, laptops, mobile devices, and other digital equipment linked to the operation have been se...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "nigeria-arrests-raccoono365-phishing-developer-lin",
+      "source": "The Hacker News",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards",
+      "link": "https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html",
+      "summary": "Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access ( DMA ) attacks across architectures that implement a Unified Extensible Firmware Interface ( UEFI ) and input–output memory management unit ( IOMMU ).  UEFI and IOMMU are designed to enforce a security foundation and prevent peripherals from performing unauthorized memory accesses, effectively ensuring that DMA-capable devices can manipulate or inspect system memory before the operating system is loaded.   The vulnerability, discovered by Nick Peterson and Mohamed Al-Sharifi of Riot Games in certain UEFI implementations, has to do with a discrepancy in the DMA protection status. While the firmware indicates that DMA protection is active, it fails to configure and enable the IOMMU during the critical boot phase.   \"This gap allows a malicious DMA-capable Peripheral Component Interconnect E...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "new-uefi-flaw-enables-early-boot-dma-attacks-on-as",
+      "source": "The Hacker News",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "China-Aligned Threat Group Uses Windows Group Policy to Deploy Espionage Malware",
+      "link": "https://thehackernews.com/2025/12/china-aligned-threat-group-uses-windows.html",
+      "summary": "A previously undocumented China-aligned threat cluster dubbed LongNosedGoblin has been attributed to a series of cyber attacks targeting governmental entities in Southeast Asia and Japan.  The end goal of these attacks is cyber espionage, Slovak cybersecurity company ESET said in a report published today. The threat activity cluster has been assessed to be active since at least September 2023.  \"LongNosedGoblin uses Group Policy to deploy malware across the compromised network, and cloud services (e.g., Microsoft OneDrive and Google Drive) as command and control (C&C) servers,\" security researchers Anton Cherepanov and Peter Strýček said .  Group Policy  is a mechanism for managing settings and permissions on Windows machines. According to Microsoft, Group Policy can be used to define configurations for groups of users and client computers, as well as manage server computers.   The attacks are characterized by the use of a varied custom toolset that mainly consists of C#...",
+      "tags": [
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-aligned-threat-group-uses-windows-group-poli",
+      "source": "The Hacker News",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Thailand Conference Launches International Initiative to Fight Online Scams",
+      "link": "https://www.securityweek.com/thailand-conference-launches-international-initiative-to-fight-online-scams/",
+      "summary": "Similar pledges to fight scam networks were made by members of the Association of Southeast Asian Nations in the months leading up to the Bangkok conference.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "thailand-conference-launches-international-initiat",
+      "source": "SecurityWeek",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "In Other News: Docker AI Attack, Google Sues Chinese Cybercriminals, Coupang Hacked by Employee",
+      "link": "https://www.securityweek.com/in-other-news-docker-ai-attack-google-sues-chinese-cybercriminals-coupang-hacked-by-employee/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Trump could use private firms for cyber offensive, China threat to US power grid, RaccoonO365 suspect arrested in Nigeria.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-docker-ai-attack-google-sues-chinese",
+      "source": "SecurityWeek",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Palo Alto Networks, Google Cloud Strike Multibillion-Dollar AI and Cloud Security Deal",
+      "link": "https://www.securityweek.com/palo-alto-networks-google-cloud-strike-multibillion-dollar-ai-and-cloud-security-deal/",
+      "summary": "The agreement strengthens technical and commercial ties as Palo Alto migrates workloads and adopts Google’s Vertex AI and Gemini models.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "palo-alto-networks-google-cloud-strike-multibillio",
+      "source": "SecurityWeek",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "AI Security Firm Ciphero Emerges From Stealth With $2.5 Million in Funding",
+      "link": "https://www.securityweek.com/ai-security-firm-ciphero-emerges-from-stealth-with-2-5-million-in-funding/",
+      "summary": "The startup’s solution captures, verifies, and governs all AI interactions within an enterprise’s environment.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "ai-security-firm-ciphero-emerges-from-stealth-with",
+      "source": "SecurityWeek",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Denmark Blames Russia for Cyberattacks Ahead of Elections and on Water Utility",
+      "link": "https://www.securityweek.com/denmark-blames-russia-for-cyberattacks-ahead-of-elections-and-on-water-utility/",
+      "summary": "Danish intelligence service said the attacks were part of Russia’s “hybrid war” against the West and an attempt to create instability.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "denmark-blames-russia-for-cyberattacks-ahead-of-el",
+      "source": "SecurityWeek",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Chinese APT ‘LongNosedGoblin’ Targeting Asian Governments",
+      "link": "https://www.securityweek.com/chinese-apt-longnosedgoblin-targeting-asian-governments/",
+      "summary": "The hacking group has been using Group Policy to deploy cyberespionage tools on governmental networks.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-apt-longnosedgoblin-targeting-asian-govern",
+      "source": "SecurityWeek",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Microsoft confirms Teams is down and messages are delayed",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/",
+      "summary": "Microsoft Teams is experiencing issues, with thousands reporting problems sending messages, including delays.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-confirms-teams-is-down-and-messages-are-",
+      "source": "BleepingComputer",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Nigeria arrests dev of Microsoft 365 'Raccoon0365' phishing platform",
+      "link": "https://www.bleepingcomputer.com/news/security/nigeria-arrests-dev-of-microsoft-365-raccoon0365-phishing-platform/",
+      "summary": "The Nigerian police have arrested three individuals linked to targeted Microsoft 365 cyberattacks via Raccoon0365 phishing-as-a-service.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "nigeria-arrests-dev-of-microsoft-365-raccoon0365-p",
+      "source": "BleepingComputer",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2025-12-20"
+    },
+    {
+      "title": "Microsoft 365 accounts targeted in wave of OAuth phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-365-accounts-targeted-in-wave-of-oauth-phishing-attacks/",
+      "summary": "Multiple threat actors are compromising Microsoft 365 accounts in phishing attacks that leverage the OAuth device code authorization mechanism.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-365-accounts-targeted-in-wave-of-oauth-p",
+      "source": "BleepingComputer",
+      "date": "2025-12-20"
+    }
+  ]
+}

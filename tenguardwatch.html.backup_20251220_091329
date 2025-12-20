@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards</div><div class="ticker-item">China-Aligned Threat Group Uses Windows Group Policy to Deploy Espionage Malware</div><div class="ticker-item">HPE OneView Flaw Rated CVSS 10.0 Allows Unauthenticated Remote Code Execution</div><div class="ticker-item">ThreatsDay Bulletin: WhatsApp Hijacks, MCP Leaks, AI Recon, React2Shell Exploit and 15 More Stories</div><div class="ticker-item">North Korea-Linked Hackers Steal $2.02 Billion in 2025, Leading Global Crypto Theft</div><div class="ticker-item">The Case for Dynamic AI-SaaS Security as Copilots Scale</div><div class="ticker-item">UEFI Vulnerability in Major Motherboards Enables Early-Boot Attacks</div><div class="ticker-item">HPE Patches Critical Flaw in IT Infrastructure Management Software</div><div class="ticker-item">CISA Warns of Exploited Flaw in Asus Update Tool</div><div class="ticker-item">113,000 Impacted by Data Breach at Virginia Mental Health Authority</div><div class="ticker-item">IoT Security Firm Exein Raises €100 Million</div><div class="ticker-item">France Probes ‘Foreign Interference’ After Remote Control Malware Found on Passenger Ferry</div><div class="ticker-item">Windows 10 OOB update released to fix Message Queuing (MSMQ) issues</div><div class="ticker-item">University of Sydney suffers data breach exposing student and staff info</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Clop ransomware targets Gladinet CentreStack in data theft attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards</h3>
+                <p><strong>Summary:</strong> Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access ( DMA ...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Aligned Threat Group Uses Windows Group Policy to Deploy Espionage Malware</h3>
+                <p><strong>Summary:</strong> A previously undocumented China-aligned threat cluster dubbed LongNosedGoblin has been attributed to a series of cyber attacks targeting governmental entities in Southeast Asia and Japan.  The end goa...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/china-aligned-threat-group-uses-windows.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/china-aligned-threat-group-uses-windows.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>HPE OneView Flaw Rated CVSS 10.0 Allows Unauthenticated Remote Code Execution</h3>
+                <p><strong>Summary:</strong> Hewlett Packard Enterprise (HPE) has resolved a maximum-severity security flaw in OneView Software that, if successfully exploited, could result in remote code execution.  The critical vulnerability, ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/hpe-oneview-flaw-rated-cvss-100-allows.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/hpe-oneview-flaw-rated-cvss-100-allows.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: WhatsApp Hijacks, MCP Leaks, AI Recon, React2Shell Exploit and 15 More Stories</h3>
+                <p><strong>Summary:</strong> This week's ThreatsDay Bulletin tracks how attackers keep reshaping old tools and finding new angles in familiar systems. Small changes in tactics are stacking up fast, and each one hints at where the...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/threatsday-bulletin-whatsapp-hijacks.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/threatsday-bulletin-whatsapp-hijacks.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>North Korea-Linked Hackers Steal $2.02 Billion in 2025, Leading Global Crypto Theft</h3>
+                <p><strong>Summary:</strong> Threat actors with ties to the Democratic People's Republic of Korea (DPRK or North Korea) have been instrumental in driving a surge in global cryptocurrency theft in 2025, accounting for at least $2....</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/north-korea-linked-hackers-steal-202.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/north-korea-linked-hackers-steal-202.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Case for Dynamic AI-SaaS Security as Copilots Scale</h3>
+                <p><strong>Summary:</strong> Within the past year, artificial intelligence copilots and agents have quietly permeated the SaaS applications businesses use every day. Tools like Zoom, Slack, Microsoft 365, Salesforce, and ServiceN...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/the-case-for-dynamic-ai-saas-security.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/the-case-for-dynamic-ai-saas-security.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UEFI Vulnerability in Major Motherboards Enables Early-Boot Attacks</h3>
+                <p><strong>Summary:</strong> ASRock, Asus, Gigabyte, and MSI motherboards are vulnerable to early-boot DMA attacks.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/uefi-vulnerability-in-major-motherboards-enables-early-boot-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/uefi-vulnerability-in-major-motherboards-enables-early-boot-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>HPE Patches Critical Flaw in IT Infrastructure Management Software</h3>
+                <p><strong>Summary:</strong> Tracked as CVE-2025-37164, the critical flaw could allow unauthenticated, remote attackers to execute arbitrary code.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hpe-patches-critical-flaw-in-it-infrastructure-management-software/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hpe-patches-critical-flaw-in-it-infrastructure-management-software/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Warns of Exploited Flaw in Asus Update Tool</h3>
+                <p><strong>Summary:</strong> Tracked as CVE-2025-59374, the issue is a software backdoor implanted in Asus Live Update in a supply chain attack.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-warns-of-exploited-flaw-in-asus-update-tool/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-warns-of-exploited-flaw-in-asus-update-tool/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>113,000 Impacted by Data Breach at Virginia Mental Health Authority</h3>
+                <p><strong>Summary:</strong> Threat actors stole names, Social Security numbers, and financial and health information, and deployed ransomware on RBHA’s systems.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/113000-impacted-by-data-breach-at-virginia-mental-health-authority/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/113000-impacted-by-data-breach-at-virginia-mental-health-authority/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>IoT Security Firm Exein Raises €100 Million</h3>
+                <p><strong>Summary:</strong> The Italian company has raised nearly $200 million in 2025 for its widely used embedded cybersecurity platform.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/iot-security-firm-exein-raises-e100-million/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/iot-security-firm-exein-raises-e100-million/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>France Probes ‘Foreign Interference’ After Remote Control Malware Found on Passenger Ferry</h3>
+                <p><strong>Summary:</strong> France’s counterespionage agency is investigating a suspected cyberattack plot targeting an international passenger ferry</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/france-probes-foreign-interference-after-remote-control-malware-found-on-passenger-ferry/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/france-probes-foreign-interference-after-remote-control-malware-found-on-passenger-ferry/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Windows 10 OOB update released to fix Message Queuing (MSMQ) issues</h3>
+                <p><strong>Summary:</strong> This month's extended security update for Windows 11 broke Message Queuing (MSMQ), which is typically used by enterprises to manage background tasks.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/windows-10-oob-update-released-to-fix-message-queuing-msmq-issues/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/windows-10-oob-update-released-to-fix-message-queuing-msmq-issues/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>University of Sydney suffers data breach exposing student and staff info</h3>
+                <p><strong>Summary:</strong> Hackers gained access to an online coding repository belonging to the University of Sydney and stole files with personal information of staff and students.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/university-of-sydney-suffers-data-breach-exposing-student-and-staff-info/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/university-of-sydney-suffers-data-breach-exposing-student-and-staff-info/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Clop ransomware targets Gladinet CentreStack in data theft attacks</h3>
+                <p><strong>Summary:</strong> The Clop ransomware gang is targeting Internet-exposed Gladinet CentreStack file servers in a new data theft extortion campaign.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-gladinet-centrestack-servers-for-extortion/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-gladinet-centrestack-servers-for-extortion/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
