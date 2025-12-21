@@ -36,24 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Iranian Infy APT Resurfaces with New Malware Activity After Years of Silence</div><div class="ticker-item">U.S. DOJ Charges 54 in ATM Jackpotting Scheme Using Ploutus Malware</div><div class="ticker-item">Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers</div><div class="ticker-item">Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware</div><div class="ticker-item">WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability</div><div class="ticker-item">Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks</div><div class="ticker-item">Thailand Conference Launches International Initiative to Fight Online Scams</div><div class="ticker-item">In Other News: Docker AI Attack, Google Sues Chinese Cybercriminals, Coupang Hacked by Employee</div><div class="ticker-item">Palo Alto Networks, Google Cloud Strike Multibillion-Dollar AI and Cloud Security Deal</div><div class="ticker-item">AI Security Firm Ciphero Emerges From Stealth With $2.5 Million in Funding</div><div class="ticker-item">Denmark Blames Russia for Cyberattacks Ahead of Elections and on Water Utility</div><div class="ticker-item">Chinese APT ‘LongNosedGoblin’ Targeting Asian Governments</div><div class="ticker-item">RansomHouse upgrades encryption with multi-layered data processing</div><div class="ticker-item">This $117 Azure prep bundle is now only $40 in this deal</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Microsoft confirms Teams is down and messages are delayed</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers</div><div class="ticker-item">Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware</div><div class="ticker-item">WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability</div><div class="ticker-item">Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks</div><div class="ticker-item">New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards</div><div class="ticker-item">China-Aligned Threat Group Uses Windows Group Policy to Deploy Espionage Malware</div><div class="ticker-item">Thailand Conference Launches International Initiative to Fight Online Scams</div><div class="ticker-item">In Other News: Docker AI Attack, Google Sues Chinese Cybercriminals, Coupang Hacked by Employee</div><div class="ticker-item">Palo Alto Networks, Google Cloud Strike Multibillion-Dollar AI and Cloud Security Deal</div><div class="ticker-item">AI Security Firm Ciphero Emerges From Stealth With $2.5 Million in Funding</div><div class="ticker-item">Denmark Blames Russia for Cyberattacks Ahead of Elections and on Water Utility</div><div class="ticker-item">Chinese APT ‘LongNosedGoblin’ Targeting Asian Governments</div><div class="ticker-item">Microsoft confirms Teams is down and messages are delayed</div><div class="ticker-item">Nigeria arrests dev of Microsoft 365 'Raccoon0365' phishing platform</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Microsoft 365 accounts targeted in wave of OAuth phishing attacks</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Iranian Infy APT Resurfaces with New Malware Activity After Years of Silence</h3>
-                <p><strong>Summary:</strong> Threat hunters have discerned new activity associated with an Iranian threat actor known as Infy  (aka Prince of Persia), nearly five years after the hacking group was observed  targeting victims in S...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/iranian-infy-apt-resurfaces-with-new.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/iranian-infy-apt-resurfaces-with-new.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>U.S. DOJ Charges 54 in ATM Jackpotting Scheme Using Ploutus Malware</h3>
-                <p><strong>Summary:</strong> The U.S. Department of Justice (DoJ) this week announced  the indictment of 54 individuals in connection with a multi-million dollar ATM jackpotting scheme.  The large-scale conspiracy involved deploy...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/us-doj-charges-54-in-atm-jackpotting.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/us-doj-charges-54-in-atm-jackpotting.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers</h3>
                 <p><strong>Summary:</strong> A suspected Russia-aligned group has been attributed to a phishing campaign that employs device code authentication workflows to steal victims' Microsoft 365 credentials and conduct account takeover a...</p>
@@ -81,6 +67,20 @@
                 <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards</h3>
+                <p><strong>Summary:</strong> Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access ( DMA ...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Aligned Threat Group Uses Windows Group Policy to Deploy Espionage Malware</h3>
+                <p><strong>Summary:</strong> A previously undocumented China-aligned threat cluster dubbed LongNosedGoblin has been attributed to a series of cyber attacks targeting governmental entities in Southeast Asia and Japan.  The end goa...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/china-aligned-threat-group-uses-windows.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/china-aligned-threat-group-uses-windows.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Thailand Conference Launches International Initiative to Fight Online Scams</h3>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/chinese-apt-longnosedgoblin-targeting-asian-governments/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>RansomHouse upgrades encryption with multi-layered data processing</h3>
-                <p><strong>Summary:</strong> The RansomHouse ransomware-as-a-service (RaaS) has recently upgraded its encryptor, switching from a relatively simple single-phase linear technique to a more complex, multi-layered method.</p>
-                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ransomhouse-upgrades-encryption-with-multi-layered-data-processing/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/ransomhouse-upgrades-encryption-with-multi-layered-data-processing/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Microsoft confirms Teams is down and messages are delayed</h3>
+                <p><strong>Summary:</strong> Microsoft Teams is experiencing issues, with thousands reporting problems sending messages, including delays.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This $117 Azure prep bundle is now only $40 in this deal</h3>
-                <p><strong>Summary:</strong> The 2025 Microsoft Azure Architect and Administrator Exam Certification Prep Bundle gives you a long-term study setup, whether you're getting started or working toward higher-level Azure roles, and it...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-117-azure-prep-bundle-is-now-only-40-in-this-deal/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-117-azure-prep-bundle-is-now-only-40-in-this-deal/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Nigeria arrests dev of Microsoft 365 'Raccoon0365' phishing platform</h3>
+                <p><strong>Summary:</strong> The Nigerian police have arrested three individuals linked to targeted Microsoft 365 cyberattacks via Raccoon0365 phishing-as-a-service.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/nigeria-arrests-dev-of-microsoft-365-raccoon0365-phishing-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/nigeria-arrests-dev-of-microsoft-365-raccoon0365-phishing-platform/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft confirms Teams is down and messages are delayed</h3>
-                <p><strong>Summary:</strong> Microsoft Teams is experiencing issues, with thousands reporting problems sending messages, including delays.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Microsoft 365 accounts targeted in wave of OAuth phishing attacks</h3>
+                <p><strong>Summary:</strong> Multiple threat actors are compromising Microsoft 365 accounts in phishing attacks that leverage the OAuth device code authorization mechanism.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-365-accounts-targeted-in-wave-of-oauth-phishing-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-365-accounts-targeted-in-wave-of-oauth-phishing-attacks/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
