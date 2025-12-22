@@ -36,17 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Android Malware Operations Merge Droppers, SMS Theft, and RAT Capabilities at Scale</div><div class="ticker-item">Iranian Infy APT Resurfaces with New Malware Activity After Years of Silence</div><div class="ticker-item">U.S. DOJ Charges 54 in ATM Jackpotting Scheme Using Ploutus Malware</div><div class="ticker-item">Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers</div><div class="ticker-item">Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware</div><div class="ticker-item">WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability</div><div class="ticker-item">UK Government Acknowledges It Is Investigating Cyber Incident After Media Reports</div><div class="ticker-item">Thailand Conference Launches International Initiative to Fight Online Scams</div><div class="ticker-item">In Other News: Docker AI Attack, Google Sues Chinese Cybercriminals, Coupang Hacked by Employee</div><div class="ticker-item">Palo Alto Networks, Google Cloud Strike Multibillion-Dollar AI and Cloud Security Deal</div><div class="ticker-item">AI Security Firm Ciphero Emerges From Stealth With $2.5 Million in Funding</div><div class="ticker-item">Denmark Blames Russia for Cyberattacks Ahead of Elections and on Water Utility</div><div class="ticker-item">Critical RCE flaw impacts over 115,000 WatchGuard firewalls</div><div class="ticker-item">Docker Hardened Images now open source and available for free</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">This refurbished touchscreen Chromebook is just $80 this week</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Iranian Infy APT Resurfaces with New Malware Activity After Years of Silence</div><div class="ticker-item">U.S. DOJ Charges 54 in ATM Jackpotting Scheme Using Ploutus Malware</div><div class="ticker-item">Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers</div><div class="ticker-item">Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware</div><div class="ticker-item">WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability</div><div class="ticker-item">Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks</div><div class="ticker-item">Thailand Conference Launches International Initiative to Fight Online Scams</div><div class="ticker-item">In Other News: Docker AI Attack, Google Sues Chinese Cybercriminals, Coupang Hacked by Employee</div><div class="ticker-item">Palo Alto Networks, Google Cloud Strike Multibillion-Dollar AI and Cloud Security Deal</div><div class="ticker-item">AI Security Firm Ciphero Emerges From Stealth With $2.5 Million in Funding</div><div class="ticker-item">Denmark Blames Russia for Cyberattacks Ahead of Elections and on Water Utility</div><div class="ticker-item">Chinese APT ‘LongNosedGoblin’ Targeting Asian Governments</div><div class="ticker-item">RansomHouse upgrades encryption with multi-layered data processing</div><div class="ticker-item">This $117 Azure prep bundle is now only $40 in this deal</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Microsoft confirms Teams is down and messages are delayed</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Android Malware Operations Merge Droppers, SMS Theft, and RAT Capabilities at Scale</h3>
-                <p><strong>Summary:</strong> Threat actors have been observed leveraging malicious dropper apps masquerading as legitimate applications to deliver an Android SMS stealer dubbed Wonderland  in mobile attacks targeting users in Uzb...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/android-malware-operations-merge.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/android-malware-operations-merge.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Iranian Infy APT Resurfaces with New Malware Activity After Years of Silence</h3>
                 <p><strong>Summary:</strong> Threat hunters have discerned new activity associated with an Iranian threat actor known as Infy  (aka Prince of Persia), nearly five years after the hacking group was observed  targeting victims in S...</p>
@@ -83,11 +76,11 @@
                 <a href="https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>UK Government Acknowledges It Is Investigating Cyber Incident After Media Reports</h3>
-                <p><strong>Summary:</strong> The British government is investigating a “cyber incident” following news reports that hackers linked to China have gained access to thousands of confidential documents.</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/uk-government-acknowledges-it-is-investigating-cyber-incident-after-media-reports/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/uk-government-acknowledges-it-is-investigating-cyber-incident-after-media-reports/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks</h3>
+                <p><strong>Summary:</strong> Authorities in Nigeria have announced the arrest of three "high-profile internet fraud suspects" who are alleged to have been involved in phishing attacks targeting major corporations, including the m...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Thailand Conference Launches International Initiative to Fight Online Scams</h3>
@@ -125,18 +118,25 @@
                 <a href="https://www.securityweek.com/denmark-blames-russia-for-cyberattacks-ahead-of-elections-and-on-water-utility/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Critical RCE flaw impacts over 115,000 WatchGuard firewalls</h3>
-                <p><strong>Summary:</strong> Over 115,000 WatchGuard Firebox devices exposed online remain unpatched against a critical remote code execution (RCE) vulnerability actively exploited in attacks.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/over-115-000-watchguard-firewalls-vulnerable-to-ongoing-rce-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/over-115-000-watchguard-firewalls-vulnerable-to-ongoing-rce-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Chinese APT ‘LongNosedGoblin’ Targeting Asian Governments</h3>
+                <p><strong>Summary:</strong> The hacking group has been using Group Policy to deploy cyberespionage tools on governmental networks.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chinese-apt-longnosedgoblin-targeting-asian-governments/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chinese-apt-longnosedgoblin-targeting-asian-governments/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Docker Hardened Images now open source and available for free</h3>
-                <p><strong>Summary:</strong> More than a 1,000 Docker Hardened Images (DHI) are now freely available and open source for software builders, under the Apache 2.0 license.</p>
+                <h3>RansomHouse upgrades encryption with multi-layered data processing</h3>
+                <p><strong>Summary:</strong> The RansomHouse ransomware-as-a-service (RaaS) has recently upgraded its encryptor, switching from a relatively simple single-phase linear technique to a more complex, multi-layered method.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ransomhouse-upgrades-encryption-with-multi-layered-data-processing/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ransomhouse-upgrades-encryption-with-multi-layered-data-processing/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>This $117 Azure prep bundle is now only $40 in this deal</h3>
+                <p><strong>Summary:</strong> The 2025 Microsoft Azure Architect and Administrator Exam Certification Prep Bundle gives you a long-term study setup, whether you're getting started or working toward higher-level Azure roles, and it...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/docker-hardened-images-now-open-source-and-available-for-free/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/docker-hardened-images-now-open-source-and-available-for-free/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-117-azure-prep-bundle-is-now-only-40-in-this-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/this-117-azure-prep-bundle-is-now-only-40-in-this-deal/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This refurbished touchscreen Chromebook is just $80 this week</h3>
-                <p><strong>Summary:</strong> Finding a reliable extra laptop for your home, commute, or travel bag doesn't have to come with a painful price tag. During this sale, you can grab a refurbished Lenovo 300e Chromebook (2018) with an ...</p>
+                <h3>Microsoft confirms Teams is down and messages are delayed</h3>
+                <p><strong>Summary:</strong> Microsoft Teams is experiencing issues, with thousands reporting problems sending messages, including delays.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-refurbished-touchscreen-chromebook-is-just-80-this-week/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-refurbished-touchscreen-chromebook-is-just-80-this-week/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->

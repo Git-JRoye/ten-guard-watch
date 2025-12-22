@@ -1,0 +1,212 @@
+{
+  "date": "2025-12-22",
+  "items": [
+    {
+      "title": "Android Malware Operations Merge Droppers, SMS Theft, and RAT Capabilities at Scale",
+      "link": "https://thehackernews.com/2025/12/android-malware-operations-merge.html",
+      "summary": "Threat actors have been observed leveraging malicious dropper apps masquerading as legitimate applications to deliver an Android SMS stealer dubbed Wonderland  in mobile attacks targeting users in Uzbekistan.  \"Previously, users received 'pure' Trojan APKs that acted as malware immediately upon installation,\" Group-IB said  in an analysis published last week. \"Now, adversaries increasingly deploy droppers disguised as legitimate applications. The dropper looks harmless on the surface but contains a built-in malicious payload, which is deployed locally after installation – even without an active internet connection.\"  Wonderland (formerly WretchedCat), according to the Singapore-headquartered cybersecurity company, facilitates bidirectional command-and-control (C2) communication to execute commands in real-time, allowing for arbitrary USSD requests and SMS theft. It masquerades as Google Play, or files of other formats, such as videos, photos, and wedding in...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "android-malware-operations-merge-droppers-sms-thef",
+      "source": "The Hacker News",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Iranian Infy APT Resurfaces with New Malware Activity After Years of Silence",
+      "link": "https://thehackernews.com/2025/12/iranian-infy-apt-resurfaces-with-new.html",
+      "summary": "Threat hunters have discerned new activity associated with an Iranian threat actor known as Infy  (aka Prince of Persia), nearly five years after the hacking group was observed  targeting victims in Sweden, the Netherlands, and Turkey.  \"The scale of Prince of Persia's activity is more significant than we originally anticipated,\" Tomer Bar, vice president of security research at SafeBreach, said  in a technical breakdown shared with The Hacker News. \"This threat group is still active, relevant, and dangerous.\"  Infy is one of the oldest advanced persistent threat (APT) actors in existence, with evidence of early activity dating all the way back to December 2004, according to a report  released by Palo Alto Networks Unit 42 in May 2016 that was also authored by Bar, along with researcher Simon Conant.  The group has also managed to remain elusive, attracting little attention, unlike other Iranian hacking crews such as Charming Kitten , MuddyWater , and OilRig ...",
+      "tags": [
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "iranian-infy-apt-resurfaces-with-new-malware-activ",
+      "source": "The Hacker News",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "U.S. DOJ Charges 54 in ATM Jackpotting Scheme Using Ploutus Malware",
+      "link": "https://thehackernews.com/2025/12/us-doj-charges-54-in-atm-jackpotting.html",
+      "summary": "The U.S. Department of Justice (DoJ) this week announced  the indictment of 54 individuals in connection with a multi-million dollar ATM jackpotting scheme.  The large-scale conspiracy involved deploying malware named Ploutus  to hack into automated teller machines (ATMs) across the U.S. and force them to dispense cash. The indicted members are alleged to be part of Tren de Aragua (TdA, Spanish for \"the train of Aragua\"), a Venezuelan gang designated  a foreign terrorist organization by the U.S. State Department.   In July 2025, the U.S. government announced  sanctions  against the group's head, Hector Rusthenford Guerrero Flores (aka Niño Guerrero), and five other key members for their involvement in the \"illicit drug trade, human smuggling and trafficking, extortion, sexual exploitation of women and children, and money laundering, among other criminal activities.\"   The Justice Department said an indictment returned on December 9, 2025, has charged a group of...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "us-doj-charges-54-in-atm-jackpotting-scheme-using-",
+      "source": "The Hacker News",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers",
+      "link": "https://thehackernews.com/2025/12/russia-linked-hackers-use-microsoft-365.html",
+      "summary": "A suspected Russia-aligned group has been attributed to a phishing campaign that employs device code authentication workflows to steal victims' Microsoft 365 credentials and conduct account takeover attacks.  The activity, ongoing since September 2025, is being tracked by Proofpoint under the moniker UNK_AcademicFlare .  The attacks involve using compromised email addresses belonging to government and military organizations to strike entities within government, think tanks, higher education, and transportation sectors in the U.S. and Europe.  \"Typically, these compromised email addresses are used to conduct benign outreach and rapport building related to the targets' area of expertise to ultimately arrange a fictitious meeting or interview,\" the enterprise security company said .   As part of these efforts, the adversary claims to share a link to a document that includes questions or topics for the email recipient to review before the meeting. The URL points to a Clo...",
+      "tags": [
+        "phishing",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russia-linked-hackers-use-microsoft-365-device-cod",
+      "source": "The Hacker News",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware",
+      "link": "https://thehackernews.com/2025/12/cracked-software-and-youtube-videos.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign that has used cracked software distribution sites as a distribution vector for a new version of a modular and stealthy loader known as CountLoader.  The campaign \"uses CountLoader as the initial tool in a multistage attack for access, evasion, and delivery of additional malware families,\" Cyderes Howler Cell Threat Intelligence team said  in an analysis.  CountLoader was previously  documented  by both Fortinet and Silent Push, detailing the loader's ability to push payloads like Cobalt Strike, AdaptixC2, PureHVNC RAT, Amatera Stealer, and PureMiner. The loader has been detected in the wild since at least June 2025.  The latest attack chain begins when unsuspecting users attempt to download cracked versions of legitimate software like Microsoft Word, which causes them to be redirected to a MediaFire link hosting a malicious ZIP archive, which contains an encrypted ZIP file and a Microsoft Word document wi...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cracked-software-and-youtube-videos-spread-countlo",
+      "source": "The Hacker News",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability",
+      "link": "https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html",
+      "summary": "WatchGuard has released fixes to address a critical security flaw in Fireware OS that it said has been exploited in real-world attacks.  Tracked as CVE-2025-14733  (CVSS score: 9.3), the vulnerability has been described as a case of out-of-bounds write affecting the iked process that could allow a remote unauthenticated attacker to execute arbitrary code.  \"This vulnerability affects both the mobile user VPN with IKEv2 and the branch office VPN using IKEv2 when configured with a dynamic gateway peer,\" the company said  in a Thursday advisory.  \"If the Firebox was previously configured with the mobile user VPN with IKEv2 or a branch office VPN using IKEv2 to a dynamic gateway peer, and both of those configurations have since been deleted, that Firebox may still be vulnerable if a branch office VPN to a static gateway peer is still configured.\"   The vulnerability impacts the following versions of Fireware OS -   2025.1 - Fixed in 2025.1.4  12.x - Fixed in 12.11.6  1...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "watchguard-warns-of-active-exploitation-of-critica",
+      "source": "The Hacker News",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "UK Government Acknowledges It Is Investigating Cyber Incident After Media Reports",
+      "link": "https://www.securityweek.com/uk-government-acknowledges-it-is-investigating-cyber-incident-after-media-reports/",
+      "summary": "The British government is investigating a “cyber incident” following news reports that hackers linked to China have gained access to thousands of confidential documents.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "uk-government-acknowledges-it-is-investigating-cyb",
+      "source": "SecurityWeek",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Thailand Conference Launches International Initiative to Fight Online Scams",
+      "link": "https://www.securityweek.com/thailand-conference-launches-international-initiative-to-fight-online-scams/",
+      "summary": "Similar pledges to fight scam networks were made by members of the Association of Southeast Asian Nations in the months leading up to the Bangkok conference.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "thailand-conference-launches-international-initiat",
+      "source": "SecurityWeek",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "In Other News: Docker AI Attack, Google Sues Chinese Cybercriminals, Coupang Hacked by Employee",
+      "link": "https://www.securityweek.com/in-other-news-docker-ai-attack-google-sues-chinese-cybercriminals-coupang-hacked-by-employee/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Trump could use private firms for cyber offensive, China threat to US power grid, RaccoonO365 suspect arrested in Nigeria.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-docker-ai-attack-google-sues-chinese",
+      "source": "SecurityWeek",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Palo Alto Networks, Google Cloud Strike Multibillion-Dollar AI and Cloud Security Deal",
+      "link": "https://www.securityweek.com/palo-alto-networks-google-cloud-strike-multibillion-dollar-ai-and-cloud-security-deal/",
+      "summary": "The agreement strengthens technical and commercial ties as Palo Alto migrates workloads and adopts Google’s Vertex AI and Gemini models.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "palo-alto-networks-google-cloud-strike-multibillio",
+      "source": "SecurityWeek",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "AI Security Firm Ciphero Emerges From Stealth With $2.5 Million in Funding",
+      "link": "https://www.securityweek.com/ai-security-firm-ciphero-emerges-from-stealth-with-2-5-million-in-funding/",
+      "summary": "The startup’s solution captures, verifies, and governs all AI interactions within an enterprise’s environment.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "ai-security-firm-ciphero-emerges-from-stealth-with",
+      "source": "SecurityWeek",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Denmark Blames Russia for Cyberattacks Ahead of Elections and on Water Utility",
+      "link": "https://www.securityweek.com/denmark-blames-russia-for-cyberattacks-ahead-of-elections-and-on-water-utility/",
+      "summary": "Danish intelligence service said the attacks were part of Russia’s “hybrid war” against the West and an attempt to create instability.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "denmark-blames-russia-for-cyberattacks-ahead-of-el",
+      "source": "SecurityWeek",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Critical RCE flaw impacts over 115,000 WatchGuard firewalls",
+      "link": "https://www.bleepingcomputer.com/news/security/over-115-000-watchguard-firewalls-vulnerable-to-ongoing-rce-attacks/",
+      "summary": "Over 115,000 WatchGuard Firebox devices exposed online remain unpatched against a critical remote code execution (RCE) vulnerability actively exploited in attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-rce-flaw-impacts-over-115000-watchguard-f",
+      "source": "BleepingComputer",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Docker Hardened Images now open source and available for free",
+      "link": "https://www.bleepingcomputer.com/news/security/docker-hardened-images-now-open-source-and-available-for-free/",
+      "summary": "More than a 1,000 Docker Hardened Images (DHI) are now freely available and open source for software builders, under the Apache 2.0 license.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "docker-hardened-images-now-open-source-and-availab",
+      "source": "BleepingComputer",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "This refurbished touchscreen Chromebook is just $80 this week",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-refurbished-touchscreen-chromebook-is-just-80-this-week/",
+      "summary": "Finding a reliable extra laptop for your home, commute, or travel bag doesn't have to come with a painful price tag. During this sale, you can grab a refurbished Lenovo 300e Chromebook (2018) with an 11.6″ touchscreen for just $79.99, complete with free shipping.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "this-refurbished-touchscreen-chromebook-is-just-80",
+      "source": "BleepingComputer",
+      "date": "2025-12-22"
+    }
+  ]
+}
