@@ -1,0 +1,201 @@
+{
+  "date": "2025-12-24",
+  "items": [
+    {
+      "title": "Italy Fines Apple €98.6 Million Over ATT Rules Limiting App Store Competition",
+      "link": "https://thehackernews.com/2025/12/italy-fines-apple-986-million-over-att.html",
+      "summary": "Apple has been fined €98.6 million  ($116 million) by Italy's antitrust authority after finding that the company's App Tracking Transparency (ATT) privacy framework restricted App Store competition.  The Italian Competition Authority (Autorità Garante della Concorrenza e del Mercato, or AGCM) said the company's \"absolute dominant position\" in app distribution allowed  it to \"unilaterally impose\" the ATT rules on third-party app developers, without consulting with them beforehand. The investigation was launched in May 2023.  The AGCM said it's not calling into question Apple's decision to adopt safeguards designed to enhance users' privacy on iOS, but rather it's taking issue with the consent requirements that are excessively burdensome for developers and \"disproportionate\" to the stated objectives of ATT.   Specifically, this requires developers to serve both ATT- and GDPR-related permission prompts in apps for iPhone and iPad ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "italy-fines-apple-986-million-over-att-rules-limit",
+      "source": "The Hacker News",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "Two Chrome Extensions Caught Secretly Stealing Credentials from Over 170 Sites",
+      "link": "https://thehackernews.com/2025/12/two-chrome-extensions-caught-secretly.html",
+      "summary": "Cybersecurity researchers have discovered  two malicious Google Chrome extensions with the same name and published by the same developer that come with capabilities to intercept traffic and capture user credentials.  The extensions are advertised as a \"multi-location network speed test plug-in\" for developers and foreign trade personnel. Both the browser add-ons are available for download as of writing. The details of the extensions are as follows -   Phantom Shuttle (ID: fbfldogmkadejddihifklefknmikncaj) - 2,000 users (Published on November 26, 2017)  Phantom Shuttle (ID: ocpcmfmiidofonkbodpdhgddhlcmcofd) - 180 users (Published on April 27, 2023)   \"Users pay subscriptions ranging from ¥9.9 to ¥95.9 CNY ($1.40 to $13.50 USD), believing they're purchasing a legitimate VPN service, but both variants perform identical malicious operations,\" Socket security researcher Kush Pandya said.  \"Behind the subscription facade, the extensions execute complete traffic ...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "two-chrome-extensions-caught-secretly-stealing-cre",
+      "source": "The Hacker News",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "INTERPOL Arrests 574 in Africa; Ukrainian Ransomware Affiliate Pleads Guilty",
+      "link": "https://thehackernews.com/2025/12/interpol-arrests-574-in-africa.html",
+      "summary": "A law enforcement operation coordinated by INTERPOL has led to the recovery of $3 million and the arrest of 574 suspects by authorities from 19 countries, amidst a continued crackdown on cybercrime networks in Africa.  The coordinated effort, named Operation Sentinel, took place  between October 27 and November 27, 2025, and mainly focused on business email compromise (BEC), digital extortion, and ransomware on the continent.  Participating nations included Benin, Botswana, Burkina Faso, Cameroon, Chad, Congo, Djibouti, Democratic Republic of the Congo, Gabon, Ghana, Kenya, Malawi, Nigeria, Senegal, South Africa, South Sudan, Uganda, Zambia, and Zimbabwe.  Over the course of the initiative, more than 6,000 malicious links were taken down and six distinct ransomware variants were decrypted. The names of the ransomware families were not disclosed. The investigated incidents were linked to estimated financial losses exceeding $21 million, INTERPOL added.   Multiple suspects have been arr...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "interpol-arrests-574-in-africa-ukrainian-ransomwar",
+      "source": "The Hacker News",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "Passwd: A walkthrough of the Google Workspace Password Manager",
+      "link": "https://thehackernews.com/2025/12/passwd-walkthrough-of-google-workspace.html",
+      "summary": "Passwd  is designed specifically for organizations operating within Google Workspace. Rather than competing as a general consumer password manager, its purpose is narrow, and business-focused: secure credential storage, controlled sharing, and seamless Workspace integration. The platform emphasizes practicality over feature overload, aiming to provide a reliable system for teams that already rely on Google's tools.   Security as the starting point  Encryption and data protection are the basic building blocks of Passwd. Every credential, file, or sensitive asset gets encrypted with AES-256, an extremely secure encryption standard that is widely recognized. Encryption happens before storage, keeping data protected throughout its lifecycle.   Passwd is based on a zero-knowledge architecture; only the users, not Passwd, are able to access decrypted data. It does not have any visibility of the stored passwords or secrets.  The structure reflects an enterprise mindset:   Centralize...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "passwd-a-walkthrough-of-the-google-workspace-passw",
+      "source": "The Hacker News",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "U.S. DoJ Seizes Fraud Domain Behind $14.6 Million Bank Account Takeover Scheme",
+      "link": "https://thehackernews.com/2025/12/us-doj-seizes-fraud-domain-behind-146.html",
+      "summary": "The U.S. Justice Department (DoJ) on Monday announced the seizure of a web domain and database that it said was used to further a criminal scheme designed to target and defraud Americans by means of a bank account takeover scheme.  The domain in question, web3adspanels[.]org, was used as a backend web panel to host and manipulate illegally harvested bank login credentials. Users to the website are now greeted by a seizure banner that says the domain was taken down in an international law enforcement operation led by authorities from the U.S. and Estonia.  \"The criminal group perpetrating the bank account takeover fraud delivered fraudulent advertisements through search engines, including Google and Bing,\" the DoJ said . \"These fraudulent advertisements imitate the sponsored search engine advertisements used by legitimate banking entities.\"  The ads served as a conduit to redirect unsuspecting users to fake bank websites operated by the threat actors, who harvested ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "us-doj-seizes-fraud-domain-behind-146-million-bank",
+      "source": "The Hacker News",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances",
+      "link": "https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html",
+      "summary": "A critical security vulnerability has been disclosed in the n8n  workflow automation platform that, if successfully exploited, could result in arbitrary code execution under certain circumstances.  The vulnerability, tracked as CVE-2025-68613 , carries a CVSS score of 9.9 out of a maximum of 10.0. Security researcher Fatih Çelik  has been credited with discovering and reporting the flaw. The package has about 57,000 weekly downloads, according to statistics on npm.  \"Under certain conditions, expressions supplied by authenticated users during workflow configuration may be evaluated in an execution context that is not sufficiently isolated from the underlying runtime,\" the maintainers of the npm package said .   \"An authenticated attacker could abuse this behavior to execute arbitrary code with the privileges of the n8n process. Successful exploitation may lead to full compromise of the affected instance, including unauthorized access to sensitive data, modification of w...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-n8n-flaw-cvss-99-enables-arbitrary-code-e",
+      "source": "The Hacker News",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "ServiceNow to Acquire Armis for $7.75 Billion in Cash",
+      "link": "https://www.securityweek.com/servicenow-to-acquire-armis-for-7-75-billion-in-cash/",
+      "summary": "Rumors of a possible buyout surfaced earlier this month, with the official announcement coming just weeks after Armis announced raising $435 million.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "servicenow-to-acquire-armis-for-775-billion-in-cas",
+      "source": "SecurityWeek",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "Nissan Confirms Impact From Red Hat Data Breach",
+      "link": "https://www.securityweek.com/nissan-confirms-impact-from-red-hat-data-breach/",
+      "summary": "The personal information of 21,000 customers was stolen after hackers compromised Red Hat’s GitLab instances.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "nissan-confirms-impact-from-red-hat-data-breach",
+      "source": "SecurityWeek",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "Feds Seize Password Database Used in Massive Bank Account Takeover Scheme",
+      "link": "https://www.securityweek.com/feds-seize-password-database-used-in-massive-bank-account-takeover-scheme/",
+      "summary": "The cybercriminals attempted to steal $28 million from compromised bank accounts through phishing.",
+      "tags": [
+        "phishing",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "feds-seize-password-database-used-in-massive-bank-",
+      "source": "SecurityWeek",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data",
+      "link": "https://www.securityweek.com/npm-package-with-56000-downloads-steals-whatsapp-credentials-data/",
+      "summary": "The package provides legitimate functionality to evade detection, while stealing users’ data and deploying a backdoor.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "npm-package-with-56000-downloads-steals-whatsapp-c",
+      "source": "SecurityWeek",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal",
+      "link": "https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/",
+      "summary": "Italy’s antitrust authority fined Apple $116 million after determining that operating one of its privacy features restricted App Store competition.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "italy-antitrust-agency-fines-apple-116-million-ove",
+      "source": "SecurityWeek",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "574 Arrested, $3 Million Seized in Crackdown on African Cybercrime Rings",
+      "link": "https://www.securityweek.com/574-arrested-3-million-seized-in-crackdown-on-african-cybercrime-rings/",
+      "summary": "Authorities in Senegal, Ghana, Benin, and Cameroon dismantled BEC, ransomware, and other cyber-fraud networks.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "574-arrested-3-million-seized-in-crackdown-on-afri",
+      "source": "SecurityWeek",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "Microsoft rolls out hardware-accelerated BitLocker in Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-rolls-out-hardware-accelerated-bitlocker-in-windows-11/",
+      "summary": "Microsoft is rolling out hardware-accelerated BitLocker in Windows 11 to address growing performance and security concerns by leveraging the capabilities of system-on-a-chip and CPU.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-rolls-out-hardware-accelerated-bitlocker",
+      "source": "BleepingComputer",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "WebRAT malware spread via fake vulnerability exploits on GitHub",
+      "link": "https://www.bleepingcomputer.com/news/security/webrat-malware-spread-via-fake-vulnerability-exploits-on-github/",
+      "summary": "The WebRAT malware is now being distributed through GitHub repositories that claim to host proof-of-concept exploits for recently disclosed vulnerabilities.",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "urgency": "Medium",
+      "slug": "webrat-malware-spread-via-fake-vulnerability-explo",
+      "source": "BleepingComputer",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2025-12-24"
+    },
+    {
+      "title": "New Costco Gold Star Members can get a $40 Digital Costco Shop Card",
+      "link": "https://www.bleepingcomputer.com/offer/deals/new-costco-gold-star-members-can-get-a-40-digital-costco-shop-card/",
+      "summary": "Instead of dashing through the snow all around town, get all your shopping done under one roof at Costco. Right now, you can even get a 1-Year Costco Gold Star Membership plus a $40 Digital Costco Shop Card*, and it's still only $65.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "new-costco-gold-star-members-can-get-a-40-digital-",
+      "source": "BleepingComputer",
+      "date": "2025-12-24"
+    }
+  ]
+}

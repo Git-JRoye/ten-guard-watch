@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">U.S. DoJ Seizes Fraud Domain Behind $14.6 Million Bank Account Takeover Scheme</div><div class="ticker-item">Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances</div><div class="ticker-item">FCC Bans Foreign-Made Drones and Key Parts Over U.S. National Security Risks</div><div class="ticker-item">Fake WhatsApp API Package on npm Steals Messages, Contacts, and Login Tokens</div><div class="ticker-item">⚡ Weekly Recap: Firewall Exploits, AI Data Theft, Android Hacks, APT Attacks, Insider Leaks & More</div><div class="ticker-item">How to Browse the Web More Sustainably With a Green Browser</div><div class="ticker-item">3.5 Million Affected by University of Phoenix Data Breach</div><div class="ticker-item">Cyberattack Disrupts France’s Postal Service and Banking During Christmas Rush</div><div class="ticker-item">Rising Tides: When Cybersecurity Becomes Personal – Inside the Work of an OSINT Investigator</div><div class="ticker-item">ATM Hackers Using ‘Ploutus’ Malware Charged in US</div><div class="ticker-item">MacSync macOS Malware Distributed via Signed Swift Application</div><div class="ticker-item">Gambit Cyber Raises $3.4 Million in Seed Funding</div><div class="ticker-item">Nissan says thousands of customers exposed in Red Hat breach</div><div class="ticker-item">New MacSync malware dropper evades macOS Gatekeeper checks</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Interpol-led action decrypts 6 ransomware strains, arrests hundreds</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>U.S. DoJ Seizes Fraud Domain Behind $14.6 Million Bank Account Takeover Scheme</h3>
+                <p><strong>Summary:</strong> The U.S. Justice Department (DoJ) on Monday announced the seizure of a web domain and database that it said was used to further a criminal scheme designed to target and defraud Americans by means of b...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/us-doj-seizes-fraud-domain-behind-146.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/us-doj-seizes-fraud-domain-behind-146.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances</h3>
+                <p><strong>Summary:</strong> A critical security vulnerability has been disclosed in the n8n  workflow automation platform that, if successfully exploited, could result in arbitrary code execution under certain circumstances.  Th...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FCC Bans Foreign-Made Drones and Key Parts Over U.S. National Security Risks</h3>
+                <p><strong>Summary:</strong> The U.S. Federal Communications Commission (FCC) on Monday announced  a ban on all drones and critical components made in a foreign country, citing national security concerns.  To that end, the agency...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/fcc-bans-foreign-made-drones-and-key.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/fcc-bans-foreign-made-drones-and-key.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake WhatsApp API Package on npm Steals Messages, Contacts, and Login Tokens</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new malicious package on the npm repository that works as a fully functional WhatsApp API, but also contains the ability to intercept every messag...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/fake-whatsapp-api-package-on-npm-steals.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/fake-whatsapp-api-package-on-npm-steals.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Firewall Exploits, AI Data Theft, Android Hacks, APT Attacks, Insider Leaks & More</h3>
+                <p><strong>Summary:</strong> Cyber threats last week showed how attackers no longer need big hacks to cause big damage. They're going after the everyday tools we trust most — firewalls, browser add-ons, and even smart TVs — turni...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/weekly-recap-firewall-exploits-ai-data.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/weekly-recap-firewall-exploits-ai-data.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to Browse the Web More Sustainably With a Green Browser</h3>
+                <p><strong>Summary:</strong> As the internet becomes an essential part of daily life, its environmental footprint continues to grow.   Data centers, constant connectivity, and resource-heavy browsing habits all contribute to ener...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/how-to-browse-sustainably-with-a-green-browser.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/how-to-browse-sustainably-with-a-green-browser.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>3.5 Million Affected by University of Phoenix Data Breach</h3>
+                <p><strong>Summary:</strong> The University of Phoenix is one of the many victims of the recent Oracle EBS hacking campaign attributed to the Cl0p ransomware group.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/3-5-million-affected-by-university-of-phoenix-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/3-5-million-affected-by-university-of-phoenix-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyberattack Disrupts France’s Postal Service and Banking During Christmas Rush</h3>
+                <p><strong>Summary:</strong> A cyberattack knocked France’s national postal service offline, blocking and delaying package deliveries and online payments.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyberattack-disrupts-frances-postal-service-and-banking-during-christmas-rush/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyberattack-disrupts-frances-postal-service-and-banking-during-christmas-rush/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Rising Tides: When Cybersecurity Becomes Personal – Inside the Work of an OSINT Investigator</h3>
+                <p><strong>Summary:</strong> Shannon Miller shares her approach to creating domestic safety and a call to the cyber community to help reduce harm.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rising-tides-when-cybersecurity-becomes-personal-inside-the-work-of-an-osint-investigator/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rising-tides-when-cybersecurity-becomes-personal-inside-the-work-of-an-osint-investigator/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ATM Hackers Using ‘Ploutus’ Malware Charged in US</h3>
+                <p><strong>Summary:</strong> The Department of Justice charged 54 individuals, including leaders and members of the Venezuelan crime syndicate Tren de Aragua.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/54-charged-in-us-over-atm-attacks-involving-ploutus-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/54-charged-in-us-over-atm-attacks-involving-ploutus-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MacSync macOS Malware Distributed via Signed Swift Application</h3>
+                <p><strong>Summary:</strong> A recent MacSync Stealer version no longer requires users to directly interact with the terminal for execution.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/macsync-macos-malware-distributed-via-signed-swift-application/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/macsync-macos-malware-distributed-via-signed-swift-application/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Gambit Cyber Raises $3.4 Million in Seed Funding</h3>
+                <p><strong>Summary:</strong> The cybersecurity startup will use the funds to accelerate platform improvements, global expansion, and partnerships.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/gambit-cyber-raises-3-4-million-in-seed-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/gambit-cyber-raises-3-4-million-in-seed-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nissan says thousands of customers exposed in Red Hat breach</h3>
+                <p><strong>Summary:</strong> Nissan Motor Co. Ltd. (Nissan) has confirmed that information of thousands of its customers has been compromised after the data breach at Red Hat in September.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/nissan-says-thousands-of-customers-exposed-in-red-hat-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/nissan-says-thousands-of-customers-exposed-in-red-hat-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New MacSync malware dropper evades macOS Gatekeeper checks</h3>
+                <p><strong>Summary:</strong> The latest variant of the MacSync information stealer targeting macOS systems is delivered through a digitally signed, notarized Swift application.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-macsync-malware-dropper-evades-macos-gatekeeper-checks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-macsync-malware-dropper-evades-macos-gatekeeper-checks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Interpol-led action decrypts 6 ransomware strains, arrests hundreds</h3>
+                <p><strong>Summary:</strong> An Interpol-coordinated initiative called Operation Sentinel led to the arrest of 574 individuals and the recovery of $3 million linked to business email compromise, extortion, and ransomware incident...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/interpol-led-action-decrypts-6-ransomware-strains-arrests-hundreds/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/interpol-led-action-decrypts-6-ransomware-strains-arrests-hundreds/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
