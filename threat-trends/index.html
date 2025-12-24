@@ -34,7 +34,7 @@
             "name": "TenGuard Security",
             "url": "https://www.tenguardsecurity.com"
         },
-        "dateModified": "2025-12-23T09:37:28.934495",
+        "dateModified": "2025-12-24T09:18:19.534059",
         "isAccessibleForFree": true
     }
     </script>
@@ -418,7 +418,7 @@
     <section class="dashboard-section blue-tint" data-aos="fade-up" data-aos-once="true">
         <h1>🛡️ Threat Trends Dashboard</h1>
         <p style="font-size: 1.2em; margin-bottom: 10px;">Real-time cybersecurity intelligence powered by TenGuard Security</p>
-        <p class="update-info">Last updated: <strong>December 23, 2025 at 09:37 AM UTC</strong></p>
+        <p class="update-info">Last updated: <strong>December 24, 2025 at 09:18 AM UTC</strong></p>
         
         
         <!-- KPI Cards -->
@@ -479,6 +479,30 @@
         <!-- Top Articles -->
         <div class="articles-section" data-aos="fade-up">
             <h2>🔥 Top Threat Articles</h2>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html" target="_blank" rel="noopener noreferrer">
+                        Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2025-12-24</span>
+                </div>
+                <div class="article-summary">A critical security vulnerability has been disclosed in the n8n  workflow automation platform that, if successfully exploited, could result in arbitrary code execution under certain circumstances.  Th</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">attack</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
             
             <div class="article-card">
                 <div class="article-title">
@@ -696,28 +720,6 @@
                 
             </div>
             
-            <div class="article-card">
-                <div class="article-title">
-                    <a href="https://thehackernews.com/2025/12/hpe-oneview-flaw-rated-cvss-100-allows.html" target="_blank" rel="noopener noreferrer">
-                        HPE OneView Flaw Rated CVSS 10.0 Allows Unauthenticated Remote Code Execution
-                    </a>
-                </div>
-                <div class="article-meta">
-                    <span class="urgency-badge urgency-high">High</span>
-                    <span>2025-12-19</span>
-                </div>
-                <div class="article-summary">Hewlett Packard Enterprise (HPE) has resolved a maximum-severity security flaw in OneView Software that, if successfully exploited, could result in remote code execution.  The critical vulnerability, </div>
-                
-                <div class="tags">
-                    
-                    <span class="tag">vulnerability</span>
-                    
-                    <span class="tag">critical</span>
-                    
-                </div>
-                
-            </div>
-            
         </div>
         
         <!-- Data Tables -->
@@ -764,17 +766,17 @@
                     
                     <tr>
                         <td>security</td>
-                        <td><strong>311</strong></td>
+                        <td><strong>303</strong></td>
                     </tr>
                     
                     <tr>
                         <td>attacks</td>
-                        <td><strong>165</strong></td>
+                        <td><strong>159</strong></td>
                     </tr>
                     
                     <tr>
                         <td>vulnerability</td>
-                        <td><strong>150</strong></td>
+                        <td><strong>145</strong></td>
                     </tr>
                     
                     <tr>
@@ -784,7 +786,7 @@
                     
                     <tr>
                         <td>malware</td>
-                        <td><strong>137</strong></td>
+                        <td><strong>138</strong></td>
                     </tr>
                     
                     <tr>
@@ -799,42 +801,42 @@
                     
                     <tr>
                         <td>access</td>
-                        <td><strong>124</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>exploited</td>
-                        <td><strong>109</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>attack</td>
-                        <td><strong>109</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>flaw</td>
-                        <td><strong>108</strong></td>
+                        <td><strong>123</strong></td>
                     </tr>
                     
                     <tr>
                         <td>microsoft</td>
+                        <td><strong>108</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>attack</td>
+                        <td><strong>108</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>exploited</td>
                         <td><strong>106</strong></td>
                     </tr>
                     
                     <tr>
-                        <td>browser</td>
-                        <td><strong>105</strong></td>
+                        <td>flaw</td>
+                        <td><strong>103</strong></td>
                     </tr>
                     
                     <tr>
                         <td>phishing</td>
-                        <td><strong>105</strong></td>
+                        <td><strong>102</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>browser</td>
+                        <td><strong>100</strong></td>
                     </tr>
                     
                     <tr>
                         <td>cve</td>
-                        <td><strong>101</strong></td>
+                        <td><strong>99</strong></td>
                     </tr>
                     
                 </tbody>
@@ -882,10 +884,10 @@
         new Chart(tagCtx, {
             type: 'bar',
             data: {
-                labels: ["attack", "vulnerability", "cybersecurity", "breach", "critical", "malware", "apt", "phishing", "ransomware"],
+                labels: ["attack", "vulnerability", "cybersecurity", "breach", "malware", "critical", "apt", "phishing", "ransomware"],
                 datasets: [{
                     label: 'Occurrences',
-                    data: [264, 129, 107, 89, 86, 84, 61, 58, 41],
+                    data: [259, 125, 109, 87, 85, 84, 60, 57, 43],
                     backgroundColor: chartColors.primary,
                     borderColor: chartColors.secondary,
                     borderWidth: 2
@@ -936,7 +938,7 @@
             data: {
                 labels: ['High', 'Medium', 'Low'],
                 datasets: [{
-                    data: [88, 249, 159],
+                    data: [86, 246, 164],
                     backgroundColor: [
                         chartColors.danger,
                         chartColors.warning,
@@ -972,7 +974,7 @@
         new Chart(dailyCtx, {
             type: 'line',
             data: {
-                labels: ["2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-11-29", "2025-11-30", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-06", "2025-12-07", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-13", "2025-12-14", "2025-12-15", "2025-12-16", "2025-12-17", "2025-12-18", "2025-12-19", "2025-12-20", "2025-12-21", "2025-12-22", "2025-12-23"],
+                labels: ["2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-11-29", "2025-11-30", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-06", "2025-12-07", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-13", "2025-12-14", "2025-12-15", "2025-12-16", "2025-12-17", "2025-12-18", "2025-12-19", "2025-12-20", "2025-12-21", "2025-12-22", "2025-12-23", "2025-12-24"],
                 datasets: [{
                     label: 'Threats per Day',
                     data: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
@@ -1022,10 +1024,10 @@
         new Chart(keywordCtx, {
             type: 'bar',
             data: {
-                labels: ["security", "attacks", "vulnerability", "threat", "malware", "code", "data", "access", "exploited", "attack"],
+                labels: ["security", "attacks", "vulnerability", "threat", "malware", "code", "data", "access", "microsoft", "attack"],
                 datasets: [{
                     label: 'Frequency',
-                    data: [311, 165, 150, 139, 137, 132, 128, 124, 109, 109],
+                    data: [303, 159, 145, 139, 138, 132, 128, 123, 108, 108],
                     backgroundColor: chartColors.secondary,
                     borderColor: chartColors.primary,
                     borderWidth: 2
