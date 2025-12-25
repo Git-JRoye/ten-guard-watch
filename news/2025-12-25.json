@@ -1,0 +1,200 @@
+{
+  "date": "2025-12-25",
+  "items": [
+    {
+      "title": "Fortinet Warns of Active Exploitation of FortiOS SSL VPN 2FA Bypass Vulnerability",
+      "link": "https://thehackernews.com/2025/12/fortinet-warns-of-active-exploitation.html",
+      "summary": "Fortinet on Wednesday said  it observed \"recent abuse\" of a five-year-old security flaw in FortiOS SSL VPN in the wild under certain configurations.  The vulnerability in question is CVE-2020-12812  (CVSS score: 5.2), an improper authentication vulnerability in SSL VPN in FortiOS that could allow a user to log in successfully without being prompted for the second factor of authentication if the case of the username was changed.  \"This happens when two-factor authentication is enabled in the 'user local' setting, and that user authentication type is set to a remote authentication method (eg, LDAP),\" Fortinet noted  in July 2020. \"The issue exists because of inconsistent case-sensitive matching among the local and remote authentication.\"",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "fortinet-warns-of-active-exploitation-of-fortios-s",
+      "source": "The Hacker News",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-actively-exploited-digiever.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added  a security flaw impacting Digiever DS-2105 Pro network video recorders (NVRs) to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability, tracked as CVE-2023-52163  (CVSS score: 8.8), relates to a case of command injection that allows post-authentication remote code execution.  \"Digiever DS-2105 Pro contains a missing authorization vulnerability which could allow for command injection via time_tzsetup.cgi,\" CISA said.   The addition of CVE-2023-52163 to the KEV catalog comes in the multiple reports from Akamai and Fortinet about the exploitation of the flaw by threat actors to deliver botnets like Mirai  and ShadowV2 .  According to TXOne Research  security researcher Ta-Lun Yen, the vulnerability, alongside an arbitrary file read bug (CVE-2023-52164, CVSS score: 5.1), remains unpatched due to the device reaching end-of-life (EoL) status.  Successfu...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-flags-actively-exploited-digiever-nvr-vulnera",
+      "source": "The Hacker News",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "New MacSync macOS Stealer Uses Signed App to Bypass Apple Gatekeeper",
+      "link": "https://thehackernews.com/2025/12/new-macsync-macos-stealer-uses-signed.html",
+      "summary": "Cybersecurity researchers have discovered a new variant of a macOS information stealer called MacSync  that's delivered by means of a digitally signed, notarized Swift application masquerading as a messaging app installer to bypass Apple's Gatekeeper checks.  \"Unlike earlier MacSync Stealer variants that primarily rely on drag-to-terminal or ClickFix -style techniques, this sample adopts a more deceptive, hands-off approach,\" Jamf researcher Thijs Xhaflaire said .  The Apple device management firm and security company said the latest version is distributed as a code-signed and notarized Swift application within a disk image (DMG) file named \"zk-call-messenger-installer-3.9.2-lts.dmg\" that's hosted on \"zkcall[.]net/download.\"   The fact that it's signed and notarized means it can be run without being blocked or flagged by built-in security controls like Gatekeeper or XProtect. Despite this, the installer has been found to display instructio...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "new-macsync-macos-stealer-uses-signed-app-to-bypas",
+      "source": "The Hacker News",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "Nomani Investment Scam Surges 62% Using AI Deepfake Ads on Social Media",
+      "link": "https://thehackernews.com/2025/12/nomani-investment-scam-surges-62-using.html",
+      "summary": "The fraudulent investment scheme known as Nomani  has witnessed an increase by 62%, according to data from ESET, as campaigns distributing the threat have also expanded beyond Facebook to include other social media platforms, such as YouTube.  The Slovak cybersecurity company said  it blocked over 64,000 unique URLs associated with the threat this year. A majority of the detections originated from Czechia, Japan, Slovakia, Spain, and Poland.  Nomani was first documented  by ESET in December 2024 as leveraging social media malvertising, company-branded posts, and artificial intelligence (AI)-powered video testimonials to deceive users into investing their funds in non-existent investment products that falsely claim significant returns.  When victims request payout of the promised profits, they are asked to pay additional fees or provide additional personal information, such as ID and credit card information. As is typical of investment scams of this kind, the end goal is financial loss...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "nomani-investment-scam-surges-62-using-ai-deepfake",
+      "source": "The Hacker News",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "Attacks are Evolving: 3 Ways to Protect Your Business in 2026",
+      "link": "https://thehackernews.com/2025/12/attacks-are-evolving-3-ways-to-protect.html",
+      "summary": "Every year, cybercriminals find new ways to steal money and data from businesses. Breaching a business network, extracting sensitive data, and selling it on the dark web has become a reliable payday.   But in 2025, the data breaches that affected small and medium-sized businesses (SMBs) challenged our perceived wisdom about exactly which types of businesses cybercriminals are targeting.   This article will outline the learnings from key data breaches in 2025 as well as the most effective ways for SMBs to protect themselves in the coming year.  Examining the 2025 data breaches  Prior to 2025, large businesses were popular targets for hackers because of their large pools of resources. It was assumed that smaller businesses simply weren't as vulnerable to cyberattacks because there was less value in attacking them.  But new security research from the Data Breach Observatory  shows that's changing: Small- and medium-sized businesses (SMBs) are now more likely to become a target. ...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "attacks-are-evolving-3-ways-to-protect-your-busine",
+      "source": "The Hacker News",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "SEC Files Charges Over $14 Million Crypto Scam Using Fake AI-Themed Investment Tips",
+      "link": "https://thehackernews.com/2025/12/sec-files-charges-over-14-million.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has filed charges  against multiple companies for their alleged involvement in an elaborate cryptocurrency scam that swindled more than $14 million from retail investors.  The complaint charged crypto asset trading platforms Morocoin Tech Corp., Berge Blockchain Technology Co., Ltd., and Cirkor Inc., as well as investment clubs AI Wealth Inc., Lane Wealth Inc., AI Investment Education Foundation (AIIEF) Ltd., and Zenith Asset Tech Foundation, in connection with the operation.  The SEC said the scam unfolded as a multi-step fraud that enticed unsuspecting users with ads on social media and built trust with them through group chats in which the scammers posed as financial professionals and promised returns from artificial intelligence (AI)-generated investment tips.  The fraudsters then convinced the victims to invest their funds into fake cryptocurrency asset trading platforms, only to defraud them later.   According to the SEC, AI Weal...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "sec-files-charges-over-14-million-crypto-scam-usin",
+      "source": "The Hacker News",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "Pro-Russian Hackers Claim Cyberattack on French Postal Service",
+      "link": "https://www.securityweek.com/pro-russian-hackers-claim-cyberattack-on-french-postal-service/",
+      "summary": "Central computer systems at French national postal service La Poste were knocked offline Monday in DDoS attack.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "pro-russian-hackers-claim-cyberattack-on-french-po",
+      "source": "SecurityWeek",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "ServiceNow to Acquire Armis for $7.75 Billion in Cash",
+      "link": "https://www.securityweek.com/servicenow-to-acquire-armis-for-7-75-billion-in-cash/",
+      "summary": "Rumors of a possible buyout surfaced earlier this month, with the official announcement coming just weeks after Armis announced raising $435 million.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "servicenow-to-acquire-armis-for-775-billion-in-cas",
+      "source": "SecurityWeek",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "Nissan Confirms Impact From Red Hat Data Breach",
+      "link": "https://www.securityweek.com/nissan-confirms-impact-from-red-hat-data-breach/",
+      "summary": "The personal information of 21,000 customers was stolen after hackers compromised Red Hat’s GitLab instances.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "nissan-confirms-impact-from-red-hat-data-breach",
+      "source": "SecurityWeek",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "Feds Seize Password Database Used in Massive Bank Account Takeover Scheme",
+      "link": "https://www.securityweek.com/feds-seize-password-database-used-in-massive-bank-account-takeover-scheme/",
+      "summary": "The cybercriminals attempted to steal $28 million from compromised bank accounts through phishing.",
+      "tags": [
+        "phishing",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "feds-seize-password-database-used-in-massive-bank-",
+      "source": "SecurityWeek",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data",
+      "link": "https://www.securityweek.com/npm-package-with-56000-downloads-steals-whatsapp-credentials-data/",
+      "summary": "The package provides legitimate functionality to evade detection, while stealing users’ data and deploying a backdoor.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "npm-package-with-56000-downloads-steals-whatsapp-c",
+      "source": "SecurityWeek",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal",
+      "link": "https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/",
+      "summary": "Italy’s antitrust authority fined Apple $116 million after determining that operating one of its privacy features restricted App Store competition.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "italy-antitrust-agency-fines-apple-116-million-ove",
+      "source": "SecurityWeek",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "OpenAI is reportedly testing Claude-like Skills for ChatGPT",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-reportedly-testing-claude-like-skills-for-chatgpt/",
+      "summary": "OpenAI is testing a new ChatGPT feature called \"Skills,\" which will be similar to Claude's feature, also called Skills.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-is-reportedly-testing-claude-like-skills-fo",
+      "source": "BleepingComputer",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "Turn ideas into content with this all-in-one AI tool for $75",
+      "link": "https://www.bleepingcomputer.com/offer/deals/turn-ideas-into-content-with-this-all-in-one-ai-tool-for-75/",
+      "summary": "For creators, entrepreneurs, and teams looking for a single AI solution that covers every step of the content process, 1min.AI Advanced Business Plan provides lifetime access for $74.97. It's everything you need to write, design, edit, and produce — all from one platform, without recurring fees.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "turn-ideas-into-content-with-this-all-in-one-ai-to",
+      "source": "BleepingComputer",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2025-12-25"
+    },
+    {
+      "title": "Fake MAS Windows activation domain used to spread PowerShell malware",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-mas-windows-activation-domain-used-to-spread-powershell-malware/",
+      "summary": "A typosquatted domain impersonating the Microsoft Activation Scripts (MAS) tool was used to distribute malicious PowerShell scripts that infect Windows systems with the 'Cosmali Loader'.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "fake-mas-windows-activation-domain-used-to-spread-",
+      "source": "BleepingComputer",
+      "date": "2025-12-25"
+    }
+  ]
+}
