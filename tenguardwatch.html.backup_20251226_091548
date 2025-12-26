@@ -36,24 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories</div><div class="ticker-item">LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds</div><div class="ticker-item">Fortinet Warns of Active Exploitation of FortiOS SSL VPN 2FA Bypass Vulnerability</div><div class="ticker-item">CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote Code Execution</div><div class="ticker-item">New MacSync macOS Stealer Uses Signed App to Bypass Apple Gatekeeper</div><div class="ticker-item">Nomani Investment Scam Surges 62% Using AI Deepfake Ads on Social Media</div><div class="ticker-item">Pro-Russian Hackers Claim Cyberattack on French Postal Service</div><div class="ticker-item">ServiceNow to Acquire Armis for $7.75 Billion in Cash</div><div class="ticker-item">Nissan Confirms Impact From Red Hat Data Breach</div><div class="ticker-item">Feds Seize Password Database Used in Massive Bank Account Takeover Scheme</div><div class="ticker-item">NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data</div><div class="ticker-item">Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal</div><div class="ticker-item">ChatGPT’s new formatting blocks make its UI look more like a task tool</div><div class="ticker-item">Google will finally allow you to change your @gmail.com address</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Your cybersecurity skills start with 18 courses for just $33</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Fortinet Warns of Active Exploitation of FortiOS SSL VPN 2FA Bypass Vulnerability</div><div class="ticker-item">CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote Code Execution</div><div class="ticker-item">New MacSync macOS Stealer Uses Signed App to Bypass Apple Gatekeeper</div><div class="ticker-item">Nomani Investment Scam Surges 62% Using AI Deepfake Ads on Social Media</div><div class="ticker-item">Attacks are Evolving: 3 Ways to Protect Your Business in 2026</div><div class="ticker-item">SEC Files Charges Over $14 Million Crypto Scam Using Fake AI-Themed Investment Tips</div><div class="ticker-item">Pro-Russian Hackers Claim Cyberattack on French Postal Service</div><div class="ticker-item">ServiceNow to Acquire Armis for $7.75 Billion in Cash</div><div class="ticker-item">Nissan Confirms Impact From Red Hat Data Breach</div><div class="ticker-item">Feds Seize Password Database Used in Massive Bank Account Takeover Scheme</div><div class="ticker-item">NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data</div><div class="ticker-item">Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal</div><div class="ticker-item">OpenAI is reportedly testing Claude-like Skills for ChatGPT</div><div class="ticker-item">Turn ideas into content with this all-in-one AI tool for $75</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Fake MAS Windows activation domain used to spread PowerShell malware</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories</h3>
-                <p><strong>Summary:</strong> It's getting harder to tell where normal tech ends and malicious intent begins. Attackers are no longer just breaking in — they're blending in, hijacking everyday tools, trusted apps, and even AI assi...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/threatsday-bulletin-stealth-loaders-ai.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/threatsday-bulletin-stealth-loaders-ai.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds</h3>
-                <p><strong>Summary:</strong> The encrypted vault backups stolen from the 2022 LastPass data breach have enabled bad actors to take advantage of weak master passwords to crack them open and drain cryptocurrency assets as recently ...</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/lastpass-2022-breach-led-to-years-long.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/lastpass-2022-breach-led-to-years-long.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Fortinet Warns of Active Exploitation of FortiOS SSL VPN 2FA Bypass Vulnerability</h3>
                 <p><strong>Summary:</strong> Fortinet on Wednesday said  it observed "recent abuse" of a five-year-old security flaw in FortiOS SSL VPN in the wild under certain configurations.  The vulnerability in question is CVE-2020-12812  (...</p>
@@ -81,6 +67,20 @@
                 <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/nomani-investment-scam-surges-62-using.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/12/nomani-investment-scam-surges-62-using.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Attacks are Evolving: 3 Ways to Protect Your Business in 2026</h3>
+                <p><strong>Summary:</strong> Every year, cybercriminals find new ways to steal money and data from businesses. Breaching a business network, extracting sensitive data, and selling it on the dark web has become a reliable payday. ...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/attacks-are-evolving-3-ways-to-protect.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/attacks-are-evolving-3-ways-to-protect.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SEC Files Charges Over $14 Million Crypto Scam Using Fake AI-Themed Investment Tips</h3>
+                <p><strong>Summary:</strong> The U.S. Securities and Exchange Commission (SEC) has filed charges  against multiple companies for their alleged involvement in an elaborate cryptocurrency scam that swindled more than $14 million fr...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/sec-files-charges-over-14-million.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/sec-files-charges-over-14-million.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Pro-Russian Hackers Claim Cyberattack on French Postal Service</h3>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>ChatGPT’s new formatting blocks make its UI look more like a task tool</h3>
-                <p><strong>Summary:</strong> OpenAI has quietly rolled out 'formatting blocks,' which tweak GPT's layout to match the UI of the task it is supposed to execute.</p>
+                <h3>OpenAI is reportedly testing Claude-like Skills for ChatGPT</h3>
+                <p><strong>Summary:</strong> OpenAI is testing a new ChatGPT feature called "Skills," which will be similar to Claude's feature, also called Skills.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-new-formatting-blocks-make-its-ui-look-more-like-a-task-tool/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-new-formatting-blocks-make-its-ui-look-more-like-a-task-tool/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-reportedly-testing-claude-like-skills-for-chatgpt/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-reportedly-testing-claude-like-skills-for-chatgpt/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Google will finally allow you to change your @gmail.com address</h3>
-                <p><strong>Summary:</strong> Google will finally allow you to change your @gmail address or create a new alias, according to a new support document.</p>
+                <h3>Turn ideas into content with this all-in-one AI tool for $75</h3>
+                <p><strong>Summary:</strong> For creators, entrepreneurs, and teams looking for a single AI solution that covers every step of the content process, 1min.AI Advanced Business Plan provides lifetime access for $74.97. It's everythi...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/google/google-will-finally-allow-you-to-change-your-gmailcom-address/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/google/google-will-finally-allow-you-to-change-your-gmailcom-address/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/turn-ideas-into-content-with-this-all-in-one-ai-tool-for-75/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/turn-ideas-into-content-with-this-all-in-one-ai-tool-for-75/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Your cybersecurity skills start with 18 courses for just $33</h3>
-                <p><strong>Summary:</strong> If improving your skills is on your radar this year, this is an easy (and affordable) way to do it. The All-in-One Super-Sized Ethical Hacking Bundle packs 18 in-depth cybersecurity courses—typically ...</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/your-cybersecurity-skills-start-with-18-courses-for-just-33/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/your-cybersecurity-skills-start-with-18-courses-for-just-33/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Fake MAS Windows activation domain used to spread PowerShell malware</h3>
+                <p><strong>Summary:</strong> A typosquatted domain impersonating the Microsoft Activation Scripts (MAS) tool was used to distribute malicious PowerShell scripts that infect Windows systems with the 'Cosmali Loader'.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fake-mas-windows-activation-domain-used-to-spread-powershell-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fake-mas-windows-activation-domain-used-to-spread-powershell-malware/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
