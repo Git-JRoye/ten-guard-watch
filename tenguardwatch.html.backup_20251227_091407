@@ -36,38 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</div><div class="ticker-item">Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code</div><div class="ticker-item">China-Linked Evasive Panda Ran DNS Poisoning Campaign to Deliver MgBot Malware</div><div class="ticker-item">Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection</div><div class="ticker-item">ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories</div><div class="ticker-item">LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds</div><div class="ticker-item">Pro-Russian Hackers Claim Cyberattack on French Postal Service</div><div class="ticker-item">ServiceNow to Acquire Armis for $7.75 Billion in Cash</div><div class="ticker-item">Nissan Confirms Impact From Red Hat Data Breach</div><div class="ticker-item">Feds Seize Password Database Used in Massive Bank Account Takeover Scheme</div><div class="ticker-item">NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data</div><div class="ticker-item">Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal</div><div class="ticker-item">Fake GrubHub emails promise tenfold return on sent cryptocurrency</div><div class="ticker-item">Learn ChatGPT + 20+ AI tools for just $17.97 in this course deal</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Trust Wallet confirms extension hack led to $7 million crypto theft</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories</div><div class="ticker-item">LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds</div><div class="ticker-item">Fortinet Warns of Active Exploitation of FortiOS SSL VPN 2FA Bypass Vulnerability</div><div class="ticker-item">CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote Code Execution</div><div class="ticker-item">New MacSync macOS Stealer Uses Signed App to Bypass Apple Gatekeeper</div><div class="ticker-item">Nomani Investment Scam Surges 62% Using AI Deepfake Ads on Social Media</div><div class="ticker-item">Pro-Russian Hackers Claim Cyberattack on French Postal Service</div><div class="ticker-item">ServiceNow to Acquire Armis for $7.75 Billion in Cash</div><div class="ticker-item">Nissan Confirms Impact From Red Hat Data Breach</div><div class="ticker-item">Feds Seize Password Database Used in Massive Bank Account Takeover Scheme</div><div class="ticker-item">NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data</div><div class="ticker-item">Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal</div><div class="ticker-item">ChatGPT’s new formatting blocks make its UI look more like a task tool</div><div class="ticker-item">Google will finally allow you to change your @gmail.com address</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Your cybersecurity skills start with 18 courses for just $33</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</h3>
-                <p><strong>Summary:</strong> A high-severity security flaw has been disclosed in MongoDB that could allow unauthenticated users to read uninitialized heap memory.  The vulnerability, tracked as CVE-2025-14847  (CVSS score: 8.7), ...</p>
-                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code</h3>
-                <p><strong>Summary:</strong> Trust Wallet is urging  users to update its Google Chrome extension to the latest version following what it described as a "security incident" that led to the loss of approximately $7 million.  The is...</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/trust-wallet-chrome-extension-bug.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/trust-wallet-chrome-extension-bug.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>China-Linked Evasive Panda Ran DNS Poisoning Campaign to Deliver MgBot Malware</h3>
-                <p><strong>Summary:</strong> A China-linked advanced persistent threat (APT) group has been attributed to a highly-targeted cyber espionage campaign in which the adversary poisoned Domain Name System (DNS) requests to deliver its...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/china-linked-evasive-panda-ran-dns.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/china-linked-evasive-panda-ran-dns.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection</h3>
-                <p><strong>Summary:</strong> A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt ...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories</h3>
                 <p><strong>Summary:</strong> It's getting harder to tell where normal tech ends and malicious intent begins. Attackers are no longer just breaking in — they're blending in, hijacking everyday tools, trusted apps, and even AI assi...</p>
@@ -81,6 +53,34 @@
                 <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/lastpass-2022-breach-led-to-years-long.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/12/lastpass-2022-breach-led-to-years-long.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Warns of Active Exploitation of FortiOS SSL VPN 2FA Bypass Vulnerability</h3>
+                <p><strong>Summary:</strong> Fortinet on Wednesday said  it observed "recent abuse" of a five-year-old security flaw in FortiOS SSL VPN in the wild under certain configurations.  The vulnerability in question is CVE-2020-12812  (...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/fortinet-warns-of-active-exploitation.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/fortinet-warns-of-active-exploitation.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote Code Execution</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added  a security flaw impacting Digiever DS-2105 Pro network video recorders (NVRs) to its Known Exploited Vulnerabilities ( KEV ) cat...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/cisa-flags-actively-exploited-digiever.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/cisa-flags-actively-exploited-digiever.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New MacSync macOS Stealer Uses Signed App to Bypass Apple Gatekeeper</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a new variant of a macOS information stealer called MacSync  that's delivered by means of a digitally signed, notarized Swift application masquerading as a me...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-macsync-macos-stealer-uses-signed.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-macsync-macos-stealer-uses-signed.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nomani Investment Scam Surges 62% Using AI Deepfake Ads on Social Media</h3>
+                <p><strong>Summary:</strong> The fraudulent investment scheme known as Nomani  has witnessed an increase by 62%, according to data from ESET, as campaigns distributing the threat have also expanded beyond Facebook to include othe...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/nomani-investment-scam-surges-62-using.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/nomani-investment-scam-surges-62-using.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Pro-Russian Hackers Claim Cyberattack on French Postal Service</h3>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Fake GrubHub emails promise tenfold return on sent cryptocurrency</h3>
-                <p><strong>Summary:</strong> Grubhub users received fraudulent messages, apparently from a company email address, promising a tenfold bitcoin payout in return for a transfer to a specified wallet.</p>
+                <h3>ChatGPT’s new formatting blocks make its UI look more like a task tool</h3>
+                <p><strong>Summary:</strong> OpenAI has quietly rolled out 'formatting blocks,' which tweak GPT's layout to match the UI of the task it is supposed to execute.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fake-grubhub-emails-promise-tenfold-return-on-sent-cryptocurrency/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/fake-grubhub-emails-promise-tenfold-return-on-sent-cryptocurrency/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-new-formatting-blocks-make-its-ui-look-more-like-a-task-tool/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-new-formatting-blocks-make-its-ui-look-more-like-a-task-tool/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Learn ChatGPT + 20+ AI tools for just $17.97 in this course deal</h3>
-                <p><strong>Summary:</strong> If your goal for the new year is to show up more skilled, more efficient, and more future-ready, this offer makes it easy. The ChatGPT & Automation E-Degree is just $17.97 (MSRP $790), and it gives yo...</p>
+                <h3>Google will finally allow you to change your @gmail.com address</h3>
+                <p><strong>Summary:</strong> Google will finally allow you to change your @gmail address or create a new alias, according to a new support document.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/learn-chatgpt-plus-20-plus-ai-tools-for-just-1797-in-this-course-deal/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/learn-chatgpt-plus-20-plus-ai-tools-for-just-1797-in-this-course-deal/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/google/google-will-finally-allow-you-to-change-your-gmailcom-address/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/google/google-will-finally-allow-you-to-change-your-gmailcom-address/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Trust Wallet confirms extension hack led to $7 million crypto theft</h3>
-                <p><strong>Summary:</strong> Several users of the Trust Wallet Chrome extension report having their cryptocurrency wallets drained after installing a compromised extension update released on December 24, prompting an urgent respo...</p>
+                <h3>Your cybersecurity skills start with 18 courses for just $33</h3>
+                <p><strong>Summary:</strong> If improving your skills is on your radar this year, this is an easy (and affordable) way to do it. The All-in-One Super-Sized Ethical Hacking Bundle packs 18 in-depth cybersecurity courses—typically ...</p>
                 <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/trust-wallet-confirms-extension-hack-led-to-7-million-crypto-theft/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/trust-wallet-confirms-extension-hack-led-to-7-million-crypto-theft/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/your-cybersecurity-skills-start-with-18-courses-for-just-33/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/your-cybersecurity-skills-start-with-18-courses-for-just-33/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->

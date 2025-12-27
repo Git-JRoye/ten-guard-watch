@@ -1,0 +1,205 @@
+{
+  "date": "2025-12-27",
+  "items": [
+    {
+      "title": "New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory",
+      "link": "https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html",
+      "summary": "A high-severity security flaw has been disclosed in MongoDB that could allow unauthenticated users to read uninitialized heap memory.  The vulnerability, tracked as CVE-2025-14847  (CVSS score: 8.7), has been described as a case of improper handling of length parameter inconsistency , which arises when a program fails to appropriately tackle scenarios where a length field is inconsistent with the actual length of the associated data.  \"Mismatched length fields in Zlib compressed protocol headers may allow a read of uninitialized heap memory by an unauthenticated client,\" according to a description  of the flaw in CVE.org.   The flaw impacts the following versions of the database -   MongoDB 8.2.0 through 8.2.3  MongoDB 8.0.0 through 8.0.16  MongoDB 7.0.0 through 7.0.26  MongoDB 6.0.0 through 6.0.26  MongoDB 5.0.0 through 5.0.31  MongoDB 4.4.0 through 4.4.29  All MongoDB Server v4.2 versions  All MongoDB Server v4.0 versions  All MongoDB Server v3.6 versions   The issue has b...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-mongodb-flaw-lets-unauthenticated-attackers-re",
+      "source": "The Hacker News",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code",
+      "link": "https://thehackernews.com/2025/12/trust-wallet-chrome-extension-bug.html",
+      "summary": "Trust Wallet is urging  users to update its Google Chrome extension to the latest version following what it described as a \"security incident\" that led to the loss of approximately $7 million.  The issue, the multi‑chain, non‑custodial cryptocurrency wallet service said, impacts version 2.68. The extension has about one million users, according to the Chrome Web Store listing. Users are advised to update to version 2.69  as soon as possible.  \"We've confirmed that approximately $7M has been impacted and we will ensure all affected users are refunded,\" Trust Wallet said in a post on X. \"Supporting affected users is our top priority, and we are actively finalizing the process to refund the impacted users.\"  Trust Wallet is also urging users to refrain from interacting with any messages that do not come from its official channels. Mobile-only users and all other browser extension versions are not affected.   According to details shared by SlowMist, versi...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "trust-wallet-chrome-extension-breach-caused-7-mill",
+      "source": "The Hacker News",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "China-Linked Evasive Panda Ran DNS Poisoning Campaign to Deliver MgBot Malware",
+      "link": "https://thehackernews.com/2025/12/china-linked-evasive-panda-ran-dns.html",
+      "summary": "A China-linked advanced persistent threat (APT) group has been attributed to a highly-targeted cyber espionage campaign in which the adversary poisoned Domain Name System (DNS) requests to deliver its signature MgBot backdoor in attacks targeting victims in Türkiye, China, and India.  The activity, Kaspersky said, was observed between November 2022 and November 2024. It has been linked to a hacking group called Evasive Panda , which is tracked as Bronze Highland, Daggerfly, and StormBamboo. It's assessed to be active since at least 2012.  \"The group mainly performed adversary-in-the-middle (AitM) attacks on specific victims,\" Kaspersky researcher Fatih Şensoy said  in a deep-dive analysis. \"These included techniques such as dropping loaders into specific locations and storing encrypted parts of the malware on attacker-controlled servers, which were resolved as a response to specific website DNS requests.\"  This is not the first time Evasive Panda's DNS pois...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-evasive-panda-ran-dns-poisoning-campa",
+      "source": "The Hacker News",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection",
+      "link": "https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html",
+      "summary": "A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt injection.  LangChain Core (i.e., langchain-core ) is a core Python package that's part of the LangChain ecosystem, providing the core interfaces and model-agnostic abstractions for building applications powered by LLMs.  The vulnerability, tracked as CVE-2025-68664, carries a CVSS score of 9.3 out of 10.0. Security researcher Yarden Porat has been credited with reporting the vulnerability on December 4, 2025. It has been codenamed LangGrinch .  \"A serialization injection vulnerability exists in LangChain's dumps() and dumpd()  functions,\" the project maintainers said  in an advisory. \"The functions do not escape dictionaries with 'lc' keys when serializing free-form dictionaries.\"   \"The 'lc' key is used internally by LangChain to mark ser...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-langchain-core-vulnerability-exposes-secr",
+      "source": "The Hacker News",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories",
+      "link": "https://thehackernews.com/2025/12/threatsday-bulletin-stealth-loaders-ai.html",
+      "summary": "It's getting harder to tell where normal tech ends and malicious intent begins. Attackers are no longer just breaking in — they're blending in, hijacking everyday tools, trusted apps, and even AI assistants. What used to feel like clear-cut \"hacker stories\" now looks more like a mirror of the systems we all use.  This week's findings show a pattern: precision, patience, and persuasion. The newest campaigns don't shout for attention — they whisper through familiar interfaces, fake updates, and polished code. The danger isn't just in what's being exploited, but in how ordinary it all looks.  ThreatsDay pulls these threads together — from corporate networks to consumer tech — revealing how quiet manipulation and automation are reshaping the threat landscape. It's a reminder that the future of cybersecurity won't hinge on bigger walls, but on sharper awareness.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-stealth-loaders-ai-chatbot-fla",
+      "source": "The Hacker News",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds",
+      "link": "https://thehackernews.com/2025/12/lastpass-2022-breach-led-to-years-long.html",
+      "summary": "The encrypted vault backups stolen from the 2022 LastPass data breach have enabled bad actors to take advantage of weak master passwords to crack them open and drain cryptocurrency assets as recently as late 2025, according to new findings from TRM Labs.  The blockchain intelligence firm said  evidence points to the involvement of Russian cybercriminal actors in the activity, with one of the Russian exchanges receiving LastPass-linked funds as recently as October.  This assessment is \"based on the totality of on-chain evidence – including repeated interaction with Russia-associated infrastructure, continuity of control across pre-and post-mix activity, and the consistent use of high-risk Russian exchanges as off-ramps ,\" it added.   LastPass suffered  a major hack in 2022 that enabled attackers to access personal information belonging to its customers, including their encrypted password vaults containing credentials, such as cryptocurrency private keys and seed phrases.   ...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "lastpass-2022-breach-led-to-years-long-cryptocurre",
+      "source": "The Hacker News",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Pro-Russian Hackers Claim Cyberattack on French Postal Service",
+      "link": "https://www.securityweek.com/pro-russian-hackers-claim-cyberattack-on-french-postal-service/",
+      "summary": "Central computer systems at French national postal service La Poste were knocked offline Monday in DDoS attack.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "pro-russian-hackers-claim-cyberattack-on-french-po",
+      "source": "SecurityWeek",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "ServiceNow to Acquire Armis for $7.75 Billion in Cash",
+      "link": "https://www.securityweek.com/servicenow-to-acquire-armis-for-7-75-billion-in-cash/",
+      "summary": "Rumors of a possible buyout surfaced earlier this month, with the official announcement coming just weeks after Armis announced raising $435 million.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "servicenow-to-acquire-armis-for-775-billion-in-cas",
+      "source": "SecurityWeek",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Nissan Confirms Impact From Red Hat Data Breach",
+      "link": "https://www.securityweek.com/nissan-confirms-impact-from-red-hat-data-breach/",
+      "summary": "The personal information of 21,000 customers was stolen after hackers compromised Red Hat’s GitLab instances.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "nissan-confirms-impact-from-red-hat-data-breach",
+      "source": "SecurityWeek",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Feds Seize Password Database Used in Massive Bank Account Takeover Scheme",
+      "link": "https://www.securityweek.com/feds-seize-password-database-used-in-massive-bank-account-takeover-scheme/",
+      "summary": "The cybercriminals attempted to steal $28 million from compromised bank accounts through phishing.",
+      "tags": [
+        "phishing",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "feds-seize-password-database-used-in-massive-bank-",
+      "source": "SecurityWeek",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data",
+      "link": "https://www.securityweek.com/npm-package-with-56000-downloads-steals-whatsapp-credentials-data/",
+      "summary": "The package provides legitimate functionality to evade detection, while stealing users’ data and deploying a backdoor.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "npm-package-with-56000-downloads-steals-whatsapp-c",
+      "source": "SecurityWeek",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal",
+      "link": "https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/",
+      "summary": "Italy’s antitrust authority fined Apple $116 million after determining that operating one of its privacy features restricted App Store competition.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "italy-antitrust-agency-fines-apple-116-million-ove",
+      "source": "SecurityWeek",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Fake GrubHub emails promise tenfold return on sent cryptocurrency",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-grubhub-emails-promise-tenfold-return-on-sent-cryptocurrency/",
+      "summary": "Grubhub users received fraudulent messages, apparently from a company email address, promising a tenfold bitcoin payout in return for a transfer to a specified wallet.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fake-grubhub-emails-promise-tenfold-return-on-sent",
+      "source": "BleepingComputer",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Learn ChatGPT + 20+ AI tools for just $17.97 in this course deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/learn-chatgpt-plus-20-plus-ai-tools-for-just-1797-in-this-course-deal/",
+      "summary": "If your goal for the new year is to show up more skilled, more efficient, and more future-ready, this offer makes it easy. The ChatGPT & Automation E-Degree is just $17.97 (MSRP $790), and it gives you lifetime access to 12 courses and 25 hours of practical, career-boosting AI content.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "learn-chatgpt-20-ai-tools-for-just-1797-in-this-co",
+      "source": "BleepingComputer",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2025-12-27"
+    },
+    {
+      "title": "Trust Wallet confirms extension hack led to $7 million crypto theft",
+      "link": "https://www.bleepingcomputer.com/news/security/trust-wallet-confirms-extension-hack-led-to-7-million-crypto-theft/",
+      "summary": "Several users of the Trust Wallet Chrome extension report having their cryptocurrency wallets drained after installing a compromised extension update released on December 24, prompting an urgent response from the company and warnings to affected users. Simultaneously, BleepingComputer observed a phi...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "trust-wallet-confirms-extension-hack-led-to-7-mill",
+      "source": "BleepingComputer",
+      "date": "2025-12-27"
+    }
+  ]
+}
