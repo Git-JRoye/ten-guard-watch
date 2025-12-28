@@ -36,7 +36,7 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</div><div class="ticker-item">Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code</div><div class="ticker-item">China-Linked Evasive Panda Ran DNS Poisoning Campaign to Deliver MgBot Malware</div><div class="ticker-item">Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection</div><div class="ticker-item">ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories</div><div class="ticker-item">LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds</div><div class="ticker-item">Pro-Russian Hackers Claim Cyberattack on French Postal Service</div><div class="ticker-item">ServiceNow to Acquire Armis for $7.75 Billion in Cash</div><div class="ticker-item">Nissan Confirms Impact From Red Hat Data Breach</div><div class="ticker-item">Feds Seize Password Database Used in Massive Bank Account Takeover Scheme</div><div class="ticker-item">NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data</div><div class="ticker-item">Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal</div><div class="ticker-item">Massive Rainbow Six Siege breach gives players billions of credits</div><div class="ticker-item">A lifetime of ad-free documentaries without a recurring bill in this deal</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">OpenAI's ChatGPT ads will allegedly prioritize sponsored content in answers</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</div><div class="ticker-item">Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code</div><div class="ticker-item">China-Linked Evasive Panda Ran DNS Poisoning Campaign to Deliver MgBot Malware</div><div class="ticker-item">Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection</div><div class="ticker-item">ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories</div><div class="ticker-item">LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds</div><div class="ticker-item">Pro-Russian Hackers Claim Cyberattack on French Postal Service</div><div class="ticker-item">ServiceNow to Acquire Armis for $7.75 Billion in Cash</div><div class="ticker-item">Nissan Confirms Impact From Red Hat Data Breach</div><div class="ticker-item">Feds Seize Password Database Used in Massive Bank Account Takeover Scheme</div><div class="ticker-item">NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data</div><div class="ticker-item">Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal</div><div class="ticker-item">Fake GrubHub emails promise tenfold return on sent cryptocurrency</div><div class="ticker-item">Learn ChatGPT + 20+ AI tools for just $17.97 in this course deal</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Trust Wallet confirms extension hack led to $7 million crypto theft</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Massive Rainbow Six Siege breach gives players billions of credits</h3>
-                <p><strong>Summary:</strong> Ubisoft's Rainbow Six Siege (R6) suffered a breach that allowed hackers to abuse internal systems to ban and unban players, manipulate in-game moderation feeds, and grant massive amounts of in-game cu...</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/massive-rainbow-six-siege-breach-gives-players-billions-of-credits/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/massive-rainbow-six-siege-breach-gives-players-billions-of-credits/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Fake GrubHub emails promise tenfold return on sent cryptocurrency</h3>
+                <p><strong>Summary:</strong> Grubhub users received fraudulent messages, apparently from a company email address, promising a tenfold bitcoin payout in return for a transfer to a specified wallet.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fake-grubhub-emails-promise-tenfold-return-on-sent-cryptocurrency/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fake-grubhub-emails-promise-tenfold-return-on-sent-cryptocurrency/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>A lifetime of ad-free documentaries without a recurring bill in this deal</h3>
-                <p><strong>Summary:</strong> It's time to swap in top-quality content for a one-time cost with a lifetime subscription to MagellanTV, a documentary streaming service that gives a lifetime of content. Right now, it'll cost you $13...</p>
+                <h3>Learn ChatGPT + 20+ AI tools for just $17.97 in this course deal</h3>
+                <p><strong>Summary:</strong> If your goal for the new year is to show up more skilled, more efficient, and more future-ready, this offer makes it easy. The ChatGPT & Automation E-Degree is just $17.97 (MSRP $790), and it gives yo...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/a-lifetime-of-ad-free-documentaries-without-a-recurring-bill-in-this-deal/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/a-lifetime-of-ad-free-documentaries-without-a-recurring-bill-in-this-deal/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/learn-chatgpt-plus-20-plus-ai-tools-for-just-1797-in-this-course-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/learn-chatgpt-plus-20-plus-ai-tools-for-just-1797-in-this-course-deal/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>OpenAI's ChatGPT ads will allegedly prioritize sponsored content in answers</h3>
-                <p><strong>Summary:</strong> OpenAI is reportedly mulling a new form of ads on ChatGPT called "sponsored content," which could influence your buying decisions.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ads-will-allegedly-prioritize-sponsored-content-in-answers/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ads-will-allegedly-prioritize-sponsored-content-in-answers/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Trust Wallet confirms extension hack led to $7 million crypto theft</h3>
+                <p><strong>Summary:</strong> Several users of the Trust Wallet Chrome extension report having their cryptocurrency wallets drained after installing a compromised extension update released on December 24, prompting an urgent respo...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/trust-wallet-confirms-extension-hack-led-to-7-million-crypto-theft/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/trust-wallet-confirms-extension-hack-led-to-7-million-crypto-theft/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
