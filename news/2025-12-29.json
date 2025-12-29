@@ -1,0 +1,158 @@
+{
+  "date": "2025-12-29",
+  "items": [
+    {
+      "title": "MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide",
+      "link": "https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html",
+      "summary": "A recently disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world.  The vulnerability in question is CVE-2025-14847  (CVSS score: 8.7), which allows an unauthenticated attacker to remotely leak sensitive data from the MongoDB server memory. It has been codenamed MongoBleed .  \"A flaw in zlib compression allows attackers to trigger information leakage,\" OX Security said . \"By sending malformed network packets, an attacker can extract fragments of private data.\"   The problem is rooted in MongoDB Server's zlib message decompression implementation (\"message_compressor_zlib.cpp\"). It affects instances with zlib compression enabled, which is the default configuration. Successful exploitation of the shortcoming could allow an attacker to extract sensitive information from MongoDB servers, including user information, passwords, and API keys.  ...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mongodb-vulnerability-cve-2025-14847-under-active-",
+      "source": "The Hacker News",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors",
+      "link": "https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html",
+      "summary": "In December 2024, the popular Ultralytics AI library  was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025 , malicious Nx packages leaked 2,349 GitHub, cloud, and AI credentials. Throughout 2024, ChatGPT vulnerabilities allowed unauthorized extraction of user data from AI memory.  The result:  23.77 million secrets were leaked through AI systems in 2024 alone, a 25% increase from the previous year.  Here's what these incidents have in common: The compromised organizations had comprehensive security programs. They passed audits. They met compliance requirements. Their security frameworks simply weren't built for AI threats.  Traditional security frameworks have served organizations well for decades. But AI systems operate fundamentally differently from the applications these frameworks were designed to protect. And the attacks against them don't fit into existing control categories. Security teams followed the f...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "traditional-security-frameworks-leave-organization",
+      "source": "The Hacker News",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory",
+      "link": "https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html",
+      "summary": "A high-severity security flaw has been disclosed in MongoDB that could allow unauthenticated users to read uninitialized heap memory.  The vulnerability, tracked as CVE-2025-14847  (CVSS score: 8.7), has been described as a case of improper handling of length parameter inconsistency , which arises when a program fails to appropriately tackle scenarios where a length field is inconsistent with the actual length of the associated data.  \"Mismatched length fields in zlib compressed protocol headers may allow a read of uninitialized heap memory by an unauthenticated client,\" according to a description  of the flaw in CVE.org.   The flaw impacts the following versions of the database -   MongoDB 8.2.0 through 8.2.3  MongoDB 8.0.0 through 8.0.16  MongoDB 7.0.0 through 7.0.26  MongoDB 6.0.0 through 6.0.26  MongoDB 5.0.0 through 5.0.31  MongoDB 4.4.0 through 4.4.29  All MongoDB Server v4.2 versions  All MongoDB Server v4.0 versions  All MongoDB Server v3.6 versions   The issue has b...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-mongodb-flaw-lets-unauthenticated-attackers-re",
+      "source": "The Hacker News",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code",
+      "link": "https://thehackernews.com/2025/12/trust-wallet-chrome-extension-bug.html",
+      "summary": "Trust Wallet is urging  users to update its Google Chrome extension to the latest version following what it described as a \"security incident\" that led to the loss of approximately $7 million.  The issue, the multi‑chain, non‑custodial cryptocurrency wallet service said, impacts version 2.68. The extension has about one million users, according to the Chrome Web Store listing. Users are advised to update to version 2.69  as soon as possible.  \"We've confirmed that approximately $7 million has been impacted and we will ensure all affected users are refunded,\" Trust Wallet said in a post on X. \"Supporting affected users is our top priority, and we are actively finalizing the process to refund the impacted users.\"  Trust Wallet is also urging users to refrain from interacting with any messages that do not come from its official channels. Mobile-only users and all other browser extension versions are not affected.   According to details shared by SlowMist...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "trust-wallet-chrome-extension-breach-caused-7-mill",
+      "source": "The Hacker News",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "China-Linked Evasive Panda Ran DNS Poisoning Campaign to Deliver MgBot Malware",
+      "link": "https://thehackernews.com/2025/12/china-linked-evasive-panda-ran-dns.html",
+      "summary": "A China-linked advanced persistent threat (APT) group has been attributed to a highly-targeted cyber espionage campaign in which the adversary poisoned Domain Name System (DNS) requests to deliver its signature MgBot backdoor in attacks targeting victims in Türkiye, China, and India.  The activity, Kaspersky said, was observed between November 2022 and November 2024. It has been linked to a hacking group called Evasive Panda , which is tracked as Bronze Highland, Daggerfly, and StormBamboo. It's assessed to be active since at least 2012.  \"The group mainly performed adversary-in-the-middle (AitM) attacks on specific victims,\" Kaspersky researcher Fatih Şensoy said  in a deep-dive analysis. \"These included techniques such as dropping loaders into specific locations and storing encrypted parts of the malware on attacker-controlled servers, which were resolved as a response to specific website DNS requests.\"  This is not the first time Evasive Panda's DNS pois...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-evasive-panda-ran-dns-poisoning-campa",
+      "source": "The Hacker News",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection",
+      "link": "https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html",
+      "summary": "A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt injection.  LangChain Core (i.e., langchain-core ) is a core Python package that's part of the LangChain ecosystem, providing the core interfaces and model-agnostic abstractions for building applications powered by LLMs.  The vulnerability, tracked as CVE-2025-68664, carries a CVSS score of 9.3 out of 10.0. Security researcher Yarden Porat has been credited with reporting the vulnerability on December 4, 2025. It has been codenamed LangGrinch .  \"A serialization injection vulnerability exists in LangChain's dumps() and dumpd()  functions,\" the project maintainers said  in an advisory. \"The functions do not escape dictionaries with 'lc' keys when serializing free-form dictionaries.\"   \"The 'lc' key is used internally by LangChain to mark ser...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-langchain-core-vulnerability-exposes-secr",
+      "source": "The Hacker News",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "Pro-Russian Hackers Claim Cyberattack on French Postal Service",
+      "link": "https://www.securityweek.com/pro-russian-hackers-claim-cyberattack-on-french-postal-service/",
+      "summary": "Central computer systems at French national postal service La Poste were knocked offline Monday in DDoS attack.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "pro-russian-hackers-claim-cyberattack-on-french-po",
+      "source": "SecurityWeek",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "ServiceNow to Acquire Armis for $7.75 Billion in Cash",
+      "link": "https://www.securityweek.com/servicenow-to-acquire-armis-for-7-75-billion-in-cash/",
+      "summary": "Rumors of a possible buyout surfaced earlier this month, with the official announcement coming just weeks after Armis announced raising $435 million.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "servicenow-to-acquire-armis-for-775-billion-in-cas",
+      "source": "SecurityWeek",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "Nissan Confirms Impact From Red Hat Data Breach",
+      "link": "https://www.securityweek.com/nissan-confirms-impact-from-red-hat-data-breach/",
+      "summary": "The personal information of 21,000 customers was stolen after hackers compromised Red Hat’s GitLab instances.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "nissan-confirms-impact-from-red-hat-data-breach",
+      "source": "SecurityWeek",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "Feds Seize Password Database Used in Massive Bank Account Takeover Scheme",
+      "link": "https://www.securityweek.com/feds-seize-password-database-used-in-massive-bank-account-takeover-scheme/",
+      "summary": "The cybercriminals attempted to steal $28 million from compromised bank accounts through phishing.",
+      "tags": [
+        "phishing",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "feds-seize-password-database-used-in-massive-bank-",
+      "source": "SecurityWeek",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data",
+      "link": "https://www.securityweek.com/npm-package-with-56000-downloads-steals-whatsapp-credentials-data/",
+      "summary": "The package provides legitimate functionality to evade detection, while stealing users’ data and deploying a backdoor.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "npm-package-with-56000-downloads-steals-whatsapp-c",
+      "source": "SecurityWeek",
+      "date": "2025-12-29"
+    },
+    {
+      "title": "Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal",
+      "link": "https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/",
+      "summary": "Italy’s antitrust authority fined Apple $116 million after determining that operating one of its privacy features restricted App Store competition.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "italy-antitrust-agency-fines-apple-116-million-ove",
+      "source": "SecurityWeek",
+      "date": "2025-12-29"
+    }
+  ]
+}
