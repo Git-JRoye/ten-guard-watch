@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide</div><div class="ticker-item">Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors</div><div class="ticker-item">New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</div><div class="ticker-item">Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code</div><div class="ticker-item">China-Linked Evasive Panda Ran DNS Poisoning Campaign to Deliver MgBot Malware</div><div class="ticker-item">Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection</div><div class="ticker-item">Pro-Russian Hackers Claim Cyberattack on French Postal Service</div><div class="ticker-item">ServiceNow to Acquire Armis for $7.75 Billion in Cash</div><div class="ticker-item">Nissan Confirms Impact From Red Hat Data Breach</div><div class="ticker-item">Feds Seize Password Database Used in Massive Bank Account Takeover Scheme</div><div class="ticker-item">NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data</div><div class="ticker-item">Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide</h3>
+                <p><strong>Summary:</strong> A recently disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world.  The vulnerabilit...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors</h3>
+                <p><strong>Summary:</strong> In December 2024, the popular Ultralytics AI library  was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025 , malicious Nx packages leaked...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</h3>
+                <p><strong>Summary:</strong> A high-severity security flaw has been disclosed in MongoDB that could allow unauthenticated users to read uninitialized heap memory.  The vulnerability, tracked as CVE-2025-14847  (CVSS score: 8.7), ...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code</h3>
+                <p><strong>Summary:</strong> Trust Wallet is urging  users to update its Google Chrome extension to the latest version following what it described as a "security incident" that led to the loss of approximately $7 million.  The is...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/trust-wallet-chrome-extension-bug.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/trust-wallet-chrome-extension-bug.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked Evasive Panda Ran DNS Poisoning Campaign to Deliver MgBot Malware</h3>
+                <p><strong>Summary:</strong> A China-linked advanced persistent threat (APT) group has been attributed to a highly-targeted cyber espionage campaign in which the adversary poisoned Domain Name System (DNS) requests to deliver its...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/china-linked-evasive-panda-ran-dns.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/china-linked-evasive-panda-ran-dns.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection</h3>
+                <p><strong>Summary:</strong> A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Pro-Russian Hackers Claim Cyberattack on French Postal Service</h3>
+                <p><strong>Summary:</strong> Central computer systems at French national postal service La Poste were knocked offline Monday in DDoS attack.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/pro-russian-hackers-claim-cyberattack-on-french-postal-service/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/pro-russian-hackers-claim-cyberattack-on-french-postal-service/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ServiceNow to Acquire Armis for $7.75 Billion in Cash</h3>
+                <p><strong>Summary:</strong> Rumors of a possible buyout surfaced earlier this month, with the official announcement coming just weeks after Armis announced raising $435 million.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/servicenow-to-acquire-armis-for-7-75-billion-in-cash/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/servicenow-to-acquire-armis-for-7-75-billion-in-cash/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nissan Confirms Impact From Red Hat Data Breach</h3>
+                <p><strong>Summary:</strong> The personal information of 21,000 customers was stolen after hackers compromised Red Hat’s GitLab instances.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/nissan-confirms-impact-from-red-hat-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/nissan-confirms-impact-from-red-hat-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Feds Seize Password Database Used in Massive Bank Account Takeover Scheme</h3>
+                <p><strong>Summary:</strong> The cybercriminals attempted to steal $28 million from compromised bank accounts through phishing.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/feds-seize-password-database-used-in-massive-bank-account-takeover-scheme/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/feds-seize-password-database-used-in-massive-bank-account-takeover-scheme/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>NPM Package With 56,000 Downloads Steals WhatsApp Credentials, Data</h3>
+                <p><strong>Summary:</strong> The package provides legitimate functionality to evade detection, while stealing users’ data and deploying a backdoor.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/npm-package-with-56000-downloads-steals-whatsapp-credentials-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/npm-package-with-56000-downloads-steals-whatsapp-credentials-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Italy Antitrust Agency Fines Apple $116 Million Over Privacy Feature; Apple Announces Appeal</h3>
+                <p><strong>Summary:</strong> Italy’s antitrust authority fined Apple $116 million after determining that operating one of its privacy features restricted App Store competition.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/italy-antitrust-agency-fines-apple-116-million-over-privacy-feature-apple-announces-appeal/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

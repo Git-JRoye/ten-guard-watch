@@ -1,0 +1,162 @@
+{
+  "date": "2025-12-30",
+  "items": [
+    {
+      "title": "Mustang Panda Uses Signed Kernel-Mode Rootkit to Load TONESHELL Backdoor",
+      "link": "https://thehackernews.com/2025/12/mustang-panda-uses-signed-kernel-driver.html",
+      "summary": "The Chinese hacking group known as Mustang Panda  has leveraged a previously undocumented kernel-mode rootkit driver to deliver a new variant of backdoor dubbed TONESHELL in a cyber attack detected in mid-2025 targeting an unspecified entity in Asia.  The findings come from Kaspersky, which observed the new backdoor variant in cyber espionage campaigns mounted by the hacking group targeting government organizations in Southeast and East Asia, primarily Myanmar and Thailand.  \"The driver file is signed with an old, stolen, or leaked digital certificate and registers as a minifilter driver  on infected machines,\" the Russian cybersecurity company said . \"Its end-goal is to inject a backdoor trojan into the system processes and provide protection for malicious files, user-mode processes, and registry keys.\"  The final payload deployed as part of the attack is TONESHELL, an implant with reverse shell and downloader capabilities to fetch next-stage malware onto compromi...",
+      "tags": [
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mustang-panda-uses-signed-kernel-mode-rootkit-to-l",
+      "source": "The Hacker News",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "⚡ Weekly Recap: MongoDB Attacks, Wallet Breaches, Android Spyware, Insider Crime & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-mongodb-attacks-wallet.html",
+      "summary": "Last week's cyber news in 2025 was not about one big incident. It was about many small cracks opening at the same time. Tools people trust every day behave in unexpected ways. Old flaws resurfaced. New ones were used almost immediately.  A common theme ran through it all in 2025. Attackers moved faster than fixes. Access meant for work, updates, or support kept getting abused. And damage did not stop when an incident was \"over\" — it continued to surface months or even years later.  This weekly recap brings those stories together in one place. No overload, no noise. Read on to see what shaped the threat landscape in the final stretch of 2025 and what deserves your attention now.  ⚡ Threat of the Week  MongoDB Vulnerability Comes Under Attack  — A newly disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world. The vulnerability in question is CVE-2025-14847 (CVSS score: 8.7)...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "-weekly-recap-mongodb-attacks-wallet-breaches-andr",
+      "source": "The Hacker News",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide",
+      "link": "https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html",
+      "summary": "A recently disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world.  The vulnerability in question is CVE-2025-14847  (CVSS score: 8.7), which allows an unauthenticated attacker to remotely leak sensitive data from the MongoDB server memory. It has been codenamed MongoBleed .  \"A flaw in zlib compression allows attackers to trigger information leakage,\" OX Security said . \"By sending malformed network packets, an attacker can extract fragments of private data.\"   The problem is rooted in MongoDB Server's zlib message decompression implementation (\"message_compressor_zlib.cpp\"). It affects instances with zlib compression enabled, which is the default configuration. Successful exploitation of the shortcoming could allow an attacker to extract sensitive information from MongoDB servers, including user information, passwords, and API keys.  ...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mongodb-vulnerability-cve-2025-14847-under-active-",
+      "source": "The Hacker News",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "27 Malicious npm Packages Used as Phishing Infrastructure to Steal Login Credentials",
+      "link": "https://thehackernews.com/2025/12/27-malicious-npm-packages-used-as.html",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"sustained and targeted\" spear-phishing campaign that has published over two dozen packages to the npm registry to facilitate credential theft.  The activity, which involved uploading 27 npm packages from six different npm aliases, has primarily targeted sales and commercial personnel at critical infrastructure-adjacent organizations in the U.S. and Allied nations, according to Socket.  \"A five-month operation turned 27 npm packages into durable hosting for browser-run lures that mimic document-sharing portals and Microsoft sign-in, targeting 25 organizations across manufacturing, industrial automation, plastics, and healthcare for credential theft,\" researchers Nicholas Anderson and Kirill Boychenko said .",
+      "tags": [
+        "phishing",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "27-malicious-npm-packages-used-as-phishing-infrast",
+      "source": "The Hacker News",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors",
+      "link": "https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html",
+      "summary": "In December 2024, the popular Ultralytics AI library  was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025 , malicious Nx packages leaked 2,349 GitHub, cloud, and AI credentials. Throughout 2024, ChatGPT vulnerabilities allowed unauthorized extraction of user data from AI memory.  The result:  23.77 million secrets were leaked through AI systems in 2024 alone, a 25% increase from the previous year.  Here's what these incidents have in common: The compromised organizations had comprehensive security programs. They passed audits. They met compliance requirements. Their security frameworks simply weren't built for AI threats.  Traditional security frameworks have served organizations well for decades. But AI systems operate fundamentally differently from the applications these frameworks were designed to protect. And the attacks against them don't fit into existing control categories. Security teams followed the f...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "traditional-security-frameworks-leave-organization",
+      "source": "The Hacker News",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory",
+      "link": "https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html",
+      "summary": "A high-severity security flaw has been disclosed in MongoDB that could allow unauthenticated users to read uninitialized heap memory.  The vulnerability, tracked as CVE-2025-14847  (CVSS score: 8.7), has been described as a case of improper handling of length parameter inconsistency , which arises when a program fails to appropriately tackle scenarios where a length field is inconsistent with the actual length of the associated data.  \"Mismatched length fields in zlib compressed protocol headers may allow a read of uninitialized heap memory by an unauthenticated client,\" according to a description  of the flaw in CVE.org.   The flaw impacts the following versions of the database -   MongoDB 8.2.0 through 8.2.3  MongoDB 8.0.0 through 8.0.16  MongoDB 7.0.0 through 7.0.26  MongoDB 6.0.0 through 6.0.26  MongoDB 5.0.0 through 5.0.31  MongoDB 4.4.0 through 4.4.29  All MongoDB Server v4.2 versions  All MongoDB Server v4.0 versions  All MongoDB Server v3.6 versions   The issue has b...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-mongodb-flaw-lets-unauthenticated-attackers-re",
+      "source": "The Hacker News",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "Korean Air Data Compromised in Oracle EBS Hack",
+      "link": "https://www.securityweek.com/korean-air-data-compromised-in-oracle-ebs-hack/",
+      "summary": "Roughly 30,000 Korean Air employees had their data stolen by hackers in a breach at former subsidiary KC&D.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "korean-air-data-compromised-in-oracle-ebs-hack",
+      "source": "SecurityWeek",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000",
+      "link": "https://www.securityweek.com/top-us-accounting-firm-sax-discloses-2024-data-breach-impacting-220000/",
+      "summary": "It took Sax well over a year to complete its investigation after detecting hackers on its network.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "top-us-accounting-firm-sax-discloses-2024-data-bre",
+      "source": "SecurityWeek",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "Fortinet Warns of New Attacks Exploiting Old Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-warns-of-new-attacks-exploiting-old-vulnerability/",
+      "summary": "Tracked as CVE-2020-12812, the exploited FortiOS flaw allows threat actors to bypass two-factor authentication.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fortinet-warns-of-new-attacks-exploiting-old-vulne",
+      "source": "SecurityWeek",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "Coupang to Issue $1.17 Billion in Vouchers Over Data Breach",
+      "link": "https://www.securityweek.com/coupang-to-issue-1-17-billion-in-vouchers-over-data-breach/",
+      "summary": "The ecommerce giant will provide purchase vouchers to the 33.7 million individuals impacted by the incident.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "coupang-to-issue-117-billion-in-vouchers-over-data",
+      "source": "SecurityWeek",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "22 Million Affected by Aflac Data Breach",
+      "link": "https://www.securityweek.com/22-million-affected-by-aflac-data-breach/",
+      "summary": "Hackers stole names, addresses, Social Security numbers, ID numbers, and medical and health insurance information from Aflac’s systems.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "22-million-affected-by-aflac-data-breach",
+      "source": "SecurityWeek",
+      "date": "2025-12-30"
+    },
+    {
+      "title": "Infostealer Malware Delivered in EmEditor Supply Chain Attack",
+      "link": "https://www.securityweek.com/infostealer-malware-delivered-in-emeditor-supply-chain-attack/",
+      "summary": "The ‘download’ button on the official EmEditor website served a malicious installer.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "infostealer-malware-delivered-in-emeditor-supply-c",
+      "source": "SecurityWeek",
+      "date": "2025-12-30"
+    }
+  ]
+}
