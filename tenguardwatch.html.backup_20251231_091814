@@ -36,38 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">U.S. Treasury Lifts Sanctions on Three Individuals Linked to Intellexa and Predator Spyware</div><div class="ticker-item">CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution</div><div class="ticker-item">Silver Fox Targets Indian Users With Tax-Themed Emails Delivering ValleyRAT Malware</div><div class="ticker-item">How to Integrate AI into Modern SOC Workflows</div><div class="ticker-item">Mustang Panda Uses Signed Kernel-Mode Rootkit to Load TONESHELL Backdoor</div><div class="ticker-item">⚡ Weekly Recap: MongoDB Attacks, Wallet Breaches, Android Spyware, Insider Crime & More</div><div class="ticker-item">8 Cybersecurity Acquisitions Surpassed $1 Billion Mark in 2025</div><div class="ticker-item">Chinese APT Mustang Panda Caught Using Kernel-Mode Rootkit</div><div class="ticker-item">Korean Air Data Compromised in Oracle EBS Hack</div><div class="ticker-item">Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000</div><div class="ticker-item">Fortinet Warns of New Attacks Exploiting Old Vulnerability</div><div class="ticker-item">Coupang to Issue $1.17 Billion in Vouchers Over Data Breach</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Mustang Panda Uses Signed Kernel-Mode Rootkit to Load TONESHELL Backdoor</div><div class="ticker-item">⚡ Weekly Recap: MongoDB Attacks, Wallet Breaches, Android Spyware, Insider Crime & More</div><div class="ticker-item">MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide</div><div class="ticker-item">27 Malicious npm Packages Used as Phishing Infrastructure to Steal Login Credentials</div><div class="ticker-item">Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors</div><div class="ticker-item">New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</div><div class="ticker-item">Korean Air Data Compromised in Oracle EBS Hack</div><div class="ticker-item">Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000</div><div class="ticker-item">Fortinet Warns of New Attacks Exploiting Old Vulnerability</div><div class="ticker-item">Coupang to Issue $1.17 Billion in Vouchers Over Data Breach</div><div class="ticker-item">22 Million Affected by Aflac Data Breach</div><div class="ticker-item">Infostealer Malware Delivered in EmEditor Supply Chain Attack</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>U.S. Treasury Lifts Sanctions on Three Individuals Linked to Intellexa and Predator Spyware</h3>
-                <p><strong>Summary:</strong> The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) on Tuesday removed  three individuals linked to the Intellexa Consortium, the holding company behind a commercial spyware ...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/us-treasury-lifts-sanctions-on-three.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/us-treasury-lifts-sanctions-on-three.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution</h3>
-                <p><strong>Summary:</strong> The Cyber Security Agency of Singapore (CSA) has issued  a bulletin warning of a maximum-severity security flaw in SmarterTools SmarterMail  email software that could be exploited to achieve remote co...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Silver Fox Targets Indian Users With Tax-Themed Emails Delivering ValleyRAT Malware</h3>
-                <p><strong>Summary:</strong> The threat actor known as Silver Fox  has turned its focus to India, using income tax-themed lures in phishing campaigns to distribute a modular remote access trojan called ValleyRAT (aka Winos 4.0). ...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/silver-fox-targets-indian-users-with.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/silver-fox-targets-indian-users-with.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>How to Integrate AI into Modern SOC Workflows</h3>
-                <p><strong>Summary:</strong> Artificial intelligence (AI) is making its way into security operations quickly, but many practitioners are still struggling to turn early experimentation into consistent operational value. This is be...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/how-to-integrate-ai-into-modern-soc.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2025/12/how-to-integrate-ai-into-modern-soc.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Mustang Panda Uses Signed Kernel-Mode Rootkit to Load TONESHELL Backdoor</h3>
                 <p><strong>Summary:</strong> The Chinese hacking group known as Mustang Panda  has leveraged a previously undocumented kernel-mode rootkit driver to deliver a new variant of backdoor dubbed TONESHELL in a cyber attack detected in...</p>
@@ -83,18 +55,32 @@
                 <a href="https://thehackernews.com/2025/12/weekly-recap-mongodb-attacks-wallet.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>8 Cybersecurity Acquisitions Surpassed $1 Billion Mark in 2025</h3>
-                <p><strong>Summary:</strong> The total disclosed value for all the cybersecurity M&A deals announced in 2025 exceeded $84 billion.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/8-cybersecurity-acquisitions-surpassed-1-billion-mark-in-2025/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/8-cybersecurity-acquisitions-surpassed-1-billion-mark-in-2025/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide</h3>
+                <p><strong>Summary:</strong> A recently disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world.  The vulnerabilit...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Chinese APT Mustang Panda Caught Using Kernel-Mode Rootkit</h3>
-                <p><strong>Summary:</strong> The threat actor uses a signed driver file containing two user-mode shellcodes to execute its ToneShell backdoor.</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chinese-apt-mustang-panda-caught-using-kernel-mode-rootkit/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/chinese-apt-mustang-panda-caught-using-kernel-mode-rootkit/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>27 Malicious npm Packages Used as Phishing Infrastructure to Steal Login Credentials</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of what has been described as a "sustained and targeted" spear-phishing campaign that has published over two dozen packages to the npm registry to faci...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/27-malicious-npm-packages-used-as.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/27-malicious-npm-packages-used-as.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors</h3>
+                <p><strong>Summary:</strong> In December 2024, the popular Ultralytics AI library  was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025 , malicious Nx packages leaked...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</h3>
+                <p><strong>Summary:</strong> A high-severity security flaw has been disclosed in MongoDB that could allow unauthenticated users to read uninitialized heap memory.  The vulnerability, tracked as CVE-2025-14847  (CVSS score: 8.7), ...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Korean Air Data Compromised in Oracle EBS Hack</h3>
@@ -123,6 +109,20 @@
                 <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
                 <p>Source: SecurityWeek - <a href="https://www.securityweek.com/coupang-to-issue-1-17-billion-in-vouchers-over-data-breach/" target="_blank">Read Full Article</a></p>
                 <a href="https://www.securityweek.com/coupang-to-issue-1-17-billion-in-vouchers-over-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>22 Million Affected by Aflac Data Breach</h3>
+                <p><strong>Summary:</strong> Hackers stole names, addresses, Social Security numbers, ID numbers, and medical and health insurance information from Aflac’s systems.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/22-million-affected-by-aflac-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/22-million-affected-by-aflac-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Infostealer Malware Delivered in EmEditor Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> The ‘download’ button on the official EmEditor website served a malicious installer.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/infostealer-malware-delivered-in-emeditor-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/infostealer-malware-delivered-in-emeditor-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
