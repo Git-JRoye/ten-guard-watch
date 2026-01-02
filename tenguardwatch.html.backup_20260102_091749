@@ -36,38 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign</div><div class="ticker-item">ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories</div><div class="ticker-item">RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers</div><div class="ticker-item">How To Browse Faster and Get More Done Using Adapt Browser</div><div class="ticker-item">Trust Wallet Chrome Extension Hack Drains $8.5M via Shai-Hulud Supply Chain Attack</div><div class="ticker-item">DarkSpectre Browser Extension Campaigns Exposed After Impacting 8.8 Million Users Worldwide</div><div class="ticker-item">Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist</div><div class="ticker-item">European Space Agency Confirms Breach After Hacker Offers to Sell Data</div><div class="ticker-item">8 Cybersecurity Acquisitions Surpassed $1 Billion Mark in 2025</div><div class="ticker-item">Chinese APT Mustang Panda Caught Using Kernel-Mode Rootkit</div><div class="ticker-item">Korean Air Data Compromised in Oracle EBS Hack</div><div class="ticker-item">Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Trust Wallet Chrome Extension Hack Drains $8.5M via Shai-Hulud Supply Chain Attack</div><div class="ticker-item">DarkSpectre Browser Extension Campaigns Exposed After Impacting 8.8 Million Users Worldwide</div><div class="ticker-item">Critical CVSS 9.8 Flaw Found in IBM API Connect Authentication System</div><div class="ticker-item">Researchers Spot Modified Shai-Hulud Worm Testing Payload on npm Registry</div><div class="ticker-item">U.S. Treasury Lifts Sanctions on Three Individuals Linked to Intellexa and Predator Spyware</div><div class="ticker-item">CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution</div><div class="ticker-item">Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist</div><div class="ticker-item">European Space Agency Confirms Breach After Hacker Offers to Sell Data</div><div class="ticker-item">8 Cybersecurity Acquisitions Surpassed $1 Billion Mark in 2025</div><div class="ticker-item">Chinese APT Mustang Panda Caught Using Kernel-Mode Rootkit</div><div class="ticker-item">Korean Air Data Compromised in Oracle EBS Hack</div><div class="ticker-item">Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a phishing campaign that involves the attackers impersonating legitimate Google-generated messages by abusing Google Cloud's Application Integration...</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/cybercriminals-abuse-google-cloud-email.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/cybercriminals-abuse-google-cloud-email.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories</h3>
-                <p><strong>Summary:</strong> The first ThreatsDay Bulletin of 2026 lands on a day that already feels symbolic — new year, new breaches, new tricks. If the past twelve months taught defenders anything, it's that threat actors don'...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/threatsday-bulletin-ghostad-drain-macos.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/threatsday-bulletin-ghostad-drain-macos.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>How To Browse Faster and Get More Done Using Adapt Browser</h3>
-                <p><strong>Summary:</strong> As web browsers  evolve into all-purpose platforms, performance and productivity often suffer.   Feature overload, excessive background processes, and fragmented workflows can slow down browsing sessi...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/how-to-browse-fast-using-a-lightweight-browser.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/how-to-browse-fast-using-a-lightweight-browser.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Trust Wallet Chrome Extension Hack Drains $8.5M via Shai-Hulud Supply Chain Attack</h3>
                 <p><strong>Summary:</strong> Trust Wallet on Tuesday revealed that the second iteration of the Shai-Hulud  (aka Sha1-Hulud) supply chain outbreak in November 2025 was likely responsible for the hack of its Google Chrome extension...</p>
@@ -81,6 +53,34 @@
                 <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/darkspectre-browser-extension-campaigns.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2025/12/darkspectre-browser-extension-campaigns.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical CVSS 9.8 Flaw Found in IBM API Connect Authentication System</h3>
+                <p><strong>Summary:</strong> IBM has disclosed details of a critical security flaw in API Connect  that could allow attackers to gain remote access to the application.  The vulnerability, tracked as CVE-2025-13915 , is rated 9.8 ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/ibm-warns-of-critical-api-connect-bug.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/ibm-warns-of-critical-api-connect-bug.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Spot Modified Shai-Hulud Worm Testing Payload on npm Registry</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of what appears to be a new strain of Shai Hulud on the npm registry with slight modifications from the previous wave observed last month.  The npm pac...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/researchers-spot-modified-shai-hulud.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/researchers-spot-modified-shai-hulud.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>U.S. Treasury Lifts Sanctions on Three Individuals Linked to Intellexa and Predator Spyware</h3>
+                <p><strong>Summary:</strong> The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) on Tuesday removed  three individuals linked to the Intellexa Consortium, the holding company behind a commercial spyware ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/us-treasury-lifts-sanctions-on-three.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/us-treasury-lifts-sanctions-on-three.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution</h3>
+                <p><strong>Summary:</strong> The Cyber Security Agency of Singapore (CSA) has issued  a bulletin warning of a maximum-severity security flaw in SmarterTools SmarterMail  email software that could be exploited to achieve remote co...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist</h3>
