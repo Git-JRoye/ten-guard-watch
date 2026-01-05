@@ -36,17 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New VVS Stealer Malware Targets Discord Accounts via Obfuscated Python Code</div><div class="ticker-item">Transparent Tribe Launches New RAT Attacks Against Indian Government and Academia</div><div class="ticker-item">The ROI Problem in Attack Surface Management</div><div class="ticker-item">Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign</div><div class="ticker-item">ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories</div><div class="ticker-item">RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers</div><div class="ticker-item">President Trump Orders Divestment in $2.9 Million Chips Deal to Protect US Security Interests</div><div class="ticker-item">Two US Cybersecurity Pros Plead Guilty Over Ransomware Attacks</div><div class="ticker-item">RondoDox Botnet Exploiting React2Shell Vulnerability</div><div class="ticker-item">Covenant Health Data Breach Impacts 478,000 Individuals</div><div class="ticker-item">Adobe ColdFusion Servers Targeted in Coordinated Campaign</div><div class="ticker-item">Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist</div><div class="ticker-item">This platform gives you access to 25+ AI models for life for $79</div><div class="ticker-item">Hackers claim to hack Resecurity, firm says it was a honeypot</div><div class="ticker-item">How to find and remove viral AI notetakers</div><div class="ticker-item">Prepare for your IT certs with lifetime access to InfoSec4TC, now $53</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Transparent Tribe Launches New RAT Attacks Against Indian Government and Academia</div><div class="ticker-item">The ROI Problem in Attack Surface Management</div><div class="ticker-item">Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign</div><div class="ticker-item">ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories</div><div class="ticker-item">RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers</div><div class="ticker-item">How To Browse Faster and Get More Done Using Adapt Browser</div><div class="ticker-item">President Trump Orders Divestment in $2.9 Million Chips Deal to Protect US Security Interests</div><div class="ticker-item">Two US Cybersecurity Pros Plead Guilty Over Ransomware Attacks</div><div class="ticker-item">RondoDox Botnet Exploiting React2Shell Vulnerability</div><div class="ticker-item">Covenant Health Data Breach Impacts 478,000 Individuals</div><div class="ticker-item">Adobe ColdFusion Servers Targeted in Coordinated Campaign</div><div class="ticker-item">Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist</div><div class="ticker-item">Hackers claim to hack Resecurity, firm says it was a honeypot</div><div class="ticker-item">Prepare for your IT certs with lifetime access to InfoSec4TC, now $53</div><div class="ticker-item">How to discover shadow AI [Free Guide]</div><div class="ticker-item">Covenant Health says May data breach impacted nearly 478,000 patients</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>New VVS Stealer Malware Targets Discord Accounts via Obfuscated Python Code</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new Python-based information stealer called VVS Stealer  (also styled as VVS $tealer) that's capable of harvesting Discord credentials and tokens....</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/new-vvs-stealer-malware-targets-discord.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/new-vvs-stealer-malware-targets-discord.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Transparent Tribe Launches New RAT Attacks Against Indian Government and Academia</h3>
                 <p><strong>Summary:</strong> The threat actor known as Transparent Tribe has been attributed to a fresh set of attacks targeting Indian governmental, academic, and strategic entities with a remote access trojan (RAT) that grants ...</p>
@@ -81,6 +74,13 @@
                 <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How To Browse Faster and Get More Done Using Adapt Browser</h3>
+                <p><strong>Summary:</strong> As web browsers  evolve into all-purpose platforms, performance and productivity often suffer.   Feature overload, excessive background processes, and fragmented workflows can slow down browsing sessi...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/how-to-browse-fast-using-a-lightweight-browser.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/how-to-browse-fast-using-a-lightweight-browser.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>President Trump Orders Divestment in $2.9 Million Chips Deal to Protect US Security Interests</h3>
@@ -125,13 +125,6 @@
                 <a href="https://www.securityweek.com/shai-hulud-supply-chain-attack-led-to-8-5-million-trust-wallet-heist/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This platform gives you access to 25+ AI models for life for $79</h3>
-                <p><strong>Summary:</strong> It is hard to know which AI model will give you the result you want when every tool lives in its own tab. ChatPlayground AI puts a bunch of leading models in one interface so you can send a single pro...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-platform-gives-you-access-to-25-plus-ai-models-for-life-for-79/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-platform-gives-you-access-to-25-plus-ai-models-for-life-for-79/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
                 <h3>Hackers claim to hack Resecurity, firm says it was a honeypot</h3>
                 <p><strong>Summary:</strong> The ShinyHunters hacking group claims it breached the systems of cybersecurity firm Resecurity and stole internal data, while Resecurity says the attackers only accessed a deliberately deployed honeyp...</p>
                 <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
@@ -139,18 +132,25 @@
                 <a href="https://www.bleepingcomputer.com/news/security/hackers-claim-resecurity-hack-firm-says-it-was-a-honeypot/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>How to find and remove viral AI notetakers</h3>
-                <p><strong>Summary:</strong> Your AI notetaker just joined...but did anyone invite it?</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/68/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/go/68/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
                 <h3>Prepare for your IT certs with lifetime access to InfoSec4TC, now $53</h3>
                 <p><strong>Summary:</strong> Cybersecurity certifications get expensive fast when you pay for individual courses, bootcamps, and practice exams. If you want a cheaper way to study for multiple certs over several years, try an Inf...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
                 <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/prepare-for-your-it-certs-with-lifetime-access-to-infosec4tc-now-53/" target="_blank">Read Full Article</a></p>
                 <a href="https://www.bleepingcomputer.com/offer/deals/prepare-for-your-it-certs-with-lifetime-access-to-infosec4tc-now-53/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to discover shadow AI [Free Guide]</h3>
+                <p><strong>Summary:</strong> Your guide to mitigating shadow AI risks</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Covenant Health says May data breach impacted nearly 478,000 patients</h3>
+                <p><strong>Summary:</strong> The Covenant Health organization has revised to nearly 500,000 the number of individuals affected by a data breach discovered last May.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/covenant-health-says-may-data-breach-impacted-nearly-478-000-patients/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/covenant-health-says-may-data-breach-impacted-nearly-478-000-patients/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
