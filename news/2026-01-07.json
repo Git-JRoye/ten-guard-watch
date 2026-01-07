@@ -1,0 +1,204 @@
+{
+  "date": "2026-01-07",
+  "items": [
+    {
+      "title": "Ongoing Attacks Exploiting Critical RCE Vulnerability in Legacy D-Link DSL Routers",
+      "link": "https://thehackernews.com/2026/01/active-exploitation-hits-legacy-d-link.html",
+      "summary": "A newly discovered critical security flaw in legacy D-Link DSL gateway routers has come under active exploitation in the wild.  The vulnerability, tracked as CVE-2026-0625  (CVSS score: 9.3), concerns a case of command injection in the \"dnscfg.cgi\" endpoint that arises as a result of improper sanitization of user-supplied DNS configuration parameters.  \"An unauthenticated remote attacker can inject and execute arbitrary shell commands, resulting in remote code execution,\" VulnCheck noted  in an advisory.  \"The affected endpoint is also associated with unauthenticated DNS modification ('DNSChanger') behavior documented by D-Link , which reported active exploitation campaigns targeting firmware variants of the DSL-2740R, DSL-2640B, DSL-2780B, and DSL-526B models from 2016 through 2019.\"   The cybersecurity company also noted that exploitation attempts targeting CVE-2026-0625 were recorded by the Shadowserver Foundation on November 27, 2025. Some of ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ongoing-attacks-exploiting-critical-rce-vulnerabil",
+      "source": "The Hacker News",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Two Chrome Extensions Caught Stealing ChatGPT and DeepSeek Chats from 900,000 Users",
+      "link": "https://thehackernews.com/2026/01/two-chrome-extensions-caught-stealing.html",
+      "summary": "Cybersecurity researchers have discovered  two new malicious extensions on the Chrome Web Store that are designed to exfiltrate OpenAI ChatGPT and DeepSeek conversations alongside browsing data to servers under the attackers' control.  The names of the extensions, which collectively have over 900,000 users, are below -   Chat GPT for Chrome with GPT-5, Claude Sonnet & DeepSeek AI (ID: fnmihdojmnkclgjpcoonokmkhjpjechg, 600,000 users)  AI Sidebar with Deepseek, ChatGPT, Claude, and more. (ID: inhcgfpbfdjbjogdfjbclgolkmhnooop, 300,000 users)   The findings come weeks after Urban VPN Proxy , another extension with millions of installations on Google Chrome and Microsoft Edge, was caught spying  on users' chats with artificial intelligence (AI) chatbots. This tactic of using browser extensions to stealthily capture AI conversations has been codenamed  Prompt Poaching  by Secure Annex.  The two newly identified extensions \"were found exfiltrating user conversations and all ...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "two-chrome-extensions-caught-stealing-chatgpt-and-",
+      "source": "The Hacker News",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Unpatched Firmware Flaw Exposes TOTOLINK EX200 to Full Remote Device Takeover",
+      "link": "https://thehackernews.com/2026/01/unpatched-firmware-flaw-exposes.html",
+      "summary": "The CERT Coordination Center (CERT/CC) has disclosed details of an unpatched security flaw impacting TOTOLINK EX200 wireless range extender that could allow a remote authenticated attacker to gain full control of the device.  The flaw, CVE-2025-65606  (CVSS score: N/A), has been characterized as a flaw in the firmware-upload error-handling logic, which could cause the device to inadvertently start an unauthenticated root-level telnet service. CERT/CC credited Leandro Kogan for discovering and reporting the issue.   \"An authenticated attacker can trigger an error condition in the firmware-upload handler that causes the device to start an unauthenticated root telnet service, granting full system access,\" CERT/CC said .  Successful exploitation of the flaw requires an attacker to be already authenticated to the web management interface to access the firmware-upload functionality.   CERT/CC said the firmware-upload handler enters an \"abnormal error state\" when certain ...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "unpatched-firmware-flaw-exposes-totolink-ex200-to-",
+      "source": "The Hacker News",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Fake Booking Emails Redirect Hotel Staff to Fake BSoD Pages Delivering DCRat",
+      "link": "https://thehackernews.com/2026/01/fake-booking-emails-redirect-hotel.html",
+      "summary": "Source: Securonix  Cybersecurity researchers have disclosed details of a new campaign dubbed PHALT#BLYX  that has leveraged ClickFix -style lures to display fixes for fake blue screen of death ( BSoD ) errors in attacks targeting the European hospitality sector.  The end goal of the multi-stage campaign is to deliver a remote access trojan known as DCRat , according to cybersecurity company Securonix. The activity was detected in late December 2025.  \"For initial access, the threat actors utilize a fake Booking.com reservation cancellation lure to trick victims into executing malicious PowerShell commands, which silently fetch and execute remote code,\" researchers Shikha Sangwan, Akshay Gaikwad, and Aaron Beardslee said .   The starting point of the attack chain is a phishing email impersonating Booking.com that contains a link to a fake website (e.g., \"low-house[.]com\"). The messages warn recipients of unexpected reservation cancellations, urging them to click the ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fake-booking-emails-redirect-hotel-staff-to-fake-b",
+      "source": "The Hacker News",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "What is Identity Dark Matter?",
+      "link": "https://thehackernews.com/2026/01/what-is-identity-dark-matter.html",
+      "summary": "The Invisible Half of the Identity Universe  Identity used to live in one place - an LDAP directory, an HR system, a single IAM portal.  Not anymore. Today, identity is fragmented across SaaS, on-prem, IaaS, PaaS, home-grown, and shadow applications. Each of these environments carries its own accounts, permissions, and authentication flows.  Traditional IAM and IGA tools govern only the nearly managed half of this universe - the users and apps that have been fully onboarded, integrated, and mapped. Everything else remains invisible: the unverified, non-human, unprotected mass of identities we call identity dark matter.  Every new or modernized app demands onboarding - connectors, schema mapping, entitlement catalogs, and role modeling - work that consumes time, money, and expertise. Many applications never make it that far. The result is fragmentation: unmanaged identities and permissions operating outside corporate governance.  And beyond the human layer lies an even larger challenge...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "what-is-identity-dark-matter",
+      "source": "The Hacker News",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "VS Code Forks Recommend Missing Extensions, Creating Supply Chain Risk in Open VSX",
+      "link": "https://thehackernews.com/2026/01/vs-code-forks-recommend-missing.html",
+      "summary": "Popular artificial intelligence (AI)-powered Microsoft Visual Studio Code (VS Code) forks such as Cursor, Windsurf, Google Antigravity, and Trae have been found to recommend extensions that are non-existent in the Open VSX registry, potentially opening the door to supply chain risks when bad actors publish malicious packages under those names.  The problem, according to Koi , is that these integrated development environments (IDEs) inherit the list of officially recommended extensions from Microsoft's extensions marketplace. These extensions don't exist in Open VSX.  The VS Code extension recommendations can take two different forms: file-based, which are displayed as toast notifications when users open a file in specific formats, or software-based, which are suggested when certain programs are already installed on the host.  \"The problem: these recommended extensions didn't exist on Open VSX,\" Koi security researcher Oren Yomtov said. \"The namespaces were u...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "vs-code-forks-recommend-missing-extensions-creatin",
+      "source": "The Hacker News",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Hacker Conversations: Katie Paxton-Fear Talks Autism, Morality and Hacking",
+      "link": "https://www.securityweek.com/hacker-conversations-katie-paxton-fear-talks-autism-morality-and-hacking/",
+      "summary": "From dismantling online games as a child to uncovering real-world vulnerabilities, Katie Paxton-Fear explains how autism, curiosity, and a rejection of ambiguity shaped her path into ethical hacking.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "hacker-conversations-katie-paxton-fear-talks-autis",
+      "source": "SecurityWeek",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Cyber Risk Trends for 2026: Building Resilience, Not Just Defenses",
+      "link": "https://www.securityweek.com/cyber-risk-trends-for-2026-building-resilience-not-just-defenses/",
+      "summary": "We can’t outpace the adversary by trying to stop every attack, but we can outlast them by engineering systems and culture to take a punch and try to quickly rebound.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cyber-risk-trends-for-2026-building-resilience-not",
+      "source": "SecurityWeek",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Researchers Trap Scattered Lapsus$ Hunters in Honeypot",
+      "link": "https://www.securityweek.com/researchers-trap-scattered-lapsus-hunters-in-honeypot/",
+      "summary": "Using fake accounts and synthetic data to lure the hackers, the researchers gathered information on their servers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "researchers-trap-scattered-lapsus-hunters-in-honey",
+      "source": "SecurityWeek",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Critical Dolby Vulnerability Patched in Android",
+      "link": "https://www.securityweek.com/critical-dolby-vulnerability-patched-in-android/",
+      "summary": "The flaw is tracked as CVE-2025-54957 and its existence came to light in October 2025 after it was discovered by Google researchers.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-dolby-vulnerability-patched-in-android",
+      "source": "SecurityWeek",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Sophisticated ClickFix Campaign Targeting Hospitality Sector",
+      "link": "https://www.securityweek.com/sophisticated-clickfix-campaign-targeting-hospitality-sector/",
+      "summary": "Fake Booking reservation cancellations and fake BSODs trick victims into executing malicious code leading to RAT infections.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "sophisticated-clickfix-campaign-targeting-hospital",
+      "source": "SecurityWeek",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Dozens of Major Data Breaches Linked to Single Threat Actor",
+      "link": "https://www.securityweek.com/dozens-of-major-data-breaches-linked-to-single-threat-actor/",
+      "summary": "The initial access broker (IAB) relies on credentials exfiltrated using information stealers to hack organizations.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "dozens-of-major-data-breaches-linked-to-single-thr",
+      "source": "SecurityWeek",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "OpenAI is reportedly getting ready to test ads in ChatGPT",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-reportedly-getting-ready-to-test-ads-in-chatgpt/",
+      "summary": "Multiple reports suggest that OpenAI is going ahead with its plans to add ads to ChatGPT, but the experiment will be initially limited to its employees.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-is-reportedly-getting-ready-to-test-ads-in-",
+      "source": "BleepingComputer",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "OpenAI is rolling out GPT-5.2 “Codex-Max” for some users",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-rolling-out-gpt-52-codex-max-for-some-users/",
+      "summary": "OpenAI is testing a new model for Codex called \"GPT-5.2-Codex-Max,\" and it's already rolling out to users with a subscription.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-is-rolling-out-gpt-52-codex-max-for-some-us",
+      "source": "BleepingComputer",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "How to discover shadow AI [Free Guide]",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "Your guide to mitigating shadow AI risks",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "how-to-discover-shadow-ai-free-guide",
+      "source": "BleepingComputer",
+      "date": "2026-01-07"
+    },
+    {
+      "title": "Taiwan says China's attacks on its energy sector increased tenfold",
+      "link": "https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/",
+      "summary": "The National Security Bureau in Taiwan says that China's attacks on the country's energy sector increased tenfold in 2025 compared to the previous year.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "taiwan-says-chinas-attacks-on-its-energy-sector-in",
+      "source": "BleepingComputer",
+      "date": "2026-01-07"
+    }
+  ]
+}
