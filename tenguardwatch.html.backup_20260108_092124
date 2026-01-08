@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Ongoing Attacks Exploiting Critical RCE Vulnerability in Legacy D-Link DSL Routers</div><div class="ticker-item">Two Chrome Extensions Caught Stealing ChatGPT and DeepSeek Chats from 900,000 Users</div><div class="ticker-item">Unpatched Firmware Flaw Exposes TOTOLINK EX200 to Full Remote Device Takeover</div><div class="ticker-item">Fake Booking Emails Redirect Hotel Staff to Fake BSoD Pages Delivering DCRat</div><div class="ticker-item">What is Identity Dark Matter?</div><div class="ticker-item">VS Code Forks Recommend Missing Extensions, Creating Supply Chain Risk in Open VSX</div><div class="ticker-item">Hacker Conversations: Katie Paxton-Fear Talks Autism, Morality and Hacking</div><div class="ticker-item">Cyber Risk Trends for 2026: Building Resilience, Not Just Defenses</div><div class="ticker-item">Researchers Trap Scattered Lapsus$ Hunters in Honeypot</div><div class="ticker-item">Critical Dolby Vulnerability Patched in Android</div><div class="ticker-item">Sophisticated ClickFix Campaign Targeting Hospitality Sector</div><div class="ticker-item">Dozens of Major Data Breaches Linked to Single Threat Actor</div><div class="ticker-item">OpenAI is reportedly getting ready to test ads in ChatGPT</div><div class="ticker-item">OpenAI is rolling out GPT-5.2 “Codex-Max” for some users</div><div class="ticker-item">How to discover shadow AI [Free Guide]</div><div class="ticker-item">Taiwan says China's attacks on its energy sector increased tenfold</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ongoing Attacks Exploiting Critical RCE Vulnerability in Legacy D-Link DSL Routers</h3>
+                <p><strong>Summary:</strong> A newly discovered critical security flaw in legacy D-Link DSL gateway routers has come under active exploitation in the wild.  The vulnerability, tracked as CVE-2026-0625  (CVSS score: 9.3), concerns...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/active-exploitation-hits-legacy-d-link.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/active-exploitation-hits-legacy-d-link.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Two Chrome Extensions Caught Stealing ChatGPT and DeepSeek Chats from 900,000 Users</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered  two new malicious extensions on the Chrome Web Store that are designed to exfiltrate OpenAI ChatGPT and DeepSeek conversations alongside browsing data to ser...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/two-chrome-extensions-caught-stealing.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/two-chrome-extensions-caught-stealing.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Unpatched Firmware Flaw Exposes TOTOLINK EX200 to Full Remote Device Takeover</h3>
+                <p><strong>Summary:</strong> The CERT Coordination Center (CERT/CC) has disclosed details of an unpatched security flaw impacting TOTOLINK EX200 wireless range extender that could allow a remote authenticated attacker to gain ful...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/unpatched-firmware-flaw-exposes.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/unpatched-firmware-flaw-exposes.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake Booking Emails Redirect Hotel Staff to Fake BSoD Pages Delivering DCRat</h3>
+                <p><strong>Summary:</strong> Source: Securonix  Cybersecurity researchers have disclosed details of a new campaign dubbed PHALT#BLYX  that has leveraged ClickFix -style lures to display fixes for fake blue screen of death ( BSoD ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/fake-booking-emails-redirect-hotel.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/fake-booking-emails-redirect-hotel.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>What is Identity Dark Matter?</h3>
+                <p><strong>Summary:</strong> The Invisible Half of the Identity Universe  Identity used to live in one place - an LDAP directory, an HR system, a single IAM portal.  Not anymore. Today, identity is fragmented across SaaS, on-prem...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/what-is-identity-dark-matter.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/what-is-identity-dark-matter.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>VS Code Forks Recommend Missing Extensions, Creating Supply Chain Risk in Open VSX</h3>
+                <p><strong>Summary:</strong> Popular artificial intelligence (AI)-powered Microsoft Visual Studio Code (VS Code) forks such as Cursor, Windsurf, Google Antigravity, and Trae have been found to recommend extensions that are non-ex...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/vs-code-forks-recommend-missing.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/vs-code-forks-recommend-missing.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hacker Conversations: Katie Paxton-Fear Talks Autism, Morality and Hacking</h3>
+                <p><strong>Summary:</strong> From dismantling online games as a child to uncovering real-world vulnerabilities, Katie Paxton-Fear explains how autism, curiosity, and a rejection of ambiguity shaped her path into ethical hacking.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hacker-conversations-katie-paxton-fear-talks-autism-morality-and-hacking/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hacker-conversations-katie-paxton-fear-talks-autism-morality-and-hacking/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyber Risk Trends for 2026: Building Resilience, Not Just Defenses</h3>
+                <p><strong>Summary:</strong> We can’t outpace the adversary by trying to stop every attack, but we can outlast them by engineering systems and culture to take a punch and try to quickly rebound.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyber-risk-trends-for-2026-building-resilience-not-just-defenses/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyber-risk-trends-for-2026-building-resilience-not-just-defenses/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Trap Scattered Lapsus$ Hunters in Honeypot</h3>
+                <p><strong>Summary:</strong> Using fake accounts and synthetic data to lure the hackers, the researchers gathered information on their servers.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/researchers-trap-scattered-lapsus-hunters-in-honeypot/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/researchers-trap-scattered-lapsus-hunters-in-honeypot/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Dolby Vulnerability Patched in Android</h3>
+                <p><strong>Summary:</strong> The flaw is tracked as CVE-2025-54957 and its existence came to light in October 2025 after it was discovered by Google researchers.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-dolby-vulnerability-patched-in-android/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-dolby-vulnerability-patched-in-android/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Sophisticated ClickFix Campaign Targeting Hospitality Sector</h3>
+                <p><strong>Summary:</strong> Fake Booking reservation cancellations and fake BSODs trick victims into executing malicious code leading to RAT infections.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sophisticated-clickfix-campaign-targeting-hospitality-sector/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sophisticated-clickfix-campaign-targeting-hospitality-sector/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dozens of Major Data Breaches Linked to Single Threat Actor</h3>
+                <p><strong>Summary:</strong> The initial access broker (IAB) relies on credentials exfiltrated using information stealers to hack organizations.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dozens-of-major-data-breaches-linked-to-single-threat-actor/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dozens-of-major-data-breaches-linked-to-single-threat-actor/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI is reportedly getting ready to test ads in ChatGPT</h3>
+                <p><strong>Summary:</strong> Multiple reports suggest that OpenAI is going ahead with its plans to add ads to ChatGPT, but the experiment will be initially limited to its employees.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-reportedly-getting-ready-to-test-ads-in-chatgpt/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-reportedly-getting-ready-to-test-ads-in-chatgpt/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI is rolling out GPT-5.2 “Codex-Max” for some users</h3>
+                <p><strong>Summary:</strong> OpenAI is testing a new model for Codex called "GPT-5.2-Codex-Max," and it's already rolling out to users with a subscription.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-rolling-out-gpt-52-codex-max-for-some-users/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-rolling-out-gpt-52-codex-max-for-some-users/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to discover shadow AI [Free Guide]</h3>
+                <p><strong>Summary:</strong> Your guide to mitigating shadow AI risks</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Taiwan says China's attacks on its energy sector increased tenfold</h3>
+                <p><strong>Summary:</strong> The National Security Bureau in Taiwan says that China's attacks on the country's energy sector increased tenfold in 2025 compared to the previous year.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
