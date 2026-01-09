@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">OpenAI Launches ChatGPT Health with Isolated, Encrypted Health Data Controls</div><div class="ticker-item">CISA Flags Microsoft Office and HPE OneView Bugs as Actively Exploited</div><div class="ticker-item">Webinar: Learn How AI-Powered Zero Trust Detects Attacks with No Files or Indicators</div><div class="ticker-item">Black Cat Behind SEO Poisoning Malware Campaign Targeting Popular Software Searches</div><div class="ticker-item">Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to Take Full Control</div><div class="ticker-item">n8n Warns of CVSS 10.0 RCE Vulnerability Affecting Self-Hosted and Cloud Versions</div><div class="ticker-item">The Loudest Voices in Security Often Have the Least to Lose</div><div class="ticker-item">Chrome Extensions With 900,000 Downloads Caught Stealing AI Chats</div><div class="ticker-item">Vulnerability in Totolink Range Extender Allows Device Takeover</div><div class="ticker-item">Several Code Execution Flaws Patched in Veeam Backup & Replication</div><div class="ticker-item">Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis</div><div class="ticker-item">Hackers Exploit Zero-Day in Discontinued D-Link Devices</div><div class="ticker-item">Cisco warns of Identity Service Engine flaw with exploit code</div><div class="ticker-item">CISA tags max severity HPE OneView flaw as actively exploited</div><div class="ticker-item">How to discover shadow AI [Free Guide]</div><div class="ticker-item">OpenAI says ChatGPT won't use your health information to train its models</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI Launches ChatGPT Health with Isolated, Encrypted Health Data Controls</h3>
+                <p><strong>Summary:</strong> Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health.  To that...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/openai-launches-chatgpt-health-with.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/openai-launches-chatgpt-health-with.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Flags Microsoft Office and HPE OneView Bugs as Actively Exploited</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited V...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/cisa-flags-microsoft-office-and-hpe.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/cisa-flags-microsoft-office-and-hpe.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar: Learn How AI-Powered Zero Trust Detects Attacks with No Files or Indicators</h3>
+                <p><strong>Summary:</strong> Security teams are still catching malware. The problem is what they're not catching.  More attacks today don't arrive as files. They don't drop binaries. They don't trigger classic alerts. Instead, th...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/webinar-learn-how-ai-powered-zero-trust.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/webinar-learn-how-ai-powered-zero-trust.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Black Cat Behind SEO Poisoning Malware Campaign Targeting Popular Software Searches</h3>
+                <p><strong>Summary:</strong> A cybercrime gang known as Black Cat has been attributed to a search engine optimization (SEO) poisoning campaign that employs fraudulent sites advertising popular software to trick users into downloa...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/black-cat-behind-seo-poisoning-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/black-cat-behind-seo-poisoning-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to Take Full Control</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of yet another maximum-severity security flaw in n8n , a popular workflow automation platform, that allows an unauthenticated remote attacker to gain c...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/critical-n8n-vulnerability-cvss-100.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/critical-n8n-vulnerability-cvss-100.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>n8n Warns of CVSS 10.0 RCE Vulnerability Affecting Self-Hosted and Cloud Versions</h3>
+                <p><strong>Summary:</strong> Open-source workflow automation platform n8n  has warned of a maximum-severity security flaw that, if successfully exploited, could result in authenticated remote code execution (RCE).  The vulnerabil...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/n8n-warns-of-cvss-100-rce-vulnerability.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/n8n-warns-of-cvss-100-rce-vulnerability.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Loudest Voices in Security Often Have the Least to Lose</h3>
+                <p><strong>Summary:</strong> Security advice fails when it comes from those who don’t bear the consequences and won’t be responsible for making it work.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/the-loudest-voices-in-security-often-have-the-least-to-lose/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/the-loudest-voices-in-security-often-have-the-least-to-lose/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chrome Extensions With 900,000 Downloads Caught Stealing AI Chats</h3>
+                <p><strong>Summary:</strong> Impersonating a legitimate extension from AITOPIA, the two malicious extensions were also exfiltrating users’ browser activity.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chrome-extensions-with-900000-downloads-caught-stealing-ai-chats/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chrome-extensions-with-900000-downloads-caught-stealing-ai-chats/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vulnerability in Totolink Range Extender Allows Device Takeover</h3>
+                <p><strong>Summary:</strong> An error in the firmware-upload handler leads to devices starting an unauthenticated root-level Telnet service.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/vulnerability-in-totolink-range-extender-allows-device-takeover/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/vulnerability-in-totolink-range-extender-allows-device-takeover/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Several Code Execution Flaws Patched in Veeam Backup & Replication</h3>
+                <p><strong>Summary:</strong> Four vulnerabilities have been fixed in the latest release of Veeam Backup & Replication.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/several-code-execution-flaws-patched-in-veeam-backup-replication/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/several-code-execution-flaws-patched-in-veeam-backup-replication/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis</h3>
+                <p><strong>Summary:</strong> 2025 was the strongest year for cybersecurity funding since the 2021 peak, according to Pinpoint Search Group.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cybersecurity-firms-secured-14-billion-in-funding-in-2025/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cybersecurity-firms-secured-14-billion-in-funding-in-2025/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers Exploit Zero-Day in Discontinued D-Link Devices</h3>
+                <p><strong>Summary:</strong> The critical-severity vulnerability allows unauthenticated, remote attackers to execute arbitrary shell commands.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackers-exploit-zero-day-in-discontinued-d-link-devices/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hackers-exploit-zero-day-in-discontinued-d-link-devices/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cisco warns of Identity Service Engine flaw with exploit code</h3>
+                <p><strong>Summary:</strong> Cisco has patched an ISE vulnerability with public proof-of-concept exploit code that can be abused by attackers with admin privileges.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-flaw-with-exploit-code/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-flaw-with-exploit-code/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA tags max severity HPE OneView flaw as actively exploited</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-tags-max-severity-hpe-oneview-flaw-as-actively-exploited/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-tags-max-severity-hpe-oneview-flaw-as-actively-exploited/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to discover shadow AI [Free Guide]</h3>
+                <p><strong>Summary:</strong> Your guide to mitigating shadow AI risks</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI says ChatGPT won't use your health information to train its models</h3>
+                <p><strong>Summary:</strong> OpenAI is rolling out ChatGPT Health, which is a dedicated space for health conversations. Amidst privacy concerns, OpenAI said it won't use your health data.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-wont-use-your-health-information-to-train-its-models/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-wont-use-your-health-information-to-train-its-models/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

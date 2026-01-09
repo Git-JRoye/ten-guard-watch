@@ -1,0 +1,208 @@
+{
+  "date": "2026-01-09",
+  "items": [
+    {
+      "title": "CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024",
+      "link": "https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday said  it's retiring 10 emergency directives (Eds) that were issued between 2019 and 2024.  The list of the directives now considered closed is as follows -   ED 19-01: Mitigate DNS Infrastructure Tampering  ED 20-02: Mitigate Windows Vulnerabilities from January 2020 Patch Tuesday  ED 20-03: Mitigate Windows DNS Server Vulnerability from July 2020 Patch Tuesday    ED 20-04: Mitigate Netlogon Elevation of Privilege Vulnerability from August 2020 Patch Tuesday  ED 21-01: Mitigate SolarWinds Orion Code Compromise  ED 21-02: Mitigate Microsoft Exchange On-Premises Product Vulnerabilities  ED 21-03: Mitigate Pulse Connect Secure Product Vulnerabilities    ED 21-04: Mitigate Windows Print Spooler Service Vulnerability    ED 22-03: Mitigate VMware Vulnerabilities  ED 24-02: Mitigating the Significant Risk from Nation-State Compromise of Microsoft Corporate Email System      Stating that these directives were iss...",
+      "tags": [
+        "vulnerability",
+        "apt"
+      ],
+      "urgency": "High",
+      "slug": "cisa-retires-10-emergency-cybersecurity-directives",
+      "source": "The Hacker News",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "FBI Warns North Korean Hackers Using Malicious QR Codes in Spear-Phishing",
+      "link": "https://thehackernews.com/2026/01/fbi-warns-north-korean-hackers-using.html",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) on Thursday released an advisory warning of North Korean state-sponsored threat actors leveraging malicious QR codes in spear-phishing campaigns targeting entities in the country.  \"As of 2025, Kimsuky actors have targeted think tanks, academic institutions, and both U.S. and foreign government entities with embedded malicious Quick Response (QR) codes in spear-phishing campaigns,\" the FBI said  in the flash alert. \"This type of spear-phishing attack is referred to as quishing.\"  The use of QR codes for phishing is a tactic that forces victims to shift from a machine that's secured by enterprise policies to a mobile device that may not offer the same level of protection, effectively allowing threat actors to bypass traditional defenses.   Kimsuky, also tracked as APT43, Black Banshee, Emerald Sleet, Springtail, TA427, and Velvet Chollima, is a threat group that's assessed to be affiliated with North Korea's...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-warns-north-korean-hackers-using-malicious-qr-",
+      "source": "The Hacker News",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "WhatsApp Worm Spreads Astaroth Banking Trojan Across Brazil via Contact Auto-Messaging",
+      "link": "https://thehackernews.com/2026/01/whatsapp-worm-spreads-astaroth-banking.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign that uses WhatsApp as a distribution vector for a Windows banking trojan called Astaroth  in attacks targeting Brazil.  The campaign has been codenamed Boto Cor-de-Rosa  by Acronis Threat Research Unit.  \"The malware retrieves the victim's WhatsApp contact list and automatically sends malicious messages to each contact to further spread the infection,\" the cybersecurity company said  in a report shared with The Hacker News.  \"While the core Astaroth payload remains written in Delphi and its installer relies on Visual Basic script, the newly added WhatsApp-based worm module is implemented entirely in Python, highlighting the threat actors' growing use of multi-language modular components.\"   Astaroth, also called Guildma, is a banking malware  that has been detected in the wild since 2015, primarily targeting users in Latin America, notably Brazil, to facilitate data theft. In 2024, two diffe...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "whatsapp-worm-spreads-astaroth-banking-trojan-acro",
+      "source": "The Hacker News",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "China-Linked UAT-7290 Targets Telecoms with Linux Malware and ORB Nodes",
+      "link": "https://thehackernews.com/2026/01/china-linked-uat-7290-targets-telecoms.html",
+      "summary": "A China-nexus threat actor known as UAT-7290  has been attributed to espionage-focused intrusions against entities in South Asia and Southeastern Europe.  The activity cluster, which has been active since at least 2022, primarily focuses on extensive technical reconnaissance of target organizations before initiating attacks, ultimately leading to the deployment of malware families such as RushDrop, DriveSwitch, and SilentRaid, according to a Cisco Talos report published today.  \"In addition to conducting espionage-focused attacks where UAT-7290 burrows deep inside a victim enterprise's network infrastructure, their tactics, techniques, and procedures (TTPs) and tooling suggest that this actor also establishes Operational Relay Box (ORBs) nodes,\" researchers Asheer Malhotra, Vitor Ventura, and Brandon White said .  \"The ORB infrastructure may then be used by other China-nexus actors in their malicious operations, signifying UAT-7290's dual role as an espionage-motiva...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-uat-7290-targets-telecoms-with-linux-",
+      "source": "The Hacker News",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "ThreatsDay Bulletin: RustFS Flaw, Iranian Ops, WebUI RCE, Cloud Leaks, and 12 More Stories",
+      "link": "https://thehackernews.com/2026/01/threatsday-bulletin-rustfs-flaw-iranian.html",
+      "summary": "The internet never stays quiet. Every week, new hacks, scams, and security problems show up somewhere.  This week's stories show how fast attackers change their tricks, how small mistakes turn into big risks, and how the same old tools keep finding new ways to break in.  Read on to catch up before the next wave hits.                    Honeypot Traps Hackers             Hackers Fall for Resecurity's Honeypot                  Cybersecurity company Resecurity revealed that it deliberately lured threat actors who claimed to be associated with Scattered LAPSUS$ Hunters ( SLH ) into a trap, after the group claimed on Telegram that it had hacked the company and stolen internal and client data. The company said it set up a honeytrap account populated with fake data designed to resemble real-world business data and planted a fake account on an underground marketplace for compromised credentials after it uncovered a threat actor attempting to conduct malicious activity targeting its resou...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-rustfs-flaw-iranian-ops-webui-",
+      "source": "The Hacker News",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "The State of Trusted Open Source",
+      "link": "https://thehackernews.com/2026/01/the-state-of-trusted-open-source.html",
+      "summary": "Chainguard, the trusted source for open source, has a unique view into how modern organizations actually consume open source software and where they run into risk and operational burdens. Across a growing customer base and an extensive catalog of over 1800 container image projects, 148,000 versions, 290,000 images, and 100,000 language libraries, and almost half a billion builds, they can see what teams pull, deploy, and maintain day-to-day, along with the vulnerabilities and remediation realities that come hand in hand.   That's why they created The State of Trusted Open Source , a quarterly pulse on the open source software supply chain. As they analyzed anonymized product usage and CVE data, the Chainguard team noticed common themes around what open source engineering teams are actually building with and the risks associated.   Here's what they found:    AI is reshaping the baseline stack: Python led the way as the most popular open source image among Chainguard's glo...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "the-state-of-trusted-open-source",
+      "source": "The Hacker News",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "UK Government Unveils New Cyber Action Plan",
+      "link": "https://www.securityweek.com/uk-government-unveils-new-cyber-action-plan/",
+      "summary": "The UK government’s cyber action plan is by the government for the government, and has no advice for the private sector nor CNI.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "uk-government-unveils-new-cyber-action-plan",
+      "source": "SecurityWeek",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "CrowdStrike to Buy Identity Security Firm SGNL for $740 Million in Cash",
+      "link": "https://www.securityweek.com/crowdstrike-to-buy-identity-security-firm-sgnl-for-740-million-in-cash/",
+      "summary": "The deal aims to bolster CrowdStrike’s Falcon platform with “continuous identity” protection to secure human and AI-driven access in real-time.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "crowdstrike-to-buy-identity-security-firm-sgnl-for",
+      "source": "SecurityWeek",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "Blackbird.AI Raises $28 Million for Narrative Intelligence Platform",
+      "link": "https://www.securityweek.com/blackbird-ai-raises-28-million-for-narrative-intelligence-platform/",
+      "summary": "The company will use the funds to enhance its AI-based narrative intelligence technology platform and accelerate go-to-market efforts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "blackbirdai-raises-28-million-for-narrative-intell",
+      "source": "SecurityWeek",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "Cyera Raises $400 Million at $9 Billion Valuation",
+      "link": "https://www.securityweek.com/cyera-raises-400-million-at-9-billion-valuation/",
+      "summary": "The New York-based data security company has tripled its valuation in just one year.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cyera-raises-400-million-at-9-billion-valuation",
+      "source": "SecurityWeek",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "Rethinking Security for Agentic AI",
+      "link": "https://www.securityweek.com/rethinking-security-for-agentic-ai/",
+      "summary": "When software can think and act on its own, security strategies must shift from static policy enforcement to real-time behavioral governance.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "rethinking-security-for-agentic-ai",
+      "source": "SecurityWeek",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "Critical Vulnerability Patched in jsPDF",
+      "link": "https://www.securityweek.com/critical-vulnerability-patched-in-jspdf/",
+      "summary": "The bug can allow attackers to read arbitrary files from the system, potentially exposing configurations and credentials.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-vulnerability-patched-in-jspdf",
+      "source": "SecurityWeek",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "CISA retires 10 emergency cyber orders in rare bulk closure",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-retires-10-emergency-cyber-orders-in-rare-bulk-closure/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has retired 10 Emergency Directives issued between 2019 and 2024, saying that the required actions have been completed or are now covered by Binding Operational Directive 22-01.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "High",
+      "slug": "cisa-retires-10-emergency-cyber-orders-in-rare-bul",
+      "source": "BleepingComputer",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "Gmail's new AI Inbox uses Gemini, but Google says it won’t train AI on user emails",
+      "link": "https://www.bleepingcomputer.com/news/google/gmails-new-ai-inbox-uses-gemini-but-google-says-it-wont-train-ai-on-user-emails/",
+      "summary": "Google says it's rolling out a new feature called 'AI Inbox,' which summarizes all your emails, but the company promises it won't train its models on your emails.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "gmails-new-ai-inbox-uses-gemini-but-google-says-it",
+      "source": "BleepingComputer",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "How to discover shadow AI [Free Guide]",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "Your guide to mitigating shadow AI risks",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "how-to-discover-shadow-ai-free-guide",
+      "source": "BleepingComputer",
+      "date": "2026-01-09"
+    },
+    {
+      "title": "New China-linked hackers breach telcos using edge device exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/new-china-linked-hackers-breach-telcos-using-edge-device-exploits/",
+      "summary": "A sophisticated threat actor that uses Linux-based malware to target telecommunications providers has recently broadened its operations to include organizations in Southeastern Europe.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "new-china-linked-hackers-breach-telcos-using-edge-",
+      "source": "BleepingComputer",
+      "date": "2026-01-09"
+    }
+  ]
+}
