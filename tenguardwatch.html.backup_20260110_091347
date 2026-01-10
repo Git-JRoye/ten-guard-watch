@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024</div><div class="ticker-item">FBI Warns North Korean Hackers Using Malicious QR Codes in Spear-Phishing</div><div class="ticker-item">WhatsApp Worm Spreads Astaroth Banking Trojan Across Brazil via Contact Auto-Messaging</div><div class="ticker-item">China-Linked UAT-7290 Targets Telecoms with Linux Malware and ORB Nodes</div><div class="ticker-item">ThreatsDay Bulletin: RustFS Flaw, Iranian Ops, WebUI RCE, Cloud Leaks, and 12 More Stories</div><div class="ticker-item">The State of Trusted Open Source</div><div class="ticker-item">UK Government Unveils New Cyber Action Plan</div><div class="ticker-item">CrowdStrike to Buy Identity Security Firm SGNL for $740 Million in Cash</div><div class="ticker-item">Blackbird.AI Raises $28 Million for Narrative Intelligence Platform</div><div class="ticker-item">Cyera Raises $400 Million at $9 Billion Valuation</div><div class="ticker-item">Rethinking Security for Agentic AI</div><div class="ticker-item">Critical Vulnerability Patched in jsPDF</div><div class="ticker-item">CISA retires 10 emergency cyber orders in rare bulk closure</div><div class="ticker-item">Gmail's new AI Inbox uses Gemini, but Google says it won’t train AI on user emails</div><div class="ticker-item">How to discover shadow AI [Free Guide]</div><div class="ticker-item">New China-linked hackers breach telcos using edge device exploits</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday said  it's retiring 10 emergency directives (Eds) that were issued between 2019 and 2024.  The list of the directives now c...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI Warns North Korean Hackers Using Malicious QR Codes in Spear-Phishing</h3>
+                <p><strong>Summary:</strong> The U.S. Federal Bureau of Investigation (FBI) on Thursday released an advisory warning of North Korean state-sponsored threat actors leveraging malicious QR codes in spear-phishing campaigns targetin...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/fbi-warns-north-korean-hackers-using.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/fbi-warns-north-korean-hackers-using.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WhatsApp Worm Spreads Astaroth Banking Trojan Across Brazil via Contact Auto-Messaging</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new campaign that uses WhatsApp as a distribution vector for a Windows banking trojan called Astaroth  in attacks targeting Brazil.  The campaign ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/whatsapp-worm-spreads-astaroth-banking.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/whatsapp-worm-spreads-astaroth-banking.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked UAT-7290 Targets Telecoms with Linux Malware and ORB Nodes</h3>
+                <p><strong>Summary:</strong> A China-nexus threat actor known as UAT-7290  has been attributed to espionage-focused intrusions against entities in South Asia and Southeastern Europe.  The activity cluster, which has been active s...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/china-linked-uat-7290-targets-telecoms.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/china-linked-uat-7290-targets-telecoms.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: RustFS Flaw, Iranian Ops, WebUI RCE, Cloud Leaks, and 12 More Stories</h3>
+                <p><strong>Summary:</strong> The internet never stays quiet. Every week, new hacks, scams, and security problems show up somewhere.  This week's stories show how fast attackers change their tricks, how small mistakes turn into bi...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/threatsday-bulletin-rustfs-flaw-iranian.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/threatsday-bulletin-rustfs-flaw-iranian.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The State of Trusted Open Source</h3>
+                <p><strong>Summary:</strong> Chainguard, the trusted source for open source, has a unique view into how modern organizations actually consume open source software and where they run into risk and operational burdens. Across a gro...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/the-state-of-trusted-open-source.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/the-state-of-trusted-open-source.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UK Government Unveils New Cyber Action Plan</h3>
+                <p><strong>Summary:</strong> The UK government’s cyber action plan is by the government for the government, and has no advice for the private sector nor CNI.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/uk-government-unveils-new-cyber-action-plan/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/uk-government-unveils-new-cyber-action-plan/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CrowdStrike to Buy Identity Security Firm SGNL for $740 Million in Cash</h3>
+                <p><strong>Summary:</strong> The deal aims to bolster CrowdStrike’s Falcon platform with “continuous identity” protection to secure human and AI-driven access in real-time.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/crowdstrike-to-buy-identity-security-firm-sgnl-for-740-million-in-cash/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/crowdstrike-to-buy-identity-security-firm-sgnl-for-740-million-in-cash/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Blackbird.AI Raises $28 Million for Narrative Intelligence Platform</h3>
+                <p><strong>Summary:</strong> The company will use the funds to enhance its AI-based narrative intelligence technology platform and accelerate go-to-market efforts.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/blackbird-ai-raises-28-million-for-narrative-intelligence-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/blackbird-ai-raises-28-million-for-narrative-intelligence-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyera Raises $400 Million at $9 Billion Valuation</h3>
+                <p><strong>Summary:</strong> The New York-based data security company has tripled its valuation in just one year.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyera-raises-400-million-at-9-billion-valuation/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyera-raises-400-million-at-9-billion-valuation/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Rethinking Security for Agentic AI</h3>
+                <p><strong>Summary:</strong> When software can think and act on its own, security strategies must shift from static policy enforcement to real-time behavioral governance.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rethinking-security-for-agentic-ai/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rethinking-security-for-agentic-ai/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Vulnerability Patched in jsPDF</h3>
+                <p><strong>Summary:</strong> The bug can allow attackers to read arbitrary files from the system, potentially exposing configurations and credentials.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-vulnerability-patched-in-jspdf/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-vulnerability-patched-in-jspdf/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA retires 10 emergency cyber orders in rare bulk closure</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has retired 10 Emergency Directives issued between 2019 and 2024, saying that the required actions have been completed or are now cover...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-retires-10-emergency-cyber-orders-in-rare-bulk-closure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-retires-10-emergency-cyber-orders-in-rare-bulk-closure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Gmail's new AI Inbox uses Gemini, but Google says it won’t train AI on user emails</h3>
+                <p><strong>Summary:</strong> Google says it's rolling out a new feature called 'AI Inbox,' which summarizes all your emails, but the company promises it won't train its models on your emails.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/google/gmails-new-ai-inbox-uses-gemini-but-google-says-it-wont-train-ai-on-user-emails/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/google/gmails-new-ai-inbox-uses-gemini-but-google-says-it-wont-train-ai-on-user-emails/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to discover shadow AI [Free Guide]</h3>
+                <p><strong>Summary:</strong> Your guide to mitigating shadow AI risks</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New China-linked hackers breach telcos using edge device exploits</h3>
+                <p><strong>Summary:</strong> A sophisticated threat actor that uses Linux-based malware to target telecommunications providers has recently broadened its operations to include organizations in Southeastern Europe.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-china-linked-hackers-breach-telcos-using-edge-device-exploits/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-china-linked-hackers-breach-telcos-using-edge-device-exploits/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
