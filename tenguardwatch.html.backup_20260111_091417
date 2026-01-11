@@ -36,17 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors</div><div class="ticker-item">Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime</div><div class="ticker-item">China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines</div><div class="ticker-item">Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations</div><div class="ticker-item">Cybersecurity Predictions 2026: The Hype We Can Ignore (And the Risks We Can't)</div><div class="ticker-item">Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions</div><div class="ticker-item">In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k</div><div class="ticker-item">Tim Kosiba Named NSA Deputy Director</div><div class="ticker-item">FBI: North Korean Spear-Phishing Attacks Use Malicious QR Codes</div><div class="ticker-item">Trend Micro Patches Critical Code Execution Flaw in Apex Central</div><div class="ticker-item">CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over</div><div class="ticker-item">‘ZombieAgent’ Attack Let Researchers Take Over ChatGPT</div><div class="ticker-item">Microsoft is retiring 'Send to Kindle' in Word</div><div class="ticker-item">BreachForums hacking forum database leaked, exposing 324,000 accounts</div><div class="ticker-item">How to discover shadow AI [Free Guide]</div><div class="ticker-item">Spain arrests 34 suspects linked to Black Axe cyber crime</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime</div><div class="ticker-item">China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines</div><div class="ticker-item">Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations</div><div class="ticker-item">Cybersecurity Predictions 2026: The Hype We Can Ignore (And the Risks We Can't)</div><div class="ticker-item">Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions</div><div class="ticker-item">CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024</div><div class="ticker-item">In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k</div><div class="ticker-item">Tim Kosiba Named NSA Deputy Director</div><div class="ticker-item">FBI: North Korean Spear-Phishing Attacks Use Malicious QR Codes</div><div class="ticker-item">Trend Micro Patches Critical Code Execution Flaw in Apex Central</div><div class="ticker-item">CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over</div><div class="ticker-item">‘ZombieAgent’ Attack Let Researchers Take Over ChatGPT</div><div class="ticker-item">Anthropic: Viral Claude “Banned and reported to authorities” message isn’t real</div><div class="ticker-item">ChatGPT tests a new feature to find jobs, improve your resume, and more</div><div class="ticker-item">5 Critical Microsoft 365 Security Settings You Could Be Missing</div><div class="ticker-item">Microsoft may soon allow IT admins to uninstall Copilot</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors</h3>
-                <p><strong>Summary:</strong> The Iranian threat actor known as MuddyWater  has been attributed to a spear-phishing campaign targeting diplomatic, maritime, financial, and telecom entities in the Middle East with a Rust-based impl...</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/muddywater-launches-rustywater-rat-via.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/muddywater-launches-rustywater-rat-via.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime</h3>
                 <p><strong>Summary:</strong> Europol on Friday announced the arrest of 34 individuals in Spain who are alleged to be part of an international criminal organization called Black Axe .  As part of an operation conducted by the Span...</p>
@@ -81,6 +74,13 @@
                 <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday said  it's retiring 10 emergency directives (Eds) that were issued between 2019 and 2024.  The list of the directives now c...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k</h3>
@@ -125,32 +125,32 @@
                 <a href="https://www.securityweek.com/zombieagent-attack-let-researchers-take-over-chatgpt/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft is retiring 'Send to Kindle' in Word</h3>
-                <p><strong>Summary:</strong> Microsoft is retiring a feature that allowed you to send your documents to Kindle straight from Microsoft Word.</p>
+                <h3>Anthropic: Viral Claude “Banned and reported to authorities” message isn’t real</h3>
+                <p><strong>Summary:</strong> Anthropic has denied reports of banning legitimate accounts, after a viral post on X claimed the creator of Claude had banned a user.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-send-to-kindle-in-word/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-send-to-kindle-in-word/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-viral-claude-banned-and-reported-to-authorities-message-isnt-real/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-viral-claude-banned-and-reported-to-authorities-message-isnt-real/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>BreachForums hacking forum database leaked, exposing 324,000 accounts</h3>
-                <p><strong>Summary:</strong> The latest incarnation of the notorious BreachForums hacking forum has suffered a data breach, with its user database table leaked online.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-database-leaked-exposing-324-000-accounts/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-database-leaked-exposing-324-000-accounts/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>ChatGPT tests a new feature to find jobs, improve your resume, and more</h3>
+                <p><strong>Summary:</strong> OpenAI is testing "Jobs," a new feature that could help you explore roles, improve your resume, and plan your career. This feature is being tested after ChatGPT gained support for the Health dashboard...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-tests-a-new-feature-to-find-jobs-improve-your-resume-and-more/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-tests-a-new-feature-to-find-jobs-improve-your-resume-and-more/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>How to discover shadow AI [Free Guide]</h3>
-                <p><strong>Summary:</strong> Your guide to mitigating shadow AI risks</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>5 Critical Microsoft 365 Security Settings You Could Be Missing</h3>
+                <p><strong>Summary:</strong> A checklist for securing Microsoft 365.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/67/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/67/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Spain arrests 34 suspects linked to Black Axe cyber crime</h3>
-                <p><strong>Summary:</strong> Authorities in Spain have arrested 34 individuals allegedly part of a criminal network involved in cyber fraud and believed to be connected to the Black Axe group responsible for illicit activities ac...</p>
+                <h3>Microsoft may soon allow IT admins to uninstall Copilot</h3>
+                <p><strong>Summary:</strong> Microsoft is testing a new policy that allows IT administrators to uninstall the AI-powered Copilot digital assistant on managed devices.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/spain-arrests-34-suspects-linked-to-black-axe-cyber-crime/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/spain-arrests-34-suspects-linked-to-black-axe-cyber-crime/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-may-soon-allow-it-admins-to-uninstall-copilot-on-managed-devices/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-may-soon-allow-it-admins-to-uninstall-copilot-on-managed-devices/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
