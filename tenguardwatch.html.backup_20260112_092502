@@ -36,24 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Anthropic Launches Claude AI for Healthcare with Secure Health Record Access</div><div class="ticker-item">Researchers Uncover Service Providers Fueling Industrial-Scale Pig Butchering Fraud</div><div class="ticker-item">MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors</div><div class="ticker-item">Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime</div><div class="ticker-item">China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines</div><div class="ticker-item">Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations</div><div class="ticker-item">Torq Raises $140 Million at $1.2 Billion Valuation</div><div class="ticker-item">Hackers Accessed University of Hawaii Cancer Center Patient Data; They Weren’t Immediately Notified</div><div class="ticker-item">In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k</div><div class="ticker-item">Tim Kosiba Named NSA Deputy Director</div><div class="ticker-item">FBI: North Korean Spear-Phishing Attacks Use Malicious QR Codes</div><div class="ticker-item">Trend Micro Patches Critical Code Execution Flaw in Apex Central</div><div class="ticker-item">Anthropic brings Claude to healthcare with HIPAA-ready Enterprise tools</div><div class="ticker-item">Instagram denies breach amid claims of 17 million account data leak</div><div class="ticker-item">How to find and remove viral AI notetakers</div><div class="ticker-item">California bans data broker reselling health data of millions</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors</div><div class="ticker-item">Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime</div><div class="ticker-item">China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines</div><div class="ticker-item">Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations</div><div class="ticker-item">Cybersecurity Predictions 2026: The Hype We Can Ignore (And the Risks We Can't)</div><div class="ticker-item">Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions</div><div class="ticker-item">In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k</div><div class="ticker-item">Tim Kosiba Named NSA Deputy Director</div><div class="ticker-item">FBI: North Korean Spear-Phishing Attacks Use Malicious QR Codes</div><div class="ticker-item">Trend Micro Patches Critical Code Execution Flaw in Apex Central</div><div class="ticker-item">CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over</div><div class="ticker-item">‘ZombieAgent’ Attack Let Researchers Take Over ChatGPT</div><div class="ticker-item">Microsoft is retiring 'Send to Kindle' in Word</div><div class="ticker-item">BreachForums hacking forum database leaked, exposing 324,000 accounts</div><div class="ticker-item">How to discover shadow AI [Free Guide]</div><div class="ticker-item">Spain arrests 34 suspects linked to Black Axe cyber crime</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Anthropic Launches Claude AI for Healthcare with Secure Health Record Access</h3>
-                <p><strong>Summary:</strong> Anthropic has become the latest Artificial intelligence (AI) company to announce a new suite of features that allows users of its Claude platform to better understand their health information.  Under ...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/anthropic-launches-claude-ai-for.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/anthropic-launches-claude-ai-for.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Researchers Uncover Service Providers Fueling Industrial-Scale Pig Butchering Fraud</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have shed light on two service providers that supply online criminal networks with the necessary tools and infrastructure to fuel the pig butchering-as-a-service (PBaaS) econ...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/researchers-uncover-service-providers.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/researchers-uncover-service-providers.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors</h3>
                 <p><strong>Summary:</strong> The Iranian threat actor known as MuddyWater  has been attributed to a spear-phishing campaign targeting diplomatic, maritime, financial, and telecom entities in the Middle East with a Rust-based impl...</p>
@@ -83,18 +69,18 @@
                 <a href="https://thehackernews.com/2026/01/russian-apt28-runs-credential-stealing.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Torq Raises $140 Million at $1.2 Billion Valuation</h3>
-                <p><strong>Summary:</strong> The company will use the investment to accelerate platform adoption and expansion into the federal market.</p>
+                <h3>Cybersecurity Predictions 2026: The Hype We Can Ignore (And the Risks We Can't)</h3>
+                <p><strong>Summary:</strong> As organizations plan for 2026, cybersecurity predictions are everywhere. Yet many strategies are still shaped by headlines and speculation rather than evidence. The real challenge isn't a lack of for...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/torq-raises-140-million-at-1-2-billion-valuation/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/torq-raises-140-million-at-1-2-billion-valuation/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/cybersecurity-predictions-2026-hype-we.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/cybersecurity-predictions-2026-hype-we.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Hackers Accessed University of Hawaii Cancer Center Patient Data; They Weren’t Immediately Notified</h3>
-                <p><strong>Summary:</strong> UH officials declined an interview request and have refused to provide key information, including which cancer research project had been affected or how much UH paid the hackers to regain access to fi...</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackers-accessed-university-of-hawaii-cancer-center-patient-data-they-werent-immediately-notified/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/hackers-accessed-university-of-hawaii-cancer-center-patient-data-they-werent-immediately-notified/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions</h3>
+                <p><strong>Summary:</strong> Trend Micro has released  security updates to address multiple security vulnerabilities impacting on-premise versions of Apex Central for Windows, including a critical bug that could result in arbitra...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k</h3>
@@ -125,32 +111,46 @@
                 <a href="https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Anthropic brings Claude to healthcare with HIPAA-ready Enterprise tools</h3>
-                <p><strong>Summary:</strong> Anthropic is bringing Claude for healthcare, following a similar move by OpenAI for ChatGPT.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-brings-claude-to-healthcare-with-hipaa-ready-enterprise-tools/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-brings-claude-to-healthcare-with-hipaa-ready-enterprise-tools/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over</h3>
+                <p><strong>Summary:</strong> The Emergency Directives were retired because they achieved objectives or targeted vulnerabilities included in the KEV catalog.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-closes-10-emergency-directives-as-vulnerability-catalog-takes-over/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-closes-10-emergency-directives-as-vulnerability-catalog-takes-over/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Instagram denies breach amid claims of 17 million account data leak</h3>
-                <p><strong>Summary:</strong> Instagram says it fixed a bug that allowed threat actors to mass-request password reset emails, amid claims that data from more than 17 million Instagram accounts was scraped and leaked online.</p>
+                <h3>‘ZombieAgent’ Attack Let Researchers Take Over ChatGPT</h3>
+                <p><strong>Summary:</strong> Radware bypassed ChatGPT’s protections to exfiltrate user data and implant a persistent logic into the agent’s long-term memory.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/zombieagent-attack-let-researchers-take-over-chatgpt/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/zombieagent-attack-let-researchers-take-over-chatgpt/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft is retiring 'Send to Kindle' in Word</h3>
+                <p><strong>Summary:</strong> Microsoft is retiring a feature that allowed you to send your documents to Kindle straight from Microsoft Word.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-send-to-kindle-in-word/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-send-to-kindle-in-word/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BreachForums hacking forum database leaked, exposing 324,000 accounts</h3>
+                <p><strong>Summary:</strong> The latest incarnation of the notorious BreachForums hacking forum has suffered a data breach, with its user database table leaked online.</p>
                 <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/instagram-denies-breach-amid-claims-of-17-million-account-data-leak/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/instagram-denies-breach-amid-claims-of-17-million-account-data-leak/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-database-leaked-exposing-324-000-accounts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-database-leaked-exposing-324-000-accounts/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>How to find and remove viral AI notetakers</h3>
-                <p><strong>Summary:</strong> Your AI notetaker just joined...but did anyone invite it?</p>
+                <h3>How to discover shadow AI [Free Guide]</h3>
+                <p><strong>Summary:</strong> Your guide to mitigating shadow AI risks</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/68/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/go/68/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>California bans data broker reselling health data of millions</h3>
-                <p><strong>Summary:</strong> The California Privacy Protection Agency (CalPrivacy) has taken action against the  Datamasters marketing firm that sold the health and personal data of millions of users without being registered as a...</p>
+                <h3>Spain arrests 34 suspects linked to Black Axe cyber crime</h3>
+                <p><strong>Summary:</strong> Authorities in Spain have arrested 34 individuals allegedly part of a criminal network involved in cyber fraud and believed to be connected to the Black Axe group responsible for illicit activities ac...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/legal/california-bans-data-broker-reselling-health-data-of-millions/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/legal/california-bans-data-broker-reselling-health-data-of-millions/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/spain-arrests-34-suspects-linked-to-black-axe-cyber-crime/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/spain-arrests-34-suspects-linked-to-black-axe-cyber-crime/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
