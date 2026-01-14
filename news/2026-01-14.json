@@ -1,0 +1,206 @@
+{
+  "date": "2026-01-14",
+  "items": [
+    {
+      "title": "Critical Node.js Vulnerability Can Cause Server Crashes via async_hooks Stack Overflow",
+      "link": "https://thehackernews.com/2026/01/critical-nodejs-vulnerability-can-cause.html",
+      "summary": "Node.js has released updates to fix what it described as a critical security issue impacting \"virtually every production Node.js app\" that, if successfully exploited, could trigger a denial-of-service (DoS) condition.  \"Node.js/V8 makes a best-effort attempt to recover from stack space exhaustion with a catchable error, which frameworks have come to rely on for service availability,\" Node.js's Matteo Collina and Joyee Cheung said  in a Tuesday bulletin.  \"A bug that only reproduces when async_hooks are used would break this attempt, causing Node.js to exit with 7 directly without throwing a catchable error when recursions in user code exhaust the stack space. This makes applications whose recursion depth is controlled by unsanitized input vulnerable to Denial-of-Service attacks.\"  At its core, the shortcoming stems from the fact that Node.js exits with code 7 (denoting an Internal Exception Handler Run-Time Failure ) instead of gracefully handling the...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-nodejs-vulnerability-can-cause-server-cra",
+      "source": "The Hacker News",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "PLUGGYAPE Malware Uses Signal and WhatsApp to Target Ukrainian Defense Forces",
+      "link": "https://thehackernews.com/2026/01/pluggyape-malware-uses-signal-and.html",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed  details of new cyber attacks targeting its defense forces with malware known as PLUGGYAPE between October and December 2025.  The activity has been attributed with medium confidence to a Russian hacking group tracked as Void Blizzard  (aka Laundry Bear or UAC-0190). The threat actor is believed to be active since at least April 2024.  Attack chains distributing the malware leverage instant messaging Signal and WhatsApp as vectors, with the threat actors masquerading as charity organizations to convince targets into clicking on a seemingly-harmless link (\"harthulp-ua[.]com\" or \"solidarity-help[.]org\") impersonating the foundation and download a password-protected archive.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "pluggyape-malware-uses-signal-and-whatsapp-to-targ",
+      "source": "The Hacker News",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "Long-Running Web Skimming Campaign Steals Credit Cards From Online Checkout Pages",
+      "link": "https://thehackernews.com/2026/01/long-running-web-skimming-campaign.html",
+      "summary": "Cybersecurity researchers have discovered a major web skimming campaign that has been active since January 2022, targeting several major payment networks like American Express, Diners Club, Discover, JCB Co., Ltd., Mastercard, and UnionPay.  \"Enterprise organizations that are clients of these payment providers are the most likely to be impacted,\" Silent Push said  in a report published today.  Digital skimming attacks refer to a category of client-side attacks in which bad actors compromise legitimate e-commerce sites and payment portals to inject malicious JavaScript code that's capable of stealthily harvesting credit card information and other personal information when unsuspecting users attempt to make a payment on checkout pages.  These attacks are classified under an umbrella term called Magecart , which initially referred to a coalition of cybercriminal groups that targeted e-commerce sites using the Magento software, before diversifying to other products and platf...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "long-running-web-skimming-campaign-steals-credit-c",
+      "source": "The Hacker News",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "Malicious Chrome Extension Steals MEXC API Keys by Masquerading as Trading Tool",
+      "link": "https://thehackernews.com/2026/01/malicious-chrome-extension-steals-mexc.html",
+      "summary": "Cybersecurity researchers have disclosed details of a malicious Google Chrome extension that's capable of stealing API keys associated with MEXC, a centralized cryptocurrency exchange (CEX) available in over 170 countries , while masquerading as a tool to automate trading on the platform.  The extension, named MEXC API Automator (ID: pppdfgkfdemgfknfnhpkibbkabhghhfh), has 29 downloads and is still available on the Chrome Web Store as of writing. It was first published on September 1, 2025, by a developer named \"jorjortan142.\"  \"The extension programmatically creates new MEXC API keys, enables withdrawal permissions, hides that permission in the user interface (UI), and exfiltrates the resulting API key and secret to a hardcoded Telegram bot controlled by the threat actor,\" Socket security researcher Kirill Boychenko said in an analysis.  According to the Chrome Web Store listing, the web browser add-on is described as an extension that \"simplifies connecti...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-chrome-extension-steals-mexc-api-keys-by",
+      "source": "The Hacker News",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "[Webinar] Securing Agentic AI: From MCPs and Tool Access to Shadow API Key Sprawl",
+      "link": "https://thehackernews.com/2026/01/webinar-t-from-mcps-and-tool-access-to.html",
+      "summary": "AI agents are no longer just writing code. They are executing it.  Tools like Copilot, Claude Code, and Codex can now build, test, and deploy software end-to-end in minutes. That speed is reshaping engineering—but it's also creating a security gap most teams don't see until something breaks.  Behind every agentic workflow sits a layer few organizations are actively securing: Machine Control Protocols  (MCPs) . These systems quietly decide what an AI agent can run, which tools it can call, which APIs it can access, and what infrastructure it can touch. Once that control plane is compromised or misconfigured, the agent doesn't just make mistakes—it acts with authority.  Ask the teams impacted by CVE-2025-6514 . One flaw turned a trusted OAuth proxy used by more than 500,000 developers into a remote code execution path. No exotic exploit chain. No noisy breach. Just automation doing exactly what it was allowed to do—at scale. That incident made one thing clear: if an AI agent can execute...",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-securing-agentic-ai-from-mcps-and-tool-acc",
+      "source": "The Hacker News",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "New Advanced Linux VoidLink Malware Targets Cloud and container Environments",
+      "link": "https://thehackernews.com/2026/01/new-advanced-linux-voidlink-malware.html",
+      "summary": "Cybersecurity researchers have disclosed details of a previously undocumented and feature-rich malware framework codenamed VoidLink  that's specifically designed for long-term, stealthy access to Linux-based cloud environments  According to a new report from Check Point Research, the cloud-native Linux malware framework comprises an array of custom loaders, implants, rootkits, and modular plugins that enable its operators to augment or change its capabilities over time, as well as pivot when objectives change. It was first discovered in December 2025.  \"The framework includes multiple cloud-focused capabilities and modules, and is engineered to operate reliably in cloud and container environments over extended periods,\" the cybersecurity company said  in an analysis published today. \"VoidLink's architecture is extremely flexible and highly modular, centered around a custom Plugin API that appears to be inspired by Cobalt Strike's Beacon Object Files (BOF) appr...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-advanced-linux-voidlink-malware-targets-cloud-",
+      "source": "The Hacker News",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "CrowdStrike to Acquire Browser Security Firm Seraphic for $420 Million",
+      "link": "https://www.securityweek.com/crowdstrike-to-acquire-browser-security-firm-seraphic-for-420-million/",
+      "summary": "News of the move to acquire Seraphic comes less than a week after CrowdStrike announced an agreement to acquire identity security startup SGNL for $740 million.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "crowdstrike-to-acquire-browser-security-firm-serap",
+      "source": "SecurityWeek",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "Adobe Patches Critical Apache Tika Bug in ColdFusion",
+      "link": "https://www.securityweek.com/adobe-patches-critical-apache-tika-bug-in-coldfusion/",
+      "summary": "Adobe has released patches for 25 vulnerabilities across its products, including a critical Apache Tika flaw in ColdFusion.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "adobe-patches-critical-apache-tika-bug-in-coldfusi",
+      "source": "SecurityWeek",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "Microsoft Patches Exploited Windows Zero-Day, 111 Other Vulnerabilities",
+      "link": "https://www.securityweek.com/microsoft-patches-exploited-windows-zero-day-111-other-vulnerabilities/",
+      "summary": "Two vulnerabilities patched this month by Microsoft were disclosed publicly before fixes were released.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-exploited-windows-zero-day-111-o",
+      "source": "SecurityWeek",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "GoBruteforcer Botnet Targeting Crypto, Blockchain Projects",
+      "link": "https://www.securityweek.com/gobruteforcer-botnet-targeting-crypto-blockchain-projects/",
+      "summary": "The botnet’s propagation is fueled by the AI-generated server deployments that use weak credentials, and legacy web stacks.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "gobruteforcer-botnet-targeting-crypto-blockchain-p",
+      "source": "SecurityWeek",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "After Goldman, JPMorgan Discloses Law Firm Data Breach",
+      "link": "https://www.securityweek.com/after-goldman-jpmorgan-discloses-law-firm-data-breach/",
+      "summary": "The law firm Fried Frank seems to be informing high-profile clients about a recent data security incident.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "after-goldman-jpmorgan-discloses-law-firm-data-bre",
+      "source": "SecurityWeek",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "Cyber Insights 2026: External Attack Surface Management",
+      "link": "https://www.securityweek.com/cyber-insights-2026-external-attack-surface-management/",
+      "summary": "AI will assist companies in finding their external attack surface, but it will also assist bad actors in locating and attacking the weak points.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cyber-insights-2026-external-attack-surface-manage",
+      "source": "SecurityWeek",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "Monroe University says 2024 data breach affects 320,000 people",
+      "link": "https://www.bleepingcomputer.com/news/security/monroe-university-says-2024-data-breach-affects-320-000-people/",
+      "summary": "Monroe University revealed that threat actors stole the personal, financial, and health information of over 320,000 people after breaching its systems in a December 2024 cyberattack.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "monroe-university-says-2024-data-breach-affects-32",
+      "source": "BleepingComputer",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "Ukraine's army targeted in new charity-themed malware campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/ukraines-army-targeted-in-new-charity-themed-malware-campaign/",
+      "summary": "Officials of Ukraine's Defense Forces were targeted in a charity-themed campaign between October and December 2025 that delivered backdoor malware called PluggyApe.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "ukraines-army-targeted-in-new-charity-themed-malwa",
+      "source": "BleepingComputer",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "How to find and remove viral AI notetakers",
+      "link": "https://www.bleepingcomputer.com/go/68/",
+      "summary": "Your AI notetaker just joined...but did anyone invite it?",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "how-to-find-and-remove-viral-ai-notetakers",
+      "source": "BleepingComputer",
+      "date": "2026-01-14"
+    },
+    {
+      "title": "New VoidLink malware framework targets Linux cloud servers",
+      "link": "https://www.bleepingcomputer.com/news/security/new-voidlink-malware-framework-targets-linux-cloud-servers/",
+      "summary": "A newly discovered advanced cloud-native Linux malware framework named VoidLink focuses on cloud environments, providing attackers with custom loaders, implants, rootkits, and plugins designed for modern infrastructures.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-voidlink-malware-framework-targets-linux-cloud",
+      "source": "BleepingComputer",
+      "date": "2026-01-14"
+    }
+  ]
+}
