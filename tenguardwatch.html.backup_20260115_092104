@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Critical Node.js Vulnerability Can Cause Server Crashes via async_hooks Stack Overflow</div><div class="ticker-item">PLUGGYAPE Malware Uses Signal and WhatsApp to Target Ukrainian Defense Forces</div><div class="ticker-item">Long-Running Web Skimming Campaign Steals Credit Cards From Online Checkout Pages</div><div class="ticker-item">Malicious Chrome Extension Steals MEXC API Keys by Masquerading as Trading Tool</div><div class="ticker-item">[Webinar] Securing Agentic AI: From MCPs and Tool Access to Shadow API Key Sprawl</div><div class="ticker-item">New Advanced Linux VoidLink Malware Targets Cloud and container Environments</div><div class="ticker-item">CrowdStrike to Acquire Browser Security Firm Seraphic for $420 Million</div><div class="ticker-item">Adobe Patches Critical Apache Tika Bug in ColdFusion</div><div class="ticker-item">Microsoft Patches Exploited Windows Zero-Day, 111 Other Vulnerabilities</div><div class="ticker-item">GoBruteforcer Botnet Targeting Crypto, Blockchain Projects</div><div class="ticker-item">After Goldman, JPMorgan Discloses Law Firm Data Breach</div><div class="ticker-item">Cyber Insights 2026: External Attack Surface Management</div><div class="ticker-item">Monroe University says 2024 data breach affects 320,000 people</div><div class="ticker-item">Ukraine's army targeted in new charity-themed malware campaign</div><div class="ticker-item">How to find and remove viral AI notetakers</div><div class="ticker-item">New VoidLink malware framework targets Linux cloud servers</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Node.js Vulnerability Can Cause Server Crashes via async_hooks Stack Overflow</h3>
+                <p><strong>Summary:</strong> Node.js has released updates to fix what it described as a critical security issue impacting "virtually every production Node.js app" that, if successfully exploited, could trigger a denial-of-service...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/critical-nodejs-vulnerability-can-cause.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/critical-nodejs-vulnerability-can-cause.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>PLUGGYAPE Malware Uses Signal and WhatsApp to Target Ukrainian Defense Forces</h3>
+                <p><strong>Summary:</strong> The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed  details of new cyber attacks targeting its defense forces with malware known as PLUGGYAPE between October and December 2025.  T...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/pluggyape-malware-uses-signal-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/pluggyape-malware-uses-signal-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Long-Running Web Skimming Campaign Steals Credit Cards From Online Checkout Pages</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a major web skimming campaign that has been active since January 2022, targeting several major payment networks like American Express, Diners Club, Discover, ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/long-running-web-skimming-campaign.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/long-running-web-skimming-campaign.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious Chrome Extension Steals MEXC API Keys by Masquerading as Trading Tool</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a malicious Google Chrome extension that's capable of stealing API keys associated with MEXC, a centralized cryptocurrency exchange (CEX) available ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/malicious-chrome-extension-steals-mexc.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/malicious-chrome-extension-steals-mexc.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] Securing Agentic AI: From MCPs and Tool Access to Shadow API Key Sprawl</h3>
+                <p><strong>Summary:</strong> AI agents are no longer just writing code. They are executing it.  Tools like Copilot, Claude Code, and Codex can now build, test, and deploy software end-to-end in minutes. That speed is reshaping en...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/webinar-t-from-mcps-and-tool-access-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/webinar-t-from-mcps-and-tool-access-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Advanced Linux VoidLink Malware Targets Cloud and container Environments</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a previously undocumented and feature-rich malware framework codenamed VoidLink  that's specifically designed for long-term, stealthy access to Linu...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/new-advanced-linux-voidlink-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/new-advanced-linux-voidlink-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CrowdStrike to Acquire Browser Security Firm Seraphic for $420 Million</h3>
+                <p><strong>Summary:</strong> News of the move to acquire Seraphic comes less than a week after CrowdStrike announced an agreement to acquire identity security startup SGNL for $740 million.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/crowdstrike-to-acquire-browser-security-firm-seraphic-for-420-million/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/crowdstrike-to-acquire-browser-security-firm-seraphic-for-420-million/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Adobe Patches Critical Apache Tika Bug in ColdFusion</h3>
+                <p><strong>Summary:</strong> Adobe has released patches for 25 vulnerabilities across its products, including a critical Apache Tika flaw in ColdFusion.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/adobe-patches-critical-apache-tika-bug-in-coldfusion/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/adobe-patches-critical-apache-tika-bug-in-coldfusion/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Patches Exploited Windows Zero-Day, 111 Other Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Two vulnerabilities patched this month by Microsoft were disclosed publicly before fixes were released.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-patches-exploited-windows-zero-day-111-other-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-patches-exploited-windows-zero-day-111-other-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GoBruteforcer Botnet Targeting Crypto, Blockchain Projects</h3>
+                <p><strong>Summary:</strong> The botnet’s propagation is fueled by the AI-generated server deployments that use weak credentials, and legacy web stacks.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/gobruteforcer-botnet-targeting-crypto-blockchain-projects/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/gobruteforcer-botnet-targeting-crypto-blockchain-projects/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>After Goldman, JPMorgan Discloses Law Firm Data Breach</h3>
+                <p><strong>Summary:</strong> The law firm Fried Frank seems to be informing high-profile clients about a recent data security incident.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/after-goldman-jpmorgan-discloses-law-firm-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/after-goldman-jpmorgan-discloses-law-firm-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyber Insights 2026: External Attack Surface Management</h3>
+                <p><strong>Summary:</strong> AI will assist companies in finding their external attack surface, but it will also assist bad actors in locating and attacking the weak points.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyber-insights-2026-external-attack-surface-management/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyber-insights-2026-external-attack-surface-management/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Monroe University says 2024 data breach affects 320,000 people</h3>
+                <p><strong>Summary:</strong> Monroe University revealed that threat actors stole the personal, financial, and health information of over 320,000 people after breaching its systems in a December 2024 cyberattack.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/monroe-university-says-2024-data-breach-affects-320-000-people/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/monroe-university-says-2024-data-breach-affects-320-000-people/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ukraine's army targeted in new charity-themed malware campaign</h3>
+                <p><strong>Summary:</strong> Officials of Ukraine's Defense Forces were targeted in a charity-themed campaign between October and December 2025 that delivered backdoor malware called PluggyApe.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ukraines-army-targeted-in-new-charity-themed-malware-campaign/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ukraines-army-targeted-in-new-charity-themed-malware-campaign/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to find and remove viral AI notetakers</h3>
+                <p><strong>Summary:</strong> Your AI notetaker just joined...but did anyone invite it?</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/68/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/68/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New VoidLink malware framework targets Linux cloud servers</h3>
+                <p><strong>Summary:</strong> A newly discovered advanced cloud-native Linux malware framework named VoidLink focuses on cloud environments, providing attackers with custom loaders, implants, rootkits, and plugins designed for mod...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-voidlink-malware-framework-targets-linux-cloud-servers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-voidlink-malware-framework-targets-linux-cloud-servers/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
