@@ -1,0 +1,204 @@
+{
+  "date": "2026-01-18",
+  "items": [
+    {
+      "title": "Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice",
+      "link": "https://thehackernews.com/2026/01/black-basta-ransomware-hacker-leader.html",
+      "summary": "Ukrainian and German law enforcement authorities have identified  two Ukrainians suspected of working for the Russia-linked ransomware-as-a-service (RaaS) group Black Basta.  In addition, the group's alleged leader, a 35-year-old Russian national named Oleg Evgenievich Nefedov (Нефедов Олег Евгеньевич), has been added  to the European Union's Most Wanted  and INTERPOL's Red Notice  lists, authorities noted.  \"According to the investigation, the suspects specialized in technical hacking of protected systems and were involved in preparing cyberattacks using ransomware,\" the Cyber Police of Ukraine said in a statement.   The agency said the accused individuals functioned as \"hash crackers,\" who specialize in extracting passwords from information systems using specialized software. Once the credential information was obtained, members of the ransomware group broke into corporate networks and ultimately deployed ransomware and extorted money to recover the e...",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "black-basta-ransomware-leader-added-to-eu-most-wan",
+      "source": "The Hacker News",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans",
+      "link": "https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html",
+      "summary": "OpenAI on Friday said it would start showing ads in ChatGPT to logged-in adult U.S. users in both the free and ChatGPT Go tiers in the coming weeks, as the artificial intelligence (AI) company expanded access  to its low-cost subscription globally.  \"You need to know that your data and conversations are protected and never sold to advertisers,\" OpenAI said . \"And we need to keep a high bar and give you control over your experience, so you see truly relevant, high-quality ads—and can turn off personalization if you want.\"   The company has positioned advertising as a way to ensure that the benefits of artificial general intelligence – a term used to describe a stage in machine learning when an AI system can reach or surpass human-level intelligence – can be made more accessible to the masses. In addition, it can be \"transformative\" for small businesses and emerging brands trying to compete, it added.   It also emphasized that ads do not influence responses...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-to-show-ads-in-chatgpt-for-logged-in-us-adu",
+      "source": "The Hacker News",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+      "link": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+      "summary": "The JavaScript (aka JScript) malware loader called GootLoader  has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000 archives.  \"The actor creates a malformed archive as an anti-analysis technique,\" Expel security researcher Aaron Walton said  in a report shared with The Hacker News. \"That is, many unarchiving tools are not able to consistently extract it, but one critical unarchiving tool seems to work consistently and reliably: the default tool built into Windows systems.\"  This leads to a scenario where the archive cannot be processed by tools like WinRAR or 7-Zip, and, therefore, prevents many automated workflows from analyzing the contents of the file. At the same time, it can be opened by the default Windows unarchiver, thereby ensuring that victims who fall victim to the social engineering scheme can extract and run the JavaScript malware.  GootLoader is typically distrib...",
+      "tags": [
+        "malware",
+        "phishing",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "gootloader-malware-uses-5001000-concatenated-zip-a",
+      "source": "The Hacker News",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts",
+      "link": "https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html",
+      "summary": "Cybersecurity researchers have discovered five new malicious Google Chrome web browser extensions that masquerade as human resources (HR) and enterprise resource planning (ERP) platforms like Workday, NetSuite, and SuccessFactors to take control of victim accounts.  \"The extensions work in concert to steal authentication tokens, block incident response capabilities, and enable complete account takeover through session hijacking,\" Socket security researcher Kush Pandya said  in a Thursday report.  The names of the extensions are listed below -   DataByCloud Access (ID: oldhjammhkghhahhhdcifmmlefibciph, Published by: databycloud1104) - 251 Installs  Tool Access 11 (ID: ijapakghdgckgblfgjobhcfglebbkebf, Published by: databycloud1104) - 101 Installs  DataByCloud 1 (ID: mbjjeombjeklkbndcjgmfcdhfbjngcam, Published by: databycloud1104) - 1,000 Installs  DataByCloud 2 (ID: makdmacamkifdldldlelollkkjnoiedg, Published by: databycloud1104) - 1,000 Installs  Software Access (ID: bmodapc...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "five-malicious-chrome-extensions-impersonate-workd",
+      "source": "The Hacker News",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Your Digital Footprint Can Lead Right to Your Front Door",
+      "link": "https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html",
+      "summary": "You lock your doors at night. You avoid sketchy phone calls. You're careful about what you post on social media.  But what about the information about you that's already out there—without your permission?  Your name. Home address. Phone number. Past jobs. Family members. Old usernames.  It's all still online, and it's a lot easier to find than you think.  The hidden safety threat lurking online  Most people don't realize how much of their personal life is sitting on public websites, data broker platforms, and sketchy directories.  These sites don't just sell your info to marketers—they make it available to anyone with internet access.  And that's when things can get dangerous. Exposed personal information can lead to:   Doxxing incidents where personal info is leaked online  Harassment that moves from your inbox to your doorstep  Stalkers and scammers are building a profile on you using old addresses and phone numbers  Strangers showing up where you live or work.   It's not just creep...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "your-digital-footprint-can-lead-right-to-your-fron",
+      "source": "The Hacker News",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing",
+      "link": "https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html",
+      "summary": "Security experts have disclosed details of a new campaign that has targeted U.S. government and policy entities using politically themed lures to deliver a backdoor known as LOTUSLITE .  The targeted malware campaign leverages decoys related to the recent geopolitical developments  between the U.S. and Venezuela to distribute a ZIP archive (\"US now deciding what's next for Venezuela.zip\") containing a malicious DLL that's launched using DLL side-loading techniques. It's not known if the campaign managed to successfully compromise any of the targets.  The activity has been attributed with moderate confidence to a Chinese state-sponsored group known as Mustang Panda  (aka Earth Pret, HoneyMyte, and Twill Typhoon), citing tactical and infrastructure patterns. It's worth noting that the threat actor is known for extensively relying on DLL side-loading to launch its backdoors, including TONESHELL.   \"This campaign reflects a continued trend of targeted spear ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "lotuslite-backdoor-targets-us-policy-entities-usin",
+      "source": "The Hacker News",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System",
+      "link": "https://www.securityweek.com/tennessee-man-pleads-guilty-to-repeatedly-hacking-supreme-courts-filing-system/",
+      "summary": "Nicholas Moore pleaded guilty to repeatedly hacking the U.S. Supreme Court’s filing system and illegally accessing computer systems belonging to AmeriCorps and the Department of Veterans Affairs.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "tennessee-man-pleads-guilty-to-repeatedly-hacking-",
+      "source": "SecurityWeek",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack",
+      "link": "https://www.securityweek.com/in-other-news-fortisiem-flaw-exploited-sean-plankey-renominated-russias-polish-grid-attack/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: BodySnatcher agentic AI hijacking, Telegram IP exposure, shipping systems hacked by researcher.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-fortisiem-flaw-exploited-sean-planke",
+      "source": "SecurityWeek",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Monnai Raises $12 Million for Identity and Risk Data Infrastructure",
+      "link": "https://www.securityweek.com/monnai-raises-12-million-for-identity-and-risk-data-infrastructure/",
+      "summary": "The company will use the investment to accelerate the adoption of its solution among financial institutions and digital businesses.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "monnai-raises-12-million-for-identity-and-risk-dat",
+      "source": "SecurityWeek",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Project Eleven Raises $20 Million for Post-Quantum Security",
+      "link": "https://www.securityweek.com/project-eleven-raises-20-million-for-post-quantum-security/",
+      "summary": "The startup is building the necessary infrastructure and tools to help organizations transition to post-quantum computing.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "project-eleven-raises-20-million-for-post-quantum-",
+      "source": "SecurityWeek",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "750,000 Impacted by Data Breach at Canadian Investment Watchdog",
+      "link": "https://www.securityweek.com/750000-impacted-by-data-breach-at-canadian-investment-watchdog/",
+      "summary": "The incident impacted the personal information of CIRO member firms and their registered employees.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "750000-impacted-by-data-breach-at-canadian-investm",
+      "source": "SecurityWeek",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Cyber Insights 2026: Social Engineering",
+      "link": "https://www.securityweek.com/cyber-insights-2026-social-engineering/",
+      "summary": "We’ve known that social engineering would get AI wings. Now, at the beginning of 2026, we are learning just how high those wings can soar.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "cyber-insights-2026-social-engineering",
+      "source": "SecurityWeek",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Google Chrome tests Gemini-powered AI \"Skills\"",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-tests-gemini-powered-ai-skills/",
+      "summary": "Google is testing \"Skills\" for Gemini in Chrome, which will allow AI in Chrome to perform tasks automatically, and it could challenge Perplexity Comet or Edge's Copilot mode.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-chrome-tests-gemini-powered-ai-skills",
+      "source": "BleepingComputer",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Google Chrome now lets you turn off on-device AI model powering scam detection",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/",
+      "summary": "Google Chrome now lets you delete the local AI models that power the \"Enhanced Protection\" feature, which was upgraded with AI capabilities last year.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-chrome-now-lets-you-turn-off-on-device-ai-m",
+      "source": "BleepingComputer",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-18"
+    },
+    {
+      "title": "Credential-stealing Chrome extensions target enterprise HR platforms",
+      "link": "https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/",
+      "summary": "Malicious Chrome extensions on the Chrome Web Store masquerading as productivity and security tools for enterprise HR and ERP platforms were discovered stealing authentication credentials or blocking management pages used to respond to security incidents.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "credential-stealing-chrome-extensions-target-enter",
+      "source": "BleepingComputer",
+      "date": "2026-01-18"
+    }
+  ]
+}
