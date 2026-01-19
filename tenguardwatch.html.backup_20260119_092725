@@ -36,24 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CrashFix Chrome Extension Delivers ModeloRAT Using ClickFix-Style Browser Crash Lures</div><div class="ticker-item">Security Bug in StealC Malware Panel Let Researchers Spy on Threat Actor Operations</div><div class="ticker-item">Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice</div><div class="ticker-item">OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans</div><div class="ticker-item">GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection</div><div class="ticker-item">Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts</div><div class="ticker-item">Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System</div><div class="ticker-item">In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack</div><div class="ticker-item">Monnai Raises $12 Million for Identity and Risk Data Infrastructure</div><div class="ticker-item">Project Eleven Raises $20 Million for Post-Quantum Security</div><div class="ticker-item">750,000 Impacted by Data Breach at Canadian Investment Watchdog</div><div class="ticker-item">Cyber Insights 2026: Social Engineering</div><div class="ticker-item">OpenAI hostname hints at a new ChatGPT feature codenamed "Sonata"</div><div class="ticker-item">New OpenAI leak hints at upcoming ChatGPT features</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Microsoft releases OOB Windows updates to fix shutdown, Cloud PC bugs</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice</div><div class="ticker-item">OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans</div><div class="ticker-item">GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection</div><div class="ticker-item">Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts</div><div class="ticker-item">Your Digital Footprint Can Lead Right to Your Front Door</div><div class="ticker-item">LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing</div><div class="ticker-item">Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System</div><div class="ticker-item">In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack</div><div class="ticker-item">Monnai Raises $12 Million for Identity and Risk Data Infrastructure</div><div class="ticker-item">Project Eleven Raises $20 Million for Post-Quantum Security</div><div class="ticker-item">750,000 Impacted by Data Breach at Canadian Investment Watchdog</div><div class="ticker-item">Cyber Insights 2026: Social Engineering</div><div class="ticker-item">Google Chrome tests Gemini-powered AI "Skills"</div><div class="ticker-item">Google Chrome now lets you turn off on-device AI model powering scam detection</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Credential-stealing Chrome extensions target enterprise HR platforms</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>CrashFix Chrome Extension Delivers ModeloRAT Using ClickFix-Style Browser Crash Lures</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of an ongoing campaign dubbed KongTuke that used a malicious Google Chrome extension masquerading as an ad blocker to deliberately crash the web browse...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Security Bug in StealC Malware Panel Let Researchers Spy on Threat Actor Operations</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed a cross-site scripting (XSS) vulnerability in the web-based control panel used by operators of the StealC information stealer, allowing them to gather crucial ...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/security-bug-in-stealc-malware-panel.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/01/security-bug-in-stealc-malware-panel.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice</h3>
                 <p><strong>Summary:</strong> Ukrainian and German law enforcement authorities have identified  two Ukrainians suspected of working for the Russia-linked ransomware-as-a-service (RaaS) group Black Basta.  In addition, the group's ...</p>
@@ -81,6 +67,20 @@
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Your Digital Footprint Can Lead Right to Your Front Door</h3>
+                <p><strong>Summary:</strong> You lock your doors at night. You avoid sketchy phone calls. You're careful about what you post on social media.  But what about the information about you that's already out there—without your permiss...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing</h3>
+                <p><strong>Summary:</strong> Security experts have disclosed details of a new campaign that has targeted U.S. government and policy entities using politically themed lures to deliver a backdoor known as LOTUSLITE .  The targeted ...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System</h3>
@@ -125,18 +125,18 @@
                 <a href="https://www.securityweek.com/cyber-insights-2026-social-engineering/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>OpenAI hostname hints at a new ChatGPT feature codenamed "Sonata"</h3>
-                <p><strong>Summary:</strong> OpenAI is reportedly testing a new feature or product codenamed "Sonata," and it could be related to music or audio-related experiences on ChatGPT.</p>
+                <h3>Google Chrome tests Gemini-powered AI "Skills"</h3>
+                <p><strong>Summary:</strong> Google is testing "Skills" for Gemini in Chrome, which will allow AI in Chrome to perform tasks automatically, and it could challenge Perplexity Comet or Edge's Copilot mode.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-hostname-hints-at-a-new-chatgpt-feature-codenamed-sonata/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-hostname-hints-at-a-new-chatgpt-feature-codenamed-sonata/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-tests-gemini-powered-ai-skills/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-tests-gemini-powered-ai-skills/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New OpenAI leak hints at upcoming ChatGPT features</h3>
-                <p><strong>Summary:</strong> OpenAI is internally testing a new update for ChatGPT, at least on the web. It'll begin rolling out in the coming weeks.</p>
+                <h3>Google Chrome now lets you turn off on-device AI model powering scam detection</h3>
+                <p><strong>Summary:</strong> Google Chrome now lets you delete the local AI models that power the "Enhanced Protection" feature, which was upgraded with AI capabilities last year.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/new-openai-leak-hints-at-upcoming-chatgpt-features/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/new-openai-leak-hints-at-upcoming-chatgpt-features/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft releases OOB Windows updates to fix shutdown, Cloud PC bugs</h3>
-                <p><strong>Summary:</strong> Microsoft has released multiple emergency, out-of-band updates for Windows 10, Windows 11, and Windows Server to fix two issues caused by the January Patch Tuesday updates.</p>
+                <h3>Credential-stealing Chrome extensions target enterprise HR platforms</h3>
+                <p><strong>Summary:</strong> Malicious Chrome extensions on the Chrome Web Store masquerading as productivity and security tools for enterprise HR and ERP platforms were discovered stealing authentication credentials or blocking ...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-oob-windows-updates-to-fix-shutdown-cloud-pc-bugs/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-oob-windows-updates-to-fix-shutdown-cloud-pc-bugs/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
