@@ -1,0 +1,206 @@
+{
+  "date": "2026-01-20",
+  "items": [
+    {
+      "title": "Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion",
+      "link": "https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html",
+      "summary": "A Telegram-based guarantee marketplace known for advertising a broad range of illicit services appears to be winding down its operations, according to new findings from Elliptic.  The blockchain intelligence company said Tudou Guarantee has effectively ceased transactions through its public Telegram groups following a period of significant growth. The marketplace is estimated to have processed over $12 billion in transactions, making it the third-largest illicit marketplace of all time.  \"Other parts of Tudou Guarantee, such as its gambling operations, continue to function, so it remains to be seen whether this represents the first stages of a full shutdown or a pivot away from fraud-related activity,\" the company said .  Tudou Guarantee is just one of the many Telegram-based marketplaces serving cyber fraudsters, the others being HuiOne Guarantee  and Xinbi Guarantee , which collectively engaged in over $35 billion in USDT transactions. Thousands of channels associated with...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "tudou-guarantee-marketplace-halts-telegram-transac",
+      "source": "The Hacker News",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites",
+      "link": "https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html",
+      "summary": "Cybersecurity researchers have disclosed details of a security flaw that leverages indirect prompt injection targeting Google Gemini as a way to bypass authorization guardrails and use Google Calendar as a data extraction mechanism.  The vulnerability, Miggo Security's Head of Research, Liad Eliyahu, said, made it possible to circumvent Google Calendar's privacy controls by hiding a dormant malicious payload within a standard calendar invite.  \"This bypass enabled unauthorized access to private meeting data and the creation of deceptive calendar events without any direct user interaction,\" Eliyahu said  in a report shared with The Hacker News.  The starting point of the attack chain is a new calendar event that's crafted by the threat actor and sent to a target. The invite's description embeds a natural language prompt that's designed to do their bidding, resulting in a prompt injection.  The attack gets activated when a user asks Gemini a completely inno...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-gemini-prompt-injection-flaw-exposed-privat",
+      "source": "The Hacker News",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More",
+      "link": "https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html",
+      "summary": "In cybersecurity, the line between a normal update and a serious incident keeps getting thinner. Systems that once felt reliable are now under pressure from constant change. New AI tools, connected devices, and automated systems quietly create more ways in, often faster than security teams can react. This week's stories show how easily a small mistake or hidden service can turn into a real break-in.  Behind the headlines, the pattern is clear. Automation is being used against the people who built it. Attackers reuse existing systems instead of building new ones. They move faster than most organizations can patch or respond. From quiet code flaws to malware that changes while it runs, attacks are focusing less on speed and more on staying hidden and in control.  If you're protecting anything connected—developer tools, cloud systems, or internal networks—this edition shows where attacks are going next, not where they used to be.  ⚡ Threat of the Week  Critical Fortinet Flaw Comes Under...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "-weekly-recap-fortinet-exploits-redline-clipjack-n",
+      "source": "The Hacker News",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "DevOps & SaaS Downtime: The High (and Hidden) Costs for Cloud-First Businesses",
+      "link": "https://thehackernews.com/2026/01/high-costs-of-devops-saas-downtime.html",
+      "summary": "Just a few years ago, the cloud was touted as the \"magic pill\" for any cyber threat or performance issue. Many were lured by the \"always-on\" dream, trading granular control for the convenience of managed services.  In recent years, many of us have learned (often the hard way) that public cloud service providers are not immune to attacks and SaaS downtime, hiding behind the Shared Responsibility cushion. To stay operational, competitive, and resilient in today's threat landscape, teams must move beyond the dependency on SaaS providers and understand what cyber resilience really means.  The Myth of DevOps SaaS Resilience  In 2024 alone, popular DevOps SaaS platforms—like GitHub, Jira, or Azure DevOps— experienced 502 incidents in total, which resulted in degraded performance and outages totaling over 4,755 hours . The conclusion is clear: Entrusting \"the big players\" with your source code, development metadata, and workflow projects doesn't make your business immune to downtime and subs...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "devops-saas-downtime-the-high-and-hidden-costs-for",
+      "source": "The Hacker News",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "New StackWarp Hardware Flaw Breaks AMD SEV-SNP Protections on Zen 1–5 CPUs",
+      "link": "https://thehackernews.com/2026/01/new-stackwarp-hardware-flaw-breaks-amd.html",
+      "summary": "A team of academics from the CISPA Helmholtz Center for Information Security in Germany has disclosed the details of a new hardware vulnerability affecting AMD processors.  The security flaw, codenamed StackWarp , can allow bad actors with privileged control over a host server to run malicious code within confidential virtual machines (CVMs), undermining the integrity guarantees provided by AMD Secure Encrypted Virtualization with Secure Nested Paging ( SEV-SNP ). It impacts AMD Zen 1 through Zen 5 processors.  \"In the context of SEV-SNP, this flaw allows malicious VM [virtual machine] hosts to manipulate the guest VM's stack pointer ,\" researchers Ruiyi Zhang, Tristan Hornetz, Daniel Weber, Fabian Thomas, and Michael Schwarz said . \"This enables hijacking of both control and data flow, allowing an attacker to achieve remote code execution and privilege escalation inside a confidential VM.\"   AMD, which is tracking the vulnerability as CVE-2025-29943  (CVSS v4 ...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-stackwarp-hardware-flaw-breaks-amd-sev-snp-pro",
+      "source": "The Hacker News",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "CrashFix Chrome Extension Delivers ModeloRAT Using ClickFix-Style Browser Crash Lures",
+      "link": "https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html",
+      "summary": "Cybersecurity researchers have disclosed details of an ongoing campaign dubbed KongTuke that used a malicious Google Chrome extension masquerading as an ad blocker to deliberately crash the web browser and trick victims into running arbitrary commands using ClickFix -like lures to deliver a previously undocumented remote access trojan (RAT) dubbed ModeloRAT.  This new escalation of ClickFix, observed earlier this month, has been codenamed CrashFix  by Huntress.  KongTuke , also tracked as 404 TDS, Chaya_002, LandUpdate808, and TAG-124, is the name given to a traffic distribution system (TDS) known for profiling victim hosts before redirecting them to a payload delivery site that infects their systems. Access to these compromised hosts is then handed off to other threat actors, including ransomware groups, for follow-on malware delivery.  Some of the cybercriminal groups that have leveraged TAG-124 infrastructure include Rhysida ransomware , Interlock ransomware , and TA866  (aka Asylu...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "crashfix-chrome-extension-delivers-modelorat-using",
+      "source": "The Hacker News",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "TP-Link Patches Vulnerability Exposing VIGI Cameras to Remote Hacking",
+      "link": "https://www.securityweek.com/tp-link-patches-vulnerability-exposing-vigi-cameras-to-hacking/",
+      "summary": "The researcher who discovered the vulnerability saw more than 2,500 internet-exposed devices.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "tp-link-patches-vulnerability-exposing-vigi-camera",
+      "source": "SecurityWeek",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "Jordanian Admits in US Court to Selling Access to 50 Enterprise Networks",
+      "link": "https://www.securityweek.com/jordanian-admits-in-us-court-to-selling-access-to-50-enterprise-networks/",
+      "summary": "Operating as an access broker, the defendant sold unauthorized access to compromised networks to an undercover agent.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "jordanian-admits-in-us-court-to-selling-access-to-",
+      "source": "SecurityWeek",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "‘SolyxImmortal’ Information Stealer Emerges",
+      "link": "https://www.securityweek.com/solyximmortal-information-stealer-emerges/",
+      "summary": "The information stealer abuses legitimate APIs and libraries to exfiltrate data to Discord webhooks.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "solyximmortal-information-stealer-emerges",
+      "source": "SecurityWeek",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "Cyber Insights 2026: Information Sharing",
+      "link": "https://www.securityweek.com/cyber-insights-2026-information-sharing/",
+      "summary": "Information sharing is necessary for efficient cybersecurity, and is widespread; but never quite perfect in practice.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cyber-insights-2026-information-sharing",
+      "source": "SecurityWeek",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "New Reports Reinforce Cyberattack’s Role in Maduro Capture Blackout",
+      "link": "https://www.securityweek.com/new-reports-reinforce-cyberattacks-role-in-maduro-capture-blackout/",
+      "summary": "US officials told The New York Times that cyberattacks were used to turn off the lights in Caracas and disrupt air defense radars.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-reports-reinforce-cyberattacks-role-in-maduro-",
+      "source": "SecurityWeek",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "Malicious Chrome Extension Crashes Browser in ClickFix Variant ‘CrashFix’",
+      "link": "https://www.securityweek.com/malicious-chrome-extension-crashes-browser-in-clickfix-variant-crashfix/",
+      "summary": "Posing as an ad blocker, the malicious extension crashes the browser to lure victims into installing malware.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-chrome-extension-crashes-browser-in-clic",
+      "source": "SecurityWeek",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "ChatGPT Go now unlocks unlimited access to GPT-5.2 Instant for $8",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-now-unlocks-unlimited-access-to-gpt-52-instant-for-8/",
+      "summary": "ChatGPT Go is finally worth your money, as OpenAI has almost doubled the usage limits and enabled ultimate access to GPT 5.2 Instant.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "chatgpt-go-now-unlocks-unlimited-access-to-gpt-52-",
+      "source": "BleepingComputer",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "You can get ChatGPT's $20 Plus subscription for free for a limited time",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/you-can-get-chatgpts-20-plus-subscription-for-free-for-a-limited-time/",
+      "summary": "OpenAI is offering ChatGPT Plus, which costs $20 in the United States, for free, but the offer is valid for some accounts only, and it's a limited-time deal.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "you-can-get-chatgpts-20-plus-subscription-for-free",
+      "source": "BleepingComputer",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-20"
+    },
+    {
+      "title": "Fake ad blocker extension crashes the browser for ClickFix attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-ad-blocker-extension-crashes-the-browser-for-clickfix-attacks/",
+      "summary": "A malvertising campaign is using a fake ad-blocking Chrome and Edge extension named NexShield that intentionally crashes the browser in preparation for ClickFix attacks.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fake-ad-blocker-extension-crashes-the-browser-for-",
+      "source": "BleepingComputer",
+      "date": "2026-01-20"
+    }
+  ]
+}
