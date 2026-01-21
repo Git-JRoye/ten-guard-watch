@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion</div><div class="ticker-item">Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites</div><div class="ticker-item">⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More</div><div class="ticker-item">DevOps & SaaS Downtime: The High (and Hidden) Costs for Cloud-First Businesses</div><div class="ticker-item">New StackWarp Hardware Flaw Breaks AMD SEV-SNP Protections on Zen 1–5 CPUs</div><div class="ticker-item">CrashFix Chrome Extension Delivers ModeloRAT Using ClickFix-Style Browser Crash Lures</div><div class="ticker-item">TP-Link Patches Vulnerability Exposing VIGI Cameras to Remote Hacking</div><div class="ticker-item">Jordanian Admits in US Court to Selling Access to 50 Enterprise Networks</div><div class="ticker-item">‘SolyxImmortal’ Information Stealer Emerges</div><div class="ticker-item">Cyber Insights 2026: Information Sharing</div><div class="ticker-item">New Reports Reinforce Cyberattack’s Role in Maduro Capture Blackout</div><div class="ticker-item">Malicious Chrome Extension Crashes Browser in ClickFix Variant ‘CrashFix’</div><div class="ticker-item">ChatGPT Go now unlocks unlimited access to GPT-5.2 Instant for $8</div><div class="ticker-item">You can get ChatGPT's $20 Plus subscription for free for a limited time</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Fake ad blocker extension crashes the browser for ClickFix attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion</h3>
+                <p><strong>Summary:</strong> A Telegram-based guarantee marketplace known for advertising a broad range of illicit services appears to be winding down its operations, according to new findings from Elliptic.  The blockchain intel...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a security flaw that leverages indirect prompt injection targeting Google Gemini as a way to bypass authorization guardrails and use Google Calendar...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More</h3>
+                <p><strong>Summary:</strong> In cybersecurity, the line between a normal update and a serious incident keeps getting thinner. Systems that once felt reliable are now under pressure from constant change. New AI tools, connected de...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DevOps & SaaS Downtime: The High (and Hidden) Costs for Cloud-First Businesses</h3>
+                <p><strong>Summary:</strong> Just a few years ago, the cloud was touted as the "magic pill" for any cyber threat or performance issue. Many were lured by the "always-on" dream, trading granular control for the convenience of mana...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/high-costs-of-devops-saas-downtime.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/high-costs-of-devops-saas-downtime.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New StackWarp Hardware Flaw Breaks AMD SEV-SNP Protections on Zen 1–5 CPUs</h3>
+                <p><strong>Summary:</strong> A team of academics from the CISPA Helmholtz Center for Information Security in Germany has disclosed the details of a new hardware vulnerability affecting AMD processors.  The security flaw, codename...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/new-stackwarp-hardware-flaw-breaks-amd.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/new-stackwarp-hardware-flaw-breaks-amd.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CrashFix Chrome Extension Delivers ModeloRAT Using ClickFix-Style Browser Crash Lures</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of an ongoing campaign dubbed KongTuke that used a malicious Google Chrome extension masquerading as an ad blocker to deliberately crash the web browse...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TP-Link Patches Vulnerability Exposing VIGI Cameras to Remote Hacking</h3>
+                <p><strong>Summary:</strong> The researcher who discovered the vulnerability saw more than 2,500 internet-exposed devices.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tp-link-patches-vulnerability-exposing-vigi-cameras-to-hacking/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tp-link-patches-vulnerability-exposing-vigi-cameras-to-hacking/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Jordanian Admits in US Court to Selling Access to 50 Enterprise Networks</h3>
+                <p><strong>Summary:</strong> Operating as an access broker, the defendant sold unauthorized access to compromised networks to an undercover agent.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/jordanian-admits-in-us-court-to-selling-access-to-50-enterprise-networks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/jordanian-admits-in-us-court-to-selling-access-to-50-enterprise-networks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>‘SolyxImmortal’ Information Stealer Emerges</h3>
+                <p><strong>Summary:</strong> The information stealer abuses legitimate APIs and libraries to exfiltrate data to Discord webhooks.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/solyximmortal-information-stealer-emerges/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/solyximmortal-information-stealer-emerges/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyber Insights 2026: Information Sharing</h3>
+                <p><strong>Summary:</strong> Information sharing is necessary for efficient cybersecurity, and is widespread; but never quite perfect in practice.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyber-insights-2026-information-sharing/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyber-insights-2026-information-sharing/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Reports Reinforce Cyberattack’s Role in Maduro Capture Blackout</h3>
+                <p><strong>Summary:</strong> US officials told The New York Times that cyberattacks were used to turn off the lights in Caracas and disrupt air defense radars.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-reports-reinforce-cyberattacks-role-in-maduro-capture-blackout/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-reports-reinforce-cyberattacks-role-in-maduro-capture-blackout/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious Chrome Extension Crashes Browser in ClickFix Variant ‘CrashFix’</h3>
+                <p><strong>Summary:</strong> Posing as an ad blocker, the malicious extension crashes the browser to lure victims into installing malware.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/malicious-chrome-extension-crashes-browser-in-clickfix-variant-crashfix/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/malicious-chrome-extension-crashes-browser-in-clickfix-variant-crashfix/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ChatGPT Go now unlocks unlimited access to GPT-5.2 Instant for $8</h3>
+                <p><strong>Summary:</strong> ChatGPT Go is finally worth your money, as OpenAI has almost doubled the usage limits and enabled ultimate access to GPT 5.2 Instant.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-now-unlocks-unlimited-access-to-gpt-52-instant-for-8/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-now-unlocks-unlimited-access-to-gpt-52-instant-for-8/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>You can get ChatGPT's $20 Plus subscription for free for a limited time</h3>
+                <p><strong>Summary:</strong> OpenAI is offering ChatGPT Plus, which costs $20 in the United States, for free, but the offer is valid for some accounts only, and it's a limited-time deal.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/you-can-get-chatgpts-20-plus-subscription-for-free-for-a-limited-time/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/you-can-get-chatgpts-20-plus-subscription-for-free-for-a-limited-time/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake ad blocker extension crashes the browser for ClickFix attacks</h3>
+                <p><strong>Summary:</strong> A malvertising campaign is using a fake ad-blocking Chrome and Edge extension named NexShield that intentionally crashes the browser in preparation for ClickFix attacks.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fake-ad-blocker-extension-crashes-the-browser-for-clickfix-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fake-ad-blocker-extension-crashes-the-browser-for-clickfix-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
