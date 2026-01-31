@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Ex-Google Engineer Convicted for Stealing 2,000 AI Trade Secrets for China Startup</div><div class="ticker-item">SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score</div><div class="ticker-item">Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released</div><div class="ticker-item">Researchers Find 175,000 Publicly Exposed Ollama AI Servers Across 130 Countries</div><div class="ticker-item">ThreatsDay Bulletin: New RCEs, Darknet Busts, Kernel Bugs & 25+ More Stories</div><div class="ticker-item">Survey of 100+ Energy Systems Reveals Critical OT Cybersecurity Gaps</div><div class="ticker-item">Ivanti Patches Exploited EPMM Zero-Days</div><div class="ticker-item">LLMs Hijacked, Monetized in ‘Operation Bizarre Bazaar’</div><div class="ticker-item">N8n Vulnerabilities Could Lead to Remote Code Execution</div><div class="ticker-item">SolarWinds Patches Critical Web Help Desk Vulnerabilities</div><div class="ticker-item">Cyber Insights 2026: Zero Trust and Following the Path</div><div class="ticker-item">Google Disrupts IPIDEA Proxy Network</div><div class="ticker-item">Microsoft links Windows 11 boot failures to failed December 2025 update</div><div class="ticker-item">Hugging Face abused to spread thousands of Android malware variants</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Ivanti warns of two EPMM flaws exploited in zero-day attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ex-Google Engineer Convicted for Stealing 2,000 AI Trade Secrets for China Startup</h3>
+                <p><strong>Summary:</strong> A former Google engineer accused of stealing thousands of the company's confidential documents to build a startup in China has been convicted in the U.S., the Department of Justice (DoJ) announced  Th...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score</h3>
+                <p><strong>Summary:</strong> SmarterTools has addressed two more security flaws in SmarterMail email software, including one critical security flaw that could result in arbitrary code execution.  The vulnerability, tracked as CVE...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/smartermail-fixes-critical.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/smartermail-fixes-critical.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released</h3>
+                <p><strong>Summary:</strong> Ivanti has rolled out  security updates to address two security flaws impacting Ivanti Endpoint Manager Mobile (EPMM) that have been exploited in zero-day attacks, one of which has been added  by the ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Find 175,000 Publicly Exposed Ollama AI Servers Across 130 Countries</h3>
+                <p><strong>Summary:</strong> A new joint investigation by SentinelOne SentinelLABS, and Censys has revealed that the open-source artificial intelligence (AI) deployment has created a vast "unmanaged, publicly accessible layer of ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/researchers-find-175000-publicly.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/researchers-find-175000-publicly.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: New RCEs, Darknet Busts, Kernel Bugs & 25+ More Stories</h3>
+                <p><strong>Summary:</strong> This week's updates show how small changes can create real problems. Not loud incidents, but quiet shifts that are easy to miss until they add up. The kind that affects systems people rely on every da...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/threatsday-bulletin-new-rces-darknet.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/threatsday-bulletin-new-rces-darknet.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Survey of 100+ Energy Systems Reveals Critical OT Cybersecurity Gaps</h3>
+                <p><strong>Summary:</strong> A study by OMICRON  has revealed widespread cybersecurity gaps in the operational technology (OT) networks of substations, power plants, and control centers worldwide. Drawing on data from more than 1...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/survey-of-100-energy-systems-reveals.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/survey-of-100-energy-systems-reveals.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ivanti Patches Exploited EPMM Zero-Days</h3>
+                <p><strong>Summary:</strong> The critical-severity vulnerabilities could allow unauthenticated attackers to execute arbitrary code remotely.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ivanti-patches-exploited-epmm-zero-days/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ivanti-patches-exploited-epmm-zero-days/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LLMs Hijacked, Monetized in ‘Operation Bizarre Bazaar’</h3>
+                <p><strong>Summary:</strong> An LLMjacking operation has been targeting exposed LLMs and MCPs at scale, for commercial monetization.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/llms-hijacked-monetized-in-operation-bizarre-bazaar/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/llms-hijacked-monetized-in-operation-bizarre-bazaar/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>N8n Vulnerabilities Could Lead to Remote Code Execution</h3>
+                <p><strong>Summary:</strong> The two bugs impacted n8n’s sandbox mechanism and could be exploited via weaknesses in the AST sanitization logic.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/n8n-vulnerabilities-could-lead-to-remote-code-execution/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/n8n-vulnerabilities-could-lead-to-remote-code-execution/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SolarWinds Patches Critical Web Help Desk Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The four critical flaws could be exploited without authentication for remote code execution or authentication bypass.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/solarwinds-patches-critical-web-help-desk-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/solarwinds-patches-critical-web-help-desk-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyber Insights 2026: Zero Trust and Following the Path</h3>
+                <p><strong>Summary:</strong> Zero Trust is not a thing; it is an idea. It is not a product; it is a concept – it is a destination that has no precise route and may never be reached.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyber-insights-2026-zero-trust-and-following-the-path/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyber-insights-2026-zero-trust-and-following-the-path/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Disrupts IPIDEA Proxy Network</h3>
+                <p><strong>Summary:</strong> One of the largest residential proxy networks, IPIDEA enrolled devices through SDKs for mobile and desktop.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-disrupts-ipidea-proxy-network/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-disrupts-ipidea-proxy-network/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft links Windows 11 boot failures to failed December 2025 update</h3>
+                <p><strong>Summary:</strong> Microsoft has linked recent reports of Windows 11 boot failures after installing the January 2026 updates to previously failed attempts to install the December 2025 security update, which left systems...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-links-windows-11-boot-failures-to-failed-december-2025-update/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-links-windows-11-boot-failures-to-failed-december-2025-update/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hugging Face abused to spread thousands of Android malware variants</h3>
+                <p><strong>Summary:</strong> A new Android malware campaign is using the Hugging Face platform as a repository for thousands of variations of an APK payload that collects credentials for popular financial and payment services.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hugging-face-abused-to-spread-thousands-of-android-malware-variants/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hugging-face-abused-to-spread-thousands-of-android-malware-variants/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ivanti warns of two EPMM flaws exploited in zero-day attacks</h3>
+                <p><strong>Summary:</strong> Ivanti has disclosed two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as CVE-2026-1281 and CVE-2026-1340, that were exploited in zero-day attacks.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ivanti-warns-of-two-epmm-flaws-exploited-in-zero-day-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ivanti-warns-of-two-epmm-flaws-exploited-in-zero-day-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
