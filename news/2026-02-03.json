@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-03",
+  "items": [
+    {
+      "title": "APT28 Uses Microsoft Office CVE-2026-21509 in Espionage-Focused Malware Attacks",
+      "link": "https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html",
+      "summary": "The Russia-linked state-sponsored threat actor known as APT28  (aka UAC-0001) has been attributed to attacks exploiting a newly disclosed security flaw in Microsoft Office as part of a campaign codenamed Operation Neusploit .  Zscaler ThreatLabz said  it observed the hacking group weaponizing the shortcoming on January 29, 2026, in attacks targeting users in Ukraine, Slovakia, and Romania, three days after Microsoft publicly disclosed the existence of the bug.  The vulnerability in question is CVE-2026-21509  (CVSS score: 7.8), a security feature bypass in Microsoft Office that could allow an unauthorized attacker to send a specially crafted Office file and trigger it.   \"Social engineering lures were crafted in both English and localized languages (Romanian, Slovak, and Ukrainian) to target the users in the respective countries,\" security researchers Sudeep Singh and Roy Tay said. \"The threat actor employed server-side evasion techniques, responding with the malicious ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apt28-uses-microsoft-office-cve-2026-21509-in-espi",
+      "source": "The Hacker News",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Mozilla Adds One-Click Option to Disable Generative AI Features in Firefox",
+      "link": "https://thehackernews.com/2026/02/mozilla-adds-one-click-option-to.html",
+      "summary": "Mozilla on Monday announced a new controls section in its Firefox desktop browser settings that allows users to completely turn off generative artificial intelligence (GenAI) features.  \"It provides a single place to block current and future generative AI features in Firefox,\" Ajit Varma, head of Firefox, said . \"You can also review and manage individual AI features if you choose to use them. This lets you use Firefox without AI while we continue to build AI features for those who want them.\"  Mozilla first announced  its plans to integrate AI into Firefox in November 2025, stating it's fully opt-in and that it's incorporating the technology while placing users in the driver's seat.   The new feature is expected to be rolled out with Firefox 148, which is scheduled to be released on February 24, 2026. At the outset, AI controls will allow users to manage the following settings individually -   Translations  Alt text in PDFs (adding accessibility descrip...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "mozilla-adds-one-click-option-to-disable-generativ",
+      "source": "The Hacker News",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Notepad++ Hosting Breach Attributed to China-Linked Lotus Blossom Hacking Group",
+      "link": "https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html",
+      "summary": "A China-linked threat actor known as Lotus Blossom  has been attributed with medium confidence to the recently discovered compromise of the infrastructure hosting Notepad++.  The attack enabled the state-sponsored hacking group to deliver a previously undocumented backdoor codenamed Chrysalis to users of the open-source editor, according to new findings  from Rapid7.  The development comes shortly after Notepad++ maintainer Don Ho said  that a compromise at the hosting provider level allowed threat actors to hijack update traffic starting June 2025 and selectively redirect such requests from certain users to malicious servers to serve a tampered update by exploiting insufficient update verification controls that existed in older versions of the utility.   The weakness was plugged in December 2025 with the release of version 8.8.9. It has since emerged that the hosting provider for the software was breached to perform targeted traffic redirections until December 2, 2025, when the attac...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "notepad-hosting-breach-attributed-to-china-linked-",
+      "source": "The Hacker News",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Researchers Find 341 Malicious ClawHub Skills Stealing Data from OpenClaw Users",
+      "link": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
+      "summary": "A security audit of 2,857 skills on ClawHub has found 341 malicious skills across multiple campaigns, according to new findings  from Koi Security, exposing users to new supply chain risks.  ClawHub  is a marketplace designed to make it easy for OpenClaw  users to find and install third-party skills. It's an extension to the OpenClaw project, a self-hosted artificial intelligence (AI) assistant formerly known as both Clawdbot and Moltbot.  The analysis, which Koi conducted with the help of an OpenClaw bot named Alex, found that 335 skills use fake pre-requisites to install an Apple macOS stealer named Atomic Stealer  (AMOS). This activity set has been codenamed ClawHavoc .  \"You install what looks like a legitimate skill – maybe solana-wallet-tracker or youtube-summarize-pro,\" Koi researcher Oren Yomtov said. \"The skill's documentation looks professional. But there's a 'Prerequisites' section that says you need to install something first.\"  This...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "researchers-find-341-malicious-clawhub-skills-stea",
+      "source": "The Hacker News",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
+      "link": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
+      "summary": "A high-severity security flaw has been disclosed in OpenClaw  (formerly referred to as Clawdbot and Moltbot) that could allow remote code execution (RCE) through a crafted malicious link.  The issue, which is tracked as CVE-2026-25253  (CVSS score: 8.8), has been addressed in version 2026.1.29  released on January 30, 2026. It has been described as a token exfiltration vulnerability that leads to full gateway compromise.  \"The Control UI trusts gatewayUrl from the query string without validation and auto-connects on load, sending the stored gateway token in the WebSocket connect payload,\" OpenClaw's creator and maintainer Peter Steinberger said  in an advisory.   \"Clicking a crafted link or visiting a malicious site can send the token to an attacker-controlled server. The attacker can then connect to the victim's local gateway, modify config (sandbox, tool policies), and invoke privileged actions, achieving 1-click RCE.\"",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "openclaw-bug-enables-one-click-remote-code-executi",
+      "source": "The Hacker News",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Microsoft Begins NTLM Phase-Out With Three-Stage Plan to Move Windows to Kerberos",
+      "link": "https://thehackernews.com/2026/02/microsoft-begins-ntlm-phase-out-with.html",
+      "summary": "Microsoft has announced  a three-phase approach to phase out New Technology LAN Manager (NTLM) as part of its efforts to shift Windows environments toward stronger, Kerberos-based options.  The development comes more than two years after the tech giant revealed  its plans to deprecate the legacy technology, citing its susceptibility to weaknesses that could facilitate relay attacks and allow bad actors to gain unauthorized access to network resources. NTLM was formally deprecated  in June 2024  and no longer receives updates.  \"NTLM consists of security protocols originally designed to provide authentication, integrity, and confidentiality to users,\" Mariam Gewida, Technical Program Manager II at Microsoft, explained. \"However, as security threats have evolved, so have our standards to meet modern security expectations. Today, NTLM is susceptible to various attacks, including replay and man-in-the-middle attacks, due to its use of weak cryptography.\"  Despite the d...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-begins-ntlm-phase-out-with-three-stage-p",
+      "source": "The Hacker News",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "ShinyHunters-Branded Extortion Activity Expands, Escalates",
+      "link": "https://www.securityweek.com/shinyhunters-branded-extortion-activity-expands-escalates/",
+      "summary": "Hackers rely on evolved vishing and login harvesting to compromise SSO credentials for unauthorized MFA enrollment.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "shinyhunters-branded-extortion-activity-expands-es",
+      "source": "SecurityWeek",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Open VSX Publisher Account Hijacked in Fresh GlassWorm Attack",
+      "link": "https://www.securityweek.com/open-vsx-publisher-account-hijacked-in-fresh-glassworm-attack/",
+      "summary": "A hacker published malicious versions of four established VS Code extensions to distribute a GlassWorm malware loader.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "open-vsx-publisher-account-hijacked-in-fresh-glass",
+      "source": "SecurityWeek",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Default ICS Credentials Exploited in Destructive Attack on Polish Energy Facilities",
+      "link": "https://www.securityweek.com/default-ics-credentials-exploited-in-destructive-attack-on-polish-energy-facilities/",
+      "summary": "Poland’s CERT has published a report on the recent attack, providing new details on targeted ICS and attribution.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "default-ics-credentials-exploited-in-destructive-a",
+      "source": "SecurityWeek",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Cyber Insights 2026: Malware and Cyberattacks in the Age of AI",
+      "link": "https://www.securityweek.com/cyber-insights-2026-malware-and-cyberattacks-in-the-age-of-ai/",
+      "summary": "Security leaders share how artificial intelligence is changing malware, ransomware, and identity-led intrusions, and how defenses must evolve.",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cyber-insights-2026-malware-and-cyberattacks-in-th",
+      "source": "SecurityWeek",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Over 1,400 MongoDB Databases Ransacked by Threat Actor",
+      "link": "https://www.securityweek.com/over-1400-mongodb-databases-ransacked-by-threat-actor/",
+      "summary": "Of 3,100 unprotected MongoDB instances, half remain compromised, most of them by a single threat actor.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "over-1400-mongodb-databases-ransacked-by-threat-ac",
+      "source": "SecurityWeek",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Microsoft Moves Closer to Disabling NTLM",
+      "link": "https://www.securityweek.com/microsoft-moves-closer-to-disabling-ntlm/",
+      "summary": "The next major Windows Server and Windows releases will have the deprecated authentication protocol disabled by default.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-moves-closer-to-disabling-ntlm",
+      "source": "SecurityWeek",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "New GlassWorm attack targets macOS via compromised OpenVSX extensions",
+      "link": "https://www.bleepingcomputer.com/news/security/new-glassworm-attack-targets-macos-via-compromised-openvsx-extensions/",
+      "summary": "A new GlassWorm malware attack through compromised OpenVSX extensions focuses on stealing passwords, crypto-wallet data, and developer credentials and configurations from macOS systems.",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-glassworm-attack-targets-macos-via-compromised",
+      "source": "BleepingComputer",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Russian hackers exploit recently patched Microsoft Office bug in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/",
+      "summary": "Ukraine's Computer Emergency Response Team (CERT) says that Russian hackers are exploiting CVE-2026-21509, a recently patched vulnerability in multiple versions of Microsoft Office.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "russian-hackers-exploit-recently-patched-microsoft",
+      "source": "BleepingComputer",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-02-03"
+    },
+    {
+      "title": "Malicious MoltBot skills used to push password-stealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-moltbot-skills-used-to-push-password-stealing-malware/",
+      "summary": "More than 230 malicious packages for the personal AI assistant OpenClaw (formerly known as Moltbot and ClawdBot) have been published in less than a week on the tool's official registry and on GitHub.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-moltbot-skills-used-to-push-password-ste",
+      "source": "BleepingComputer",
+      "date": "2026-02-03"
+    }
+  ]
+}
