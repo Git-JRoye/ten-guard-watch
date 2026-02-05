@@ -1,0 +1,210 @@
+{
+  "date": "2026-02-05",
+  "items": [
+    {
+      "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+      "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+      "summary": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw, tracked as CVE-2026-25049  (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613  (CVSS score: 9.9), another critical defect that was patched by n8n in December 2025.  \"Additional exploits in the expression evaluation of n8n have been identified and patched following CVE-2025-68613,\" n8n's maintainers said  in an advisory released Wednesday.  \"An authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n.\"   The issue affects the following versions -   <1.123.17 (Fixed in 1.123.17)  <2.5.2 (Fixed in 2.5.2)",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-n8n-flaw-cve-2026-25049-enables-system-co",
+      "source": "The Hacker News",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign",
+      "link": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
+      "summary": "Cybersecurity researchers have disclosed details of an active web traffic hijacking campaign that has targeted NGINX installations and management panels like Baota (BT) in an attempt to route it through the attacker's infrastructure.  Datadog Security Labs said  it observed threat actors associated with the recent React2Shell  ( CVE-2025-55182 , CVSS score: 10.0) exploitation using malicious NGINX configurations to pull off the attack.  \"The malicious configuration intercepts legitimate web traffic between users and websites and routes it through attacker-controlled backend servers,\" security researcher Ryan Simon said. \"The campaign targets Asian TLDs (.in, .id, .pe, .bd, .th), Chinese hosting infrastructure (Baota Panel), and government and educational TLDs (.edu, .gov).\"   The activity involves the use of shell scripts to inject malicious configurations into NGINX, an open-source reverse proxy and load balancer for web traffic management. These \"locatio...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "malicious-nginx-configurations-enable-large-scale-",
+      "source": "The Hacker News",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models",
+      "link": "https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html",
+      "summary": "Microsoft on Wednesday said it built a lightweight scanner  that it said can detect backdoors in open-weight large language models (LLMs) and improve the overall trust in artificial intelligence (AI) systems.  The tech giant's AI Security team said the scanner leverages three observable signals that can be used to reliably flag the presence of backdoors while maintaining a low false positive rate.  \"These signatures are grounded in how trigger inputs measurably affect a model's internal behavior, providing a technically robust and operationally meaningful basis for detection,\" Blake Bullwinkel and Giorgio Severi said  in a report shared with The Hacker News.  LLMs can be susceptible to two types of tampering: model weights, which refer to learnable parameters within a machine learning model that undergird the decision-making logic and transform input data into predicted outputs, and the code itself.   Another type of attack is model poisoning, which occurs when a t...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-develops-scanner-to-detect-backdoors-in-",
+      "source": "The Hacker News",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "DEAD#VAX Malware Campaign Deploys AsyncRAT via IPFS-Hosted VHD Phishing Files",
+      "link": "https://thehackernews.com/2026/02/deadvax-malware-campaign-deploys.html",
+      "summary": "Threat hunters have disclosed details of a new, stealthy malware campaign dubbed DEAD#VAX  that employs a mix of \"disciplined tradecraft and clever abuse of legitimate system features\" to bypass traditional detection mechanisms and deploy a remote access trojan (RAT) known as AsyncRAT .  \"The attack leverages IPFS-hosted VHD files, extreme script obfuscation, runtime decryption, and in-memory shellcode injection into trusted Windows processes, never dropping a decrypted binary to disk,\" Securonix researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said  in a report shared with The Hacker News.  AsyncRAT is an open-source malware that provides attackers with extensive control over compromised endpoints, enabling surveillance and data collection through keylogging, screen and webcam capture, clipboard monitoring, file system access, remote command execution, and persistence across reboots.   The starting point of the infection sequence is a phishing email...",
+      "tags": [
+        "malware",
+        "phishing",
+        "ransomware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "deadvax-malware-campaign-deploys-asyncrat-via-ipfs",
+      "source": "The Hacker News",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "China-Linked Amaranth-Dragon Exploits WinRAR Flaw in Espionage Campaigns",
+      "link": "https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html",
+      "summary": "Threat actors affiliated with China have been attributed to a fresh set of cyber espionage campaigns targeting government and law enforcement agencies across Southeast Asia throughout 2025.  Check Point Research is tracking the previously undocumented activity cluster under the moniker Amaranth-Dragon , which it said shares links to the APT 41 ecosystem. Targeted countries include Cambodia, Thailand, Laos, Indonesia, Singapore, and the Philippines.  \"Many of the campaigns were timed to coincide with sensitive local political developments, official government decisions, or regional security events,\" the cybersecurity company said  in a report shared with The Hacker News. \"By anchoring malicious activity in familiar, timely contexts, the attackers significantly increased the likelihood that targets would engage with the content.\"  The Israeli firm added that the attacks were \"narrowly focused\" and \"tightly scoped,\" indicating efforts on the part o...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-amaranth-dragon-exploits-winrar-flaw-",
+      "source": "The Hacker News",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Orchid Security Introduces Continuous Identity Observability for Enterprise Applications",
+      "link": "https://thehackernews.com/2026/02/orchid-security-introduces-continuous.html",
+      "summary": "An innovative approach to discovering, analyzing, and governing identity usage beyond traditional IAM controls.  The Challenge: Identity Lives Outside the Identity Stack  Identity and access management tools were built to govern users and directories.  Modern enterprises run on applications. Over time, identity logic has moved into application code, APIs, service accounts, and custom authentication layers. Credentials are embedded. Authorization is enforced locally. Usage patterns change without review.  These identity paths often operate outside the visibility of IAM, PAM, and IGA.  For security and identity teams, this creates a blind spot - what we call Identity Dark Matter.  This dark matter is responsible for the identity risk that cannot be directly observed.  Why Traditional Approaches Fall Short  Most identity tools rely on configuration data and policy models.  That works for managed users.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "orchid-security-introduces-continuous-identity-obs",
+      "source": "The Hacker News",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Blockchain Intelligence Firm TRM Labs Raises $70 Million at $1 Billion Valuation",
+      "link": "https://www.securityweek.com/blockchain-intelligence-firm-trm-labs-raises-70-million-at-1-billion-valuation/",
+      "summary": "The Series C funding will enable the company to expand its AI capabilities for disrupting criminal networks.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "blockchain-intelligence-firm-trm-labs-raises-70-mi",
+      "source": "SecurityWeek",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Vulnerabilities Allowed Full Compromise of Google Looker Instances",
+      "link": "https://www.securityweek.com/vulnerabilities-allowed-full-compromise-of-google-looker-instances/",
+      "summary": "The flaws dubbed LookOut can be exploited for remote code execution and data exfiltration.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "vulnerabilities-allowed-full-compromise-of-google-",
+      "source": "SecurityWeek",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Cyber Insights 2026: Cyberwar and Rising Nation State Threats",
+      "link": "https://www.securityweek.com/cyber-insights-2026-cyberwar-and-rising-nation-state-threats/",
+      "summary": "While both cyberwar and cyberwarfare will increase through 2026, cyberwarfare is likely to increase more dramatically. We hope it will never boil over – but we should be aware of the possibility and its consequences.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cyber-insights-2026-cyberwar-and-rising-nation-sta",
+      "source": "SecurityWeek",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Varonis Acquisition of AllTrue.ai Valued at $150 Million",
+      "link": "https://www.securityweek.com/varonis-acquisition-of-alltrue-ai-valued-at-150-million/",
+      "summary": "The data security firm has acquired the AI trust, risk, and security management company to expand its capabilities.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "varonis-acquisition-of-alltrueai-valued-at-150-mil",
+      "source": "SecurityWeek",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Orion Raises $32 Million for Data Security",
+      "link": "https://www.securityweek.com/orion-raises-32-million-for-data-security/",
+      "summary": "The startup will use the funding to accelerate product development and go-to-market operations.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "orion-raises-32-million-for-data-security",
+      "source": "SecurityWeek",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft",
+      "link": "https://www.securityweek.com/dockerdash-flaw-in-docker-ai-assistant-leads-to-rce-data-theft/",
+      "summary": "The critical vulnerability exists in the contextual trust in MCP Gateway architecture, as instructions are passed without validation.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "dockerdash-flaw-in-docker-ai-assistant-leads-to-rc",
+      "source": "SecurityWeek",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Hackers compromise NGINX servers to redirect user traffic",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-nginx-servers-to-redirect-user-traffic/",
+      "summary": "A threat actor is compromising NGINX servers in a campaign that hijacks user traffic and reroutes it through the attacker's backend infrastructure.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-compromise-nginx-servers-to-redirect-user-",
+      "source": "BleepingComputer",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Critical n8n flaws disclosed along with public exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-n8n-flaws-disclosed-along-with-public-exploits/",
+      "summary": "Multiple critical vulnerabilities in the popular n8n open-source workflow automation platform allow escaping the confines of the environment and taking complete control of the host server.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-n8n-flaws-disclosed-along-with-public-exp",
+      "source": "BleepingComputer",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Tech prices are high, but this refurbished iPad is still under $400",
+      "link": "https://www.bleepingcomputer.com/offer/deals/tech-prices-are-high-but-this-refurbished-ipad-is-still-under-400/",
+      "summary": "This 2025 iPad 11\" is a refurbished device, but it has a grade \"A\" rating, meaning it's in near-mint condition with a much lower price. Instead of paying $499, you can get this iPad 11 for only $369.99.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "tech-prices-are-high-but-this-refurbished-ipad-is-",
+      "source": "BleepingComputer",
+      "date": "2026-02-05"
+    }
+  ]
+}

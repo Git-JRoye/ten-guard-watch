@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers</div><div class="ticker-item">Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions</div><div class="ticker-item">CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog</div><div class="ticker-item">Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata</div><div class="ticker-item">[Webinar] The Smarter SOC Blueprint: Learn What to Build, Buy, and Automate</div><div class="ticker-item">Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package</div><div class="ticker-item">Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks</div><div class="ticker-item">RADICL Raises $31 Million for vSOC</div><div class="ticker-item">RapidFort Raises $42M to Automate Software Supply Chain Security</div><div class="ticker-item">Critical React Native Vulnerability Exploited in the Wild</div><div class="ticker-item">Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant</div><div class="ticker-item">Hackers Leak 5.1 Million Panera Bread Records</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers</h3>
+                <p><strong>Summary:</strong> Microsoft has warned that information-stealing attacks are "rapidly expanding" beyond Windows to target Apple macOS environments by leveraging cross-platform languages like Python and abusing trusted ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions</h3>
+                <p><strong>Summary:</strong> The Eclipse Foundation, which maintains the Open VSX Registry, has announced plans to enforce security checks before Microsoft Visual Studio Code (VS Code) extensions are published to the open-source ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities ( KEV ) cata...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon , an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line I...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] The Smarter SOC Blueprint: Learn What to Build, Buy, and Automate</h3>
+                <p><strong>Summary:</strong> Most security teams today are buried under tools. Too many dashboards. Too much noise. Not enough real progress.  Every vendor promises “complete coverage” or “AI-powered automation,” but inside most ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/webinar-smarter-soc-blueprint-learn.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/webinar-smarter-soc-blueprint-learn.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package</h3>
+                <p><strong>Summary:</strong> Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular "@react-native-community/cli" npm package.  Cybersecurity company VulnCheck s...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks</h3>
+                <p><strong>Summary:</strong> Wiz and Permiso have analyzed the AI agent social network and found serious security issues and threats.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/security-analysis-of-moltbook-agent-network-bot-to-bot-prompt-injection-and-data-leaks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/security-analysis-of-moltbook-agent-network-bot-to-bot-prompt-injection-and-data-leaks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RADICL Raises $31 Million for vSOC</h3>
+                <p><strong>Summary:</strong> The company will use the investment to accelerate development of its autonomous virtual security operations center (vSOC).</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/radicl-raises-31-million-for-vsoc/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/radicl-raises-31-million-for-vsoc/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RapidFort Raises $42M to Automate Software Supply Chain Security</h3>
+                <p><strong>Summary:</strong> The company will use the latest capital to scale its go-to-market efforts and expand its platform’s capabilities.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rapidfort-raises-42m-to-automate-software-supply-chain-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rapidfort-raises-42m-to-automate-software-supply-chain-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical React Native Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant</h3>
+                <p><strong>Summary:</strong> OpenClaw (aka Moltbot and Clawdbot) is vulnerable to one-click remote code execution attacks.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/vulnerability-allows-hackers-to-hijack-openclaw-ai-assistant/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/vulnerability-allows-hackers-to-hijack-openclaw-ai-assistant/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers Leak 5.1 Million Panera Bread Records</h3>
+                <p><strong>Summary:</strong> ShinyHunters has claimed the theft of 14 million records from the US bakery-cafe chain’s systems.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackers-leak-5-1-million-panera-bread-accounts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hackers-leak-5-1-million-panera-bread-accounts/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
