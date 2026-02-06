@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows</div><div class="ticker-item">Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign</div><div class="ticker-item">Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models</div><div class="ticker-item">DEAD#VAX Malware Campaign Deploys AsyncRAT via IPFS-Hosted VHD Phishing Files</div><div class="ticker-item">China-Linked Amaranth-Dragon Exploits WinRAR Flaw in Espionage Campaigns</div><div class="ticker-item">Orchid Security Introduces Continuous Identity Observability for Enterprise Applications</div><div class="ticker-item">Blockchain Intelligence Firm TRM Labs Raises $70 Million at $1 Billion Valuation</div><div class="ticker-item">Vulnerabilities Allowed Full Compromise of Google Looker Instances</div><div class="ticker-item">Cyber Insights 2026: Cyberwar and Rising Nation State Threats</div><div class="ticker-item">Varonis Acquisition of AllTrue.ai Valued at $150 Million</div><div class="ticker-item">Orion Raises $32 Million for Data Security</div><div class="ticker-item">DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft</div><div class="ticker-item">Hackers compromise NGINX servers to redirect user traffic</div><div class="ticker-item">Critical n8n flaws disclosed along with public exploits</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Tech prices are high, but this refurbished iPad is still under $400</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows</h3>
+                <p><strong>Summary:</strong> A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of an active web traffic hijacking campaign that has targeted NGINX installations and management panels like Baota (BT) in an attempt to route it throu...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models</h3>
+                <p><strong>Summary:</strong> Microsoft on Wednesday said it built a lightweight scanner  that it said can detect backdoors in open-weight large language models (LLMs) and improve the overall trust in artificial intelligence (AI) ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DEAD#VAX Malware Campaign Deploys AsyncRAT via IPFS-Hosted VHD Phishing Files</h3>
+                <p><strong>Summary:</strong> Threat hunters have disclosed details of a new, stealthy malware campaign dubbed DEAD#VAX  that employs a mix of "disciplined tradecraft and clever abuse of legitimate system features" to bypass tradi...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/deadvax-malware-campaign-deploys.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/deadvax-malware-campaign-deploys.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked Amaranth-Dragon Exploits WinRAR Flaw in Espionage Campaigns</h3>
+                <p><strong>Summary:</strong> Threat actors affiliated with China have been attributed to a fresh set of cyber espionage campaigns targeting government and law enforcement agencies across Southeast Asia throughout 2025.  Check Poi...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Orchid Security Introduces Continuous Identity Observability for Enterprise Applications</h3>
+                <p><strong>Summary:</strong> An innovative approach to discovering, analyzing, and governing identity usage beyond traditional IAM controls.  The Challenge: Identity Lives Outside the Identity Stack  Identity and access managemen...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/orchid-security-introduces-continuous.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/orchid-security-introduces-continuous.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Blockchain Intelligence Firm TRM Labs Raises $70 Million at $1 Billion Valuation</h3>
+                <p><strong>Summary:</strong> The Series C funding will enable the company to expand its AI capabilities for disrupting criminal networks.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/blockchain-intelligence-firm-trm-labs-raises-70-million-at-1-billion-valuation/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/blockchain-intelligence-firm-trm-labs-raises-70-million-at-1-billion-valuation/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vulnerabilities Allowed Full Compromise of Google Looker Instances</h3>
+                <p><strong>Summary:</strong> The flaws dubbed LookOut can be exploited for remote code execution and data exfiltration.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/vulnerabilities-allowed-full-compromise-of-google-looker-instances/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/vulnerabilities-allowed-full-compromise-of-google-looker-instances/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyber Insights 2026: Cyberwar and Rising Nation State Threats</h3>
+                <p><strong>Summary:</strong> While both cyberwar and cyberwarfare will increase through 2026, cyberwarfare is likely to increase more dramatically. We hope it will never boil over – but we should be aware of the possibility and i...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyber-insights-2026-cyberwar-and-rising-nation-state-threats/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyber-insights-2026-cyberwar-and-rising-nation-state-threats/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Varonis Acquisition of AllTrue.ai Valued at $150 Million</h3>
+                <p><strong>Summary:</strong> The data security firm has acquired the AI trust, risk, and security management company to expand its capabilities.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/varonis-acquisition-of-alltrue-ai-valued-at-150-million/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/varonis-acquisition-of-alltrue-ai-valued-at-150-million/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Orion Raises $32 Million for Data Security</h3>
+                <p><strong>Summary:</strong> The startup will use the funding to accelerate product development and go-to-market operations.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/orion-raises-32-million-for-data-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/orion-raises-32-million-for-data-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft</h3>
+                <p><strong>Summary:</strong> The critical vulnerability exists in the contextual trust in MCP Gateway architecture, as instructions are passed without validation.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dockerdash-flaw-in-docker-ai-assistant-leads-to-rce-data-theft/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dockerdash-flaw-in-docker-ai-assistant-leads-to-rce-data-theft/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers compromise NGINX servers to redirect user traffic</h3>
+                <p><strong>Summary:</strong> A threat actor is compromising NGINX servers in a campaign that hijacks user traffic and reroutes it through the attacker's backend infrastructure.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-compromise-nginx-servers-to-redirect-user-traffic/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-compromise-nginx-servers-to-redirect-user-traffic/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical n8n flaws disclosed along with public exploits</h3>
+                <p><strong>Summary:</strong> Multiple critical vulnerabilities in the popular n8n open-source workflow automation platform allow escaping the confines of the environment and taking complete control of the host server.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critical-n8n-flaws-disclosed-along-with-public-exploits/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/critical-n8n-flaws-disclosed-along-with-public-exploits/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tech prices are high, but this refurbished iPad is still under $400</h3>
+                <p><strong>Summary:</strong> This 2025 iPad 11" is a refurbished device, but it has a grade "A" rating, meaning it's in near-mint condition with a much lower price. Instead of paying $499, you can get this iPad 11 for only $369.9...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/tech-prices-are-high-but-this-refurbished-ipad-is-still-under-400/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/tech-prices-are-high-but-this-refurbished-ipad-is-still-under-400/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
