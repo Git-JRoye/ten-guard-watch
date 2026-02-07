@@ -1,0 +1,208 @@
+{
+  "date": "2026-02-07",
+  "items": [
+    {
+      "title": "China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery",
+      "link": "https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html",
+      "summary": "Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife  that's operated by China-nexus threat actors since at least 2019.  The framework comprises seven Linux-based implants that are designed to perform deep packet inspection, manipulate traffic, and deliver malware via routers and edge devices. Its primary targets seem to be Chinese-speaking users, an assessment based on the presence of credential harvesting phishing pages for Chinese email services, exfiltration modules for popular Chinese mobile applications like WeChat, and code references to Chinese media domains.  \"DKnife's attacks target a wide range of devices, including PCs, mobile devices, and Internet of Things (IoT) devices,\" Cisco Talos researcher Ashley Shen noted  in a Thursday report. \"It delivers and interacts with the ShadowPad  and DarkNimbus  backdoors by hijacking binary downloads and Android application updates....",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-dknife-aitm-framework-targets-routers",
+      "source": "The Hacker News",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk",
+      "link": "https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered  Federal Civilian Executive Branch (FCEB) agencies to strengthen asset lifecycle management for edge network devices and remove those that no longer receive security updates from original equipment manufacturers (OEMs) over the next 12 to 18 months.  The agency said the move is to drive down technical debt and minimize the risk of compromise, as state-sponsored threat actors turn such devices as a preferred access pathway for breaking into target networks.  Edge devices is an umbrella term that encompasses load balancers, firewalls, routers, switches, wireless access points, network security appliances, Internet of Things (IoT) edge devices, software-defined networks, and other physical or virtual networking components that route network traffic and hold privileged access.   \"Persistent cyber threat actors are increasingly exploiting unsupported edge devices -- hardware and software that no longer receiv...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-orders-removal-of-unsupported-edge-devices-to",
+      "source": "The Hacker News",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities",
+      "link": "https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html",
+      "summary": "A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, according to new findings  from Palo Alto Networks Unit 42.  In addition, the hacking crew has been observed conducting active reconnaissance against government infrastructure associated with 155 countries between November and December 2025. Some of the entities that have been successfully compromised include five national-level law enforcement/border control entities, three ministries of finance and other government ministries, and departments that align with economic, trade, natural resources, and diplomatic functions.  The activity is being tracked by the cybersecurity company under the moniker  TGR-STA-1030 , where \"TGR\" stands for temporary threat group and \"STA\" refers to state-backed motivation. Evidence shows that the threat actor has been active since January ...",
+      "tags": [
+        "breach",
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "asian-state-backed-group-tgr-sta-1030-breaches-70-",
+      "source": "The Hacker News",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "How Samsung Knox Helps Stop Your Network Security Breach",
+      "link": "https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html",
+      "summary": "As you know, enterprise network security has undergone significant evolution over the past decade. Firewalls have become more intelligent, threat detection methods have advanced, and access controls are now more detailed. However (and it’s a big “however”), the increasing use of mobile devices in business operations  necessitates network security measures that are specifically tailored to their unique operating patterns.  Yes, enterprises have invested heavily in robust network security such as firewalls, intrusion detection, and threat intelligence platforms. And yes, these controls work exceptionally well for traditional endpoints—but mobile devices operate differently! They connect to corporate Wi-Fi and public networks interchangeably. They run dozens of apps with varying trust levels. They process sensitive data in coffee shops, airports, and home offices.  The challenge isn't that organizations lack security—it's that mobile devices need security con...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "how-samsung-knox-helps-stop-your-network-security-",
+      "source": "The Hacker News",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware",
+      "link": "https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html",
+      "summary": "Cybersecurity researchers have discovered  a new supply chain attack in which legitimate packages on npm and the Python Package Index (PyPI) repository have been compromised to push malicious versions to facilitate wallet credential theft and remote code execution.  The compromised versions of the two packages are listed below -   @dydxprotocol/v4-client-js  (npm) - 3.4.1, 1.22.1, 1.15.2, 1.0.31   dydx-v4-client  (PyPI) - 1.1.5post1   \"The @dydxprotocol/v4-client-js (npm) and dydx-v4-client (PyPI) packages provide developers with tools to interact with the dYdX v4 protocol, including transaction signing, order placement, and wallet management,\" Socket security researcher Kush Pandya noted. \"Applications using these packages handle sensitive cryptocurrency operations.\"  dYdX  is a non-custodial, decentralized cryptocurrency exchange for trading margin and perpetual swaps, while allowing users to retain full control over their assets. On its website, the DeFi exchang...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "compromised-dydx-npm-and-pypi-packages-deliver-wal",
+      "source": "The Hacker News",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
+      "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
+      "summary": "Artificial intelligence (AI) company Anthropic revealed  that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript , OpenSC , and CGIF .  Claude Opus 4.6, which was launched  Thursday, comes with improved coding skills, including code review and debugging capabilities, along with enhancements to tasks like financial analyses, research, and document creation.  Stating that the model is \"notably better\" at discovering high-severity vulnerabilities without requiring any task-specific tooling, custom scaffolding, or specialized prompting, Anthropic said it is putting it to use to find and help fix vulnerabilities in open-source software.   \"Opus 4.6 reads and reasons about code the way a human researcher would—looking at past fixes to find similar bugs that weren't addressed, spotting patterns that tend to cause problems, or understanding a piece of...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "claude-opus-46-finds-500-high-severity-flaws-acros",
+      "source": "The Hacker News",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "Flickr Security Incident Tied to Third-Party Email System",
+      "link": "https://www.securityweek.com/flickr-security-incident-tied-to-third-party-email-system/",
+      "summary": "Potential breach at Flickr exposes usernames, email addresses, IP addresses, and activity data.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "flickr-security-incident-tied-to-third-party-email",
+      "source": "SecurityWeek",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities",
+      "link": "https://www.securityweek.com/in-other-news-record-ddos-epsteins-hacker-eset-product-vulnerabilities/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: AT&T and Verizon response to Salt Typhoon, AI agents solve security challenges, man arrested in Poland for DDos Attacks.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-record-ddos-epsteins-hacker-eset-pro",
+      "source": "SecurityWeek",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "Living off the AI: The Next Evolution of Attacker Tradecraft",
+      "link": "https://www.securityweek.com/living-off-the-ai-the-next-evolution-of-attacker-tradecraft/",
+      "summary": "Living off the AI isn’t a hypothetical but a natural continuation of the tradecraft we’ve all been defending against, now mapped onto assistants, agents, and MCP.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "living-off-the-ai-the-next-evolution-of-attacker-t",
+      "source": "SecurityWeek",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "Airrived Emerges From Stealth With $6.1 Million in Funding",
+      "link": "https://www.securityweek.com/airrived-emerges-from-stealth-with-6-1-million-in-funding/",
+      "summary": "The startup aims to unify SOC, GRC, IAM, vulnerability management, IT, and business operations through its Agentic OS platform.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "airrived-emerges-from-stealth-with-61-million-in-f",
+      "source": "SecurityWeek",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks",
+      "link": "https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/",
+      "summary": "Used since at least 2019, DKnife has been targeting the desktop, mobile, and IoT devices of Chinese users.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "dknife-implant-used-by-chinese-threat-actor-for-ad",
+      "source": "SecurityWeek",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel",
+      "link": "https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/",
+      "summary": "The news comes after the Department of Energy conducted its annual Liberty Eclipse cybersecurity exercise.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "5-bills-to-boost-energy-sector-cyber-defenses-clea",
+      "source": "SecurityWeek",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "Germany warns of Signal account hijacking targeting senior figures",
+      "link": "https://www.bleepingcomputer.com/news/security/germany-warns-of-signal-account-hijacking-targeting-senior-figures/",
+      "summary": "Germany's domestic intelligence agency is warning of suspected state-sponsored threat actors targeting high-ranking individuals in phishing attacks via messaging apps like Signal.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "germany-warns-of-signal-account-hijacking-targetin",
+      "source": "BleepingComputer",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "DKnife Linux toolkit hijacks router traffic to spy, deliver malware",
+      "link": "https://www.bleepingcomputer.com/news/security/dknife-linux-toolkit-hijacks-router-traffic-to-spy-deliver-malware/",
+      "summary": "A newly discovered toolkit called DKnife has been used since 2019 to hijack traffic at the edge-device level and deliver malware in espionage campaigns.",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "dknife-linux-toolkit-hijacks-router-traffic-to-spy",
+      "source": "BleepingComputer",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "CISA warns of SmarterMail RCE flaw used in ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-smartermail-rce-flaw-used-in-ransomware-attacks/",
+      "summary": "The Cybersecurity & Infrastructure Security Agency (CISA) in the U.S. has issued a warning about CVE-2026-24423, an unauthenticated remote code execution (RCE) flaw in SmarterMail that is used in ransomware attacks.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-warns-of-smartermail-rce-flaw-used-in-ransomw",
+      "source": "BleepingComputer",
+      "date": "2026-02-07"
+    }
+  ]
+}
