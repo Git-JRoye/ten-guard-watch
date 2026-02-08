@@ -1,0 +1,206 @@
+{
+  "date": "2026-02-08",
+  "items": [
+    {
+      "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
+      "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
+      "summary": "OpenClaw (formerly Moltbot and Clawdbot) has announced  that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem.  \"All skills published to ClawHub are now scanned using VirusTotal's threat intelligence, including their new Code Insight capability,\" OpenClaw's founder Peter Steinberger, along with Jamieson O'Reilly and Bernardo Quintero said. \"This provides an additional layer of security for the OpenClaw community.\"  The process essentially entails creating a unique SHA-256 hash for every skill and cross checking it against VirusTotal's database for a match. If it's not found, the skill bundle is uploaded to the malware scanning tool for further analysis using VirusTotal Code Insight .  Skills that have a \"benign\" Code Insight verdict are automatically approved by ClawHub, while those marke...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "openclaw-integrates-virustotal-scanning-to-detect-",
+      "source": "The Hacker News",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists",
+      "link": "https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html",
+      "summary": "Germany's Federal Office for the Protection of the Constitution (aka Bundesamt für Verfassungsschutz or BfV) and Federal Office for Information Security (BSI) have issued a joint advisory warning of a malicious cyber campaign undertaken by a likely state-sponsored threat actor that involves carrying out phishing attacks over the Signal messaging app.  \"The focus is on high-ranking targets in politics, the military, and diplomacy, as well as investigative journalists in Germany and Europe,\" the agencies said . \"Unauthorized access to messenger accounts not only allows access to confidential private communications but also potentially compromises entire networks.\"  A noteworthy aspect of the campaign is that it does not involve the distribution of malware or the exploitation of any security vulnerability in the privacy-focused messaging platform. Rather, the end goal is to weaponize its legitimate features to obtain covert access to a victim's chats, along wi...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "german-agencies-warn-of-signal-phishing-targeting-",
+      "source": "The Hacker News",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery",
+      "link": "https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html",
+      "summary": "Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife  that's operated by China-nexus threat actors since at least 2019.  The framework comprises seven Linux-based implants that are designed to perform deep packet inspection, manipulate traffic, and deliver malware via routers and edge devices. Its primary targets seem to be Chinese-speaking users, an assessment based on the presence of credential harvesting phishing pages for Chinese email services, exfiltration modules for popular Chinese mobile applications like WeChat, and code references to Chinese media domains.  \"DKnife's attacks target a wide range of devices, including PCs, mobile devices, and Internet of Things (IoT) devices,\" Cisco Talos researcher Ashley Shen noted  in a Thursday report. \"It delivers and interacts with the ShadowPad  and DarkNimbus  backdoors by hijacking binary downloads and Android application updates....",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-dknife-aitm-framework-targets-routers",
+      "source": "The Hacker News",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk",
+      "link": "https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered  Federal Civilian Executive Branch (FCEB) agencies to strengthen asset lifecycle management for edge network devices and remove those that no longer receive security updates from original equipment manufacturers (OEMs) over the next 12 to 18 months.  The agency said the move is to drive down technical debt and minimize the risk of compromise, as state-sponsored threat actors turn such devices as a preferred access pathway for breaking into target networks.  Edge devices is an umbrella term that encompasses load balancers, firewalls, routers, switches, wireless access points, network security appliances, Internet of Things (IoT) edge devices, software-defined networks, and other physical or virtual networking components that route network traffic and hold privileged access.   \"Persistent cyber threat actors are increasingly exploiting unsupported edge devices -- hardware and software that no longer receiv...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-orders-removal-of-unsupported-edge-devices-to",
+      "source": "The Hacker News",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities",
+      "link": "https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html",
+      "summary": "A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, according to new findings  from Palo Alto Networks Unit 42.  In addition, the hacking crew has been observed conducting active reconnaissance against government infrastructure associated with 155 countries between November and December 2025. Some of the entities that have been successfully compromised include five national-level law enforcement/border control entities, three ministries of finance and other government ministries, and departments that align with economic, trade, natural resources, and diplomatic functions.  The activity is being tracked by the cybersecurity company under the moniker  TGR-STA-1030 , where \"TGR\" stands for temporary threat group and \"STA\" refers to state-backed motivation. Evidence shows that the threat actor has been active since January ...",
+      "tags": [
+        "breach",
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "asian-state-backed-group-tgr-sta-1030-breaches-70-",
+      "source": "The Hacker News",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "How Samsung Knox Helps Stop Your Network Security Breach",
+      "link": "https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html",
+      "summary": "As you know, enterprise network security has undergone significant evolution over the past decade. Firewalls have become more intelligent, threat detection methods have advanced, and access controls are now more detailed. However (and it’s a big “however”), the increasing use of mobile devices in business operations  necessitates network security measures that are specifically tailored to their unique operating patterns.  Yes, enterprises have invested heavily in robust network security such as firewalls, intrusion detection, and threat intelligence platforms. And yes, these controls work exceptionally well for traditional endpoints—but mobile devices operate differently! They connect to corporate Wi-Fi and public networks interchangeably. They run dozens of apps with varying trust levels. They process sensitive data in coffee shops, airports, and home offices.  The challenge isn't that organizations lack security—it's that mobile devices need security con...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "how-samsung-knox-helps-stop-your-network-security-",
+      "source": "The Hacker News",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "Organizations Urged to Replace Discontinued Edge Devices",
+      "link": "https://www.securityweek.com/organizations-urged-to-replace-discontinued-edge-devices/",
+      "summary": "Edge devices that are no longer supported have been targeted in attacks by state-sponsored hackers, the US says.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "organizations-urged-to-replace-discontinued-edge-d",
+      "source": "SecurityWeek",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "Flickr Security Incident Tied to Third-Party Email System",
+      "link": "https://www.securityweek.com/flickr-security-incident-tied-to-third-party-email-system/",
+      "summary": "Potential breach at Flickr exposes usernames, email addresses, IP addresses, and activity data.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "flickr-security-incident-tied-to-third-party-email",
+      "source": "SecurityWeek",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities",
+      "link": "https://www.securityweek.com/in-other-news-record-ddos-epsteins-hacker-eset-product-vulnerabilities/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: AT&T and Verizon response to Salt Typhoon, AI agents solve security challenges, man arrested in Poland for DDos Attacks.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-record-ddos-epsteins-hacker-eset-pro",
+      "source": "SecurityWeek",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "Living off the AI: The Next Evolution of Attacker Tradecraft",
+      "link": "https://www.securityweek.com/living-off-the-ai-the-next-evolution-of-attacker-tradecraft/",
+      "summary": "Living off the AI isn’t a hypothetical but a natural continuation of the tradecraft we’ve all been defending against, now mapped onto assistants, agents, and MCP.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "living-off-the-ai-the-next-evolution-of-attacker-t",
+      "source": "SecurityWeek",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "Airrived Emerges From Stealth With $6.1 Million in Funding",
+      "link": "https://www.securityweek.com/airrived-emerges-from-stealth-with-6-1-million-in-funding/",
+      "summary": "The startup aims to unify SOC, GRC, IAM, vulnerability management, IT, and business operations through its Agentic OS platform.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "airrived-emerges-from-stealth-with-61-million-in-f",
+      "source": "SecurityWeek",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks",
+      "link": "https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/",
+      "summary": "Used since at least 2019, DKnife has been targeting the desktop, mobile, and IoT devices of Chinese users.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "dknife-implant-used-by-chinese-threat-actor-for-ad",
+      "source": "SecurityWeek",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "State actor targets 155 countries in 'Shadow Campaigns' espionage op",
+      "link": "https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries-in-shadow-campaigns-espionage-op/",
+      "summary": "A new state-aligned cyberespionage threat group tracked as TGR-STA-1030/UNC6619, has conducted a global-scale operation dubbed the \"Shadow Campaigns,\" where it targeted government infrastructure in 155 countries.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "state-actor-targets-155-countries-in-shadow-campai",
+      "source": "BleepingComputer",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "Automate your marketing with this $25 course bundle deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/automate-your-marketing-with-this-25-course-bundle-deal/",
+      "summary": "The 2026 AI-Powered Digital Marketing & Content Creation Bundle is a seven-course powerhouse to help you automate your workflow, on sale for just $24.99. To put that in perspective, that's less than the price of a couple of pizzas for a toolkit originally valued at $197.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "automate-your-marketing-with-this-25-course-bundle",
+      "source": "BleepingComputer",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "Payments platform BridgePay confirms ransomware attack behind outage",
+      "link": "https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confirms-ransomware-attack-behind-outage/",
+      "summary": "A major U.S. payment gateway and solutions provider says a ransomware attack has knocked key systems offline, triggering a widespread outage affecting multiple services. The incident began on Friday and quickly escalated into a nationwide disruption across BridgePay's platform.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "payments-platform-bridgepay-confirms-ransomware-at",
+      "source": "BleepingComputer",
+      "date": "2026-02-08"
+    }
+  ]
+}

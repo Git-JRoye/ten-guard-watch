@@ -36,24 +36,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills</div><div class="ticker-item">German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists</div><div class="ticker-item">China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery</div><div class="ticker-item">CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk</div><div class="ticker-item">Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities</div><div class="ticker-item">How Samsung Knox Helps Stop Your Network Security Breach</div><div class="ticker-item">Organizations Urged to Replace Discontinued Edge Devices</div><div class="ticker-item">Flickr Security Incident Tied to Third-Party Email System</div><div class="ticker-item">In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities</div><div class="ticker-item">Living off the AI: The Next Evolution of Attacker Tradecraft</div><div class="ticker-item">Airrived Emerges From Stealth With $6.1 Million in Funding</div><div class="ticker-item">‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks</div><div class="ticker-item">State actor targets 155 countries in 'Shadow Campaigns' espionage op</div><div class="ticker-item">Automate your marketing with this $25 course bundle deal</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Payments platform BridgePay confirms ransomware attack behind outage</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery</div><div class="ticker-item">CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk</div><div class="ticker-item">Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities</div><div class="ticker-item">How Samsung Knox Helps Stop Your Network Security Breach</div><div class="ticker-item">Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware</div><div class="ticker-item">Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries</div><div class="ticker-item">Flickr Security Incident Tied to Third-Party Email System</div><div class="ticker-item">In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities</div><div class="ticker-item">Living off the AI: The Next Evolution of Attacker Tradecraft</div><div class="ticker-item">Airrived Emerges From Stealth With $6.1 Million in Funding</div><div class="ticker-item">‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks</div><div class="ticker-item">5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel</div><div class="ticker-item">Germany warns of Signal account hijacking targeting senior figures</div><div class="ticker-item">DKnife Linux toolkit hijacks router traffic to spy, deliver malware</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">CISA warns of SmarterMail RCE flaw used in ransomware attacks</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills</h3>
-                <p><strong>Summary:</strong> OpenClaw (formerly Moltbot and Clawdbot) has announced  that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader e...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists</h3>
-                <p><strong>Summary:</strong> Germany's Federal Office for the Protection of the Constitution (aka Bundesamt für Verfassungsschutz or BfV) and Federal Office for Information Security (BSI) have issued a joint advisory warning of a...</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery</h3>
                 <p><strong>Summary:</strong> Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife  that's operated by China-nexus threat actors since at least 2019.  T...</p>
@@ -83,11 +69,18 @@
                 <a href="https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Organizations Urged to Replace Discontinued Edge Devices</h3>
-                <p><strong>Summary:</strong> Edge devices that are no longer supported have been targeted in attacks by state-sponsored hackers, the US says.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/organizations-urged-to-replace-discontinued-edge-devices/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/organizations-urged-to-replace-discontinued-edge-devices/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered  a new supply chain attack in which legitimate packages on npm and the Python Package Index (PyPI) repository have been compromised to push malicious versions...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries</h3>
+                <p><strong>Summary:</strong> Artificial intelligence (AI) company Anthropic revealed  that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-so...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Flickr Security Incident Tied to Third-Party Email System</h3>
@@ -125,18 +118,25 @@
                 <a href="https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>State actor targets 155 countries in 'Shadow Campaigns' espionage op</h3>
-                <p><strong>Summary:</strong> A new state-aligned cyberespionage threat group tracked as TGR-STA-1030/UNC6619, has conducted a global-scale operation dubbed the "Shadow Campaigns," where it targeted government infrastructure in 15...</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries-in-shadow-campaigns-espionage-op/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries-in-shadow-campaigns-espionage-op/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel</h3>
+                <p><strong>Summary:</strong> The news comes after the Department of Energy conducted its annual Liberty Eclipse cybersecurity exercise.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Automate your marketing with this $25 course bundle deal</h3>
-                <p><strong>Summary:</strong> The 2026 AI-Powered Digital Marketing & Content Creation Bundle is a seven-course powerhouse to help you automate your workflow, on sale for just $24.99. To put that in perspective, that's less than t...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/automate-your-marketing-with-this-25-course-bundle-deal/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/automate-your-marketing-with-this-25-course-bundle-deal/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Germany warns of Signal account hijacking targeting senior figures</h3>
+                <p><strong>Summary:</strong> Germany's domestic intelligence agency is warning of suspected state-sponsored threat actors targeting high-ranking individuals in phishing attacks via messaging apps like Signal.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/germany-warns-of-signal-account-hijacking-targeting-senior-figures/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/germany-warns-of-signal-account-hijacking-targeting-senior-figures/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DKnife Linux toolkit hijacks router traffic to spy, deliver malware</h3>
+                <p><strong>Summary:</strong> A newly discovered toolkit called DKnife has been used since 2019 to hijack traffic at the edge-device level and deliver malware in espionage campaigns.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/dknife-linux-toolkit-hijacks-router-traffic-to-spy-deliver-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/dknife-linux-toolkit-hijacks-router-traffic-to-spy-deliver-malware/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
@@ -146,11 +146,11 @@
                 <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Payments platform BridgePay confirms ransomware attack behind outage</h3>
-                <p><strong>Summary:</strong> A major U.S. payment gateway and solutions provider says a ransomware attack has knocked key systems offline, triggering a widespread outage affecting multiple services. The incident began on Friday a...</p>
+                <h3>CISA warns of SmarterMail RCE flaw used in ransomware attacks</h3>
+                <p><strong>Summary:</strong> The Cybersecurity & Infrastructure Security Agency (CISA) in the U.S. has issued a warning about CVE-2026-24423, an unauthenticated remote code execution (RCE) flaw in SmarterMail that is used in rans...</p>
                 <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confirms-ransomware-attack-behind-outage/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confirms-ransomware-attack-behind-outage/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-smartermail-rce-flaw-used-in-ransomware-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-smartermail-rce-flaw-used-in-ransomware-attacks/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
