@@ -1,0 +1,19 @@
+{
+    "name": "TenGuard Security",
+    "short_name": "TenGuard",
+    "icons": [
+        {
+            "src": "/assets/newlogo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/svglogo.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ],
+    "theme_color": "#1e40af",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
