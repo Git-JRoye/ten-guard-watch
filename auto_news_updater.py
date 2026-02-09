@@ -36,7 +36,7 @@ def fetch_hacker_news():
         soup = BeautifulSoup(response.text, "html.parser")
         articles = []
         
-        for item in soup.find_all("div", class_="body-post clear")[:5]:
+        for item in soup.find_all("div", class_="body-post clear")[:3]:
             try:
                 title = item.find("h2").text.strip()
                 link = item.find("a")["href"]
@@ -70,7 +70,7 @@ def fetch_dark_reading():
         soup = BeautifulSoup(response.text, "html.parser")
         articles = []
         
-        for item in soup.find_all("article")[:5]:
+        for item in soup.find_all("article")[:3]:
             try:
                 title_tag = item.find("h3") or item.find("h2")
                 if title_tag:
