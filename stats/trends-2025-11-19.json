@@ -1,0 +1,241 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 54,
+      "vulnerability": 36,
+      "cybersecurity": 35,
+      "critical": 23,
+      "malware": 22,
+      "phishing": 18,
+      "breach": 13,
+      "apt": 13,
+      "ransomware": 11
+    },
+    "30_days": {
+      "attack": 89,
+      "vulnerability": 61,
+      "cybersecurity": 49,
+      "critical": 44,
+      "malware": 43,
+      "breach": 26,
+      "phishing": 25,
+      "apt": 20,
+      "ransomware": 20
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Low": 54,
+      "Medium": 50,
+      "High": 24
+    },
+    "30_days": {
+      "High": 45,
+      "Medium": 84,
+      "Low": 79
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 78,
+    "SecurityWeek": 78,
+    "BleepingComputer": 52
+  },
+  "top_keywords": {
+    "security": 108,
+    "threat": 71,
+    "google": 66,
+    "attacks": 65,
+    "malware": 60,
+    "code": 59,
+    "exploited": 58,
+    "vulnerability": 58,
+    "microsoft": 54,
+    "cve": 53,
+    "attack": 48,
+    "phishing": 44,
+    "malicious": 42,
+    "researchers": 42,
+    "data": 41,
+    "campaign": 41,
+    "flaw": 39,
+    "actors": 38,
+    "activity": 36,
+    "attackers": 34
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Google Issues Security Fix for Actively Exploited Chrome V8 Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/google-issues-security-fix-for-actively.html",
+      "summary": "Google on Monday released  security updates for its Chrome browser to address two security flaws, including one that has come under active exploitation in the wild.  The vulnerability in question is C",
+      "urgency": "High",
+      "date": "2025-11-18",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Chrome 142 Update Patches Exploited Zero-Day",
+      "link": "https://www.securityweek.com/chrome-142-update-patches-exploited-zero-day/",
+      "summary": "The flaw was reported by Google’s Threat Analysis Group and was likely exploited by a commercial spyware vendor.",
+      "urgency": "High",
+      "date": "2025-11-18",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft: Windows 10 KB5072653 OOB update fixes ESU install errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5072653-oob-update-fixes-esu-install-errors/",
+      "summary": "Microsoft has released an emergency Windows 10 KB5072653 out-of-band update to resolve ongoing issues with installing the November extended security updates.",
+      "urgency": "High",
+      "date": "2025-11-18",
+      "tags": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "title": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet",
+      "link": "https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html",
+      "summary": "The botnet malware known as RondoDox  has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.  The vulner",
+      "urgency": "High",
+      "date": "2025-11-17",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-17",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "urgency": "High",
+      "date": "2025-11-17",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet",
+      "link": "https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html",
+      "summary": "The botnet malware known as RondoDox  has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.  The vulner",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 208,
+    "top_tag": "attack",
+    "last_update": "2025-11-19T09:34:16.657853"
+  }
+}

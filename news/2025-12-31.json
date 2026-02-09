@@ -1,0 +1,161 @@
+{
+  "date": "2025-12-31",
+  "items": [
+    {
+      "title": "U.S. Treasury Lifts Sanctions on Three Individuals Linked to Intellexa and Predator Spyware",
+      "link": "https://thehackernews.com/2025/12/us-treasury-lifts-sanctions-on-three.html",
+      "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) on Tuesday removed  three individuals linked to the Intellexa Consortium, the holding company behind a commercial spyware known as Predator , from the specially designated nationals list.  The names of the individuals are as follows -   Merom Harpaz  Andrea Nicola Constantino Hermes Gambazzi  Sara Aleksandra Fayssal Hamou    Hamou was sanctioned  by OFAC in March 2024, and Harpaz and Gambazzi were targeted  in September 2024 in connection with developing, operating, and distributing Predator. It's currently not known why they were removed from the list.  Harpaz is said to be working as a manager of Intellexa S.A., while Gambazzi was identified as the owner of Thalestris Limited and Intellexa Limited. Thalestris, Treasury Department said, held the distribution rights to the spyware, and processed transactions on behalf of other entities within the Intellexa Consortium. It's also the parent company...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "us-treasury-lifts-sanctions-on-three-individuals-l",
+      "source": "The Hacker News",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html",
+      "summary": "The Cyber Security Agency of Singapore (CSA) has issued  a bulletin warning of a maximum-severity security flaw in SmarterTools SmarterMail  email software that could be exploited to achieve remote code execution.  The vulnerability, tracked as CVE-2025-52691 , carries a CVSS score of 10.0. It relates to a case of arbitrary file upload that could enable code execution without requiring any authentication.  \"Successful exploitation of the vulnerability could allow an unauthenticated attacker to upload arbitrary files to any location on the mail server, potentially enabling remote code execution,\" CSA said.  Vulnerabilities of this kind allow the upload of dangerous file types that are automatically processed within an application's environment. This could pave the way for code execution if the uploaded file is interpreted and executed as code, as is the case with PHP files.   In a hypothetical attack scenario, a bad actor could weaponize this vulnerability to place malici...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "csa-issues-alert-on-critical-smartermail-bug-allow",
+      "source": "The Hacker News",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "Silver Fox Targets Indian Users With Tax-Themed Emails Delivering ValleyRAT Malware",
+      "link": "https://thehackernews.com/2025/12/silver-fox-targets-indian-users-with.html",
+      "summary": "The threat actor known as Silver Fox  has turned its focus to India, using income tax-themed lures in phishing campaigns to distribute a modular remote access trojan called ValleyRAT (aka Winos 4.0).  \"This sophisticated attack leverages a complex kill chain involving DLL hijacking and the modular Valley RAT to ensure persistence,\" CloudSEK researchers Prajwal Awasthi and Koushik Pal said  in an analysis published last week.  Also tracked as SwimSnake, The Great Thief of Valley (or Valley Thief), UTG-Q-1000, and Void Arachne, Silver Fox is the name assigned to an aggressive cybercrime group  from China that has been active since 2022.  It has a track record of orchestrating  a variety of campaigns whose motives  range from espionage and intelligence collection to financial gain, cryptocurrency mining, and operational disruption, making it one of the few hacking crews with a multi-pronged approach to their intrusion activity.  Primarily focused on Chinese-speaking individuals...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "silver-fox-targets-indian-users-with-tax-themed-em",
+      "source": "The Hacker News",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "How to Integrate AI into Modern SOC Workflows",
+      "link": "https://thehackernews.com/2025/12/how-to-integrate-ai-into-modern-soc.html",
+      "summary": "Artificial intelligence (AI) is making its way into security operations quickly, but many practitioners are still struggling to turn early experimentation into consistent operational value. This is because SOCs are adopting AI without an intentional approach to operational integration. Some teams treat it as a shortcut for broken processes. Others attempt to apply machine learning to problems that are not well defined.  Findings from  our 2025 SANS SOC Survey  reinforce that disconnect. A significant portion of organizations are already experimenting with AI, yet 40 percent of SOCs use AI or ML tools without making them a defined part of operations, and 42 percent rely on AI/ML tools \"out of the box\" with no customization at all. The result is a familiar pattern. AI is present inside the SOC but not operationalized. Analysts use it informally, often with mixed reliability, while leadership has not yet established a consistent model for where AI belongs, how its output should be valida...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "how-to-integrate-ai-into-modern-soc-workflows",
+      "source": "The Hacker News",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "Mustang Panda Uses Signed Kernel-Mode Rootkit to Load TONESHELL Backdoor",
+      "link": "https://thehackernews.com/2025/12/mustang-panda-uses-signed-kernel-driver.html",
+      "summary": "The Chinese hacking group known as Mustang Panda  has leveraged a previously undocumented kernel-mode rootkit driver to deliver a new variant of backdoor dubbed TONESHELL in a cyber attack detected in mid-2025 targeting an unspecified entity in Asia.  The findings come from Kaspersky, which observed the new backdoor variant in cyber espionage campaigns mounted by the hacking group targeting government organizations in Southeast and East Asia, primarily Myanmar and Thailand.  \"The driver file is signed with an old, stolen, or leaked digital certificate and registers as a minifilter driver  on infected machines,\" the Russian cybersecurity company said . \"Its end-goal is to inject a backdoor trojan into the system processes and provide protection for malicious files, user-mode processes, and registry keys.\"  The final payload deployed as part of the attack is TONESHELL, an implant with reverse shell and downloader capabilities to fetch next-stage malware onto compromi...",
+      "tags": [
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mustang-panda-uses-signed-kernel-mode-rootkit-to-l",
+      "source": "The Hacker News",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "⚡ Weekly Recap: MongoDB Attacks, Wallet Breaches, Android Spyware, Insider Crime & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-mongodb-attacks-wallet.html",
+      "summary": "Last week's cyber news in 2025 was not about one big incident. It was about many small cracks opening at the same time. Tools people trust every day behave in unexpected ways. Old flaws resurfaced. New ones were used almost immediately.  A common theme ran through it all in 2025. Attackers moved faster than fixes. Access meant for work, updates, or support kept getting abused. And damage did not stop when an incident was \"over\" — it continued to surface months or even years later.  This weekly recap brings those stories together in one place. No overload, no noise. Read on to see what shaped the threat landscape in the final stretch of 2025 and what deserves your attention now.  ⚡ Threat of the Week  MongoDB Vulnerability Comes Under Attack  — A newly disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world. The vulnerability in question is CVE-2025-14847 (CVSS score: 8.7)...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "-weekly-recap-mongodb-attacks-wallet-breaches-andr",
+      "source": "The Hacker News",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "8 Cybersecurity Acquisitions Surpassed $1 Billion Mark in 2025",
+      "link": "https://www.securityweek.com/8-cybersecurity-acquisitions-surpassed-1-billion-mark-in-2025/",
+      "summary": "The total disclosed value for all the cybersecurity M&A deals announced in 2025 exceeded $84 billion.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "8-cybersecurity-acquisitions-surpassed-1-billion-m",
+      "source": "SecurityWeek",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "Chinese APT Mustang Panda Caught Using Kernel-Mode Rootkit",
+      "link": "https://www.securityweek.com/chinese-apt-mustang-panda-caught-using-kernel-mode-rootkit/",
+      "summary": "The threat actor uses a signed driver file containing two user-mode shellcodes to execute its ToneShell backdoor.",
+      "tags": [
+        "malware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-apt-mustang-panda-caught-using-kernel-mode",
+      "source": "SecurityWeek",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "Korean Air Data Compromised in Oracle EBS Hack",
+      "link": "https://www.securityweek.com/korean-air-data-compromised-in-oracle-ebs-hack/",
+      "summary": "Roughly 30,000 Korean Air employees had their data stolen by hackers in a breach at former subsidiary KC&D.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "korean-air-data-compromised-in-oracle-ebs-hack",
+      "source": "SecurityWeek",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000",
+      "link": "https://www.securityweek.com/top-us-accounting-firm-sax-discloses-2024-data-breach-impacting-220000/",
+      "summary": "It took Sax well over a year to complete its investigation after detecting hackers on its network.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "top-us-accounting-firm-sax-discloses-2024-data-bre",
+      "source": "SecurityWeek",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "Fortinet Warns of New Attacks Exploiting Old Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-warns-of-new-attacks-exploiting-old-vulnerability/",
+      "summary": "Tracked as CVE-2020-12812, the exploited FortiOS flaw allows threat actors to bypass two-factor authentication.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fortinet-warns-of-new-attacks-exploiting-old-vulne",
+      "source": "SecurityWeek",
+      "date": "2025-12-31"
+    },
+    {
+      "title": "Coupang to Issue $1.17 Billion in Vouchers Over Data Breach",
+      "link": "https://www.securityweek.com/coupang-to-issue-1-17-billion-in-vouchers-over-data-breach/",
+      "summary": "The ecommerce giant will provide purchase vouchers to the 33.7 million individuals impacted by the incident.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "coupang-to-issue-117-billion-in-vouchers-over-data",
+      "source": "SecurityWeek",
+      "date": "2025-12-31"
+    }
+  ]
+}

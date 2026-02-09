@@ -1,0 +1,221 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 53,
+      "vulnerability": 42,
+      "critical": 33,
+      "malware": 32,
+      "cybersecurity": 24,
+      "breach": 17,
+      "ransomware": 14,
+      "phishing": 12,
+      "apt": 10
+    },
+    "30_days": {
+      "attack": 53,
+      "vulnerability": 42,
+      "critical": 33,
+      "malware": 32,
+      "cybersecurity": 24,
+      "breach": 17,
+      "ransomware": 14,
+      "phishing": 12,
+      "apt": 10
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 33,
+      "Medium": 50,
+      "Low": 45
+    },
+    "30_days": {
+      "High": 33,
+      "Medium": 50,
+      "Low": 45
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 48,
+    "SecurityWeek": 48,
+    "BleepingComputer": 32
+  },
+  "top_keywords": {
+    "security": 70,
+    "google": 47,
+    "threat": 46,
+    "malware": 45,
+    "attacks": 43,
+    "cve": 43,
+    "exploited": 42,
+    "code": 37,
+    "malicious": 37,
+    "users": 33,
+    "packages": 31,
+    "vulnerability": 30,
+    "credentials": 29,
+    "microsoft": 29,
+    "activity": 27,
+    "data": 27,
+    "attackers": 26,
+    "report": 26,
+    "flaw": 25,
+    "attack": 25
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Fortinet FortiWeb Flaw Actively Exploited in the Wild Before Company's Silent Patch",
+      "link": "https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html",
+      "summary": "Cybersecurity researchers are sounding the alert about an authentication bypass vulnerability in Fortinet Fortiweb WAF that could allow an attacker to take over admin accounts and completely compromis",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet FortiWeb flaw with public PoC exploited to create admin users",
+      "link": "https://www.bleepingcomputer.com/news/security/fortiweb-flaw-with-public-poc-actively-exploited-to-create-admin-users/",
+      "summary": "A Fortinet FortiWeb path traversal vulnerability is being actively exploited to create new administrative users on exposed devices without requiring authentication",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Flags Critical WatchGuard Fireware Flaw Exposing 54,000 Fireboxes to No-Login Attacks",
+      "link": "https://thehackernews.com/2025/11/cisa-flags-critical-watchguard-fireware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting WatchGuard Fireware  to its Known Exploited Vulnerabilities ( KEV ) catalog, bas",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Amazon Uncovers Attacks Exploited Cisco ISE and Citrix NetScaler as Zero-Day Flaws",
+      "link": "https://thehackernews.com/2025/11/amazon-uncovers-attacks-exploited-cisco.html",
+      "summary": "Amazon's threat intelligence team on Wednesday disclosed that it observed an advanced threat actor exploiting two then-zero-day security flaws in Cisco Identity Service Engine (ISE) and Citrix NetScal",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Active Directory Under Siege: Why Critical Infrastructure Needs Stronger Security",
+      "link": "https://thehackernews.com/2025/11/active-directory-under-siege-why.html",
+      "summary": "Active Directory remains the authentication backbone for  over 90%  of Fortune 1000 companies. AD's importance has grown as companies adopt hybrid and cloud infrastructure, but so has its complexity. ",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Patches Actively Exploited Windows Kernel Zero-Day",
+      "link": "https://www.securityweek.com/microsoft-patches-actively-exploited-windows-kernel-zero-day/",
+      "summary": "Microsoft’s latest Patch Tuesday updates address more than 60 vulnerabilities in Windows and other products.",
+      "urgency": "High",
+      "date": "2025-11-12",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Triofox Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/critical-triofox-vulnerability-exploited-in-the-wild/",
+      "summary": "A threat actor has exploited the issue to create a new administrator account and then used the account to execute remote access tools.",
+      "urgency": "High",
+      "date": "2025-11-12",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Synology fixes BeeStation zero-days demoed at Pwn2Own Ireland",
+      "link": "https://www.bleepingcomputer.com/news/security/synology-fixes-beestation-zero-days-demoed-at-pwn2own-ireland/",
+      "summary": "Synology has addressed a critical-severity remote code execution (RCE) vulnerability in BeeStation products that was demonstrated at the recent Pwn2Own hacking competition.",
+      "urgency": "High",
+      "date": "2025-11-12",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 128,
+    "top_tag": "attack",
+    "last_update": "2025-11-14T09:33:32.423478"
+  }
+}

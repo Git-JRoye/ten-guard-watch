@@ -1,0 +1,219 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 47,
+      "vulnerability": 37,
+      "critical": 30,
+      "malware": 29,
+      "cybersecurity": 22,
+      "breach": 15,
+      "ransomware": 12,
+      "phishing": 10,
+      "apt": 8
+    },
+    "30_days": {
+      "attack": 47,
+      "vulnerability": 37,
+      "critical": 30,
+      "malware": 29,
+      "cybersecurity": 22,
+      "breach": 15,
+      "ransomware": 12,
+      "phishing": 10,
+      "apt": 8
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 30,
+      "Medium": 41,
+      "Low": 41
+    },
+    "30_days": {
+      "High": 30,
+      "Medium": 41,
+      "Low": 41
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 42,
+    "SecurityWeek": 42,
+    "BleepingComputer": 28
+  },
+  "top_keywords": {
+    "security": 58,
+    "google": 46,
+    "cve": 42,
+    "threat": 41,
+    "malware": 41,
+    "attacks": 39,
+    "exploited": 38,
+    "malicious": 36,
+    "code": 35,
+    "packages": 31,
+    "users": 30,
+    "credentials": 28,
+    "microsoft": 27,
+    "report": 26,
+    "activity": 25,
+    "samsung": 24,
+    "attack": 24,
+    "flaw": 23,
+    "android": 23,
+    "windows": 23
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Flags Critical WatchGuard Fireware Flaw Exposing 54,000 Fireboxes to No-Login Attacks",
+      "link": "https://thehackernews.com/2025/11/cisa-flags-critical-watchguard-fireware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting WatchGuard Fireware  to its Known Exploited Vulnerabilities ( KEV ) catalog, bas",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Amazon Uncovers Attacks Exploited Cisco ISE and Citrix NetScaler as Zero-Day Flaws",
+      "link": "https://thehackernews.com/2025/11/amazon-uncovers-attacks-exploited-cisco.html",
+      "summary": "Amazon's threat intelligence team on Wednesday disclosed that it observed an advanced threat actor exploiting two then-zero-day security flaws in Cisco Identity Service Engine (ISE) and Citrix NetScal",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Active Directory Under Siege: Why Critical Infrastructure Needs Stronger Security",
+      "link": "https://thehackernews.com/2025/11/active-directory-under-siege-why.html",
+      "summary": "Active Directory remains the authentication backbone for  over 90%  of Fortune 1000 companies. AD's importance has grown as companies adopt hybrid and cloud infrastructure, but so has its complexity. ",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Patches Actively Exploited Windows Kernel Zero-Day",
+      "link": "https://www.securityweek.com/microsoft-patches-actively-exploited-windows-kernel-zero-day/",
+      "summary": "Microsoft’s latest Patch Tuesday updates address more than 60 vulnerabilities in Windows and other products.",
+      "urgency": "High",
+      "date": "2025-11-12",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Triofox Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/critical-triofox-vulnerability-exploited-in-the-wild/",
+      "summary": "A threat actor has exploited the issue to create a new administrator account and then used the account to execute remote access tools.",
+      "urgency": "High",
+      "date": "2025-11-12",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Synology fixes BeeStation zero-days demoed at Pwn2Own Ireland",
+      "link": "https://www.bleepingcomputer.com/news/security/synology-fixes-beestation-zero-days-demoed-at-pwn2own-ireland/",
+      "summary": "Synology has addressed a critical-severity remote code execution (RCE) vulnerability in BeeStation products that was demonstrated at the recent Pwn2Own hacking competition.",
+      "urgency": "High",
+      "date": "2025-11-12",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2025-11-12",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers abuse Triofox antivirus feature to deploy remote access tools",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-triofox-antivirus-feature-to-deploy-remote-access-tools/",
+      "summary": "Hackers exploited a critical vulnerability and the built-in antivirus feature in Gladinet's Triofox file-sharing and remote-access platform to achieve remote code execution with SYSTEM privileges.",
+      "urgency": "High",
+      "date": "2025-11-12",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus Feature",
+      "link": "https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html",
+      "summary": "Google's Mandiant Threat Defense on Monday said it discovered  n-day exploitation of a now-patched security flaw in Gladinet's Triofox file-sharing and remote access platform.  The critical vulnerabil",
+      "urgency": "High",
+      "date": "2025-11-11",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 112,
+    "total_30_days": 112,
+    "top_tag": "attack",
+    "last_update": "2025-11-13T09:33:53.959070"
+  }
+}

@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice</div><div class="ticker-item">OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans</div><div class="ticker-item">GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection</div><div class="ticker-item">Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts</div><div class="ticker-item">Your Digital Footprint Can Lead Right to Your Front Door</div><div class="ticker-item">LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing</div><div class="ticker-item">Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System</div><div class="ticker-item">In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack</div><div class="ticker-item">Monnai Raises $12 Million for Identity and Risk Data Infrastructure</div><div class="ticker-item">Project Eleven Raises $20 Million for Post-Quantum Security</div><div class="ticker-item">750,000 Impacted by Data Breach at Canadian Investment Watchdog</div><div class="ticker-item">Cyber Insights 2026: Social Engineering</div><div class="ticker-item">Google Chrome tests Gemini-powered AI "Skills"</div><div class="ticker-item">Google Chrome now lets you turn off on-device AI model powering scam detection</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Credential-stealing Chrome extensions target enterprise HR platforms</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice</h3>
+                <p><strong>Summary:</strong> Ukrainian and German law enforcement authorities have identified  two Ukrainians suspected of working for the Russia-linked ransomware-as-a-service (RaaS) group Black Basta.  In addition, the group's ...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/black-basta-ransomware-hacker-leader.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/black-basta-ransomware-hacker-leader.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans</h3>
+                <p><strong>Summary:</strong> OpenAI on Friday said it would start showing ads in ChatGPT to logged-in adult U.S. users in both the free and ChatGPT Go tiers in the coming weeks, as the artificial intelligence (AI) company expande...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection</h3>
+                <p><strong>Summary:</strong> The JavaScript (aka JScript) malware loader called GootLoader  has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered five new malicious Google Chrome web browser extensions that masquerade as human resources (HR) and enterprise resource planning (ERP) platforms like Workday,...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Your Digital Footprint Can Lead Right to Your Front Door</h3>
+                <p><strong>Summary:</strong> You lock your doors at night. You avoid sketchy phone calls. You're careful about what you post on social media.  But what about the information about you that's already out there—without your permiss...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing</h3>
+                <p><strong>Summary:</strong> Security experts have disclosed details of a new campaign that has targeted U.S. government and policy entities using politically themed lures to deliver a backdoor known as LOTUSLITE .  The targeted ...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System</h3>
+                <p><strong>Summary:</strong> Nicholas Moore pleaded guilty to repeatedly hacking the U.S. Supreme Court’s filing system and illegally accessing computer systems belonging to AmeriCorps and the Department of Veterans Affairs.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tennessee-man-pleads-guilty-to-repeatedly-hacking-supreme-courts-filing-system/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tennessee-man-pleads-guilty-to-repeatedly-hacking-supreme-courts-filing-system/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: BodySnatcher agentic AI hijacking, Telegram IP exposure, shipping systems hacked by researcher.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-fortisiem-flaw-exploited-sean-plankey-renominated-russias-polish-grid-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-fortisiem-flaw-exploited-sean-plankey-renominated-russias-polish-grid-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Monnai Raises $12 Million for Identity and Risk Data Infrastructure</h3>
+                <p><strong>Summary:</strong> The company will use the investment to accelerate the adoption of its solution among financial institutions and digital businesses.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/monnai-raises-12-million-for-identity-and-risk-data-infrastructure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/monnai-raises-12-million-for-identity-and-risk-data-infrastructure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Project Eleven Raises $20 Million for Post-Quantum Security</h3>
+                <p><strong>Summary:</strong> The startup is building the necessary infrastructure and tools to help organizations transition to post-quantum computing.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/project-eleven-raises-20-million-for-post-quantum-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/project-eleven-raises-20-million-for-post-quantum-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>750,000 Impacted by Data Breach at Canadian Investment Watchdog</h3>
+                <p><strong>Summary:</strong> The incident impacted the personal information of CIRO member firms and their registered employees.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/750000-impacted-by-data-breach-at-canadian-investment-watchdog/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/750000-impacted-by-data-breach-at-canadian-investment-watchdog/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyber Insights 2026: Social Engineering</h3>
+                <p><strong>Summary:</strong> We’ve known that social engineering would get AI wings. Now, at the beginning of 2026, we are learning just how high those wings can soar.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyber-insights-2026-social-engineering/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyber-insights-2026-social-engineering/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Chrome tests Gemini-powered AI "Skills"</h3>
+                <p><strong>Summary:</strong> Google is testing "Skills" for Gemini in Chrome, which will allow AI in Chrome to perform tasks automatically, and it could challenge Perplexity Comet or Edge's Copilot mode.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-tests-gemini-powered-ai-skills/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-tests-gemini-powered-ai-skills/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Chrome now lets you turn off on-device AI model powering scam detection</h3>
+                <p><strong>Summary:</strong> Google Chrome now lets you delete the local AI models that power the "Enhanced Protection" feature, which was upgraded with AI capabilities last year.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Credential-stealing Chrome extensions target enterprise HR platforms</h3>
+                <p><strong>Summary:</strong> Malicious Chrome extensions on the Chrome Web Store masquerading as productivity and security tools for enterprise HR and ERP platforms were discovered stealing authentication credentials or blocking ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

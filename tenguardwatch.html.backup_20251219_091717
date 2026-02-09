@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Kimsuky Spreads DocSwap Android Malware via QR Phishing Posing as Delivery App</div><div class="ticker-item">CISA Flags Critical ASUS Live Update Flaw After Evidence of Active Exploitation</div><div class="ticker-item">Cisco Warns of Active Attacks Exploiting Unpatched 0-Day in AsyncOS Email Security Appliances</div><div class="ticker-item">SonicWall Fixes Actively Exploited CVE-2025-40602 in SMA 100 Appliances</div><div class="ticker-item">Kimwolf Botnet Hijacks 1.8 Million Android TVs, Launches Large-Scale DDoS Attacks</div><div class="ticker-item">APT28 Targets Ukrainian UKR-net Users in Long-Running Credential Phishing Campaign</div><div class="ticker-item">SonicWall Patches Exploited SMA 1000 Zero-Day</div><div class="ticker-item">China-Linked Hackers Exploiting Zero-Day in Cisco Security Gear</div><div class="ticker-item">NMFTA Warns of Surge and Sophistication of Cyber-Enabled Cargo Theft</div><div class="ticker-item">Hacker Conversations: Alex Hall, One-Time Fraudster</div><div class="ticker-item">New $150 Cellik RAT Grants Android Control, Trojanizes Google Play Apps</div><div class="ticker-item">Five Cybersecurity Predictions for 2026: Identity, AI, and the Collapse of Perimeter Thinking</div><div class="ticker-item">Zeroday Cloud hacking event awards $320,0000 for 11 zero days</div><div class="ticker-item">France arrests suspect tied to cyberattack on Interior Ministry</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Amazon: Ongoing cryptomining campaign uses hacked AWS accounts</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Kimsuky Spreads DocSwap Android Malware via QR Phishing Posing as Delivery App</h3>
+                <p><strong>Summary:</strong> The North Korean threat actor known as Kimsuky  has been linked to a new campaign that distributes a new variant of Android malware called DocSwap  via QR codes hosted on phishing sites mimicking Seou...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/kimsuky-spreads-docswap-android-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/kimsuky-spreads-docswap-android-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Flags Critical ASUS Live Update Flaw After Evidence of Active Exploitation</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical flaw impacting ASUS Live Update to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/cisa-flags-critical-asus-live-update.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/cisa-flags-critical-asus-live-update.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cisco Warns of Active Attacks Exploiting Unpatched 0-Day in AsyncOS Email Security Appliances</h3>
+                <p><strong>Summary:</strong> Cisco has alerted users to a maximum-severity zero-day flaw in Cisco AsyncOS software that has been actively exploited by a China-nexus advanced persistent threat (APT) actor codenamed UAT-9686 in att...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/cisco-warns-of-active-attacks.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/cisco-warns-of-active-attacks.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SonicWall Fixes Actively Exploited CVE-2025-40602 in SMA 100 Appliances</h3>
+                <p><strong>Summary:</strong> SonicWall has rolled out fixes to address  a security flaw in Secure Mobile Access (SMA) 100 series appliances that it said has been actively exploited in the wild.  The vulnerability, tracked as CVE-...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/sonicwall-fixes-actively-exploited-cve.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/sonicwall-fixes-actively-exploited-cve.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Kimwolf Botnet Hijacks 1.8 Million Android TVs, Launches Large-Scale DDoS Attacks</h3>
+                <p><strong>Summary:</strong> A new distributed denial-of-service (DDoS) botnet known as Kimwolf  has enlisted a massive army of no less than 1.8 million infected devices comprising Android-based TVs, set-top boxes, and tablets, a...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/kimwolf-botnet-hijacks-18-million.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/kimwolf-botnet-hijacks-18-million.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APT28 Targets Ukrainian UKR-net Users in Long-Running Credential Phishing Campaign</h3>
+                <p><strong>Summary:</strong> The Russian state-sponsored threat actor known as APT28  has been attributed to what has been described as a "sustained" credential-harvesting campaign targeting users of UKR[.]net, a webmail and news...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/apt28-targets-ukrainian-ukr-net-users.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/apt28-targets-ukrainian-ukr-net-users.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SonicWall Patches Exploited SMA 1000 Zero-Day</h3>
+                <p><strong>Summary:</strong> The medium-severity flaw has been exploited in combination with a critical bug for remote code execution.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sonicwall-patches-exploited-sma-1000-zero-day/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sonicwall-patches-exploited-sma-1000-zero-day/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked Hackers Exploiting Zero-Day in Cisco Security Gear</h3>
+                <p><strong>Summary:</strong> The critical zero-day is tracked as CVE-2025-20393 and it impacts Secure Email Gateway and Secure Email and Web Manager appliances.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/china-linked-hackers-exploiting-zero-day-in-cisco-security-gear/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/china-linked-hackers-exploiting-zero-day-in-cisco-security-gear/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>NMFTA Warns of Surge and Sophistication of Cyber-Enabled Cargo Theft</h3>
+                <p><strong>Summary:</strong> The trucking industry group has released its 2026 Transportation Industry Cybersecurity Trends Report.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/nmfta-warns-of-surge-and-sophistication-of-cyber-enabled-cargo-theft/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/nmfta-warns-of-surge-and-sophistication-of-cyber-enabled-cargo-theft/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hacker Conversations: Alex Hall, One-Time Fraudster</h3>
+                <p><strong>Summary:</strong> A first-person journey from undetected fraud to defending trust—how life events, neurodiversity, and hard-won insight shaped a former fraudster into a fraud fighter.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hacker-conversations-alex-hall-one-time-fraudster/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hacker-conversations-alex-hall-one-time-fraudster/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New $150 Cellik RAT Grants Android Control, Trojanizes Google Play Apps</h3>
+                <p><strong>Summary:</strong> The malware provides full device control and real-time surveillance capabilities like those of advanced spyware.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-150-cellik-rat-grants-android-control-trojanizes-google-play-apps/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-150-cellik-rat-grants-android-control-trojanizes-google-play-apps/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Five Cybersecurity Predictions for 2026: Identity, AI, and the Collapse of Perimeter Thinking</h3>
+                <p><strong>Summary:</strong> The perimeter is gone. Credentials are no longer sufficient. And security can no longer rely on static controls in a dynamic threat environment.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/five-cybersecurity-predictions-for-2026-identity-ai-and-the-collapse-of-perimeter-thinking/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/five-cybersecurity-predictions-for-2026-identity-ai-and-the-collapse-of-perimeter-thinking/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Zeroday Cloud hacking event awards $320,0000 for 11 zero days</h3>
+                <p><strong>Summary:</strong> The Zeroday Cloud hacking competition in London has awarded researchers $320,000 for demonstrating critical remote code execution vulnerabilities in components used in cloud infrastructure.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/zeroday-cloud-hacking-event-awards-320-0000-for-11-zero-days/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/zeroday-cloud-hacking-event-awards-320-0000-for-11-zero-days/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>France arrests suspect tied to cyberattack on Interior Ministry</h3>
+                <p><strong>Summary:</strong> French authorities arrested a 22-year-old suspect on Tuesday for a cyberattack that targeted France's Ministry of the Interior earlier this month.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/france-arrests-suspect-tied-to-cyberattack-on-interior-ministry/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/france-arrests-suspect-tied-to-cyberattack-on-interior-ministry/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Amazon: Ongoing cryptomining campaign uses hacked AWS accounts</h3>
+                <p><strong>Summary:</strong> Amazon's AWS GuardDuty security team is warning of an ongoing crypto-mining campaign that targets its Elastic Compute Cloud (EC2) and Elastic Container Service (ECS) using compromised credentials for ...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/amazon-ongoing-cryptomining-campaign-uses-hacked-aws-accounts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/amazon-ongoing-cryptomining-campaign-uses-hacked-aws-accounts/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

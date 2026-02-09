@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CISA Warns of Active Spyware Campaigns Hijacking High-Value Signal and WhatsApp Users</div><div class="ticker-item">New Fluent Bit Flaws Expose Cloud to RCE and Stealthy Infrastructure Intrusions</div><div class="ticker-item">Second Sha1-Hulud Wave Affects 25,000+ Repositories via npm Preinstall Credential Theft</div><div class="ticker-item">⚡ Weekly Recap: Fortinet Exploit, Chrome 0-Day, BadIIS Malware, Record DDoS, SaaS Breach & More</div><div class="ticker-item">Chinese DeepSeek-R1 AI Generates Insecure Code When Prompts Mention Tibet or Uyghurs</div><div class="ticker-item">ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access</div><div class="ticker-item">Canon Says Subsidiary Impacted by Oracle EBS Hack</div><div class="ticker-item">CISA Confirms Exploitation of Recent Oracle Identity Manager Vulnerability</div><div class="ticker-item">CrowdStrike Insider Helped Hackers Falsely Claim System Breach</div><div class="ticker-item">Microsoft Highlights Security Risks Introduced by New Agentic AI Feature</div><div class="ticker-item">Mazda Says No Data Leakage or Operational Impact From Oracle Hack</div><div class="ticker-item">Spanish Airline Iberia Notifies Customers of Data Breach</div><div class="ticker-item">Malicious Blender model files deliver StealC infostealing malware</div><div class="ticker-item">ClickFix attack uses fake Windows Update screen to push malware</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Real-estate finance services giant SitusAMC breach exposes client data</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Warns of Active Spyware Campaigns Hijacking High-Value Signal and WhatsApp Users</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday issued an alert warning of bad actors actively leveraging commercial spyware and remote access trojans (RATs) to target users...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/cisa-warns-of-active-spyware-campaigns.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/cisa-warns-of-active-spyware-campaigns.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Fluent Bit Flaws Expose Cloud to RCE and Stealthy Infrastructure Intrusions</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered five vulnerabilities in Fluent Bit , an open-source and lightweight telemetry agent, that could be chained to compromise and take over cloud infrastructures. ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/new-fluent-bit-flaws-expose-cloud-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/new-fluent-bit-flaws-expose-cloud-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Second Sha1-Hulud Wave Affects 25,000+ Repositories via npm Preinstall Credential Theft</h3>
+                <p><strong>Summary:</strong> Multiple security vendors are sounding the alarm about a second wave of attacks targeting the npm registry in a manner that's reminiscent of the Shai-Hulud attack .  The new supply chain campaign, dub...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/second-sha1-hulud-wave-affects-25000.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/second-sha1-hulud-wave-affects-25000.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Fortinet Exploit, Chrome 0-Day, BadIIS Malware, Record DDoS, SaaS Breach & More</h3>
+                <p><strong>Summary:</strong> This week saw a lot of new cyber trouble. Hackers hit Fortinet and Chrome with new 0-day bugs. They also broke into supply chains and SaaS tools. Many hid inside trusted apps, browser alerts, and soft...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese DeepSeek-R1 AI Generates Insecure Code When Prompts Mention Tibet or Uyghurs</h3>
+                <p><strong>Summary:</strong> New research from CrowdStrike has revealed that DeepSeek's artificial intelligence (AI) reasoning model DeepSeek-R1 produces more security vulnerabilities in response to prompts that contain topics de...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/chinese-ai-model-deepseek-r1-generates.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/chinese-ai-model-deepseek-r1-generates.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access</h3>
+                <p><strong>Summary:</strong> A recently patched security flaw in Microsoft Windows Server Update Services (WSUS) has been exploited by threat actors to distribute malware known as ShadowPad.  "The attacker targeted Windows Server...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Canon Says Subsidiary Impacted by Oracle EBS Hack</h3>
+                <p><strong>Summary:</strong> More than 100 alleged victims of the Oracle EBS campaign have been added to the Cl0p ransomware website.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Confirms Exploitation of Recent Oracle Identity Manager Vulnerability</h3>
+                <p><strong>Summary:</strong> CISA has added CVE-2025-61757 to its Known Exploited Vulnerabilities (KEV) catalog.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-confirms-exploitation-of-recent-oracle-identity-manager-vulnerability/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-confirms-exploitation-of-recent-oracle-identity-manager-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CrowdStrike Insider Helped Hackers Falsely Claim System Breach</h3>
+                <p><strong>Summary:</strong> The company has confirmed that it terminated an insider who shared screenshots of his computer with cybercriminals.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/crowdstrike-insider-helped-hackers-falsely-claim-system-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/crowdstrike-insider-helped-hackers-falsely-claim-system-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Highlights Security Risks Introduced by New Agentic AI Feature</h3>
+                <p><strong>Summary:</strong> Without proper security controls, AI agents could perform malicious actions, such as data exfiltration and malware installation.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-highlights-security-risks-introduced-by-new-agentic-ai-feature/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-highlights-security-risks-introduced-by-new-agentic-ai-feature/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Mazda Says No Data Leakage or Operational Impact From Oracle Hack</h3>
+                <p><strong>Summary:</strong> The Cl0p ransomware group has listed Mazda and Mazda USA as victims of the Oracle EBS campaign on its leak website.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/mazda-says-no-data-leakage-or-operational-impact-from-oracle-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/mazda-says-no-data-leakage-or-operational-impact-from-oracle-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Spanish Airline Iberia Notifies Customers of Data Breach</h3>
+                <p><strong>Summary:</strong> The company has notified its customers of the incident roughly a week after a threat actor claimed the theft of 77GB of data from Iberia’s systems.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/spanish-airline-iberia-notifies-customers-of-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/spanish-airline-iberia-notifies-customers-of-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious Blender model files deliver StealC infostealing malware</h3>
+                <p><strong>Summary:</strong> A Russian-linked campaign delivers the StealC V2 information stealer malware through malicious Blender files uploaded to 3D model marketplaces like CGTrader.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/malicious-blender-model-files-deliver-stealc-infostealing-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/malicious-blender-model-files-deliver-stealc-infostealing-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ClickFix attack uses fake Windows Update screen to push malware</h3>
+                <p><strong>Summary:</strong> New ClickFix attack variants have been observed where threat actors trick users with a realistic-looking Windows Update animation in a full-screen browser page and hide the malicious code inside image...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/clickfix-attack-uses-fake-windows-update-screen-to-push-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/clickfix-attack-uses-fake-windows-update-screen-to-push-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Real-estate finance services giant SitusAMC breach exposes client data</h3>
+                <p><strong>Summary:</strong> SitusAMC, a company that provides back-end services for top banks and lenders, disclosed on Saturday a data breach it had discovered earlier this month that impacted customer data.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/real-estate-finance-services-giant-situsamc-breach-exposes-client-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/real-estate-finance-services-giant-situsamc-breach-exposes-client-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

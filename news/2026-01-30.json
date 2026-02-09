@@ -1,0 +1,208 @@
+{
+  "date": "2026-01-30",
+  "items": [
+    {
+      "title": "Ex-Google Engineer Convicted for Stealing 2,000 AI Trade Secrets for China Startup",
+      "link": "https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html",
+      "summary": "A former Google engineer accused of stealing thousands of the company's confidential documents to build a startup in China has been convicted in the U.S., the Department of Justice (DoJ) announced  Thursday.  Linwei Ding (aka Leon Ding), 38, was convicted by a federal jury on seven counts of economic espionage and seven counts of theft of trade secrets for taking over 2,000 documents containing the tech giant's trade secrets related to artificial intelligence (AI) technology for the benefit of the People's Republic of China (PRC).  \"Silicon Valley is at the forefront of artificial intelligence innovation, pioneering transformative work that drives economic growth and strengthens our national security,\" said U.S. Attorney Craig H. Missakian. \"We will vigorously protect American intellectual capital from foreign interests that seek to gain an unfair competitive advantage while putting our national security at risk.\"   Ding was indicted  in March 2024 for ...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "ex-google-engineer-convicted-for-stealing-2000-ai-",
+      "source": "The Hacker News",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score",
+      "link": "https://thehackernews.com/2026/01/smartermail-fixes-critical.html",
+      "summary": "SmarterTools has addressed two more security flaws in SmarterMail email software, including one critical security flaw that could result in arbitrary code execution.  The vulnerability, tracked as CVE-2026-24423 , carries a CVSS score of 9.3 out of 10.0.  \"SmarterTools SmarterMail versions prior to build 9511 contain an unauthenticated remote code execution vulnerability in the ConnectToHub API method,\" according to a description of the flaw  in CVE.org.  \"The attacker could point the SmarterMail to the malicious HTTP server, which serves the malicious OS [operating system] command. This command will be executed by the vulnerable application.\"  watchTowr researchers Sina Kheirkhah and Piotr Bazydlo, CODE WHITE GmbH's Markus Wulftange , and VulnCheck's Cale Black  have been credited with discovering and reporting the vulnerability.  The security hole has been addressed in version Build 9511, released on January 15, 2026. The same build also patches another c...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "smartermail-fixes-critical-unauthenticated-rce-fla",
+      "source": "The Hacker News",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released",
+      "link": "https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html",
+      "summary": "Ivanti has rolled out  security updates to address two security flaws impacting Ivanti Endpoint Manager Mobile (EPMM) that have been exploited in zero-day attacks, one of which has been added  by the U.S. Cybersecurity and Infrastructure Security Agency ( CISA ) to its Known Exploited Vulnerabilities (KEV) catalog.  The critical-severity vulnerabilities are listed below -   CVE-2026-1281  (CVSS score: 9.8) - A code injection allowing attackers to achieve unauthenticated remote code execution  CVE-2026-1340  (CVSS score: 9.8) - A code injection allowing attackers to achieve unauthenticated remote code execution    They affect the following versions -   EPMM 12.5.0.0 and prior, 12.6.0.0 and prior, and 12.7.0.0 and prior (Fixed in RPM 12.x.0.x)  EPMM 12.5.1.0 and prior and 12.6.1.0 and prior (Fixed in RPM 12.x.1.x)    However, it bears noting that the RPM patch does not survive a version upgrade and must be reapplied if the appliance is upgraded to a new version. The vulnerabilities will...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "two-ivanti-epmm-zero-day-rce-flaws-actively-exploi",
+      "source": "The Hacker News",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Researchers Find 175,000 Publicly Exposed Ollama AI Servers Across 130 Countries",
+      "link": "https://thehackernews.com/2026/01/researchers-find-175000-publicly.html",
+      "summary": "A new joint investigation by SentinelOne SentinelLABS, and Censys has revealed that the open-source artificial intelligence (AI) deployment has created a vast \"unmanaged, publicly accessible layer of AI compute infrastructure\" that spans 175,000 unique Ollama hosts across 130 countries.  These systems, which span both cloud and residential networks across the world, operate outside the guardrails and monitoring systems that platform providers implement by default, the company said. The vast majority of the exposures are located in China, accounting for a little over 30%. The countries with the most infrastructure footprint include the U.S., Germany, France, South Korea, India, Russia, Singapore, Brazil, and the U.K.  \"Nearly half of observed hosts are configured with tool-calling capabilities that enable them to execute code, access APIs, and interact with external systems, demonstrating the increasing implementation of LLMs into larger system processes,\" research...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "researchers-find-175000-publicly-exposed-ollama-ai",
+      "source": "The Hacker News",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "ThreatsDay Bulletin: New RCEs, Darknet Busts, Kernel Bugs & 25+ More Stories",
+      "link": "https://thehackernews.com/2026/01/threatsday-bulletin-new-rces-darknet.html",
+      "summary": "This week's updates show how small changes can create real problems. Not loud incidents, but quiet shifts that are easy to miss until they add up. The kind that affects systems people rely on every day.  Many of the stories point to the same trend: familiar tools being used in unexpected ways. Security controls are being worked on. Trusted platforms turning into weak spots. What looks routine on the surface often isn't.  There's no single theme driving everything — just steady pressure across many fronts. Access, data, money, and trust are all being tested at once, often without clear warning signs.  This edition pulls together those signals in short form, so you can see what's changing before it becomes harder to ignore.                     Major cybercrime forum takedown             FBI Seizes RAMP Forum                  The U.S. Federal Bureau of Investigation (FBI) has seized the notorious RAMP cybercrime forum. Visitors to the forum's Tor site and its clearnet domain, ramp4u...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "threatsday-bulletin-new-rces-darknet-busts-kernel-",
+      "source": "The Hacker News",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Survey of 100+ Energy Systems Reveals Critical OT Cybersecurity Gaps",
+      "link": "https://thehackernews.com/2026/01/survey-of-100-energy-systems-reveals.html",
+      "summary": "A study by OMICRON  has revealed widespread cybersecurity gaps in the operational technology (OT) networks of substations, power plants, and control centers worldwide. Drawing on data from more than 100 installations, the analysis highlights recurring technical, organizational, and functional issues that leave critical energy infrastructure vulnerable to cyber threats.  The findings are based on several years of deploying OMICRON's intrusion detection system (IDS) StationGuard  in protection, automation, and control (PAC) systems. The technology, which monitors network traffic passively, has provided deep visibility into real-world OT environments. The results underscore the growing attack surface in energy systems and the challenges operators face in securing aging infrastructure and complex network architectures.   Connection of an IDS in PAC systems (circles indicate mirror ports)  StationGuard deployments, often carried out during security assessments, revealed vulnerabilities su...",
+      "tags": [
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "survey-of-100-energy-systems-reveals-critical-ot-c",
+      "source": "The Hacker News",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Ivanti Patches Exploited EPMM Zero-Days",
+      "link": "https://www.securityweek.com/ivanti-patches-exploited-epmm-zero-days/",
+      "summary": "The critical-severity vulnerabilities could allow unauthenticated attackers to execute arbitrary code remotely.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ivanti-patches-exploited-epmm-zero-days",
+      "source": "SecurityWeek",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "LLMs Hijacked, Monetized in ‘Operation Bizarre Bazaar’",
+      "link": "https://www.securityweek.com/llms-hijacked-monetized-in-operation-bizarre-bazaar/",
+      "summary": "An LLMjacking operation has been targeting exposed LLMs and MCPs at scale, for commercial monetization.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "llms-hijacked-monetized-in-operation-bizarre-bazaa",
+      "source": "SecurityWeek",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "N8n Vulnerabilities Could Lead to Remote Code Execution",
+      "link": "https://www.securityweek.com/n8n-vulnerabilities-could-lead-to-remote-code-execution/",
+      "summary": "The two bugs impacted n8n’s sandbox mechanism and could be exploited via weaknesses in the AST sanitization logic.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "n8n-vulnerabilities-could-lead-to-remote-code-exec",
+      "source": "SecurityWeek",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "SolarWinds Patches Critical Web Help Desk Vulnerabilities",
+      "link": "https://www.securityweek.com/solarwinds-patches-critical-web-help-desk-vulnerabilities/",
+      "summary": "The four critical flaws could be exploited without authentication for remote code execution or authentication bypass.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "solarwinds-patches-critical-web-help-desk-vulnerab",
+      "source": "SecurityWeek",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Cyber Insights 2026: Zero Trust and Following the Path",
+      "link": "https://www.securityweek.com/cyber-insights-2026-zero-trust-and-following-the-path/",
+      "summary": "Zero Trust is not a thing; it is an idea. It is not a product; it is a concept – it is a destination that has no precise route and may never be reached.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cyber-insights-2026-zero-trust-and-following-the-p",
+      "source": "SecurityWeek",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Google Disrupts IPIDEA Proxy Network",
+      "link": "https://www.securityweek.com/google-disrupts-ipidea-proxy-network/",
+      "summary": "One of the largest residential proxy networks, IPIDEA enrolled devices through SDKs for mobile and desktop.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-disrupts-ipidea-proxy-network",
+      "source": "SecurityWeek",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Microsoft links Windows 11 boot failures to failed December 2025 update",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-links-windows-11-boot-failures-to-failed-december-2025-update/",
+      "summary": "Microsoft has linked recent reports of Windows 11 boot failures after installing the January 2026 updates to previously failed attempts to install the December 2025 security update, which left systems in an \"improper state.\"",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-links-windows-11-boot-failures-to-failed",
+      "source": "BleepingComputer",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Hugging Face abused to spread thousands of Android malware variants",
+      "link": "https://www.bleepingcomputer.com/news/security/hugging-face-abused-to-spread-thousands-of-android-malware-variants/",
+      "summary": "A new Android malware campaign is using the Hugging Face platform as a repository for thousands of variations of an APK payload that collects credentials for popular financial and payment services.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "hugging-face-abused-to-spread-thousands-of-android",
+      "source": "BleepingComputer",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-30"
+    },
+    {
+      "title": "Ivanti warns of two EPMM flaws exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-two-epmm-flaws-exploited-in-zero-day-attacks/",
+      "summary": "Ivanti has disclosed two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as CVE-2026-1281 and CVE-2026-1340, that were exploited in zero-day attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ivanti-warns-of-two-epmm-flaws-exploited-in-zero-d",
+      "source": "BleepingComputer",
+      "date": "2026-01-30"
+    }
+  ]
+}

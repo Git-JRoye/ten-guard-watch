@@ -1,0 +1,216 @@
+{
+  "date": "2025-11-25",
+  "items": [
+    {
+      "title": "CISA Warns of Active Spyware Campaigns Hijacking High-Value Signal and WhatsApp Users",
+      "link": "https://thehackernews.com/2025/11/cisa-warns-of-active-spyware-campaigns.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday issued an alert warning of bad actors actively leveraging commercial spyware and remote access trojans (RATs) to target users of mobile messaging applications.  \"These cyber actors use sophisticated targeting and social engineering techniques to deliver spyware and gain unauthorized access to a victim's messaging app, facilitating the deployment of additional malicious payloads that can further compromise the victim's mobile device,\" the agency said .   CISA cited as examples multiple campaigns that have come to light since the start of the year. Some of them include -   The targeting of the Signal messaging app by multiple Russia-aligned threat actors  by taking advantage of the service's \"linked devices\" feature to hijack target user accounts  Android spyware campaigns codenamed ProSpy and ToSpy  that impersonate apps like Signal and ToTok to target users in the United Arab Emi...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "cisa-warns-of-active-spyware-campaigns-hijacking-h",
+      "source": "The Hacker News",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "New Fluent Bit Flaws Expose Cloud to RCE and Stealthy Infrastructure Intrusions",
+      "link": "https://thehackernews.com/2025/11/new-fluent-bit-flaws-expose-cloud-to.html",
+      "summary": "Cybersecurity researchers have discovered five vulnerabilities in Fluent Bit , an open-source and lightweight telemetry agent, that could be chained to compromise and take over cloud infrastructures.  The security defects \"allow attackers to bypass authentication, perform path traversal, achieve remote code execution, cause denial-of-service conditions, and manipulate tags,\" Oligo Security said in a report  shared with The Hacker News.   Successful exploitation of the flaws could enable attackers to disrupt cloud services, manipulate data, and burrow deeper into cloud and Kubernetes infrastructure. The list of identified vulnerabilities is as follows -   CVE-2025-12972  - A path traversal vulnerability stemming from the use of unsanitized tag values  to generate output filenames, making it possible to write or overwrite arbitrary files on disk, enabling log tampering and remote code execution.  CVE-2025-12970  - A stack buffer overflow vulnerability in the Docker Metrics inp...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-fluent-bit-flaws-expose-cloud-to-rce-and-steal",
+      "source": "The Hacker News",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "Second Sha1-Hulud Wave Affects 25,000+ Repositories via npm Preinstall Credential Theft",
+      "link": "https://thehackernews.com/2025/11/second-sha1-hulud-wave-affects-25000.html",
+      "summary": "Multiple security vendors are sounding the alarm about a second wave of attacks targeting the npm registry in a manner that's reminiscent of the Shai-Hulud attack .  The new supply chain campaign, dubbed Sha1-Hulud , has compromised hundreds of npm packages, according to reports from Aikido , HelixGuard , JFrog , Koi Security , ReversingLabs , SafeDep , Socket , Step Security , and Wiz . The trojanized npm packages were uploaded to npm between November 21 and 23, 2025. The attack has impacted popular packages from Zapier, ENS Domains, PostHog, and Postman, among others.  \"The campaign introduces a new variant that executes malicious code during the preinstall phase, significantly increasing potential exposure in build and runtime environments,\" Wiz researchers Hila Ramati, Merav Bar, Gal Benmocha, and Gili Tikochinski said.  Like the Shai-Hulud attack that came to light in September 2025, the latest activity also publishes stolen secrets to GitHub, this time with the rep...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "second-sha1-hulud-wave-affects-25000-repositories-",
+      "source": "The Hacker News",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "⚡ Weekly Recap: Fortinet Exploit, Chrome 0-Day, BadIIS Malware, Record DDoS, SaaS Breach & More",
+      "link": "https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html",
+      "summary": "This week saw a lot of new cyber trouble. Hackers hit Fortinet and Chrome with new 0-day bugs. They also broke into supply chains and SaaS tools. Many hid inside trusted apps, browser alerts, and software updates.  Big firms like Microsoft, Salesforce, and Google had to react fast — stopping DDoS attacks, blocking bad links, and fixing live flaws. Reports also showed how fast fake news, AI risks, and attacks on developers are growing.  Here's what mattered most in security this week.  ⚡ Threat of the Week  Fortinet Warns of Another Silently Patched and Actively Exploited FortiWeb Flaw  — Fortinet has warned that a new security flaw in FortiWeb has been exploited in the wild. The medium-severity vulnerability, tracked as CVE-2025-58034, carries a CVSS score of 6.7 out of a maximum of 10.0. It has been addressed in version 8.0.2. \"An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiWeb may allow an a...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "-weekly-recap-fortinet-exploit-chrome-0-day-badiis",
+      "source": "The Hacker News",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "Chinese DeepSeek-R1 AI Generates Insecure Code When Prompts Mention Tibet or Uyghurs",
+      "link": "https://thehackernews.com/2025/11/chinese-ai-model-deepseek-r1-generates.html",
+      "summary": "New research from CrowdStrike has revealed that DeepSeek's artificial intelligence (AI) reasoning model DeepSeek-R1 produces more security vulnerabilities in response to prompts that contain topics deemed politically sensitive by China.  \"We found that when DeepSeek-R1 receives prompts containing topics the Chinese Communist Party (CCP) likely considers politically sensitive, the likelihood of it producing code with severe security vulnerabilities increases by up to 50%,\" the cybersecurity company said .  The Chinese AI company previously attracted national security concerns, leading  to a ban  in many countries. Its open-source DeepSeek-R1 model was also found  to censor topics considered sensitive by the Chinese government, refusing to answer questions about the Great  Firewall  of China  or the political status of Taiwan, among others.  In a statement released earlier this month, Taiwan's National Security Bureau warned citizens to be vigilant when using Chinese-m...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-deepseek-r1-ai-generates-insecure-code-whe",
+      "source": "The Hacker News",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access",
+      "link": "https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html",
+      "summary": "A recently patched security flaw in Microsoft Windows Server Update Services (WSUS) has been exploited by threat actors to distribute malware known as ShadowPad.  \"The attacker targeted Windows Servers with WSUS enabled, exploiting CVE-2025-59287 for initial access,\" AhnLab Security Intelligence Center (ASEC) said  in a report published last week. \"They then used PowerCat , an open-source PowerShell-based Netcat utility, to obtain a system shell (CMD). Subsequently, they downloaded and installed ShadowPad using certutil and curl.\"  ShadowPad , assessed to be a successor to PlugX, is a modular backdoor widely used by Chinese state-sponsored hacking groups. It first emerged in 2015. In an analysis published in August 2021, SentinelOne called  it a \"masterpiece of privately sold malware in Chinese espionage.\"   CVE-2025-59287 , addressed by Microsoft last month, refers to a critical deserialization flaw in WSUS that could be exploited to achieve remote code ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "shadowpad-malware-actively-exploits-wsus-vulnerabi",
+      "source": "The Hacker News",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "Canon Says Subsidiary Impacted by Oracle EBS Hack",
+      "link": "https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack/",
+      "summary": "More than 100 alleged victims of the Oracle EBS campaign have been added to the Cl0p ransomware website.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "canon-says-subsidiary-impacted-by-oracle-ebs-hack",
+      "source": "SecurityWeek",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "CISA Confirms Exploitation of Recent Oracle Identity Manager Vulnerability",
+      "link": "https://www.securityweek.com/cisa-confirms-exploitation-of-recent-oracle-identity-manager-vulnerability/",
+      "summary": "CISA has added CVE-2025-61757 to its Known Exploited Vulnerabilities (KEV) catalog.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-confirms-exploitation-of-recent-oracle-identi",
+      "source": "SecurityWeek",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "CrowdStrike Insider Helped Hackers Falsely Claim System Breach",
+      "link": "https://www.securityweek.com/crowdstrike-insider-helped-hackers-falsely-claim-system-breach/",
+      "summary": "The company has confirmed that it terminated an insider who shared screenshots of his computer with cybercriminals.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "crowdstrike-insider-helped-hackers-falsely-claim-s",
+      "source": "SecurityWeek",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "Microsoft Highlights Security Risks Introduced by New Agentic AI Feature",
+      "link": "https://www.securityweek.com/microsoft-highlights-security-risks-introduced-by-new-agentic-ai-feature/",
+      "summary": "Without proper security controls, AI agents could perform malicious actions, such as data exfiltration and malware installation.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-highlights-security-risks-introduced-by-",
+      "source": "SecurityWeek",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "Mazda Says No Data Leakage or Operational Impact From Oracle Hack",
+      "link": "https://www.securityweek.com/mazda-says-no-data-leakage-or-operational-impact-from-oracle-hack/",
+      "summary": "The Cl0p ransomware group has listed Mazda and Mazda USA as victims of the Oracle EBS campaign on its leak website.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mazda-says-no-data-leakage-or-operational-impact-f",
+      "source": "SecurityWeek",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "Spanish Airline Iberia Notifies Customers of Data Breach",
+      "link": "https://www.securityweek.com/spanish-airline-iberia-notifies-customers-of-data-breach/",
+      "summary": "The company has notified its customers of the incident roughly a week after a threat actor claimed the theft of 77GB of data from Iberia’s systems.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "spanish-airline-iberia-notifies-customers-of-data-",
+      "source": "SecurityWeek",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "Malicious Blender model files deliver StealC infostealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-blender-model-files-deliver-stealc-infostealing-malware/",
+      "summary": "A Russian-linked campaign delivers the StealC V2 information stealer malware through malicious Blender files uploaded to 3D model marketplaces like CGTrader.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-blender-model-files-deliver-stealc-infos",
+      "source": "BleepingComputer",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "ClickFix attack uses fake Windows Update screen to push malware",
+      "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-uses-fake-windows-update-screen-to-push-malware/",
+      "summary": "New ClickFix attack variants have been observed where threat actors trick users with a realistic-looking Windows Update animation in a full-screen browser page and hide the malicious code inside images.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "clickfix-attack-uses-fake-windows-update-screen-to",
+      "source": "BleepingComputer",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "Real-estate finance services giant SitusAMC breach exposes client data",
+      "link": "https://www.bleepingcomputer.com/news/security/real-estate-finance-services-giant-situsamc-breach-exposes-client-data/",
+      "summary": "SitusAMC, a company that provides back-end services for top banks and lenders, disclosed on Saturday a data breach it had discovered earlier this month that impacted customer data.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "real-estate-finance-services-giant-situsamc-breach",
+      "source": "BleepingComputer",
+      "date": "2025-11-25"
+    }
+  ]
+}

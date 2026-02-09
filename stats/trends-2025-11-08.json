@@ -1,0 +1,197 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 14,
+      "vulnerability": 10,
+      "critical": 10,
+      "malware": 6,
+      "cybersecurity": 6,
+      "breach": 4,
+      "ransomware": 4,
+      "apt": 2,
+      "phishing": 2
+    },
+    "30_days": {
+      "attack": 14,
+      "vulnerability": 10,
+      "critical": 10,
+      "malware": 6,
+      "cybersecurity": 6,
+      "breach": 4,
+      "ransomware": 4,
+      "apt": 2,
+      "phishing": 2
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 10,
+      "Medium": 14,
+      "Low": 8
+    },
+    "30_days": {
+      "High": 10,
+      "Medium": 14,
+      "Low": 8
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 12,
+    "SecurityWeek": 12,
+    "BleepingComputer": 8
+  },
+  "top_keywords": {
+    "exploited": 16,
+    "cve": 16,
+    "malicious": 16,
+    "packages": 14,
+    "users": 14,
+    "google": 14,
+    "extension": 14,
+    "samsung": 12,
+    "security": 12,
+    "attacks": 12,
+    "code": 12,
+    "credentials": 12,
+    "zero": 10,
+    "april": 10,
+    "windows": 10,
+    "testing": 10,
+    "flaw": 8,
+    "android": 8,
+    "activity": 8,
+    "according": 8
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Samsung Mobile Flaw Exploited as Zero-Day to Deploy LANDFALL Android Spyware",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Google Workspace Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "A checklist for securing Google Workspace.",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "QNAP fixes seven NAS zero-day flaws exploited at Pwn2Own",
+      "link": "https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/",
+      "summary": "QNAP has fixed seven zero-day vulnerabilities that security researchers exploited to hack QNAP network-attached storage (NAS) devices during the Pwn2Own Ireland 2025 competition.",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "QNAP fixes seven NAS zero-day flaws exploited at Pwn2Own",
+      "link": "https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/",
+      "summary": "QNAP has fixed seven zero-day vulnerabilities that security researchers exploited to hack QNAP network-attached storage (NAS) devices during the Pwn2Own Ireland 2025 competition.",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 32,
+    "total_30_days": 32,
+    "top_tag": "attack",
+    "last_update": "2025-11-08T09:28:17.756846"
+  }
+}

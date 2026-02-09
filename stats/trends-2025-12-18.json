@@ -1,0 +1,319 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 64,
+      "vulnerability": 45,
+      "critical": 33,
+      "cybersecurity": 27,
+      "breach": 21,
+      "malware": 19,
+      "ransomware": 14,
+      "phishing": 13,
+      "apt": 8
+    },
+    "30_days": {
+      "attack": 257,
+      "vulnerability": 135,
+      "cybersecurity": 115,
+      "breach": 86,
+      "critical": 82,
+      "malware": 81,
+      "phishing": 69,
+      "apt": 46,
+      "ransomware": 37
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 58,
+      "High": 33,
+      "Low": 37
+    },
+    "30_days": {
+      "Medium": 244,
+      "High": 85,
+      "Low": 167
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 331,
+    "attacks": 156,
+    "vulnerability": 153,
+    "threat": 134,
+    "malware": 133,
+    "access": 131,
+    "data": 129,
+    "code": 128,
+    "exploited": 114,
+    "phishing": 113,
+    "flaw": 110,
+    "browser": 109,
+    "attack": 108,
+    "cve": 104,
+    "cybersecurity": 100,
+    "microsoft": 93,
+    "remote": 87,
+    "users": 87,
+    "critical": 85,
+    "google": 83
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Flags Critical ASUS Live Update Flaw After Evidence of Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-critical-asus-live-update.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical flaw impacting ASUS Live Update to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence ",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cisco Warns of Active Attacks Exploiting Unpatched 0-Day in AsyncOS Email Security Appliances",
+      "link": "https://thehackernews.com/2025/12/cisco-warns-of-active-attacks.html",
+      "summary": "Cisco has alerted users to a maximum-severity zero-day flaw in Cisco AsyncOS software that has been actively exploited by a China-nexus advanced persistent threat (APT) actor codenamed UAT-9686 in att",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "SonicWall Fixes Actively Exploited CVE-2025-40602 in SMA 100 Appliances",
+      "link": "https://thehackernews.com/2025/12/sonicwall-fixes-actively-exploited-cve.html",
+      "summary": "SonicWall has rolled out fixes to address  a security flaw in Secure Mobile Access (SMA) 100 series appliances that it said has been actively exploited in the wild.  The vulnerability, tracked as CVE-",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "SonicWall Patches Exploited SMA 1000 Zero-Day",
+      "link": "https://www.securityweek.com/sonicwall-patches-exploited-sma-1000-zero-day/",
+      "summary": "The medium-severity flaw has been exploited in combination with a critical bug for remote code execution.",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Exploiting Zero-Day in Cisco Security Gear",
+      "link": "https://www.securityweek.com/china-linked-hackers-exploiting-zero-day-in-cisco-security-gear/",
+      "summary": "The critical zero-day is tracked as CVE-2025-20393 and it impacts Secure Email Gateway and Secure Email and Web Manager appliances.",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Zeroday Cloud hacking event awards $320,0000 for 11 zero days",
+      "link": "https://www.bleepingcomputer.com/news/security/zeroday-cloud-hacking-event-awards-320-0000-for-11-zero-days/",
+      "summary": "The Zeroday Cloud hacking competition in London has awarded researchers $320,000 for demonstrating critical remote code execution vulnerabilities in components used in cloud infrastructure.",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Amazon Exposes Years-Long GRU Cyber Campaign Targeting Energy and Cloud Infrastructure",
+      "link": "https://thehackernews.com/2025/12/amazon-exposes-years-long-gru-cyber.html",
+      "summary": "Amazon's threat intelligence team has disclosed  details of a \"years-long\" Russian state-sponsored campaign that targeted Western critical infrastructure between 2021 and 2025.  Targets of the campaig",
+      "urgency": "High",
+      "date": "2025-12-17",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet FortiGate Under Active Attack Through SAML SSO Authentication Bypass",
+      "link": "https://thehackernews.com/2025/12/fortinet-fortigate-under-active-attack.html",
+      "summary": "Threat actors have begun to exploit two newly disclosed security flaws in Fortinet FortiGate devices, less than a week after public disclosure.  Cybersecurity company Arctic Wolf said it observed acti",
+      "urgency": "High",
+      "date": "2025-12-17",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISO Communities – Cybersecurity’s Secret Weapon",
+      "link": "https://www.securityweek.com/ciso-communities-cybersecuritys-secret-weapon/",
+      "summary": "Closed CISO communities act as an information exchange, advice center, pressure valve, and safe haven from critical oversight.",
+      "urgency": "High",
+      "date": "2025-12-17",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "React2Shell Vulnerability Actively Exploited to Deploy Linux Backdoors",
+      "link": "https://thehackernews.com/2025/12/react2shell-vulnerability-actively.html",
+      "summary": "The security vulnerability known as React2Shell  is being exploited by threat actors to deliver malware families like KSwapDoor and ZnDoor, according to findings from Palo Alto Networks Unit 42 and NT",
+      "urgency": "High",
+      "date": "2025-12-16",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2025-12-18T09:40:12.049837"
+  }
+}

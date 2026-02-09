@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks</div><div class="ticker-item">MuddyWater Deploys UDPGangster Backdoor in Targeted Turkey-Israel-Azerbaijan Campaign</div><div class="ticker-item">Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks</div><div class="ticker-item">Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation</div><div class="ticker-item">Zero-Click Agentic Browser Attack Can Delete Entire Google Drive Using Crafted Emails</div><div class="ticker-item">Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch</div><div class="ticker-item">In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor</div><div class="ticker-item">Cloudflare Outage Caused by React2Shell Mitigations</div><div class="ticker-item">Imper.ai Emerges From Stealth Mode With $28 Million in Funding</div><div class="ticker-item">US Organizations Warned of Chinese Malware Used for Long-Term Persistence</div><div class="ticker-item">Lumia Security Raises $18 Million for AI Security and Governance</div><div class="ticker-item">Aisuru Botnet Powers Record DDoS Attack Peaking at 29 Tbps</div><div class="ticker-item">OpenAI denies rolling out ads on ChatGPT paid plans</div><div class="ticker-item">Confidently step into IT with this $25 CompTIA course bundle deal</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Portugal updates cybercrime law to exempt security researchers</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks</h3>
+                <p><strong>Summary:</strong> A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence.  The remote code execution vulnerability in question is CVE-2025...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MuddyWater Deploys UDPGangster Backdoor in Targeted Turkey-Israel-Azerbaijan Campaign</h3>
+                <p><strong>Summary:</strong> The Iranian hacking group known as MuddyWater  has been observed leveraging a new backdoor dubbed UDPGangster  that uses the User Datagram Protocol (UDP) for command-and-control (C2) purposes.  The cy...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/muddywater-deploys-udpgangster-backdoor.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/muddywater-deploys-udpgangster-backdoor.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks</h3>
+                <p><strong>Summary:</strong> Over 30 security vulnerabilities have been disclosed in various artificial intelligence (AI)-powered Integrated Development Environments (IDEs) that combine prompt injection primitives  with legitimat...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/researchers-uncover-30-flaws-in-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/researchers-uncover-30-flaws-in-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday formally added  a critical security flaw impacting React Server Components (RSC) to its Known Exploited Vulnerabilities ( KEV...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Zero-Click Agentic Browser Attack Can Delete Entire Google Drive Using Crafted Emails</h3>
+                <p><strong>Summary:</strong> A new agentic browser attack targeting Perplexity's Comet browser  that's capable of turning a seemingly innocuous email into a destructive action that wipes a user's entire Google Drive contents, fin...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/zero-click-agentic-browser-attack-can.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/zero-click-agentic-browser-attack-can.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch</h3>
+                <p><strong>Summary:</strong> A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity ( XXE ) injection attack.  The vulnerability, tracked as CVE-2025-66516 , is rated 10.0 on the CV...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: X Fined €120 Million, Array Flaw Exploited, New Iranian Backdoor</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: Akamai patches HTTP smuggling vulnerability, Claude Skills used to execute ransomware, PickleScan flaws.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-x-fined-e120-million-array-flaw-exploited-new-iranian-backdoor/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-x-fined-e120-million-array-flaw-exploited-new-iranian-backdoor/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cloudflare Outage Caused by React2Shell Mitigations</h3>
+                <p><strong>Summary:</strong> The critical React vulnerability has been exploited in the wild by Chinese and other threat actors.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cloudflare-outage-caused-by-react2shell-mitigations/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cloudflare-outage-caused-by-react2shell-mitigations/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Imper.ai Emerges From Stealth Mode With $28 Million in Funding</h3>
+                <p><strong>Summary:</strong> The cybersecurity startup detects impersonation risk in real-time, across video, phone, and chat communication.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/imper-ai-emerges-from-stealth-mode-with-28-million-in-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/imper-ai-emerges-from-stealth-mode-with-28-million-in-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US Organizations Warned of Chinese Malware Used for Long-Term Persistence</h3>
+                <p><strong>Summary:</strong> Warp Panda has been using the BrickStorm, Junction, and GuestConduit malware in attacks against US organizations.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-organizations-warned-of-chinese-malware-used-for-long-term-persistence/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/us-organizations-warned-of-chinese-malware-used-for-long-term-persistence/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Lumia Security Raises $18 Million for AI Security and Governance</h3>
+                <p><strong>Summary:</strong> The startup will invest in expanding its engineering and research teams, deepening product integrations, and scaling go-to-market efforts.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/lumia-security-raises-18-million-for-ai-security-and-governance/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/lumia-security-raises-18-million-for-ai-security-and-governance/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Aisuru Botnet Powers Record DDoS Attack Peaking at 29 Tbps</h3>
+                <p><strong>Summary:</strong> Cloudflare recently mitigated a new record-breaking Aisuru attack that peaked at 14.1 Bpps.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/aisuru-botnet-powers-record-ddos-attack-peaking-at-29-tbps/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/aisuru-botnet-powers-record-ddos-attack-peaking-at-29-tbps/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI denies rolling out ads on ChatGPT paid plans</h3>
+                <p><strong>Summary:</strong> ChatGPT is allegedly showing ads to those who pay $20 for the Plus subscription, but OpenAI says this is an app recommendation feature, not an ad.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-denies-rolling-out-ads-on-chatgpt-paid-plans/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-denies-rolling-out-ads-on-chatgpt-paid-plans/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Confidently step into IT with this $25 CompTIA course bundle deal</h3>
+                <p><strong>Summary:</strong> If you've ever thought about breaking into IT, or moving up within it, you've probably that certifications helps. That's exactly where the All-in-One CompTIA Certification Prep Courses Bundle shines, ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/confidently-step-into-it-with-this-25-comptia-course-bundle-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/confidently-step-into-it-with-this-25-comptia-course-bundle-deal/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Portugal updates cybercrime law to exempt security researchers</h3>
+                <p><strong>Summary:</strong> Portugal has modified its cybercrime law to establish a legal safe harbor for good-faith security research and to make hacking non-punishable under certain strict conditions.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/portugal-updates-cybercrime-law-to-exempt-security-researchers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/portugal-updates-cybercrime-law-to-exempt-security-researchers/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

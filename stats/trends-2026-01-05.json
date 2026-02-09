@@ -1,0 +1,319 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 57,
+      "breach": 40,
+      "vulnerability": 23,
+      "malware": 20,
+      "cybersecurity": 15,
+      "apt": 13,
+      "critical": 9,
+      "phishing": 7,
+      "ransomware": 6
+    },
+    "30_days": {
+      "attack": 236,
+      "vulnerability": 123,
+      "breach": 102,
+      "cybersecurity": 102,
+      "critical": 81,
+      "malware": 81,
+      "apt": 51,
+      "phishing": 39,
+      "ransomware": 37
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 68,
+      "High": 9,
+      "Low": 27
+    },
+    "30_days": {
+      "Medium": 237,
+      "High": 81,
+      "Low": 154
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 243,
+    "vulnerability": 165,
+    "data": 138,
+    "code": 135,
+    "threat": 130,
+    "attacks": 129,
+    "flaw": 121,
+    "attack": 113,
+    "browser": 109,
+    "cve": 109,
+    "users": 107,
+    "malware": 101,
+    "google": 100,
+    "million": 100,
+    "cybersecurity": 99,
+    "exploited": 93,
+    "critical": 92,
+    "access": 85,
+    "phishing": 81,
+    "cvss": 77
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-05",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-03",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-02",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical CVSS 9.8 Flaw Found in IBM API Connect Authentication System",
+      "link": "https://thehackernews.com/2025/12/ibm-warns-of-critical-api-connect-bug.html",
+      "summary": "IBM has disclosed details of a critical security flaw in API Connect  that could allow attackers to gain remote access to the application.  The vulnerability, tracked as CVE-2025-13915 , is rated 9.8 ",
+      "urgency": "High",
+      "date": "2026-01-01",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html",
+      "summary": "The Cyber Security Agency of Singapore (CSA) has issued  a bulletin warning of a maximum-severity security flaw in SmarterTools SmarterMail  email software that could be exploited to achieve remote co",
+      "urgency": "High",
+      "date": "2026-01-01",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html",
+      "summary": "The Cyber Security Agency of Singapore (CSA) has issued  a bulletin warning of a maximum-severity security flaw in SmarterTools SmarterMail  email software that could be exploited to achieve remote co",
+      "urgency": "High",
+      "date": "2025-12-31",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "27 Malicious npm Packages Used as Phishing Infrastructure to Steal Login Credentials",
+      "link": "https://thehackernews.com/2025/12/27-malicious-npm-packages-used-as.html",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"sustained and targeted\" spear-phishing campaign that has published over two dozen packages to the npm registry to faci",
+      "urgency": "High",
+      "date": "2025-12-30",
+      "tags": [
+        "phishing",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection",
+      "link": "https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html",
+      "summary": "A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt ",
+      "urgency": "High",
+      "date": "2025-12-29",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection",
+      "link": "https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html",
+      "summary": "A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt ",
+      "urgency": "High",
+      "date": "2025-12-28",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 104,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-05T09:46:46.483295"
+  }
+}

@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans</div><div class="ticker-item">GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection</div><div class="ticker-item">Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts</div><div class="ticker-item">Your Digital Footprint Can Lead Right to Your Front Door</div><div class="ticker-item">LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing</div><div class="ticker-item">China-Linked APT Exploited Sitecore Zero-Day in Critical Infrastructure Intrusions</div><div class="ticker-item">In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack</div><div class="ticker-item">Monnai Raises $12 Million for Identity and Risk Data Infrastructure</div><div class="ticker-item">Project Eleven Raises $20 Million for Post-Quantum Security</div><div class="ticker-item">750,000 Impacted by Data Breach at Canadian Investment Watchdog</div><div class="ticker-item">Cyber Insights 2026: Social Engineering</div><div class="ticker-item">WhisperPair Attack Leaves Millions of Audio Accessories Open to Hijacking</div><div class="ticker-item">ChatGPT Go subscription rolls out worldwide at $8, but it'll show you ads</div><div class="ticker-item">OpenAI says its new ChatGPT ads won't influence answers</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">StealC hackers hacked as researchers hijack malware control panels</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans</h3>
+                <p><strong>Summary:</strong> OpenAI on Friday said it would start showing ads in ChatGPT to logged-in adult U.S. users in both the free and ChatGPT Go tiers in the coming weeks, as the artificial intelligence (AI) company expande...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection</h3>
+                <p><strong>Summary:</strong> The JavaScript (aka JScript) malware loader called GootLoader  has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered five new malicious Google Chrome web browser extensions that masquerade as human resources (HR) and enterprise resource planning (ERP) platforms like Workday,...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Your Digital Footprint Can Lead Right to Your Front Door</h3>
+                <p><strong>Summary:</strong> You lock your doors at night. You avoid sketchy phone calls. You're careful about what you post on social media.  But what about the information about you that's already out there—without your permiss...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing</h3>
+                <p><strong>Summary:</strong> Security experts have disclosed details of a new campaign that has targeted U.S. government and policy entities using politically themed lures to deliver a backdoor known as LOTUSLITE .  The targeted ...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked APT Exploited Sitecore Zero-Day in Critical Infrastructure Intrusions</h3>
+                <p><strong>Summary:</strong> A threat actor likely aligned with China has been observed targeting critical infrastructure sectors in North America since at least last year.  Cisco Talos, which is tracking the activity under the n...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/china-linked-apt-exploits-sitecore-zero.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/china-linked-apt-exploits-sitecore-zero.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: FortiSIEM Flaw Exploited, Sean Plankey Renominated, Russia’s Polish Grid Attack</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: BodySnatcher agentic AI hijacking, Telegram IP exposure, shipping systems hacked by researcher.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-fortisiem-flaw-exploited-sean-plankey-renominated-russias-polish-grid-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-fortisiem-flaw-exploited-sean-plankey-renominated-russias-polish-grid-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Monnai Raises $12 Million for Identity and Risk Data Infrastructure</h3>
+                <p><strong>Summary:</strong> The company will use the investment to accelerate the adoption of its solution among financial institutions and digital businesses.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/monnai-raises-12-million-for-identity-and-risk-data-infrastructure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/monnai-raises-12-million-for-identity-and-risk-data-infrastructure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Project Eleven Raises $20 Million for Post-Quantum Security</h3>
+                <p><strong>Summary:</strong> The startup is building the necessary infrastructure and tools to help organizations transition to post-quantum computing.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/project-eleven-raises-20-million-for-post-quantum-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/project-eleven-raises-20-million-for-post-quantum-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>750,000 Impacted by Data Breach at Canadian Investment Watchdog</h3>
+                <p><strong>Summary:</strong> The incident impacted the personal information of CIRO member firms and their registered employees.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/750000-impacted-by-data-breach-at-canadian-investment-watchdog/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/750000-impacted-by-data-breach-at-canadian-investment-watchdog/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyber Insights 2026: Social Engineering</h3>
+                <p><strong>Summary:</strong> We’ve known that social engineering would get AI wings. Now, at the beginning of 2026, we are learning just how high those wings can soar.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyber-insights-2026-social-engineering/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyber-insights-2026-social-engineering/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WhisperPair Attack Leaves Millions of Audio Accessories Open to Hijacking</h3>
+                <p><strong>Summary:</strong> The critical issue impacts Bluetooth audio accessories with improper Google Fast Pair implementations.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/whisperpair-attack-leaves-millions-of-bluetooth-accessories-open-to-hijacking/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/whisperpair-attack-leaves-millions-of-bluetooth-accessories-open-to-hijacking/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ChatGPT Go subscription rolls out worldwide at $8, but it'll show you ads</h3>
+                <p><strong>Summary:</strong> OpenAI's $8 ChatGPT Go subscription, which gives you 10x more messages, is now available in the United States and other regions.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-subscription-rolls-out-worldwide-at-8-but-itll-show-you-ads/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-subscription-rolls-out-worldwide-at-8-but-itll-show-you-ads/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI says its new ChatGPT ads won't influence answers</h3>
+                <p><strong>Summary:</strong> OpenAI has confirmed ChatGPT is getting ads in the coming weeks, but it promises that ads won't influence answers generated by ChatGPT.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-chatgpt-ads-wont-influence-answers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-chatgpt-ads-wont-influence-answers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>StealC hackers hacked as researchers hijack malware control panels</h3>
+                <p><strong>Summary:</strong> A cross-site scripting (XSS) flaw in the web-based control panel used by operators of the StealC info-stealing malware allowed researchers to observe active sessions and gather intelligence on the att...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/stealc-hackers-hacked-as-researchers-hijack-malware-control-panels/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/stealc-hackers-hacked-as-researchers-hijack-malware-control-panels/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

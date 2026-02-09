@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Mustang Panda Uses Signed Kernel-Mode Rootkit to Load TONESHELL Backdoor</div><div class="ticker-item">⚡ Weekly Recap: MongoDB Attacks, Wallet Breaches, Android Spyware, Insider Crime & More</div><div class="ticker-item">MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide</div><div class="ticker-item">27 Malicious npm Packages Used as Phishing Infrastructure to Steal Login Credentials</div><div class="ticker-item">Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors</div><div class="ticker-item">New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</div><div class="ticker-item">Korean Air Data Compromised in Oracle EBS Hack</div><div class="ticker-item">Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000</div><div class="ticker-item">Fortinet Warns of New Attacks Exploiting Old Vulnerability</div><div class="ticker-item">Coupang to Issue $1.17 Billion in Vouchers Over Data Breach</div><div class="ticker-item">22 Million Affected by Aflac Data Breach</div><div class="ticker-item">Infostealer Malware Delivered in EmEditor Supply Chain Attack</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Mustang Panda Uses Signed Kernel-Mode Rootkit to Load TONESHELL Backdoor</h3>
+                <p><strong>Summary:</strong> The Chinese hacking group known as Mustang Panda  has leveraged a previously undocumented kernel-mode rootkit driver to deliver a new variant of backdoor dubbed TONESHELL in a cyber attack detected in...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/mustang-panda-uses-signed-kernel-driver.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/mustang-panda-uses-signed-kernel-driver.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: MongoDB Attacks, Wallet Breaches, Android Spyware, Insider Crime & More</h3>
+                <p><strong>Summary:</strong> Last week's cyber news in 2025 was not about one big incident. It was about many small cracks opening at the same time. Tools people trust every day behave in unexpected ways. Old flaws resurfaced. Ne...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/weekly-recap-mongodb-attacks-wallet.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/weekly-recap-mongodb-attacks-wallet.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide</h3>
+                <p><strong>Summary:</strong> A recently disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world.  The vulnerabilit...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>27 Malicious npm Packages Used as Phishing Infrastructure to Steal Login Credentials</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of what has been described as a "sustained and targeted" spear-phishing campaign that has published over two dozen packages to the npm registry to faci...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/27-malicious-npm-packages-used-as.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/27-malicious-npm-packages-used-as.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors</h3>
+                <p><strong>Summary:</strong> In December 2024, the popular Ultralytics AI library  was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025 , malicious Nx packages leaked...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory</h3>
+                <p><strong>Summary:</strong> A high-severity security flaw has been disclosed in MongoDB that could allow unauthenticated users to read uninitialized heap memory.  The vulnerability, tracked as CVE-2025-14847  (CVSS score: 8.7), ...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Korean Air Data Compromised in Oracle EBS Hack</h3>
+                <p><strong>Summary:</strong> Roughly 30,000 Korean Air employees had their data stolen by hackers in a breach at former subsidiary KC&D.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/korean-air-data-compromised-in-oracle-ebs-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/korean-air-data-compromised-in-oracle-ebs-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000</h3>
+                <p><strong>Summary:</strong> It took Sax well over a year to complete its investigation after detecting hackers on its network.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/top-us-accounting-firm-sax-discloses-2024-data-breach-impacting-220000/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/top-us-accounting-firm-sax-discloses-2024-data-breach-impacting-220000/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Warns of New Attacks Exploiting Old Vulnerability</h3>
+                <p><strong>Summary:</strong> Tracked as CVE-2020-12812, the exploited FortiOS flaw allows threat actors to bypass two-factor authentication.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fortinet-warns-of-new-attacks-exploiting-old-vulnerability/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fortinet-warns-of-new-attacks-exploiting-old-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Coupang to Issue $1.17 Billion in Vouchers Over Data Breach</h3>
+                <p><strong>Summary:</strong> The ecommerce giant will provide purchase vouchers to the 33.7 million individuals impacted by the incident.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/coupang-to-issue-1-17-billion-in-vouchers-over-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/coupang-to-issue-1-17-billion-in-vouchers-over-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>22 Million Affected by Aflac Data Breach</h3>
+                <p><strong>Summary:</strong> Hackers stole names, addresses, Social Security numbers, ID numbers, and medical and health insurance information from Aflac’s systems.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/22-million-affected-by-aflac-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/22-million-affected-by-aflac-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Infostealer Malware Delivered in EmEditor Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> The ‘download’ button on the official EmEditor website served a malicious installer.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/infostealer-malware-delivered-in-emeditor-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/infostealer-malware-delivered-in-emeditor-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

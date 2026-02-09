@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants</div><div class="ticker-item">Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan</div><div class="ticker-item">Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update</div><div class="ticker-item">Webinar: Learn to Spot Risks and Patch Safely with Community-Maintained Tools</div><div class="ticker-item">ThreatsDay Bulletin: AI Malware, Voice Bot Flaws, Crypto Laundering, IoT Attacks — and 20 More Stories</div><div class="ticker-item">Gainsight Expands Impacted Customer List Following Salesforce Security Alert</div><div class="ticker-item">Asahi Data Breach Impacts 2 Million Individuals</div><div class="ticker-item">OpenAI User Data Exposed in Mixpanel Hack</div><div class="ticker-item">Clover Security Raises $36 Million to Secure Software by Design</div><div class="ticker-item">Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</div><div class="ticker-item">Thousands of Secrets Leaked on Code Formatting Platforms</div><div class="ticker-item">Cybersecurity Is Now a Core Business Discipline</div><div class="ticker-item">Prepare for CISSP certification with this training bundle for $20</div><div class="ticker-item">Malicious LLMs empower inexperienced hackers with advanced tools</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">GreyNoise launches free scanner to check if you're part of a botnet</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have shed light on a cross-tenant blind spot that allows attackers to bypass Microsoft Defender for Office 365 protections via the guest access  feature in Teams.  "When user...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan</h3>
+                <p><strong>Summary:</strong> The threat actor known as Bloody Wolf  has been attributed to a cyber attack campaign that has targeted Kyrgyzstan since at least June 2025 with the goal of delivering NetSupport RAT.  As of October 2...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update</h3>
+                <p><strong>Summary:</strong> Microsoft has announced plans to improve the security of Entra ID authentication by blocking unauthorized script injection attacks starting a year from now.  The update to its Content Security Policy ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar: Learn to Spot Risks and Patch Safely with Community-Maintained Tools</h3>
+                <p><strong>Summary:</strong> If you're using community tools like Chocolatey or Winget to keep systems updated, you're not alone. These platforms are fast, flexible, and easy to work with—making them favorites for IT teams. But t...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/webinar-learn-to-spot-risks-and-patch.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/webinar-learn-to-spot-risks-and-patch.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: AI Malware, Voice Bot Flaws, Crypto Laundering, IoT Attacks — and 20 More Stories</h3>
+                <p><strong>Summary:</strong> Hackers have been busy again this week. From fake voice calls and AI-powered malware to huge money-laundering busts and new scams, there's a lot happening in the cyber world.  Criminals are getting cr...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/threatsday-bulletin-ai-malware-voice.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/threatsday-bulletin-ai-malware-voice.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Gainsight Expands Impacted Customer List Following Salesforce Security Alert</h3>
+                <p><strong>Summary:</strong> Gainsight has disclosed that the recent suspicious activity targeting its applications has affected more customers than previously thought.  The company said  Salesforce initially provided a list of 3...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/gainsight-expands-impacted-customer.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/gainsight-expands-impacted-customer.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Asahi Data Breach Impacts 2 Million Individuals</h3>
+                <p><strong>Summary:</strong> Hackers stole the personal information of customers and employees before deploying ransomware and crippling Asahi’s operations in Japan.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/asahi-data-breach-impacts-2-million-individuals/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/asahi-data-breach-impacts-2-million-individuals/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI User Data Exposed in Mixpanel Hack</h3>
+                <p><strong>Summary:</strong> Multiple Mixpanel customers were impacted by a recent cyberattack targeting the product analytics company.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/openai-user-data-exposed-in-mixpanel-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/openai-user-data-exposed-in-mixpanel-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Clover Security Raises $36 Million to Secure Software by Design</h3>
+                <p><strong>Summary:</strong> The cybersecurity startup embeds AI agents into widely used tools to identify design flaws and eliminate them early.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</h3>
+                <p><strong>Summary:</strong> Cybercriminals impersonating financial institutions have targeted individuals, businesses, and organizations of different sizes.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Thousands of Secrets Leaked on Code Formatting Platforms</h3>
+                <p><strong>Summary:</strong> JSONFormatter and CodeBeautify users exposed credentials, authentication keys, configuration information, private keys, and other secrets.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/thousands-of-secrets-leaked-on-code-formatting-platforms/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/thousands-of-secrets-leaked-on-code-formatting-platforms/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cybersecurity Is Now a Core Business Discipline</h3>
+                <p><strong>Summary:</strong> Boardroom conversations about cyber can no longer be siloed apart from strategy, operations, or geopolitics.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cybersecurity-is-now-a-core-business-discipline/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cybersecurity-is-now-a-core-business-discipline/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Prepare for CISSP certification with this training bundle for $20</h3>
+                <p><strong>Summary:</strong> The CISSP Security & Risk Management Training Bundle offers eight courses covering all domains of the Certified Information Systems Security Professional exam for just $19.97, down from the regular pr...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/prepare-for-cissp-certification-with-this-training-bundle-for-20/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/prepare-for-cissp-certification-with-this-training-bundle-for-20/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious LLMs empower inexperienced hackers with advanced tools</h3>
+                <p><strong>Summary:</strong> Unrestricted large language models (LLMs) like WormGPT 4 and KawaiiGPT are improving their capabilities to generate malicious code, delivering functional scripts for ransomware encryptors and lateral ...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/malicious-llms-empower-inexperienced-hackers-with-advanced-tools/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/malicious-llms-empower-inexperienced-hackers-with-advanced-tools/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GreyNoise launches free scanner to check if you're part of a botnet</h3>
+                <p><strong>Summary:</strong> GreyNoise Labs has launched a free tool called GreyNoise IP Check that lets users check if their IP address has been observed in malicious scanning operations, like botnet and residential proxy networ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/greynoise-launches-free-scanner-to-check-if-youre-part-of-a-botnet/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/greynoise-launches-free-scanner-to-check-if-youre-part-of-a-botnet/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

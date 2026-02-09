@@ -1,0 +1,318 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 63,
+      "vulnerability": 29,
+      "breach": 27,
+      "cybersecurity": 24,
+      "malware": 19,
+      "critical": 14,
+      "apt": 12,
+      "phishing": 9,
+      "ransomware": 8
+    },
+    "30_days": {
+      "attack": 234,
+      "vulnerability": 121,
+      "cybersecurity": 104,
+      "breach": 101,
+      "malware": 78,
+      "critical": 76,
+      "apt": 53,
+      "phishing": 40,
+      "ransomware": 35
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 64,
+      "High": 15,
+      "Low": 37
+    },
+    "30_days": {
+      "Medium": 236,
+      "High": 77,
+      "Low": 159
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 224,
+    "vulnerability": 160,
+    "data": 138,
+    "code": 137,
+    "attacks": 135,
+    "threat": 126,
+    "users": 126,
+    "flaw": 120,
+    "cve": 108,
+    "cybersecurity": 105,
+    "malware": 100,
+    "browser": 96,
+    "attack": 95,
+    "million": 95,
+    "google": 92,
+    "exploited": 89,
+    "access": 88,
+    "critical": 83,
+    "cvss": 79,
+    "through": 77
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Flags Microsoft Office and HPE OneView Bugs as Actively Exploited",
+      "link": "https://thehackernews.com/2026/01/cisa-flags-microsoft-office-and-hpe.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited V",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Black Cat Behind SEO Poisoning Malware Campaign Targeting Popular Software Searches",
+      "link": "https://thehackernews.com/2026/01/black-cat-behind-seo-poisoning-malware.html",
+      "summary": "A cybercrime gang known as Black Cat has been attributed to a search engine optimization (SEO) poisoning campaign that employs fraudulent sites advertising popular software to trick users into downloa",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ]
+    },
+    {
+      "title": "Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to Take Full Control",
+      "link": "https://thehackernews.com/2026/01/critical-n8n-vulnerability-cvss-100.html",
+      "summary": "Cybersecurity researchers have disclosed details of yet another maximum-severity security flaw in n8n , a popular workflow automation platform, that allows an unauthenticated remote attacker to gain c",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers Exploit Zero-Day in Discontinued D-Link Devices",
+      "link": "https://www.securityweek.com/hackers-exploit-zero-day-in-discontinued-d-link-devices/",
+      "summary": "The critical-severity vulnerability allows unauthenticated, remote attackers to execute arbitrary shell commands.",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA tags max severity HPE OneView flaw as actively exploited",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-tags-max-severity-hpe-oneview-flaw-as-actively-exploited/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks.",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Ongoing Attacks Exploiting Critical RCE Vulnerability in Legacy D-Link DSL Routers",
+      "link": "https://thehackernews.com/2026/01/active-exploitation-hits-legacy-d-link.html",
+      "summary": "A newly discovered critical security flaw in legacy D-Link DSL gateway routers has come under active exploitation in the wild.  The vulnerability, tracked as CVE-2026-0625  (CVSS score: 9.3), concerns",
+      "urgency": "High",
+      "date": "2026-01-07",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Dolby Vulnerability Patched in Android",
+      "link": "https://www.securityweek.com/critical-dolby-vulnerability-patched-in-android/",
+      "summary": "The flaw is tracked as CVE-2025-54957 and its existence came to light in October 2025 after it was discovered by Google researchers.",
+      "urgency": "High",
+      "date": "2026-01-07",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "New n8n Vulnerability (9.9 CVSS) Lets Authenticated Users Execute System Commands",
+      "link": "https://thehackernews.com/2026/01/new-n8n-vulnerability-99-cvss-lets.html",
+      "summary": "A new critical security vulnerability has been disclosed in n8n, an open-source workflow automation platform, that could enable an authenticated attacker to execute arbitrary system commands on the un",
+      "urgency": "High",
+      "date": "2026-01-06",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical AdonisJS Bodyparser Flaw (CVSS 9.2) Enables Arbitrary File Write on Servers",
+      "link": "https://thehackernews.com/2026/01/critical-adonisjs-bodyparser-flaw-cvss.html",
+      "summary": "Users of the \" @adonisjs/bodyparser \" npm package are being advised to update to the latest version following the disclosure of a critical security vulnerability that, if successfully exploited, could",
+      "urgency": "High",
+      "date": "2026-01-06",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-05",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 116,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-08T09:41:22.893753"
+  }
+}

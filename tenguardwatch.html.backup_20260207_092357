@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware</div><div class="ticker-item">Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries</div><div class="ticker-item">AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack</div><div class="ticker-item">ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories</div><div class="ticker-item">The Buyer’s Guide to AI Usage Control</div><div class="ticker-item">Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends</div><div class="ticker-item">‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks</div><div class="ticker-item">5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel</div><div class="ticker-item">Critical SmarterMail Vulnerability Exploited in Ransomware Attacks</div><div class="ticker-item">Concerns Raised Over CISA’s Silent Ransomware Updates in KEV Catalog</div><div class="ticker-item">Zscaler Acquires Browser Security Firm SquareX</div><div class="ticker-item">Substack Discloses Security Incident After Hacker Leaks Data</div><div class="ticker-item">CISA orders federal agencies to replace end-of-life edge devices</div><div class="ticker-item">Spain's Ministry of Science shuts down systems after breach claims</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Ransomware gang uses ISPsystem VMs for stealthy payload delivery</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered  a new supply chain attack in which legitimate packages on npm and the Python Package Index (PyPI) repository have been compromised to push malicious versions...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries</h3>
+                <p><strong>Summary:</strong> Artificial intelligence (AI) company Anthropic revealed  that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-so...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack</h3>
+                <p><strong>Summary:</strong> The distributed denial-of-service ( DDoS ) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds.  Clo...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories</h3>
+                <p><strong>Summary:</strong> This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next.  Researchers tracked intrusions that start in ordinary places:...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Buyer’s Guide to AI Usage Control</h3>
+                <p><strong>Summary:</strong> Today’s “AI everywhere” reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools tha...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends</h3>
+                <p><strong>Summary:</strong> The elusive Iranian threat group known as Infy  (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coi...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks</h3>
+                <p><strong>Summary:</strong> Used since at least 2019, DKnife has been targeting the desktop, mobile, and IoT devices of Chinese users.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel</h3>
+                <p><strong>Summary:</strong> The news comes after the Department of Energy conducted its annual Liberty Eclipse cybersecurity exercise.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical SmarterMail Vulnerability Exploited in Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> The security defect allows unauthenticated attackers to execute arbitrary code remotely via malicious HTTP requests.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-smartermail-vulnerability-exploited-in-ransomware-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-smartermail-vulnerability-exploited-in-ransomware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Concerns Raised Over CISA’s Silent Ransomware Updates in KEV Catalog</h3>
+                <p><strong>Summary:</strong> CISA updated 59 KEV entries in 2025 to specify that the vulnerabilities have been exploited in ransomware attacks.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/questions-raised-over-cisas-silent-ransomware-updates-in-kev-catalog/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/questions-raised-over-cisas-silent-ransomware-updates-in-kev-catalog/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Zscaler Acquires Browser Security Firm SquareX</h3>
+                <p><strong>Summary:</strong> Zscaler says the acquisition will allow customers to embed lightweight extensions into any browser, providing increased security and eliminating the need for third-party browsers.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/zscaler-acquires-browser-security-firm-squarex/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/zscaler-acquires-browser-security-firm-squarex/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Substack Discloses Security Incident After Hacker Leaks Data</h3>
+                <p><strong>Summary:</strong> The hacker claims to have stolen nearly 700,000 Substack user records, including email addresses and phone numbers.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/substack-discloses-security-incident-after-hacker-leaks-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/substack-discloses-security-incident-after-hacker-leaks-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA orders federal agencies to replace end-of-life edge devices</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a new binding operational directive requiring federal agencies to identify and remove network edge devices that no longer re...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-replace-end-of-life-edge-devices/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-replace-end-of-life-edge-devices/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Spain's Ministry of Science shuts down systems after breach claims</h3>
+                <p><strong>Summary:</strong> Spain's Ministry of Science (Ministerio de Ciencia) announced a partial shutdown of its IT systems, affecting several citizen- and company-facing services.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/spains-ministry-of-science-shuts-down-systems-after-breach-claims/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/spains-ministry-of-science-shuts-down-systems-after-breach-claims/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ransomware gang uses ISPsystem VMs for stealthy payload delivery</h3>
+                <p><strong>Summary:</strong> Ransomware operators are hosting and delivering malicious payloads at scale by abusing virtual machines (VMs) provisioned by ISPsystem, a legitimate virtual infrastructure management provider.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ispsystem-vms-for-stealthy-payload-delivery/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ispsystem-vms-for-stealthy-payload-delivery/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

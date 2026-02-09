@@ -1,0 +1,314 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 63,
+      "cybersecurity": 38,
+      "vulnerability": 36,
+      "breach": 21,
+      "critical": 18,
+      "apt": 16,
+      "malware": 15,
+      "ransomware": 12,
+      "phishing": 11
+    },
+    "30_days": {
+      "attack": 228,
+      "vulnerability": 117,
+      "cybersecurity": 113,
+      "breach": 104,
+      "malware": 71,
+      "critical": 69,
+      "apt": 60,
+      "phishing": 40,
+      "ransomware": 34
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 57,
+      "High": 24,
+      "Low": 47
+    },
+    "30_days": {
+      "High": 75,
+      "Medium": 233,
+      "Low": 164
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 204,
+    "vulnerability": 165,
+    "data": 136,
+    "attacks": 132,
+    "code": 129,
+    "users": 124,
+    "threat": 122,
+    "flaw": 118,
+    "cybersecurity": 114,
+    "cve": 113,
+    "million": 100,
+    "attack": 97,
+    "browser": 91,
+    "cvss": 89,
+    "google": 84,
+    "malware": 82,
+    "exploited": 79,
+    "phishing": 79,
+    "critical": 78,
+    "group": 78
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines",
+      "link": "https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html",
+      "summary": "Chinese-speaking threat actors are suspected to have leveraged a compromised SonicWall VPN appliance as an initial access vector to deploy a VMware ESXi exploit that may have been developed as far bac",
+      "urgency": "High",
+      "date": "2026-01-11",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions",
+      "link": "https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html",
+      "summary": "Trend Micro has released  security updates to address multiple security vulnerabilities impacting on-premise versions of Apex Central for Windows, including a critical bug that could result in arbitra",
+      "urgency": "High",
+      "date": "2026-01-11",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Trend Micro Patches Critical Code Execution Flaw in Apex Central",
+      "link": "https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/",
+      "summary": "Tenable has released PoC code and technical details after the vendor announced the availability of patches for three vulnerabilities.",
+      "urgency": "High",
+      "date": "2026-01-11",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over",
+      "link": "https://www.securityweek.com/cisa-closes-10-emergency-directives-as-vulnerability-catalog-takes-over/",
+      "summary": "The Emergency Directives were retired because they achieved objectives or targeted vulnerabilities included in the KEV catalog.",
+      "urgency": "High",
+      "date": "2026-01-11",
+      "tags": [
+        "vulnerability"
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines",
+      "link": "https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html",
+      "summary": "Chinese-speaking threat actors are suspected to have leveraged a compromised SonicWall VPN appliance as an initial access vector to deploy a VMware ESXi exploit that may have been developed as far bac",
+      "urgency": "High",
+      "date": "2026-01-10",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions",
+      "link": "https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html",
+      "summary": "Trend Micro has released  security updates to address multiple security vulnerabilities impacting on-premise versions of Apex Central for Windows, including a critical bug that could result in arbitra",
+      "urgency": "High",
+      "date": "2026-01-10",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024",
+      "link": "https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday said  it's retiring 10 emergency directives (Eds) that were issued between 2019 and 2024.  The list of the directives now c",
+      "urgency": "High",
+      "date": "2026-01-10",
+      "tags": [
+        "vulnerability",
+        "apt"
+      ]
+    },
+    {
+      "title": "Trend Micro Patches Critical Code Execution Flaw in Apex Central",
+      "link": "https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/",
+      "summary": "Tenable has released PoC code and technical details after the vendor announced the availability of patches for three vulnerabilities.",
+      "urgency": "High",
+      "date": "2026-01-10",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over",
+      "link": "https://www.securityweek.com/cisa-closes-10-emergency-directives-as-vulnerability-catalog-takes-over/",
+      "summary": "The Emergency Directives were retired because they achieved objectives or targeted vulnerabilities included in the KEV catalog.",
+      "urgency": "High",
+      "date": "2026-01-10",
+      "tags": [
+        "vulnerability"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2026-01-10",
+      "tags": [
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-11T09:32:43.743212"
+  }
+}

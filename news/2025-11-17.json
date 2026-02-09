@@ -1,0 +1,208 @@
+{
+  "date": "2025-11-17",
+  "items": [
+    {
+      "title": "Rust Adoption Drives Android Memory Safety Bugs Below 20% for First Time",
+      "link": "https://thehackernews.com/2025/11/rust-adoption-drives-android-memory.html",
+      "summary": "Google has disclosed that the company's continued adoption of the Rust programming language in Android has resulted in the number of memory safety vulnerabilities falling below 20% of total vulnerabilities for the first time.  \"We adopted Rust for its security and are seeing a 1000x reduction in memory safety vulnerability density compared to Android's C and C++ code. But the biggest surprise was Rust's impact on software delivery,\" Google's Jeff Vander Stoep said . \"With Rust changes having a 4x lower rollback rate and spending 25% less time in code review, the safer path is now also the faster one.\"  The development comes a little over a year after the tech giant disclosed  that its transition to Rust led to a decline in memory safety vulnerabilities from 223 in 2019 to less than 50 in 2024.   The company pointed out that Rust code requires fewer revisions, necessitating about 20% fewer revisions than their C++ counterparts, and has contributed to a d...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "rust-adoption-drives-android-memory-safety-bugs-be",
+      "source": "The Hacker News",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet",
+      "link": "https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html",
+      "summary": "The botnet malware known as RondoDox  has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.  The vulnerability in question is CVE-2025-24893 (CVSS score: 9.8), an eval injection bug  that could allow any guest user to perform arbitrary remote code execution through a request to the \"/bin/get/Main/SolrSearch\" endpoint. It was patched  by the maintainers in XWiki 15.10.11, 16.4.1, and 16.5.0RC1 in late February 2025.  While there was evidence that the shortcoming had been exploited in the wild since at least March, it wasn't until late October, when VulnCheck disclosed  it had observed fresh attempts weaponizing the flaw as part of a two-stage attack chain to deploy a cryptocurrency miner.   Subsequently, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added  the vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to a...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "rondodox-exploits-unpatched-xwiki-servers-to-pull-",
+      "source": "The Hacker News",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies",
+      "link": "https://thehackernews.com/2025/11/five-us-citizens-plead-guilty-to.html",
+      "summary": "The U.S. Department of Justice (DoJ) on Friday announced  that five individuals have pleaded guilty to assisting North Korea's illicit revenue generation schemes by enabling information technology (IT) worker fraud in violation of international sanctions.  The five individuals are listed below -   Audricus Phagnasay, 24  Jason Salazar, 30  Alexander Paul Travis, 34  Oleksandr Didenko, 28, and  Erick Ntekereze Prince, 30   Phagnasay, Salazar, and Travis pleaded guilty to one count of wire fraud conspiracy for knowingly allowing IT workers located outside of the U.S. to use their U.S. identities between about September 2019 and November 2022 and secure jobs at American firms.  The three defendants also served as facilitators, hosting the company-issued laptops at their residences and installing remote desktop software on those machines without authorization so that the IT workers could connect to them and give the impression that they were working remotely within the U.S.  Furthermo...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "five-plead-guilty-in-us-for-helping-north-korean-i",
+      "source": "The Hacker News",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels",
+      "link": "https://thehackernews.com/2025/11/north-korean-hackers-turn-json-services.html",
+      "summary": "The North Korean threat actors behind the Contagious Interview  campaign have once again tweaked their tactics by using JSON storage services to stage malicious payloads.  \"The threat actors have recently resorted to utilizing JSON storage services like JSON Keeper, JSONsilo, and npoint.io to host and deliver malware from trojanized code projects, with the lure,\" NVISO researchers Bart Parys, Stef Collart, and Efstratios Lontzetidis said  in a Thursday report.  The campaign essentially involves approaching prospective targets on professional networking sites like LinkedIn, either under the pretext of conducting a job assessment or collaborating on a project, as part of which they are instructed to download a demo project hosted on platforms like GitHub, GitLab, or Bitbucket.  In one such project spotted by NVISO, it has been found that a file named \"server/config/.config.env\" contains a Base64-encoded value that masquerades as an API key, but, in reality, is a URL ...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "north-korean-hackers-turn-json-services-into-cover",
+      "source": "The Hacker News",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, and open-source PyTorch projects such as vLLM and SGLang.  \"These vulnerabilities all traced back to the same root cause: the overlooked unsafe use of ZeroMQ (ZMQ) and Python's pickle deserialization,\" Oligo Security researcher Avi Lumelsky said  in a report published Thursday.  At its core, the issue stems from what has been described as a pattern called ShadowMQ , in which the insecure deserialization logic has propagated to several projects as a result of code reuse.  The root cause is a vulnerability in Meta's Llama large language model (LLM) framework ( CVE-2024-50050 , CVSS score: 6.3/9.3) that was patched by the company last October. Specifically, it involved the use of ZeroMQ's recv_pyobj() method to deserialize incoming data using Python's pickle module.  ...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "researchers-find-serious-ai-bugs-exposing-meta-nvi",
+      "source": "The Hacker News",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Iranian Hackers Launch 'SpearSpecter' Spy Operation on Defense & Government Targets",
+      "link": "https://thehackernews.com/2025/11/iranian-hackers-launch-spearspecter-spy.html",
+      "summary": "The Iranian state-sponsored threat actor known as APT42  has been observed targeting individuals and organizations that are of interest to the Islamic Revolutionary Guard Corps (IRGC) as part of a new espionage-focused campaign.  The activity, detected in early September 2025 and assessed to be ongoing, has been codenamed  SpearSpecter  by the Israel National Digital Agency (INDA).  \"The campaign has systematically targeted high-value senior defense and government officials using personalized social engineering tactics,\" INDA researchers Shimi Cohen, Adi Pick, Idan Beit-Yosef, Hila David, and Yaniv Goldman said. \"These include inviting targets to prestigious conferences or arranging significant meetings.\"  What's notable about the effort is that it also extends to the targets' family members, creating a broader attack surface that exerts more pressure on the primary targets.  APT42 was first publicly documented in late 2022 by Google Mandiant, detailing its...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "iranian-hackers-launch-spearspecter-spy-operation-",
+      "source": "The Hacker News",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-confirms-active-exploitation-of-critical-",
+      "source": "SecurityWeek",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "CYBERCOM 2.0: Pentagon Unveils Plan to Fix Cyber Talent Shortfalls",
+      "link": "https://www.securityweek.com/cybercom-2-0-pentagon-unveils-plan-to-fix-cyber-talent-shortfalls/",
+      "summary": "The goal is to produce a cyber force capable of defeating threats posed by major adversaries such as China.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cybercom-20-pentagon-unveils-plan-to-fix-cyber-tal",
+      "source": "SecurityWeek",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Watch on Demand: CISO Forum 2025 Virtual Summit",
+      "link": "https://www.securityweek.com/virtual-event-today-ciso-forum-2025-virtual-summit/",
+      "summary": "The CISO Forum Virtual Summit brought together CISOs, researchers, and innovators to share practical insights and strategies.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "watch-on-demand-ciso-forum-2025-virtual-summit",
+      "source": "SecurityWeek",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "In Other News: Deepwatch Layoffs, macOS Vulnerability, Amazon AI Bug Bounty",
+      "link": "https://www.securityweek.com/in-other-news-deepwatch-layoffs-macos-vulnerability-amazon-ai-bug-bounty/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: EchoGram attack undermines AI guardrails, Asahi brewer still crippled after ransomware attack, Sora 2 system prompt uncovered.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-deepwatch-layoffs-macos-vulnerabilit",
+      "source": "SecurityWeek",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Checkout.com Discloses Data Breach After Extortion Attempt",
+      "link": "https://www.securityweek.com/checkout-com-discloses-data-breach-after-extortion-attempt/",
+      "summary": "The information was stolen from a legacy cloud file storage system, not from its payment processing platform.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "checkoutcom-discloses-data-breach-after-extortion-",
+      "source": "SecurityWeek",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Washington Post Says Nearly 10,000 Employees Impacted by Oracle Hack",
+      "link": "https://www.securityweek.com/washington-post-says-nearly-10000-employees-impacted-by-oracle-hack/",
+      "summary": "The media company admitted that cybercriminals attempted to extort a payment after stealing personal information.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "washington-post-says-nearly-10000-employees-impact",
+      "source": "SecurityWeek",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Google to flag Android apps with excessive battery use on the Play Store",
+      "link": "https://www.bleepingcomputer.com/news/security/google-to-flag-android-apps-with-excessive-battery-use-on-the-play-store/",
+      "summary": "Google will start taking action on Android apps in the official Google Play store that have high background activity and cause excessive battery draining.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-to-flag-android-apps-with-excessive-battery",
+      "source": "BleepingComputer",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Get started learning the CISSP security domains for just $30 through 11/20",
+      "link": "https://www.bleepingcomputer.com/offer/deals/get-started-learning-the-cissp-security-domains-for-just-30-through-11-20/",
+      "summary": "The CISSP certification remains one of the top certifications for cybersecurity professionals looking to advance their careers in security management. For those ready to tackle this comprehensive exam, The CISSP Security & Risk Management Training Bundle offers an introduction to the course material...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "get-started-learning-the-cissp-security-domains-fo",
+      "source": "BleepingComputer",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5068781-esu-update-may-fail-with-0x800f0922-errors/",
+      "summary": "Microsoft has confirmed it is investigating a bug causing the Windows 10 KB5068781 extended security update to fail to install with 0x800f0922 errors on devices with corporate licensing.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-windows-10-kb5068781-esu-update-may-fail",
+      "source": "BleepingComputer",
+      "date": "2025-11-17"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 54,
+      "cybersecurity": 45,
+      "vulnerability": 33,
+      "critical": 22,
+      "breach": 20,
+      "malware": 16,
+      "apt": 14,
+      "phishing": 13,
+      "ransomware": 7
+    },
+    "30_days": {
+      "attack": 220,
+      "cybersecurity": 129,
+      "vulnerability": 109,
+      "breach": 100,
+      "malware": 70,
+      "apt": 65,
+      "critical": 60,
+      "phishing": 39,
+      "ransomware": 26
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 44,
+      "Low": 60,
+      "High": 24
+    },
+    "30_days": {
+      "High": 67,
+      "Medium": 218,
+      "Low": 187
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 189,
+    "vulnerability": 147,
+    "data": 138,
+    "attacks": 125,
+    "users": 120,
+    "threat": 116,
+    "code": 112,
+    "flaw": 109,
+    "cybersecurity": 107,
+    "million": 105,
+    "attack": 94,
+    "access": 86,
+    "malware": 80,
+    "cve": 79,
+    "group": 77,
+    "activity": 75,
+    "through": 75,
+    "critical": 74,
+    "campaign": 74,
+    "browser": 72
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+      "link": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+      "summary": "The JavaScript (aka JScript) malware loader called GootLoader  has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000",
+      "urgency": "High",
+      "date": "2026-01-18",
+      "tags": [
+        "malware",
+        "phishing",
+        "critical"
+      ]
+    },
+    {
+      "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+      "link": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+      "summary": "The JavaScript (aka JScript) malware loader called GootLoader  has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000",
+      "urgency": "High",
+      "date": "2026-01-17",
+      "tags": [
+        "malware",
+        "phishing",
+        "critical"
+      ]
+    },
+    {
+      "title": "China-Linked APT Exploited Sitecore Zero-Day in Critical Infrastructure Intrusions",
+      "link": "https://thehackernews.com/2026/01/china-linked-apt-exploits-sitecore-zero.html",
+      "summary": "A threat actor likely aligned with China has been observed targeting critical infrastructure sectors in North America since at least last year.  Cisco Talos, which is tracking the activity under the n",
+      "urgency": "High",
+      "date": "2026-01-17",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "WhisperPair Attack Leaves Millions of Audio Accessories Open to Hijacking",
+      "link": "https://www.securityweek.com/whisperpair-attack-leaves-millions-of-bluetooth-accessories-open-to-hijacking/",
+      "summary": "The critical issue impacts Bluetooth audio accessories with improper Google Fast Pair implementations.",
+      "urgency": "High",
+      "date": "2026-01-17",
+      "tags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "China-Linked APT Exploits Sitecore Zero-Day in Attacks on American Critical Infrastructure",
+      "link": "https://thehackernews.com/2026/01/china-linked-apt-exploits-sitecore-zero.html",
+      "summary": "A threat actor likely aligned with China has been observed targeting critical infrastructure sectors in North America since at least last year.  Cisco Talos, which is tracking the activity under the n",
+      "urgency": "High",
+      "date": "2026-01-16",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cisco Patches Zero-Day RCE Exploited by China-Linked APT in Secure Email Gateways",
+      "link": "https://thehackernews.com/2026/01/cisco-patches-zero-day-rce-exploited-by.html",
+      "summary": "Cisco on Thursday released  security updates for a maximum-severity security flaw impacting Cisco AsyncOS Software for Cisco Secure Email Gateway and Cisco Secure Email and Web Manager, nearly a month",
+      "urgency": "High",
+      "date": "2026-01-16",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "AWS CodeBuild Misconfiguration Exposed GitHub Repos to Potential Supply Chain Attacks",
+      "link": "https://thehackernews.com/2026/01/aws-codebuild-misconfiguration-exposed.html",
+      "summary": "A critical misconfiguration in Amazon Web Services (AWS) CodeBuild  could have allowed complete takeover of the cloud service provider's own GitHub repositories, including its AWS JavaScript SDK, putt",
+      "urgency": "High",
+      "date": "2026-01-16",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical WordPress Modular DS Plugin Flaw Actively Exploited to Gain Admin Access",
+      "link": "https://thehackernews.com/2026/01/critical-wordpress-modular-ds-plugin.html",
+      "summary": "A maximum-severity security flaw in a WordPress plugin called Modular DS  has come under active exploitation in the wild, according to Patchstack.  The vulnerability, tracked as CVE-2026-23550 (CVSS s",
+      "urgency": "High",
+      "date": "2026-01-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html",
+      "summary": "Fortinet has released updates to fix a critical security flaw impacting FortiSIEM that could allow an unauthenticated attacker to achieve code execution on susceptible instances.  The operating system",
+      "urgency": "High",
+      "date": "2026-01-15",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "New Research: 64% of 3rd-Party Applications Access Sensitive Data Without Justification",
+      "link": "https://thehackernews.com/2026/01/new-research-64-of-3rd-party.html",
+      "summary": "Research analyzing 4,700 leading websites reveals that 64% of third-party applications now access sensitive data without business justification, up from 51% in 2024.   Government sector malicious acti",
+      "urgency": "High",
+      "date": "2026-01-15",
+      "tags": [
+        "apt",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-18T09:32:51.086592"
+  }
+}

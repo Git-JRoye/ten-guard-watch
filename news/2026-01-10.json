@@ -1,0 +1,211 @@
+{
+  "date": "2026-01-10",
+  "items": [
+    {
+      "title": "Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime",
+      "link": "https://thehackernews.com/2026/01/europol-arrests-34-black-axe-members-in.html",
+      "summary": "Europol on Friday announced the arrest of 34 individuals in Spain who are alleged to be part of an international criminal organization called Black Axe .  As part of an operation conducted by the Spanish National Police, in coordination with the Bavarian State Criminal Police Office and Europol, 28 arrests were made in Seville, along with three others in Madrid, two in Málaga, and one in Barcelona.  \"The criminal network is known for its involvement in a wide range of criminal activities, including cyber-enabled fraud, drug trafficking, human trafficking and prostitution, kidnapping, armed robbery and fraudulent spiritual practices,\" Europol said  in a statement.  It's estimated that the criminal network is responsible for fraud resulting in damages exceeding €5.93 million ($6.9 million). In addition to the arrests, authorities have frozen €119,352 ($138,935) in bank accounts and seized €66,403 ($77,290) in cash during house searches.   Black Axe is assessed to be a hier...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "europol-arrests-34-black-axe-members-in-spain-over",
+      "source": "The Hacker News",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines",
+      "link": "https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html",
+      "summary": "Chinese-speaking threat actors are suspected to have leveraged a compromised SonicWall VPN appliance as an initial access vector to deploy a VMware ESXi exploit that may have been developed as far back as February 2024.  Cybersecurity firm Huntress, which observed  the activity in December 2025 and stopped it before it could progress to the final stage, said it may have resulted in a ransomware attack.  Most notably, the attack is believed to have exploited three VMware vulnerabilities  that were disclosed as zero-days by Broadcom in March 2025: CVE-2025-22224 (CVSS score: 9.3), CVE-2025-22225 (CVSS score: 8.2), and CVE-2025-22226 (CVSS score: 7.1). Successful exploitation of the issue could permit a malicious actor with admin privileges to leak memory from the Virtual Machine Executable (VMX) process or execute code as the VMX process.  That same month, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to the Known Exploited Vulnerabilities (KEV) catalog...",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "china-linked-hackers-exploit-vmware-esxi-zero-days",
+      "source": "The Hacker News",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations",
+      "link": "https://thehackernews.com/2026/01/russian-apt28-runs-credential-stealing.html",
+      "summary": "Russian state-sponsored threat actors have been linked to a fresh set of credential harvesting attacks targeting individuals associated with a Turkish energy and nuclear research agency, as well as staff affiliated with a European think tank and organizations in North Macedonia and Uzbekistan.  The activity has been attributed to APT28 (aka BlueDelta), which was attributed to a \"sustained\" credential-harvesting campaign  targeting users of UKR[.]net last month. APT28 is associated with the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU).  \"The use of Turkish-language and regionally targeted lure material suggests that BlueDelta tailored its content to increase credibility among specific professional and geographic audiences,\" Recorded Future's Insikt Group said . \"These selections reflect a continued interest in organizations connected to energy research, defense cooperation, and government communication networks r...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russian-apt28-runs-credential-stealing-campaign-ta",
+      "source": "The Hacker News",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "Cybersecurity Predictions 2026: The Hype We Can Ignore (And the Risks We Can't)",
+      "link": "https://thehackernews.com/2026/01/cybersecurity-predictions-2026-hype-we.html",
+      "summary": "As organizations plan for 2026, cybersecurity predictions are everywhere. Yet many strategies are still shaped by headlines and speculation rather than evidence. The real challenge isn't a lack of forecasts—it's identifying which predictions reflect real, emerging risks and which can safely be ignored.  An upcoming webinar  hosted by Bitdefender  aims to cut through the noise with a data-driven outlook on where organizations are already falling short, and what those failures signal for the year ahead. Rather than speculative scenarios, the session focuses on threats that are actively reshaping the attack landscape today.  The webinar examines the convergence of three major trends. First, ransomware is evolving beyond opportunistic attacks toward targeted disruptions  designed to maximize operational and business impact. Second, the rapid and often uncontrolled adoption of AI within organizations is creating an internal security crisis, eroding traditional perimeter assumptions and exp...",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cybersecurity-predictions-2026-the-hype-we-can-ign",
+      "source": "The Hacker News",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions",
+      "link": "https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html",
+      "summary": "Trend Micro has released  security updates to address multiple security vulnerabilities impacting on-premise versions of Apex Central for Windows, including a critical bug that could result in arbitrary code execution.  The vulnerability, tracked as CVE-2025-69258 , carries a CVSS score of 9.8 out of a maximum of 10.0. The vulnerability has been described as a case of remote code execution affecting LoadLibraryEX.  \"A LoadLibraryEX vulnerability in Trend Micro Apex Central could allow an unauthenticated remote attacker to load an attacker-controlled DLL into a key executable, leading to execution of attacker-supplied code under the context of SYSTEM on affected installations,\" the cybersecurity company said.  Also patched by Trend Micro are two other flaws -   CVE-2025-69259  (CVSS score: 7.5) - A message unchecked NULL return value vulnerability in Trend Micro Apex Central could allow a remote, unauthenticated attacker to create a denial-of-service condition on affected ins...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trend-micro-apex-central-rce-flaw-scores-98-cvss-i",
+      "source": "The Hacker News",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024",
+      "link": "https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday said  it's retiring 10 emergency directives (Eds) that were issued between 2019 and 2024.  The list of the directives now considered closed is as follows -   ED 19-01: Mitigate DNS Infrastructure Tampering  ED 20-02: Mitigate Windows Vulnerabilities from January 2020 Patch Tuesday  ED 20-03: Mitigate Windows DNS Server Vulnerability from July 2020 Patch Tuesday    ED 20-04: Mitigate Netlogon Elevation of Privilege Vulnerability from August 2020 Patch Tuesday  ED 21-01: Mitigate SolarWinds Orion Code Compromise  ED 21-02: Mitigate Microsoft Exchange On-Premises Product Vulnerabilities  ED 21-03: Mitigate Pulse Connect Secure Product Vulnerabilities    ED 21-04: Mitigate Windows Print Spooler Service Vulnerability    ED 22-03: Mitigate VMware Vulnerabilities  ED 24-02: Mitigating the Significant Risk from Nation-State Compromise of Microsoft Corporate Email System      Stating that these directives were iss...",
+      "tags": [
+        "vulnerability",
+        "apt"
+      ],
+      "urgency": "High",
+      "slug": "cisa-retires-10-emergency-cybersecurity-directives",
+      "source": "The Hacker News",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k",
+      "link": "https://www.securityweek.com/in-other-news-8000-ransomware-attacks-china-hacked-us-gov-emails-idhs-breach-impacts-700k/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Jaguar Land Rover sales crash, hundreds of gen-AI data policy violations, and Chinese cyberattacks against Taiwan intensified.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-8000-ransomware-attacks-china-hacked",
+      "source": "SecurityWeek",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "Tim Kosiba Named NSA Deputy Director",
+      "link": "https://www.securityweek.com/tim-kosiba-named-nsa-deputy-director/",
+      "summary": "Kosiba, a veteran of the Intelligence Community with over 30 years of federal service, returns to the agency as its most senior civilian leader.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "tim-kosiba-named-nsa-deputy-director",
+      "source": "SecurityWeek",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "FBI: North Korean Spear-Phishing Attacks Use Malicious QR Codes",
+      "link": "https://www.securityweek.com/fbi-north-korean-spear-phishing-attacks-use-malicious-qr-codes/",
+      "summary": "The North Korean state-sponsored espionage group Kimsuky has targeted government organizations, think tanks, and academic institutions.",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-north-korean-spear-phishing-attacks-use-malici",
+      "source": "SecurityWeek",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "Trend Micro Patches Critical Code Execution Flaw in Apex Central",
+      "link": "https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/",
+      "summary": "Tenable has released PoC code and technical details after the vendor announced the availability of patches for three vulnerabilities.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trend-micro-patches-critical-code-execution-flaw-i",
+      "source": "SecurityWeek",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over",
+      "link": "https://www.securityweek.com/cisa-closes-10-emergency-directives-as-vulnerability-catalog-takes-over/",
+      "summary": "The Emergency Directives were retired because they achieved objectives or targeted vulnerabilities included in the KEV catalog.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "High",
+      "slug": "cisa-closes-10-emergency-directives-as-vulnerabili",
+      "source": "SecurityWeek",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "‘ZombieAgent’ Attack Let Researchers Take Over ChatGPT",
+      "link": "https://www.securityweek.com/zombieagent-attack-let-researchers-take-over-chatgpt/",
+      "summary": "Radware bypassed ChatGPT’s protections to exfiltrate user data and implant a persistent logic into the agent’s long-term memory.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "zombieagent-attack-let-researchers-take-over-chatg",
+      "source": "SecurityWeek",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "Anthropic: Viral Claude “Banned and reported to authorities” message isn’t real",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-viral-claude-banned-and-reported-to-authorities-message-isnt-real/",
+      "summary": "Anthropic has denied reports of banning legitimate accounts, after a viral post on X claimed the creator of Claude had banned a user.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "anthropic-viral-claude-banned-and-reported-to-auth",
+      "source": "BleepingComputer",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "ChatGPT tests a new feature to find jobs, improve your resume, and more",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-tests-a-new-feature-to-find-jobs-improve-your-resume-and-more/",
+      "summary": "OpenAI is testing \"Jobs,\" a new feature that could help you explore roles, improve your resume, and plan your career. This feature is being tested after ChatGPT gained support for the Health dashboard.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "chatgpt-tests-a-new-feature-to-find-jobs-improve-y",
+      "source": "BleepingComputer",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "5-critical-microsoft-365-security-settings-you-cou",
+      "source": "BleepingComputer",
+      "date": "2026-01-10"
+    },
+    {
+      "title": "Microsoft may soon allow IT admins to uninstall Copilot",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-soon-allow-it-admins-to-uninstall-copilot-on-managed-devices/",
+      "summary": "Microsoft is testing a new policy that allows IT administrators to uninstall the AI-powered Copilot digital assistant on managed devices.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-may-soon-allow-it-admins-to-uninstall-co",
+      "source": "BleepingComputer",
+      "date": "2026-01-10"
+    }
+  ]
+}

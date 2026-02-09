@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">SEC Drops SolarWinds Case After Years of High-Stakes Cybersecurity Scrutiny</div><div class="ticker-item">Salesforce Flags Unauthorized Data Access via Gainsight-Linked OAuth Activity</div><div class="ticker-item">ShadowRay 2.0 Exploits Unpatched Ray Flaw to Build Self-Spreading GPU Cryptomining Botnet</div><div class="ticker-item">Tsundere Botnet Expands Using Game Lures and Ethereum-Based C2 on Windows</div><div class="ticker-item">ThreatsDay Bulletin: 0-Days, LinkedIn Spies, Crypto Crimes, IoT Flaws and New Malware Waves</div><div class="ticker-item">CTM360 Exposes a Global WhatsApp Hijacking Campaign: HackOnChat</div><div class="ticker-item">Russian Hacking Suspect Wanted by the FBI Arrested on Thai Resort Island</div><div class="ticker-item">New Sturnus Banking Trojan Targets WhatsApp, Telegram, Signal Messages</div><div class="ticker-item">Doppel Raises $70 Million at $600 Million Valuation</div><div class="ticker-item">Over 50,000 Asus Routers Hacked in ‘Operation WrtHug’</div><div class="ticker-item">US and Allies Sanction Russian Bulletproof Hosting Service Providers</div><div class="ticker-item">Vulnerability Allowed Scraping of 3.5 Billion WhatsApp Accounts</div><div class="ticker-item">Google exposes BadAudio malware used in APT24 espionage campaigns</div><div class="ticker-item">Train AI to handle tasks for you with this $39.99 course bundle</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Hacker claims to steal 2.3TB data from Italian rail group, Almaviva</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SEC Drops SolarWinds Case After Years of High-Stakes Cybersecurity Scrutiny</h3>
+                <p><strong>Summary:</strong> The U.S. Securities and Exchange Commission (SEC) has abandoned its lawsuit  against SolarWinds and its chief information security officer, alleging that the company had misled investors about the sec...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/sec-drops-solarwinds-case-after-years.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/sec-drops-solarwinds-case-after-years.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Salesforce Flags Unauthorized Data Access via Gainsight-Linked OAuth Activity</h3>
+                <p><strong>Summary:</strong> Salesforce has warned of detected "unusual activity" related to Gainsight-published applications connected to the platform.  "Our investigation indicates this activity may have enabled unauthorized ac...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/salesforce-flags-unauthorized-data.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/salesforce-flags-unauthorized-data.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ShadowRay 2.0 Exploits Unpatched Ray Flaw to Build Self-Spreading GPU Cryptomining Botnet</h3>
+                <p><strong>Summary:</strong> Oligo Security has warned  of ongoing attacks exploiting a two-year-old security flaw in the Ray open-source artificial intelligence (AI) framework to turn infected clusters with NVIDIA GPUs into a se...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/shadowray-20-exploits-unpatched-ray.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/shadowray-20-exploits-unpatched-ray.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tsundere Botnet Expands Using Game Lures and Ethereum-Based C2 on Windows</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have warned of an actively expanding botnet dubbed Tsundere  that's targeting Windows users.  Active since mid-2025, the threat is designed  to execute arbitrary JavaScript c...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/tsundere-botnet-expands-using-game.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/tsundere-botnet-expands-using-game.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: 0-Days, LinkedIn Spies, Crypto Crimes, IoT Flaws and New Malware Waves</h3>
+                <p><strong>Summary:</strong> This week has been crazy in the world of hacking and online security. From Thailand to London to the US, we've seen arrests, spies at work, and big power moves online. Hackers are getting caught. Spie...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/threatsday-bulletin-0-days-linkedin.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/threatsday-bulletin-0-days-linkedin.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CTM360 Exposes a Global WhatsApp Hijacking Campaign: HackOnChat</h3>
+                <p><strong>Summary:</strong> CTM360  has identified a rapidly expanding WhatsApp account-hacking campaign targeting users worldwide via a network of deceptive authentication portals and impersonation pages. The campaign, internal...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/ctm360-exposes-global-whatsapp.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/ctm360-exposes-global-whatsapp.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian Hacking Suspect Wanted by the FBI Arrested on Thai Resort Island</h3>
+                <p><strong>Summary:</strong> Thailand’s Cyber Crime Investigation Bureau said an FBI tip that the “world-class hacker” was traveling to Thailand led to his arrest in Phuket.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/russian-hacking-suspect-wanted-by-the-fbi-arrested-on-thai-resort-island/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/russian-hacking-suspect-wanted-by-the-fbi-arrested-on-thai-resort-island/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Sturnus Banking Trojan Targets WhatsApp, Telegram, Signal Messages</h3>
+                <p><strong>Summary:</strong> The Android malware is in development and appears to be mainly aimed at users in Europe.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-sturnus-banking-trojan-targets-whatsapp-telegram-signal-messages/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-sturnus-banking-trojan-targets-whatsapp-telegram-signal-messages/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Doppel Raises $70 Million at $600 Million Valuation</h3>
+                <p><strong>Summary:</strong> The AI-native social engineering defense (SED) platform will accelerate product innovation and expand its offerings.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/doppel-raises-70-million-at-600-million-valuation/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/doppel-raises-70-million-at-600-million-valuation/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Over 50,000 Asus Routers Hacked in ‘Operation WrtHug’</h3>
+                <p><strong>Summary:</strong> A Chinese threat actor is exploiting known vulnerabilities in discontinued Asus devices in an Operational Relay Box (ORB) facilitation campaign.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/over-50000-asus-routers-hacked-in-operation-wrthug/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/over-50000-asus-routers-hacked-in-operation-wrthug/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US and Allies Sanction Russian Bulletproof Hosting Service Providers</h3>
+                <p><strong>Summary:</strong> Media Land, Hypercore, and their leadership and employees are allegedly connected to various cybercriminal activities.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-and-allies-sanction-russian-bulletproof-hosting-service-providers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/us-and-allies-sanction-russian-bulletproof-hosting-service-providers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vulnerability Allowed Scraping of 3.5 Billion WhatsApp Accounts</h3>
+                <p><strong>Summary:</strong> Researchers demonstrated a now-patched vulnerability that could have been used to enumerate all WhatsApp accounts.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/vulnerability-allowed-scraping-of-3-5-billion-whatsapp-accounts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/vulnerability-allowed-scraping-of-3-5-billion-whatsapp-accounts/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google exposes BadAudio malware used in APT24 espionage campaigns</h3>
+                <p><strong>Summary:</strong> China-linked APT24 hackers have been using a previously undocumented malware called BadAudio in a three-year espionage campaign that recently switched to more sophisticated attack methods.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-exposes-badaudio-malware-used-in-apt24-espionage-campaigns/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-exposes-badaudio-malware-used-in-apt24-espionage-campaigns/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Train AI to handle tasks for you with this $39.99 course bundle</h3>
+                <p><strong>Summary:</strong> If you've been curious about building your own AI tools,  there's now a straightforward way to get started. The Ultimate AI Business & Marketing Bundle packs three focused training tracks into one pac...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/train-ai-to-handle-tasks-for-you-with-this-3999-course-bundle/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/train-ai-to-handle-tasks-for-you-with-this-3999-course-bundle/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hacker claims to steal 2.3TB data from Italian rail group, Almaviva</h3>
+                <p><strong>Summary:</strong> Data from Italy's national railway operator, the FS Italiane Group, has been exposed after a threat actor breached the organization's IT services provider, Almaviva.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hacker-claims-to-steal-23tb-data-from-italian-rail-group-almaviva/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hacker-claims-to-steal-23tb-data-from-italian-rail-group-almaviva/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

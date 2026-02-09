@@ -1,0 +1,274 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 64,
+      "vulnerability": 37,
+      "cybersecurity": 33,
+      "phishing": 24,
+      "breach": 24,
+      "malware": 23,
+      "apt": 16,
+      "critical": 15,
+      "ransomware": 4
+    },
+    "30_days": {
+      "attack": 136,
+      "vulnerability": 92,
+      "cybersecurity": 71,
+      "malware": 61,
+      "critical": 57,
+      "breach": 47,
+      "phishing": 41,
+      "apt": 33,
+      "ransomware": 23
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 63,
+      "High": 16,
+      "Low": 49
+    },
+    "30_days": {
+      "High": 58,
+      "Medium": 132,
+      "Low": 114
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 114,
+    "SecurityWeek": 114,
+    "BleepingComputer": 76
+  },
+  "top_keywords": {
+    "security": 182,
+    "attacks": 102,
+    "vulnerability": 97,
+    "threat": 94,
+    "malware": 86,
+    "code": 83,
+    "google": 82,
+    "exploited": 80,
+    "cve": 74,
+    "data": 69,
+    "flaw": 67,
+    "phishing": 64,
+    "campaign": 63,
+    "attack": 62,
+    "microsoft": 62,
+    "malicious": 60,
+    "researchers": 58,
+    "users": 53,
+    "remote": 52,
+    "actors": 52
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "⚡ Weekly Recap: Fortinet Exploit, Chrome 0-Day, BadIIS Malware, Record DDoS, SaaS Breach & More",
+      "link": "https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html",
+      "summary": "This week saw a lot of new cyber trouble. Hackers hit Fortinet and Chrome with new 0-day bugs. They also broke into supply chains and SaaS tools. Many hid inside trusted apps, browser alerts, and soft",
+      "urgency": "High",
+      "date": "2025-11-25",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access",
+      "link": "https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html",
+      "summary": "A recently patched security flaw in Microsoft Windows Server Update Services (WSUS) has been exploited by threat actors to distribute malware known as ShadowPad.  \"The attacker targeted Windows Server",
+      "urgency": "High",
+      "date": "2025-11-25",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access",
+      "link": "https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html",
+      "summary": "A recently patched security flaw in Microsoft Windows Server Update Services (WSUS) has been exploited by threat actors to distribute malware known as ShadowPad.  \"The attacker targeted Windows Server",
+      "urgency": "High",
+      "date": "2025-11-24",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting Oracle Identity Manager to its Known Exploited Vulnerabilities ( KEV ) catalog, cit",
+      "urgency": "High",
+      "date": "2025-11-24",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/",
+      "summary": "CVE-2025-61757 is an unauthenticated remote code execution vulnerability affecting Oracle Identity Manager.",
+      "urgency": "High",
+      "date": "2025-11-24",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting Oracle Identity Manager to its Known Exploited Vulnerabilities ( KEV ) catalog, cit",
+      "urgency": "High",
+      "date": "2025-11-23",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/",
+      "summary": "CVE-2025-61757 is an unauthenticated remote code execution vulnerability affecting Oracle Identity Manager.",
+      "urgency": "High",
+      "date": "2025-11-23",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cox Enterprises discloses Oracle E-Business Suite data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/cox-enterprises-discloses-oracle-e-business-suite-data-breach/",
+      "summary": "Cox Enterprises is notifying impacted individuals of a data breach that exposed their personal data to hackers who breached the company network after exploiting a zero-day flaw in Oracle E-Business Su",
+      "urgency": "High",
+      "date": "2025-11-23",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting Oracle Identity Manager to its Known Exploited Vulnerabilities ( KEV ) catalog, cit",
+      "urgency": "High",
+      "date": "2025-11-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/",
+      "summary": "CVE-2025-61757 is an unauthenticated remote code execution vulnerability affecting Oracle Identity Manager.",
+      "urgency": "High",
+      "date": "2025-11-22",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 304,
+    "top_tag": "attack",
+    "last_update": "2025-11-25T09:35:38.043951"
+  }
+}

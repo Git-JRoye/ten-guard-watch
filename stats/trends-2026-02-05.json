@@ -1,0 +1,312 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 60,
+      "cybersecurity": 40,
+      "vulnerability": 32,
+      "malware": 24,
+      "breach": 18,
+      "critical": 15,
+      "apt": 13,
+      "phishing": 9,
+      "ransomware": 3
+    },
+    "30_days": {
+      "attack": 233,
+      "cybersecurity": 149,
+      "vulnerability": 139,
+      "malware": 79,
+      "critical": 71,
+      "breach": 67,
+      "apt": 55,
+      "phishing": 48,
+      "ransomware": 22
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 19,
+      "Medium": 46,
+      "Low": 59
+    },
+    "30_days": {
+      "High": 84,
+      "Medium": 190,
+      "Low": 218
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 120
+  },
+  "top_keywords": {
+    "security": 259,
+    "attacks": 152,
+    "vulnerability": 139,
+    "code": 132,
+    "attack": 131,
+    "access": 128,
+    "threat": 122,
+    "data": 122,
+    "malicious": 120,
+    "malware": 111,
+    "cve": 109,
+    "cybersecurity": 108,
+    "flaw": 93,
+    "campaign": 93,
+    "microsoft": 93,
+    "activity": 89,
+    "remote": 86,
+    "users": 81,
+    "exploited": 80,
+    "company": 78
+  },
+  "daily_counts": [
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    },
+    {
+      "date": "2026-01-30",
+      "count": 16
+    },
+    {
+      "date": "2026-01-31",
+      "count": 16
+    },
+    {
+      "date": "2026-02-01",
+      "count": 16
+    },
+    {
+      "date": "2026-02-02",
+      "count": 16
+    },
+    {
+      "date": "2026-02-03",
+      "count": 16
+    },
+    {
+      "date": "2026-02-04",
+      "count": 12
+    },
+    {
+      "date": "2026-02-05",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+      "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+      "summary": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw",
+      "urgency": "High",
+      "date": "2026-02-05",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft",
+      "link": "https://www.securityweek.com/dockerdash-flaw-in-docker-ai-assistant-leads-to-rce-data-theft/",
+      "summary": "The critical vulnerability exists in the contextual trust in MCP Gateway architecture, as instructions are passed without validation.",
+      "urgency": "High",
+      "date": "2026-02-05",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical n8n flaws disclosed along with public exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-n8n-flaws-disclosed-along-with-public-exploits/",
+      "summary": "Multiple critical vulnerabilities in the popular n8n open-source workflow automation platform allow escaping the confines of the environment and taking complete control of the host server.",
+      "urgency": "High",
+      "date": "2026-02-05",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
+      "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities ( KEV ) cata",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
+      "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon , an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line I",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package",
+      "link": "https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html",
+      "summary": "Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular \"@react-native-community/cli\" npm package.  Cybersecurity company VulnCheck s",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical React Native Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/",
+      "summary": "Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware.",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Russian hackers exploit recently patched Microsoft Office bug in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/",
+      "summary": "Ukraine's Computer Emergency Response Team (CERT) says that Russian hackers are exploiting CVE-2026-21509, a recently patched vulnerability in multiple versions of Microsoft Office.",
+      "urgency": "High",
+      "date": "2026-02-03",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ]
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, an",
+      "urgency": "High",
+      "date": "2026-02-02",
+      "tags": [
+        "attack"
+      ]
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, an",
+      "urgency": "High",
+      "date": "2026-02-01",
+      "tags": [
+        "attack"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 124,
+    "total_30_days": 492,
+    "top_tag": "attack",
+    "last_update": "2026-02-05T10:01:01.309411"
+  }
+}

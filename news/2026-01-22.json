@@ -1,0 +1,206 @@
+{
+  "date": "2026-01-22",
+  "items": [
+    {
+      "title": "Automated FortiGate Attacks Exploit FortiCloud SSO to Alter Firewall Configurations",
+      "link": "https://thehackernews.com/2026/01/automated-fortigate-attacks-exploit.html",
+      "summary": "Cybersecurity company Arctic Wolf has warned  of a \"new cluster of automated malicious activity\" that involves unauthorized firewall configuration changes on Fortinet FortiGate devices.  The activity, it said, commenced on January 15, 2026, adding it shares similarities with a December 2025 campaign  in which malicious SSO logins on FortiGate appliances were recorded against the admin account from different hosting providers by exploiting CVE-2025-59718 and CVE-2025-59719.  Both vulnerabilities allow for unauthenticated bypass of SSO login authentication via crafted SAML messages when the FortiCloud single sign-on (SSO) feature is enabled on affected Devices. The shortcomings impact FortiOS, FortiWeb, FortiProxy, and FortiSwitchManager.   \"This activity involved the creation of generic accounts intended for persistence, configuration changes granting VPN access to those accounts, as well as exfiltration of firewall configurations,\" Arctic Wolf said of the developin...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "automated-fortigate-attacks-exploit-forticloud-sso",
+      "source": "The Hacker News",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Cisco Fixes Actively Exploited Zero-Day CVE-2026-20045 in Unified CM and Webex",
+      "link": "https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html",
+      "summary": "Cisco has released fresh patches to address what it described as a \"critical\" security vulnerability impacting multiple Unified Communications (CM) products and Webex Calling Dedicated Instance that it has been actively exploited as a zero-day in the wild.  The vulnerability, CVE-2026-20045 (CVSS score: 8.2), could permit an unauthenticated remote attacker to execute arbitrary commands on the underlying operating system of a susceptible device.  \"This vulnerability is due to improper validation of user-supplied input in HTTP requests,\" Cisco said  in an advisory. \"An attacker could exploit this vulnerability by sending a sequence of crafted HTTP requests to the web-based management interface of an affected device. A successful exploit could allow the attacker to obtain user-level access to the underlying operating system and then elevate privileges to root.\"   The critical rating for the flaw is due to the fact that its exploitation could allow for privil...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-fixes-actively-exploited-zero-day-cve-2026-2",
+      "source": "The Hacker News",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "North Korean PurpleBravo Campaign Targeted 3,136 IP Addresses via Fake Job Interviews",
+      "link": "https://thehackernews.com/2026/01/north-korean-purplebravo-campaign.html",
+      "summary": "As many as 3,136 individual IP addresses linked to likely targets of the Contagious Interview activity have been identified, with the campaign claiming 20 potential victim organizations spanning artificial intelligence (AI), cryptocurrency, financial services, IT services, marketing, and software development sectors in Europe, South Asia, the Middle East, and Central America.  The new findings  come from Recorded Future's Insikt Group, which is tracking the North Korean threat activity cluster under the moniker PurpleBravo . First documented  in late 2023, the campaign  is also known as CL-STA-0240, DeceptiveDevelopment, DEV#POPPER, Famous Chollima, Gwisin Gang, Tenacious Pungsan, UNC5342, Void Dokkaebi, and WaterPlum.  The 3,136 individual IP addresses, primarily concentrated around South Asia and North America, are assessed to have been targeted by the adversary from August 2024 to September 2025. The 20 victim companies are said to be based in Belgium, Bulgaria, Costa Rica, In...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "north-korean-purplebravo-campaign-targeted-3136-ip",
+      "source": "The Hacker News",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
+      "link": "https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html",
+      "summary": "Zoom and GitLab have released security updates to resolve a number of security vulnerabilities that could result in denial-of-service (DoS) and remote code execution.  The most severe of the lot is a critical security flaw impacting Zoom Node Multimedia Routers (MMRs) that could permit a meeting participant to conduct remote code execution attacks. The vulnerability, tracked as CVE-2026-22844  and discovered internally by its Offensive Security team, carries a CVSS score of 9.9 out of 10.0.  \"A command injection vulnerability in Zoom Node Multimedia Routers (MMRs) before version 5.2.1716.0 may allow a meeting participant to conduct remote code execution of the MMR via network access,\" the company noted  in a Tuesday alert.  Zoom is recommending that customers using Zoom Node Meetings, Hybrid, or Meeting Connector deployments update to the latest available MMR version to safeguard against any potential threat.   There is no evidence that the security flaw has been exploited ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "zoom-and-gitlab-release-security-updates-fixing-rc",
+      "source": "The Hacker News",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Webinar: How Smart MSSPs Using AI to Boost Margins with Half the Staff",
+      "link": "https://thehackernews.com/2026/01/webinar-how-smart-mssps-using-ai-to.html",
+      "summary": "Every managed security provider is chasing the same problem in 2026 — too many alerts, too few analysts, and clients demanding \"CISO-level protection\" at SMB budgets.  The truth? Most MSSPs are running harder, not smarter. And it's breaking their margins. That's where the quiet revolution is happening: AI isn't just writing reports or surfacing risks — it's rebuilding how security services are delivered .  The Shift  Until now, MSSPs scaled by adding people. Each new client meant another analyst, another spreadsheet, another late-night ticket queue.  AI automation flips that model. It handles assessments, benchmarking, and reporting in minutes — freeing your team to focus on strategy, not data entry.  Early adopters are already seeing double-digit margin gains and faster onboarding cycles — without increasing headcount.  Real Proof — Not Theory  When Chad Robinson , CISO at Secure Cyber Defense, applied Cynomi's AI platform, his team stopped drowning in manual checklists. He didn't ju...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "webinar-how-smart-mssps-using-ai-to-boost-margins-",
+      "source": "The Hacker News",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Exposure Assessment Platforms Signal a Shift in Focus",
+      "link": "https://thehackernews.com/2026/01/exposure-assessment-platforms-signal.html",
+      "summary": "Gartner® doesn't create new categories lightly. Generally speaking, a new acronym only emerges when the industry's collective \"to-do list\" has become mathematically impossible to complete. And so it seems that the introduction of the Exposure Assessment Platforms (EAP)  category is a formal admission that traditional Vulnerability Management (VM) is no longer a viable way to secure a modern enterprise.  The shift from the traditional Market Guide for Vulnerability Assessment  to the new Magic Quadrant for EAPs  represents a move away from the \"vulnerability hose\", i.e., the endless stream of CVEs, and toward a model of Continuous Threat Exposure Management (CTEM) . To us, this is more than just a change in terminology; it is an attempt to solve the \"Dead End\" paradox that has plagued security teams for a decade.  In the inaugural Magic Quadrant report of this category, Gartner evaluated 20 vendors for their ability to support continuous discovery, ris...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "exposure-assessment-platforms-signal-a-shift-in-fo",
+      "source": "The Hacker News",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Hackers Targeting Cisco Unified CM Zero-Day",
+      "link": "https://www.securityweek.com/hackers-targeting-cisco-unified-cm-zero-day/",
+      "summary": "Cisco has released patches for CVE-2026-20045, a critical vulnerability that can be exploited for unauthenticated remote code execution.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "hackers-targeting-cisco-unified-cm-zero-day",
+      "source": "SecurityWeek",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "CyberNut Closes $5M Growth Capital for K-12 Security Awareness Training",
+      "link": "https://www.securityweek.com/cybernut-closes-5m-growth-capital-for-k-12-security-awareness-training/",
+      "summary": "CyberNut emerged from stealth in May 2024 with $800k in pre-seed funding for its cybersecurity platform.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cybernut-closes-5m-growth-capital-for-k-12-securit",
+      "source": "SecurityWeek",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Asymmetric Security Emerges From Stealth With $4.2 Million in Funding",
+      "link": "https://www.securityweek.com/asymmetric-security-emerges-from-stealth-with-4-2-million-in-funding/",
+      "summary": "The startup’s platform leverages AI to automate forensic investigations, accelerating incident response.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "asymmetric-security-emerges-from-stealth-with-42-m",
+      "source": "SecurityWeek",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "aiFWall Emerges From Stealth With an AI Firewall",
+      "link": "https://www.securityweek.com/aifwall-emerges-from-stealth-with-an-ai-firewall/",
+      "summary": "aiFWall is a firewall protection for AI deployments built to use AI to improve its own performance.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "aifwall-emerges-from-stealth-with-an-ai-firewall",
+      "source": "SecurityWeek",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "LastPass Users Targeted With Backup-Themed Phishing Emails",
+      "link": "https://www.securityweek.com/lastpass-users-targeted-with-backup-themed-phishing-emails/",
+      "summary": "Threat actors may have wanted to take advantage of the holiday weekend in the United States to increase their chances of success.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "lastpass-users-targeted-with-backup-themed-phishin",
+      "source": "SecurityWeek",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "North Korean Hackers Target macOS Developers via Malicious VS Code Projects",
+      "link": "https://www.securityweek.com/north-korean-hackers-target-macos-developers-via-malicious-vs-code-projects/",
+      "summary": "The hackers trick victims into accessing GitHub or GitLab repositories that are opened using Visual Studio Code.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "north-korean-hackers-target-macos-developers-via-m",
+      "source": "SecurityWeek",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Zendesk ticket systems hijacked in massive global spam wave",
+      "link": "https://www.bleepingcomputer.com/news/security/zendesk-ticket-systems-hijacked-in-massive-global-spam-wave/",
+      "summary": "People worldwide are being targeted by a massive spam wave originating from unsecured Zendesk support systems, with victims reporting receiving hundreds of emails with strange and sometimes alarming subject lines.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "zendesk-ticket-systems-hijacked-in-massive-global-",
+      "source": "BleepingComputer",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Chainlit AI framework bugs let hackers breach cloud environments",
+      "link": "https://www.bleepingcomputer.com/news/security/chainlit-ai-framework-bugs-let-hackers-breach-cloud-environments/",
+      "summary": "Two high-severity vulnerabilities in Chainlit, a popular open-source framework for building conversational AI applications, allow reading any file on the server and leak sensitive information.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "chainlit-ai-framework-bugs-let-hackers-breach-clou",
+      "source": "BleepingComputer",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Cisco fixes Unified Communications RCE zero day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-unified-communications-rce-zero-day-exploited-in-attacks/",
+      "summary": "Cisco has fixed a critical Unified Communications and Webex Calling remote code execution vulnerability, tracked as CVE-2026-20045, that has been actively exploited as a zero-day in attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-fixes-unified-communications-rce-zero-day-ex",
+      "source": "BleepingComputer",
+      "date": "2026-01-22"
+    }
+  ]
+}

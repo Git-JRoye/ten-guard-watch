@@ -1,0 +1,210 @@
+{
+  "date": "2025-11-07",
+  "items": [
+    {
+      "title": "Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The activity involved the exploitation of CVE-2025-21042  (CVSS score: 8.8), an out-of-bounds write flaw in the \"libimagecodec.quram.so\" component that could allow remote attackers to execute arbitrary code, according to Palo Alto Networks Unit 42. The issue was addressed  by Samsung in April 2025.  \"This vulnerability was actively exploited in the wild before Samsung patched it in April 2025, following reports of in-the-wild attacks,\" Unit 42 said . Potential targets of the activity, tracked as CL-UNK-1054, are located in Iraq, Iran, Turkey, and Morocco based on VirusTotal submission data.  The development comes as Samsung disclosed  in September 2025 that another flaw in the same library (CVE-2025-21043, CVSS score: 8.8) had also been exploited in the wild as a...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "samsung-zero-click-flaw-exploited-to-deploy-landfa",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools",
+      "link": "https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html",
+      "summary": "A China-linked threat actor has been attributed to a cyber attack targeting an U.S. non-profit organization with an aim to establish long-term persistence, as part of broader activity aimed at U.S. entities that are linked to or involved in policy issues.  The organization, according to a report  from Broadcom's Symantec and Carbon Black teams, is \"active in attempting to influence U.S. government policy on international issues.\" The attackers managed to gain access to the network for several weeks in April 2025.  The first sign of activity occurred on April 5, 2025, when mass scanning efforts were detected against a server by leveraging various well-known exploits, including CVE-2022-26134  (Atlassian), CVE-2021-44228  (Apache Log4j), CVE-2017-9805  (Apache Struts), and CVE-2017-17562  (GoAhead Web Server).   No further actions were recorded until April 16, when the attacks executed several curl commands to test internet connectivity, after which the Windows command-lin...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "from-log4j-to-iis-chinas-hackers-turn-legacy-bugs-",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software supply chain security company Socket, the packages were published in 2023 and 2024 by a user named \" shanhai666 \" and are designed to run malicious code after specific trigger dates in August 2027 and November 2028. The packages were collectively downloaded 9,488 times.  \"The most dangerous package, Sharp7Extend, targets industrial PLCs with dual sabotage mechanisms: immediate random process termination and silent write failures that begin 30-90 minutes after installation, affecting safety-critical systems in manufacturing environments,\" security researcher Kush Pandya said .   The list of malicious packages is below -   MyDbRepository (Last updated on May 13, 2023)  MCDbRepository (Last updated on June 5, 2024)  Sharp7Extend (Last updated on August 14, 2024)  SqlDbRepo...",
+      "tags": [
+        "malware",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "hidden-logic-bombs-in-malware-laced-nuget-packages",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Enterprise Credentials at Risk – Same Old, Same Old?",
+      "link": "https://thehackernews.com/2025/11/enterprise-credentials-at-risk-same-old.html",
+      "summary": "Imagine this: Sarah from accounting gets what looks like a routine password reset email from your organization's cloud provider. She clicks the link, types in her credentials, and goes back to her spreadsheet. But unknown to her, she's just made a big mistake. Sarah just accidentally handed over her login details to cybercriminals who are laughing all the way to their dark web marketplace, where they'll sell her credentials for about $15. Not much as a one-off, but a serious money-making operation when scaled up.  The credential compromise lifecycle   Users create credentials:  With dozens of standalone business apps (each with its own login) your employees must create numerous accounts. But keeping track of multiple unique usernames/passwords is a pain, so they reuse passwords or make tiny variations.  Hackers compromise credentials:  Attackers snag these credentials through phishing, brute force attacks, third-party breaches, or exposed API keys. And many times, no...",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "enterprise-credentials-at-risk-same-old-same-old",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Google Launches New Maps Feature to Help Businesses Report Review-Based Extortion Attempts",
+      "link": "https://thehackernews.com/2025/11/google-launches-new-maps-feature-to.html",
+      "summary": "Google on Thursday said it's rolling out a dedicated form to allow businesses listed on Google Maps to report extortion attempts made by threat actors who post inauthentic bad reviews on the platform and demand ransoms to remove the negative comments.  The approach is designed to tackle a common practice called review bombing , where online users intentionally post negative user reviews in an attempt to harm a product, a service, or a business.  \"Bad actors try to circumvent our moderation systems and flood a business's profile with fake one-star reviews,\" Laurie Richardson, vice president of Trust & Safety at Google, said . \"Following this initial attack, the scammers directly contact the business owner, often through third-party messaging apps, to demand payment.\"  The threat actors warn of further escalation should the victim fail to pay the fee, risking potential damage to their public rating and reputation. These ploys are seen as an attempt to coe...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-launches-new-maps-feature-to-help-businesse",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Vibe-Coded Malicious VS Code Extension Found with Built-In Ransomware Capabilities",
+      "link": "https://thehackernews.com/2025/11/vibe-coded-malicious-vs-code-extension.html",
+      "summary": "Cybersecurity researchers have flagged a malicious Visual Studio Code (VS Code) extension with basic ransomware capabilities that appears to be created with the help of artificial intelligence – in other words, vibe-coded.  Secure Annex researcher John Tuckner, who flagged  the extension \" susvsex ,\" said it does not attempt to hide its malicious functionality. The extension was uploaded on November 5, 2025, by a user named \"suspublisher18\" along with the description \"Just testing\" and the email address \"donotsupport@example[.]com.\"  \"Automatically zips, uploads, and encrypts files from C:\\Users\\Public\\testing (Windows) or /tmp/testing (macOS) on first launch,\" reads the description of the extension. As of November 6, Microsoft has stepped in to remove  it from the official VS Code Extension Marketplace.   According to details shared by \"suspublisher18,\" the extension is designed to automatically activate itself on any even...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "vibe-coded-malicious-vs-code-extension-found-with-",
+      "source": "The Hacker News",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests",
+      "link": "https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-controversial-ransomware-report-goot",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "landfall-android-spyware-targeted-samsung-phones-v",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Radical Empowerment From Your Leadership: Understood by Few, Essential for All",
+      "link": "https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/",
+      "summary": "When leaders redefine power as trust instead of control, teams unlock their potential — and organizations find their edge.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "radical-empowerment-from-your-leadership-understoo",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Data Exposure Vulnerability Found in Deep Learning Tool Keras",
+      "link": "https://www.securityweek.com/data-exposure-vulnerability-found-in-deep-learning-tool-keras/",
+      "summary": "The vulnerability is tracked as CVE-2025-12058 and it can be exploited for arbitrary file loading and conducting SSRF attacks.",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "data-exposure-vulnerability-found-in-deep-learning",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "ClickFix Attacks Against macOS Users Evolving",
+      "link": "https://www.securityweek.com/clickfix-attacks-against-macos-users-evolving/",
+      "summary": "ClickFix prompts typically contain instructions for Windows users, but now they are tailored for macOS and they are getting increasingly convincing.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "clickfix-attacks-against-macos-users-evolving",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "DOJ Antitrust Review Clears Google’s $32 Billion Acquisition of Wiz",
+      "link": "https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/",
+      "summary": "Google’s acquisition of Wiz is expected to close in 2026, but there are other reviews that need to be cleared.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "doj-antitrust-review-clears-googles-32-billion-acq",
+      "source": "SecurityWeek",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Malicious NuGet packages drop disruptive 'time bombs'",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-nuget-packages-drop-disruptive-time-bombs/",
+      "summary": "Several malicious packages on NuGet have sabotage payloads scheduled to activate in 2027 and 2028, targeting database implementations and Siemens S7 industrial control devices.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-nuget-packages-drop-disruptive-time-bomb",
+      "source": "BleepingComputer",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Microsoft testing faster Quick Machine Recovery in Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-faster-quick-machine-recovery-in-windows-11/",
+      "summary": "Microsoft is testing a faster version of Quick Machine Recovery (QMR) and updated Smart App Control (SAC), allowing users to toggle it without requiring a Windows clean install.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-testing-faster-quick-machine-recovery-in",
+      "source": "BleepingComputer",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "5-critical-microsoft-365-security-settings-you-cou",
+      "source": "BleepingComputer",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "QNAP fixes seven NAS zero-day flaws exploited at Pwn2Own",
+      "link": "https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/",
+      "summary": "QNAP has fixed seven zero-day vulnerabilities that security researchers exploited to hack QNAP network-attached storage (NAS) devices during the Pwn2Own Ireland 2025 competition.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "qnap-fixes-seven-nas-zero-day-flaws-exploited-at-p",
+      "source": "BleepingComputer",
+      "date": "2025-11-07"
+    }
+  ]
+}

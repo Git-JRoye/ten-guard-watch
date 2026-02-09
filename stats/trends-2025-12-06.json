@@ -1,0 +1,316 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 68,
+      "cybersecurity": 30,
+      "vulnerability": 26,
+      "breach": 23,
+      "malware": 20,
+      "phishing": 17,
+      "apt": 14,
+      "critical": 13,
+      "ransomware": 8
+    },
+    "30_days": {
+      "attack": 230,
+      "vulnerability": 123,
+      "cybersecurity": 113,
+      "malware": 86,
+      "breach": 81,
+      "critical": 72,
+      "phishing": 67,
+      "apt": 53,
+      "ransomware": 35
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 68,
+      "High": 13,
+      "Low": 47
+    },
+    "30_days": {
+      "High": 75,
+      "Medium": 227,
+      "Low": 178
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 180,
+    "SecurityWeek": 180,
+    "BleepingComputer": 120
+  },
+  "top_keywords": {
+    "security": 291,
+    "attacks": 157,
+    "threat": 136,
+    "vulnerability": 132,
+    "malware": 127,
+    "data": 116,
+    "access": 110,
+    "code": 109,
+    "phishing": 101,
+    "microsoft": 101,
+    "attack": 100,
+    "exploited": 98,
+    "users": 96,
+    "google": 91,
+    "cybersecurity": 91,
+    "cve": 90,
+    "malicious": 88,
+    "flaw": 87,
+    "campaign": 86,
+    "actors": 83
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch",
+      "link": "https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html",
+      "summary": "A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity ( XXE ) injection attack.  The vulnerability, tracked as CVE-2025-66516 , is rated 10.0 on the CV",
+      "urgency": "High",
+      "date": "2025-12-06",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Intellexa Leaks Reveal Zero-Days and Ads-Based Vector for Predator Spyware Delivery",
+      "link": "https://thehackernews.com/2025/12/intellexa-leaks-reveal-zero-days-and.html",
+      "summary": "A human rights lawyer from Pakistan's Balochistan province received a suspicious link on WhatsApp from an unknown number, marking the first time a civil society member in the country was targeted by I",
+      "urgency": "High",
+      "date": "2025-12-06",
+      "tags": [
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cloudflare Outage Caused by React2Shell Mitigations",
+      "link": "https://www.securityweek.com/cloudflare-outage-caused-by-react2shell-mitigations/",
+      "summary": "The critical React vulnerability has been exploited in the wild by Chinese and other threat actors.",
+      "urgency": "High",
+      "date": "2025-12-06",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Barts Health NHS discloses data breach after Oracle zero-day hack",
+      "link": "https://www.bleepingcomputer.com/news/security/barts-health-nhs-discloses-data-breach-after-oracle-zero-day-hack/",
+      "summary": "Barts Health NHS Trust has announced that Clop ransomware actors have stolen files from a database by exploiting a vulnerability in its Oracle E-business Suite software.",
+      "urgency": "High",
+      "date": "2025-12-06",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "critical"
+      ]
+    },
+    {
+      "title": "ThreatsDay Bulletin: Wi-Fi Hack, npm Worm, DeFi Theft, Phishing Blasts— and 15 More Stories",
+      "link": "https://thehackernews.com/2025/12/threatsday-bulletin-wi-fi-hack-npm-worm.html",
+      "summary": "Think your Wi-Fi is safe? Your coding tools? Or even your favorite financial apps? This week proves again how hackers, companies, and governments are all locked in a nonstop race to outsmart each othe",
+      "urgency": "High",
+      "date": "2025-12-05",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical RSC Bugs in React and Next.js Allow Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/critical-rsc-bugs-in-react-and-nextjs.html",
+      "summary": "A maximum-severity security flaw has been disclosed in React Server Components (RSC) that, if successfully exploited, could result in remote code execution.  The vulnerability, tracked as CVE-2025-551",
+      "urgency": "High",
+      "date": "2025-12-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "WordPress King Addons Flaw Under Active Attack Lets Hackers Make Admin Accounts",
+      "link": "https://thehackernews.com/2025/12/wordpress-king-addons-flaw-under-active.html",
+      "summary": "A critical security flaw impacting a WordPress plugin known as King Addons for Elementor has come under active exploitation in the wild.  The vulnerability, CVE-2025-8489  (CVSS score: 9.8), is a case",
+      "urgency": "High",
+      "date": "2025-12-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical King Addons Vulnerability Exploited to Hack WordPress Sites",
+      "link": "https://www.securityweek.com/critical-king-addons-vulnerability-exploited-to-hack-wordpress-sites/",
+      "summary": "A critical-severity vulnerability in the King Addons for Elementor plugin for WordPress has been exploited to take over websites.",
+      "urgency": "High",
+      "date": "2025-12-04",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical flaw in WordPress add-on for Elementor exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wordpress-add-on-for-elementor-exploited-in-attacks/",
+      "summary": "Attackers are exploiting a critical-severity privilege escalation vulnerability (CVE-2025-8489) in the King Addons for Elementor plugin for WordPress, which lets them obtain administrative permissions",
+      "urgency": "High",
+      "date": "2025-12-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to KEV",
+      "link": "https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has updated  its Known Exploited Vulnerabilities ( KEV ) catalog to include a security flaw impacting OpenPLC ScadaBR, citing evidence ",
+      "urgency": "High",
+      "date": "2025-12-01",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 480,
+    "top_tag": "attack",
+    "last_update": "2025-12-06T09:29:51.376725"
+  }
+}

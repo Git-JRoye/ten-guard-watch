@@ -1,0 +1,224 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 53,
+      "vulnerability": 41,
+      "critical": 31,
+      "malware": 30,
+      "cybersecurity": 25,
+      "breach": 18,
+      "ransomware": 14,
+      "apt": 12,
+      "phishing": 12
+    },
+    "30_days": {
+      "attack": 60,
+      "vulnerability": 46,
+      "critical": 36,
+      "malware": 33,
+      "cybersecurity": 28,
+      "breach": 20,
+      "ransomware": 16,
+      "apt": 13,
+      "phishing": 13
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 31,
+      "Medium": 51,
+      "Low": 46
+    },
+    "30_days": {
+      "High": 36,
+      "Medium": 58,
+      "Low": 50
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 54,
+    "SecurityWeek": 54,
+    "BleepingComputer": 36
+  },
+  "top_keywords": {
+    "security": 73,
+    "threat": 52,
+    "google": 50,
+    "attacks": 48,
+    "malware": 47,
+    "exploited": 44,
+    "cve": 44,
+    "code": 42,
+    "malicious": 38,
+    "vulnerability": 37,
+    "users": 33,
+    "data": 32,
+    "packages": 31,
+    "microsoft": 31,
+    "activity": 30,
+    "attack": 30,
+    "attackers": 29,
+    "credentials": 29,
+    "report": 28,
+    "flaw": 27
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Google Workspace Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "A checklist for securing Google Workspace.",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet FortiWeb Flaw Actively Exploited in the Wild Before Company's Silent Patch",
+      "link": "https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html",
+      "summary": "Cybersecurity researchers are sounding the alert about an authentication bypass vulnerability in Fortinet Fortiweb WAF that could allow an attacker to take over admin accounts and completely compromis",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet FortiWeb flaw with public PoC exploited to create admin users",
+      "link": "https://www.bleepingcomputer.com/news/security/fortiweb-flaw-with-public-poc-actively-exploited-to-create-admin-users/",
+      "summary": "A Fortinet FortiWeb path traversal vulnerability is being actively exploited to create new administrative users on exposed devices without requiring authentication",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Flags Critical WatchGuard Fireware Flaw Exposing 54,000 Fireboxes to No-Login Attacks",
+      "link": "https://thehackernews.com/2025/11/cisa-flags-critical-watchguard-fireware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting WatchGuard Fireware  to its Known Exploited Vulnerabilities ( KEV ) catalog, bas",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Amazon Uncovers Attacks Exploited Cisco ISE and Citrix NetScaler as Zero-Day Flaws",
+      "link": "https://thehackernews.com/2025/11/amazon-uncovers-attacks-exploited-cisco.html",
+      "summary": "Amazon's threat intelligence team on Wednesday disclosed that it observed an advanced threat actor exploiting two then-zero-day security flaws in Cisco Identity Service Engine (ISE) and Citrix NetScal",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Active Directory Under Siege: Why Critical Infrastructure Needs Stronger Security",
+      "link": "https://thehackernews.com/2025/11/active-directory-under-siege-why.html",
+      "summary": "Active Directory remains the authentication backbone for  over 90%  of Fortune 1000 companies. AD's importance has grown as companies adopt hybrid and cloud infrastructure, but so has its complexity. ",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 144,
+    "top_tag": "attack",
+    "last_update": "2025-11-15T09:28:14.904697"
+  }
+}

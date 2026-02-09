@@ -1,0 +1,315 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 65,
+      "vulnerability": 41,
+      "cybersecurity": 31,
+      "critical": 28,
+      "malware": 26,
+      "phishing": 14,
+      "breach": 14,
+      "ransomware": 12,
+      "apt": 9
+    },
+    "30_days": {
+      "attack": 243,
+      "vulnerability": 130,
+      "cybersecurity": 117,
+      "malware": 90,
+      "breach": 81,
+      "critical": 77,
+      "phishing": 70,
+      "apt": 51,
+      "ransomware": 36
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Low": 43,
+      "Medium": 57,
+      "High": 28
+    },
+    "30_days": {
+      "Medium": 234,
+      "Low": 182,
+      "High": 80
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 319,
+    "attacks": 156,
+    "vulnerability": 147,
+    "threat": 143,
+    "malware": 142,
+    "data": 124,
+    "code": 122,
+    "access": 117,
+    "phishing": 109,
+    "microsoft": 109,
+    "attack": 108,
+    "cybersecurity": 98,
+    "remote": 95,
+    "flaw": 94,
+    "exploited": 92,
+    "campaign": 91,
+    "critical": 84,
+    "researchers": 82,
+    "actors": 80,
+    "cve": 80
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Microsoft Issues Security Fixes for 56 Flaws, Including Active Exploit and Two Zero-Days",
+      "link": "https://thehackernews.com/2025/12/microsoft-issues-security-fixes-for-56.html",
+      "summary": "Microsoft closed out 2025 with patches for 56 security flaws  in various products across the Windows platform, including one vulnerability that has been actively exploited in the wild.  Of the 56 flaw",
+      "urgency": "High",
+      "date": "2025-12-10",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet, Ivanti, and SAP Issue Urgent Patches for Authentication and Code Execution Flaws",
+      "link": "https://thehackernews.com/2025/12/fortinet-ivanti-and-sap-issue-urgent.html",
+      "summary": "Fortinet, Ivanti, and SAP have moved to address critical security flaws in their products that, if successfully exploited, could result in an authentication bypass and code execution.  The Fortinet vu",
+      "urgency": "High",
+      "date": "2025-12-10",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "North Korea-linked Actors Exploit React2Shell to Deploy New EtherRAT Malware",
+      "link": "https://thehackernews.com/2025/12/north-korea-linked-actors-exploit.html",
+      "summary": "Threat actors with ties to North Korea have likely become the latest to exploit the recently disclosed critical React2Shell  security flaw in React Server Components (RSC) to deliver a previously undo",
+      "urgency": "High",
+      "date": "2025-12-10",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "UK Sanctions Russian and Chinese Firms Suspected of Being ‘Malign Actors’ in Information Warfare",
+      "link": "https://www.securityweek.com/uk-sanctions-russian-and-chinese-firms-suspected-of-being-malign-actors-in-information-warfare/",
+      "summary": "Britain and its allies face escalating “hybrid threats … designed to weaken critical national infrastructure, undermine our interests and interfere in our democracies.”",
+      "urgency": "High",
+      "date": "2025-12-10",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Patches 57 Vulnerabilities, Three Zero-Days",
+      "link": "https://www.securityweek.com/microsoft-patches-57-vulnerabilities-three-zero-days/",
+      "summary": "Microsoft has addressed a Windows vulnerability exploited as zero-day that allows attackers to obtain System privileges.",
+      "urgency": "High",
+      "date": "2025-12-10",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "SAP fixes three critical vulnerabilities across multiple products",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-three-critical-vulnerabilities-across-multiple-products/",
+      "summary": "SAP has released its December security updates addressing 14 vulnerabilities across a range of products, including three critical-severity flaws.",
+      "urgency": "High",
+      "date": "2025-12-10",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5071546 extended security update",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5071546-extended-security-update/",
+      "summary": "Microsoft has released the KB5071546 extended security update to resolve 57 security vulnerabilities, including three zero-day flaws.",
+      "urgency": "High",
+      "date": "2025-12-10",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "⚡ Weekly Recap: USB Malware, React2Shell, WhatsApp Worms, AI IDE Bugs & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-usb-malware-react2shell.html",
+      "summary": "It's been a week of chaos in code and calm in headlines. A bug that broke the internet's favorite framework, hackers chasing AI tools, fake apps stealing cash, and record-breaking cyberattacks — all w",
+      "urgency": "High",
+      "date": "2025-12-09",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks",
+      "link": "https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html",
+      "summary": "A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence.  The remote code execution vulnerability in question is CVE-2025",
+      "urgency": "High",
+      "date": "2025-12-09",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Apache Tika Vulnerability Leads to XXE Injection",
+      "link": "https://www.securityweek.com/critical-apache-tika-vulnerability-leads-to-xxe-injection/",
+      "summary": "The bug allows attackers to carry out XML External Entity (XXE) injection attacks via crafted XFA files inside PDF files.",
+      "urgency": "High",
+      "date": "2025-12-09",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2025-12-10T09:36:59.489019"
+  }
+}

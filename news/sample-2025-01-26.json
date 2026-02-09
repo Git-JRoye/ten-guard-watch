@@ -1,0 +1,33 @@
+{
+  "date": "2025-01-26",
+  "items": [
+    {
+      "title": "YouTube Ghost Network Distributes Malware Through 3,000 Videos",
+      "link": "https://thehackernews.com/2025/10/3000-youtube-videos-exposed-as-malware.html",
+      "summary": "Check Point discovered a malicious YouTube network that has published over 3,000 videos since 2021, with activity tripling in 2025. The YouTube Ghost Network uses hacked accounts to promote videos about pirated software and Roblox cheats, leading users to stealer malware.",
+      "tags": ["malware", "youtube", "social-engineering", "stealer"],
+      "urgency": "Medium",
+      "slug": "youtube-ghost-network-malware",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "North Korean Hackers Target European Drone Companies",
+      "link": "https://www.securityweek.com/north-korean-hackers-aim-at-european-drone-companies/",
+      "summary": "The Lazarus Group, a North Korean state-sponsored threat actor, has been targeting European companies developing unmanned aerial vehicle (UAV) technology. The campaign uses fake job offers as a social engineering vector to infiltrate organizations and steal sensitive information related to drone technology.",
+      "tags": ["apt", "lazarus", "espionage", "drones", "north-korea"],
+      "urgency": "High",
+      "slug": "lazarus-drone-companies",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Cybersecurity Perception Gap Between Executives and Practitioners",
+      "link": "https://thehackernews.com/2025/10/the-cybersecurity-perception-gap-why.html",
+      "summary": "Bitdefender's 2025 Cybersecurity Assessment reveals a significant perception gap between C-level executives and cybersecurity practitioners. While 93% of professionals express confidence in managing cyber risk, only 45% of C-level executives are very confident compared to mid-level practitioners. This disconnect affects resource allocation and risk prioritization decisions.",
+      "tags": ["research", "management", "risk-assessment", "survey"],
+      "urgency": "Low",
+      "slug": "cybersecurity-perception-gap",
+      "source": "The Hacker News"
+    }
+  ]
+}
+

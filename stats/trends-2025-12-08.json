@@ -1,0 +1,319 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 67,
+      "vulnerability": 37,
+      "cybersecurity": 31,
+      "malware": 24,
+      "critical": 20,
+      "breach": 18,
+      "phishing": 16,
+      "apt": 11,
+      "ransomware": 8
+    },
+    "30_days": {
+      "attack": 242,
+      "vulnerability": 131,
+      "cybersecurity": 118,
+      "malware": 89,
+      "breach": 82,
+      "critical": 76,
+      "phishing": 69,
+      "apt": 53,
+      "ransomware": 35
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Low": 48,
+      "Medium": 60,
+      "High": 20
+    },
+    "30_days": {
+      "High": 79,
+      "Medium": 234,
+      "Low": 183
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 312,
+    "attacks": 158,
+    "vulnerability": 147,
+    "threat": 138,
+    "malware": 130,
+    "data": 121,
+    "code": 117,
+    "attack": 112,
+    "access": 111,
+    "phishing": 106,
+    "exploited": 99,
+    "flaw": 98,
+    "microsoft": 97,
+    "cybersecurity": 94,
+    "cve": 93,
+    "google": 93,
+    "remote": 92,
+    "users": 90,
+    "campaign": 88,
+    "actors": 83
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks",
+      "link": "https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html",
+      "summary": "A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence.  The remote code execution vulnerability in question is CVE-2025",
+      "urgency": "High",
+      "date": "2025-12-08",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday formally added  a critical security flaw impacting React Server Components (RSC) to its Known Exploited Vulnerabilities ( KEV",
+      "urgency": "High",
+      "date": "2025-12-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch",
+      "link": "https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html",
+      "summary": "A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity ( XXE ) injection attack.  The vulnerability, tracked as CVE-2025-66516 , is rated 10.0 on the CV",
+      "urgency": "High",
+      "date": "2025-12-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cloudflare Outage Caused by React2Shell Mitigations",
+      "link": "https://www.securityweek.com/cloudflare-outage-caused-by-react2shell-mitigations/",
+      "summary": "The critical React vulnerability has been exploited in the wild by Chinese and other threat actors.",
+      "urgency": "High",
+      "date": "2025-12-08",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday formally added  a critical security flaw impacting React Server Components (RSC) to its Known Exploited Vulnerabilities ( KEV",
+      "urgency": "High",
+      "date": "2025-12-07",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch",
+      "link": "https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html",
+      "summary": "A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity ( XXE ) injection attack.  The vulnerability, tracked as CVE-2025-66516 , is rated 10.0 on the CV",
+      "urgency": "High",
+      "date": "2025-12-07",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Intellexa Leaks Reveal Zero-Days and Ads-Based Vector for Predator Spyware Delivery",
+      "link": "https://thehackernews.com/2025/12/intellexa-leaks-reveal-zero-days-and.html",
+      "summary": "A human rights lawyer from Pakistan's Balochistan province received a suspicious link on WhatsApp from an unknown number, marking the first time a civil society member in the country was targeted by I",
+      "urgency": "High",
+      "date": "2025-12-07",
+      "tags": [
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cloudflare Outage Caused by React2Shell Mitigations",
+      "link": "https://www.securityweek.com/cloudflare-outage-caused-by-react2shell-mitigations/",
+      "summary": "The critical React vulnerability has been exploited in the wild by Chinese and other threat actors.",
+      "urgency": "High",
+      "date": "2025-12-07",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "React2Shell flaw exploited to breach 30 orgs, 77k IP addresses vulnerable",
+      "link": "https://www.bleepingcomputer.com/news/security/react2shell-flaw-exploited-to-breach-30-orgs-77k-ip-addresses-vulnerable/",
+      "summary": "Over 77,000 Internet-exposed IP addresses are vulnerable to the critical React2Shell remote code execution flaw (CVE-2025-55182), with researchers now confirming that attackers have already compromise",
+      "urgency": "High",
+      "date": "2025-12-07",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch",
+      "link": "https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html",
+      "summary": "A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity ( XXE ) injection attack.  The vulnerability, tracked as CVE-2025-66516 , is rated 10.0 on the CV",
+      "urgency": "High",
+      "date": "2025-12-06",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2025-12-08T09:42:24.998707"
+  }
+}

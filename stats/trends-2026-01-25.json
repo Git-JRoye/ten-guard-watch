@@ -1,0 +1,315 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 57,
+      "cybersecurity": 38,
+      "vulnerability": 32,
+      "malware": 20,
+      "breach": 20,
+      "phishing": 14,
+      "critical": 12,
+      "ransomware": 7,
+      "apt": 7
+    },
+    "30_days": {
+      "attack": 220,
+      "cybersecurity": 130,
+      "vulnerability": 121,
+      "breach": 100,
+      "malware": 68,
+      "critical": 58,
+      "apt": 46,
+      "phishing": 41,
+      "ransomware": 24
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 54,
+      "Low": 60,
+      "High": 14
+    },
+    "30_days": {
+      "Medium": 216,
+      "High": 67,
+      "Low": 189
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 206,
+    "vulnerability": 149,
+    "data": 140,
+    "code": 120,
+    "access": 117,
+    "cybersecurity": 116,
+    "attacks": 112,
+    "attack": 111,
+    "flaw": 108,
+    "users": 107,
+    "threat": 102,
+    "cve": 93,
+    "campaign": 84,
+    "malware": 83,
+    "malicious": 82,
+    "million": 82,
+    "activity": 79,
+    "remote": 77,
+    "browser": 77,
+    "through": 70
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Adds Actively Exploited VMware vCenter Flaw CVE-2024-37079 to KEV Catalog",
+      "link": "https://thehackernews.com/2026/01/cisa-adds-actively-exploited-vmware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw affecting Broadcom VMware vCenter Server that was patched in June 2024 to its Known Exploited",
+      "urgency": "High",
+      "date": "2026-01-25",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Updates KEV Catalog with Four Actively Exploited Software Vulnerabilities",
+      "link": "https://thehackernews.com/2026/01/cisa-updates-kev-catalog-with-four.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  four security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation i",
+      "urgency": "High",
+      "date": "2026-01-25",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft releases emergency OOB update to fix Outlook freezes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-oob-update-to-fix-outlook-freezes/",
+      "summary": "Microsoft has released emergency, out-of-band updates on Saturday for Windows 10, Windows 11, and Windows Server to fix an issue that prevented Microsoft Outlook classic from opening when using PSTs s",
+      "urgency": "High",
+      "date": "2026-01-25",
+      "tags": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "title": "CISA Adds Actively Exploited VMware vCenter Flaw CVE-2024-37079 to KEV Catalog",
+      "link": "https://thehackernews.com/2026/01/cisa-adds-actively-exploited-vmware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw affecting Broadcom VMware vCenter Server that was patched in June 2024 to its Known Exploited",
+      "urgency": "High",
+      "date": "2026-01-24",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Updates KEV Catalog with Four Actively Exploited Software Vulnerabilities",
+      "link": "https://thehackernews.com/2026/01/cisa-updates-kev-catalog-with-four.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  four security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation i",
+      "urgency": "High",
+      "date": "2026-01-24",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access",
+      "link": "https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html",
+      "summary": "A critical security flaw has been disclosed in the GNU InetUtils telnet daemon ( telnetd ) that went unnoticed for nearly 11 years.  The vulnerability, tracked as CVE-2026-24061 , is rated 9.8 out of ",
+      "urgency": "High",
+      "date": "2026-01-23",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cisco Fixes Actively Exploited Zero-Day CVE-2026-20045 in Unified CM and Webex",
+      "link": "https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html",
+      "summary": "Cisco has released fresh patches to address what it described as a \"critical\" security vulnerability impacting multiple Unified Communications (CM) products and Webex Calling Dedicated Instance that i",
+      "urgency": "High",
+      "date": "2026-01-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
+      "link": "https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html",
+      "summary": "Zoom and GitLab have released security updates to resolve a number of security vulnerabilities that could result in denial-of-service (DoS) and remote code execution.  The most severe of the lot is a ",
+      "urgency": "High",
+      "date": "2026-01-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers Targeting Cisco Unified CM Zero-Day",
+      "link": "https://www.securityweek.com/hackers-targeting-cisco-unified-cm-zero-day/",
+      "summary": "Cisco has released patches for CVE-2026-20045, a critical vulnerability that can be exploited for unauthenticated remote code execution.",
+      "urgency": "High",
+      "date": "2026-01-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cisco fixes Unified Communications RCE zero day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-unified-communications-rce-zero-day-exploited-in-attacks/",
+      "summary": "Cisco has fixed a critical Unified Communications and Webex Calling remote code execution vulnerability, tracked as CVE-2026-20045, that has been actively exploited as a zero-day in attacks.",
+      "urgency": "High",
+      "date": "2026-01-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-25T09:34:05.523919"
+  }
+}

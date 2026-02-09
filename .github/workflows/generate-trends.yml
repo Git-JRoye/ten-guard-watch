@@ -1,0 +1,139 @@
+name: Generate Threat Trends Dashboard
+
+on:
+  # Primary: Run automatically after news scraper completes
+  workflow_run:
+    workflows: ["Daily News Update"]  # Matches your news scraper workflow name
+    types:
+      - completed  # Triggers when news scraper finishes successfully
+  
+  # Backup: Schedule (in case workflow_run doesn't trigger)
+  schedule:
+    - cron: '15 9 * * *'  # 9:15 AM UTC as backup (winter) / 10:15 AM UTC (summer)
+  
+  # Allow manual triggering for testing
+  workflow_dispatch:
+
+jobs:
+  generate-trends:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Required to commit changes back to repo
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for proper date handling
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install jinja2 pytest
+          # Install any additional requirements if requirements.txt exists
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      
+      - name: Create necessary directories
+        run: |
+          mkdir -p news stats threat-trends
+      
+      - name: Generate trends metrics
+        run: |
+          python scripts/generate_trends.py --days 30
+        env:
+          PYTHONUNBUFFERED: 1
+      
+      - name: Render dashboard HTML
+        run: |
+          python scripts/render_dashboard.py
+        env:
+          # WEBHOOK_URL is read from repository secrets
+          # Set this in: Repository Settings → Secrets and variables → Actions → New repository secret
+          # Name: WEBHOOK_URL
+          # Value: Your Zapier webhook URL (e.g., https://hooks.zapier.com/hooks/catch/YOUR_ID/)
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL || 'https://hooks.zapier.com/hooks/catch/PLACEHOLDER/' }}
+      
+      - name: Verify generated files
+        run: |
+          echo "Checking generated files..."
+          ls -lh stats/
+          ls -lh threat-trends/
+          
+          if [ -f stats/trends.json ]; then
+            echo "✅ trends.json generated"
+            echo "File size: $(du -h stats/trends.json | cut -f1)"
+          else
+            echo "❌ trends.json not found"
+            exit 1
+          fi
+          
+          if [ -f threat-trends/index.html ]; then
+            echo "✅ Dashboard HTML generated"
+            echo "File size: $(du -h threat-trends/index.html | cut -f1)"
+          else
+            echo "❌ Dashboard HTML not found"
+            exit 1
+          fi
+      
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-update threat trends dashboard - ${{ github.run_number }}"
+          file_pattern: 'stats/*.json threat-trends/index.html'
+          commit_user_name: 'TenGuard Bot'
+          commit_user_email: 'bot@tenguardsecurity.com'
+          commit_author: 'TenGuard Bot <bot@tenguardsecurity.com>'
+          skip_dirty_check: false
+          skip_fetch: false
+          skip_checkout: false
+          disable_globbing: false
+      
+      - name: Summary
+        if: success()
+        run: |
+          echo "## ✅ Threat Trends Dashboard Updated" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Dashboard generated successfully and committed to repository." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Generated Files:" >> $GITHUB_STEP_SUMMARY
+          echo "- \`stats/trends.json\` - Latest metrics" >> $GITHUB_STEP_SUMMARY
+          echo "- \`stats/trends-$(date +%Y-%m-%d).json\` - Archived snapshot" >> $GITHUB_STEP_SUMMARY
+          echo "- \`threat-trends/index.html\` - Dashboard page" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### View Dashboard:" >> $GITHUB_STEP_SUMMARY
+          echo "https://www.tenguardsecurity.com/threat-trends/" >> $GITHUB_STEP_SUMMARY
+      
+      - name: Error notification
+        if: failure()
+        run: |
+          echo "## ❌ Threat Trends Generation Failed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the workflow logs for details." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Common issues:" >> $GITHUB_STEP_SUMMARY
+          echo "- Missing news files in \`news/\` directory" >> $GITHUB_STEP_SUMMARY
+          echo "- Python dependencies not installed" >> $GITHUB_STEP_SUMMARY
+          echo "- Template rendering errors" >> $GITHUB_STEP_SUMMARY
+
+# WORKFLOW CHAINING:
+# - This workflow is chained to run automatically after "Daily News Update" completes
+# - If your news scraper workflow has a different name, update line 6 above
+# - The schedule (line 12) serves as a backup if workflow_run doesn't trigger
+# - You can always trigger manually via workflow_dispatch
+#
+# To verify the workflow name matches:
+# 1. Go to Actions tab in GitHub
+# 2. Check the exact name of your news scraper workflow
+# 3. Update "Daily News Update" on line 6 if it's different
+#
+# DST Note:
+# - Eastern Time (ET) is UTC-5 in winter (EST) and UTC-4 in summer (EDT)
+# - Backup schedule runs at 9:15 AM UTC
+

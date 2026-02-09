@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Chainlit AI Framework Flaws Enable Data Theft via File Read and SSRF Bugs</div><div class="ticker-item">VoidLink Linux Malware Framework Built with AI Assistance Reaches 88,000 Lines of Code</div><div class="ticker-item">LastPass Warns of Fake Maintenance Messages Targeting Users' Master Passwords</div><div class="ticker-item">CERT/CC Warns binary-parser Bug Allows Node.js Privilege-Level Code Execution</div><div class="ticker-item">North Korea-Linked Hackers Target Developers via Malicious VS Code Projects</div><div class="ticker-item">Three Flaws in Anthropic MCP Git Server Enable File Access and Code Execution</div><div class="ticker-item">Analysis of 6 Billion Passwords Shows Stagnant User Behavior</div><div class="ticker-item">EU Plans Phase Out of High Risk Telecom Suppliers, in Proposals Seen as Targeting China</div><div class="ticker-item">Chainlit Vulnerabilities May Leak Sensitive Information</div><div class="ticker-item">APT-Grade PDFSider Malware Used by Ransomware Groups</div><div class="ticker-item">Weaponized Invite Enabled Calendar Data Theft via Google Gemini</div><div class="ticker-item">TP-Link Patches Vulnerability Exposing VIGI Cameras to Remote Hacking</div><div class="ticker-item">OpenAI's ChatGPT Atlas browser is testing actions feature</div><div class="ticker-item">Google says Gemini won’t have ads, as ChatGPT prepares to add them</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">OpenAI rolls out age prediction model on ChatGPT to detect your age</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chainlit AI Framework Flaws Enable Data Theft via File Read and SSRF Bugs</h3>
+                <p><strong>Summary:</strong> Security vulnerabilities were uncovered in the popular open-source artificial intelligence (AI) framework Chainlit  that could allow attackers to steal sensitive data, which may allow for lateral move...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/chainlit-ai-framework-flaws-enable-data.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/chainlit-ai-framework-flaws-enable-data.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>VoidLink Linux Malware Framework Built with AI Assistance Reaches 88,000 Lines of Code</h3>
+                <p><strong>Summary:</strong> The recently discovered sophisticated Linux malware framework known as VoidLink  is assessed to have been developed by a single person with assistance from an artificial intelligence (AI) model.  That...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/voidlink-linux-malware-framework-built.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/voidlink-linux-malware-framework-built.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LastPass Warns of Fake Maintenance Messages Targeting Users' Master Passwords</h3>
+                <p><strong>Summary:</strong> LastPass is alerting  users to a new active phishing campaign that's impersonating the password management service, which aims to trick users into giving up their master passwords.  The campaign, whic...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/lastpass-warns-of-fake-maintenance.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/lastpass-warns-of-fake-maintenance.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CERT/CC Warns binary-parser Bug Allows Node.js Privilege-Level Code Execution</h3>
+                <p><strong>Summary:</strong> A security vulnerability has been disclosed in the popular binary-parser npm library  that, if successfully exploited, could result in the execution of arbitrary JavaScript.  The vulnerability, tracke...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/certcc-warns-binary-parser-bug-allows.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/certcc-warns-binary-parser-bug-allows.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>North Korea-Linked Hackers Target Developers via Malicious VS Code Projects</h3>
+                <p><strong>Summary:</strong> The North Korean threat actors associated with the long-running Contagious Interview  campaign have been observed using malicious Microsoft Visual Studio Code (VS Code) projects as lures to deliver a ...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/north-korea-linked-hackers-target.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/north-korea-linked-hackers-target.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Three Flaws in Anthropic MCP Git Server Enable File Access and Code Execution</h3>
+                <p><strong>Summary:</strong> A set of three security vulnerabilities has been disclosed in mcp-server-git , the official Git Model Context Protocol ( MCP ) server maintained by Anthropic, that could be exploited to read or delete...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/three-flaws-in-anthropic-mcp-git-server.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/three-flaws-in-anthropic-mcp-git-server.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Analysis of 6 Billion Passwords Shows Stagnant User Behavior</h3>
+                <p><strong>Summary:</strong> The most common stolen passwords in 2025 were 123456, admin, and password, according to a Specops study.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/analysis-of-6-billion-passwords-shows-stagnant-user-behavior/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/analysis-of-6-billion-passwords-shows-stagnant-user-behavior/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>EU Plans Phase Out of High Risk Telecom Suppliers, in Proposals Seen as Targeting China</h3>
+                <p><strong>Summary:</strong> Under the new rules, measures for 5G cybersecurity would become mandatory.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/eu-plans-phase-out-of-high-risk-telecom-suppliers-in-proposals-seen-as-targeting-china/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/eu-plans-phase-out-of-high-risk-telecom-suppliers-in-proposals-seen-as-targeting-china/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chainlit Vulnerabilities May Leak Sensitive Information</h3>
+                <p><strong>Summary:</strong> The two bugs, an arbitrary file read and an SSRF bug, can be exploited without user interaction to leak credentials, databases, and other data.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chainlit-vulnerabilities-may-leak-sensitive-information/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chainlit-vulnerabilities-may-leak-sensitive-information/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APT-Grade PDFSider Malware Used by Ransomware Groups</h3>
+                <p><strong>Summary:</strong> Providing cyberespionage and remote code execution capabilities, the malware is executed via DLL sideloading.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/apt-grade-pdfsider-malware-used-by-ransomware-groups/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/apt-grade-pdfsider-malware-used-by-ransomware-groups/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Weaponized Invite Enabled Calendar Data Theft via Google Gemini</h3>
+                <p><strong>Summary:</strong> A simple payload allowed attackers to create a new event leaking summaries of the victim’s private meetings.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/weaponized-invite-enabled-calendar-data-theft-via-google-gemini/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/weaponized-invite-enabled-calendar-data-theft-via-google-gemini/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TP-Link Patches Vulnerability Exposing VIGI Cameras to Remote Hacking</h3>
+                <p><strong>Summary:</strong> The researcher who discovered the vulnerability saw more than 2,500 internet-exposed devices.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tp-link-patches-vulnerability-exposing-vigi-cameras-to-hacking/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tp-link-patches-vulnerability-exposing-vigi-cameras-to-hacking/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI's ChatGPT Atlas browser is testing actions feature</h3>
+                <p><strong>Summary:</strong> Chromium-based ChatGPT Atlas browser is testing a new feature likely called "Actions," and it can also understand videos, which is why you might see ChatGPT generating timestamps for videos.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-atlas-browser-is-testing-actions-feature/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-atlas-browser-is-testing-actions-feature/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google says Gemini won’t have ads, as ChatGPT prepares to add them</h3>
+                <p><strong>Summary:</strong> OpenAI recently rolled out ads to ChatGPT in the United States if you use $8 Go subscription or a free account, but Google says it does not plan to put ads in Gemini.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-says-gemini-wont-have-ads-as-chatgpt-prepares-to-add-them/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/google-says-gemini-wont-have-ads-as-chatgpt-prepares-to-add-them/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI rolls out age prediction model on ChatGPT to detect your age</h3>
+                <p><strong>Summary:</strong> OpenAI is rolling out an age prediction model on ChatGPT to detect your age and apply possible safety-related restrictions to prevent misuse by teens.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-age-prediction-model-on-chatgpt-to-detect-your-age/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-age-prediction-model-on-chatgpt-to-detect-your-age/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

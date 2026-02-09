@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus Feature</div><div class="ticker-item">Konni Hackers Turn Google's Find Hub into a Remote Data-Wiping Weapon</div><div class="ticker-item">⚡ Weekly Recap: Hyper-V Malware, Malicious AI Bots, RDP Exploits, WhatsApp Lockdown and More</div><div class="ticker-item">New Browser Security Report Reveals Emerging Threats for Enterprises</div><div class="ticker-item">Large-Scale ClickFix Phishing Attacks Target Hotel Systems with PureRAT Malware</div><div class="ticker-item">GlassWorm Malware Discovered in Three VS Code Extensions with Thousands of Installs</div><div class="ticker-item">Many Forbes AI 50 Companies Leak Secrets on GitHub</div><div class="ticker-item">Runc Vulnerabilities Can Be Exploited to Escape Containers</div><div class="ticker-item">Two New Web Application Risk Categories Added to OWASP Top 10</div><div class="ticker-item">GlassWorm Malware Returns to Open VSX, Emerges on GitHub</div><div class="ticker-item">Nearly 30 Alleged Victims of Oracle EBS Hack Named on Cl0p Ransomware Site</div><div class="ticker-item">QNAP Patches Vulnerabilities Exploited at Pwn2Own Ireland</div><div class="ticker-item">APT37 hackers abuse Google Find Hub in Android data-wiping attacks</div><div class="ticker-item">Mozilla Firefox gets new anti-fingerprinting defenses</div><div class="ticker-item">5 Critical Google Workspace Security Settings You Could Be Missing</div><div class="ticker-item">Quantum Route Redirect PhaaS targets Microsoft 365 users worldwide</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus Feature</h3>
+                <p><strong>Summary:</strong> Google's Mandiant Threat Defense on Monday said it discovered  n-day exploitation of a now-patched security flaw in Gladinet's Triofox file-sharing and remote access platform.  The critical vulnerabil...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Konni Hackers Turn Google's Find Hub into a Remote Data-Wiping Weapon</h3>
+                <p><strong>Summary:</strong> The North Korea-affiliated threat actor known as Konni  (aka Earth Imp, Opal Sleet, Osmium, TA406, and Vedalia) has been attributed to a new set of attacks targeting both Android and Windows devices f...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Hyper-V Malware, Malicious AI Bots, RDP Exploits, WhatsApp Lockdown and More</h3>
+                <p><strong>Summary:</strong> Cyber threats didn't slow down last week—and attackers are getting smarter. We're seeing malware hidden in virtual machines, side-channel leaks exposing AI chats, and spyware quietly targeting Android...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Browser Security Report Reveals Emerging Threats for Enterprises</h3>
+                <p><strong>Summary:</strong> According to the new Browser Security Report 2025 , security leaders are discovering that most identity, SaaS, and AI-related risks converge in a single place, the user's browser. Yet traditional cont...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/new-browser-security-report-reveals.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/new-browser-security-report-reveals.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Large-Scale ClickFix Phishing Attacks Target Hotel Systems with PureRAT Malware</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have called attention to a massive phishing campaign targeting the hospitality industry that lures hotel managers to ClickFix-style pages and harvest their credentials by dep...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/large-scale-clickfix-phishing-attacks.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/large-scale-clickfix-phishing-attacks.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GlassWorm Malware Discovered in Three VS Code Extensions with Thousands of Installs</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed a new set of three extensions associated with the GlassWorm campaign, indicating continued attempts on part of threat actors to target the Visual Studio Code (...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/glassworm-malware-discovered-in-three.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/glassworm-malware-discovered-in-three.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Many Forbes AI 50 Companies Leak Secrets on GitHub</h3>
+                <p><strong>Summary:</strong> Wiz found the secrets and warned that they can expose training data, organizational structures, and private models.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/many-forbes-ai-50-companies-leak-secrets-on-github/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/many-forbes-ai-50-companies-leak-secrets-on-github/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Runc Vulnerabilities Can Be Exploited to Escape Containers</h3>
+                <p><strong>Summary:</strong> The flaws tracked as CVE-2025-31133, CVE-2025-52565, and CVE-2025-52881 have been patched.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/runc-vulnerabilities-can-be-exploited-to-escape-containers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/runc-vulnerabilities-can-be-exploited-to-escape-containers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Two New Web Application Risk Categories Added to OWASP Top 10</h3>
+                <p><strong>Summary:</strong> OWASP has added two new categories to the revised version of its Top 10 list of the most critical risks to web applications.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/two-new-web-application-risk-categories-added-to-owasp-top-10/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/two-new-web-application-risk-categories-added-to-owasp-top-10/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GlassWorm Malware Returns to Open VSX, Emerges on GitHub</h3>
+                <p><strong>Summary:</strong> Three more VS Code extensions were infected last week and the malware has emerged in GitHub repositories as well.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/glassworm-malware-returns-to-open-vsx-emerges-on-github/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/glassworm-malware-returns-to-open-vsx-emerges-on-github/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nearly 30 Alleged Victims of Oracle EBS Hack Named on Cl0p Ransomware Site</h3>
+                <p><strong>Summary:</strong> The Cl0p website lists major organizations such as Logitech, The Washington Post, Cox Enterprises, Pan American Silver, LKQ Corporation, and Copeland.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/nearly-30-alleged-victims-of-oracle-ebs-hack-named-on-cl0p-ransomware-site/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/nearly-30-alleged-victims-of-oracle-ebs-hack-named-on-cl0p-ransomware-site/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>QNAP Patches Vulnerabilities Exploited at Pwn2Own Ireland</h3>
+                <p><strong>Summary:</strong> Multiple vulnerabilities across QNAP’s portfolio could lead to remote code execution, information disclosure, and denial-of-service (DoS) conditions.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/qnap-patches-vulnerabilities-exploited-at-pwn2own-ireland/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/qnap-patches-vulnerabilities-exploited-at-pwn2own-ireland/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APT37 hackers abuse Google Find Hub in Android data-wiping attacks</h3>
+                <p><strong>Summary:</strong> North Korean hackers from the KONNI activity cluster are abusing Google's Find Hub tool to track their targets' GPS positions and trigger remote factory resets of Android devices.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/apt37-hackers-abuse-google-find-hub-in-android-data-wiping-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/apt37-hackers-abuse-google-find-hub-in-android-data-wiping-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Mozilla Firefox gets new anti-fingerprinting defenses</h3>
+                <p><strong>Summary:</strong> Mozilla announced a major privacy upgrade in Firefox 145 that reduces even more the number of users vulnerable to digital fingerprinting.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/mozilla-firefox-gets-new-anti-fingerprinting-defenses/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/mozilla-firefox-gets-new-anti-fingerprinting-defenses/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>5 Critical Google Workspace Security Settings You Could Be Missing</h3>
+                <p><strong>Summary:</strong> A checklist for securing Google Workspace.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Quantum Route Redirect PhaaS targets Microsoft 365 users worldwide</h3>
+                <p><strong>Summary:</strong> A new phishing automation platform named Quantum Route Redirect is using around 1,000 domains to steal Microsoft 365 users' credentials.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/quantum-route-redirect-phaas-targets-microsoft-365-users-worldwide/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/quantum-route-redirect-phaas-targets-microsoft-365-users-worldwide/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

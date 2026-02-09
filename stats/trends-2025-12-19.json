@@ -1,0 +1,317 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 64,
+      "vulnerability": 42,
+      "critical": 31,
+      "cybersecurity": 27,
+      "breach": 25,
+      "malware": 19,
+      "ransomware": 14,
+      "phishing": 12,
+      "apt": 9
+    },
+    "30_days": {
+      "attack": 258,
+      "vulnerability": 137,
+      "cybersecurity": 114,
+      "breach": 88,
+      "critical": 83,
+      "malware": 81,
+      "phishing": 65,
+      "apt": 46,
+      "ransomware": 38
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 31,
+      "Medium": 62,
+      "Low": 35
+    },
+    "30_days": {
+      "Medium": 247,
+      "Low": 164,
+      "High": 85
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 331,
+    "attacks": 159,
+    "vulnerability": 152,
+    "threat": 134,
+    "malware": 132,
+    "access": 132,
+    "data": 132,
+    "code": 131,
+    "flaw": 113,
+    "exploited": 111,
+    "browser": 110,
+    "cve": 106,
+    "phishing": 103,
+    "attack": 103,
+    "cybersecurity": 100,
+    "remote": 91,
+    "critical": 89,
+    "microsoft": 88,
+    "users": 87,
+    "campaign": 77
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards",
+      "link": "https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html",
+      "summary": "Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access ( DMA ",
+      "urgency": "High",
+      "date": "2025-12-19",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "HPE OneView Flaw Rated CVSS 10.0 Allows Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/hpe-oneview-flaw-rated-cvss-100-allows.html",
+      "summary": "Hewlett Packard Enterprise (HPE) has resolved a maximum-severity security flaw in OneView Software that, if successfully exploited, could result in remote code execution.  The critical vulnerability, ",
+      "urgency": "High",
+      "date": "2025-12-19",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "HPE Patches Critical Flaw in IT Infrastructure Management Software",
+      "link": "https://www.securityweek.com/hpe-patches-critical-flaw-in-it-infrastructure-management-software/",
+      "summary": "Tracked as CVE-2025-37164, the critical flaw could allow unauthenticated, remote attackers to execute arbitrary code.",
+      "urgency": "High",
+      "date": "2025-12-19",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Flags Critical ASUS Live Update Flaw After Evidence of Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-critical-asus-live-update.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical flaw impacting ASUS Live Update to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence ",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cisco Warns of Active Attacks Exploiting Unpatched 0-Day in AsyncOS Email Security Appliances",
+      "link": "https://thehackernews.com/2025/12/cisco-warns-of-active-attacks.html",
+      "summary": "Cisco has alerted users to a maximum-severity zero-day flaw in Cisco AsyncOS software that has been actively exploited by a China-nexus advanced persistent threat (APT) actor codenamed UAT-9686 in att",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "SonicWall Fixes Actively Exploited CVE-2025-40602 in SMA 100 Appliances",
+      "link": "https://thehackernews.com/2025/12/sonicwall-fixes-actively-exploited-cve.html",
+      "summary": "SonicWall has rolled out fixes to address  a security flaw in Secure Mobile Access (SMA) 100 series appliances that it said has been actively exploited in the wild.  The vulnerability, tracked as CVE-",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "SonicWall Patches Exploited SMA 1000 Zero-Day",
+      "link": "https://www.securityweek.com/sonicwall-patches-exploited-sma-1000-zero-day/",
+      "summary": "The medium-severity flaw has been exploited in combination with a critical bug for remote code execution.",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Exploiting Zero-Day in Cisco Security Gear",
+      "link": "https://www.securityweek.com/china-linked-hackers-exploiting-zero-day-in-cisco-security-gear/",
+      "summary": "The critical zero-day is tracked as CVE-2025-20393 and it impacts Secure Email Gateway and Secure Email and Web Manager appliances.",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Zeroday Cloud hacking event awards $320,0000 for 11 zero days",
+      "link": "https://www.bleepingcomputer.com/news/security/zeroday-cloud-hacking-event-awards-320-0000-for-11-zero-days/",
+      "summary": "The Zeroday Cloud hacking competition in London has awarded researchers $320,000 for demonstrating critical remote code execution vulnerabilities in components used in cloud infrastructure.",
+      "urgency": "High",
+      "date": "2025-12-18",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Amazon Exposes Years-Long GRU Cyber Campaign Targeting Energy and Cloud Infrastructure",
+      "link": "https://thehackernews.com/2025/12/amazon-exposes-years-long-gru-cyber.html",
+      "summary": "Amazon's threat intelligence team has disclosed  details of a \"years-long\" Russian state-sponsored campaign that targeted Western critical infrastructure between 2021 and 2025.  Targets of the campaig",
+      "urgency": "High",
+      "date": "2025-12-17",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2025-12-19T09:36:17.596826"
+  }
+}

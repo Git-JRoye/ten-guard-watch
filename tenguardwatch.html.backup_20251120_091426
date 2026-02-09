@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Fortinet Warns of New FortiWeb CVE-2025-58034 Vulnerability Exploited in the Wild</div><div class="ticker-item">Sneaky 2FA Phishing Kit Adds BitB Pop-ups Designed to Mimic the Browser Address Bar</div><div class="ticker-item">Meta Expands WhatsApp Security Research with New Proxy Tool and $4M in Bounties This Year</div><div class="ticker-item">Learn How Leading Companies Secure Cloud Workloads and Infrastructure at Scale</div><div class="ticker-item">Researchers Detail Tuoni C2's Role in an Attempted 2025 Real-Estate Cyber Intrusion</div><div class="ticker-item">Iranian Hackers Use DEEPROOT and TWOSTROKE Malware in Aerospace and Defense Attacks</div><div class="ticker-item">Microsoft Unveils Security Enhancements for Identity, Defense, Compliance</div><div class="ticker-item">Cloudflare Outage Not Caused by Cyberattack</div><div class="ticker-item">MI5 Warns Lawmakers That Chinese Spies Are Trying to Reach Them via LinkedIn</div><div class="ticker-item">Meta Paid Out $4 Million via Bug Bounty Program in 2025</div><div class="ticker-item">Webinar Today: Protecting What WAFs and Gateways Can’t See – Register</div><div class="ticker-item">Apono Raises $34 Million for Cloud Identity Management Platform</div><div class="ticker-item">Thunderbird adds native support for Microsoft Exchange accounts</div><div class="ticker-item">New ShadowRay attacks convert Ray clusters into crypto miners</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Windows 11 gets new Cloud Rebuild, Point-in-Time Restore tools</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Warns of New FortiWeb CVE-2025-58034 Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> Fortinet has warned of a new security flaw in FortiWeb that it said has been exploited in the wild.  The medium-severity vulnerability, tracked as CVE-2025-58034 , carries a CVSS score of 6.7 out of a...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/fortinet-warns-of-new-fortiweb-cve-2025.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/fortinet-warns-of-new-fortiweb-cve-2025.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Sneaky 2FA Phishing Kit Adds BitB Pop-ups Designed to Mimic the Browser Address Bar</h3>
+                <p><strong>Summary:</strong> The malware authors associated with a Phishing-as-a-Service (PhaaS) kit known as Sneaky 2FA  have incorporated Browser-in-the-Browser (BitB) functionality into their arsenal, underscoring the continue...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/sneaky-2fa-phishing-kit-adds-bitb-pop.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/sneaky-2fa-phishing-kit-adds-bitb-pop.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Meta Expands WhatsApp Security Research with New Proxy Tool and $4M in Bounties This Year</h3>
+                <p><strong>Summary:</strong> Meta on Tuesday said it has made available a tool called WhatsApp Research Proxy to some of its long-time bug bounty researchers to help improve the program and more effectively research the messaging...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/meta-expands-whatsapp-security-research.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/meta-expands-whatsapp-security-research.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Learn How Leading Companies Secure Cloud Workloads and Infrastructure at Scale</h3>
+                <p><strong>Summary:</strong> You've probably already moved some of your business to the cloud—or you're planning to. That's a smart move. It helps you work faster, serve your customers better, and stay ahead.  But as your cloud s...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/learn-how-leading-companies-secure.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/learn-how-leading-companies-secure.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Detail Tuoni C2's Role in an Attempted 2025 Real-Estate Cyber Intrusion</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a cyber attack targeting a major U.S.-based real-estate company that involved the use of a nascent command-and-control (C2) and red teaming framewor...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/researchers-detail-tuoni-c2s-role-in.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/researchers-detail-tuoni-c2s-role-in.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Iranian Hackers Use DEEPROOT and TWOSTROKE Malware in Aerospace and Defense Attacks</h3>
+                <p><strong>Summary:</strong> Suspected espionage-driven threat actors from Iran have been observed deploying backdoors like TWOSTROKE and DEEPROOT as part of continued attacks aimed at aerospace, aviation, and defense industries ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/iranian-hackers-use-deeproot-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/iranian-hackers-use-deeproot-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Unveils Security Enhancements for Identity, Defense, Compliance</h3>
+                <p><strong>Summary:</strong> Microsoft announced new security capabilities for Defender, Sentinel, Copilot, Intune, Purview, and Entra.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-unveils-security-enhancements-for-identity-defense-compliance/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-unveils-security-enhancements-for-identity-defense-compliance/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cloudflare Outage Not Caused by Cyberattack</h3>
+                <p><strong>Summary:</strong> Major online services such as ChatGPT, X, and Shopify were disrupted in a global Cloudflare outage on Nov. 18th, as well as transit and city services.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cloudflare-says-highly-disruptive-outage-not-caused-by-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cloudflare-says-highly-disruptive-outage-not-caused-by-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MI5 Warns Lawmakers That Chinese Spies Are Trying to Reach Them via LinkedIn</h3>
+                <p><strong>Summary:</strong> Britain’s domestic intelligence agency warned that Chinese nationals were ”using LinkedIn profiles to conduct outreach at scale” on behalf of the Chinese Ministry of State Security.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/mi5-warns-lawmakers-that-chinese-spies-are-trying-to-reach-them-via-linkedin/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/mi5-warns-lawmakers-that-chinese-spies-are-trying-to-reach-them-via-linkedin/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Meta Paid Out $4 Million via Bug Bounty Program in 2025</h3>
+                <p><strong>Summary:</strong> The total amount of money given to bug bounty hunters by the social media giant has reached $25 million.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/meta-paid-out-4-million-via-bug-bounty-program-in-2025/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/meta-paid-out-4-million-via-bug-bounty-program-in-2025/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar Today: Protecting What WAFs and Gateways Can’t See – Register</h3>
+                <p><strong>Summary:</strong> Learn why legacy approaches fail to stop modern API threats and show how dedicated API security delivers the visibility, protection, and automation needed to defend against today’s evolving risks.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/webinar-today-protecting-what-wafs-and-gateways-cant-see-register/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/webinar-today-protecting-what-wafs-and-gateways-cant-see-register/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apono Raises $34 Million for Cloud Identity Management Platform</h3>
+                <p><strong>Summary:</strong> The company will use the investment to accelerate product development, expand go-to-market operations, and hire new talent.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/apono-raises-34-million-for-cloud-identity-management-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/apono-raises-34-million-for-cloud-identity-management-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Thunderbird adds native support for Microsoft Exchange accounts</h3>
+                <p><strong>Summary:</strong> Thunderbird 145 has been released with full native support for Microsoft Exchange email via the Exchange Web Services (EWS) protocol.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/software/thunderbird-adds-native-support-for-microsoft-exchange-accounts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/software/thunderbird-adds-native-support-for-microsoft-exchange-accounts/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New ShadowRay attacks convert Ray clusters into crypto miners</h3>
+                <p><strong>Summary:</strong> A global campaign dubbed ShadowRay 2.0 hijacks exposed Ray Clusters by exploiting an old code execution flaw to turn them into a self-propagating cryptomining botnet.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-shadowray-attacks-convert-ray-clusters-into-crypto-miners/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-shadowray-attacks-convert-ray-clusters-into-crypto-miners/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Windows 11 gets new Cloud Rebuild, Point-in-Time Restore tools</h3>
+                <p><strong>Summary:</strong> Microsoft announced two new Windows 11 recovery features today at the Ignite developer conference, called Cloud Rebuild and Point-in-Time Restore (PITR), that aim to reduce downtime and make it easier...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-gets-new-cloud-rebuild-point-in-time-restore-tools/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-gets-new-cloud-rebuild-point-in-time-restore-tools/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,209 @@
+{
+  "date": "2025-12-17",
+  "items": [
+    {
+      "title": "GhostPoster Malware Found in 17 Firefox Add-ons with 50,000+ Downloads",
+      "link": "https://thehackernews.com/2025/12/ghostposter-malware-found-in-17-firefox.html",
+      "summary": "A new campaign named GhostPoster  has leveraged  logo files associated with 17 Mozilla Firefox browser add-ons to embed malicious JavaScript code designed to hijack affiliate links, inject tracking code, and commit click and ad fraud.  The extensions have been collectively downloaded over 50,000 times, according to Koi Security, which discovered the campaign. The add-ons are no longer available.  These browser programs were advertised as VPNs, screenshot utilities, ad blockers, and unofficial versions of Google Translate. The oldest add-on, Dark Mode, was published on October 25, 2024, offering the ability to enable a dark theme for all websites. The full list of the browser add-ons is below -   Free VPN  Screenshot  Weather (weather-best-forecast)  Mouse Gesture (crxMouse)  Cache - Fast site loader  Free MP3 Downloader  Google Translate (google-translate-right-clicks)  Traductor de Google  Global VPN - Free Forever  Dark Reader Dark Mode  Translator - Google Bing Baidu DeepL  Weather...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "ghostposter-malware-found-in-17-firefox-add-ons-wi",
+      "source": "The Hacker News",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Compromised IAM Credentials Power a Large AWS Crypto Mining Campaign",
+      "link": "https://thehackernews.com/2025/12/compromised-iam-credentials-power-large.html",
+      "summary": "An ongoing campaign has been observed targeting Amazon Web Services (AWS) customers using compromised Identity and Access Management ( IAM ) credentials to enable cryptocurrency mining.  The activity, first detected by Amazon's GuardDuty managed threat detection service and its automated security monitoring systems on November 2, 2025, employs never-before-seen persistence techniques to hamper incident response and continue unimpeded, according to a new report shared by the tech giant ahead of publication.  \"Operating from an external hosting provider, the threat actor quickly enumerated resources and permissions before deploying crypto mining resources across ECS and EC2,\" Amazon said . \"Within 10 minutes of the threat actor gaining initial access, crypto miners were operational.\"  The multi-stage attack chain essentially begins with the unknown adversary leveraging compromised IAM user credentials with admin-like privileges to initiate a discovery phase des...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "compromised-iam-credentials-power-a-large-aws-cryp",
+      "source": "The Hacker News",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Rogue NuGet Package Poses as Tracer.Fody, Steals Cryptocurrency Wallet Data",
+      "link": "https://thehackernews.com/2025/12/rogue-nuget-package-poses-as-tracerfody.html",
+      "summary": "Cybersecurity researchers have discovered a new malicious NuGet package that typosquats and impersonates the popular .NET tracing library and its author to sneak in a cryptocurrency wallet stealer.  The malicious package, named \" Tracer.Fody.NLog ,\" remained on the repository for nearly six years. It was published by a user named \"csnemess\" on February 26, 2020. It masquerades as \" Tracer.Fody ,\" which is maintained by \" csnemes .\" The package continues to remain available as of writing, and has been downloaded at least 2,000 times, out of which 19 took place over the last six weeks for version 3.2.4.    \"It presents itself as a standard .NET tracing integration but in reality functions as a cryptocurrency wallet stealer,\" Socket security researcher Kirill Boychenko said . \"Inside the malicious package, the embedded Tracer.Fody.dll scans the default Stratis wallet directory, reads *.wallet.json files, extracts wallet data, and exf...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "rogue-nuget-package-poses-as-tracerfody-steals-cry",
+      "source": "The Hacker News",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Amazon Exposes Years-Long GRU Cyber Campaign Targeting Energy and Cloud Infrastructure",
+      "link": "https://thehackernews.com/2025/12/amazon-exposes-years-long-gru-cyber.html",
+      "summary": "Amazon's threat intelligence team has disclosed  details of a \"years-long\" Russian state-sponsored campaign that targeted Western critical infrastructure between 2021 and 2025.  Targets of the campaign included energy sector organizations across Western nations, critical infrastructure providers in North America and Europe, and entities with cloud-hosted network infrastructure. The activity has been attributed with high confidence to Russia's Main Intelligence Directorate (GRU), citing infrastructure overlaps with APT44 , which is also known as FROZENBARENTS, Sandworm, Seashell Blizzard, and Voodoo Bear.  The activity is notable for using as initial access vectors misconfigured customer network edge devices with exposed management interfaces, as N-day and zero-day vulnerability exploitation activity declined over the time period – indicative of a shift in attacks aimed at critical infrastructure, the tech giant said.  \"This tactical adaptation enables the same o...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "amazon-exposes-years-long-gru-cyber-campaign-targe",
+      "source": "The Hacker News",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Why Data Security and Privacy Need to Start in Code",
+      "link": "https://thehackernews.com/2025/12/why-data-security-and-privacy-need-to.html",
+      "summary": "AI-assisted coding and AI app generation platforms have created an unprecedented surge in software development. Companies are now facing rapid growth in both the number of applications and the pace of change within those applications. Security and privacy teams are under significant pressure as the surface area they must cover is expanding quickly while their staffing levels remain largely unchanged.  Existing data security and privacy solutions are too reactive  for this new era. Many begin with data already collected in production, which is often too late. These solutions frequently miss hidden data flows to third party and AI integrations, and for the data sinks they do cover, they help detect risks but do not prevent them. The question is whether many of these issues can instead be prevented early. The answer is yes. Prevention is possible by embedding detection and governance controls directly into development. HoundDog.ai provides a privacy code scanner built for exactly this pu...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "why-data-security-and-privacy-need-to-start-in-cod",
+      "source": "The Hacker News",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Fortinet FortiGate Under Active Attack Through SAML SSO Authentication Bypass",
+      "link": "https://thehackernews.com/2025/12/fortinet-fortigate-under-active-attack.html",
+      "summary": "Threat actors have begun to exploit two newly disclosed security flaws in Fortinet FortiGate devices, less than a week after public disclosure.  Cybersecurity company Arctic Wolf said it observed active intrusions involving malicious single sign-on (SSO) logins on FortiGate appliances on December 12, 2025. The attacks exploit two critical authentication bypasses  (CVE-2025-59718 and CVE-2025-59719, CVSS scores: 9.8). Patches for the flaws were released by Fortinet last week for FortiOS, FortiWeb, FortiProxy, and FortiSwitchManager.  \"These vulnerabilities allow unauthenticated bypass of SSO login authentication via crafted SAML messages, if the FortiCloud SSO feature is enabled on affected devices,\" Arctic Wolf Labs said  in a new bulletin.  It's worth noting that while FortiCloud SSO is disabled by default, it is automatically enabled during FortiCare registration unless administrators explicitly turn it off using the \"Allow administrative login using FortiCloud SS...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-fortigate-under-active-attack-through-sam",
+      "source": "The Hacker News",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Auto Parts Giant LKQ Confirms Oracle EBS Breach",
+      "link": "https://www.securityweek.com/auto-parts-giant-lkq-confirms-oracle-ebs-breach/",
+      "summary": "LKQ said the personal information of thousands of individuals was compromised as a result of the hacker attack.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "auto-parts-giant-lkq-confirms-oracle-ebs-breach",
+      "source": "SecurityWeek",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Dux Emerges From Stealth Mode With $9 Million in Funding",
+      "link": "https://www.securityweek.com/dux-emerges-from-stealth-mode-with-9-million-in-funding/",
+      "summary": "The startup takes an agentic approach to preventing vulnerability exploitation by uncovering exposure across assets.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "dux-emerges-from-stealth-mode-with-9-million-in-fu",
+      "source": "SecurityWeek",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "From Open Source to OpenAI: The Evolution of Third-Party Risk",
+      "link": "https://www.securityweek.com/from-open-source-to-openai-the-evolution-of-third-party-risk/",
+      "summary": "From open source libraries to AI-powered coding assistants, speed-driven development is introducing new third-party risks that threat actors are increasingly exploiting.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "from-open-source-to-openai-the-evolution-of-third-",
+      "source": "SecurityWeek",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "CISO Communities – Cybersecurity’s Secret Weapon",
+      "link": "https://www.securityweek.com/ciso-communities-cybersecuritys-secret-weapon/",
+      "summary": "Closed CISO communities act as an information exchange, advice center, pressure valve, and safe haven from critical oversight.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ciso-communities-cybersecuritys-secret-weapon",
+      "source": "SecurityWeek",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "700,000 Records Compromised in Askul Ransomware Attack",
+      "link": "https://www.securityweek.com/700000-records-compromised-in-askul-ransomware-attack/",
+      "summary": "The e-commerce and logistics company was targeted by the RansomHouse ransomware group in October.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "700000-records-compromised-in-askul-ransomware-att",
+      "source": "SecurityWeek",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Echo Raises $35 Million in Series A Funding",
+      "link": "https://www.securityweek.com/echo-raises-35-million-in-series-a-funding/",
+      "summary": "The fresh investment comes less than six months after the startup’s seed funding announcement.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "echo-raises-35-million-in-series-a-funding",
+      "source": "SecurityWeek",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Cellik Android malware builds malicious versions from Google Play apps",
+      "link": "https://www.bleepingcomputer.com/news/security/cellik-android-malware-builds-malicious-versions-from-google-play-apps/",
+      "summary": "A new Android malware-as-a-service (MaaS) named Cellik is being advertised on underground cybercrime forums offering a robust set of capabilities that include the option to embed it in any app available on the Google Play Store.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "cellik-android-malware-builds-malicious-versions-f",
+      "source": "BleepingComputer",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "GhostPoster attacks hide malicious JavaScript in Firefox addon logos",
+      "link": "https://www.bleepingcomputer.com/news/security/ghostposter-attacks-hide-malicious-javascript-in-firefox-addon-logos/",
+      "summary": "A new campaign dubbed 'GhostPoster' is hiding JavaScript code in the image logo of malicious Firefox extensions counting more than 50,000 downloads, to monitor browser activity and plant a backdoor.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ghostposter-attacks-hide-malicious-javascript-in-f",
+      "source": "BleepingComputer",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-17"
+    },
+    {
+      "title": "Amazon disrupts Russian GRU hackers attacking edge network devices",
+      "link": "https://www.bleepingcomputer.com/news/security/amazon-disrupts-russian-gru-hackers-attacking-edge-network-devices/",
+      "summary": "The Amazon Threat Intelligence team has disrupted active operations attributed to hackers working for the Russian foreign military intelligence agency, the GRU, who targeted customers' cloud infrastructure.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "amazon-disrupts-russian-gru-hackers-attacking-edge",
+      "source": "BleepingComputer",
+      "date": "2025-12-17"
+    }
+  ]
+}

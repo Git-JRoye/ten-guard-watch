@@ -1,0 +1,212 @@
+{
+  "date": "2025-12-15",
+  "items": [
+    {
+      "title": "Phantom Stealer Spread by ISO Phishing Emails Hitting Russian Finance Sector",
+      "link": "https://thehackernews.com/2025/12/phantom-stealer-spread-by-iso-phishing.html",
+      "summary": "Cybersecurity researchers have disclosed details of an active phishing campaign that's targeting a wide range of sectors in Russia with phishing emails that deliver Phantom Stealer  via malicious ISO optical disc images.  The activity, codenamed Operation MoneyMount-ISO by Seqrite Labs, has primarily singled out finance and accounting entities, with those in the procurement, legal, payroll verticals emerging as secondary targets.  \"This campaign employs a fake payment confirmation lure to deliver the Phantom information-stealing malware through a multi-stage attachment chain,\" the cybersecurity company said .   The infection chain begins with a phishing email that masquerades as legitimate financial communications, urging recipients to confirm a recent bank transfer. Attached to the email is a ZIP archive that claims to contain additional details, but, instead, contains an ISO file that, when launched, mounts on the system as a virtual CD drive.  The ISO image (\"Под...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "phantom-stealer-spread-by-iso-phishing-emails-hitt",
+      "source": "The Hacker News",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "VolkLocker Ransomware Exposed by Hard-Coded Master Key Allowing Free Decryption",
+      "link": "https://thehackernews.com/2025/12/volklocker-ransomware-exposed-by-hard.html",
+      "summary": "The pro-Russian hacktivist group known as CyberVolk  (aka GLORIAMIST) has resurfaced with a new ransomware-as-a-service (RaaS) offering called VolkLocker that suffers from implementation lapses in test artifacts, allowing users to decrypt files without paying an extortion fee.  According to SentinelOne, VolkLocker (aka CyberVolk 2.x) emerged in August 2025 and is capable of targeting both Windows and Linux systems. It's written in Golang.  \"Operators building new VolkLocker payloads must provide a bitcoin address, Telegram bot token ID, Telegram chat ID, encryption deadline, desired file extension, and self-destruct options,\" security researcher Jim Walter said  in a report published last week.   Once launched, the ransomware attempts to escalate privileges, performs reconnaissance and system enumeration, including checking local MAC address prefixes against known virtualization vendors like Oracle and VMware. In the next stage, it lists all available drives and determin...",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "volklocker-ransomware-exposed-by-hard-coded-master",
+      "source": "The Hacker News",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks",
+      "link": "https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a high-severity flaw impacting Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of active exploitation in the wild.  CVE-2018-4063  (CVSS score: 8.8/9.9) refers to an unrestricted file upload vulnerability that could be exploited to achieve remote code execution by means of a malicious HTTP request.  \"A specially crafted HTTP request can upload a file, resulting in executable code being uploaded, and routable, to the webserver,\" the agency said. \"An attacker can make an authenticated HTTP request to trigger this vulnerability.\"   Details of the six-year-old flaw were publicly shared  by Cisco Talos in April 2019, describing it as an exploitable remote code execution vulnerability in the ACEManager \"upload.cgi\" function of Sierra Wireless AirLink ES450 firmware version 4.9.3. Talos reported the flaw to the Canadia...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-actively-exploited-sierra-wireless-route",
+      "source": "The Hacker News",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild",
+      "link": "https://thehackernews.com/2025/12/apple-issues-security-updates-after-two.html",
+      "summary": "Apple on Friday released  security updates for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and its Safari web browser to address two security flaws that it said have been exploited in the wild, one of which is the same flaw that was patched by Google in Chrome earlier this week.  The vulnerabilities are listed below -   CVE-2025-43529  (CVSS score: N/A) - A use-after-free vulnerability in WebKit that may lead to arbitrary code execution when processing maliciously crafted web content  CVE-2025-14174  (CVSS score: 8.8) - A memory corruption issue in WebKit that may lead to memory corruption when processing maliciously crafted web content   Apple said it's aware that the shortcomings \"may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26.\"  It's worth noting that CVE-2025-14174 is the same vulnerability  that Google issued patches for in its Chrome browser on December 10, 2025. It's been...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apple-issues-security-updates-after-two-webkit-fla",
+      "source": "The Hacker News",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Fake OSINT and GPT Utility GitHub Repos Spread PyStoreRAT Malware Payloads",
+      "link": "https://thehackernews.com/2025/12/fake-osint-and-gpt-utility-github-repos.html",
+      "summary": "Cybersecurity researchers are calling attention to a new campaign that's leveraging GitHub-hosted Python repositories to distribute a previously undocumented JavaScript-based Remote Access Trojan (RAT) dubbed PyStoreRAT .  \"These repositories, often themed as development utilities or OSINT tools, contain only a few lines of code responsible for silently downloading a remote HTA file and executing it via 'mshta.exe,'\" Morphisec researcher Yonatan Edri said  in a report shared with The Hacker News.  PyStoreRAT has been described as a \"modular, multi-stage\" implant that can execute EXE, DLL, PowerShell, MSI, Python, JavaScript, and HTA modules. The malware also deploys an information stealer known as Rhadamanthys as a follow-on payload.  Attack chains involve distributing the malware through Python or JavaScript loader stubs embedded in GitHub repositories masquerading as OSINT tools, DeFi bots, GPT wrappers, and security-themed utilities that are designed...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fake-osint-and-gpt-utility-github-repos-spread-pys",
+      "source": "The Hacker News",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale",
+      "link": "https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html",
+      "summary": "Cybersecurity researchers have documented four new phishing kits named BlackForce, GhostFrame, InboxPrime AI, and Spiderman  that are capable of facilitating credential theft at scale.  BlackForce, first detected in August 2025, is designed to steal credentials and perform Man-in-the-Browser ( MitB ) attacks to capture one-time passwords (OTPs) and bypass multi-factor authentication (MFA). The kit is sold on Telegram forums for anywhere between €200 ($234) and €300 ($351).  The kit, according to Zscaler ThreatLabz  researchers Gladis Brinda R and Ashwathi Sasi, has been used to impersonate over 11 brands, including Disney, Netflix, DHL, and UPS. It's said to be in active development.  \"BlackForce features several evasion techniques with a blocklist that filters out security vendors, web crawlers, and scanners,\" the company said. \"BlackForce remains under active development. Version 3 was widely used until early August, with versions 4 and 5 being released in subsequ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-advanced-phishing-kits-use-ai-and-mfa-bypass-t",
+      "source": "The Hacker News",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "700Credit Data Breach Impacts 5.8 Million Individuals",
+      "link": "https://www.securityweek.com/700credit-data-breach-impacts-5-8-million-individuals/",
+      "summary": "Hackers stole names, addresses, dates of birth, and Social Security numbers from the credit report and identity verification services provider.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "700credit-data-breach-impacts-58-million-individua",
+      "source": "SecurityWeek",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Apple Patches Two Zero-Days Tied to Mysterious Exploited Chrome Flaw",
+      "link": "https://www.securityweek.com/apple-patches-two-zero-days-tied-to-mysterious-exploited-chrome-flaw/",
+      "summary": "Apple has released macOS and iOS updates to patch two WebKit zero-days exploited in an “extremely sophisticated” attack.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "apple-patches-two-zero-days-tied-to-mysterious-exp",
+      "source": "SecurityWeek",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "In Other News: PromptPwnd Attack, macOS Bounty Complaints, Chinese Hackers Trained in Cisco Academy",
+      "link": "https://www.securityweek.com/in-other-news-promptpwnd-attack-small-macos-bounties-chinese-hackers-trained-in-cisco-academy/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Pentagon orders accelerated move to PQC, US shuts down scheme to smuggle GPUs to China, DroidLock Android ransomware.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-promptpwnd-attack-macos-bounty-compl",
+      "source": "SecurityWeek",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Gladinet CentreStack Flaw Exploited to Hack Organizations",
+      "link": "https://www.securityweek.com/gladinet-centrestack-flaw-exploited-to-hack-organizations/",
+      "summary": "Threat actors have hacked at least nine organizations by exploiting the recently patched Gladinet CentreStack flaw.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "gladinet-centrestack-flaw-exploited-to-hack-organi",
+      "source": "SecurityWeek",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Fieldtex Data Breach Impacts 238,000",
+      "link": "https://www.securityweek.com/fieldtex-data-breach-impacts-238000/",
+      "summary": "The Akira ransomware group took credit for the Fieldtex Products hack in November, claiming to have stolen 14 Gb of data.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "fieldtex-data-breach-impacts-238000",
+      "source": "SecurityWeek",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Recent GeoServer Vulnerability Exploited in Attacks",
+      "link": "https://www.securityweek.com/recent-geoserver-vulnerability-exploited-in-attacks/",
+      "summary": "Because user input is not sufficiently sanitized, attackers could exploit the flaw to define external entities within an XML request.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "recent-geoserver-vulnerability-exploited-in-attack",
+      "source": "SecurityWeek",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Microsoft: December security updates cause Message Queuing failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-december-security-updates-cause-message-queuing-failures/",
+      "summary": "Microsoft has confirmed that the December 2025 security updates are breaking Message Queuing (MSMQ) functionality, affecting enterprise applications and Internet Information Services (IIS) websites.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-december-security-updates-cause-message-",
+      "source": "BleepingComputer",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Beware: PayPal subscriptions abused to send fake purchase emails",
+      "link": "https://www.bleepingcomputer.com/news/security/beware-paypal-subscriptions-abused-to-send-fake-purchase-emails/",
+      "summary": "An email scam is abusing abusing PayPal's \"Subscriptions\" billing feature to send legitimate PayPal emails that contain fake purchase notifications embedded in the Customer service URL field.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "beware-paypal-subscriptions-abused-to-send-fake-pu",
+      "source": "BleepingComputer",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-15"
+    },
+    {
+      "title": "Enjoy unlimited growth with Headway Premium for just $40",
+      "link": "https://www.bleepingcomputer.com/offer/deals/enjoy-unlimited-growth-with-headway-premium-for-just-40/",
+      "summary": "Life gets busy and it's tough to carve out time to learn something new. That's exactly where the Headway Premium app bridges the gap. With lifetime access now available for $39.99 using code SUMMARY20 ahead of the holidays, you can finally keep growing without trying to squeeze extra hours out of th...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "enjoy-unlimited-growth-with-headway-premium-for-ju",
+      "source": "BleepingComputer",
+      "date": "2025-12-15"
+    }
+  ]
+}

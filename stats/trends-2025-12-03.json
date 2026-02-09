@@ -1,0 +1,301 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 69,
+      "cybersecurity": 31,
+      "breach": 27,
+      "phishing": 20,
+      "malware": 18,
+      "apt": 15,
+      "vulnerability": 15,
+      "ransomware": 8,
+      "critical": 6
+    },
+    "30_days": {
+      "attack": 205,
+      "vulnerability": 107,
+      "cybersecurity": 102,
+      "malware": 79,
+      "breach": 74,
+      "critical": 63,
+      "phishing": 61,
+      "apt": 48,
+      "ransomware": 31
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 71,
+      "High": 8,
+      "Low": 49
+    },
+    "30_days": {
+      "High": 66,
+      "Medium": 203,
+      "Low": 163
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 162,
+    "SecurityWeek": 162,
+    "BleepingComputer": 108
+  },
+  "top_keywords": {
+    "security": 255,
+    "attacks": 142,
+    "threat": 119,
+    "malware": 117,
+    "vulnerability": 107,
+    "data": 104,
+    "code": 101,
+    "access": 99,
+    "microsoft": 97,
+    "phishing": 89,
+    "exploited": 88,
+    "users": 87,
+    "google": 87,
+    "malicious": 84,
+    "campaign": 82,
+    "cve": 81,
+    "attack": 81,
+    "cybersecurity": 81,
+    "researchers": 77,
+    "flaw": 72
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to KEV",
+      "link": "https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has updated  its Known Exploited Vulnerabilities ( KEV ) catalog to include a security flaw impacting OpenPLC ScadaBR, citing evidence ",
+      "urgency": "High",
+      "date": "2025-12-01",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Why Organizations Are Turning to RPAM",
+      "link": "https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html",
+      "summary": "As IT environments become increasingly distributed and organizations adopt hybrid and remote work at scale, traditional perimeter-based security models and on-premises Privileged Access Management (PA",
+      "urgency": "High",
+      "date": "2025-12-01",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Why Organizations Are Turning to RPAM",
+      "link": "https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html",
+      "summary": "As IT environments become increasingly distributed and organizations adopt hybrid and remote work at scale, traditional perimeter-based security models and on-premises Privileged Access Management (PA",
+      "urgency": "High",
+      "date": "2025-11-30",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Why Organizations Are Turning to RPAM",
+      "link": "https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html",
+      "summary": "As IT environments become increasingly distributed and organizations adopt hybrid and remote work at scale, traditional perimeter-based security models and on-premises Privileged Access Management (PA",
+      "urgency": "High",
+      "date": "2025-11-29",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Ransomware Attack Disrupts Local Emergency Alert System Across US",
+      "link": "https://www.securityweek.com/ransomware-attack-disrupts-local-emergency-alert-system-across-us/",
+      "summary": "The OnSolve CodeRED platform has been targeted by the Inc Ransom ransomware group, resulting in disruptions and a data breach.",
+      "urgency": "High",
+      "date": "2025-11-27",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ]
+    },
+    {
+      "title": "Years of JSONFormatter and CodeBeautify Leaks Expose Thousands of Passwords and API Keys",
+      "link": "https://thehackernews.com/2025/11/years-of-jsonformatter-and-codebeautify.html",
+      "summary": "New research has found that organizations in various sensitive sectors, including governments, telecoms, and critical infrastructure, are pasting passwords and credentials into online tools like JSONf",
+      "urgency": "High",
+      "date": "2025-11-26",
+      "tags": [
+        "breach",
+        "apt",
+        "critical"
+      ]
+    },
+    {
+      "title": "JackFix Uses Fake Windows Update Pop-Ups on Adult Sites to Deliver Multiple Stealers",
+      "link": "https://thehackernews.com/2025/11/jackfix-uses-fake-windows-update-pop.html",
+      "summary": "Cybersecurity researchers are calling attention to a new campaign that's leveraging a combination of ClickFix  lures and fake adult websites to deceive users into running malicious commands under the ",
+      "urgency": "High",
+      "date": "2025-11-26",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "OnSolve CodeRED cyberattack disrupts emergency alert systems nationwide",
+      "link": "https://www.bleepingcomputer.com/news/security/onsolve-codered-cyberattack-disrupts-emergency-alert-systems-nationwide/",
+      "summary": "Risk management company Crisis24 has confirmed its OnSolve CodeRED platform suffered a cyberattack that disrupted emergency notification systems used by state and local governments, police departments",
+      "urgency": "High",
+      "date": "2025-11-26",
+      "tags": [
+        "apt",
+        "attack"
+      ]
+    },
+    {
+      "title": "⚡ Weekly Recap: Fortinet Exploit, Chrome 0-Day, BadIIS Malware, Record DDoS, SaaS Breach & More",
+      "link": "https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html",
+      "summary": "This week saw a lot of new cyber trouble. Hackers hit Fortinet and Chrome with new 0-day bugs. They also broke into supply chains and SaaS tools. Many hid inside trusted apps, browser alerts, and soft",
+      "urgency": "High",
+      "date": "2025-11-25",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access",
+      "link": "https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html",
+      "summary": "A recently patched security flaw in Microsoft Windows Server Update Services (WSUS) has been exploited by threat actors to distribute malware known as ShadowPad.  \"The attacker targeted Windows Server",
+      "urgency": "High",
+      "date": "2025-11-25",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 432,
+    "top_tag": "attack",
+    "last_update": "2025-12-03T09:37:04.365432"
+  }
+}

@@ -1,0 +1,117 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</div><div class="ticker-item">From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools</div><div class="ticker-item">Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation</div><div class="ticker-item">In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</div><div class="ticker-item">Landfall Android Spyware Targeted Samsung Phones via Zero-Day</div><div class="ticker-item">Radical Empowerment From Your Leadership: Understood by Few, Essential for All</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp</h3>
+                <p><strong>Summary:</strong> A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a "commercial-grade" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>From Log4j to IIS, China's Hackers Turn Legacy Bugs into Global Espionage Tools</h3>
+                <p><strong>Summary:</strong> A China-linked threat actor has been attributed to a cyber attack targeting an U.S. non-profit organization with an aim to establish long-term persistence, as part of broader activity aimed at U.S. en...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation</h3>
+                <p><strong>Summary:</strong> A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Landfall Android Spyware Targeted Samsung Phones via Zero-Day</h3>
+                <p><strong>Summary:</strong> Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Radical Empowerment From Your Leadership: Understood by Few, Essential for All</h3>
+                <p><strong>Summary:</strong> When leaders redefine power as trust instead of control, teams unlock their potential — and organizations find their edge.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

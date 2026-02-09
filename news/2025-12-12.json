@@ -1,0 +1,207 @@
+{
+  "date": "2025-12-12",
+  "items": [
+    {
+      "title": "New React RSC Vulnerabilities Enable DoS and Source Code Exposure",
+      "link": "https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html",
+      "summary": "The React team has released  fixes for two new types of flaws in React Server Components (RSC) that, if successfully exploited, could result in denial-of-service (DoS) or source code exposure.  The team said the issues were found by the security community while attempting to exploit the patches released for CVE-2025-55182 (CVSS score: 10.0), a critical bug in RSC that has since been weaponized in the wild .  The three vulnerabilities are listed below -   CVE-2025-55184  (CVSS score: 7.5) - A pre-authentication denial of service vulnerability arising from unsafe deserialization of payloads from HTTP requests to Server Function endpoints, triggering an infinite loop that hangs the server process and may prevent future HTTP requests from being served  CVE-2025-67779  (CVSS score: 7.5) - An incomplete fix for CVE-2025-55184 that has the same impact  CVE-2025-55183  (CVSS score: 5.3) - An information leak vulnerability that may cause a specifically crafted HTTP request sent to a vulnerable...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "new-react-rsc-vulnerabilities-enable-dos-and-sourc",
+      "source": "The Hacker News",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "React2Shell Exploitation Escalates into Large-Scale Global Attacks, Forcing Emergency Mitigation",
+      "link": "https://thehackernews.com/2025/12/react2shell-exploitation-escalates-into.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged  federal agencies to patch the recent React2Shell  vulnerability by December 12, 2025, amid reports of widespread exploitation.  The critical vulnerability, tracked as CVE-2025-55182  (CVSS score: 10.0), affects the React Server Components (RSC) Flight protocol. The underlying cause of the issue is an unsafe deserialization that allows an attacker to inject malicious logic that the server executes in a privileged context. It also affects other frameworks, including Next.js, Waku, Vite, React Router, and RedwoodSDK.  \"A single, specially crafted HTTP request is sufficient; there is no authentication requirement, user interaction, or elevated permissions involved,\" Cloudforce One, Cloudflare's threat intelligence team, said . \"Once successful, the attacker can execute arbitrary, privileged JavaScript on the affected server.\"  Since its public disclosure on December 3, 2025, the shortcoming...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "react2shell-exploitation-escalates-into-large-scal",
+      "source": "The Hacker News",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "CISA Flags Actively Exploited GeoServer XXE Flaw in Updated KEV Catalog",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-actively-exploited-geoserver.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  a high-severity security flaw impacting OSGeo GeoServer to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation in the wild.  The vulnerability in question is CVE-2025-58360  (CVSS score: 8.2), an unauthenticated XML External Entity ( XXE ) flaw that affects all versions prior to and including 2.25.5, and from versions 2.26.0 through 2.26.1. It has been patched in versions 2.25.6 , 2.26.2 , 2.27.0 , 2.28.0 , and 2.28.1 . Artificial intelligence (AI)-powered vulnerability discovery platform XBOW has been acknowledged for reporting the issue.   \"OSGeo GeoServer contains an improper restriction of XML external entity reference vulnerability that occurs when the application accepts XML input through a specific endpoint /geoserver/wms operation GetMap and could allow an attacker to define external entities within the XML request,\" CISA said.   The following...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-flags-actively-exploited-geoserver-xxe-flaw-i",
+      "source": "The Hacker News",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Spyware Alerts, Mirai Strikes, Docker Leaks, ValleyRAT Rootkit — and 20 More Stories",
+      "link": "https://thehackernews.com/2025/12/threatsday-bulletin-spyware-alerts.html",
+      "summary": "This week's cyber stories show how fast the online world can turn risky. Hackers are sneaking malware into movie downloads, browser add-ons, and even software updates people trust. Tech giants and governments are racing to plug new holes while arguing over privacy and control. And researchers keep uncovering just how much of our digital life is still wide open.  The new Threatsday Bulletin brings it all together—big hacks, quiet exploits, bold arrests, and smart discoveries that explain where cyber threats are headed next.  It's your quick, plain-spoken look at the week's biggest security moves before they become tomorrow's headlines.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-spyware-alerts-mirai-strikes-d",
+      "source": "The Hacker News",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "NANOREMOTE Malware Uses Google Drive API for Hidden Control on Windows Systems",
+      "link": "https://thehackernews.com/2025/12/nanoremote-malware-uses-google-drive.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new fully-featured Windows backdoor called NANOREMOTE  that uses the Google Drive API for command-and-control (C2) purposes.  According to a report  from Elastic Security Labs, the malware shares code similarities with another implant codenamed FINALDRAFT  (aka Squidoor) that employs Microsoft Graph API for C2. FINALDRAFT is attributed to a threat cluster known as REF7707 (aka CL-STA-0049, Earth Alux, and Jewelbug).  \"One of the malware's primary features is centered around shipping data back and forth from the victim endpoint using the Google Drive API,\" Daniel Stepanic, principal security researcher at Elastic Security Labs, said.   \"This feature ends up providing a channel for data theft and payload staging that is difficult for detection. The malware includes a task management system used for file transfer capabilities that include queuing download/upload tasks, pausing/resuming file transfers, canceling file...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "nanoremote-malware-uses-google-drive-api-for-hidde",
+      "source": "The Hacker News",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "The Impact of Robotic Process Automation (RPA) on Identity and Access Management",
+      "link": "https://thehackernews.com/2025/12/the-impact-of-robotic-process.html",
+      "summary": "As enterprises refine their strategies for handling Non-Human Identities (NHIs), Robotic Process Automation (RPA) has become a powerful tool for streamlining operations and enhancing security. However, since RPA bots have varying levels of access to sensitive information, enterprises must be prepared to mitigate a variety of challenges. In large organizations, bots are starting to outnumber human employees, and without proper identity lifecycle management, these bots increase security risks. RPA impacts Identity and Access Management (IAM) by managing bot identities, enforcing least-privilege access and ensuring auditability across all accounts.  Continue reading to learn more about RPA, its challenges with IAM and best practices organizations should follow to secure RPA within IAM.  What is Robotic Process Automation (RPA)?  Robotic Process Automation  (RPA) uses bots to automate repetitive tasks that are traditionally performed by human users. In the context of IAM, RPA plays an ess...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "the-impact-of-robotic-process-automation-rpa-on-id",
+      "source": "The Hacker News",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "$320,000 Paid Out at Zeroday.Cloud for Open Source Software Exploits",
+      "link": "https://www.securityweek.com/320000-paid-out-at-zeroday-cloud-for-open-source-software-exploits/",
+      "summary": "Participants earned rewards at the hacking competition for Grafana, Linux Kernel, Redis, MariaDB, and PostgreSQL vulnerabilities.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "320000-paid-out-at-zerodaycloud-for-open-source-so",
+      "source": "SecurityWeek",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "Trump Signs Executive Order to Block State AI Regulations",
+      "link": "https://www.securityweek.com/trump-signs-executive-order-to-block-state-ai-regulations/",
+      "summary": "Members of Congress from both parties have pushed for more regulations on AI, saying there is not enough oversight for the powerful technology.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "trump-signs-executive-order-to-block-state-ai-regu",
+      "source": "SecurityWeek",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "Virtual Event Today: Cyber AI & Automation Summit Day 2",
+      "link": "https://www.securityweek.com/virtual-event-today-cyber-ai-automation-summit-day-2/",
+      "summary": "Day two of the Cyber AI & Automation Summit kicks off at 11AM ET. If you weren’t able to attend yesterday, all Day One sessions are already available on-demand.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "virtual-event-today-cyber-ai-automation-summit-day",
+      "source": "SecurityWeek",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "Former Accenture Employee Charged Over Cybersecurity Fraud",
+      "link": "https://www.securityweek.com/former-accenture-employee-charged-over-cybersecurity-fraud/",
+      "summary": "Danielle Hillmer allegedly concealed the fact that her employer’s cloud platform did not meet DoD requirements.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "former-accenture-employee-charged-over-cybersecuri",
+      "source": "SecurityWeek",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "MITRE Posts Results of 2025 ATT&CK Enterprise Evaluations",
+      "link": "https://www.securityweek.com/mitre-posts-results-of-2025-attck-enterprise-evaluations/",
+      "summary": "Eleven companies took part in the evaluations and several have boasted 100% detection and coverage rates.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "mitre-posts-results-of-2025-attck-enterprise-evalu",
+      "source": "SecurityWeek",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "Pierce County Library Data Breach Impacts 340,000",
+      "link": "https://www.securityweek.com/pierce-county-library-data-breach-impacts-340000/",
+      "summary": "In April 2025, hackers stole personal information belonging to patrons and employees and their family members.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "pierce-county-library-data-breach-impacts-340000",
+      "source": "SecurityWeek",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "MITRE shares 2025's top 25 most dangerous software weaknesses",
+      "link": "https://www.bleepingcomputer.com/news/security/mitre-shares-2025s-top-25-most-dangerous-software-weaknesses/",
+      "summary": "MITRE has shared this year's top 25 list of the most dangerous software weaknesses behind over 39,000 security vulnerabilities disclosed between June 2024 and June 2025.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "mitre-shares-2025s-top-25-most-dangerous-software-",
+      "source": "BleepingComputer",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "MKVCinemas streaming piracy service with 142M visits shuts down",
+      "link": "https://www.bleepingcomputer.com/news/security/mkvcinemas-streaming-piracy-service-with-142m-visits-shuts-down/",
+      "summary": "An anti-piracy coalition has dismantled one of India's most popular streaming piracy services, which has provided free access to movies and TV shows to millions over the past two years.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "mkvcinemas-streaming-piracy-service-with-142m-visi",
+      "source": "BleepingComputer",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-12"
+    },
+    {
+      "title": "Brave browser starts testing agentic AI mode for automated tasks",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/brave-browser-starts-testing-agentic-ai-mode-for-automated-tasks/",
+      "summary": "Brave has introduced a new AI browsing feature that leverages Leo, its privacy-respecting AI assistant, to perform automated tasks for the user.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "brave-browser-starts-testing-agentic-ai-mode-for-a",
+      "source": "BleepingComputer",
+      "date": "2025-12-12"
+    }
+  ]
+}

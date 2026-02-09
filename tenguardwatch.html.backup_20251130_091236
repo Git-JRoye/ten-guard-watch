@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages</div><div class="ticker-item">North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware</div><div class="ticker-item">Why Organizations Are Turning to RPAM</div><div class="ticker-item">MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants</div><div class="ticker-item">Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan</div><div class="ticker-item">Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update</div><div class="ticker-item">French Soccer Federation Hit by Cyberattack, Member Data Stolen</div><div class="ticker-item">In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked</div><div class="ticker-item">Asahi Data Breach Impacts 2 Million Individuals</div><div class="ticker-item">OpenAI User Data Exposed in Mixpanel Hack</div><div class="ticker-item">Clover Security Raises $36 Million to Secure Software by Design</div><div class="ticker-item">Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</div><div class="ticker-item">Save on this ethical hacking bundle: $33 through December 7th</div><div class="ticker-item">Man behind in-flight Evil Twin WiFi attacks gets 7 years in prison</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Microsoft: Windows updates make password login option invisible</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered vulnerable code in legacy Python packages that could potentially pave the way for a supply chain compromise on the Python Package Index (PyPI) via a domain ta...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/legacy-python-bootstrap-scripts-create.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/legacy-python-bootstrap-scripts-create.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware</h3>
+                <p><strong>Summary:</strong> The North Korean threat actors behind the Contagious Interview campaign have continued to flood the npm registry with 197 more malicious packages since last month .  According to Socket , these packag...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/north-korean-hackers-deploy-197-npm.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/north-korean-hackers-deploy-197-npm.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Why Organizations Are Turning to RPAM</h3>
+                <p><strong>Summary:</strong> As IT environments become increasingly distributed and organizations adopt hybrid and remote work at scale, traditional perimeter-based security models and on-premises Privileged Access Management (PA...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have shed light on a cross-tenant blind spot that allows attackers to bypass Microsoft Defender for Office 365 protections via the guest access  feature in Teams.  "When user...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan</h3>
+                <p><strong>Summary:</strong> The threat actor known as Bloody Wolf  has been attributed to a cyber attack campaign that has targeted Kyrgyzstan since at least June 2025 with the goal of delivering NetSupport RAT.  As of October 2...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update</h3>
+                <p><strong>Summary:</strong> Microsoft has announced plans to improve the security of Entra ID authentication by blocking unauthorized script injection attacks starting a year from now.  The update to its Content Security Policy ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>French Soccer Federation Hit by Cyberattack, Member Data Stolen</h3>
+                <p><strong>Summary:</strong> According to the federation, the unauthorized access was carried out using a compromised account.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/french-soccer-federation-hit-by-cyberattack-member-data-stolen/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/french-soccer-federation-hit-by-cyberattack-member-data-stolen/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: Scattered Spider members plead not guilty, TP-Link sues Netgear, Comcast agrees to $1.5 million fine.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-hashjack-ai-browser-attack-charming-kitten-leak-hacker-unmasked/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-hashjack-ai-browser-attack-charming-kitten-leak-hacker-unmasked/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Asahi Data Breach Impacts 2 Million Individuals</h3>
+                <p><strong>Summary:</strong> Hackers stole the personal information of customers and employees before deploying ransomware and crippling Asahi’s operations in Japan.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/asahi-data-breach-impacts-2-million-individuals/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/asahi-data-breach-impacts-2-million-individuals/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI User Data Exposed in Mixpanel Hack</h3>
+                <p><strong>Summary:</strong> Multiple Mixpanel customers were impacted by a recent cyberattack targeting the product analytics company.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/openai-user-data-exposed-in-mixpanel-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/openai-user-data-exposed-in-mixpanel-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Clover Security Raises $36 Million to Secure Software by Design</h3>
+                <p><strong>Summary:</strong> The cybersecurity startup embeds AI agents into widely used tools to identify design flaws and eliminate them early.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</h3>
+                <p><strong>Summary:</strong> Cybercriminals impersonating financial institutions have targeted individuals, businesses, and organizations of different sizes.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Save on this ethical hacking bundle: $33 through December 7th</h3>
+                <p><strong>Summary:</strong> Cybersecurity skills can cost thousands to acquire through formal training programs. The All-in-One Super-Sized Ethical Hacking Bundle is a cheaper alternative with 18 professional cybersecurity cours...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Man behind in-flight Evil Twin WiFi attacks gets 7 years in prison</h3>
+                <p><strong>Summary:</strong> A 44-year-old man was sentenced to seven years and four months in prison for operating an "evil twin" WiFi network to steal the data of unsuspecting travelers at various airports across Australia.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/man-behind-in-flight-evil-twin-wifi-attacks-gets-7-years-in-prison/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/man-behind-in-flight-evil-twin-wifi-attacks-gets-7-years-in-prison/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft: Windows updates make password login option invisible</h3>
+                <p><strong>Summary:</strong> Microsoft warned users that Windows 11 updates released since August may cause the password sign-in option to disappear from the lock screen options, even though the button remains functional.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-updates-hide-password-icon-on-lock-screen/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-updates-hide-password-icon-on-lock-screen/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

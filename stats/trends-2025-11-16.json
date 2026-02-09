@@ -1,0 +1,227 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 53,
+      "vulnerability": 40,
+      "malware": 30,
+      "critical": 29,
+      "cybersecurity": 26,
+      "breach": 18,
+      "ransomware": 14,
+      "apt": 13,
+      "phishing": 13
+    },
+    "30_days": {
+      "attack": 67,
+      "vulnerability": 50,
+      "critical": 39,
+      "malware": 36,
+      "cybersecurity": 32,
+      "breach": 22,
+      "ransomware": 18,
+      "apt": 15,
+      "phishing": 15
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 51,
+      "High": 29,
+      "Low": 48
+    },
+    "30_days": {
+      "High": 39,
+      "Medium": 65,
+      "Low": 56
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 60,
+    "SecurityWeek": 60,
+    "BleepingComputer": 40
+  },
+  "top_keywords": {
+    "security": 78,
+    "threat": 56,
+    "malware": 51,
+    "google": 51,
+    "attacks": 50,
+    "exploited": 47,
+    "code": 47,
+    "cve": 46,
+    "vulnerability": 42,
+    "malicious": 39,
+    "microsoft": 35,
+    "data": 34,
+    "attack": 34,
+    "users": 33,
+    "activity": 32,
+    "packages": 31,
+    "actors": 31,
+    "ransomware": 31,
+    "flaw": 30,
+    "attackers": 30
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet",
+      "link": "https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html",
+      "summary": "The botnet malware known as RondoDox  has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.  The vulner",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Google Workspace Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "A checklist for securing Google Workspace.",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet FortiWeb Flaw Actively Exploited in the Wild Before Company's Silent Patch",
+      "link": "https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html",
+      "summary": "Cybersecurity researchers are sounding the alert about an authentication bypass vulnerability in Fortinet Fortiweb WAF that could allow an attacker to take over admin accounts and completely compromis",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet FortiWeb flaw with public PoC exploited to create admin users",
+      "link": "https://www.bleepingcomputer.com/news/security/fortiweb-flaw-with-public-poc-actively-exploited-to-create-admin-users/",
+      "summary": "A Fortinet FortiWeb path traversal vulnerability is being actively exploited to create new administrative users on exposed devices without requiring authentication",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Flags Critical WatchGuard Fireware Flaw Exposing 54,000 Fireboxes to No-Login Attacks",
+      "link": "https://thehackernews.com/2025/11/cisa-flags-critical-watchguard-fireware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting WatchGuard Fireware  to its Known Exploited Vulnerabilities ( KEV ) catalog, bas",
+      "urgency": "High",
+      "date": "2025-11-13",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 160,
+    "top_tag": "attack",
+    "last_update": "2025-11-16T09:29:04.184495"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 50,
+      "vulnerability": 40,
+      "cybersecurity": 29,
+      "malware": 28,
+      "critical": 28,
+      "breach": 16,
+      "phishing": 14,
+      "ransomware": 13,
+      "apt": 13
+    },
+    "30_days": {
+      "attack": 72,
+      "vulnerability": 55,
+      "critical": 42,
+      "malware": 38,
+      "cybersecurity": 38,
+      "breach": 23,
+      "ransomware": 19,
+      "apt": 17,
+      "phishing": 17
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 48,
+      "Low": 52,
+      "High": 28
+    },
+    "30_days": {
+      "High": 42,
+      "Medium": 69,
+      "Low": 65
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 66,
+    "SecurityWeek": 66,
+    "BleepingComputer": 44
+  },
+  "top_keywords": {
+    "security": 87,
+    "threat": 59,
+    "google": 57,
+    "code": 55,
+    "malware": 54,
+    "attacks": 51,
+    "exploited": 50,
+    "cve": 48,
+    "vulnerability": 48,
+    "malicious": 40,
+    "microsoft": 39,
+    "attack": 38,
+    "data": 36,
+    "activity": 34,
+    "campaign": 34,
+    "flaw": 33,
+    "users": 33,
+    "actors": 33,
+    "researchers": 33,
+    "targets": 32
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet",
+      "link": "https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html",
+      "summary": "The botnet malware known as RondoDox  has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.  The vulner",
+      "urgency": "High",
+      "date": "2025-11-17",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-17",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "urgency": "High",
+      "date": "2025-11-17",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet",
+      "link": "https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html",
+      "summary": "The botnet malware known as RondoDox  has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.  The vulner",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "urgency": "High",
+      "date": "2025-11-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks",
+      "link": "https://thehackernews.com/2025/11/researchers-find-serious-ai-bugs.html",
+      "summary": "Cybersecurity researchers have uncovered critical remote code execution vulnerabilities impacting major artificial intelligence (AI) inference engines, including those from Meta, Nvidia, Microsoft, an",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Confirms Active Exploitation of Critical FortiWeb Vulnerability",
+      "link": "https://www.securityweek.com/fortinet-confirms-active-exploitation-of-critical-fortiweb-vulnerability/",
+      "summary": "Security firms say the flaw has been actively exploited for weeks, even as Fortinet quietly shipped fixes and CISA added the bug to its KEV catalog.",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Google Workspace Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "A checklist for securing Google Workspace.",
+      "urgency": "High",
+      "date": "2025-11-15",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet FortiWeb Flaw Actively Exploited in the Wild Before Company's Silent Patch",
+      "link": "https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html",
+      "summary": "Cybersecurity researchers are sounding the alert about an authentication bypass vulnerability in Fortinet Fortiweb WAF that could allow an attacker to take over admin accounts and completely compromis",
+      "urgency": "High",
+      "date": "2025-11-14",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 176,
+    "top_tag": "attack",
+    "last_update": "2025-11-17T09:36:43.675542"
+  }
+}

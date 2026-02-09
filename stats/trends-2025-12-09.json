@@ -1,0 +1,321 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 67,
+      "vulnerability": 38,
+      "cybersecurity": 31,
+      "malware": 28,
+      "critical": 21,
+      "breach": 17,
+      "phishing": 14,
+      "ransomware": 11,
+      "apt": 10
+    },
+    "30_days": {
+      "attack": 245,
+      "vulnerability": 129,
+      "cybersecurity": 117,
+      "malware": 92,
+      "breach": 84,
+      "critical": 74,
+      "phishing": 69,
+      "apt": 53,
+      "ransomware": 37
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 60,
+      "Low": 47,
+      "High": 21
+    },
+    "30_days": {
+      "Medium": 237,
+      "High": 77,
+      "Low": 182
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 310,
+    "attacks": 157,
+    "vulnerability": 147,
+    "threat": 139,
+    "malware": 138,
+    "data": 126,
+    "code": 121,
+    "attack": 114,
+    "access": 113,
+    "phishing": 107,
+    "microsoft": 100,
+    "cybersecurity": 98,
+    "flaw": 97,
+    "remote": 94,
+    "exploited": 94,
+    "campaign": 90,
+    "cve": 86,
+    "google": 86,
+    "users": 85,
+    "researchers": 83
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "⚡ Weekly Recap: USB Malware, React2Shell, WhatsApp Worms, AI IDE Bugs & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-usb-malware-react2shell.html",
+      "summary": "It's been a week of chaos in code and calm in headlines. A bug that broke the internet's favorite framework, hackers chasing AI tools, fake apps stealing cash, and record-breaking cyberattacks — all w",
+      "urgency": "High",
+      "date": "2025-12-09",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks",
+      "link": "https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html",
+      "summary": "A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence.  The remote code execution vulnerability in question is CVE-2025",
+      "urgency": "High",
+      "date": "2025-12-09",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Apache Tika Vulnerability Leads to XXE Injection",
+      "link": "https://www.securityweek.com/critical-apache-tika-vulnerability-leads-to-xxe-injection/",
+      "summary": "The bug allows attackers to carry out XML External Entity (XXE) injection attacks via crafted XFA files inside PDF files.",
+      "urgency": "High",
+      "date": "2025-12-09",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks",
+      "link": "https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html",
+      "summary": "A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence.  The remote code execution vulnerability in question is CVE-2025",
+      "urgency": "High",
+      "date": "2025-12-08",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday formally added  a critical security flaw impacting React Server Components (RSC) to its Known Exploited Vulnerabilities ( KEV",
+      "urgency": "High",
+      "date": "2025-12-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch",
+      "link": "https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html",
+      "summary": "A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity ( XXE ) injection attack.  The vulnerability, tracked as CVE-2025-66516 , is rated 10.0 on the CV",
+      "urgency": "High",
+      "date": "2025-12-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cloudflare Outage Caused by React2Shell Mitigations",
+      "link": "https://www.securityweek.com/cloudflare-outage-caused-by-react2shell-mitigations/",
+      "summary": "The critical React vulnerability has been exploited in the wild by Chinese and other threat actors.",
+      "urgency": "High",
+      "date": "2025-12-08",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday formally added  a critical security flaw impacting React Server Components (RSC) to its Known Exploited Vulnerabilities ( KEV",
+      "urgency": "High",
+      "date": "2025-12-07",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch",
+      "link": "https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html",
+      "summary": "A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity ( XXE ) injection attack.  The vulnerability, tracked as CVE-2025-66516 , is rated 10.0 on the CV",
+      "urgency": "High",
+      "date": "2025-12-07",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Intellexa Leaks Reveal Zero-Days and Ads-Based Vector for Predator Spyware Delivery",
+      "link": "https://thehackernews.com/2025/12/intellexa-leaks-reveal-zero-days-and.html",
+      "summary": "A human rights lawyer from Pakistan's Balochistan province received a suspicious link on WhatsApp from an unknown number, marking the first time a civil society member in the country was targeted by I",
+      "urgency": "High",
+      "date": "2025-12-07",
+      "tags": [
+        "breach",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2025-12-09T09:35:59.048736"
+  }
+}

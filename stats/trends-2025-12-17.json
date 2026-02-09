@@ -1,0 +1,321 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 62,
+      "vulnerability": 46,
+      "critical": 34,
+      "cybersecurity": 27,
+      "malware": 18,
+      "breach": 18,
+      "ransomware": 14,
+      "phishing": 13,
+      "apt": 6
+    },
+    "30_days": {
+      "attack": 254,
+      "vulnerability": 135,
+      "cybersecurity": 118,
+      "breach": 84,
+      "malware": 80,
+      "critical": 79,
+      "phishing": 69,
+      "apt": 46,
+      "ransomware": 37
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 34,
+      "Low": 36,
+      "Medium": 58
+    },
+    "30_days": {
+      "Low": 170,
+      "High": 82,
+      "Medium": 244
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 333,
+    "vulnerability": 153,
+    "attacks": 151,
+    "code": 132,
+    "data": 131,
+    "malware": 130,
+    "access": 129,
+    "threat": 127,
+    "phishing": 112,
+    "exploited": 111,
+    "flaw": 107,
+    "attack": 107,
+    "browser": 107,
+    "cve": 98,
+    "cybersecurity": 98,
+    "microsoft": 97,
+    "remote": 87,
+    "google": 86,
+    "users": 84,
+    "critical": 83
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Amazon Exposes Years-Long GRU Cyber Campaign Targeting Energy and Cloud Infrastructure",
+      "link": "https://thehackernews.com/2025/12/amazon-exposes-years-long-gru-cyber.html",
+      "summary": "Amazon's threat intelligence team has disclosed  details of a \"years-long\" Russian state-sponsored campaign that targeted Western critical infrastructure between 2021 and 2025.  Targets of the campaig",
+      "urgency": "High",
+      "date": "2025-12-17",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet FortiGate Under Active Attack Through SAML SSO Authentication Bypass",
+      "link": "https://thehackernews.com/2025/12/fortinet-fortigate-under-active-attack.html",
+      "summary": "Threat actors have begun to exploit two newly disclosed security flaws in Fortinet FortiGate devices, less than a week after public disclosure.  Cybersecurity company Arctic Wolf said it observed acti",
+      "urgency": "High",
+      "date": "2025-12-17",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISO Communities – Cybersecurity’s Secret Weapon",
+      "link": "https://www.securityweek.com/ciso-communities-cybersecuritys-secret-weapon/",
+      "summary": "Closed CISO communities act as an information exchange, advice center, pressure valve, and safe haven from critical oversight.",
+      "urgency": "High",
+      "date": "2025-12-17",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "React2Shell Vulnerability Actively Exploited to Deploy Linux Backdoors",
+      "link": "https://thehackernews.com/2025/12/react2shell-vulnerability-actively.html",
+      "summary": "The security vulnerability known as React2Shell  is being exploited by threat actors to deliver malware families like KSwapDoor and ZnDoor, according to findings from Palo Alto Networks Unit 42 and NT",
+      "urgency": "High",
+      "date": "2025-12-16",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "FreePBX Patches Critical SQLi, File-Upload, and AUTHTYPE Bypass Flaws Enabling RCE",
+      "link": "https://thehackernews.com/2025/12/freepbx-authentication-bypass-exposed.html",
+      "summary": "Multiple security vulnerabilities have been disclosed  in the open-source private branch exchange (PBX) platform FreePBX, including a critical flaw that could result in an authentication bypass under ",
+      "urgency": "High",
+      "date": "2025-12-16",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "⚡ Weekly Recap: Apple 0-Days, WinRAR Exploit, LastPass Fines, .NET RCE, OAuth Scams & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-apple-0-days-winrar.html",
+      "summary": "If you use a smartphone, browse the web, or unzip files on your computer, you are in the crosshairs this week. Hackers are currently exploiting critical flaws in the daily software we all rely on—and ",
+      "urgency": "High",
+      "date": "2025-12-16",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Atlassian Patches Critical Apache Tika Flaw",
+      "link": "https://www.securityweek.com/atlassian-patches-critical-apache-tika-flaw/",
+      "summary": "Atlassian has released software updates for Bamboo, Bitbucket, Confluence, Crowd, Fisheye/Crucible, and Jira.",
+      "urgency": "High",
+      "date": "2025-12-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks",
+      "link": "https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a high-severity flaw impacting Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities ( KEV ) ca",
+      "urgency": "High",
+      "date": "2025-12-15",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Apple Patches Two Zero-Days Tied to Mysterious Exploited Chrome Flaw",
+      "link": "https://www.securityweek.com/apple-patches-two-zero-days-tied-to-mysterious-exploited-chrome-flaw/",
+      "summary": "Apple has released macOS and iOS updates to patch two WebKit zero-days exploited in an “extremely sophisticated” attack.",
+      "urgency": "High",
+      "date": "2025-12-15",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks",
+      "link": "https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a high-severity flaw impacting Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities ( KEV ) ca",
+      "urgency": "High",
+      "date": "2025-12-14",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2025-12-17T09:40:02.174311"
+  }
+}

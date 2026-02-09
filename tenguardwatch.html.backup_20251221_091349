@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers</div><div class="ticker-item">Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware</div><div class="ticker-item">WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability</div><div class="ticker-item">Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks</div><div class="ticker-item">New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards</div><div class="ticker-item">China-Aligned Threat Group Uses Windows Group Policy to Deploy Espionage Malware</div><div class="ticker-item">Thailand Conference Launches International Initiative to Fight Online Scams</div><div class="ticker-item">In Other News: Docker AI Attack, Google Sues Chinese Cybercriminals, Coupang Hacked by Employee</div><div class="ticker-item">Palo Alto Networks, Google Cloud Strike Multibillion-Dollar AI and Cloud Security Deal</div><div class="ticker-item">AI Security Firm Ciphero Emerges From Stealth With $2.5 Million in Funding</div><div class="ticker-item">Denmark Blames Russia for Cyberattacks Ahead of Elections and on Water Utility</div><div class="ticker-item">Chinese APT ‘LongNosedGoblin’ Targeting Asian Governments</div><div class="ticker-item">Microsoft confirms Teams is down and messages are delayed</div><div class="ticker-item">Nigeria arrests dev of Microsoft 365 'Raccoon0365' phishing platform</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Microsoft 365 accounts targeted in wave of OAuth phishing attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russia-Linked Hackers Use Microsoft 365 Device Code Phishing for Account Takeovers</h3>
+                <p><strong>Summary:</strong> A suspected Russia-aligned group has been attributed to a phishing campaign that employs device code authentication workflows to steal victims' Microsoft 365 credentials and conduct account takeover a...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/russia-linked-hackers-use-microsoft-365.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/russia-linked-hackers-use-microsoft-365.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new campaign that has used cracked software distribution sites as a distribution vector for a new version of a modular and stealthy loader known a...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/cracked-software-and-youtube-videos.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/cracked-software-and-youtube-videos.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability</h3>
+                <p><strong>Summary:</strong> WatchGuard has released fixes to address a critical security flaw in Fireware OS that it said has been exploited in real-world attacks.  Tracked as CVE-2025-14733  (CVSS score: 9.3), the vulnerability...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks</h3>
+                <p><strong>Summary:</strong> Authorities in Nigeria have announced the arrest of three "high-profile internet fraud suspects" who are alleged to have been involved in phishing attacks targeting major corporations, including the m...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards</h3>
+                <p><strong>Summary:</strong> Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access ( DMA ...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Aligned Threat Group Uses Windows Group Policy to Deploy Espionage Malware</h3>
+                <p><strong>Summary:</strong> A previously undocumented China-aligned threat cluster dubbed LongNosedGoblin has been attributed to a series of cyber attacks targeting governmental entities in Southeast Asia and Japan.  The end goa...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/china-aligned-threat-group-uses-windows.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/china-aligned-threat-group-uses-windows.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Thailand Conference Launches International Initiative to Fight Online Scams</h3>
+                <p><strong>Summary:</strong> Similar pledges to fight scam networks were made by members of the Association of Southeast Asian Nations in the months leading up to the Bangkok conference.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/thailand-conference-launches-international-initiative-to-fight-online-scams/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/thailand-conference-launches-international-initiative-to-fight-online-scams/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: Docker AI Attack, Google Sues Chinese Cybercriminals, Coupang Hacked by Employee</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: Trump could use private firms for cyber offensive, China threat to US power grid, RaccoonO365 suspect arrested in Nigeria.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-docker-ai-attack-google-sues-chinese-cybercriminals-coupang-hacked-by-employee/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-docker-ai-attack-google-sues-chinese-cybercriminals-coupang-hacked-by-employee/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Palo Alto Networks, Google Cloud Strike Multibillion-Dollar AI and Cloud Security Deal</h3>
+                <p><strong>Summary:</strong> The agreement strengthens technical and commercial ties as Palo Alto migrates workloads and adopts Google’s Vertex AI and Gemini models.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/palo-alto-networks-google-cloud-strike-multibillion-dollar-ai-and-cloud-security-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/palo-alto-networks-google-cloud-strike-multibillion-dollar-ai-and-cloud-security-deal/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Security Firm Ciphero Emerges From Stealth With $2.5 Million in Funding</h3>
+                <p><strong>Summary:</strong> The startup’s solution captures, verifies, and governs all AI interactions within an enterprise’s environment.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ai-security-firm-ciphero-emerges-from-stealth-with-2-5-million-in-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ai-security-firm-ciphero-emerges-from-stealth-with-2-5-million-in-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Denmark Blames Russia for Cyberattacks Ahead of Elections and on Water Utility</h3>
+                <p><strong>Summary:</strong> Danish intelligence service said the attacks were part of Russia’s “hybrid war” against the West and an attempt to create instability.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/denmark-blames-russia-for-cyberattacks-ahead-of-elections-and-on-water-utility/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/denmark-blames-russia-for-cyberattacks-ahead-of-elections-and-on-water-utility/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese APT ‘LongNosedGoblin’ Targeting Asian Governments</h3>
+                <p><strong>Summary:</strong> The hacking group has been using Group Policy to deploy cyberespionage tools on governmental networks.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chinese-apt-longnosedgoblin-targeting-asian-governments/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chinese-apt-longnosedgoblin-targeting-asian-governments/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft confirms Teams is down and messages are delayed</h3>
+                <p><strong>Summary:</strong> Microsoft Teams is experiencing issues, with thousands reporting problems sending messages, including delays.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-teams-is-down-and-messages-are-delayed/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nigeria arrests dev of Microsoft 365 'Raccoon0365' phishing platform</h3>
+                <p><strong>Summary:</strong> The Nigerian police have arrested three individuals linked to targeted Microsoft 365 cyberattacks via Raccoon0365 phishing-as-a-service.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/nigeria-arrests-dev-of-microsoft-365-raccoon0365-phishing-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/nigeria-arrests-dev-of-microsoft-365-raccoon0365-phishing-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft 365 accounts targeted in wave of OAuth phishing attacks</h3>
+                <p><strong>Summary:</strong> Multiple threat actors are compromising Microsoft 365 accounts in phishing attacks that leverage the OAuth device code authorization mechanism.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-365-accounts-targeted-in-wave-of-oauth-phishing-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-365-accounts-targeted-in-wave-of-oauth-phishing-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

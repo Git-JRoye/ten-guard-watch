@@ -1,0 +1,318 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 61,
+      "cybersecurity": 32,
+      "apt": 27,
+      "vulnerability": 24,
+      "malware": 23,
+      "breach": 21,
+      "critical": 19,
+      "phishing": 11,
+      "ransomware": 9
+    },
+    "30_days": {
+      "attack": 256,
+      "vulnerability": 121,
+      "cybersecurity": 111,
+      "breach": 86,
+      "malware": 85,
+      "critical": 82,
+      "apt": 57,
+      "phishing": 56,
+      "ransomware": 43
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Low": 53,
+      "High": 19,
+      "Medium": 56
+    },
+    "30_days": {
+      "Low": 169,
+      "Medium": 243,
+      "High": 84
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 297,
+    "attacks": 154,
+    "vulnerability": 143,
+    "threat": 139,
+    "malware": 135,
+    "data": 134,
+    "code": 131,
+    "access": 119,
+    "attack": 109,
+    "microsoft": 107,
+    "exploited": 102,
+    "flaw": 99,
+    "phishing": 99,
+    "cybersecurity": 98,
+    "cve": 98,
+    "users": 95,
+    "browser": 94,
+    "critical": 88,
+    "million": 88,
+    "remote": 84
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-actively-exploited-digiever.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added  a security flaw impacting Digiever DS-2105 Pro network video recorders (NVRs) to its Known Exploited Vulnerabilities ( KEV ) cat",
+      "urgency": "High",
+      "date": "2025-12-25",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances",
+      "link": "https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html",
+      "summary": "A critical security vulnerability has been disclosed in the n8n  workflow automation platform that, if successfully exploited, could result in arbitrary code execution under certain circumstances.  Th",
+      "urgency": "High",
+      "date": "2025-12-24",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances",
+      "link": "https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html",
+      "summary": "A critical security vulnerability has been disclosed in the n8n  workflow automation platform that, if successfully exploited, could result in arbitrary code execution under certain circumstances.  Th",
+      "urgency": "High",
+      "date": "2025-12-23",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "FCC Bans Foreign-Made Drones and Key Parts Over U.S. National Security Risks",
+      "link": "https://thehackernews.com/2025/12/fcc-bans-foreign-made-drones-and-key.html",
+      "summary": "The U.S. Federal Communications Commission (FCC) on Monday announced  a ban on all drones and critical components made in a foreign country, citing national security concerns.  To that end, the agency",
+      "urgency": "High",
+      "date": "2025-12-23",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "⚡ Weekly Recap: Firewall Exploits, AI Data Theft, Android Hacks, APT Attacks, Insider Leaks & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-firewall-exploits-ai-data.html",
+      "summary": "Cyber threats last week showed how attackers no longer need big hacks to cause big damage. They're going after the everyday tools we trust most — firewalls, browser add-ons, and even smart TVs — turni",
+      "urgency": "High",
+      "date": "2025-12-23",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability",
+      "link": "https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html",
+      "summary": "WatchGuard has released fixes to address a critical security flaw in Fireware OS that it said has been exploited in real-world attacks.  Tracked as CVE-2025-14733  (CVSS score: 9.3), the vulnerability",
+      "urgency": "High",
+      "date": "2025-12-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical RCE flaw impacts over 115,000 WatchGuard firewalls",
+      "link": "https://www.bleepingcomputer.com/news/security/over-115-000-watchguard-firewalls-vulnerable-to-ongoing-rce-attacks/",
+      "summary": "Over 115,000 WatchGuard Firebox devices exposed online remain unpatched against a critical remote code execution (RCE) vulnerability actively exploited in attacks.",
+      "urgency": "High",
+      "date": "2025-12-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability",
+      "link": "https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html",
+      "summary": "WatchGuard has released fixes to address a critical security flaw in Fireware OS that it said has been exploited in real-world attacks.  Tracked as CVE-2025-14733  (CVSS score: 9.3), the vulnerability",
+      "urgency": "High",
+      "date": "2025-12-21",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability",
+      "link": "https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html",
+      "summary": "WatchGuard has released fixes to address a critical security flaw in Fireware OS that it said has been exploited in real-world attacks.  Tracked as CVE-2025-14733  (CVSS score: 9.3), the vulnerability",
+      "urgency": "High",
+      "date": "2025-12-20",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards",
+      "link": "https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html",
+      "summary": "Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access ( DMA ",
+      "urgency": "High",
+      "date": "2025-12-20",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2025-12-25T09:35:18.951942"
+  }
+}

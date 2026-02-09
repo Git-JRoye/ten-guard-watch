@@ -1,0 +1,202 @@
+{
+  "date": "2026-01-31",
+  "items": [
+    {
+      "title": "Mandiant Finds ShinyHunters-Style Vishing Attacks Stealing MFA to Breach SaaS Platforms",
+      "link": "https://thehackernews.com/2026/01/mandiant-finds-shinyhunters-using.html",
+      "summary": "Google-owned Mandiant on Friday said  it identified an \"expansion in threat activity\" that uses tradecraft consistent with extortion-themed attacks orchestrated by a financially motivated hacking group known as ShinyHunters.  The attacks leverage advanced voice phishing  (aka vishing) and bogus credential harvesting sites mimicking targeted companies to gain unauthorized access to victim environments by collecting sign-on (SSO) credentials and multi-factor authentication (MFA) codes.  The end goal of the attacks is to target cloud-based software-as-a-service (SaaS) applications to siphon sensitive data and internal communications and extort victims.  The tech giant's threat intelligence team said it's tracking the activity under multiple clusters, including UNC6661, UNC6671, and UNC6240  (aka ShinyHunters), so as to account for the possibility that these groups could be evolving their modus operandi or mimicking previously observed tactics.   \"While this methodo...",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mandiant-finds-shinyhunters-style-vishing-attacks-",
+      "source": "The Hacker News",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, and a large combined heat and power plant (CHP) supplying heat to almost half a million customers in the country.  The incident took place on December 29, 2025. The agency has attributed the attacks to a threat cluster dubbed Static Tundra , which is also tracked as Berserk Bear, Blue Kraken, Crouching Yeti, Dragonfly, Energetic Bear, Ghost Blizzard (formerly Bromine), and Havex. Static Tundra is assessed to be linked to Russia's Federal Security Service's (FSB) Center 16 unit.  It's worth noting that recent reports from ESET  and Dragos  attributed the activity with moderate confidence to a different Russian state-sponsored hacking group known as Sandworm.   \"All attacks had a purely destructive objective,\" CERT Polska said  in a report published Friday. \"Althoug...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "cert-polska-details-coordinated-cyber-attacks-on-3",
+      "source": "The Hacker News",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "Researchers Uncover Chrome Extensions Abusing Affiliate Links and Stealing ChatGPT Access",
+      "link": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html",
+      "summary": "Cybersecurity researchers have discovered malicious Google Chrome extensions that come with capabilities to hijack affiliate links, steal data, and collect OpenAI ChatGPT authentication tokens.  One of the extensions in question is Amazon Ads Blocker (ID: pnpchphmplpdimbllknjoiopmfphellj), which claims to be a tool to browse Amazon without any sponsored content. It was uploaded to the Chrome Web Store by a publisher named \"10Xprofit\" on January 19, 2026.  \"The extension does block ads as advertised, but its primary function is hidden: it automatically injects the developer's affiliate tag (10xprofit-20) into every Amazon product link and replaces existing affiliate codes from content creators,\" Socket security researcher Kush Pandya said .  Further analysis has determined that Amazon Ads Blocker is part of a larger cluster of 29 browser add-ons that target several e-commerce platforms like AliExpress, Amazon, Best Buy, Shein, Shopify, and Walmart. The complet...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "researchers-uncover-chrome-extensions-abusing-affi",
+      "source": "The Hacker News",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "China-Linked UAT-8099 Targets IIS Servers in Asia with BadIIS SEO Malware",
+      "link": "https://thehackernews.com/2026/01/china-linked-uat-8099-targets-iis.html",
+      "summary": "Cybersecurity researchers have discovered a new campaign attributed to a China-linked threat actor known as UAT-8099  that took place between late 2025 and early 2026.  The activity, discovered by Cisco Talos, has targeted vulnerable Internet Information Services (IIS) servers located across Asia, but with a specific focus on targets in Thailand and Vietnam. The scale of the campaign is currently unknown.  \"UAT-8099 uses web shells and PowerShell to execute scripts and deploy the GotoHTTP tool, granting the threat actor remote access to vulnerable IIS servers,\" security researcher Joey Chen said  in a Thursday breakdown of the campaign.  UAT-8099 was first documented  by the cybersecurity company in October 2025, detailing the threat actor's exploitation of IIS servers in India, Thailand, Vietnam, Canada, and Brazil to facilitate search engine optimization (SEO) fraud. The attacks involve infecting the servers with a known malware referred to as BadIIS.   The hacking gro...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-uat-8099-targets-iis-servers-in-asia-",
+      "source": "The Hacker News",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "Badges, Bytes and Blackmail",
+      "link": "https://thehackernews.com/2026/01/badges-bytes-and-blackmail.html",
+      "summary": "Behind the scenes of law enforcement in cyber: what do we know about caught cybercriminals? What brought them in, where do they come from and what was their function in the crimescape?   Introduction: One view on the scattered fight against cybercrime  The growing sophistication and diversification of cybercrime have compelled law enforcement agencies worldwide to respond through increasingly coordinated and publicized actions. Yet, despite the visibility of these operations, there remains no comprehensive overview, to our knowledge, on how law enforcement is addressing cybercrime globally. Publicly available information is dispersed across agencies, jurisdictions, case-specific reporting (e.g., \"Operation Endgame\") [1] , and reporting formats, offering fragmented insights rather than a cohesive understanding of what types of crime are being targeted, what actions are taken, and who the offenders are. This results in isolated glimpses rather than a consistent global picture. Therefor...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "badges-bytes-and-blackmail",
+      "source": "The Hacker News",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "Ex-Google Engineer Convicted for Stealing AI Secrets for China Startup",
+      "link": "https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html",
+      "summary": "A former Google engineer accused of stealing thousands of the company's confidential documents to build a startup in China has been convicted in the U.S., the Department of Justice (DoJ) announced  Thursday.  Linwei Ding (aka Leon Ding), 38, was convicted by a federal jury on seven counts of economic espionage and seven counts of theft of trade secrets for taking over 2,000 documents containing the tech giant's trade secrets related to artificial intelligence (AI) technology for the benefit of the People's Republic of China (PRC).  \"Silicon Valley is at the forefront of artificial intelligence innovation, pioneering transformative work that drives economic growth and strengthens our national security,\" said U.S. Attorney Craig H. Missakian. \"We will vigorously protect American intellectual capital from foreign interests that seek to gain an unfair competitive advantage while putting our national security at risk.\"   Ding was indicted  in March 2024 for ...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "ex-google-engineer-convicted-for-stealing-ai-secre",
+      "source": "The Hacker News",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "In Other News: Paid for Being Jailed, Google’s $68M Settlement, CISA Chief’s ChatGPT Leak",
+      "link": "https://www.securityweek.com/in-other-news-paid-for-being-jailed-googles-68m-settlement-cisa-chiefs-chatgpt-leak/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Apple updates platform security guide, LastPass detects new phishing wave, CISA withdraws from RSA Conference.",
+      "tags": [
+        "phishing",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "in-other-news-paid-for-being-jailed-googles-68m-se",
+      "source": "SecurityWeek",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "Aisy Launches Out of Stealth to Transform Vulnerability Management",
+      "link": "https://www.securityweek.com/aisy-launches-out-of-stealth-to-transform-vulnerability-management/",
+      "summary": "Aisy has emerged from stealth mode with $2.3 million in seed funding for its AI-assisted platform.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "aisy-launches-out-of-stealth-to-transform-vulnerab",
+      "source": "SecurityWeek",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "175,000 Exposed Ollama Hosts Could Enable LLM Abuse",
+      "link": "https://www.securityweek.com/175000-exposed-ollama-hosts-could-enable-llm-abuse/",
+      "summary": "Among them, 23,000 hosts were persistently responsible for the majority of activity observed over 293 days of scanning.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "175000-exposed-ollama-hosts-could-enable-llm-abuse",
+      "source": "SecurityWeek",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "White House Scraps ‘Burdensome’ Software Security Rules",
+      "link": "https://www.securityweek.com/white-house-scraps-burdensome-software-security-rules/",
+      "summary": "Two Biden-era memorandums have been revoked, but some of the resources they provide can still be used by government organizations.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "white-house-scraps-burdensome-software-security-ru",
+      "source": "SecurityWeek",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "Hugging Face Abused to Deploy Android RAT",
+      "link": "https://www.securityweek.com/hugging-face-abused-to-deploy-android-rat/",
+      "summary": "Android users were lured to applications that served a malicious payload hosted in a Hugging Face repository.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "hugging-face-abused-to-deploy-android-rat",
+      "source": "SecurityWeek",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "ICS Devices Bricked Following Russia-Linked Intrusion Into Polish Power Grid",
+      "link": "https://www.securityweek.com/ics-devices-bricked-in-russia-linked-strike-on-polish-power-grid/",
+      "summary": "Sandworm/Electrum hackers targeted communication and control systems at 30 sites.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ics-devices-bricked-following-russia-linked-intrus",
+      "source": "SecurityWeek",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "Crypto wallets received a record $158 billion in illicit funds last year",
+      "link": "https://www.bleepingcomputer.com/news/security/crypto-wallets-received-a-record-158-billion-in-illicit-funds-last-year/",
+      "summary": "Illegal cryptocurrency flows hit a record $158 billion in 2025, reversing a three-year trend of declining amounts from $86B in 2021 to $64B in 2024.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "crypto-wallets-received-a-record-158-billion-in-il",
+      "source": "BleepingComputer",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "Microsoft to disable NTLM by default in future Windows releases",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-ntlm-by-default-in-future-windows-releases/",
+      "summary": "Microsoft announced that it will disable the 30-year-old NTLM authentication protocol by default in upcoming Windows releases due to security vulnerabilities that expose organizations to cyberattacks.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-to-disable-ntlm-by-default-in-future-win",
+      "source": "BleepingComputer",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-31"
+    },
+    {
+      "title": "Operation Switch Off dismantles major pirate TV streaming services",
+      "link": "https://www.bleepingcomputer.com/news/legal/operation-switch-off-dismantles-major-pirate-tv-streaming-services/",
+      "summary": "The latest phase of the global law enforcement action resulted in seizing three industrial-scale illegal IPTV services.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "operation-switch-off-dismantles-major-pirate-tv-st",
+      "source": "BleepingComputer",
+      "date": "2026-01-31"
+    }
+  ]
+}

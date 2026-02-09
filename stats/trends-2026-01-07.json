@@ -1,0 +1,318 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 61,
+      "breach": 32,
+      "vulnerability": 24,
+      "cybersecurity": 22,
+      "malware": 20,
+      "apt": 15,
+      "critical": 11,
+      "phishing": 9,
+      "ransomware": 7
+    },
+    "30_days": {
+      "attack": 236,
+      "vulnerability": 119,
+      "cybersecurity": 104,
+      "breach": 102,
+      "malware": 80,
+      "critical": 76,
+      "apt": 54,
+      "phishing": 41,
+      "ransomware": 35
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Low": 33,
+      "High": 11,
+      "Medium": 68
+    },
+    "30_days": {
+      "High": 76,
+      "Medium": 240,
+      "Low": 156
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 227,
+    "vulnerability": 157,
+    "data": 138,
+    "code": 135,
+    "attacks": 133,
+    "threat": 128,
+    "flaw": 120,
+    "users": 119,
+    "cve": 107,
+    "attack": 102,
+    "cybersecurity": 102,
+    "malware": 101,
+    "browser": 100,
+    "million": 98,
+    "google": 95,
+    "exploited": 89,
+    "critical": 87,
+    "access": 85,
+    "phishing": 80,
+    "cvss": 77
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Ongoing Attacks Exploiting Critical RCE Vulnerability in Legacy D-Link DSL Routers",
+      "link": "https://thehackernews.com/2026/01/active-exploitation-hits-legacy-d-link.html",
+      "summary": "A newly discovered critical security flaw in legacy D-Link DSL gateway routers has come under active exploitation in the wild.  The vulnerability, tracked as CVE-2026-0625  (CVSS score: 9.3), concerns",
+      "urgency": "High",
+      "date": "2026-01-07",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Dolby Vulnerability Patched in Android",
+      "link": "https://www.securityweek.com/critical-dolby-vulnerability-patched-in-android/",
+      "summary": "The flaw is tracked as CVE-2025-54957 and its existence came to light in October 2025 after it was discovered by Google researchers.",
+      "urgency": "High",
+      "date": "2026-01-07",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "New n8n Vulnerability (9.9 CVSS) Lets Authenticated Users Execute System Commands",
+      "link": "https://thehackernews.com/2026/01/new-n8n-vulnerability-99-cvss-lets.html",
+      "summary": "A new critical security vulnerability has been disclosed in n8n, an open-source workflow automation platform, that could enable an authenticated attacker to execute arbitrary system commands on the un",
+      "urgency": "High",
+      "date": "2026-01-06",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical AdonisJS Bodyparser Flaw (CVSS 9.2) Enables Arbitrary File Write on Servers",
+      "link": "https://thehackernews.com/2026/01/critical-adonisjs-bodyparser-flaw-cvss.html",
+      "summary": "Users of the \" @adonisjs/bodyparser \" npm package are being advised to update to the latest version following the disclosure of a critical security vulnerability that, if successfully exploited, could",
+      "urgency": "High",
+      "date": "2026-01-06",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-05",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-03",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ",
+      "urgency": "High",
+      "date": "2026-01-02",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical CVSS 9.8 Flaw Found in IBM API Connect Authentication System",
+      "link": "https://thehackernews.com/2025/12/ibm-warns-of-critical-api-connect-bug.html",
+      "summary": "IBM has disclosed details of a critical security flaw in API Connect  that could allow attackers to gain remote access to the application.  The vulnerability, tracked as CVE-2025-13915 , is rated 9.8 ",
+      "urgency": "High",
+      "date": "2026-01-01",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html",
+      "summary": "The Cyber Security Agency of Singapore (CSA) has issued  a bulletin warning of a maximum-severity security flaw in SmarterTools SmarterMail  email software that could be exploited to achieve remote co",
+      "urgency": "High",
+      "date": "2026-01-01",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 112,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-07T09:41:32.587675"
+  }
+}

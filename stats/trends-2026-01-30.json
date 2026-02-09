@@ -1,0 +1,318 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 73,
+      "vulnerability": 41,
+      "cybersecurity": 27,
+      "malware": 25,
+      "critical": 23,
+      "apt": 18,
+      "phishing": 15,
+      "breach": 11,
+      "ransomware": 4
+    },
+    "30_days": {
+      "attack": 233,
+      "vulnerability": 133,
+      "cybersecurity": 132,
+      "breach": 78,
+      "malware": 75,
+      "critical": 71,
+      "apt": 56,
+      "phishing": 44,
+      "ransomware": 26
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 55,
+      "High": 24,
+      "Low": 49
+    },
+    "30_days": {
+      "Low": 196,
+      "High": 80,
+      "Medium": 204
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 108
+  },
+  "top_keywords": {
+    "security": 228,
+    "vulnerability": 146,
+    "code": 143,
+    "access": 135,
+    "attack": 131,
+    "cybersecurity": 126,
+    "attacks": 125,
+    "data": 121,
+    "threat": 108,
+    "cve": 102,
+    "flaw": 95,
+    "campaign": 94,
+    "malware": 92,
+    "remote": 91,
+    "malicious": 89,
+    "users": 84,
+    "vulnerabilities": 78,
+    "activity": 78,
+    "browser": 78,
+    "microsoft": 77
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    },
+    {
+      "date": "2026-01-30",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score",
+      "link": "https://thehackernews.com/2026/01/smartermail-fixes-critical.html",
+      "summary": "SmarterTools has addressed two more security flaws in SmarterMail email software, including one critical security flaw that could result in arbitrary code execution.  The vulnerability, tracked as CVE",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released",
+      "link": "https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html",
+      "summary": "Ivanti has rolled out  security updates to address two security flaws impacting Ivanti Endpoint Manager Mobile (EPMM) that have been exploited in zero-day attacks, one of which has been added  by the ",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Survey of 100+ Energy Systems Reveals Critical OT Cybersecurity Gaps",
+      "link": "https://thehackernews.com/2026/01/survey-of-100-energy-systems-reveals.html",
+      "summary": "A study by OMICRON  has revealed widespread cybersecurity gaps in the operational technology (OT) networks of substations, power plants, and control centers worldwide. Drawing on data from more than 1",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Ivanti Patches Exploited EPMM Zero-Days",
+      "link": "https://www.securityweek.com/ivanti-patches-exploited-epmm-zero-days/",
+      "summary": "The critical-severity vulnerabilities could allow unauthenticated attackers to execute arbitrary code remotely.",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "SolarWinds Patches Critical Web Help Desk Vulnerabilities",
+      "link": "https://www.securityweek.com/solarwinds-patches-critical-web-help-desk-vulnerabilities/",
+      "summary": "The four critical flaws could be exploited without authentication for remote code execution or authentication bypass.",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Ivanti warns of two EPMM flaws exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-two-epmm-flaws-exploited-in-zero-day-attacks/",
+      "summary": "Ivanti has disclosed two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as CVE-2026-1281 and CVE-2026-1340, that were exploited in zero-day attacks.",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "SolarWinds Fixes Four Critical Web Help Desk Flaws With Unauthenticated RCE and Auth Bypass",
+      "link": "https://thehackernews.com/2026/01/solarwinds-fixes-four-critical-web-help.html",
+      "summary": "SolarWinds has released  security updates to address multiple security vulnerabilities impacting SolarWinds Web Help Desk, including four critical vulnerabilities that could result in authentication b",
+      "urgency": "High",
+      "date": "2026-01-29",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
+      "link": "https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html",
+      "summary": "The \"coordinated\" cyber attack targeting multiple sites across the Polish power grid  has been attributed with medium confidence to a Russian state-sponsored hacking crew known as ELECTRUM .  Operatio",
+      "urgency": "High",
+      "date": "2026-01-29",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
+      "link": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
+      "summary": "Fortinet has begun releasing security updates to address a critical flaw impacting FortiOS that has come under active exploitation in the wild.  The vulnerability, assigned the CVE identifier CVE-2026",
+      "urgency": "High",
+      "date": "2026-01-28",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
+      "link": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
+      "summary": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks.  The vulnerability, tracked as CVE-2026-21509 , carries a CVSS",
+      "urgency": "High",
+      "date": "2026-01-28",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 480,
+    "top_tag": "attack",
+    "last_update": "2026-01-30T09:55:30.823413"
+  }
+}

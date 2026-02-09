@@ -1,0 +1,317 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 46,
+      "breach": 34,
+      "cybersecurity": 32,
+      "vulnerability": 22,
+      "malware": 17,
+      "critical": 10,
+      "apt": 7,
+      "phishing": 7,
+      "ransomware": 5
+    },
+    "30_days": {
+      "attack": 243,
+      "vulnerability": 127,
+      "cybersecurity": 111,
+      "breach": 92,
+      "critical": 82,
+      "malware": 81,
+      "apt": 51,
+      "phishing": 48,
+      "ransomware": 36
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Low": 53,
+      "High": 10,
+      "Medium": 57
+    },
+    "30_days": {
+      "Medium": 236,
+      "High": 82,
+      "Low": 170
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 116
+  },
+  "top_keywords": {
+    "security": 282,
+    "vulnerability": 168,
+    "attacks": 143,
+    "data": 137,
+    "threat": 135,
+    "code": 126,
+    "malware": 125,
+    "flaw": 118,
+    "cve": 112,
+    "users": 110,
+    "million": 107,
+    "exploited": 105,
+    "attack": 104,
+    "browser": 96,
+    "access": 95,
+    "critical": 90,
+    "phishing": 89,
+    "cybersecurity": 86,
+    "microsoft": 81,
+    "google": 80
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "27 Malicious npm Packages Used as Phishing Infrastructure to Steal Login Credentials",
+      "link": "https://thehackernews.com/2025/12/27-malicious-npm-packages-used-as.html",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"sustained and targeted\" spear-phishing campaign that has published over two dozen packages to the npm registry to faci",
+      "urgency": "High",
+      "date": "2025-12-30",
+      "tags": [
+        "phishing",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection",
+      "link": "https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html",
+      "summary": "A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt ",
+      "urgency": "High",
+      "date": "2025-12-29",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection",
+      "link": "https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html",
+      "summary": "A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt ",
+      "urgency": "High",
+      "date": "2025-12-28",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection",
+      "link": "https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html",
+      "summary": "A critical security flaw has been disclosed in LangChain Core  that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt ",
+      "urgency": "High",
+      "date": "2025-12-27",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-actively-exploited-digiever.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added  a security flaw impacting Digiever DS-2105 Pro network video recorders (NVRs) to its Known Exploited Vulnerabilities ( KEV ) cat",
+      "urgency": "High",
+      "date": "2025-12-26",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-actively-exploited-digiever.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added  a security flaw impacting Digiever DS-2105 Pro network video recorders (NVRs) to its Known Exploited Vulnerabilities ( KEV ) cat",
+      "urgency": "High",
+      "date": "2025-12-25",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances",
+      "link": "https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html",
+      "summary": "A critical security vulnerability has been disclosed in the n8n  workflow automation platform that, if successfully exploited, could result in arbitrary code execution under certain circumstances.  Th",
+      "urgency": "High",
+      "date": "2025-12-24",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances",
+      "link": "https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html",
+      "summary": "A critical security vulnerability has been disclosed in the n8n  workflow automation platform that, if successfully exploited, could result in arbitrary code execution under certain circumstances.  Th",
+      "urgency": "High",
+      "date": "2025-12-23",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "FCC Bans Foreign-Made Drones and Key Parts Over U.S. National Security Risks",
+      "link": "https://thehackernews.com/2025/12/fcc-bans-foreign-made-drones-and-key.html",
+      "summary": "The U.S. Federal Communications Commission (FCC) on Monday announced  a ban on all drones and critical components made in a foreign country, citing national security concerns.  To that end, the agency",
+      "urgency": "High",
+      "date": "2025-12-23",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "⚡ Weekly Recap: Firewall Exploits, AI Data Theft, Android Hacks, APT Attacks, Insider Leaks & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-firewall-exploits-ai-data.html",
+      "summary": "Cyber threats last week showed how attackers no longer need big hacks to cause big damage. They're going after the everyday tools we trust most — firewalls, browser add-ons, and even smart TVs — turni",
+      "urgency": "High",
+      "date": "2025-12-23",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 120,
+    "total_30_days": 488,
+    "top_tag": "attack",
+    "last_update": "2025-12-30T09:37:43.497189"
+  }
+}

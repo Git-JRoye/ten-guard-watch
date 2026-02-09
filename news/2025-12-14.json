@@ -1,0 +1,211 @@
+{
+  "date": "2025-12-14",
+  "items": [
+    {
+      "title": "CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks",
+      "link": "https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a high-severity flaw impacting Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of active exploitation in the wild.  CVE-2018-4063  (CVSS score: 8.8/9.9) refers to an unrestricted file upload vulnerability that could be exploited to achieve remote code execution by means of a malicious HTTP request.  \"A specially crafted HTTP request can upload a file, resulting in executable code being uploaded, and routable, to the webserver,\" the agency said. \"An attacker can make an authenticated HTTP request to trigger this vulnerability.\"   Details of the six-year-old flaw were publicly shared  by Cisco Talos in April 2019, describing it as an exploitable remote code execution vulnerability in the ACEManager \"upload.cgi\" function of Sierra Wireless AirLink ES450 firmware version 4.9.3. Talos reported the flaw to the Canadia...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-actively-exploited-sierra-wireless-route",
+      "source": "The Hacker News",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild",
+      "link": "https://thehackernews.com/2025/12/apple-issues-security-updates-after-two.html",
+      "summary": "Apple on Friday released  security updates for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and its Safari web browser to address two security flaws that it said have been exploited in the wild, one of which is the same flaw that was patched by Google in Chrome earlier this week.  The vulnerabilities are listed below -   CVE-2025-43529  (CVSS score: N/A) - A use-after-free vulnerability in WebKit that may lead to arbitrary code execution when processing maliciously crafted web content  CVE-2025-14174  (CVSS score: 8.8) - A memory corruption issue in WebKit that may lead to memory corruption when processing maliciously crafted web content   Apple said it's aware that the shortcomings \"may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26.\"  It's worth noting that CVE-2025-14174 is the same vulnerability  that Google issued patches for in its Chrome browser on December 10, 2025. It's been...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apple-issues-security-updates-after-two-webkit-fla",
+      "source": "The Hacker News",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "Fake OSINT and GPT Utility GitHub Repos Spread PyStoreRAT Malware Payloads",
+      "link": "https://thehackernews.com/2025/12/fake-osint-and-gpt-utility-github-repos.html",
+      "summary": "Cybersecurity researchers are calling attention to a new campaign that's leveraging GitHub-hosted Python repositories to distribute a previously undocumented JavaScript-based Remote Access Trojan (RAT) dubbed PyStoreRAT .  \"These repositories, often themed as development utilities or OSINT tools, contain only a few lines of code responsible for silently downloading a remote HTA file and executing it via 'mshta.exe,'\" Morphisec researcher Yonatan Edri said  in a report shared with The Hacker News.  PyStoreRAT has been described as a \"modular, multi-stage\" implant that can execute EXE, DLL, PowerShell, MSI, Python, JavaScript, and HTA modules. The malware also deploys an information stealer known as Rhadamanthys as a follow-on payload.  Attack chains involve distributing the malware through Python or JavaScript loader stubs embedded in GitHub repositories masquerading as OSINT tools, DeFi bots, GPT wrappers, and security-themed utilities that are designed...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fake-osint-and-gpt-utility-github-repos-spread-pys",
+      "source": "The Hacker News",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale",
+      "link": "https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html",
+      "summary": "Cybersecurity researchers have documented four new phishing kits named BlackForce, GhostFrame, InboxPrime AI, and Spiderman  that are capable of facilitating credential theft at scale.  BlackForce, first detected in August 2025, is designed to steal credentials and perform Man-in-the-Browser ( MitB ) attacks to capture one-time passwords (OTPs) and bypass multi-factor authentication (MFA). The kit is sold on Telegram forums for anywhere between €200 ($234) and €300 ($351).  The kit, according to Zscaler ThreatLabz  researchers Gladis Brinda R and Ashwathi Sasi, has been used to impersonate over 11 brands, including Disney, Netflix, DHL, and UPS. It's said to be in active development.  \"BlackForce features several evasion techniques with a blocklist that filters out security vendors, web crawlers, and scanners,\" the company said. \"BlackForce remains under active development. Version 3 was widely used until early August, with versions 4 and 5 being released in subsequ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-advanced-phishing-kits-use-ai-and-mfa-bypass-t",
+      "source": "The Hacker News",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "Securing GenAI in the Browser: Policy, Isolation, and Data Controls That Actually Work",
+      "link": "https://thehackernews.com/2025/12/securing-genai-in-browser-policy.html",
+      "summary": "The browser has become the main interface to GenAI for most enterprises: from web-based LLMs and copilots, to GenAI‑powered extensions and agentic browsers like ChatGPT Atlas . Employees are leveraging the power of GenAI to draft emails, summarize documents, work on code, and analyze data, often by copying/pasting sensitive information directly into prompts or uploading files.   Traditional security controls were not designed to understand this new prompt‑driven interaction pattern, leaving a critical blind spot where risk is highest. Security teams are simultaneously under pressure to enable more GenAI platforms because they clearly boost productivity.   Simply blocking AI is unrealistic. The more sustainable approach is to secure GenAI platforms where they are accessed by users: inside the browser session.  The GenAI browser threat model  The GenAI‑in‑the‑browser threat model must be approached differently from traditional web browsing due to several key factors.    Us...",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "securing-genai-in-the-browser-policy-isolation-and",
+      "source": "The Hacker News",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "New React RSC Vulnerabilities Enable DoS and Source Code Exposure",
+      "link": "https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html",
+      "summary": "The React team has released  fixes for two new types of flaws in React Server Components (RSC) that, if successfully exploited, could result in denial-of-service (DoS) or source code exposure.  The team said the issues were found by the security community while attempting to exploit the patches released for CVE-2025-55182 (CVSS score: 10.0), a critical bug in RSC that has since been weaponized in the wild .  The three vulnerabilities are listed below -   CVE-2025-55184  (CVSS score: 7.5) - A pre-authentication denial of service vulnerability arising from unsafe deserialization of payloads from HTTP requests to Server Function endpoints, triggering an infinite loop that hangs the server process and may prevent future HTTP requests from being served  CVE-2025-67779  (CVSS score: 7.5) - An incomplete fix for CVE-2025-55184 that has the same impact  CVE-2025-55183  (CVSS score: 5.3) - An information leak vulnerability that may cause a specifically crafted HTTP request sent to a vulnerable...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "new-react-rsc-vulnerabilities-enable-dos-and-sourc",
+      "source": "The Hacker News",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "In Other News: PromptPwnd Attack, macOS Bounty Complaints, Chinese Hackers Trained in Cisco Academy",
+      "link": "https://www.securityweek.com/in-other-news-promptpwnd-attack-small-macos-bounties-chinese-hackers-trained-in-cisco-academy/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Pentagon orders accelerated move to PQC, US shuts down scheme to smuggle GPUs to China, DroidLock Android ransomware.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-promptpwnd-attack-macos-bounty-compl",
+      "source": "SecurityWeek",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "Gladinet CentreStack Flaw Exploited to Hack Organizations",
+      "link": "https://www.securityweek.com/gladinet-centrestack-flaw-exploited-to-hack-organizations/",
+      "summary": "Threat actors have hacked at least nine organizations by exploiting the recently patched Gladinet CentreStack flaw.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "gladinet-centrestack-flaw-exploited-to-hack-organi",
+      "source": "SecurityWeek",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "Fieldtex Data Breach Impacts 238,000",
+      "link": "https://www.securityweek.com/fieldtex-data-breach-impacts-238000/",
+      "summary": "The Akira ransomware group took credit for the Fieldtex Products hack in November, claiming to have stolen 14 Gb of data.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "fieldtex-data-breach-impacts-238000",
+      "source": "SecurityWeek",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "Recent GeoServer Vulnerability Exploited in Attacks",
+      "link": "https://www.securityweek.com/recent-geoserver-vulnerability-exploited-in-attacks/",
+      "summary": "Because user input is not sufficiently sanitized, attackers could exploit the flaw to define external entities within an XML request.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "recent-geoserver-vulnerability-exploited-in-attack",
+      "source": "SecurityWeek",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "MITRE Releases 2025 List of Top 25 Most Dangerous Software Vulnerabilities",
+      "link": "https://www.securityweek.com/mitre-releases-2025-list-of-top-25-most-dangerous-software-vulnerabilities/",
+      "summary": "XSS remains the top software weakness, followed by SQL injection and CSRF. Buffer overflow issues and improper access control make it to top 25.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "mitre-releases-2025-list-of-top-25-most-dangerous-",
+      "source": "SecurityWeek",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "Microsoft Bug Bounty Program Expanded to Third-Party Code",
+      "link": "https://www.securityweek.com/microsoft-bug-bounty-program-expanded-to-third-party-code/",
+      "summary": "All critical vulnerabilities in Microsoft, third-party, and open source code are eligible for rewards if they impact Microsoft services.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-bug-bounty-program-expanded-to-third-par",
+      "source": "SecurityWeek",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "CyberVolk’s ransomware debut stumbles on cryptography weakness",
+      "link": "https://www.bleepingcomputer.com/news/security/cybervolks-ransomware-debut-stumbles-on-cryptography-weakness/",
+      "summary": "The pro-Russia hacktivist group CyberVolk launched a ransomware-as-a-service (RaaS) called VolkLocker that suffered from serious implementation flaws, allowing victims to potentially decrypt files for free.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "cybervolks-ransomware-debut-stumbles-on-cryptograp",
+      "source": "BleepingComputer",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "This Montessori-inspired app for kids is now only $40 for life",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-montessori-inspired-app-for-kids-is-now-only-40-for-life/",
+      "summary": "Finding screen time options that are both educational and stress-free can be a challenge for parents. Pok Pok offers a lifetime subscription to its Montessori-inspired learning app for just $39.97 with coupon code PLAY20 (reg. $250).",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "this-montessori-inspired-app-for-kids-is-now-only-",
+      "source": "BleepingComputer",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-14"
+    },
+    {
+      "title": "Apple fixes two zero-day flaws exploited in 'sophisticated' attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-day-flaws-exploited-in-sophisticated-attacks/",
+      "summary": "Apple has released emergency updates to patch two zero-day vulnerabilities that were exploited in an \"extremely sophisticated attack\" targeting specific individuals.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "apple-fixes-two-zero-day-flaws-exploited-in-sophis",
+      "source": "BleepingComputer",
+      "date": "2025-12-14"
+    }
+  ]
+}

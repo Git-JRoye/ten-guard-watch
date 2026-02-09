@@ -1,0 +1,315 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 62,
+      "vulnerability": 31,
+      "cybersecurity": 29,
+      "breach": 25,
+      "malware": 19,
+      "apt": 15,
+      "critical": 13,
+      "phishing": 10,
+      "ransomware": 8
+    },
+    "30_days": {
+      "attack": 229,
+      "vulnerability": 122,
+      "cybersecurity": 109,
+      "breach": 99,
+      "malware": 75,
+      "critical": 74,
+      "apt": 56,
+      "phishing": 40,
+      "ransomware": 31
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 62,
+      "High": 16,
+      "Low": 42
+    },
+    "30_days": {
+      "High": 77,
+      "Low": 164,
+      "Medium": 231
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 227,
+    "vulnerability": 161,
+    "data": 137,
+    "attacks": 133,
+    "threat": 130,
+    "code": 128,
+    "users": 125,
+    "flaw": 118,
+    "cve": 108,
+    "cybersecurity": 106,
+    "million": 97,
+    "malware": 95,
+    "browser": 94,
+    "google": 93,
+    "attack": 92,
+    "exploited": 86,
+    "access": 86,
+    "critical": 81,
+    "phishing": 80,
+    "cvss": 78
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    },
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Retires 10 Emergency Cybersecurity Directives Issued Between 2019 and 2024",
+      "link": "https://thehackernews.com/2026/01/cisa-retires-10-emergency-cybersecurity.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday said  it's retiring 10 emergency directives (Eds) that were issued between 2019 and 2024.  The list of the directives now c",
+      "urgency": "High",
+      "date": "2026-01-09",
+      "tags": [
+        "vulnerability",
+        "apt"
+      ]
+    },
+    {
+      "title": "Critical Vulnerability Patched in jsPDF",
+      "link": "https://www.securityweek.com/critical-vulnerability-patched-in-jspdf/",
+      "summary": "The bug can allow attackers to read arbitrary files from the system, potentially exposing configurations and credentials.",
+      "urgency": "High",
+      "date": "2026-01-09",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA retires 10 emergency cyber orders in rare bulk closure",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-retires-10-emergency-cyber-orders-in-rare-bulk-closure/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has retired 10 Emergency Directives issued between 2019 and 2024, saying that the required actions have been completed or are now cover",
+      "urgency": "High",
+      "date": "2026-01-09",
+      "tags": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "title": "CISA Flags Microsoft Office and HPE OneView Bugs as Actively Exploited",
+      "link": "https://thehackernews.com/2026/01/cisa-flags-microsoft-office-and-hpe.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited V",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Black Cat Behind SEO Poisoning Malware Campaign Targeting Popular Software Searches",
+      "link": "https://thehackernews.com/2026/01/black-cat-behind-seo-poisoning-malware.html",
+      "summary": "A cybercrime gang known as Black Cat has been attributed to a search engine optimization (SEO) poisoning campaign that employs fraudulent sites advertising popular software to trick users into downloa",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ]
+    },
+    {
+      "title": "Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to Take Full Control",
+      "link": "https://thehackernews.com/2026/01/critical-n8n-vulnerability-cvss-100.html",
+      "summary": "Cybersecurity researchers have disclosed details of yet another maximum-severity security flaw in n8n , a popular workflow automation platform, that allows an unauthenticated remote attacker to gain c",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers Exploit Zero-Day in Discontinued D-Link Devices",
+      "link": "https://www.securityweek.com/hackers-exploit-zero-day-in-discontinued-d-link-devices/",
+      "summary": "The critical-severity vulnerability allows unauthenticated, remote attackers to execute arbitrary shell commands.",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA tags max severity HPE OneView flaw as actively exploited",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-tags-max-severity-hpe-oneview-flaw-as-actively-exploited/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks.",
+      "urgency": "High",
+      "date": "2026-01-08",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Ongoing Attacks Exploiting Critical RCE Vulnerability in Legacy D-Link DSL Routers",
+      "link": "https://thehackernews.com/2026/01/active-exploitation-hits-legacy-d-link.html",
+      "summary": "A newly discovered critical security flaw in legacy D-Link DSL gateway routers has come under active exploitation in the wild.  The vulnerability, tracked as CVE-2026-0625  (CVSS score: 9.3), concerns",
+      "urgency": "High",
+      "date": "2026-01-07",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Dolby Vulnerability Patched in Android",
+      "link": "https://www.securityweek.com/critical-dolby-vulnerability-patched-in-android/",
+      "summary": "The flaw is tracked as CVE-2025-54957 and its existence came to light in October 2025 after it was discovered by Google researchers.",
+      "urgency": "High",
+      "date": "2026-01-07",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 120,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-09T09:41:32.324402"
+  }
+}

@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign</div><div class="ticker-item">ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories</div><div class="ticker-item">RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers</div><div class="ticker-item">How To Browse Faster and Get More Done Using Adapt Browser</div><div class="ticker-item">Trust Wallet Chrome Extension Hack Drains $8.5M via Shai-Hulud Supply Chain Attack</div><div class="ticker-item">DarkSpectre Browser Extension Campaigns Exposed After Impacting 8.8 Million Users Worldwide</div><div class="ticker-item">Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist</div><div class="ticker-item">European Space Agency Confirms Breach After Hacker Offers to Sell Data</div><div class="ticker-item">8 Cybersecurity Acquisitions Surpassed $1 Billion Mark in 2025</div><div class="ticker-item">Chinese APT Mustang Panda Caught Using Kernel-Mode Rootkit</div><div class="ticker-item">Korean Air Data Compromised in Oracle EBS Hack</div><div class="ticker-item">Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a phishing campaign that involves the attackers impersonating legitimate Google-generated messages by abusing Google Cloud's Application Integration...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/cybercriminals-abuse-google-cloud-email.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/cybercriminals-abuse-google-cloud-email.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories</h3>
+                <p><strong>Summary:</strong> The first ThreatsDay Bulletin of 2026 lands on a day that already feels symbolic — new year, new breaches, new tricks. If the past twelve months taught defenders anything, it's that threat actors don'...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/threatsday-bulletin-ghostad-drain-macos.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/threatsday-bulletin-ghostad-drain-macos.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How To Browse Faster and Get More Done Using Adapt Browser</h3>
+                <p><strong>Summary:</strong> As web browsers  evolve into all-purpose platforms, performance and productivity often suffer.   Feature overload, excessive background processes, and fragmented workflows can slow down browsing sessi...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/how-to-browse-fast-using-a-lightweight-browser.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/how-to-browse-fast-using-a-lightweight-browser.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Trust Wallet Chrome Extension Hack Drains $8.5M via Shai-Hulud Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Trust Wallet on Tuesday revealed that the second iteration of the Shai-Hulud  (aka Sha1-Hulud) supply chain outbreak in November 2025 was likely responsible for the hack of its Google Chrome extension...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/trust-wallet-chrome-extension-hack.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/trust-wallet-chrome-extension-hack.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DarkSpectre Browser Extension Campaigns Exposed After Impacting 8.8 Million Users Worldwide</h3>
+                <p><strong>Summary:</strong> The threat actor behind two malicious browser extension campaigns, ShadyPanda  and GhostPoster , has been attributed to a third attack campaign codenamed DarkSpectre that has impacted 2.2 million user...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/darkspectre-browser-extension-campaigns.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/darkspectre-browser-extension-campaigns.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist</h3>
+                <p><strong>Summary:</strong> The worm exposed Trust Wallet’s Developer GitHub secrets, allowing attackers to publish a backdoor extension and steal funds from 2,520 wallets.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/shai-hulud-supply-chain-attack-led-to-8-5-million-trust-wallet-heist/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/shai-hulud-supply-chain-attack-led-to-8-5-million-trust-wallet-heist/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>European Space Agency Confirms Breach After Hacker Offers to Sell Data</h3>
+                <p><strong>Summary:</strong> The European Space Agency is conducting an investigation and says external science servers have been compromised.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/european-space-agency-confirms-breach-after-hacker-offers-to-sell-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/european-space-agency-confirms-breach-after-hacker-offers-to-sell-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>8 Cybersecurity Acquisitions Surpassed $1 Billion Mark in 2025</h3>
+                <p><strong>Summary:</strong> The total disclosed value for all the cybersecurity M&A deals announced in 2025 exceeded $84 billion.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/8-cybersecurity-acquisitions-surpassed-1-billion-mark-in-2025/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/8-cybersecurity-acquisitions-surpassed-1-billion-mark-in-2025/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese APT Mustang Panda Caught Using Kernel-Mode Rootkit</h3>
+                <p><strong>Summary:</strong> The threat actor uses a signed driver file containing two user-mode shellcodes to execute its ToneShell backdoor.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chinese-apt-mustang-panda-caught-using-kernel-mode-rootkit/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chinese-apt-mustang-panda-caught-using-kernel-mode-rootkit/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Korean Air Data Compromised in Oracle EBS Hack</h3>
+                <p><strong>Summary:</strong> Roughly 30,000 Korean Air employees had their data stolen by hackers in a breach at former subsidiary KC&D.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/korean-air-data-compromised-in-oracle-ebs-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/korean-air-data-compromised-in-oracle-ebs-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000</h3>
+                <p><strong>Summary:</strong> It took Sax well over a year to complete its investigation after detecting hackers on its network.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/top-us-accounting-firm-sax-discloses-2024-data-breach-impacting-220000/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/top-us-accounting-firm-sax-discloses-2024-data-breach-impacting-220000/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

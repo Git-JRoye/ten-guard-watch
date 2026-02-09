@@ -1,0 +1,206 @@
+{
+  "date": "2026-02-06",
+  "items": [
+    {
+      "title": "Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware",
+      "link": "https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html",
+      "summary": "Cybersecurity researchers have discovered  a new supply chain attack in which legitimate packages on npm and the Python Package Index (PyPI) repository have been compromised to push malicious versions to facilitate wallet credential theft and remote code execution.  The compromised versions of the two packages are listed below -   @dydxprotocol/v4-client-js  (npm) - 3.4.1, 1.22.1, 1.15.2, 1.0.31   dydx-v4-client  (PyPI) - 1.1.5post1   \"The @dydxprotocol/v4-client-js (npm) and dydx-v4-client (PyPI) packages provide developers with tools to interact with the dYdX v4 protocol, including transaction signing, order placement, and wallet management,\" Socket security researcher Kush Pandya noted. \"Applications using these packages handle sensitive cryptocurrency operations.\"  dYdX  is a non-custodial, decentralized cryptocurrency exchange for trading margin and perpetual swaps, while allowing users to retain full control over their assets. On its website, the DeFi exchang...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "compromised-dydx-npm-and-pypi-packages-deliver-wal",
+      "source": "The Hacker News",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
+      "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
+      "summary": "Artificial intelligence (AI) company Anthropic revealed  that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript , OpenSC , and CGIF .  Claude Opus 4.6, which was launched  Thursday, comes with improved coding skills, including code review and debugging capabilities, along with enhancements to tasks like financial analyses, research, and document creation.  Stating that the model is \"notably better\" at discovering high-severity vulnerabilities without requiring any task-specific tooling, custom scaffolding, or specialized prompting, Anthropic said it is putting it to use to find and help fix vulnerabilities in open-source software.   \"Opus 4.6 reads and reasons about code the way a human researcher would—looking at past fixes to find similar bugs that weren't addressed, spotting patterns that tend to cause problems, or understanding a piece of...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "claude-opus-46-finds-500-high-severity-flaws-acros",
+      "source": "The Hacker News",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
+      "link": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
+      "summary": "The distributed denial-of-service ( DDoS ) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds.  Cloudflare, which automatically detected and mitigated the activity, said  it's part of a growing number of hyper-volumetric HTTP DDoS attacks mounted by the botnet in the fourth quarter of 2025. The attack took place in November 2025.  AISURU/Kimwolf  has also been linked to another DDoS campaign codenamed The Night Before Christmas that commenced on December 19, 2025. Per Cloudflare, the average size of the hyper-volumetric DDoS attacks during the campaign was 3 billion packets per second (Bpps), 4 Tbps, and 54 requests per second (Mrps), with the maximum rates touching 9 Bpps, 24 Tbps, and 205 Mrps.   \"DDoS attacks surged by 121% in 2025, reaching an average of 5,376 attacks automatically mitigated every hour,\" Cloudflare's Omer Yoachimik and Jorge Pacheco said. \"In...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "aisurukimwolf-botnet-launches-record-setting-314-t",
+      "source": "The Hacker News",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
+      "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
+      "summary": "This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next.  Researchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That’s the point. Entry is becoming less visible while impact scales later.  Several findings also show how attackers are industrializing their work — shared infrastructure, repeatable playbooks, rented access, and affiliate-style ecosystems. Operations are no longer isolated campaigns. They run more like services.  This edition pulls those fragments together — short, precise updates that show where techniques are maturing, where exposure is widening, and what patterns are forming behind the noise.             Startup espionage expansion  Operation Nomad Leopard Targets Afghanistan  In a sign that the threat actor has moved beyond government targets, th...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-codespaces-rce-asyncrat-c2-byo",
+      "source": "The Hacker News",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "The Buyer’s Guide to AI Usage Control",
+      "link": "https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html",
+      "summary": "Today’s “AI everywhere” reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools that appear faster than security teams can track. Yet most organizations still rely on legacy controls that operate far away from where AI interactions actually occur. The result is a widening governance gap where AI usage grows exponentially, but visibility and control do not.   With AI becoming central to productivity, enterprises face a new challenge: enabling the business to innovate while maintaining governance, compliance, and security.   A new Buyer’s Guide for AI Usage Control  argues that enterprises have fundamentally misunderstood where AI risk lives. Discovering AI Usage and Eliminating ‘Shadow’ AI will also be discussed in an upcoming virtual lunch and learn .   The surprising truth is that AI security isn’t a data problem or an app problem. It’s an interaction pro...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "the-buyers-guide-to-ai-usage-control",
+      "source": "The Hacker News",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
+      "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
+      "summary": "The elusive Iranian threat group known as Infy  (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout  the regime imposed at the start of January 2026.  \"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we began monitoring their activities,\" Tomer Bar, vice president of security research at SafeBreach, said  in a report shared with The Hacker News.  \"This was the same day a country-wide internet shutdown was imposed by Iranian authorities in response to recent protests, which likely suggests that even government-affiliated cyber units did not have the ability or motivation to carry out malicious activities within Iran.\"  The cybersecurity company said it observed renewed activity on January 26, 2026, as the hacking crew set up new C2 servers, one day before the Iranian gov...",
+      "tags": [
+        "breach",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "infy-hackers-resume-operations-with-new-c2-servers",
+      "source": "The Hacker News",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks",
+      "link": "https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/",
+      "summary": "Used since at least 2019, DKnife has been targeting the desktop, mobile, and IoT devices of Chinese users.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "dknife-implant-used-by-chinese-threat-actor-for-ad",
+      "source": "SecurityWeek",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel",
+      "link": "https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/",
+      "summary": "The news comes after the Department of Energy conducted its annual Liberty Eclipse cybersecurity exercise.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "5-bills-to-boost-energy-sector-cyber-defenses-clea",
+      "source": "SecurityWeek",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "Critical SmarterMail Vulnerability Exploited in Ransomware Attacks",
+      "link": "https://www.securityweek.com/critical-smartermail-vulnerability-exploited-in-ransomware-attacks/",
+      "summary": "The security defect allows unauthenticated attackers to execute arbitrary code remotely via malicious HTTP requests.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-smartermail-vulnerability-exploited-in-ra",
+      "source": "SecurityWeek",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "Concerns Raised Over CISA’s Silent Ransomware Updates in KEV Catalog",
+      "link": "https://www.securityweek.com/questions-raised-over-cisas-silent-ransomware-updates-in-kev-catalog/",
+      "summary": "CISA updated 59 KEV entries in 2025 to specify that the vulnerabilities have been exploited in ransomware attacks.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "concerns-raised-over-cisas-silent-ransomware-updat",
+      "source": "SecurityWeek",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "Zscaler Acquires Browser Security Firm SquareX",
+      "link": "https://www.securityweek.com/zscaler-acquires-browser-security-firm-squarex/",
+      "summary": "Zscaler says the acquisition will allow customers to embed lightweight extensions into any browser, providing increased security and eliminating the need for third-party browsers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "zscaler-acquires-browser-security-firm-squarex",
+      "source": "SecurityWeek",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "Substack Discloses Security Incident After Hacker Leaks Data",
+      "link": "https://www.securityweek.com/substack-discloses-security-incident-after-hacker-leaks-data/",
+      "summary": "The hacker claims to have stolen nearly 700,000 Substack user records, including email addresses and phone numbers.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "substack-discloses-security-incident-after-hacker-",
+      "source": "SecurityWeek",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "CISA orders federal agencies to replace end-of-life edge devices",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-replace-end-of-life-edge-devices/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a new binding operational directive requiring federal agencies to identify and remove network edge devices that no longer receive security updates from manufacturers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cisa-orders-federal-agencies-to-replace-end-of-lif",
+      "source": "BleepingComputer",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "Spain's Ministry of Science shuts down systems after breach claims",
+      "link": "https://www.bleepingcomputer.com/news/security/spains-ministry-of-science-shuts-down-systems-after-breach-claims/",
+      "summary": "Spain's Ministry of Science (Ministerio de Ciencia) announced a partial shutdown of its IT systems, affecting several citizen- and company-facing services.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "spains-ministry-of-science-shuts-down-systems-afte",
+      "source": "BleepingComputer",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "Ransomware gang uses ISPsystem VMs for stealthy payload delivery",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ispsystem-vms-for-stealthy-payload-delivery/",
+      "summary": "Ransomware operators are hosting and delivering malicious payloads at scale by abusing virtual machines (VMs) provisioned by ISPsystem, a legitimate virtual infrastructure management provider.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "ransomware-gang-uses-ispsystem-vms-for-stealthy-pa",
+      "source": "BleepingComputer",
+      "date": "2026-02-06"
+    }
+  ]
+}

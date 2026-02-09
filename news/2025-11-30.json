@@ -1,0 +1,207 @@
+{
+  "date": "2025-11-30",
+  "items": [
+    {
+      "title": "Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages",
+      "link": "https://thehackernews.com/2025/11/legacy-python-bootstrap-scripts-create.html",
+      "summary": "Cybersecurity researchers have discovered vulnerable code in legacy Python packages that could potentially pave the way for a supply chain compromise on the Python Package Index (PyPI) via a domain takeover attack.  Software supply chain security company ReversingLabs said it found the \"vulnerability\" in bootstrap files provided by a build and deployment automation tool named \"zc.buildout.\"  \"The scripts automate the process of downloading, building, and installing the required libraries and tools,\" security researcher Vladimir Pezo said . \"Specifically, when the bootstrap script is executed, it fetches and executes an installation script for the package Distribute from python-distribute[.]org – a legacy domain that is now available for sale in the premium price range while being managed to drive ad revenue.\"  The PyPI packages that include a bootstrap script that accesses the domain in question include tornado, pypiserver, slapos.core, roman, x...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "legacy-python-bootstrap-scripts-create-domain-take",
+      "source": "The Hacker News",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware",
+      "link": "https://thehackernews.com/2025/11/north-korean-hackers-deploy-197-npm.html",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign have continued to flood the npm registry with 197 more malicious packages since last month .  According to Socket , these packages have been downloaded over 31,000 times, and are designed to deliver a variant of OtterCookie that brings together the features of BeaverTail and prior versions of OtterCookie.   Some of the identified \"loader\" packages are listed below -   bcryptjs-node  cross-sessions  json-oauth  node-tailwind  react-adparser  session-keeper  tailwind-magic  tailwindcss-forms  webpack-loadcss    The malware, once launched, attempts to evade sandboxes and virtual machines, profiles the machine, and then establishes a command-and-control (C2) channel to provide the attackers with a remote shell, along with capabilities to steal clipboard contents, log keystrokes, capture screenshots, and gather browser credentials, documents, cryptocurrency wallet data, and seed phrases.  It's worth notin...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "north-korean-hackers-deploy-197-npm-packages-to-sp",
+      "source": "The Hacker News",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Why Organizations Are Turning to RPAM",
+      "link": "https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html",
+      "summary": "As IT environments become increasingly distributed and organizations adopt hybrid and remote work at scale, traditional perimeter-based security models and on-premises Privileged Access Management (PAM) solutions no longer suffice. IT administrators, contractors and third-party vendors now require secure access to critical systems from any location and on any device, without compromising compliance or increasing security risks. To keep up with modern demands, many organizations are turning to Remote Privileged Access Management (RPAM) for a cloud-based approach to securing privileged access that extends protection beyond on-prem environments to wherever privileged users connect.  Continue reading to learn more about RPAM, how it differs from traditional PAM and why RPAM adoption is growing across all industries.  What is RPAM?  Remote Privileged Access Management  (RPAM) allows organizations to securely monitor and manage privileged access for remote and third-party users. Unlike trad...",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "why-organizations-are-turning-to-rpam",
+      "source": "The Hacker News",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants",
+      "link": "https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html",
+      "summary": "Cybersecurity researchers have shed light on a cross-tenant blind spot that allows attackers to bypass Microsoft Defender for Office 365 protections via the guest access  feature in Teams.  \"When users operate as guests in another tenant, their protections are determined entirely by that hosting environment, not by their home organization,\" Ontinue security researcher Rhys Downing said  in a report.  \"These advancements increase collaboration opportunities, but they also widen the responsibility for ensuring those external environments are trustworthy and properly secured.\"  The development comes as Microsoft has begun rolling out a new feature in Teams that allows users to chat with anyone via email, including those who don't use the enterprise communications platform, starting this month. The change is expected to be globally available by January 2026.   \"The recipient will receive an email invitation to join the chat session as a guest, enabling seamles...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ms-teams-guest-access-can-remove-defender-protecti",
+      "source": "The Hacker News",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan",
+      "link": "https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html",
+      "summary": "The threat actor known as Bloody Wolf  has been attributed to a cyber attack campaign that has targeted Kyrgyzstan since at least June 2025 with the goal of delivering NetSupport RAT.  As of October 2025, the activity has expanded to also single out Uzbekistan, Group-IB researchers Amirbek Kurbanov and Volen Kayo said in a report published in collaboration with Ukuk, a state enterprise under the Prosecutor General's office of the Kyrgyz Republic. The attacks have targeted finance, government, and information technology (IT) sectors.  \"Those threat actors would impersonate the [Kyrgyzstan's] Ministry of Justice through official looking PDF documents and domain names, which in turn hosted malicious Java Archive (JAR) files designed to deploy the NetSupport RAT,\" the Singapore-headquartered company said .  \"This combination of social engineering and accessible tooling allows Bloody Wolf to remain effective while keeping a low operational profile.\"   Bloody Wol...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "bloody-wolf-expands-java-based-netsupport-rat-atta",
+      "source": "The Hacker News",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update",
+      "link": "https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html",
+      "summary": "Microsoft has announced plans to improve the security of Entra ID authentication by blocking unauthorized script injection attacks starting a year from now.  The update to its Content Security Policy (CSP) aims to enhance the Entra ID sign-in experience at \"login.microsoftonline[.]com\" by only letting scripts from trusted Microsoft domains run.  \"This update strengthens security and adds an extra layer of protection by allowing only scripts from trusted Microsoft domains to run during authentication, blocking unauthorized or injected code from executing during the sign-in experience,\" the Windows maker said .  Specifically, it only allows script downloads from Microsoft trusted CDN domains and inline script execution from a Microsoft trusted source. The updated policy is limited to browser-based sign-in experiences for URLs beginning with login.microsoftonline.com. Microsoft Entra External ID will not be affected.   The change, which has been described as a proacti...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-to-block-unauthorized-scripts-in-entra-i",
+      "source": "The Hacker News",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "French Soccer Federation Hit by Cyberattack, Member Data Stolen",
+      "link": "https://www.securityweek.com/french-soccer-federation-hit-by-cyberattack-member-data-stolen/",
+      "summary": "According to the federation, the unauthorized access was carried out using a compromised account.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "french-soccer-federation-hit-by-cyberattack-member",
+      "source": "SecurityWeek",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked",
+      "link": "https://www.securityweek.com/in-other-news-hashjack-ai-browser-attack-charming-kitten-leak-hacker-unmasked/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Scattered Spider members plead not guilty, TP-Link sues Netgear, Comcast agrees to $1.5 million fine.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-hashjack-ai-browser-attack-charming-",
+      "source": "SecurityWeek",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Asahi Data Breach Impacts 2 Million Individuals",
+      "link": "https://www.securityweek.com/asahi-data-breach-impacts-2-million-individuals/",
+      "summary": "Hackers stole the personal information of customers and employees before deploying ransomware and crippling Asahi’s operations in Japan.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "asahi-data-breach-impacts-2-million-individuals",
+      "source": "SecurityWeek",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "OpenAI User Data Exposed in Mixpanel Hack",
+      "link": "https://www.securityweek.com/openai-user-data-exposed-in-mixpanel-hack/",
+      "summary": "Multiple Mixpanel customers were impacted by a recent cyberattack targeting the product analytics company.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "openai-user-data-exposed-in-mixpanel-hack",
+      "source": "SecurityWeek",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Clover Security Raises $36 Million to Secure Software by Design",
+      "link": "https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/",
+      "summary": "The cybersecurity startup embeds AI agents into widely used tools to identify design flaws and eliminate them early.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "clover-security-raises-36-million-to-secure-softwa",
+      "source": "SecurityWeek",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI",
+      "link": "https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/",
+      "summary": "Cybercriminals impersonating financial institutions have targeted individuals, businesses, and organizations of different sizes.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "account-takeover-fraud-caused-262-million-in-losse",
+      "source": "SecurityWeek",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Japanese beer giant Asahi says data breach hit 1.5 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/japanese-beer-giant-asahi-says-data-breach-hit-15-million-people/",
+      "summary": "Asahi Group Holdings, Japan's largest beer producer, has finished the investigation into the September cyberattack and found that the incident has impacted up to 1.9 million individuals.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "japanese-beer-giant-asahi-says-data-breach-hit-15-",
+      "source": "BleepingComputer",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Leak confirms OpenAI is preparing ads on ChatGPT for public roll out",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/",
+      "summary": "OpenAI is now internally testing 'ads' inside ChatGPT that could redefine the web economy.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "leak-confirms-openai-is-preparing-ads-on-chatgpt-f",
+      "source": "BleepingComputer",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-30"
+    },
+    {
+      "title": "Save on this ethical hacking bundle: $33 through December 7th",
+      "link": "https://www.bleepingcomputer.com/offer/deals/save-on-this-ethical-hacking-bundle-33-through-december-7th/",
+      "summary": "Cybersecurity skills can cost thousands to acquire through formal training programs. The All-in-One Super-Sized Ethical Hacking Bundle is a cheaper alternative with 18 professional cybersecurity courses, and it's on sale for $32.97.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "save-on-this-ethical-hacking-bundle-33-through-dec",
+      "source": "BleepingComputer",
+      "date": "2025-11-30"
+    }
+  ]
+}

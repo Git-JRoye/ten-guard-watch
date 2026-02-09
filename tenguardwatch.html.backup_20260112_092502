@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors</div><div class="ticker-item">Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime</div><div class="ticker-item">China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines</div><div class="ticker-item">Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations</div><div class="ticker-item">Cybersecurity Predictions 2026: The Hype We Can Ignore (And the Risks We Can't)</div><div class="ticker-item">Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions</div><div class="ticker-item">In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k</div><div class="ticker-item">Tim Kosiba Named NSA Deputy Director</div><div class="ticker-item">FBI: North Korean Spear-Phishing Attacks Use Malicious QR Codes</div><div class="ticker-item">Trend Micro Patches Critical Code Execution Flaw in Apex Central</div><div class="ticker-item">CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over</div><div class="ticker-item">‘ZombieAgent’ Attack Let Researchers Take Over ChatGPT</div><div class="ticker-item">Microsoft is retiring 'Send to Kindle' in Word</div><div class="ticker-item">BreachForums hacking forum database leaked, exposing 324,000 accounts</div><div class="ticker-item">How to discover shadow AI [Free Guide]</div><div class="ticker-item">Spain arrests 34 suspects linked to Black Axe cyber crime</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors</h3>
+                <p><strong>Summary:</strong> The Iranian threat actor known as MuddyWater  has been attributed to a spear-phishing campaign targeting diplomatic, maritime, financial, and telecom entities in the Middle East with a Rust-based impl...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/muddywater-launches-rustywater-rat-via.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/muddywater-launches-rustywater-rat-via.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Europol Arrests 34 Black Axe Members in Spain Over €5.9M Fraud and Organized Crime</h3>
+                <p><strong>Summary:</strong> Europol on Friday announced the arrest of 34 individuals in Spain who are alleged to be part of an international criminal organization called Black Axe .  As part of an operation conducted by the Span...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/europol-arrests-34-black-axe-members-in.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/europol-arrests-34-black-axe-members-in.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines</h3>
+                <p><strong>Summary:</strong> Chinese-speaking threat actors are suspected to have leveraged a compromised SonicWall VPN appliance as an initial access vector to deploy a VMware ESXi exploit that may have been developed as far bac...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations</h3>
+                <p><strong>Summary:</strong> Russian state-sponsored threat actors have been linked to a fresh set of credential harvesting attacks targeting individuals associated with a Turkish energy and nuclear research agency, as well as st...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/russian-apt28-runs-credential-stealing.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/russian-apt28-runs-credential-stealing.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cybersecurity Predictions 2026: The Hype We Can Ignore (And the Risks We Can't)</h3>
+                <p><strong>Summary:</strong> As organizations plan for 2026, cybersecurity predictions are everywhere. Yet many strategies are still shaped by headlines and speculation rather than evidence. The real challenge isn't a lack of for...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/cybersecurity-predictions-2026-hype-we.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/cybersecurity-predictions-2026-hype-we.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions</h3>
+                <p><strong>Summary:</strong> Trend Micro has released  security updates to address multiple security vulnerabilities impacting on-premise versions of Apex Central for Windows, including a critical bug that could result in arbitra...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: Jaguar Land Rover sales crash, hundreds of gen-AI data policy violations, and Chinese cyberattacks against Taiwan intensified.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-8000-ransomware-attacks-china-hacked-us-gov-emails-idhs-breach-impacts-700k/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-8000-ransomware-attacks-china-hacked-us-gov-emails-idhs-breach-impacts-700k/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tim Kosiba Named NSA Deputy Director</h3>
+                <p><strong>Summary:</strong> Kosiba, a veteran of the Intelligence Community with over 30 years of federal service, returns to the agency as its most senior civilian leader.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tim-kosiba-named-nsa-deputy-director/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tim-kosiba-named-nsa-deputy-director/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI: North Korean Spear-Phishing Attacks Use Malicious QR Codes</h3>
+                <p><strong>Summary:</strong> The North Korean state-sponsored espionage group Kimsuky has targeted government organizations, think tanks, and academic institutions.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fbi-north-korean-spear-phishing-attacks-use-malicious-qr-codes/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fbi-north-korean-spear-phishing-attacks-use-malicious-qr-codes/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Trend Micro Patches Critical Code Execution Flaw in Apex Central</h3>
+                <p><strong>Summary:</strong> Tenable has released PoC code and technical details after the vendor announced the availability of patches for three vulnerabilities.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over</h3>
+                <p><strong>Summary:</strong> The Emergency Directives were retired because they achieved objectives or targeted vulnerabilities included in the KEV catalog.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-closes-10-emergency-directives-as-vulnerability-catalog-takes-over/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-closes-10-emergency-directives-as-vulnerability-catalog-takes-over/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>‘ZombieAgent’ Attack Let Researchers Take Over ChatGPT</h3>
+                <p><strong>Summary:</strong> Radware bypassed ChatGPT’s protections to exfiltrate user data and implant a persistent logic into the agent’s long-term memory.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/zombieagent-attack-let-researchers-take-over-chatgpt/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/zombieagent-attack-let-researchers-take-over-chatgpt/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft is retiring 'Send to Kindle' in Word</h3>
+                <p><strong>Summary:</strong> Microsoft is retiring a feature that allowed you to send your documents to Kindle straight from Microsoft Word.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-send-to-kindle-in-word/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-send-to-kindle-in-word/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BreachForums hacking forum database leaked, exposing 324,000 accounts</h3>
+                <p><strong>Summary:</strong> The latest incarnation of the notorious BreachForums hacking forum has suffered a data breach, with its user database table leaked online.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-database-leaked-exposing-324-000-accounts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-database-leaked-exposing-324-000-accounts/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to discover shadow AI [Free Guide]</h3>
+                <p><strong>Summary:</strong> Your guide to mitigating shadow AI risks</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/go/66/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/go/66/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Spain arrests 34 suspects linked to Black Axe cyber crime</h3>
+                <p><strong>Summary:</strong> Authorities in Spain have arrested 34 individuals allegedly part of a criminal network involved in cyber fraud and believed to be connected to the Black Axe group responsible for illicit activities ac...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/spain-arrests-34-suspects-linked-to-black-axe-cyber-crime/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/spain-arrests-34-suspects-linked-to-black-axe-cyber-crime/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

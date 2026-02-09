@@ -1,0 +1,218 @@
+{
+  "date": "2026-01-27",
+  "items": [
+    {
+      "title": "China-Linked Hackers Have Used the PeckBirdy JavaScript C2 Framework Since 2023",
+      "link": "https://thehackernews.com/2026/01/china-linked-hackers-have-used.html",
+      "summary": "Cybersecurity researchers have discovered a JScript -based command-and-control (C2) framework called PeckBirdy  that has been put to use by China-aligned APT actors since 2023 to target multiple environments.  The flexible framework has been put to use against Chinese gambling industries and malicious activities targeting Asian government entities and private organizations, according to Trend Micro.  \"PeckBirdy is a script-based framework which, while possessing advanced capabilities, is implemented using JScript, an old script language,\" researchers Ted Lee and Joseph C Chen said . \"This is to ensure that the framework could be launched across different execution environments via LOLBins (living-off-the-land binaries).\"  The cybersecurity company said it identified the PeckBirdy script framework in 2023 after it observed multiple Chinese gambling websites being injected with malicious scripts, which are designed to download and execute the primary payload in order...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "china-linked-hackers-have-used-the-peckbirdy-javas",
+      "source": "The Hacker News",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
+      "link": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
+      "summary": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks.  The vulnerability, tracked as CVE-2026-21509 , carries a CVSS score of 7.8 out of 10.0. It has been described as a security feature bypass in Microsoft Office.  \"Reliance on untrusted inputs in a security decision in Microsoft Office allows an unauthorized attacker to bypass a security feature locally,\" the tech giant said  in an advisory.  \"This update addresses a vulnerability that bypasses OLE  mitigations in Microsoft 365 and Microsoft Office, which protect users from vulnerable COM/OLE controls.\"  Successful exploitation of the flaw relies on an attacker sending a specially crafted Office file and convincing recipients to open it. It also noted that the Preview Pane is not an attack vector.   The Windows maker said customers running Office 2021 and later will be automatically protected via a service-side change , but will b...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-office-zero-day-cve-2026-21509-emergency",
+      "source": "The Hacker News",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Indian Users Targeted in Tax Phishing Campaign Delivering Blackmoon Malware",
+      "link": "https://thehackernews.com/2026/01/indian-users-targeted-in-tax-phishing.html",
+      "summary": "Cybersecurity researchers have discovered an ongoing campaign that's targeting Indian users with a multi-stage backdoor as part of a suspected cyber espionage campaign.  The activity , per the eSentire Threat Response Unit (TRU), involves using phishing emails impersonating the Income Tax Department of India to trick victims into downloading a malicious archive, ultimately granting the threat actors persistent access to their machines for continuous monitoring and data exfiltration.  The end goal of the sophisticated attack is to deploy a variant of a known banking trojan called Blackmoon (aka KRBanker) and a legitimate enterprise tool called SyncFuture TSM (Terminal Security Management) that's developed by Nanjing Zhongke Huasai Technology Co., Ltd , a Chinese company. The campaign has not been attributed to any known threat actor or group.   \"While marketed as a legitimate enterprise tool, it is repurposed in this campaign as a powerful, all-in-one espionage framework,...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "indian-users-targeted-in-tax-phishing-campaign-del",
+      "source": "The Hacker News",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Malicious VS Code AI Extensions with 1.5 Million Installs Steal Developer Source Code",
+      "link": "https://thehackernews.com/2026/01/malicious-vs-code-ai-extensions-with-15.html",
+      "summary": "Cybersecurity researchers have discovered  two malicious Microsoft Visual Studio Code (VS Code) extensions that are advertised as artificial intelligence (AI)-powered coding assistants, but also harbor covert functionality to siphon developer data to China-based servers.  The extensions, which have 1.5 million combined installs and are still available for download from the official Visual Studio Marketplace , are listed below -   ChatGPT - 中文版 (ID: whensunset.chatgpt-china) - 1,340,869 installs  ChatGPT - ChatMoss（CodeMoss）(ID: zhukunpeng.chat-moss) - 151,751 installs    Koi Security said the extensions are functional and work as expected, but they also capture every file being opened and every source code modification to servers located in China without users' knowledge or consent. The campaign has been codenamed MaliciousCorgi.  \"Both contain identical malicious code -- the same spyware infrastructure running under different publisher names,\" security researcher Tuval ...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-vs-code-ai-extensions-with-15-million-in",
+      "source": "The Hacker News",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "⚡ Weekly Recap: Firewall Flaws, AI-Built Malware, Browser Traps, Critical CVEs & More",
+      "link": "https://thehackernews.com/2026/01/weekly-recap-firewall-flaws-ai-built.html",
+      "summary": "Security failures rarely arrive loudly. They slip in through trusted tools, half-fixed problems, and habits people stop questioning. This week's recap shows that pattern clearly.  Attackers are moving faster than defenses, mixing old tricks with new paths. \"Patched\" no longer means safe, and every day, software keeps becoming the entry point.  What follows is a set of small but telling signals. Short updates that, together, show how quickly risk is shifting and why details can't be ignored.  ⚡ Threat of the Week  Improperly Patched Flaw Exploited Again in Fortinet Firewalls  — Fortinet confirmed that it's working to completely plug a FortiCloud SSO authentication bypass vulnerability following reports of fresh exploitation activity on fully-patched firewalls. \"We have identified a number of cases where the exploit was to a device that had been fully upgraded to the latest release at the time of the attack, which suggested a new attack path,\" the company said. The activi...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "-weekly-recap-firewall-flaws-ai-built-malware-brow",
+      "source": "The Hacker News",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Winning Against AI-Based Attacks Requires a Combined Defensive Approach",
+      "link": "https://thehackernews.com/2026/01/winning-against-ai-based-attacks.html",
+      "summary": "If there's a constant in cybersecurity, it's that adversaries are always innovating. The rise of offensive AI is transforming attack strategies and making them harder to detect. Google's Threat Intelligence Group , recently reported on adversaries using Large Language Models (LLMs) to both conceal code and generate malicious scripts on the fly, letting malware shape-shift in real-time to evade conventional defenses. A deeper look at these novel attacks reveals both unprecedented sophistication and deception.   In November 2025, Anthropic reported on what it described as the first known \"AI-orchestrated cyber espionage campaign.\" This operation featured AI integrated throughout the stages of attack, from initial access to exfiltration, which was executed largely autonomously by the AI itself.   Another recent trend concerns ClickFix-related attacks  using steganography techniques (hiding malware within image files) that slipped past signature-based scans. Skillfully disguised ...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "winning-against-ai-based-attacks-requires-a-combin",
+      "source": "The Hacker News",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Microsoft Patches Office Zero-Day Likely Exploited in Targeted Attacks",
+      "link": "https://www.securityweek.com/microsoft-patches-office-zero-day-likely-exploited-in-targeted-attacks/",
+      "summary": "The vulnerability is tracked as CVE-2026-21509 and it can be exploited to bypass security features.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-office-zero-day-likely-exploited",
+      "source": "SecurityWeek",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Access System Flaws Enabled Hackers to Unlock Doors at Major European Firms",
+      "link": "https://www.securityweek.com/access-system-flaws-enabled-hackers-to-unlock-doors-at-major-european-firms/",
+      "summary": "More than 20 vulnerabilities were found and patched in Dormakaba physical access control systems.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "access-system-flaws-enabled-hackers-to-unlock-door",
+      "source": "SecurityWeek",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Upwind Raises $250 Million at $1.5 Billion Valuation",
+      "link": "https://www.securityweek.com/upwind-raises-250-million-at-1-5-billion-valuation/",
+      "summary": "The CNAPP company will use the fresh investment to scale its runtime-first cloud security offering across data, AI and code.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "upwind-raises-250-million-at-15-billion-valuation",
+      "source": "SecurityWeek",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Crunchbase Confirms Data Breach After Hacking Claims",
+      "link": "https://www.securityweek.com/crunchbase-confirms-data-breach-after-hacking-claims/",
+      "summary": "Crunchbase was targeted alongside SoundCloud and Betterment in a ShinyHunters campaign.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "crunchbase-confirms-data-breach-after-hacking-clai",
+      "source": "SecurityWeek",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Cyber Insights 2026: Threat Hunting in an Age of Automation and AI",
+      "link": "https://www.securityweek.com/cyber-insights-2026-threat-hunting-in-an-age-of-automation-and-ai/",
+      "summary": "Understanding how threat hunting differs from reactive security provides a deeper understanding of the role, while hinting at how it will evolve in the future.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cyber-insights-2026-threat-hunting-in-an-age-of-au",
+      "source": "SecurityWeek",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "‘Stanley’ Malware Toolkit Enables Phishing via Website Spoofing",
+      "link": "https://www.securityweek.com/stanley-malware-toolkit-enables-phishing-via-website-spoofing/",
+      "summary": "Priced $2,000 – $6,000 on a cybercrime forum, the MaaS toolkit promises publication on the Chrome Web Store.",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "stanley-malware-toolkit-enables-phishing-via-websi",
+      "source": "SecurityWeek",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "New malware service guarantees phishing extensions on Chrome web store",
+      "link": "https://www.bleepingcomputer.com/news/security/new-malware-service-guarantees-phishing-extensions-on-chrome-web-store/",
+      "summary": "A new malware-as-a-service (MaaS) called 'Stanley' promises malicious Chrome extensions that can clear Google's review process and publish them to the Chrome Web Store.",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "new-malware-service-guarantees-phishing-extensions",
+      "source": "BleepingComputer",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "New ClickFix attacks abuse Windows App-V scripts to push malware",
+      "link": "https://www.bleepingcomputer.com/news/security/new-clickfix-attacks-abuse-windows-app-v-scripts-to-push-malware/",
+      "summary": "A new malicious campaign mixes the ClickFix method with fake CAPTCHA and a signed Microsoft Application Virtualization (App-V) script to ultimately deliver the Amatera infostealing malware.",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-clickfix-attacks-abuse-windows-app-v-scripts-t",
+      "source": "BleepingComputer",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Microsoft patches actively exploited Office zero-day vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-actively-exploited-office-zero-day-vulnerability/",
+      "summary": "Microsoft has released emergency security updates to patch a high-severity Office zero-day vulnerability exploited in attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-actively-exploited-office-zero-d",
+      "source": "BleepingComputer",
+      "date": "2026-01-27"
+    }
+  ]
+}

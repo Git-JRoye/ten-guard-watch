@@ -1,0 +1,212 @@
+{
+  "date": "2026-01-13",
+  "items": [
+    {
+      "title": "New Malware Campaign Delivers Remcos RAT Through Multi-Stage Windows Attack",
+      "link": "https://thehackernews.com/2026/01/new-malware-campaign-delivers-remcos.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed SHADOW#REACTOR  that employs an evasive multi-stage attack chain to deliver a commercially available remote administration tool called Remcos RAT  and establish persistent, covert remote access.  \"The infection chain follows a tightly orchestrated execution path: an obfuscated VBS launcher executed via wscript.exe invokes a PowerShell downloader, which retrieves fragmented, text-based payloads from a remote host,\" Securonix researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said  in a technical report shared with The Hacker News.  \"These fragments are reconstructed into encoded loaders, decoded in memory by a .NET Reactor–protected assembly, and used to fetch and apply a remote Remcos configuration. The final stage leverages MSBuild.exe as a living-off-the-land binary (LOLBin) to complete execution, after which the Remcos RAT backdoor is fully deployed and takes control of the comprom...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-malware-campaign-delivers-remcos-rat-through-m",
+      "source": "The Hacker News",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "CISA Warns of Active Exploitation of Gogs Vulnerability Enabling Code Execution",
+      "link": "https://thehackernews.com/2026/01/cisa-warns-of-active-exploitation-of.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned of active exploitation of a high-severity security flaw impacting Gogs  by adding  it to its Known Exploited Vulnerabilities ( KEV ) catalog.  The vulnerability, tracked as CVE-2025-8110  (CVSS score: 8.7), relates to a case of path traversal in the repository file editor that could result in code execution.  \"Gogs Path Traversal Vulnerability: Gogs contains a path traversal vulnerability affecting improper Symbolic link handling in the PutContents API that could allow for code execution,\" CISA said in an advisory.  Details of the shortcoming came to light  last month when Wiz said it discovered it being exploited in zero-day attacks. The vulnerability essentially bypasses protections put in place for CVE-2024-55947 to achieve code execution by creating a git repository, committing a symbolic link pointing to a sensitive target, and using the PutContents API to write data to the symlink.   This, in t...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-warns-of-active-exploitation-of-gogs-vulnerab",
+      "source": "The Hacker News",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "n8n Supply Chain Attack Abuses Community Nodes to Steal OAuth Tokens",
+      "link": "https://thehackernews.com/2026/01/n8n-supply-chain-attack-abuses.html",
+      "summary": "Threat actors have been observed uploading a set of eight packages on the npm registry that masqueraded as integrations targeting the n8n  workflow automation platform to steal developers' OAuth credentials.  One such package, named \"n8n-nodes-hfgjf-irtuinvcm-lasdqewriit,\" mimics a Google Ads integration, and prompts users to link their advertising account in a seemingly legitimate form and then siphon OAuth credentials to servers under the attackers' control.  \"The attack represents a new escalation in supply chain threats,\" Endor Labs said  in a report published last week. \"Unlike traditional npm malware, which often targets developer credentials, this campaign exploited workflow automation platforms that act as centralized credential vaults – holding OAuth tokens, API keys, and sensitive credentials for dozens of integrated services like Google Ads, Stripe, and Salesforce in a single location.\"   The complete list of identified packages, which ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "n8n-supply-chain-attack-abuses-community-nodes-to-",
+      "source": "The Hacker News",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "⚡ Weekly Recap: AI Automation Exploits, Telecom Espionage, Prompt Poaching & More",
+      "link": "https://thehackernews.com/2026/01/weekly-recap-ai-automation-exploits.html",
+      "summary": "This week made one thing clear: small oversights can spiral fast. Tools meant to save time and reduce friction turned into easy entry points once basic safeguards were ignored. Attackers didn't need novel tricks. They used what was already exposed and moved in without resistance.  Scale amplified the damage. A single weak configuration rippled out to millions. A repeatable flaw worked again and again. Phishing crept into apps people rely on daily, while malware blended into routine system behavior. Different victims, same playbook: look normal, move quickly, spread before alarms go off.  For defenders, the pressure keeps rising. Vulnerabilities are exploited almost as soon as they surface. Claims and counterclaims appear before the facts settle. Criminal groups adapt faster each cycle. The stories that follow show where things failed—and why those failures matter going forward.  ⚡ Threat of the Week  Maximum Severity Security Flaw Disclosed in n8n  — A maximum-severity vulnerability ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "-weekly-recap-ai-automation-exploits-telecom-espio",
+      "source": "The Hacker News",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "GoBruteforcer Botnet Targets Crypto Project Databases by Exploiting Weak Credentials",
+      "link": "https://thehackernews.com/2026/01/gobruteforcer-botnet-targets-crypto.html",
+      "summary": "A new wave of GoBruteforcer  attacks has targeted databases of cryptocurrency and blockchain projects to co-opt them into a botnet that's capable of brute-forcing user passwords for services such as FTP, MySQL, PostgreSQL, and phpMyAdmin on Linux servers.  \"The current wave of campaigns is driven by two factors: the mass reuse of AI-generated server deployment examples that propagate common usernames and weak defaults, and the persistence of legacy web stacks such as XAMPP that expose FTP and admin interfaces with minimal hardening,\" Check Point Research said  in an analysis published last week.  GoBruteforcer, also called GoBrut, was first documented  by Palo Alto Networks Unit 42 in March 2023, documenting its ability to target Unix-like platforms running x86, x64, and ARM architectures to deploy an Internet Relay Chat (IRC) bot and a web shell for remote access, along with fetching a brute-force module to scan for vulnerable systems and expand the botnet's reach. ...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "gobruteforcer-botnet-targets-crypto-project-databa",
+      "source": "The Hacker News",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "Anthropic Launches Claude AI for Healthcare with Secure Health Record Access",
+      "link": "https://thehackernews.com/2026/01/anthropic-launches-claude-ai-for.html",
+      "summary": "Anthropic has become the latest Artificial intelligence (AI) company to announce a new suite of features that allows users of its Claude platform to better understand their health information.  Under an initiative called Claude for Healthcare , the company said U.S. subscribers of Claude Pro and Max plans can opt to give Claude secure access to their lab results and health records by connecting to HealthEx and Function , with Apple Health and Android Health Connect integrations rolling out later this week via its iOS and Android apps.  \"When connected, Claude can summarize users' medical history, explain test results in plain language, detect patterns across fitness and health metrics, and prepare questions for appointments,\" Anthropic said . \"The aim is to make patients' conversations with doctors more productive, and to help users stay well-informed about their health.\"   The development comes merely days after OpenAI unveiled ChatGPT Health  as a dedicated e...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "anthropic-launches-claude-ai-for-healthcare-with-s",
+      "source": "The Hacker News",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF",
+      "link": "https://www.securityweek.com/cyber-fraud-overtakes-ransomware-as-top-ceo-concern-wef/",
+      "summary": "Ransomware remains the biggest concern for CISOs in 2026, according to WEF’s Global Cybersecurity Outlook 2026 report.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "cyber-fraud-overtakes-ransomware-as-top-ceo-concer",
+      "source": "SecurityWeek",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "Cyber Insights 2026: What CISOs Can Expect in 2026 and Beyond",
+      "link": "https://www.securityweek.com/cyber-insights-2026-what-cisos-can-expect-in-2026-and-beyond/",
+      "summary": "Here we examine the CISO Outlook for 2026, with the purpose of evaluating what is happening now and preparing leaders for what lies ahead in 2026 and beyond.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cyber-insights-2026-what-cisos-can-expect-in-2026-",
+      "source": "SecurityWeek",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "Instagram Fixes Password Reset Vulnerability Amid User Data Leak",
+      "link": "https://www.securityweek.com/instagram-fixes-password-reset-vulnerability-amid-user-data-leak/",
+      "summary": "The social media platform confirmed that the issue allowed third parties to send password reset emails to Instagram users.",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "instagram-fixes-password-reset-vulnerability-amid-",
+      "source": "SecurityWeek",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "Russia’s APT28 Targeting Energy Research, Defense Collaboration Entities",
+      "link": "https://www.securityweek.com/russias-apt28-targeting-energy-research-defense-collaboration-entities/",
+      "summary": "APT28 was seen impersonating popular webmail and VPN services, including Microsoft OWA, Google, and Sophos VPN portals.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "russias-apt28-targeting-energy-research-defense-co",
+      "source": "SecurityWeek",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "LLMs in Attacker Crosshairs, Warns Threat Intel Firm",
+      "link": "https://www.securityweek.com/llms-in-attacker-crosshairs-warns-threat-intel-firm/",
+      "summary": "Threat actors are hunting for misconfigured proxy servers to gain access to APIs for various LLMs.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "llms-in-attacker-crosshairs-warns-threat-intel-fir",
+      "source": "SecurityWeek",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "EU Sets February Deadline for Verdict on Google’s $32B Wiz Acquisition",
+      "link": "https://www.securityweek.com/eu-sets-february-deadline-for-verdict-on-googles-32b-wiz-acquisition/",
+      "summary": "The record-breaking deal has already received a green light from the US government.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "eu-sets-february-deadline-for-verdict-on-googles-3",
+      "source": "SecurityWeek",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "Hacker gets seven years for breaching Rotterdam and Antwerp ports",
+      "link": "https://www.bleepingcomputer.com/news/security/hacker-gets-seven-years-for-breaching-rotterdam-and-antwerp-ports/",
+      "summary": "The Amsterdam Court of Appeal sentenced a 44-year-old Dutch national to seven years in prison for multiple crimes, including computer hacking and attempted extortion.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "hacker-gets-seven-years-for-breaching-rotterdam-an",
+      "source": "BleepingComputer",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "Facebook login thieves now using browser-in-browser trick",
+      "link": "https://www.bleepingcomputer.com/news/security/facebook-login-thieves-now-using-browser-in-browser-trick/",
+      "summary": "Hackers over the past six months have relied increasingly more on the browser-in-the-browser (BitB) method to trick users into providing Facebook account credentials.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "facebook-login-thieves-now-using-browser-in-browse",
+      "source": "BleepingComputer",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "5-critical-microsoft-365-security-settings-you-cou",
+      "source": "BleepingComputer",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-in-zero-day-attacks/",
+      "summary": "CISA has ordered government agencies to secure their systems against a high-severity Gogs vulnerability that was exploited in zero-day attacks.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-",
+      "source": "BleepingComputer",
+      "date": "2026-01-13"
+    }
+  ]
+}

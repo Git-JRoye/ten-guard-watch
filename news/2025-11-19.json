@@ -1,0 +1,206 @@
+{
+  "date": "2025-11-19",
+  "items": [
+    {
+      "title": "Fortinet Warns of New FortiWeb CVE-2025-58034 Vulnerability Exploited in the Wild",
+      "link": "https://thehackernews.com/2025/11/fortinet-warns-of-new-fortiweb-cve-2025.html",
+      "summary": "Fortinet has warned of a new security flaw in FortiWeb that it said has been exploited in the wild.  The medium-severity vulnerability, tracked as CVE-2025-58034 , carries a CVSS score of 6.7 out of a maximum of 10.0.  \"An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiWeb may allow an authenticated attacker to execute unauthorized code on the underlying system via crafted HTTP requests or CLI commands,\" the company said  in a Tuesday advisory.  In other words, successful attacks require an attacker to first authenticate themselves through some other means and chain it with CVE-2025-58034 to execute arbitrary operating system commands.   It has been addressed in the following versions -   FortiWeb 8.0.0 through 8.0.1 (Upgrade to 8.0.2 or above)  FortiWeb 7.6.0 through 7.6.5 (Upgrade to 7.6.6 or above)  FortiWeb 7.4.0 through 7.4.10 (Upgrade to 7.4.11 or above)  FortiWeb 7.2.0 through 7.2.11 (U...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fortinet-warns-of-new-fortiweb-cve-2025-58034-vuln",
+      "source": "The Hacker News",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Sneaky 2FA Phishing Kit Adds BitB Pop-ups Designed to Mimic the Browser Address Bar",
+      "link": "https://thehackernews.com/2025/11/sneaky-2fa-phishing-kit-adds-bitb-pop.html",
+      "summary": "The malware authors associated with a Phishing-as-a-Service (PhaaS) kit known as Sneaky 2FA  have incorporated Browser-in-the-Browser (BitB) functionality into their arsenal, underscoring the continued evolution of such offerings and further making it easier for less-skilled threat actors to mount attacks at scale.  Push Security, in a report  shared with The Hacker News, said it observed the use of the technique in phishing attacks designed to steal victims' Microsoft account credentials.  BitB was first documented  by security researcher mr.d0x in March 2022, detailing how it's possible to leverage a combination of HTML and CSS code to create fake browser windows that can masquerade as login pages for legitimate services in order to facilitate credential theft .  \"BitB is principally designed to mask suspicious phishing URLs by simulating a pretty normal function of in-browser authentication – a pop-up login form,\" Push Security said. \"BitB phishing pages repl...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "sneaky-2fa-phishing-kit-adds-bitb-pop-ups-designed",
+      "source": "The Hacker News",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Meta Expands WhatsApp Security Research with New Proxy Tool and $4M in Bounties This Year",
+      "link": "https://thehackernews.com/2025/11/meta-expands-whatsapp-security-research.html",
+      "summary": "Meta on Tuesday said it has made available a tool called WhatsApp Research Proxy to some of its long-time bug bounty researchers to help improve the program and more effectively research the messaging platform's network protocol.  The idea is to make it easier to delve into WhatsApp-specific technologies as the application continues to be a lucrative attack surface  for state-sponsored actors and commercial spyware vendors.  The company also noted that it's setting up a pilot initiative where it's inviting research teams to focus on platform abuse with support for internal engineering and tooling. \"Our goal is to lower the barrier of entry for academics and other researchers who might not be as familiar with bug bounties to join our program,\" it added .   The development comes as the social media giant said it has awarded more than $25 million in bug bounties  to over 1,400 researchers from 88 countries in the last 15 years, out of which more than $4 million were...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "meta-expands-whatsapp-security-research-with-new-p",
+      "source": "The Hacker News",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Learn How Leading Companies Secure Cloud Workloads and Infrastructure at Scale",
+      "link": "https://thehackernews.com/2025/11/learn-how-leading-companies-secure.html",
+      "summary": "You've probably already moved some of your business to the cloud—or you're planning to. That's a smart move. It helps you work faster, serve your customers better, and stay ahead.  But as your cloud setup grows, it gets harder to control who can access what.  Even one small mistake—like the wrong person getting access—can lead to big problems. We're talking data leaks, legal trouble, and serious damage. And with different rules in different regions like the US, UK, EU, APAC, and more, keeping up is tough.  Join our free webinar: \" Securing Cloud Workloads and Infrastructure: Balancing Innovation with Identity and Access Control \" with experts from CyberArk. You'll learn simple, practical ways to stay secure and move fast.  Cloud tools today aren't all the same. Most companies use several cloud platforms at once—each with its own setup, rules, and risks. You want your team to stay fast and flexible, but you also need to keep everything safe. That's a tricky balance.  That's why we'...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "learn-how-leading-companies-secure-cloud-workloads",
+      "source": "The Hacker News",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Researchers Detail Tuoni C2's Role in an Attempted 2025 Real-Estate Cyber Intrusion",
+      "link": "https://thehackernews.com/2025/11/researchers-detail-tuoni-c2s-role-in.html",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber attack targeting a major U.S.-based real-estate company that involved the use of a nascent command-and-control (C2) and red teaming framework known as Tuoni .  \"The campaign leveraged the emerging Tuoni C2 framework, a relatively new, command-and-control (C2) tool (with a free license) that delivers stealthy, in-memory payloads,\" Morphisec researcher Shmuel Uzan said  in a report shared with The Hacker News.  Tuoni is advertised as an advanced C2 framework designed for security professionals, facilitating penetration testing operations, red team engagements, and security assessments. A \"Community Edition\" of the software is freely available  for download from GitHub. It was first released in early 2024.   The attack, per Morphisec, unfolded in mid-October 2025, with the unknown threat actor likely leveraging social engineering via Microsoft Teams impersonation  for initial access. It's suspected that t...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "researchers-detail-tuoni-c2s-role-in-an-attempted-",
+      "source": "The Hacker News",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Iranian Hackers Use DEEPROOT and TWOSTROKE Malware in Aerospace and Defense Attacks",
+      "link": "https://thehackernews.com/2025/11/iranian-hackers-use-deeproot-and.html",
+      "summary": "Suspected espionage-driven threat actors from Iran have been observed deploying backdoors like TWOSTROKE and DEEPROOT as part of continued attacks aimed at aerospace, aviation, and defense industries in the Middle East.  The activity has been attributed by Google-owned Mandiant to a threat cluster tracked as UNC1549  (aka GalaxyGato, Nimbus Manticore, or Subtle Snail), which was first documented  by the threat intelligence firm early last year.  \"Operating in late 2023 through 2025, UNC1549 employed sophisticated initial access vectors, including abuse of third-party relationships to gain entry (pivoting from service providers to their customers), VDI breakouts from third-parties, and highly targeted, role-relevant phishing,\" researchers Mohamed El-Banna, Daniel Lee, Mike Stokkel, and Josh Goddard said.  The disclosure comes about two months after Swiss cybersecurity company PRODAFT tied  the hacking group to a campaign targeting European telecommunications companies, succes...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "iranian-hackers-use-deeproot-and-twostroke-malware",
+      "source": "The Hacker News",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Microsoft Unveils Security Enhancements for Identity, Defense, Compliance",
+      "link": "https://www.securityweek.com/microsoft-unveils-security-enhancements-for-identity-defense-compliance/",
+      "summary": "Microsoft announced new security capabilities for Defender, Sentinel, Copilot, Intune, Purview, and Entra.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-unveils-security-enhancements-for-identi",
+      "source": "SecurityWeek",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Cloudflare Outage Not Caused by Cyberattack",
+      "link": "https://www.securityweek.com/cloudflare-says-highly-disruptive-outage-not-caused-by-attack/",
+      "summary": "Major online services such as ChatGPT, X, and Shopify were disrupted in a global Cloudflare outage on Nov. 18th, as well as transit and city services.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cloudflare-outage-not-caused-by-cyberattack",
+      "source": "SecurityWeek",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "MI5 Warns Lawmakers That Chinese Spies Are Trying to Reach Them via LinkedIn",
+      "link": "https://www.securityweek.com/mi5-warns-lawmakers-that-chinese-spies-are-trying-to-reach-them-via-linkedin/",
+      "summary": "Britain’s domestic intelligence agency warned that Chinese nationals were ”using LinkedIn profiles to conduct outreach at scale” on behalf of the Chinese Ministry of State Security.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "mi5-warns-lawmakers-that-chinese-spies-are-trying-",
+      "source": "SecurityWeek",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Meta Paid Out $4 Million via Bug Bounty Program in 2025",
+      "link": "https://www.securityweek.com/meta-paid-out-4-million-via-bug-bounty-program-in-2025/",
+      "summary": "The total amount of money given to bug bounty hunters by the social media giant has reached $25 million.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "meta-paid-out-4-million-via-bug-bounty-program-in-",
+      "source": "SecurityWeek",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Webinar Today: Protecting What WAFs and Gateways Can’t See – Register",
+      "link": "https://www.securityweek.com/webinar-today-protecting-what-wafs-and-gateways-cant-see-register/",
+      "summary": "Learn why legacy approaches fail to stop modern API threats and show how dedicated API security delivers the visibility, protection, and automation needed to defend against today’s evolving risks.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "webinar-today-protecting-what-wafs-and-gateways-ca",
+      "source": "SecurityWeek",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Apono Raises $34 Million for Cloud Identity Management Platform",
+      "link": "https://www.securityweek.com/apono-raises-34-million-for-cloud-identity-management-platform/",
+      "summary": "The company will use the investment to accelerate product development, expand go-to-market operations, and hire new talent.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "apono-raises-34-million-for-cloud-identity-managem",
+      "source": "SecurityWeek",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Thunderbird adds native support for Microsoft Exchange accounts",
+      "link": "https://www.bleepingcomputer.com/news/software/thunderbird-adds-native-support-for-microsoft-exchange-accounts/",
+      "summary": "Thunderbird 145 has been released with full native support for Microsoft Exchange email via the Exchange Web Services (EWS) protocol.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "thunderbird-adds-native-support-for-microsoft-exch",
+      "source": "BleepingComputer",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "New ShadowRay attacks convert Ray clusters into crypto miners",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shadowray-attacks-convert-ray-clusters-into-crypto-miners/",
+      "summary": "A global campaign dubbed ShadowRay 2.0 hijacks exposed Ray Clusters by exploiting an old code execution flaw to turn them into a self-propagating cryptomining botnet.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-shadowray-attacks-convert-ray-clusters-into-cr",
+      "source": "BleepingComputer",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Windows 11 gets new Cloud Rebuild, Point-in-Time Restore tools",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-gets-new-cloud-rebuild-point-in-time-restore-tools/",
+      "summary": "Microsoft announced two new Windows 11 recovery features today at the Ignite developer conference, called Cloud Rebuild and Point-in-Time Restore (PITR), that aim to reduce downtime and make it easier to recover from system failures or faulty updates.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "windows-11-gets-new-cloud-rebuild-point-in-time-re",
+      "source": "BleepingComputer",
+      "date": "2025-11-19"
+    }
+  ]
+}

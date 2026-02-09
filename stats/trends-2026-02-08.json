@@ -1,0 +1,318 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 63,
+      "cybersecurity": 31,
+      "vulnerability": 28,
+      "malware": 26,
+      "breach": 25,
+      "apt": 14,
+      "phishing": 11,
+      "critical": 10,
+      "ransomware": 7
+    },
+    "30_days": {
+      "attack": 233,
+      "cybersecurity": 143,
+      "vulnerability": 131,
+      "malware": 80,
+      "breach": 73,
+      "critical": 66,
+      "apt": 57,
+      "phishing": 47,
+      "ransomware": 25
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 63,
+      "High": 13,
+      "Low": 48
+    },
+    "30_days": {
+      "High": 78,
+      "Medium": 200,
+      "Low": 214
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 120
+  },
+  "top_keywords": {
+    "security": 279,
+    "attacks": 158,
+    "threat": 139,
+    "attack": 137,
+    "access": 132,
+    "code": 128,
+    "vulnerability": 122,
+    "malicious": 119,
+    "data": 118,
+    "malware": 114,
+    "cybersecurity": 107,
+    "cve": 97,
+    "activity": 94,
+    "campaign": 90,
+    "microsoft": 86,
+    "vulnerabilities": 80,
+    "company": 79,
+    "flaw": 77,
+    "exploited": 75,
+    "remote": 74
+  },
+  "daily_counts": [
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    },
+    {
+      "date": "2026-01-30",
+      "count": 16
+    },
+    {
+      "date": "2026-01-31",
+      "count": 16
+    },
+    {
+      "date": "2026-02-01",
+      "count": 16
+    },
+    {
+      "date": "2026-02-02",
+      "count": 16
+    },
+    {
+      "date": "2026-02-03",
+      "count": 16
+    },
+    {
+      "date": "2026-02-04",
+      "count": 12
+    },
+    {
+      "date": "2026-02-05",
+      "count": 16
+    },
+    {
+      "date": "2026-02-06",
+      "count": 16
+    },
+    {
+      "date": "2026-02-07",
+      "count": 16
+    },
+    {
+      "date": "2026-02-08",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities",
+      "link": "https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html",
+      "summary": "A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, ",
+      "urgency": "High",
+      "date": "2026-02-08",
+      "tags": [
+        "breach",
+        "apt",
+        "critical"
+      ]
+    },
+    {
+      "title": "Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities",
+      "link": "https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html",
+      "summary": "A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, ",
+      "urgency": "High",
+      "date": "2026-02-07",
+      "tags": [
+        "breach",
+        "apt",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical SmarterMail Vulnerability Exploited in Ransomware Attacks",
+      "link": "https://www.securityweek.com/critical-smartermail-vulnerability-exploited-in-ransomware-attacks/",
+      "summary": "The security defect allows unauthenticated attackers to execute arbitrary code remotely via malicious HTTP requests.",
+      "urgency": "High",
+      "date": "2026-02-06",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+      "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+      "summary": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw",
+      "urgency": "High",
+      "date": "2026-02-05",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft",
+      "link": "https://www.securityweek.com/dockerdash-flaw-in-docker-ai-assistant-leads-to-rce-data-theft/",
+      "summary": "The critical vulnerability exists in the contextual trust in MCP Gateway architecture, as instructions are passed without validation.",
+      "urgency": "High",
+      "date": "2026-02-05",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical n8n flaws disclosed along with public exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-n8n-flaws-disclosed-along-with-public-exploits/",
+      "summary": "Multiple critical vulnerabilities in the popular n8n open-source workflow automation platform allow escaping the confines of the environment and taking complete control of the host server.",
+      "urgency": "High",
+      "date": "2026-02-05",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
+      "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities ( KEV ) cata",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
+      "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon , an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line I",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package",
+      "link": "https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html",
+      "summary": "Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular \"@react-native-community/cli\" npm package.  Cybersecurity company VulnCheck s",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical React Native Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/",
+      "summary": "Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware.",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 124,
+    "total_30_days": 492,
+    "top_tag": "attack",
+    "last_update": "2026-02-08T09:43:49.604592"
+  }
+}

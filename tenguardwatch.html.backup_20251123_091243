@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Matrix Push C2 Uses Browser Notifications for Fileless, Cross-Platform Phishing Attacks</div><div class="ticker-item">CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability</div><div class="ticker-item">Grafana Patches CVSS 10.0 SCIM Flaw Enabling Impersonation and Privilege Escalation</div><div class="ticker-item">Google Brings AirDrop Compatibility to Android's Quick Share Using Rust-Hardened Security</div><div class="ticker-item">Why IT Admins Choose Samsung for Mobile Security</div><div class="ticker-item">APT24 Deploys BADAUDIO in Years-Long Espionage Hitting Taiwan and 1,000+ Domains</div><div class="ticker-item">In Other News: ATM Jackpotting, WhatsApp-NSO Lawsuit Continues, CISA Hiring</div><div class="ticker-item">Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day</div><div class="ticker-item">Over 370 Organizations Take Part in GridEx VIII Grid Security Exercise</div><div class="ticker-item">SonicWall Patches High-Severity Flaws in Firewalls, Email Security Appliance</div><div class="ticker-item">Chinese Cyberspies Deploy ‘BadAudio’ Malware via Supply Chain Attacks</div><div class="ticker-item">SquareX and Perplexity Quarrel Over Alleged Comet Browser Vulnerability</div><div class="ticker-item">CISA warns Oracle Identity Manager RCE flaw is being actively exploited</div><div class="ticker-item">Nvidia confirms October Windows updates cause gaming issues</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Microsoft: Out-of-band update fixes Windows 11 hotpatch install loop</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Matrix Push C2 Uses Browser Notifications for Fileless, Cross-Platform Phishing Attacks</h3>
+                <p><strong>Summary:</strong> Bad actors are leveraging browser notifications as a vector for phishing attacks to distribute malicious links by means of a new command-and-control (C2) platform called Matrix Push C2.  "This browser...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/matrix-push-c2-uses-browser.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/matrix-push-c2-uses-browser.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting Oracle Identity Manager to its Known Exploited Vulnerabilities ( KEV ) catalog, cit...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Grafana Patches CVSS 10.0 SCIM Flaw Enabling Impersonation and Privilege Escalation</h3>
+                <p><strong>Summary:</strong> Grafana has released security updates to address a maximum severity security flaw that could allow privilege escalation or user impersonation under certain configurations.  The vulnerability, tracked ...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/grafana-patches-cvss-100-scim-flaw.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/grafana-patches-cvss-100-scim-flaw.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Brings AirDrop Compatibility to Android's Quick Share Using Rust-Hardened Security</h3>
+                <p><strong>Summary:</strong> In a surprise move, Google on Thursday announced  that it has updated Quick Share, its peer-to-peer file transfer service, to work with Apple's equipment AirDrop, allowing users to more easily share f...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/google-adds-airdrop-compatibility-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/google-adds-airdrop-compatibility-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Why IT Admins Choose Samsung for Mobile Security</h3>
+                <p><strong>Summary:</strong> Ever wonder how some IT teams keep corporate data safe without slowing down employees? Of course you have.  Mobile devices are essential for modern work—but with mobility comes risk. IT admins, like y...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/why-it-admins-choose-samsung-for-mobile.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/why-it-admins-choose-samsung-for-mobile.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APT24 Deploys BADAUDIO in Years-Long Espionage Hitting Taiwan and 1,000+ Domains</h3>
+                <p><strong>Summary:</strong> A China-nexus threat actor known as APT24  has been observed using a previously undocumented malware dubbed BADAUDIO to establish persistent remote access to compromised networks as part of a nearly t...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/11/apt24-deploys-badaudio-in-years-long.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/11/apt24-deploys-badaudio-in-years-long.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: ATM Jackpotting, WhatsApp-NSO Lawsuit Continues, CISA Hiring</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: surge in Palo Alto Networks scanning, WEL Companies data breach impacts 120,000 people, AI second-order prompt injection attack.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-atm-jackpotting-whatsapp-nso-lawsuit-continues-cisa-hiring/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-atm-jackpotting-whatsapp-nso-lawsuit-continues-cisa-hiring/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day</h3>
+                <p><strong>Summary:</strong> CVE-2025-61757 is an unauthenticated remote code execution vulnerability affecting Oracle Identity Manager.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Over 370 Organizations Take Part in GridEx VIII Grid Security Exercise</h3>
+                <p><strong>Summary:</strong> The number of participants in the cyber and physical grid security exercise increased by nearly 50% compared to two years ago.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/over-370-organizations-take-part-in-gridex-viii-grid-security-exercise/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/over-370-organizations-take-part-in-gridex-viii-grid-security-exercise/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SonicWall Patches High-Severity Flaws in Firewalls, Email Security Appliance</h3>
+                <p><strong>Summary:</strong> The vulnerabilities could be exploited to cause a denial-of-service (DoS) condition, execute arbitrary code, or access arbitrary files and directories.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sonicwall-patches-high-severity-flaws-in-firewalls-email-security-appliance/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sonicwall-patches-high-severity-flaws-in-firewalls-email-security-appliance/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese Cyberspies Deploy ‘BadAudio’ Malware via Supply Chain Attacks</h3>
+                <p><strong>Summary:</strong> APT24 has been relying on various techniques to drop the BadAudio downloader and then deploy additional payloads.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chinese-cyberspies-deploy-badaudio-malware-via-supply-chain-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chinese-cyberspies-deploy-badaudio-malware-via-supply-chain-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SquareX and Perplexity Quarrel Over Alleged Comet Browser Vulnerability</h3>
+                <p><strong>Summary:</strong> SquareX claims to have found a way to abuse a hidden Comet API to execute local commands, but Perplexity says the research is fake.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/squarex-and-perplexity-quarrel-over-alleged-comet-browser-vulnerability/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/squarex-and-perplexity-quarrel-over-alleged-comet-browser-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA warns Oracle Identity Manager RCE flaw is being actively exploited</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity & Infrastructure Security Agency (CISA) is warning government agencies to patch an Oracle Identity Manager tracked as CVE-2025-61757 that has been exploited in attacks, potentia...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-oracle-identity-manager-rce-flaw-is-being-actively-exploited/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-oracle-identity-manager-rce-flaw-is-being-actively-exploited/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nvidia confirms October Windows updates cause gaming issues</h3>
+                <p><strong>Summary:</strong> Nvidia has confirmed that last month's security updates are causing gaming performance issues on Windows 11 24H2 and Windows 11 25H2 systems.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/technology/nvidia-fixes-gaming-issues-caused-by-october-windows-update/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/technology/nvidia-fixes-gaming-issues-caused-by-october-windows-update/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft: Out-of-band update fixes Windows 11 hotpatch install loop</h3>
+                <p><strong>Summary:</strong> Microsoft has released an out-of-band cumulative update to fix a known issue causing the November 2025 KB5068966 hotpatch update to reinstall on Windows 11 systems repeatedly.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-out-of-band-update-fixes-windows-11-hotpatch-install-loop/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-out-of-band-update-fixes-windows-11-hotpatch-install-loop/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected</div><div class="ticker-item">WhatsApp Rolls Out Lockdown-Style Security Mode to Protect Targeted Users From Spyware</div><div class="ticker-item">Experts Detect Pakistan-Linked Cyber Campaigns Aimed at Indian Government Entities</div><div class="ticker-item">ClickFix Attacks Expand Using Fake CAPTCHAs, Microsoft Scripts, and Trusted Web Services</div><div class="ticker-item">CTEM in Practice: Prioritization, Validation, and Outcomes That Matter</div><div class="ticker-item">Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation</div><div class="ticker-item">US Charges 31 More Defendants in Massive ATM Hacking Probe</div><div class="ticker-item">APTs, Cybercriminals Widely Exploiting WinRAR Vulnerability</div><div class="ticker-item">Indurex Emerges From Stealth to Close Security Gap in Cyber-Physical Systems</div><div class="ticker-item">Fortinet Patches Exploited FortiCloud SSO Authentication Bypass</div><div class="ticker-item">High-Severity Remote Code Execution Vulnerability Patched in OpenSSL</div><div class="ticker-item">Memcyco Raises $37 Million for Anti-Impersonation Technology</div><div class="ticker-item">OpenAI's ChatGPT ad costs are on par with live NFL broadcasts</div><div class="ticker-item">Fortinet blocks exploited FortiCloud SSO zero day until patch is ready</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Chinese Mustang Panda hackers deploy infostealers via CoolClient backdoor</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected</h3>
+                <p><strong>Summary:</strong> Fortinet has begun releasing security updates to address a critical flaw impacting FortiOS that has come under active exploitation in the wild.  The vulnerability, assigned the CVE identifier CVE-2026...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WhatsApp Rolls Out Lockdown-Style Security Mode to Protect Targeted Users From Spyware</h3>
+                <p><strong>Summary:</strong> Meta on Tuesday announced  it's adding Strict Account Settings  on WhatsApp to secure certain users against advanced cyber attacks because of who they are and what they do.  The feature, similar to Lo...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/whatsapp-rolls-out-lockdown-style.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/whatsapp-rolls-out-lockdown-style.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Experts Detect Pakistan-Linked Cyber Campaigns Aimed at Indian Government Entities</h3>
+                <p><strong>Summary:</strong> Indian government entities have been targeted in two campaigns undertaken by a threat actor that operates in Pakistan using previously undocumented tradecraft.  The campaigns have been codenamed Gophe...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/experts-detect-pakistan-linked-cyber.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/experts-detect-pakistan-linked-cyber.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ClickFix Attacks Expand Using Fake CAPTCHAs, Microsoft Scripts, and Trusted Web Services</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new campaign that combines ClickFix -style fake CAPTCHAs with a signed Microsoft Application Virtualization ( App-V ) script to distribute an info...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/clickfix-attacks-expand-using-fake.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/clickfix-attacks-expand-using-fake.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CTEM in Practice: Prioritization, Validation, and Outcomes That Matter</h3>
+                <p><strong>Summary:</strong> Cybersecurity teams increasingly want to move beyond looking at threats and vulnerabilities in isolation. It's not only about what could go wrong (vulnerabilities) or who might attack (threats), but w...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/ctem-in-practice-prioritization.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/ctem-in-practice-prioritization.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation</h3>
+                <p><strong>Summary:</strong> Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks.  The vulnerability, tracked as CVE-2026-21509 , carries a CVSS...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US Charges 31 More Defendants in Massive ATM Hacking Probe</h3>
+                <p><strong>Summary:</strong> A total of 87 individuals, mostly Venezuelan nationals, have been charged for their role in the ATM jackpotting scheme.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-charges-31-more-defendants-in-massive-atm-hacking-probe/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/us-charges-31-more-defendants-in-massive-atm-hacking-probe/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APTs, Cybercriminals Widely Exploiting WinRAR Vulnerability</h3>
+                <p><strong>Summary:</strong> Russian and Chinese state-sponsored threat actors have been exploiting CVE-2025-8088 since July 2025.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/apts-cybercriminals-widely-exploiting-winrar-vulnerability/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/apts-cybercriminals-widely-exploiting-winrar-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Indurex Emerges From Stealth to Close Security Gap in Cyber-Physical Systems</h3>
+                <p><strong>Summary:</strong> Indurex was founded by Jalal Bouhdada, who previously led industrial cybersecurity company Applied Risk.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/indurex-emerges-from-stealth-to-close-security-gap-in-cyber-physical-systems/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/indurex-emerges-from-stealth-to-close-security-gap-in-cyber-physical-systems/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Patches Exploited FortiCloud SSO Authentication Bypass</h3>
+                <p><strong>Summary:</strong> Tracked as CVE-2026-24858, the bug allows attackers to log into devices registered to other FortiCloud accounts.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fortinet-patches-exploited-forticloud-sso-authentication-bypass/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fortinet-patches-exploited-forticloud-sso-authentication-bypass/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>High-Severity Remote Code Execution Vulnerability Patched in OpenSSL</h3>
+                <p><strong>Summary:</strong> A total of 12 vulnerabilities have been fixed in OpenSSL, all discovered by a single cybersecurity firm.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/high-severity-remote-code-execution-vulnerability-patched-in-openssl/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/high-severity-remote-code-execution-vulnerability-patched-in-openssl/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Memcyco Raises $37 Million for Anti-Impersonation Technology</h3>
+                <p><strong>Summary:</strong> The startup will use the investment to fuel global expansion of its agentless platform, including in Latin America.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/memcyco-raises-37-million-for-anti-impersonation-technology/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/memcyco-raises-37-million-for-anti-impersonation-technology/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI's ChatGPT ad costs are on par with live NFL broadcasts</h3>
+                <p><strong>Summary:</strong> OpenAI plans to begin rolling out ads on ChatGPT in the United States if you have a free or $8 Go subscription, but the catch is that the ads could be very expensive for advertisers.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet blocks exploited FortiCloud SSO zero day until patch is ready</h3>
+                <p><strong>Summary:</strong> Fortinet has confirmed a new, actively exploited critical FortiCloud single sign-on (SSO) authentication bypass vulnerability, tracked as CVE-2026-24858, and says it has mitigated the zero-day attacks...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticloud-sso-zero-day-until-patch-is-ready/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticloud-sso-zero-day-until-patch-is-ready/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese Mustang Panda hackers deploy infostealers via CoolClient backdoor</h3>
+                <p><strong>Summary:</strong> The Chinese espionage threat group Mustang Panda has updated its CoolClient backdoor to a new variant that can steal login data from browsers and monitor the clipboard.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/chinese-mustang-panda-hackers-deploy-infostealers-via-coolclient-backdoor/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/chinese-mustang-panda-hackers-deploy-infostealers-via-coolclient-backdoor/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

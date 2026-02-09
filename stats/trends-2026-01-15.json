@@ -1,0 +1,313 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 56,
+      "vulnerability": 41,
+      "cybersecurity": 41,
+      "critical": 23,
+      "breach": 17,
+      "malware": 16,
+      "apt": 16,
+      "ransomware": 10,
+      "phishing": 10
+    },
+    "30_days": {
+      "attack": 228,
+      "cybersecurity": 118,
+      "vulnerability": 114,
+      "breach": 104,
+      "malware": 74,
+      "critical": 65,
+      "apt": 63,
+      "phishing": 37,
+      "ransomware": 29
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Low": 53,
+      "High": 30,
+      "Medium": 45
+    },
+    "30_days": {
+      "High": 72,
+      "Medium": 226,
+      "Low": 174
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 188,
+    "vulnerability": 153,
+    "data": 138,
+    "attacks": 133,
+    "users": 132,
+    "threat": 126,
+    "code": 120,
+    "cybersecurity": 109,
+    "million": 109,
+    "flaw": 106,
+    "attack": 95,
+    "cve": 92,
+    "malware": 83,
+    "campaign": 82,
+    "google": 81,
+    "critical": 79,
+    "access": 78,
+    "group": 77,
+    "browser": 76,
+    "through": 75
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html",
+      "summary": "Fortinet has released updates to fix a critical security flaw impacting FortiSIEM that could allow an unauthenticated attacker to achieve code execution on susceptible instances.  The operating system",
+      "urgency": "High",
+      "date": "2026-01-15",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "New Research: 64% of 3rd-Party Applications Access Sensitive Data Without Justification",
+      "link": "https://thehackernews.com/2026/01/new-research-64-of-3rd-party.html",
+      "summary": "Research analyzing 4,700 leading websites reveals that 64% of third-party applications now access sensitive data without business justification, up from 51% in 2024.   Government sector malicious acti",
+      "urgency": "High",
+      "date": "2026-01-15",
+      "tags": [
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2026-01-15",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Node.js Vulnerability Can Cause Server Crashes via async_hooks Stack Overflow",
+      "link": "https://thehackernews.com/2026/01/critical-nodejs-vulnerability-can-cause.html",
+      "summary": "Node.js has released updates to fix what it described as a critical security issue impacting \"virtually every production Node.js app\" that, if successfully exploited, could trigger a denial-of-service",
+      "urgency": "High",
+      "date": "2026-01-14",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "PLUGGYAPE Malware Uses Signal and WhatsApp to Target Ukrainian Defense Forces",
+      "link": "https://thehackernews.com/2026/01/pluggyape-malware-uses-signal-and.html",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed  details of new cyber attacks targeting its defense forces with malware known as PLUGGYAPE between October and December 2025.  T",
+      "urgency": "High",
+      "date": "2026-01-14",
+      "tags": [
+        "malware",
+        "attack"
+      ]
+    },
+    {
+      "title": "Adobe Patches Critical Apache Tika Bug in ColdFusion",
+      "link": "https://www.securityweek.com/adobe-patches-critical-apache-tika-bug-in-coldfusion/",
+      "summary": "Adobe has released patches for 25 vulnerabilities across its products, including a critical Apache Tika flaw in ColdFusion.",
+      "urgency": "High",
+      "date": "2026-01-14",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Patches Exploited Windows Zero-Day, 111 Other Vulnerabilities",
+      "link": "https://www.securityweek.com/microsoft-patches-exploited-windows-zero-day-111-other-vulnerabilities/",
+      "summary": "Two vulnerabilities patched this month by Microsoft were disclosed publicly before fixes were released.",
+      "urgency": "High",
+      "date": "2026-01-14",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Warns of Active Exploitation of Gogs Vulnerability Enabling Code Execution",
+      "link": "https://thehackernews.com/2026/01/cisa-warns-of-active-exploitation-of.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned of active exploitation of a high-severity security flaw impacting Gogs  by adding  it to its Known Exploited Vulnerabilities",
+      "urgency": "High",
+      "date": "2026-01-13",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2026-01-13",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-in-zero-day-attacks/",
+      "summary": "CISA has ordered government agencies to secure their systems against a high-severity Gogs vulnerability that was exploited in zero-day attacks.",
+      "urgency": "High",
+      "date": "2026-01-13",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-15T09:41:30.721818"
+  }
+}

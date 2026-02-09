@@ -1,0 +1,320 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 72,
+      "vulnerability": 41,
+      "cybersecurity": 28,
+      "malware": 24,
+      "critical": 21,
+      "apt": 17,
+      "phishing": 16,
+      "breach": 12,
+      "ransomware": 4
+    },
+    "30_days": {
+      "attack": 233,
+      "vulnerability": 131,
+      "cybersecurity": 127,
+      "breach": 86,
+      "malware": 76,
+      "critical": 66,
+      "apt": 56,
+      "phishing": 45,
+      "ransomware": 26
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 56,
+      "High": 22,
+      "Low": 50
+    },
+    "30_days": {
+      "Medium": 213,
+      "High": 75,
+      "Low": 188
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 104
+  },
+  "top_keywords": {
+    "security": 226,
+    "vulnerability": 151,
+    "attack": 134,
+    "access": 134,
+    "code": 133,
+    "data": 128,
+    "cybersecurity": 125,
+    "attacks": 124,
+    "threat": 111,
+    "cve": 102,
+    "flaw": 98,
+    "campaign": 94,
+    "malicious": 92,
+    "malware": 92,
+    "remote": 86,
+    "users": 85,
+    "activity": 78,
+    "browser": 77,
+    "microsoft": 76,
+    "targeting": 73
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "SolarWinds Fixes Four Critical Web Help Desk Flaws With Unauthenticated RCE and Auth Bypass",
+      "link": "https://thehackernews.com/2026/01/solarwinds-fixes-four-critical-web-help.html",
+      "summary": "SolarWinds has released  security updates to address multiple security vulnerabilities impacting SolarWinds Web Help Desk, including four critical vulnerabilities that could result in authentication b",
+      "urgency": "High",
+      "date": "2026-01-29",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
+      "link": "https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html",
+      "summary": "The \"coordinated\" cyber attack targeting multiple sites across the Polish power grid  has been attributed with medium confidence to a Russian state-sponsored hacking crew known as ELECTRUM .  Operatio",
+      "urgency": "High",
+      "date": "2026-01-29",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
+      "link": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
+      "summary": "Fortinet has begun releasing security updates to address a critical flaw impacting FortiOS that has come under active exploitation in the wild.  The vulnerability, assigned the CVE identifier CVE-2026",
+      "urgency": "High",
+      "date": "2026-01-28",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
+      "link": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
+      "summary": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks.  The vulnerability, tracked as CVE-2026-21509 , carries a CVSS",
+      "urgency": "High",
+      "date": "2026-01-28",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Fortinet blocks exploited FortiCloud SSO zero day until patch is ready",
+      "link": "https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticloud-sso-zero-day-until-patch-is-ready/",
+      "summary": "Fortinet has confirmed a new, actively exploited critical FortiCloud single sign-on (SSO) authentication bypass vulnerability, tracked as CVE-2026-24858, and says it has mitigated the zero-day attacks",
+      "urgency": "High",
+      "date": "2026-01-28",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
+      "link": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
+      "summary": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks.  The vulnerability, tracked as CVE-2026-21509 , carries a CVSS",
+      "urgency": "High",
+      "date": "2026-01-27",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "⚡ Weekly Recap: Firewall Flaws, AI-Built Malware, Browser Traps, Critical CVEs & More",
+      "link": "https://thehackernews.com/2026/01/weekly-recap-firewall-flaws-ai-built.html",
+      "summary": "Security failures rarely arrive loudly. They slip in through trusted tools, half-fixed problems, and habits people stop questioning. This week's recap shows that pattern clearly.  Attackers are moving",
+      "urgency": "High",
+      "date": "2026-01-27",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Patches Office Zero-Day Likely Exploited in Targeted Attacks",
+      "link": "https://www.securityweek.com/microsoft-patches-office-zero-day-likely-exploited-in-targeted-attacks/",
+      "summary": "The vulnerability is tracked as CVE-2026-21509 and it can be exploited to bypass security features.",
+      "urgency": "High",
+      "date": "2026-01-27",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft patches actively exploited Office zero-day vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-actively-exploited-office-zero-day-vulnerability/",
+      "summary": "Microsoft has released emergency security updates to patch a high-severity Office zero-day vulnerability exploited in attacks.",
+      "urgency": "High",
+      "date": "2026-01-27",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Adds Actively Exploited VMware vCenter Flaw CVE-2024-37079 to KEV Catalog",
+      "link": "https://thehackernews.com/2026/01/cisa-adds-actively-exploited-vmware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw affecting Broadcom VMware vCenter Server that was patched in June 2024 to its Known Exploited",
+      "urgency": "High",
+      "date": "2026-01-26",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 476,
+    "top_tag": "attack",
+    "last_update": "2026-01-29T09:59:10.492964"
+  }
+}

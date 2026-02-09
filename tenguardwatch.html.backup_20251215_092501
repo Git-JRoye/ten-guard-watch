@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks</div><div class="ticker-item">Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild</div><div class="ticker-item">Fake OSINT and GPT Utility GitHub Repos Spread PyStoreRAT Malware Payloads</div><div class="ticker-item">New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale</div><div class="ticker-item">Securing GenAI in the Browser: Policy, Isolation, and Data Controls That Actually Work</div><div class="ticker-item">New React RSC Vulnerabilities Enable DoS and Source Code Exposure</div><div class="ticker-item">In Other News: PromptPwnd Attack, macOS Bounty Complaints, Chinese Hackers Trained in Cisco Academy</div><div class="ticker-item">Gladinet CentreStack Flaw Exploited to Hack Organizations</div><div class="ticker-item">Fieldtex Data Breach Impacts 238,000</div><div class="ticker-item">Recent GeoServer Vulnerability Exploited in Attacks</div><div class="ticker-item">MITRE Releases 2025 List of Top 25 Most Dangerous Software Vulnerabilities</div><div class="ticker-item">Microsoft Bug Bounty Program Expanded to Third-Party Code</div><div class="ticker-item">CyberVolk’s ransomware debut stumbles on cryptography weakness</div><div class="ticker-item">This Montessori-inspired app for kids is now only $40 for life</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">Apple fixes two zero-day flaws exploited in 'sophisticated' attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a high-severity flaw impacting Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities ( KEV ) ca...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> Apple on Friday released  security updates for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and its Safari web browser to address two security flaws that it said have been exploited in the wild, one o...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/apple-issues-security-updates-after-two.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/apple-issues-security-updates-after-two.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake OSINT and GPT Utility GitHub Repos Spread PyStoreRAT Malware Payloads</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are calling attention to a new campaign that's leveraging GitHub-hosted Python repositories to distribute a previously undocumented JavaScript-based Remote Access Trojan (RAT...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/fake-osint-and-gpt-utility-github-repos.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/fake-osint-and-gpt-utility-github-repos.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have documented four new phishing kits named BlackForce, GhostFrame, InboxPrime AI, and Spiderman  that are capable of facilitating credential theft at scale.  BlackForce, fi...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Securing GenAI in the Browser: Policy, Isolation, and Data Controls That Actually Work</h3>
+                <p><strong>Summary:</strong> The browser has become the main interface to GenAI for most enterprises: from web-based LLMs and copilots, to GenAI‑powered extensions and agentic browsers like ChatGPT Atlas . Employees are leveragin...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/securing-genai-in-browser-policy.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/securing-genai-in-browser-policy.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New React RSC Vulnerabilities Enable DoS and Source Code Exposure</h3>
+                <p><strong>Summary:</strong> The React team has released  fixes for two new types of flaws in React Server Components (RSC) that, if successfully exploited, could result in denial-of-service (DoS) or source code exposure.  The te...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: PromptPwnd Attack, macOS Bounty Complaints, Chinese Hackers Trained in Cisco Academy</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: Pentagon orders accelerated move to PQC, US shuts down scheme to smuggle GPUs to China, DroidLock Android ransomware.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-promptpwnd-attack-small-macos-bounties-chinese-hackers-trained-in-cisco-academy/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-promptpwnd-attack-small-macos-bounties-chinese-hackers-trained-in-cisco-academy/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Gladinet CentreStack Flaw Exploited to Hack Organizations</h3>
+                <p><strong>Summary:</strong> Threat actors have hacked at least nine organizations by exploiting the recently patched Gladinet CentreStack flaw.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/gladinet-centrestack-flaw-exploited-to-hack-organizations/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/gladinet-centrestack-flaw-exploited-to-hack-organizations/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fieldtex Data Breach Impacts 238,000</h3>
+                <p><strong>Summary:</strong> The Akira ransomware group took credit for the Fieldtex Products hack in November, claiming to have stolen 14 Gb of data.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fieldtex-data-breach-impacts-238000/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fieldtex-data-breach-impacts-238000/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Recent GeoServer Vulnerability Exploited in Attacks</h3>
+                <p><strong>Summary:</strong> Because user input is not sufficiently sanitized, attackers could exploit the flaw to define external entities within an XML request.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-geoserver-vulnerability-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-geoserver-vulnerability-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MITRE Releases 2025 List of Top 25 Most Dangerous Software Vulnerabilities</h3>
+                <p><strong>Summary:</strong> XSS remains the top software weakness, followed by SQL injection and CSRF. Buffer overflow issues and improper access control make it to top 25.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/mitre-releases-2025-list-of-top-25-most-dangerous-software-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/mitre-releases-2025-list-of-top-25-most-dangerous-software-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Bug Bounty Program Expanded to Third-Party Code</h3>
+                <p><strong>Summary:</strong> All critical vulnerabilities in Microsoft, third-party, and open source code are eligible for rewards if they impact Microsoft services.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-bug-bounty-program-expanded-to-third-party-code/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-bug-bounty-program-expanded-to-third-party-code/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CyberVolk’s ransomware debut stumbles on cryptography weakness</h3>
+                <p><strong>Summary:</strong> The pro-Russia hacktivist group CyberVolk launched a ransomware-as-a-service (RaaS) called VolkLocker that suffered from serious implementation flaws, allowing victims to potentially decrypt files for...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cybervolks-ransomware-debut-stumbles-on-cryptography-weakness/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cybervolks-ransomware-debut-stumbles-on-cryptography-weakness/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>This Montessori-inspired app for kids is now only $40 for life</h3>
+                <p><strong>Summary:</strong> Finding screen time options that are both educational and stress-free can be a challenge for parents. Pok Pok offers a lifetime subscription to its Montessori-inspired learning app for just $39.97 wit...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-montessori-inspired-app-for-kids-is-now-only-40-for-life/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/this-montessori-inspired-app-for-kids-is-now-only-40-for-life/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple fixes two zero-day flaws exploited in 'sophisticated' attacks</h3>
+                <p><strong>Summary:</strong> Apple has released emergency updates to patch two zero-day vulnerabilities that were exploited in an "extremely sophisticated attack" targeting specific individuals.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-day-flaws-exploited-in-sophisticated-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-day-flaws-exploited-in-sophisticated-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

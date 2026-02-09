@@ -1,0 +1,215 @@
+{
+  "date": "2025-12-09",
+  "items": [
+    {
+      "title": "Researchers Find Malicious VS Code, Go, npm, and Rust Packages Stealing Developer Data",
+      "link": "https://thehackernews.com/2025/12/researchers-find-malicious-vs-code-go.html",
+      "summary": "Cybersecurity researchers have discovered two new extensions on Microsoft Visual Studio Code (VS Code) Marketplace that are designed to infect developer machines with stealer malware.  The VS Code extensions masquerade as a premium dark theme and an artificial intelligence (AI)-powered coding assistant, but, in actuality, harbor covert functionality to download additional payloads, take screenshots, and siphon data. The captured information is then sent to an attacker-controlled server.  \"Your code. Your emails. Your Slack DMs. Whatever's on your screen, they're seeing it too,\" Koi Security's Idan Dardikman said . \"And that's just the start. It also steals your WiFi passwords, reads your clipboard, and hijacks your browser sessions.\"   The names of the extensions are below -   BigBlack.bitcoin-black (16 installs) - Removed by Microsoft on December 5, 2025   BigBlack.codo-ai (25 installs) - Removed by Microsoft on December 8, 2025   Microsoft's l...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "researchers-find-malicious-vs-code-go-npm-and-rust",
+      "source": "The Hacker News",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Experts Confirm JS#SMUGGLER Uses Compromised Sites to Deploy NetSupport RAT",
+      "link": "https://thehackernews.com/2025/12/experts-confirm-jssmuggler-uses.html",
+      "summary": "Cybersecurity researchers are calling attention to a new campaign dubbed JS#SMUGGLER  that has been observed leveraging compromised websites as a distribution vector for a remote access trojan named NetSupport RAT .  The attack chain, analyzed by Securonix, involves three main moving parts: An obfuscated JavaScript loader injected into a website, an HTML Application (HTA) that runs encrypted PowerShell stagers using \"mshta.exe,\" and a PowerShell payload that's designed to download and execute the main malware.  \"NetSupport RAT enables full attacker control over the victim host, including remote desktop access, file operations, command execution, data theft, and proxy capabilities,\" researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said .  There is little evidence at this stage to tie the campaign to any known threat group or country. The activity has been found to target enterprise users through compromised websites, indicative of a broad-strokes ...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "experts-confirm-jssmuggler-uses-compromised-sites-",
+      "source": "The Hacker News",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "⚡ Weekly Recap: USB Malware, React2Shell, WhatsApp Worms, AI IDE Bugs & More",
+      "link": "https://thehackernews.com/2025/12/weekly-recap-usb-malware-react2shell.html",
+      "summary": "It's been a week of chaos in code and calm in headlines. A bug that broke the internet's favorite framework, hackers chasing AI tools, fake apps stealing cash, and record-breaking cyberattacks — all within days. If you blink, you'll miss how fast the threat map is changing.  New flaws are being found, published, and exploited in hours instead of weeks. AI-powered tools meant to help developers are quickly becoming new attack surfaces. Criminal groups are recycling old tricks with fresh disguises — fake apps, fake alerts, and fake trust.  Meanwhile, defenders are racing to patch systems, block massive DDoS waves, and uncover spy campaigns hiding quietly inside networks. The fight is constant, the pace relentless.  For a deeper look at these stories, plus new cybersecurity tools and upcoming expert webinars, check out the full ThreatsDay Bulletin.    ⚡ Threat of the Week  Max Severity React Flaw Comes Under Attack  — A critical security flaw impacting React Server Components (RSC) has ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "-weekly-recap-usb-malware-react2shell-whatsapp-wor",
+      "source": "The Hacker News",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "How Can Retailers Cyber-Prepare for the Most Vulnerable Time of the Year?",
+      "link": "https://thehackernews.com/2025/12/how-can-retailers-cyber-prepare-for.html",
+      "summary": "The holiday season compresses risk into a short, high-stakes window. Systems run hot, teams run lean, and attackers time automated campaigns to get maximum return. Multiple industry threat reports show that bot-driven fraud, credential stuffing and account takeover attempts intensify around peak shopping events , especially the weeks around Black Friday and Christmas.   Why holiday peaks amplify credential risk  Credential stuffing  and password reuse are attractive to attackers because they scale: leaked username/password lists are tested automatically against retail login portals and mobile apps, and successful logins unlock stored payment tokens, loyalty balances and shipping addresses. These are assets that can be monetized immediately. Industry telemetry indicates adversaries \"pre-stage\" attack scripts and configurations in the days before major sale events to ensure access during peak traffic.   Retail history also shows how vendor or partner credentials exp...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "how-can-retailers-cyber-prepare-for-the-most-vulne",
+      "source": "The Hacker News",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Android Malware FvncBot, SeedSnatcher, and ClayRat Gain Stronger Data Theft Features",
+      "link": "https://thehackernews.com/2025/12/android-malware-fvncbot-seedsnatcher.html",
+      "summary": "Cybersecurity researchers have disclosed details of two new Android malware families dubbed FvncBot  and SeedSnatcher , as another upgraded version of ClayRat  has been spotted in the wild.  The findings come from Intel 471 , CYFIRMA , and Zimperium , respectively.  FvncBot, which masquerades as a security app developed by mBank, targets mobile banking users in Poland. What's notable about the malware is that it's completely written from scratch and is not inspired by other Android banking trojans like ERMAC  that have had their source code leaked.  The malware \"implemented multiple features including keylogging by abusing Android's accessibility services, web-inject attacks, screen streaming and hidden virtual network computing (HVNC) to perform successful financial fraud,\" Intel 471 said.  Similar to the recently uncovered Albiriox  banking malware, the malware is protected by a crypting service known as apk0day that's offered by Golden Crypt. The malicious a...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "android-malware-fvncbot-seedsnatcher-and-clayrat-g",
+      "source": "The Hacker News",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks",
+      "link": "https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html",
+      "summary": "A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence.  The remote code execution vulnerability in question is CVE-2025-6389  (CVSS score: 9.8), which affects all versions of the plugin prior to and including 8.3. It has been patched in version 8.4, released on August 5, 2025. The plugin has more than 1,700 active installations.  \"This is due to the [sneeit_articles_pagination_callback()] function accepting user input and then passing that through call_user_func(),\" Wordfence said . \"This makes it possible for unauthenticated attackers to execute code on the server, which can be leveraged to inject backdoors or, for example, create new administrative user accounts.\"  In other words, the vulnerability can be leveraged to call an arbitrary PHP function, such as wp_insert_user(), to insert a malicious administrator user, which an attacker can then weaponize to seize control of the site an...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "sneeit-wordpress-rce-exploited-in-the-wild-while-i",
+      "source": "The Hacker News",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Google Fortifies Chrome Agentic AI Against Indirect Prompt Injection Attacks",
+      "link": "https://www.securityweek.com/google-fortifies-chrome-agentic-ai-against-indirect-prompt-injection-attacks/",
+      "summary": "Chrome’s new agentic browsing protections include user alignment critic, expanded origin-isolation capabilities, and user confirmations.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-fortifies-chrome-agentic-ai-against-indirec",
+      "source": "SecurityWeek",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "CISO Conversations: Keith McCammon, CSO and Co-founder at Red Canary",
+      "link": "https://www.securityweek.com/ciso-conversations-keith-mccammon-cso-and-co-founder-at-red-canary/",
+      "summary": "From a basement computer lab to the C-Suite: How Keith McCammon built his career and Red Canary with zero formal training.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ciso-conversations-keith-mccammon-cso-and-co-found",
+      "source": "SecurityWeek",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Resemble AI Raises $13 Million for AI Threat Detection",
+      "link": "https://www.securityweek.com/resemble-ai-raises-13-million-for-ai-threat-prevention/",
+      "summary": "The cybersecurity startup will use the investment to accelerate product development and fuel global expansion.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "resemble-ai-raises-13-million-for-ai-threat-detect",
+      "source": "SecurityWeek",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Tri-Century Eye Care Data Breach Impacts 200,000 Individuals",
+      "link": "https://www.securityweek.com/tri-century-eye-care-data-breach-impacts-200000-individuals/",
+      "summary": "Tri-Century Eye Care was targeted recently by the Pear ransomware group, which claimed to have stolen over 3 Tb of data.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "tri-century-eye-care-data-breach-impacts-200000-in",
+      "source": "SecurityWeek",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Ransomware Payments Surpassed $4.5 Billion: US Treasury",
+      "link": "https://www.securityweek.com/ransomware-payments-surpassed-4-5-billion-us-treasury/",
+      "summary": "Ransomware payments reached the highest level in 2023, at $1.1 billion paid in 1,512 reported incidents.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "ransomware-payments-surpassed-45-billion-us-treasu",
+      "source": "SecurityWeek",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Critical Apache Tika Vulnerability Leads to XXE Injection",
+      "link": "https://www.securityweek.com/critical-apache-tika-vulnerability-leads-to-xxe-injection/",
+      "summary": "The bug allows attackers to carry out XML External Entity (XXE) injection attacks via crafted XFA files inside PDF files.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-apache-tika-vulnerability-leads-to-xxe-in",
+      "source": "SecurityWeek",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Ransomware gangs turn to Shanya EXE packer to hide EDR killers",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-gangs-turn-to-shanya-exe-packer-to-hide-edr-killers/",
+      "summary": "Several ransomware groups have been spotted using a packer-as-a-service (PaaS) platform named Shanya to assist in EDR (endpoint detection and response) killing operations.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "ransomware-gangs-turn-to-shanya-exe-packer-to-hide",
+      "source": "BleepingComputer",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Malicious VSCode extensions on Microsoft's registry drop infostealers",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-vscode-extensions-on-microsofts-registry-drop-infostealers/",
+      "summary": "Two malicious extensions on Microsoft's Visual Studio Code Marketplace infect developers' machines with information-stealing malware that can take screenshots, steal credentials, and hijack browser sessions.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-vscode-extensions-on-microsofts-registry",
+      "source": "BleepingComputer",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "FinCEN says ransomware gangs extorted over $2.1B from 2022 to 2024",
+      "link": "https://www.bleepingcomputer.com/news/security/fincen-says-ransomware-gangs-extorted-over-21b-from-2022-to-2024/",
+      "summary": "A new report by the Financial Crimes Enforcement Network (FinCEN) shows that ransomware activity peaked in 2023 before falling in 2024, following a series of law enforcement actions targeting the ALPHV/BlackCat and LockBit ransomware gangs.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fincen-says-ransomware-gangs-extorted-over-21b-fro",
+      "source": "BleepingComputer",
+      "date": "2025-12-09"
+    }
+  ]
+}

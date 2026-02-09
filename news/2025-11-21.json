@@ -1,0 +1,209 @@
+{
+  "date": "2025-11-21",
+  "items": [
+    {
+      "title": "SEC Drops SolarWinds Case After Years of High-Stakes Cybersecurity Scrutiny",
+      "link": "https://thehackernews.com/2025/11/sec-drops-solarwinds-case-after-years.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has abandoned its lawsuit  against SolarWinds and its chief information security officer, alleging that the company had misled investors about the security practices that led to the 2020 supply chain attack.  In a joint motion  filed November 20, 2025, the SEC, along with SolarWinds and its CISO Timothy G. Brown, asked the court to voluntarily dismiss the case.  The SEC said its decision to seek dismissal \"does not necessarily reflect the Commission's position on any other case.\"  SolarWinds and Brown were accused  by the SEC in October 2023 of \"fraud and internal control failures\" and that the company defrauded investors by overstating its cybersecurity practices and understating or failing to disclose known risks.   The agency also said both SolarWinds and Brown ignored \"repeated red flags\" and failed to adequately protect its assets, ultimately leading to the supply chain compromise  that came to li...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "sec-drops-solarwinds-case-after-years-of-high-stak",
+      "source": "The Hacker News",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Salesforce Flags Unauthorized Data Access via Gainsight-Linked OAuth Activity",
+      "link": "https://thehackernews.com/2025/11/salesforce-flags-unauthorized-data.html",
+      "summary": "Salesforce has warned of detected \"unusual activity\" related to Gainsight-published applications connected to the platform.  \"Our investigation indicates this activity may have enabled unauthorized access to certain customers' Salesforce data through the app's connection,\" the company said  in an advisory.  The cloud services firm said it has taken the step of revoking all active access and refresh tokens associated with Gainsight-published applications connected to Salesforce. It has also temporarily removed those applications from the AppExchange as its investigation continues.  Salesforce did not disclose how many customers were impacted by the incident, but said it has notified them.   \"There is no indication that this issue resulted from any vulnerability in the Salesforce platform,\" the company added. \"The activity appears to be related to the app's external connection to Salesforce.\"  Out of an abundance of caution, the Gainsight ...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "salesforce-flags-unauthorized-data-access-via-gain",
+      "source": "The Hacker News",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "ShadowRay 2.0 Exploits Unpatched Ray Flaw to Build Self-Spreading GPU Cryptomining Botnet",
+      "link": "https://thehackernews.com/2025/11/shadowray-20-exploits-unpatched-ray.html",
+      "summary": "Oligo Security has warned  of ongoing attacks exploiting a two-year-old security flaw in the Ray open-source artificial intelligence (AI) framework to turn infected clusters with NVIDIA GPUs into a self-replicating cryptocurrency mining botnet.  The activity, codenamed ShadowRay 2.0 , is an evolution of a prior wave  that was observed between September 2023 and March 2024. The attack, at its core, exploits a critical missing authentication bug (CVE-2023-48022, CVSS score: 9.8) to take control of susceptible instances and hijack their computing power for illicit cryptocurrency mining using XMRig.  The vulnerability has remained unpatched due to a \" long-standing design decision \" that's consistent with Ray's development best practices, which requires it to be run in an isolated network and act upon trusted code.   The campaign involves submitting malicious jobs, with commands ranging from simple reconnaissance to complex multi-stage Bash and Python payloads, to an una...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "shadowray-20-exploits-unpatched-ray-flaw-to-build-",
+      "source": "The Hacker News",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Tsundere Botnet Expands Using Game Lures and Ethereum-Based C2 on Windows",
+      "link": "https://thehackernews.com/2025/11/tsundere-botnet-expands-using-game.html",
+      "summary": "Cybersecurity researchers have warned of an actively expanding botnet dubbed Tsundere  that's targeting Windows users.  Active since mid-2025, the threat is designed  to execute arbitrary JavaScript code retrieved from a command-and-control (C2) server, Kaspersky researcher Lisandro Ubiedo said in an analysis published today.  There are currently no details on how the botnet malware is propagated; however, in at least one case, the threat actors behind the operation are said to have leveraged a legitimate Remote Monitoring and Management (RMM) tool as a conduit to download an MSI installer file from a compromised site.  The names given to the malware artifacts – Valorant, r6x (Rainbow Six Siege X), and cs2 (Counter-Strike 2) – also suggest that the implant is likely being disseminated using game-related lures. It's possible that users searching for pirated versions of these games are the target.  Regardless of the method used, the fake MSI installer is designed to install Node...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "tsundere-botnet-expands-using-game-lures-and-ether",
+      "source": "The Hacker News",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "ThreatsDay Bulletin: 0-Days, LinkedIn Spies, Crypto Crimes, IoT Flaws and New Malware Waves",
+      "link": "https://thehackernews.com/2025/11/threatsday-bulletin-0-days-linkedin.html",
+      "summary": "This week has been crazy in the world of hacking and online security. From Thailand to London to the US, we've seen arrests, spies at work, and big power moves online. Hackers are getting caught. Spies are getting better at their jobs. Even simple things like browser add-ons and smart home gadgets are being used to attack people.  Every day, there's a new story that shows how quickly things are changing in the fight over the internet.  Governments are cracking down harder on cybercriminals. Big tech companies are rushing to fix their security. Researchers keep finding weak spots in apps and devices we use every day. We saw fake job recruiters on LinkedIn spying on people, huge crypto money-laundering cases, and brand-new malware made just to beat Apple's Mac protections.  All these stories remind us: the same tech that makes life better can very easily be turned into a weapon.  Here's a simple look at the biggest cybersecurity news happening right now — from the hidde...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-0-days-linkedin-spies-crypto-c",
+      "source": "The Hacker News",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "CTM360 Exposes a Global WhatsApp Hijacking Campaign: HackOnChat",
+      "link": "https://thehackernews.com/2025/11/ctm360-exposes-global-whatsapp.html",
+      "summary": "CTM360  has identified a rapidly expanding WhatsApp account-hacking campaign targeting users worldwide via a network of deceptive authentication portals and impersonation pages. The campaign, internally dubbed HackOnChat, abuses WhatsApp's familiar web interface, using social engineering tactics to trick users into compromising their accounts.  Investigators identified thousands of malicious URLs being hosted on inexpensive top-level domains and rapidly generated through modern website-building platforms, allowing attackers to deploy new pages at scale. The campaign's activity logs show hundreds of incidents in recent weeks, with a noticeable surge across the Middle East and Asia.  Read the full report here: https://www.ctm360.com/reports/hackonchat-unmasking-the-whatsapp-hacking-scam  The hacking operations and the exploitation techniques  Two techniques dominate these hacking operations. The Session Hijacking , where threat actors misuse the linked-device functionality to hijack act...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ctm360-exposes-a-global-whatsapp-hijacking-campaig",
+      "source": "The Hacker News",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Russian Hacking Suspect Wanted by the FBI Arrested on Thai Resort Island",
+      "link": "https://www.securityweek.com/russian-hacking-suspect-wanted-by-the-fbi-arrested-on-thai-resort-island/",
+      "summary": "Thailand’s Cyber Crime Investigation Bureau said an FBI tip that the “world-class hacker” was traveling to Thailand led to his arrest in Phuket.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "russian-hacking-suspect-wanted-by-the-fbi-arrested",
+      "source": "SecurityWeek",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "New Sturnus Banking Trojan Targets WhatsApp, Telegram, Signal Messages",
+      "link": "https://www.securityweek.com/new-sturnus-banking-trojan-targets-whatsapp-telegram-signal-messages/",
+      "summary": "The Android malware is in development and appears to be mainly aimed at users in Europe.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-sturnus-banking-trojan-targets-whatsapp-telegr",
+      "source": "SecurityWeek",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Doppel Raises $70 Million at $600 Million Valuation",
+      "link": "https://www.securityweek.com/doppel-raises-70-million-at-600-million-valuation/",
+      "summary": "The AI-native social engineering defense (SED) platform will accelerate product innovation and expand its offerings.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "doppel-raises-70-million-at-600-million-valuation",
+      "source": "SecurityWeek",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Over 50,000 Asus Routers Hacked in ‘Operation WrtHug’",
+      "link": "https://www.securityweek.com/over-50000-asus-routers-hacked-in-operation-wrthug/",
+      "summary": "A Chinese threat actor is exploiting known vulnerabilities in discontinued Asus devices in an Operational Relay Box (ORB) facilitation campaign.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "over-50000-asus-routers-hacked-in-operation-wrthug",
+      "source": "SecurityWeek",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "US and Allies Sanction Russian Bulletproof Hosting Service Providers",
+      "link": "https://www.securityweek.com/us-and-allies-sanction-russian-bulletproof-hosting-service-providers/",
+      "summary": "Media Land, Hypercore, and their leadership and employees are allegedly connected to various cybercriminal activities.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "us-and-allies-sanction-russian-bulletproof-hosting",
+      "source": "SecurityWeek",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Vulnerability Allowed Scraping of 3.5 Billion WhatsApp Accounts",
+      "link": "https://www.securityweek.com/vulnerability-allowed-scraping-of-3-5-billion-whatsapp-accounts/",
+      "summary": "Researchers demonstrated a now-patched vulnerability that could have been used to enumerate all WhatsApp accounts.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "vulnerability-allowed-scraping-of-35-billion-whats",
+      "source": "SecurityWeek",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Google exposes BadAudio malware used in APT24 espionage campaigns",
+      "link": "https://www.bleepingcomputer.com/news/security/google-exposes-badaudio-malware-used-in-apt24-espionage-campaigns/",
+      "summary": "China-linked APT24 hackers have been using a previously undocumented malware called BadAudio in a three-year espionage campaign that recently switched to more sophisticated attack methods.",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-exposes-badaudio-malware-used-in-apt24-espi",
+      "source": "BleepingComputer",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Train AI to handle tasks for you with this $39.99 course bundle",
+      "link": "https://www.bleepingcomputer.com/offer/deals/train-ai-to-handle-tasks-for-you-with-this-3999-course-bundle/",
+      "summary": "If you've been curious about building your own AI tools,  there's now a straightforward way to get started. The Ultimate AI Business & Marketing Bundle packs three focused training tracks into one package, and it's currently available for $39.99.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "train-ai-to-handle-tasks-for-you-with-this-3999-co",
+      "source": "BleepingComputer",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Hacker claims to steal 2.3TB data from Italian rail group, Almaviva",
+      "link": "https://www.bleepingcomputer.com/news/security/hacker-claims-to-steal-23tb-data-from-italian-rail-group-almaviva/",
+      "summary": "Data from Italy's national railway operator, the FS Italiane Group, has been exposed after a threat actor breached the organization's IT services provider, Almaviva.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "hacker-claims-to-steal-23tb-data-from-italian-rail",
+      "source": "BleepingComputer",
+      "date": "2025-11-21"
+    }
+  ]
+}

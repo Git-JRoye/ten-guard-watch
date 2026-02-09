@@ -1,0 +1,209 @@
+{
+  "date": "2026-01-05",
+  "items": [
+    {
+      "title": "New VVS Stealer Malware Targets Discord Accounts via Obfuscated Python Code",
+      "link": "https://thehackernews.com/2026/01/new-vvs-stealer-malware-targets-discord.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new Python-based information stealer called VVS Stealer  (also styled as VVS $tealer) that's capable of harvesting Discord credentials and tokens.  The stealer is said to have been on sale on Telegram as far back as April 2025, according to a report from Palo Alto Networks Unit 42.  \"VVS stealer's code is obfuscated by Pyarmor,\" researchers Pranay Kumar Chhaparwal and Lee Wei Yeong said . \"This tool is used to obfuscate Python scripts to hinder static analysis and signature-based detection. Pyarmor can be used for legitimate purposes and also leveraged to build stealthy malware.\"  Advertised on Telegram as the \"ultimate stealer,\" it's available for €10 ($11.69) for a weekly subscription. It can also be purchased at different pricing tiers: €20 ($23) for a month, €40 ($47) for three months, €90 ($105) for a year, and €199 ($232) for a lifetime license, making it one of the cheapest stealers ...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-vvs-stealer-malware-targets-discord-accounts-v",
+      "source": "The Hacker News",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "Transparent Tribe Launches New RAT Attacks Against Indian Government and Academia",
+      "link": "https://thehackernews.com/2026/01/transparent-tribe-launches-new-rat.html",
+      "summary": "The threat actor known as Transparent Tribe has been attributed to a fresh set of attacks targeting Indian governmental, academic, and strategic entities with a remote access trojan (RAT) that grants them persistent control over compromised hosts.  \"The campaign employs deceptive delivery techniques, including a weaponized Windows shortcut (LNK) file masquerading as a legitimate PDF document and embedded with full PDF content to evade user suspicion,\" CYFIRMA said  in a technical report.  Transparent Tribe, also called APT36, is a hacking group that's known for mounting cyber espionage campaigns against Indian organizations. Assessed to be of Indian origin, the state-sponsored adversary has been active since at least 2013.  The threat actor boasts of an ever-evolving arsenal of RATs to realize its goals. Some of the trojans put to use by Transparent Tribe in recent years include CapraRAT , Crimson RAT , ElizaRAT , and DeskRAT .  The latest set of attacks began with a s...",
+      "tags": [
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "transparent-tribe-launches-new-rat-attacks-against",
+      "source": "The Hacker News",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "The ROI Problem in Attack Surface Management",
+      "link": "https://thehackernews.com/2026/01/the-roi-problem-in-attack-surface.html",
+      "summary": "Attack Surface Management (ASM) tools promise reduced risk. What they usually deliver is more information.   Security teams deploy ASM, asset inventories grow, alerts start flowing, and dashboards fill up. There is visible activity and measurable output. But when leadership asks a simple question, \" Is this reducing incidents? \" the answer is often unclear.   This gap between effort and outcome is the core ROI problem in attack surface management, especially when ROI is measured primarily through asset counts instead of risk reduction.   The Promise vs. The Proof  Most ASM programs are built around a reasonable idea: you can't protect what you don't know exists. As a result, teams focus on discovery: domains and subdomains, IPs and cloud resources, third-party infrastructure, and transient or short-lived assets.   Over time, counts increase. Dashboards are trending upward. Coverage improves.   But none of those metrics directly answer whether the organization i...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-roi-problem-in-attack-surface-management",
+      "source": "The Hacker News",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign",
+      "link": "https://thehackernews.com/2026/01/cybercriminals-abuse-google-cloud-email.html",
+      "summary": "Cybersecurity researchers have disclosed details of a phishing campaign that involves the attackers impersonating legitimate Google-generated messages by abusing Google Cloud's Application Integration  service to distribute emails.  The activity, Check Point said, takes advantage of the trust associated with Google Cloud infrastructure to send the messages from a legitimate email address (\"noreply-application-integration@google[.]com\") so that they can bypass traditional email security filters and have a better chance of landing in users' inboxes.  \"The emails mimic routine enterprise notifications such as voicemail alerts and file access or permission requests, making them appear normal and trustworthy to recipients,\" the cybersecurity company said .  Attackers have been observed sending 9,394 phishing emails targeting approximately 3,200 customers over a 14-day period observed in December 2025, with the affected organizations located in the U.S., Asia-Pac...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cybercriminals-abuse-google-cloud-email-feature-in",
+      "source": "The Hacker News",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories",
+      "link": "https://thehackernews.com/2026/01/threatsday-bulletin-ghostad-drain-macos.html",
+      "summary": "The first ThreatsDay Bulletin of 2026 lands on a day that already feels symbolic — new year, new breaches, new tricks. If the past twelve months taught defenders anything, it's that threat actors don't pause for holidays or resolutions. They just evolve faster. This week's round-up shows how subtle shifts in behavior, from code tweaks to job scams, are rewriting what \"cybercrime\" looks like in practice.  Across the landscape, big players are being tested, familiar threats are mutating, and smaller stories are quietly signaling bigger patterns ahead. The trend isn't about one big breach anymore; it's about many small openings that attackers exploit with precision.  The pace of exploitation, deception, and persistence hasn't slowed; it's only become more calculated. Each update in this edition highlights how the line between normal operations and compromise is getting thinner by the week.  Here's a sharp look at what's moving beneath the surface of the cybersecurity world as 2026 begin...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-ghostad-drain-macos-attacks-pr",
+      "source": "The Hacker News",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as RondoDox.  As of December 2025, the activity has been observed leveraging the recently disclosed React2Shell  (CVE-2025-55182, CVSS score: 10.0) flaw as an initial access vector, CloudSEK said  in an analysis.  React2Shell is the name assigned to a critical security vulnerability in React Server Components (RSC) and Next.js that could allow unauthenticated attackers to achieve remote code execution on susceptible devices.  According to statistics from the Shadowserver Foundation, there are about 90,300 instances  that remain susceptible to the vulnerability as of December 31, 2025, out of which 68,400 instances  are located in the U.S., followed by Germany (4,300), France (2,800), and India (1,500).   RondoDox, which emerged in early 2025, has broadened its scale by adding new N-day secur...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "rondodox-botnet-exploits-critical-react2shell-flaw",
+      "source": "The Hacker News",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "President Trump Orders Divestment in $2.9 Million Chips Deal to Protect US Security Interests",
+      "link": "https://www.securityweek.com/president-trump-orders-divestment-in-2-9-million-chips-deal-to-protect-us-security-interests/",
+      "summary": "The deal involved aerospace and defense specialist Emcore Corp. selling its computer chips and wafer fabrication operation.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "president-trump-orders-divestment-in-29-million-ch",
+      "source": "SecurityWeek",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "Two US Cybersecurity Pros Plead Guilty Over Ransomware Attacks",
+      "link": "https://www.securityweek.com/two-us-cybersecurity-pros-plead-guilty-over-ransomware-attacks/",
+      "summary": "Ryan Goldberg and Kevin Martin have admitted being affiliates of the BlackCat/Alphv ransomware group.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "two-us-cybersecurity-pros-plead-guilty-over-ransom",
+      "source": "SecurityWeek",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "RondoDox Botnet Exploiting React2Shell Vulnerability",
+      "link": "https://www.securityweek.com/rondodox-botnet-exploiting-react2shell-vulnerability/",
+      "summary": "In December, the botnet’s operators focused on weaponizing the flaw to compromise vulnerable Next.js servers.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "rondodox-botnet-exploiting-react2shell-vulnerabili",
+      "source": "SecurityWeek",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "Covenant Health Data Breach Impacts 478,000 Individuals",
+      "link": "https://www.securityweek.com/covenant-health-data-breach-impacts-478000-individuals/",
+      "summary": "The Qilin ransomware group hacked the healthcare organization and stole data from its systems in May 2025.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "covenant-health-data-breach-impacts-478000-individ",
+      "source": "SecurityWeek",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "Adobe ColdFusion Servers Targeted in Coordinated Campaign",
+      "link": "https://www.securityweek.com/adobe-coldfusion-servers-targeted-in-coordinated-campaign/",
+      "summary": "GreyNoise has observed thousands of requests targeting a dozen vulnerabilities in Adobe ColdFusion during the Christmas 2025 holiday.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "adobe-coldfusion-servers-targeted-in-coordinated-c",
+      "source": "SecurityWeek",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist",
+      "link": "https://www.securityweek.com/shai-hulud-supply-chain-attack-led-to-8-5-million-trust-wallet-heist/",
+      "summary": "The worm exposed Trust Wallet’s Developer GitHub secrets, allowing attackers to publish a backdoor extension and steal funds from 2,520 wallets.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "shai-hulud-supply-chain-attack-led-to-85-million-t",
+      "source": "SecurityWeek",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "This platform gives you access to 25+ AI models for life for $79",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-platform-gives-you-access-to-25-plus-ai-models-for-life-for-79/",
+      "summary": "It is hard to know which AI model will give you the result you want when every tool lives in its own tab. ChatPlayground AI puts a bunch of leading models in one interface so you can send a single prompt and compare responses side by side. Lifetime access is also now only $79 (reg. $619).",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "this-platform-gives-you-access-to-25-ai-models-for",
+      "source": "BleepingComputer",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "Hackers claim to hack Resecurity, firm says it was a honeypot",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-claim-resecurity-hack-firm-says-it-was-a-honeypot/",
+      "summary": "The ShinyHunters hacking group claims it breached the systems of cybersecurity firm Resecurity and stole internal data, while Resecurity says the attackers only accessed a deliberately deployed honeypot containing fake information used to monitor their activity.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-claim-to-hack-resecurity-firm-says-it-was-",
+      "source": "BleepingComputer",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "How to find and remove viral AI notetakers",
+      "link": "https://www.bleepingcomputer.com/go/68/",
+      "summary": "Your AI notetaker just joined...but did anyone invite it?",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "how-to-find-and-remove-viral-ai-notetakers",
+      "source": "BleepingComputer",
+      "date": "2026-01-05"
+    },
+    {
+      "title": "Prepare for your IT certs with lifetime access to InfoSec4TC, now $53",
+      "link": "https://www.bleepingcomputer.com/offer/deals/prepare-for-your-it-certs-with-lifetime-access-to-infosec4tc-now-53/",
+      "summary": "Cybersecurity certifications get expensive fast when you pay for individual courses, bootcamps, and practice exams. If you want a cheaper way to study for multiple certs over several years, try an InfoSec4TC Platinum Membership while they're on sale for $52.97 (reg. $280).",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "prepare-for-your-it-certs-with-lifetime-access-to-",
+      "source": "BleepingComputer",
+      "date": "2026-01-05"
+    }
+  ]
+}

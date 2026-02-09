@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threat Trends Dashboard | TenGuard Security</title>
+    <meta name="description" content="Real-time cybersecurity threat trends and intelligence dashboard powered by TenGuard Security. Track emerging threats, vulnerabilities, and security incidents.">
+    <meta name="keywords" content="threat trends, cybersecurity intelligence, threat dashboard, security analytics, TenGuard Security">
+    <meta name="author" content="TenGuard Security">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.tenguardsecurity.com/threat-trends/">
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="TenGuard Security RSS Feed">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles_v5.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Threat Trends Dashboard",
+        "description": "Auto-generated cybersecurity threat intelligence dashboard",
+        "publisher": {
+            "@type": "Organization",
+            "name": "TenGuard Security",
+            "url": "https://www.tenguardsecurity.com"
+        },
+        "dateModified": "2026-02-08T09:43:49.604592",
+        "isAccessibleForFree": true
+    }
+    </script>
+    
+    <style>
+        /* Ensure body uses the same background image and styling as the rest of the site */
+        body {
+            background: url('../assets/background3.jpg') no-repeat center center/cover !important;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            color: #e5e7eb;
+            padding-top: 125px;
+        }
+        
+        /* Dashboard-specific styles matching site theme */
+        .dashboard-section {
+            background: rgba(30, 41, 59, 0.8);
+            color: #e5e7eb;
+            padding: 50px 20px;
+            border-radius: 10px;
+            max-width: 90%;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .dashboard-section h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .dashboard-section h2 {
+            font-size: 2rem;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .dashboard-section h3 {
+            font-size: 1.5rem;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+        
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .kpi-card {
+            background: rgba(30, 41, 59, 0.6);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .kpi-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(16, 185, 129, 0.6);
+            border-color: #10b981;
+        }
+        
+        .kpi-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 10px 0;
+        }
+        
+        .kpi-label {
+            color: #e5e7eb;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+        
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .chart-container {
+            background: rgba(30, 41, 59, 0.6);
+            padding: 25px;
+            border-radius: 10px;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+        }
+        
+        .chart-container h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        
+        .chart-wrapper {
+            position: relative;
+            height: 300px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            padding: 10px;
+        }
+        
+        .articles-section {
+            background: rgba(30, 41, 59, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            margin: 30px 0;
+        }
+        
+        .article-card {
+            border-left: 4px solid #10b981;
+            padding: 20px;
+            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .article-card:hover {
+            background: rgba(0, 0, 0, 0.3);
+            transform: translateX(5px);
+            box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
+        }
+        
+        .article-title {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+        
+        .article-title a {
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        
+        .article-title a:hover {
+            background: linear-gradient(90deg, #38bdf8, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .urgency-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-right: 10px;
+        }
+        
+        .urgency-high {
+            background: #dc3545;
+            color: white;
+        }
+        
+        .urgency-medium {
+            background: #ffc107;
+            color: #333;
+        }
+        
+        .urgency-low {
+            background: #10b981;
+            color: white;
+        }
+        
+        .article-meta {
+            color: #e5e7eb;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+        
+        .article-summary {
+            color: #e5e7eb;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        
+        .tags {
+            margin-top: 10px;
+        }
+        
+        .tag {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.2);
+            color: #10b981;
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-top: 5px;
+            border: 1px solid rgba(16, 185, 129, 0.4);
+        }
+        
+        .data-table {
+            width: 100%;
+            background: rgba(30, 41, 59, 0.6);
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            margin: 30px 0;
+        }
+        
+        .data-table h2 {
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .data-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .data-table th {
+            background: rgba(16, 185, 129, 0.3);
+            color: #e5e7eb;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid rgba(16, 185, 129, 0.5);
+        }
+        
+        .data-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e5e7eb;
+        }
+        
+        .data-table tr:hover {
+            background: rgba(16, 185, 129, 0.1);
+        }
+        
+        .no-data {
+            text-align: center;
+            padding: 60px 20px;
+            color: #e5e7eb;
+        }
+        
+        .no-data h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            opacity: 0.7;
+        }
+        
+        .cta-section {
+            background: rgba(30, 41, 59, 0.8);
+            color: #e5e7eb;
+            padding: 50px 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 30px auto;
+            max-width: 90%;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+        }
+        
+        .cta-section h2 {
+            font-size: 2.2em;
+            margin-bottom: 15px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .email-form {
+            max-width: 500px;
+            margin: 30px auto 0;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .email-form input {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            border-radius: 5px;
+            font-size: 1em;
+            background: rgba(30, 41, 59, 0.6);
+            color: #e5e7eb;
+        }
+        
+        .email-form input::placeholder {
+            color: rgba(229, 231, 235, 0.5);
+        }
+        
+        .email-form button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .email-form button:hover {
+            background: #059669;
+        }
+        
+        .update-info {
+            color: #e5e7eb;
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .dashboard-section h1 {
+                font-size: 1.8em;
+            }
+            
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .kpi-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .email-form {
+                flex-direction: column;
+            }
+            
+            .chart-wrapper {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../assets/svglogo.svg" alt="TenGuard Security Logo">
+            </div>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../services.html">Services</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../tenguardwatch.html">TenGuard Watch</a></li>
+                <li><a href="index.html" class="active">Threat Trends</a></li>
+            </ul>
+            <a href="../contact.html" class="button-link consult-button">Secure Your Consultation</a>
+        </nav>
+    </header>
+    
+    <!-- Dashboard Section -->
+    <section class="dashboard-section blue-tint" data-aos="fade-up" data-aos-once="true">
+        <h1>🛡️ Threat Trends Dashboard</h1>
+        <p style="font-size: 1.2em; margin-bottom: 10px;">Real-time cybersecurity intelligence powered by TenGuard Security</p>
+        <p class="update-info">Last updated: <strong>February 08, 2026 at 09:43 AM UTC</strong></p>
+        
+        
+        <!-- KPI Cards -->
+        <div class="kpi-grid">
+            <div class="kpi-card" data-aos="fade-right">
+                <div class="kpi-label">Last 7 Days</div>
+                <div class="kpi-value">124</div>
+                <div class="kpi-label">Threats Tracked</div>
+            </div>
+            <div class="kpi-card" data-aos="fade-up">
+                <div class="kpi-label">Last 30 Days</div>
+                <div class="kpi-value">492</div>
+                <div class="kpi-label">Threats Tracked</div>
+            </div>
+            <div class="kpi-card" data-aos="fade-left">
+                <div class="kpi-label">Top Category</div>
+                <div class="kpi-value" style="font-size: 1.8em;">attack</div>
+                <div class="kpi-label">Most Common Tag</div>
+            </div>
+            <div class="kpi-card" data-aos="fade-up">
+                <div class="kpi-label">Threat Level</div>
+                <div class="kpi-value" style="font-size: 1.8em; color: #10b981;">Low</div>
+                <div class="kpi-label">Primary Urgency</div>
+            </div>
+        </div>
+        
+        <!-- Charts -->
+        <div class="chart-grid">
+            <div class="chart-container" data-aos="fade-right">
+                <h2>📊 Threat Categories (30 Days)</h2>
+                <div class="chart-wrapper">
+                    <canvas id="tagChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="chart-container" data-aos="fade-left">
+                <h2>⚠️ Urgency Distribution</h2>
+                <div class="chart-wrapper">
+                    <canvas id="urgencyChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="chart-container" data-aos="fade-right">
+                <h2>📈 Daily Threat Activity</h2>
+                <div class="chart-wrapper">
+                    <canvas id="dailyChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="chart-container" data-aos="fade-left">
+                <h2>🔑 Top Keywords</h2>
+                <div class="chart-wrapper">
+                    <canvas id="keywordChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Top Articles -->
+        <div class="articles-section" data-aos="fade-up">
+            <h2>🔥 Top Threat Articles</h2>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html" target="_blank" rel="noopener noreferrer">
+                        Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-08</span>
+                </div>
+                <div class="article-summary">A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, </div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">breach</span>
+                    
+                    <span class="tag">apt</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html" target="_blank" rel="noopener noreferrer">
+                        Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-07</span>
+                </div>
+                <div class="article-summary">A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, </div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">breach</span>
+                    
+                    <span class="tag">apt</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://www.securityweek.com/critical-smartermail-vulnerability-exploited-in-ransomware-attacks/" target="_blank" rel="noopener noreferrer">
+                        Critical SmarterMail Vulnerability Exploited in Ransomware Attacks
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-06</span>
+                </div>
+                <div class="article-summary">The security defect allows unauthenticated attackers to execute arbitrary code remotely via malicious HTTP requests.</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">ransomware</span>
+                    
+                    <span class="tag">attack</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html" target="_blank" rel="noopener noreferrer">
+                        Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-05</span>
+                </div>
+                <div class="article-summary">A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://www.securityweek.com/dockerdash-flaw-in-docker-ai-assistant-leads-to-rce-data-theft/" target="_blank" rel="noopener noreferrer">
+                        DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-05</span>
+                </div>
+                <div class="article-summary">The critical vulnerability exists in the contextual trust in MCP Gateway architecture, as instructions are passed without validation.</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://www.bleepingcomputer.com/news/security/critical-n8n-flaws-disclosed-along-with-public-exploits/" target="_blank" rel="noopener noreferrer">
+                        Critical n8n flaws disclosed along with public exploits
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-05</span>
+                </div>
+                <div class="article-summary">Multiple critical vulnerabilities in the popular n8n open-source workflow automation platform allow escaping the confines of the environment and taking complete control of the host server.</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html" target="_blank" rel="noopener noreferrer">
+                        CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-04</span>
+                </div>
+                <div class="article-summary">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities ( KEV ) cata</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">attack</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html" target="_blank" rel="noopener noreferrer">
+                        Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-04</span>
+                </div>
+                <div class="article-summary">Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon , an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line I</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">attack</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html" target="_blank" rel="noopener noreferrer">
+                        Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-04</span>
+                </div>
+                <div class="article-summary">Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular "@react-native-community/cli" npm package.  Cybersecurity company VulnCheck s</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">malware</span>
+                    
+                    <span class="tag">attack</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/" target="_blank" rel="noopener noreferrer">
+                        Critical React Native Vulnerability Exploited in the Wild
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-02-04</span>
+                </div>
+                <div class="article-summary">Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware.</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">malware</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <!-- Data Tables -->
+        <div class="data-table" data-aos="fade-up">
+            <h2>📰 Top Threat Sources</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Articles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>The Hacker News</td>
+                        <td><strong>186</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>SecurityWeek</td>
+                        <td><strong>186</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>BleepingComputer</td>
+                        <td><strong>120</strong></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="data-table" data-aos="fade-up">
+            <h2>🔤 Top Keywords</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Keyword</th>
+                        <th>Frequency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>security</td>
+                        <td><strong>279</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>attacks</td>
+                        <td><strong>158</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>threat</td>
+                        <td><strong>139</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>attack</td>
+                        <td><strong>137</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>access</td>
+                        <td><strong>132</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>code</td>
+                        <td><strong>128</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>vulnerability</td>
+                        <td><strong>122</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>malicious</td>
+                        <td><strong>119</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>data</td>
+                        <td><strong>118</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>malware</td>
+                        <td><strong>114</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cybersecurity</td>
+                        <td><strong>107</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cve</td>
+                        <td><strong>97</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>activity</td>
+                        <td><strong>94</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>campaign</td>
+                        <td><strong>90</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>microsoft</td>
+                        <td><strong>86</strong></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        
+        
+        <!-- CTA Section -->
+        <div class="cta-section blue-tint" data-aos="fade-up">
+            <h2>🛡️ Protect Your Business Today</h2>
+            <p>Get a free 15-minute cybersecurity assessment from our CISSP-certified experts</p>
+            <a href="../contact.html" class="button-link">Book Free Assessment</a>
+            
+            <!-- Email Capture Form -->
+            <!-- REPLACE WEBHOOK_URL with your actual Zapier webhook URL in secrets -->
+            <form class="email-form" method="POST" action="https://hooks.zapier.com/hooks/catch/PLACEHOLDER/" id="emailForm">
+                <input type="email" name="email" placeholder="Enter your email for threat alerts" required aria-label="Email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+        <div class="footer-line"></div>
+        <a href="../index.html" class="button-link">Return Home</a>
+    </footer>
+    
+    <script>
+        // Chart.js configuration matching site theme
+        const chartColors = {
+            primary: '#10b981',      // Green (site primary)
+            secondary: '#38bdf8',    // Blue (site secondary)
+            success: '#10b981',       // Green for low urgency
+            warning: '#ffc107',      // Yellow for medium urgency
+            danger: '#dc3545',       // Red for high urgency
+            info: '#38bdf8'          // Blue for info
+        };
+        
+        
+        // Tag Chart
+        const tagCtx = document.getElementById('tagChart').getContext('2d');
+        new Chart(tagCtx, {
+            type: 'bar',
+            data: {
+                labels: ["attack", "cybersecurity", "vulnerability", "malware", "breach", "critical", "apt", "phishing", "ransomware"],
+                datasets: [{
+                    label: 'Occurrences',
+                    data: [233, 143, 131, 80, 73, 66, 57, 47, 25],
+                    backgroundColor: chartColors.primary,
+                    borderColor: chartColors.secondary,
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return 'Count: ' + context.parsed.y;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0,
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Urgency Chart
+        const urgencyCtx = document.getElementById('urgencyChart').getContext('2d');
+        new Chart(urgencyCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['High', 'Medium', 'Low'],
+                datasets: [{
+                    data: [78, 200, 214],
+                    backgroundColor: [
+                        chartColors.danger,
+                        chartColors.warning,
+                        chartColors.success
+                    ],
+                    borderWidth: 2,
+                    borderColor: 'rgba(30, 41, 59, 0.8)'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#e5e7eb'
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ' + context.parsed + ' threats';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Daily Chart
+        const dailyCtx = document.getElementById('dailyChart').getContext('2d');
+        new Chart(dailyCtx, {
+            type: 'line',
+            data: {
+                labels: ["2026-01-10", "2026-01-11", "2026-01-12", "2026-01-13", "2026-01-14", "2026-01-15", "2026-01-16", "2026-01-17", "2026-01-18", "2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-24", "2026-01-25", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-01-31", "2026-02-01", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-07", "2026-02-08"],
+                datasets: [{
+                    label: 'Threats per Day',
+                    data: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 12, 16, 16, 16, 16],
+                    borderColor: chartColors.primary,
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointRadius: 3,
+                    pointHoverRadius: 6,
+                    pointBackgroundColor: chartColors.secondary,
+                    pointBorderColor: chartColors.primary
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0,
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Keyword Chart
+        const keywordCtx = document.getElementById('keywordChart').getContext('2d');
+        new Chart(keywordCtx, {
+            type: 'bar',
+            data: {
+                labels: ["security", "attacks", "threat", "attack", "access", "code", "vulnerability", "malicious", "data", "malware"],
+                datasets: [{
+                    label: 'Frequency',
+                    data: [279, 158, 139, 137, 132, 128, 122, 119, 118, 114],
+                    backgroundColor: chartColors.secondary,
+                    borderColor: chartColors.primary,
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0,
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            color: '#e5e7eb'
+                        },
+                        grid: {
+                            color: 'rgba(229, 231, 235, 0.1)'
+                        }
+                    }
+                }
+            }
+        });
+        
+        
+        // Email form handling
+        document.getElementById('emailForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[name="email"]').value;
+            
+            // Submit to webhook (replace with actual webhook URL)
+            fetch(this.action, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email: email })
+            })
+            .then(response => {
+                alert('Thank you for subscribing to threat alerts!');
+                this.reset();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Subscription successful! You will receive threat alerts.');
+                this.reset();
+            });
+        });
+        
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+    
+    <script src="../script.js"></script>
+</body>
+</html>

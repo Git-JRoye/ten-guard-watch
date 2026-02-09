@@ -1,0 +1,320 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 51,
+      "cybersecurity": 47,
+      "vulnerability": 33,
+      "breach": 20,
+      "critical": 17,
+      "malware": 16,
+      "phishing": 11,
+      "apt": 8,
+      "ransomware": 5
+    },
+    "30_days": {
+      "attack": 206,
+      "cybersecurity": 137,
+      "vulnerability": 114,
+      "breach": 101,
+      "malware": 67,
+      "critical": 58,
+      "apt": 45,
+      "phishing": 36,
+      "ransomware": 27
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 43,
+      "Low": 67,
+      "High": 18
+    },
+    "30_days": {
+      "Low": 200,
+      "High": 66,
+      "Medium": 206
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 191,
+    "vulnerability": 149,
+    "data": 146,
+    "code": 121,
+    "users": 119,
+    "cybersecurity": 111,
+    "flaw": 108,
+    "threat": 105,
+    "million": 101,
+    "attacks": 101,
+    "access": 100,
+    "attack": 89,
+    "cve": 83,
+    "browser": 83,
+    "malware": 80,
+    "malicious": 76,
+    "through": 75,
+    "campaign": 74,
+    "remote": 71,
+    "critical": 68
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Cisco Fixes Actively Exploited Zero-Day CVE-2026-20045 in Unified CM and Webex",
+      "link": "https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html",
+      "summary": "Cisco has released fresh patches to address what it described as a \"critical\" security vulnerability impacting multiple Unified Communications (CM) products and Webex Calling Dedicated Instance that i",
+      "urgency": "High",
+      "date": "2026-01-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
+      "link": "https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html",
+      "summary": "Zoom and GitLab have released security updates to resolve a number of security vulnerabilities that could result in denial-of-service (DoS) and remote code execution.  The most severe of the lot is a ",
+      "urgency": "High",
+      "date": "2026-01-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers Targeting Cisco Unified CM Zero-Day",
+      "link": "https://www.securityweek.com/hackers-targeting-cisco-unified-cm-zero-day/",
+      "summary": "Cisco has released patches for CVE-2026-20045, a critical vulnerability that can be exploited for unauthenticated remote code execution.",
+      "urgency": "High",
+      "date": "2026-01-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cisco fixes Unified Communications RCE zero day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-unified-communications-rce-zero-day-exploited-in-attacks/",
+      "summary": "Cisco has fixed a critical Unified Communications and Webex Calling remote code execution vulnerability, tracked as CVE-2026-20045, that has been actively exploited as a zero-day in attacks.",
+      "urgency": "High",
+      "date": "2026-01-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More",
+      "link": "https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html",
+      "summary": "In cybersecurity, the line between a normal update and a serious incident keeps getting thinner. Systems that once felt reliable are now under pressure from constant change. New AI tools, connected de",
+      "urgency": "High",
+      "date": "2026-01-20",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+      "link": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+      "summary": "The JavaScript (aka JScript) malware loader called GootLoader  has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000",
+      "urgency": "High",
+      "date": "2026-01-19",
+      "tags": [
+        "malware",
+        "phishing",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft releases OOB Windows updates to fix shutdown, Cloud PC bugs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-oob-windows-updates-to-fix-shutdown-cloud-pc-bugs/",
+      "summary": "Microsoft has released multiple emergency, out-of-band updates for Windows 10, Windows 11, and Windows Server to fix two issues caused by the January Patch Tuesday updates.",
+      "urgency": "High",
+      "date": "2026-01-19",
+      "tags": [
+        "vulnerability"
+      ]
+    },
+    {
+      "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+      "link": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+      "summary": "The JavaScript (aka JScript) malware loader called GootLoader  has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000",
+      "urgency": "High",
+      "date": "2026-01-18",
+      "tags": [
+        "malware",
+        "phishing",
+        "critical"
+      ]
+    },
+    {
+      "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+      "link": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+      "summary": "The JavaScript (aka JScript) malware loader called GootLoader  has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000",
+      "urgency": "High",
+      "date": "2026-01-17",
+      "tags": [
+        "malware",
+        "phishing",
+        "critical"
+      ]
+    },
+    {
+      "title": "China-Linked APT Exploited Sitecore Zero-Day in Critical Infrastructure Intrusions",
+      "link": "https://thehackernews.com/2026/01/china-linked-apt-exploits-sitecore-zero.html",
+      "summary": "A threat actor likely aligned with China has been observed targeting critical infrastructure sectors in North America since at least last year.  Cisco Talos, which is tracking the activity under the n",
+      "urgency": "High",
+      "date": "2026-01-17",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-22T09:46:38.360668"
+  }
+}

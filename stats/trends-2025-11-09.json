@@ -1,0 +1,203 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 22,
+      "vulnerability": 15,
+      "critical": 14,
+      "malware": 10,
+      "cybersecurity": 9,
+      "breach": 7,
+      "ransomware": 6,
+      "apt": 4,
+      "phishing": 3
+    },
+    "30_days": {
+      "attack": 22,
+      "vulnerability": 15,
+      "critical": 14,
+      "malware": 10,
+      "cybersecurity": 9,
+      "breach": 7,
+      "ransomware": 6,
+      "apt": 4,
+      "phishing": 3
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 14,
+      "Medium": 21,
+      "Low": 13
+    },
+    "30_days": {
+      "High": 14,
+      "Medium": 21,
+      "Low": 13
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 18,
+    "SecurityWeek": 18,
+    "BleepingComputer": 12
+  },
+  "top_keywords": {
+    "cve": 24,
+    "exploited": 22,
+    "google": 22,
+    "security": 21,
+    "users": 20,
+    "packages": 19,
+    "malicious": 19,
+    "samsung": 18,
+    "credentials": 18,
+    "attacks": 17,
+    "code": 15,
+    "april": 14,
+    "extension": 14,
+    "zero": 13,
+    "windows": 13,
+    "flaw": 12,
+    "android": 12,
+    "activity": 12,
+    "threat": 12,
+    "report": 12
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Samsung Mobile Flaw Exploited as Zero-Day to Deploy LANDFALL Android Spyware",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ",
+      "urgency": "High",
+      "date": "2025-11-09",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s",
+      "urgency": "High",
+      "date": "2025-11-09",
+      "tags": [
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "urgency": "High",
+      "date": "2025-11-09",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Google Workspace Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "A checklist for securing Google Workspace.",
+      "urgency": "High",
+      "date": "2025-11-09",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Samsung Mobile Flaw Exploited as Zero-Day to Deploy LANDFALL Android Spyware",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Google Workspace Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "A checklist for securing Google Workspace.",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "QNAP fixes seven NAS zero-day flaws exploited at Pwn2Own",
+      "link": "https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/",
+      "summary": "QNAP has fixed seven zero-day vulnerabilities that security researchers exploited to hack QNAP network-attached storage (NAS) devices during the Pwn2Own Ireland 2025 competition.",
+      "urgency": "High",
+      "date": "2025-11-08",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ",
+      "urgency": "High",
+      "date": "2025-11-07",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 48,
+    "total_30_days": 48,
+    "top_tag": "attack",
+    "last_update": "2025-11-09T09:27:44.434042"
+  }
+}

@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Chrome Targeted by Active In-the-Wild Exploit Tied to Undisclosed High-Severity Flaw</div><div class="ticker-item">Active Attacks Exploit Gladinet's Hard-Coded Keys for Unauthorized Access and Code Execution</div><div class="ticker-item">React2Shell Exploitation Delivers Crypto Miners and New Malware Across Multiple Sectors</div><div class="ticker-item">.NET SOAPwn Flaw Opens Door for File Writes and Remote Code Execution via Rogue WSDL</div><div class="ticker-item">Three PCIe Encryption Weaknesses Expose PCIe 5.0+ Systems to Faulty Data Handling</div><div class="ticker-item">Webinar: How Attackers Exploit Cloud Misconfigurations Across AWS, AI Models, and Kubernetes</div><div class="ticker-item">Google Patches Mysterious Chrome Zero-Day Exploited in the Wild</div><div class="ticker-item">Israeli Cybersecurity Funding Hits $4.4 Billion Record High</div><div class="ticker-item">Virtual Event Today: Cyber AI & Automation Summit</div><div class="ticker-item">US Indicts Extradited Ukrainian on Charges of Aiding Russian Hacking Groups</div><div class="ticker-item">Google Patches Gemini Enterprise Vulnerability Exposing Corporate Data</div><div class="ticker-item">Fortinet Patches Critical Authentication Bypass Vulnerabilities</div><div class="ticker-item">Google fixes eighth Chrome zero-day exploited in attacks in 2025</div><div class="ticker-item">Google ads for shared ChatGPT, Grok guides push macOS infostealer malware</div><div class="ticker-item">New Webinar: How phishing attacks evolved in 2025</div><div class="ticker-item">New DroidLock malware locks Android devices and demands a ransom</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chrome Targeted by Active In-the-Wild Exploit Tied to Undisclosed High-Severity Flaw</h3>
+                <p><strong>Summary:</strong> Google on Wednesday shipped security updates for its Chrome browser to address three security flaws, including one it said has come under active exploitation in the wild.  The vulnerability, rated hig...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/chrome-targeted-by-active-in-wild.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/chrome-targeted-by-active-in-wild.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Active Attacks Exploit Gladinet's Hard-Coded Keys for Unauthorized Access and Code Execution</h3>
+                <p><strong>Summary:</strong> Huntress is warning of a new actively exploited vulnerability in Gladinet's CentreStack and Triofox products stemming from the use of hard-coded cryptographic keys that have affected nine organization...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/hard-coded-gladinet-keys-let-attackers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/hard-coded-gladinet-keys-let-attackers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>React2Shell Exploitation Delivers Crypto Miners and New Malware Across Multiple Sectors</h3>
+                <p><strong>Summary:</strong> React2Shell  continues  to witness heavy exploitation, with threat actors leveraging the maximum-severity security flaw in React Server Components (RSC) to deliver cryptocurrency miners and an array o...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/react2shell-exploitation-delivers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/react2shell-exploitation-delivers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>.NET SOAPwn Flaw Opens Door for File Writes and Remote Code Execution via Rogue WSDL</h3>
+                <p><strong>Summary:</strong> New research has uncovered exploitation primitives in the .NET Framework that could be leveraged against enterprise-grade applications to achieve remote code execution.  WatchTowr Labs, which has code...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/net-soapwn-flaw-opens-door-for-file.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/net-soapwn-flaw-opens-door-for-file.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Three PCIe Encryption Weaknesses Expose PCIe 5.0+ Systems to Faulty Data Handling</h3>
+                <p><strong>Summary:</strong> Three security vulnerabilities have been disclosed in the Peripheral Component Interconnect Express (PCIe) Integrity and Data Encryption ( IDE ) protocol specification that could expose a local attack...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/three-pcie-encryption-weaknesses-expose.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/three-pcie-encryption-weaknesses-expose.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar: How Attackers Exploit Cloud Misconfigurations Across AWS, AI Models, and Kubernetes</h3>
+                <p><strong>Summary:</strong> Cloud security is changing. Attackers are no longer just breaking down the door; they are finding unlocked windows in your configurations, your identities, and your code.  Standard security tools ofte...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/12/webinar-how-attackers-exploit-cloud.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/12/webinar-how-attackers-exploit-cloud.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Patches Mysterious Chrome Zero-Day Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> The Chrome zero-day does not have a CVE and it’s unclear who reported it and which browser component it affects.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-patches-mysterious-chrome-zero-day-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-patches-mysterious-chrome-zero-day-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Israeli Cybersecurity Funding Hits $4.4 Billion Record High</h3>
+                <p><strong>Summary:</strong> Over the past decade, overall funding in Israeli cybersecurity companies has increased by more than 500%, according to YL Ventures.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/israeli-cybersecurity-funding-hits-4-4-billion-record-high/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/israeli-cybersecurity-funding-hits-4-4-billion-record-high/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Virtual Event Today: Cyber AI & Automation Summit</h3>
+                <p><strong>Summary:</strong> Join to access sessions aimed at educating, inspiring, and provoking new ways of thinking about the hype and promise surrounding AI-powered enterprise security solutions and the threats posed by adver...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/virtual-event-today-cyber-ai-automation-summit-3/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/virtual-event-today-cyber-ai-automation-summit-3/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US Indicts Extradited Ukrainian on Charges of Aiding Russian Hacking Groups</h3>
+                <p><strong>Summary:</strong> Victoria Dubranova faces over 25 years in prison for links to Russia-backed CARR and NoName hacktivist groups.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-indicts-extradited-ukrainian-on-charges-of-aiding-russian-hacking-groups/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/us-indicts-extradited-ukrainian-on-charges-of-aiding-russian-hacking-groups/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Patches Gemini Enterprise Vulnerability Exposing Corporate Data</h3>
+                <p><strong>Summary:</strong> GeminiJack is a zero-click Gemini attack that could have been exploited using specially crafted emails, calendar invites, or documents.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-patches-gemini-enterprise-vulnerability-exposing-corporate-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-patches-gemini-enterprise-vulnerability-exposing-corporate-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Patches Critical Authentication Bypass Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The two security defects impact FortiOS, FortiWeb, FortiProxy, and FortiSwitchManager with FortiCloud SSO login authentication enabled.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fortinet-patches-critical-authentication-bypass-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fortinet-patches-critical-authentication-bypass-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google fixes eighth Chrome zero-day exploited in attacks in 2025</h3>
+                <p><strong>Summary:</strong> Google has released emergency updates to fix another Chrome zero-day vulnerability exploited in the wild, marking the eighth such security flaw patched since the start of the year.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-fixes-eighth-chrome-zero-day-exploited-in-attacks-in-2025/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-fixes-eighth-chrome-zero-day-exploited-in-attacks-in-2025/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google ads for shared ChatGPT, Grok guides push macOS infostealer malware</h3>
+                <p><strong>Summary:</strong> A new AMOS infostealer campaign is abusing Google search ads to lure users into Grok and ChatGPT conversations that appear to offer "helpful" instructions but ultimately lead to installing the AMOS in...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-ads-for-shared-chatgpt-grok-guides-push-macos-infostealer-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-ads-for-shared-chatgpt-grok-guides-push-macos-infostealer-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: How phishing attacks evolved in 2025</h3>
+                <p><strong>Summary:</strong> This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New DroidLock malware locks Android devices and demands a ransom</h3>
+                <p><strong>Summary:</strong> A new Android malware called DroidLock has emerged with capabilities to lock screens for ransom payments, erase data, access text messages, call logs, contacts, and audio data.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-droidlock-malware-locks-android-devices-and-demands-a-ransom/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-droidlock-malware-locks-android-devices-and-demands-a-ransom/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

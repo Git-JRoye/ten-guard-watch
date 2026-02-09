@@ -1,0 +1,313 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 63,
+      "cybersecurity": 38,
+      "vulnerability": 33,
+      "malware": 23,
+      "breach": 17,
+      "critical": 15,
+      "apt": 14,
+      "phishing": 9,
+      "ransomware": 2
+    },
+    "30_days": {
+      "attack": 236,
+      "cybersecurity": 147,
+      "vulnerability": 136,
+      "malware": 80,
+      "breach": 70,
+      "critical": 69,
+      "apt": 53,
+      "phishing": 48,
+      "ransomware": 23
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 19,
+      "Medium": 46,
+      "Low": 59
+    },
+    "30_days": {
+      "Low": 218,
+      "Medium": 192,
+      "High": 82
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 120
+  },
+  "top_keywords": {
+    "security": 253,
+    "attacks": 155,
+    "vulnerability": 140,
+    "code": 133,
+    "access": 131,
+    "attack": 131,
+    "threat": 121,
+    "data": 118,
+    "cybersecurity": 114,
+    "malicious": 114,
+    "malware": 110,
+    "cve": 105,
+    "campaign": 92,
+    "flaw": 92,
+    "microsoft": 91,
+    "activity": 89,
+    "remote": 85,
+    "users": 79,
+    "exploited": 78,
+    "vulnerabilities": 77
+  },
+  "daily_counts": [
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    },
+    {
+      "date": "2026-01-30",
+      "count": 16
+    },
+    {
+      "date": "2026-01-31",
+      "count": 16
+    },
+    {
+      "date": "2026-02-01",
+      "count": 16
+    },
+    {
+      "date": "2026-02-02",
+      "count": 16
+    },
+    {
+      "date": "2026-02-03",
+      "count": 16
+    },
+    {
+      "date": "2026-02-04",
+      "count": 12
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
+      "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities ( KEV ) cata",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
+      "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon , an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line I",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package",
+      "link": "https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html",
+      "summary": "Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular \"@react-native-community/cli\" npm package.  Cybersecurity company VulnCheck s",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical React Native Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/",
+      "summary": "Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware.",
+      "urgency": "High",
+      "date": "2026-02-04",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Russian hackers exploit recently patched Microsoft Office bug in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/",
+      "summary": "Ukraine's Computer Emergency Response Team (CERT) says that Russian hackers are exploiting CVE-2026-21509, a recently patched vulnerability in multiple versions of Microsoft Office.",
+      "urgency": "High",
+      "date": "2026-02-03",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ]
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, an",
+      "urgency": "High",
+      "date": "2026-02-02",
+      "tags": [
+        "attack"
+      ]
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, an",
+      "urgency": "High",
+      "date": "2026-02-01",
+      "tags": [
+        "attack"
+      ]
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, an",
+      "urgency": "High",
+      "date": "2026-01-31",
+      "tags": [
+        "attack"
+      ]
+    },
+    {
+      "title": "SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score",
+      "link": "https://thehackernews.com/2026/01/smartermail-fixes-critical.html",
+      "summary": "SmarterTools has addressed two more security flaws in SmarterMail email software, including one critical security flaw that could result in arbitrary code execution.  The vulnerability, tracked as CVE",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released",
+      "link": "https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html",
+      "summary": "Ivanti has rolled out  security updates to address two security flaws impacting Ivanti Endpoint Manager Mobile (EPMM) that have been exploited in zero-day attacks, one of which has been added  by the ",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 124,
+    "total_30_days": 492,
+    "top_tag": "attack",
+    "last_update": "2026-02-04T10:01:12.141725"
+  }
+}

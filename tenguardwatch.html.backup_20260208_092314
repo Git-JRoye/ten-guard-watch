@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery</div><div class="ticker-item">CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk</div><div class="ticker-item">Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities</div><div class="ticker-item">How Samsung Knox Helps Stop Your Network Security Breach</div><div class="ticker-item">Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware</div><div class="ticker-item">Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries</div><div class="ticker-item">Flickr Security Incident Tied to Third-Party Email System</div><div class="ticker-item">In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities</div><div class="ticker-item">Living off the AI: The Next Evolution of Attacker Tradecraft</div><div class="ticker-item">Airrived Emerges From Stealth With $6.1 Million in Funding</div><div class="ticker-item">‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks</div><div class="ticker-item">5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel</div><div class="ticker-item">Germany warns of Signal account hijacking targeting senior figures</div><div class="ticker-item">DKnife Linux toolkit hijacks router traffic to spy, deliver malware</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">CISA warns of SmarterMail RCE flaw used in ransomware attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife  that's operated by China-nexus threat actors since at least 2019.  T...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered  Federal Civilian Executive Branch (FCEB) agencies to strengthen asset lifecycle management for edge network devices and re...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities</h3>
+                <p><strong>Summary:</strong> A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How Samsung Knox Helps Stop Your Network Security Breach</h3>
+                <p><strong>Summary:</strong> As you know, enterprise network security has undergone significant evolution over the past decade. Firewalls have become more intelligent, threat detection methods have advanced, and access controls a...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered  a new supply chain attack in which legitimate packages on npm and the Python Package Index (PyPI) repository have been compromised to push malicious versions...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries</h3>
+                <p><strong>Summary:</strong> Artificial intelligence (AI) company Anthropic revealed  that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-so...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Flickr Security Incident Tied to Third-Party Email System</h3>
+                <p><strong>Summary:</strong> Potential breach at Flickr exposes usernames, email addresses, IP addresses, and activity data.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/flickr-security-incident-tied-to-third-party-email-system/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/flickr-security-incident-tied-to-third-party-email-system/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: AT&T and Verizon response to Salt Typhoon, AI agents solve security challenges, man arrested in Poland for DDos Attacks.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-record-ddos-epsteins-hacker-eset-product-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-record-ddos-epsteins-hacker-eset-product-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Living off the AI: The Next Evolution of Attacker Tradecraft</h3>
+                <p><strong>Summary:</strong> Living off the AI isn’t a hypothetical but a natural continuation of the tradecraft we’ve all been defending against, now mapped onto assistants, agents, and MCP.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/living-off-the-ai-the-next-evolution-of-attacker-tradecraft/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/living-off-the-ai-the-next-evolution-of-attacker-tradecraft/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Airrived Emerges From Stealth With $6.1 Million in Funding</h3>
+                <p><strong>Summary:</strong> The startup aims to unify SOC, GRC, IAM, vulnerability management, IT, and business operations through its Agentic OS platform.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/airrived-emerges-from-stealth-with-6-1-million-in-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/airrived-emerges-from-stealth-with-6-1-million-in-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>‘DKnife’ Implant Used by Chinese Threat Actor for Adversary-in-the-Middle Attacks</h3>
+                <p><strong>Summary:</strong> Used since at least 2019, DKnife has been targeting the desktop, mobile, and IoT devices of Chinese users.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dknife-implant-used-by-chinese-threat-actor-for-adversary-in-the-middle-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>5 Bills to Boost Energy Sector Cyber Defenses Clear House Panel</h3>
+                <p><strong>Summary:</strong> The news comes after the Department of Energy conducted its annual Liberty Eclipse cybersecurity exercise.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/5-bills-to-boost-energy-sector-cyber-defenses-clear-house-panel/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Germany warns of Signal account hijacking targeting senior figures</h3>
+                <p><strong>Summary:</strong> Germany's domestic intelligence agency is warning of suspected state-sponsored threat actors targeting high-ranking individuals in phishing attacks via messaging apps like Signal.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/germany-warns-of-signal-account-hijacking-targeting-senior-figures/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/germany-warns-of-signal-account-hijacking-targeting-senior-figures/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DKnife Linux toolkit hijacks router traffic to spy, deliver malware</h3>
+                <p><strong>Summary:</strong> A newly discovered toolkit called DKnife has been used since 2019 to hijack traffic at the edge-device level and deliver malware in espionage campaigns.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/dknife-linux-toolkit-hijacks-router-traffic-to-spy-deliver-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/dknife-linux-toolkit-hijacks-router-traffic-to-spy-deliver-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA warns of SmarterMail RCE flaw used in ransomware attacks</h3>
+                <p><strong>Summary:</strong> The Cybersecurity & Infrastructure Security Agency (CISA) in the U.S. has issued a warning about CVE-2026-24423, an unauthenticated remote code execution (RCE) flaw in SmarterMail that is used in rans...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-smartermail-rce-flaw-used-in-ransomware-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-smartermail-rce-flaw-used-in-ransomware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">⚡ Weekly Recap: WSUS Exploited, LockBit 5.0 Returns, Telegram Backdoor, F5 Breach Widens</div><div class="ticker-item">Qilin Ransomware Combines Linux Payload With BYOVD Exploit in Hybrid Attack</div><div class="ticker-item">ChatGPT Atlas Browser Can Be Tricked by Fake URLs into Executing Hidden Commands</div><div class="ticker-item">New Firefox Extensions Required to Disclose Data Collection Practices</div><div class="ticker-item">Year-Old WordPress Plugin Flaws Exploited to Hack Websites</div><div class="ticker-item">Ransomware Payments Dropped in Q3 2025: Analysis</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News and SecurityWeek. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: WSUS Exploited, LockBit 5.0 Returns, Telegram Backdoor, F5 Breach Widens</h3>
+                <p><strong>Summary:</strong> Security, trust, and stability — once the pillars of our digital world — are now the tools attackers turn against us. From stolen accounts to fake job offers, cybercriminals keep finding new ways to e...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/weekly-recap-wsus-exploited-lockbit-50.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/weekly-recap-wsus-exploited-lockbit-50.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Qilin Ransomware Combines Linux Payload With BYOVD Exploit in Hybrid Attack</h3>
+                <p><strong>Summary:</strong> The ransomware group known as Qilin  (aka Agenda, Gold Feather, and Water Galura) has claimed more than 40 victims every month since the start of 2025, barring January, with the number of postings on ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/qilin-ransomware-combines-linux-payload.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/qilin-ransomware-combines-linux-payload.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ChatGPT Atlas Browser Can Be Tricked by Fake URLs into Executing Hidden Commands</h3>
+                <p><strong>Summary:</strong> The newly released OpenAI Atlas web browser has been found to be susceptible to a prompt injection attack where its omnibox can be jailbroken by disguising a malicious prompt as a seemingly harmless U...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2025/10/chatgpt-atlas-browser-can-be-tricked-by.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2025/10/chatgpt-atlas-browser-can-be-tricked-by.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Firefox Extensions Required to Disclose Data Collection Practices</h3>
+                <p><strong>Summary:</strong> All new extensions will be required to declare their data collection practices in their manifest file using a specific key.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-firefox-extensions-required-to-disclose-data-collection-practices/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-firefox-extensions-required-to-disclose-data-collection-practices/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Year-Old WordPress Plugin Flaws Exploited to Hack Websites</h3>
+                <p><strong>Summary:</strong> Roughly 9 million exploit attempts were observed this month as mass exploitation of the critical vulnerabilities recommenced.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/year-old-wordpress-plugin-flaws-exploited-to-hack-websites/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/year-old-wordpress-plugin-flaws-exploited-to-hack-websites/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ransomware Payments Dropped in Q3 2025: Analysis</h3>
+                <p><strong>Summary:</strong> Coveware has attributed the drop to large enterprises increasingly refusing to pay up and smaller amounts paid by mid-market firms.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ransomware-payments-dropped-in-q3-2025-analysis/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ransomware-payments-dropped-in-q3-2025-analysis/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

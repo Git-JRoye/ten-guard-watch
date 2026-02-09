@@ -1,0 +1,210 @@
+{
+  "date": "2026-01-28",
+  "items": [
+    {
+      "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
+      "link": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
+      "summary": "Fortinet has begun releasing security updates to address a critical flaw impacting FortiOS that has come under active exploitation in the wild.  The vulnerability, assigned the CVE identifier CVE-2026-24858  (CVSS score: 9.4), has been described as an authentication bypass related to FortiOS single sign-on (SSO). The flaw also affects FortiManager and FortiAnalyzer. The company said it's continuing to investigate if other products, including FortiWeb and FortiSwitch Manager, are impacted by the flaw.  \"An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] in FortiOS, FortiManager, FortiAnalyzer may allow an attacker with a FortiCloud account and a registered device to log into other devices registered to other accounts, if FortiCloud SSO authentication is enabled on those devices,\" Fortinet said  in an advisory released Tuesday.   It's worth noting that the FortiCloud SSO login feature is not enabled in the default factory settings. It...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-patches-cve-2026-24858-after-active-forti",
+      "source": "The Hacker News",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "WhatsApp Rolls Out Lockdown-Style Security Mode to Protect Targeted Users From Spyware",
+      "link": "https://thehackernews.com/2026/01/whatsapp-rolls-out-lockdown-style.html",
+      "summary": "Meta on Tuesday announced  it's adding Strict Account Settings  on WhatsApp to secure certain users against advanced cyber attacks because of who they are and what they do.  The feature, similar to Lockdown Mode  in Apple iOS and Advanced Protection  in Android, aims to protect individuals, such as journalists or public-facing figures, from sophisticated spyware  by trading some functionality for enhanced security.  Once this security mode  is enabled, some of the account settings will be locked to the most restrictive options, while simultaneously blocking attachments and media from people not in a user's contacts.  \"This lockdown-style feature bolsters your security on WhatsApp even further with just a few taps by locking your account to the most restrictive settings like automatically blocking attachments and media from unknown senders, silencing calls from people you don't know, and restricting other settings that may limit how the app works,\" Meta said .   The f...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "whatsapp-rolls-out-lockdown-style-security-mode-to",
+      "source": "The Hacker News",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "Experts Detect Pakistan-Linked Cyber Campaigns Aimed at Indian Government Entities",
+      "link": "https://thehackernews.com/2026/01/experts-detect-pakistan-linked-cyber.html",
+      "summary": "Indian government entities have been targeted in two campaigns undertaken by a threat actor that operates in Pakistan using previously undocumented tradecraft.  The campaigns have been codenamed Gopher Strike  and Sheet Attack  by Zscaler ThreatLabz, which identified them in September 2025.  \"While these campaigns share some similarities with the Pakistan-linked Advanced Persistent Threat (APT) group, APT36 , we assess with medium confidence that the activity identified during this analysis might originate from a new subgroup or another Pakistan-linked group operating in parallel,\" researchers Sudeep Singh and Yin Hong Chang said .  Sheet Attack gets its name from the use of legitimate services like Google Sheets, Firebase, and email for command-and-control (C2). On the other hand, Gopher Strike is assessed to have leveraged phishing emails as a starting point to deliver PDF documents containing a blurred image that's superimposed by a seemingly harmless pop-up instructi...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "experts-detect-pakistan-linked-cyber-campaigns-aim",
+      "source": "The Hacker News",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "ClickFix Attacks Expand Using Fake CAPTCHAs, Microsoft Scripts, and Trusted Web Services",
+      "link": "https://thehackernews.com/2026/01/clickfix-attacks-expand-using-fake.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign that combines ClickFix -style fake CAPTCHAs with a signed Microsoft Application Virtualization ( App-V ) script to distribute an information stealer called Amatera .  \"Instead of launching PowerShell directly, the attacker uses this script to control how execution begins and to avoid more common, easily recognized execution paths,\" Blackpoint researchers Jack Patrick and Sam Decker said  in a report published last week.  In doing so, the idea is to transform the App-V script into a living-off-the-land (LotL) binary that proxies the execution of PowerShell through a trusted Microsoft component to conceal the malicious activity.  The starting point of the attack is a fake CAPTCHA verification prompt that seeks to trick users into pasting and executing a malicious command on the Windows Run dialog. But here is where the attack diverges from traditional ClickFix attacks.  The supplied command, rather than invokin...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "clickfix-attacks-expand-using-fake-captchas-micros",
+      "source": "The Hacker News",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "CTEM in Practice: Prioritization, Validation, and Outcomes That Matter",
+      "link": "https://thehackernews.com/2026/01/ctem-in-practice-prioritization.html",
+      "summary": "Cybersecurity teams increasingly want to move beyond looking at threats and vulnerabilities in isolation. It's not only about what could go wrong (vulnerabilities) or who might attack (threats), but where they intersect in your actual environment to create real, exploitable exposure.  Which exposures truly matter? Can attackers exploit them? Are our defenses effective?  Continuous Threat Exposure Management (CTEM)  can provide a useful approach to the cybersecurity teams in their journey towards unified threat/vulnerability or exposure management.  What CTEM Really Means  CTEM, as defined by Gartner, emphasizes a 'continuous' cycle of identifying, prioritizing, and remediating exploitable exposures across your attack surface, which improves your overall security posture as an outcome. It's not a one-off scan and a result delivered via a tool; it's an operational model built on five steps:   Scoping  – assess your threats and vulnerabilities and identify what's most important: assets, ...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ctem-in-practice-prioritization-validation-and-out",
+      "source": "The Hacker News",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
+      "link": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
+      "summary": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks.  The vulnerability, tracked as CVE-2026-21509 , carries a CVSS score of 7.8 out of 10.0. It has been described as a security feature bypass in Microsoft Office.  \"Reliance on untrusted inputs in a security decision in Microsoft Office allows an unauthorized attacker to bypass a security feature locally,\" the tech giant said  in an advisory.  \"This update addresses a vulnerability that bypasses OLE  mitigations in Microsoft 365 and Microsoft Office, which protect users from vulnerable COM/OLE controls.\"  Successful exploitation of the flaw relies on an attacker sending a specially crafted Office file and convincing recipients to open it. It also noted that the Preview Pane is not an attack vector.   The Windows maker said customers running Office 2021 and later will be automatically protected via a service-side change , but will b...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-office-zero-day-cve-2026-21509-emergency",
+      "source": "The Hacker News",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "US Charges 31 More Defendants in Massive ATM Hacking Probe",
+      "link": "https://www.securityweek.com/us-charges-31-more-defendants-in-massive-atm-hacking-probe/",
+      "summary": "A total of 87 individuals, mostly Venezuelan nationals, have been charged for their role in the ATM jackpotting scheme.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "us-charges-31-more-defendants-in-massive-atm-hacki",
+      "source": "SecurityWeek",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "APTs, Cybercriminals Widely Exploiting WinRAR Vulnerability",
+      "link": "https://www.securityweek.com/apts-cybercriminals-widely-exploiting-winrar-vulnerability/",
+      "summary": "Russian and Chinese state-sponsored threat actors have been exploiting CVE-2025-8088 since July 2025.",
+      "tags": [
+        "vulnerability",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "apts-cybercriminals-widely-exploiting-winrar-vulne",
+      "source": "SecurityWeek",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "Indurex Emerges From Stealth to Close Security Gap in Cyber-Physical Systems",
+      "link": "https://www.securityweek.com/indurex-emerges-from-stealth-to-close-security-gap-in-cyber-physical-systems/",
+      "summary": "Indurex was founded by Jalal Bouhdada, who previously led industrial cybersecurity company Applied Risk.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "indurex-emerges-from-stealth-to-close-security-gap",
+      "source": "SecurityWeek",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "Fortinet Patches Exploited FortiCloud SSO Authentication Bypass",
+      "link": "https://www.securityweek.com/fortinet-patches-exploited-forticloud-sso-authentication-bypass/",
+      "summary": "Tracked as CVE-2026-24858, the bug allows attackers to log into devices registered to other FortiCloud accounts.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fortinet-patches-exploited-forticloud-sso-authenti",
+      "source": "SecurityWeek",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "High-Severity Remote Code Execution Vulnerability Patched in OpenSSL",
+      "link": "https://www.securityweek.com/high-severity-remote-code-execution-vulnerability-patched-in-openssl/",
+      "summary": "A total of 12 vulnerabilities have been fixed in OpenSSL, all discovered by a single cybersecurity firm.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "high-severity-remote-code-execution-vulnerability-",
+      "source": "SecurityWeek",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "Memcyco Raises $37 Million for Anti-Impersonation Technology",
+      "link": "https://www.securityweek.com/memcyco-raises-37-million-for-anti-impersonation-technology/",
+      "summary": "The startup will use the investment to fuel global expansion of its agentless platform, including in Latin America.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "memcyco-raises-37-million-for-anti-impersonation-t",
+      "source": "SecurityWeek",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "OpenAI's ChatGPT ad costs are on par with live NFL broadcasts",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/",
+      "summary": "OpenAI plans to begin rolling out ads on ChatGPT in the United States if you have a free or $8 Go subscription, but the catch is that the ads could be very expensive for advertisers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openais-chatgpt-ad-costs-are-on-par-with-live-nfl-",
+      "source": "BleepingComputer",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "Fortinet blocks exploited FortiCloud SSO zero day until patch is ready",
+      "link": "https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticloud-sso-zero-day-until-patch-is-ready/",
+      "summary": "Fortinet has confirmed a new, actively exploited critical FortiCloud single sign-on (SSO) authentication bypass vulnerability, tracked as CVE-2026-24858, and says it has mitigated the zero-day attacks by blocking FortiCloud SSO connections from devices running vulnerable firmware versions.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-blocks-exploited-forticloud-sso-zero-day-",
+      "source": "BleepingComputer",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-28"
+    },
+    {
+      "title": "Chinese Mustang Panda hackers deploy infostealers via CoolClient backdoor",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-mustang-panda-hackers-deploy-infostealers-via-coolclient-backdoor/",
+      "summary": "The Chinese espionage threat group Mustang Panda has updated its CoolClient backdoor to a new variant that can steal login data from browsers and monitor the clipboard.",
+      "tags": [
+        "malware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-mustang-panda-hackers-deploy-infostealers-",
+      "source": "BleepingComputer",
+      "date": "2026-01-28"
+    }
+  ]
+}

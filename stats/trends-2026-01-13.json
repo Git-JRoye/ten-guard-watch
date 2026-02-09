@@ -1,0 +1,320 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 58,
+      "cybersecurity": 42,
+      "vulnerability": 39,
+      "critical": 21,
+      "apt": 19,
+      "breach": 17,
+      "malware": 14,
+      "phishing": 13,
+      "ransomware": 11
+    },
+    "30_days": {
+      "attack": 230,
+      "vulnerability": 115,
+      "cybersecurity": 115,
+      "breach": 103,
+      "malware": 71,
+      "critical": 66,
+      "apt": 64,
+      "phishing": 41,
+      "ransomware": 35
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 27,
+      "Medium": 50,
+      "Low": 51
+    },
+    "30_days": {
+      "High": 72,
+      "Medium": 232,
+      "Low": 168
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 100
+  },
+  "top_keywords": {
+    "security": 189,
+    "vulnerability": 159,
+    "data": 137,
+    "users": 133,
+    "attacks": 132,
+    "code": 126,
+    "threat": 125,
+    "flaw": 117,
+    "cybersecurity": 113,
+    "million": 104,
+    "cve": 102,
+    "attack": 99,
+    "browser": 85,
+    "google": 83,
+    "cvss": 80,
+    "campaign": 80,
+    "group": 80,
+    "phishing": 77,
+    "exploited": 76,
+    "remote": 75
+  },
+  "daily_counts": [
+    {
+      "date": "2025-12-14",
+      "count": 16
+    },
+    {
+      "date": "2025-12-15",
+      "count": 16
+    },
+    {
+      "date": "2025-12-16",
+      "count": 16
+    },
+    {
+      "date": "2025-12-17",
+      "count": 16
+    },
+    {
+      "date": "2025-12-18",
+      "count": 16
+    },
+    {
+      "date": "2025-12-19",
+      "count": 16
+    },
+    {
+      "date": "2025-12-20",
+      "count": 16
+    },
+    {
+      "date": "2025-12-21",
+      "count": 16
+    },
+    {
+      "date": "2025-12-22",
+      "count": 16
+    },
+    {
+      "date": "2025-12-23",
+      "count": 16
+    },
+    {
+      "date": "2025-12-24",
+      "count": 16
+    },
+    {
+      "date": "2025-12-25",
+      "count": 16
+    },
+    {
+      "date": "2025-12-26",
+      "count": 16
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 16
+    },
+    {
+      "date": "2025-12-29",
+      "count": 12
+    },
+    {
+      "date": "2025-12-30",
+      "count": 12
+    },
+    {
+      "date": "2025-12-31",
+      "count": 12
+    },
+    {
+      "date": "2026-01-01",
+      "count": 12
+    },
+    {
+      "date": "2026-01-02",
+      "count": 12
+    },
+    {
+      "date": "2026-01-03",
+      "count": 12
+    },
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Warns of Active Exploitation of Gogs Vulnerability Enabling Code Execution",
+      "link": "https://thehackernews.com/2026/01/cisa-warns-of-active-exploitation-of.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned of active exploitation of a high-severity security flaw impacting Gogs  by adding  it to its Known Exploited Vulnerabilities",
+      "urgency": "High",
+      "date": "2026-01-13",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Microsoft 365 Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/67/",
+      "summary": "A checklist for securing Microsoft 365.",
+      "urgency": "High",
+      "date": "2026-01-13",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-in-zero-day-attacks/",
+      "summary": "CISA has ordered government agencies to secure their systems against a high-severity Gogs vulnerability that was exploited in zero-day attacks.",
+      "urgency": "High",
+      "date": "2026-01-13",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines",
+      "link": "https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html",
+      "summary": "Chinese-speaking threat actors are suspected to have leveraged a compromised SonicWall VPN appliance as an initial access vector to deploy a VMware ESXi exploit that may have been developed as far bac",
+      "urgency": "High",
+      "date": "2026-01-12",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Trend Micro Patches Critical Code Execution Flaw in Apex Central",
+      "link": "https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/",
+      "summary": "Tenable has released PoC code and technical details after the vendor announced the availability of patches for three vulnerabilities.",
+      "urgency": "High",
+      "date": "2026-01-12",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines",
+      "link": "https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html",
+      "summary": "Chinese-speaking threat actors are suspected to have leveraged a compromised SonicWall VPN appliance as an initial access vector to deploy a VMware ESXi exploit that may have been developed as far bac",
+      "urgency": "High",
+      "date": "2026-01-11",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions",
+      "link": "https://thehackernews.com/2026/01/trend-micro-apex-central-rce-flaw.html",
+      "summary": "Trend Micro has released  security updates to address multiple security vulnerabilities impacting on-premise versions of Apex Central for Windows, including a critical bug that could result in arbitra",
+      "urgency": "High",
+      "date": "2026-01-11",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Trend Micro Patches Critical Code Execution Flaw in Apex Central",
+      "link": "https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/",
+      "summary": "Tenable has released PoC code and technical details after the vendor announced the availability of patches for three vulnerabilities.",
+      "urgency": "High",
+      "date": "2026-01-11",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over",
+      "link": "https://www.securityweek.com/cisa-closes-10-emergency-directives-as-vulnerability-catalog-takes-over/",
+      "summary": "The Emergency Directives were retired because they achieved objectives or targeted vulnerabilities included in the KEV catalog.",
+      "urgency": "High",
+      "date": "2026-01-11",
+      "tags": [
+        "vulnerability"
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Exploit VMware ESXi Zero-Days to Escape Virtual Machines",
+      "link": "https://thehackernews.com/2026/01/chinese-linked-hackers-exploit-vmware.html",
+      "summary": "Chinese-speaking threat actors are suspected to have leveraged a compromised SonicWall VPN appliance as an initial access vector to deploy a VMware ESXi exploit that may have been developed as far bac",
+      "urgency": "High",
+      "date": "2026-01-10",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 472,
+    "top_tag": "attack",
+    "last_update": "2026-01-13T09:41:06.820854"
+  }
+}

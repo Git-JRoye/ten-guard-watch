@@ -1,0 +1,209 @@
+{
+  "date": "2026-01-08",
+  "items": [
+    {
+      "title": "OpenAI Launches ChatGPT Health with Isolated, Encrypted Health Data Controls",
+      "link": "https://thehackernews.com/2026/01/openai-launches-chatgpt-health-with.html",
+      "summary": "Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health.  To that end, the sandboxed experience offers users the optional ability to securely connect medical records and wellness apps, including Apple Health, Function, MyFitnessPal, Weight Watchers, AllTrails, Instacart, and Peloton, to get tailored responses, lab test insights, nutrition advice, personalized meal ideas, and suggested workout classes.  The new feature is rolling out for users with ChatGPT Free, Go, Plus, and Pro plans outside of the European Economic Area, Switzerland, and the U.K.  \"ChatGPT Health builds on the strong privacy, security, and data controls across ChatGPT with additional, layered protections designed specifically for health -- including purpose-built encryption and isolation to keep health conversations protected and compartmentalized,\" OpenAI said  in a statem...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "openai-launches-chatgpt-health-with-isolated-encry",
+      "source": "The Hacker News",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "CISA Flags Microsoft Office and HPE OneView Bugs as Actively Exploited",
+      "link": "https://thehackernews.com/2026/01/cisa-flags-microsoft-office-and-hpe.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerabilities are listed below -   CVE-2009-0556  (CVSS score: 8.8) - A code injection vulnerability  in Microsoft Office PowerPoint that allows remote attackers to execute arbitrary code by means of memory corruption  CVE-2025-37164  (CVSS score: 10.0) - A code injection vulnerability in HPW OneView that allows a remote unauthenticated user to perform remote code execution    Details of CVE-2025-37164 emerged  last month when HPE said the vulnerability impacts all versions of the software prior to version 11.00. The company also made available hotfixes for OneView versions 5.20 through 10.   The scope and source of the attacks targeting the two flaws is presently unclear, and there appear to be no public repor...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-flags-microsoft-office-and-hpe-oneview-bugs-a",
+      "source": "The Hacker News",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Webinar: Learn How AI-Powered Zero Trust Detects Attacks with No Files or Indicators",
+      "link": "https://thehackernews.com/2026/01/webinar-learn-how-ai-powered-zero-trust.html",
+      "summary": "Security teams are still catching malware. The problem is what they're not catching.  More attacks today don't arrive as files. They don't drop binaries. They don't trigger classic alerts. Instead, they run quietly through tools that already exist inside the environment — scripts, remote access, browsers, and developer workflows.  That shift is creating a blind spot.  Join us for a deep-dive technical session  with the  Zscaler Internet Access  team. They will reveal how to unmask \"hidden-in-plain-sight\" tactics, why traditional defenses fall short, and exactly what needs to change.      Secure your spot for the live session ➜    In this session, experts will cover:   \"Living off the Land\" Attacks: These use trusted system tools like PowerShell, WMI, or remote desktop. File-based detection often sees nothing wrong because, technically, nothing new was installed.  Fileless \"Last Mile\" Reassembly Attacks: Obfuscated HTML and JavaScript can e...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-learn-how-ai-powered-zero-trust-detects-at",
+      "source": "The Hacker News",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Black Cat Behind SEO Poisoning Malware Campaign Targeting Popular Software Searches",
+      "link": "https://thehackernews.com/2026/01/black-cat-behind-seo-poisoning-malware.html",
+      "summary": "A cybercrime gang known as Black Cat has been attributed to a search engine optimization (SEO) poisoning campaign that employs fraudulent sites advertising popular software to trick users into downloading a backdoor capable of stealing sensitive data.  According to a report  published by the National Computer Network Emergency Response Technical Team/Coordination Center of China (CNCERT/CC) and Beijing Weibu Online (aka ThreatBook), the activity is designed to strategically push bogus sites to the top of search results on search engines like Microsoft Bing, specifically targeting users looking for programs like Google Chrome, Notepad++, QQ International, and iTools.   \"After visiting these high-ranking phishing pages, users are lured by carefully constructed download pages, attempting to download software installation packages bundled with malicious programs,\" CNCERT/CC and ThreatBook said. \"Once installed, the program implants a backdoor Trojan without the user's k...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "black-cat-behind-seo-poisoning-malware-campaign-ta",
+      "source": "The Hacker News",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to Take Full Control",
+      "link": "https://thehackernews.com/2026/01/critical-n8n-vulnerability-cvss-100.html",
+      "summary": "Cybersecurity researchers have disclosed details of yet another maximum-severity security flaw in n8n , a popular workflow automation platform, that allows an unauthenticated remote attacker to gain complete control over susceptible instances.  The vulnerability, tracked as CVE-2026-21858  (CVSS score: 10.0), has been codenamed  Ni8mare  by Cyera Research Labs. Security researcher Dor Attias has been acknowledged for discovering and reporting the flaw on November 9, 2025.  \"A vulnerability in n8n allows an attacker to access files on the underlying server through execution of certain form-based workflows,\" n8n said  in an advisory published today. \"A vulnerable workflow could grant access to an unauthenticated remote attacker. This could result in exposure of sensitive information stored on the system and may enable further compromise depending on deployment configuration and workflow usage.\"  With the latest development, n8n has disclosed four critical vulnerabili...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-n8n-vulnerability-cvss-100-allows-unauthe",
+      "source": "The Hacker News",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "n8n Warns of CVSS 10.0 RCE Vulnerability Affecting Self-Hosted and Cloud Versions",
+      "link": "https://thehackernews.com/2026/01/n8n-warns-of-cvss-100-rce-vulnerability.html",
+      "summary": "Open-source workflow automation platform n8n  has warned of a maximum-severity security flaw that, if successfully exploited, could result in authenticated remote code execution (RCE).  The vulnerability, which has been assigned the CVE identifier CVE-2026-21877 , is rated 10.0 on the CVSS scoring system.  \"Under certain conditions, an authenticated user may be able to cause untrusted code to be executed by the n8n service,\" n8n said  in an advisory released Tuesday. \"This could result in full compromise of the affected instance.\"   The maintainers said both self-hosted deployments and n8n Cloud instances are impacted. The issue impacts the following versions -   >= 0.123.0  < 1.121.3   It has been addressed in version 1.121.3, which was released in November 2025. Security researcher Théo Lelasseux (@ theolelasseux ) has been credited with discovering and reporting the flaw.  Users are advised to upgrade to this version or later to completely address the vuln...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "n8n-warns-of-cvss-100-rce-vulnerability-affecting-",
+      "source": "The Hacker News",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "The Loudest Voices in Security Often Have the Least to Lose",
+      "link": "https://www.securityweek.com/the-loudest-voices-in-security-often-have-the-least-to-lose/",
+      "summary": "Security advice fails when it comes from those who don’t bear the consequences and won’t be responsible for making it work.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "the-loudest-voices-in-security-often-have-the-leas",
+      "source": "SecurityWeek",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Chrome Extensions With 900,000 Downloads Caught Stealing AI Chats",
+      "link": "https://www.securityweek.com/chrome-extensions-with-900000-downloads-caught-stealing-ai-chats/",
+      "summary": "Impersonating a legitimate extension from AITOPIA, the two malicious extensions were also exfiltrating users’ browser activity.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "chrome-extensions-with-900000-downloads-caught-ste",
+      "source": "SecurityWeek",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Vulnerability in Totolink Range Extender Allows Device Takeover",
+      "link": "https://www.securityweek.com/vulnerability-in-totolink-range-extender-allows-device-takeover/",
+      "summary": "An error in the firmware-upload handler leads to devices starting an unauthenticated root-level Telnet service.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "vulnerability-in-totolink-range-extender-allows-de",
+      "source": "SecurityWeek",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Several Code Execution Flaws Patched in Veeam Backup & Replication",
+      "link": "https://www.securityweek.com/several-code-execution-flaws-patched-in-veeam-backup-replication/",
+      "summary": "Four vulnerabilities have been fixed in the latest release of Veeam Backup & Replication.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "several-code-execution-flaws-patched-in-veeam-back",
+      "source": "SecurityWeek",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis",
+      "link": "https://www.securityweek.com/cybersecurity-firms-secured-14-billion-in-funding-in-2025/",
+      "summary": "2025 was the strongest year for cybersecurity funding since the 2021 peak, according to Pinpoint Search Group.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cybersecurity-firms-secured-14-billion-in-funding-",
+      "source": "SecurityWeek",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Hackers Exploit Zero-Day in Discontinued D-Link Devices",
+      "link": "https://www.securityweek.com/hackers-exploit-zero-day-in-discontinued-d-link-devices/",
+      "summary": "The critical-severity vulnerability allows unauthenticated, remote attackers to execute arbitrary shell commands.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "hackers-exploit-zero-day-in-discontinued-d-link-de",
+      "source": "SecurityWeek",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "Cisco warns of Identity Service Engine flaw with exploit code",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-flaw-with-exploit-code/",
+      "summary": "Cisco has patched an ISE vulnerability with public proof-of-concept exploit code that can be abused by attackers with admin privileges.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisco-warns-of-identity-service-engine-flaw-with-e",
+      "source": "BleepingComputer",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "CISA tags max severity HPE OneView flaw as actively exploited",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-tags-max-severity-hpe-oneview-flaw-as-actively-exploited/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-tags-max-severity-hpe-oneview-flaw-as-activel",
+      "source": "BleepingComputer",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "How to discover shadow AI [Free Guide]",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "Your guide to mitigating shadow AI risks",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "how-to-discover-shadow-ai-free-guide",
+      "source": "BleepingComputer",
+      "date": "2026-01-08"
+    },
+    {
+      "title": "OpenAI says ChatGPT won't use your health information to train its models",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-wont-use-your-health-information-to-train-its-models/",
+      "summary": "OpenAI is rolling out ChatGPT Health, which is a dedicated space for health conversations. Amidst privacy concerns, OpenAI said it won't use your health data.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-says-chatgpt-wont-use-your-health-informati",
+      "source": "BleepingComputer",
+      "date": "2026-01-08"
+    }
+  ]
+}

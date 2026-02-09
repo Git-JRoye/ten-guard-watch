@@ -1,0 +1,214 @@
+{
+  "date": "2025-12-18",
+  "items": [
+    {
+      "title": "Kimsuky Spreads DocSwap Android Malware via QR Phishing Posing as Delivery App",
+      "link": "https://thehackernews.com/2025/12/kimsuky-spreads-docswap-android-malware.html",
+      "summary": "The North Korean threat actor known as Kimsuky  has been linked to a new campaign that distributes a new variant of Android malware called DocSwap  via QR codes hosted on phishing sites mimicking Seoul-based logistics firm CJ Logistics (formerly CJ Korea Express).  \"The threat actor leveraged QR codes and notification pop-ups to lure victims into installing and executing the malware on their mobile devices,\" ENKI said . \"The malicious app decrypts an embedded encrypted APK and launches a malicious service that provides RAT capabilities.\"  \"Since Android blocks apps from unknown sources and displays security warnings by default, the threat actor claims the app is a safe, official release to trick victims into ignoring the warning and installing the malware.\"   According to the South Korean cybersecurity company, some of these artifacts masquerade as package delivery service apps. It's being assessed that the threat actors are using smishing texts or ph...",
+      "tags": [
+        "malware",
+        "phishing",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "kimsuky-spreads-docswap-android-malware-via-qr-phi",
+      "source": "The Hacker News",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "CISA Flags Critical ASUS Live Update Flaw After Evidence of Active Exploitation",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-critical-asus-live-update.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical flaw impacting ASUS Live Update to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability, tracked as CVE-2025-59374  (CVSS score: 9.3), has been described as an \"embedded malicious code vulnerability\" introduced by means of a supply chain compromise that could allow attackers to perform unintended actions.  \"Certain versions of the ASUS Live Update client were distributed with unauthorized modifications introduced through a supply chain compromise,\" according to a description of the flaw published in CVE.org. \"The modified builds could cause devices meeting specific targeting conditions to perform unintended actions. Only devices that met these conditions and installed the compromised versions were affected.\"  It's worth noting that the vulnerability refers to the supply chain attack  that came to li...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-flags-critical-asus-live-update-flaw-after-ev",
+      "source": "The Hacker News",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "Cisco Warns of Active Attacks Exploiting Unpatched 0-Day in AsyncOS Email Security Appliances",
+      "link": "https://thehackernews.com/2025/12/cisco-warns-of-active-attacks.html",
+      "summary": "Cisco has alerted users to a maximum-severity zero-day flaw in Cisco AsyncOS software that has been actively exploited by a China-nexus advanced persistent threat (APT) actor codenamed UAT-9686 in attacks targeting Cisco Secure Email Gateway and Cisco Secure Email and Web Manager.  The networking equipment major said it became aware of the intrusion campaign on December 10, 2025, and that it has singled out a \"limited subset of appliances\" with certain ports open to the internet. It's currently not known how many customers are affected.  \"This attack allows the threat actors to execute arbitrary commands with root privileges on the underlying operating system of an affected appliance,\" Cisco said  in an advisory. \"The ongoing investigation has revealed evidence of a persistence mechanism planted by the threat actors to maintain a degree of control over compromised appliances.\"  The as-yet-unpatched vulnerability is being tracked as CVE-2025-20393 , ...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-warns-of-active-attacks-exploiting-unpatched",
+      "source": "The Hacker News",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "SonicWall Fixes Actively Exploited CVE-2025-40602 in SMA 100 Appliances",
+      "link": "https://thehackernews.com/2025/12/sonicwall-fixes-actively-exploited-cve.html",
+      "summary": "SonicWall has rolled out fixes to address  a security flaw in Secure Mobile Access (SMA) 100 series appliances that it said has been actively exploited in the wild.  The vulnerability, tracked as CVE-2025-40602  (CVSS score: 6.6), concerns a case of local privilege escalation that arises as a result of insufficient authorization in the appliance management console (AMC).  It affects the following versions -   12.4.3-03093 (platform-hotfix) and earlier versions - Fixed in 12.4.3-03245 (platform-hotfix)  12.5.0-02002 (platform-hotfix) and earlier versions - Fixed in 12.5.0-02283 (platform-hotfix)    \"This vulnerability was reported to be leveraged in combination with CVE-2025-23006  (CVSS score 9.8) to achieve unauthenticated remote code execution with root privileges,\" SonicWall said.  It's worth noting that CVE-2025-23006 was patched by the company in late January 2025 in version 12.4.3-02854 (platform-hotfix).  Clément Lecigne and Zander Work of Google Threat Intelligen...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "sonicwall-fixes-actively-exploited-cve-2025-40602-",
+      "source": "The Hacker News",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "Kimwolf Botnet Hijacks 1.8 Million Android TVs, Launches Large-Scale DDoS Attacks",
+      "link": "https://thehackernews.com/2025/12/kimwolf-botnet-hijacks-18-million.html",
+      "summary": "A new distributed denial-of-service (DDoS) botnet known as Kimwolf  has enlisted a massive army of no less than 1.8 million infected devices comprising Android-based TVs, set-top boxes, and tablets, and may be associated with another botnet known as AISURU , according to findings from QiAnXin XLab.  \"Kimwolf is a botnet compiled using the NDK  [Native Development Kit],\" the company said  in a report published today. \"In addition to typical DDoS attack capabilities, it integrates proxy forwarding, reverse shell, and file management functions.\"  The hyper-scale botnet is estimated to have issued 1.7 billion DDoS attack commands within a three-day period between November 19 and 22, 2025, around the same time one of its command-and-control (C2) domains – 14emeliaterracewestroxburyma02132[.]su – came first  in Cloudflare's list of top 100 domains, briefly even surpassing Google.  Kimwolf's primary infection targets are TV boxes deployed in residential network en...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "kimwolf-botnet-hijacks-18-million-android-tvs-laun",
+      "source": "The Hacker News",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "APT28 Targets Ukrainian UKR-net Users in Long-Running Credential Phishing Campaign",
+      "link": "https://thehackernews.com/2025/12/apt28-targets-ukrainian-ukr-net-users.html",
+      "summary": "The Russian state-sponsored threat actor known as APT28  has been attributed to what has been described as a \"sustained\" credential-harvesting campaign targeting users of UKR[.]net, a webmail and news service popular in Ukraine.  The activity, observed by Recorded Future's Insikt Group between June 2024 and April 2025, builds upon prior findings  from the cybersecurity company in May 2024 that detailed the hacking group's attacks targeting European networks with the HeadLace malware and credential-harvesting web pages.  APT28 is also tracked as BlueDelta, Fancy Bear, Forest Blizzard, FROZENLAKE, Iron Twilight, ITG05, Pawn Storm, Sednit, Sofacy, and TA422. It's assessed to be affiliated with Russia's Main Directorate of the General Staff of the Russian Federation's Armed Forces (GRU).   The latest attacks are characterized by the deployment of UKR[.]net-themed login pages on legitimate services like Mocky to entice recipients into entering their credential...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apt28-targets-ukrainian-ukr-net-users-in-long-runn",
+      "source": "The Hacker News",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "SonicWall Patches Exploited SMA 1000 Zero-Day",
+      "link": "https://www.securityweek.com/sonicwall-patches-exploited-sma-1000-zero-day/",
+      "summary": "The medium-severity flaw has been exploited in combination with a critical bug for remote code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "sonicwall-patches-exploited-sma-1000-zero-day",
+      "source": "SecurityWeek",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "China-Linked Hackers Exploiting Zero-Day in Cisco Security Gear",
+      "link": "https://www.securityweek.com/china-linked-hackers-exploiting-zero-day-in-cisco-security-gear/",
+      "summary": "The critical zero-day is tracked as CVE-2025-20393 and it impacts Secure Email Gateway and Secure Email and Web Manager appliances.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "china-linked-hackers-exploiting-zero-day-in-cisco-",
+      "source": "SecurityWeek",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "NMFTA Warns of Surge and Sophistication of Cyber-Enabled Cargo Theft",
+      "link": "https://www.securityweek.com/nmfta-warns-of-surge-and-sophistication-of-cyber-enabled-cargo-theft/",
+      "summary": "The trucking industry group has released its 2026 Transportation Industry Cybersecurity Trends Report.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "nmfta-warns-of-surge-and-sophistication-of-cyber-e",
+      "source": "SecurityWeek",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "Hacker Conversations: Alex Hall, One-Time Fraudster",
+      "link": "https://www.securityweek.com/hacker-conversations-alex-hall-one-time-fraudster/",
+      "summary": "A first-person journey from undetected fraud to defending trust—how life events, neurodiversity, and hard-won insight shaped a former fraudster into a fraud fighter.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "hacker-conversations-alex-hall-one-time-fraudster",
+      "source": "SecurityWeek",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "New $150 Cellik RAT Grants Android Control, Trojanizes Google Play Apps",
+      "link": "https://www.securityweek.com/new-150-cellik-rat-grants-android-control-trojanizes-google-play-apps/",
+      "summary": "The malware provides full device control and real-time surveillance capabilities like those of advanced spyware.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-150-cellik-rat-grants-android-control-trojaniz",
+      "source": "SecurityWeek",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "Five Cybersecurity Predictions for 2026: Identity, AI, and the Collapse of Perimeter Thinking",
+      "link": "https://www.securityweek.com/five-cybersecurity-predictions-for-2026-identity-ai-and-the-collapse-of-perimeter-thinking/",
+      "summary": "The perimeter is gone. Credentials are no longer sufficient. And security can no longer rely on static controls in a dynamic threat environment.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "five-cybersecurity-predictions-for-2026-identity-a",
+      "source": "SecurityWeek",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "Zeroday Cloud hacking event awards $320,0000 for 11 zero days",
+      "link": "https://www.bleepingcomputer.com/news/security/zeroday-cloud-hacking-event-awards-320-0000-for-11-zero-days/",
+      "summary": "The Zeroday Cloud hacking competition in London has awarded researchers $320,000 for demonstrating critical remote code execution vulnerabilities in components used in cloud infrastructure.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "zeroday-cloud-hacking-event-awards-3200000-for-11-",
+      "source": "BleepingComputer",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "France arrests suspect tied to cyberattack on Interior Ministry",
+      "link": "https://www.bleepingcomputer.com/news/security/france-arrests-suspect-tied-to-cyberattack-on-interior-ministry/",
+      "summary": "French authorities arrested a 22-year-old suspect on Tuesday for a cyberattack that targeted France's Ministry of the Interior earlier this month.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "france-arrests-suspect-tied-to-cyberattack-on-inte",
+      "source": "BleepingComputer",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "Amazon: Ongoing cryptomining campaign uses hacked AWS accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/amazon-ongoing-cryptomining-campaign-uses-hacked-aws-accounts/",
+      "summary": "Amazon's AWS GuardDuty security team is warning of an ongoing crypto-mining campaign that targets its Elastic Compute Cloud (EC2) and Elastic Container Service (ECS) using compromised credentials for Identity and Access Management (IAM).",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "amazon-ongoing-cryptomining-campaign-uses-hacked-a",
+      "source": "BleepingComputer",
+      "date": "2025-12-18"
+    }
+  ]
+}

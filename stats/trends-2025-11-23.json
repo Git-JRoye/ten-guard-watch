@@ -1,0 +1,260 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 59,
+      "cybersecurity": 39,
+      "vulnerability": 36,
+      "phishing": 24,
+      "malware": 19,
+      "breach": 17,
+      "critical": 16,
+      "apt": 15,
+      "ransomware": 5
+    },
+    "30_days": {
+      "attack": 119,
+      "vulnerability": 82,
+      "cybersecurity": 67,
+      "malware": 52,
+      "critical": 52,
+      "phishing": 37,
+      "breach": 37,
+      "apt": 28,
+      "ransomware": 21
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 17,
+      "Low": 55,
+      "Medium": 56
+    },
+    "30_days": {
+      "High": 53,
+      "Medium": 114,
+      "Low": 105
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 102,
+    "SecurityWeek": 102,
+    "BleepingComputer": 68
+  },
+  "top_keywords": {
+    "security": 153,
+    "attacks": 91,
+    "threat": 86,
+    "vulnerability": 82,
+    "google": 76,
+    "malware": 74,
+    "code": 72,
+    "exploited": 69,
+    "cve": 63,
+    "phishing": 58,
+    "campaign": 58,
+    "data": 57,
+    "flaw": 56,
+    "attack": 56,
+    "microsoft": 56,
+    "researchers": 54,
+    "malicious": 51,
+    "devices": 46,
+    "users": 46,
+    "activity": 45
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    },
+    {
+      "date": "2025-11-12",
+      "count": 16
+    },
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting Oracle Identity Manager to its Known Exploited Vulnerabilities ( KEV ) catalog, cit",
+      "urgency": "High",
+      "date": "2025-11-23",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/",
+      "summary": "CVE-2025-61757 is an unauthenticated remote code execution vulnerability affecting Oracle Identity Manager.",
+      "urgency": "High",
+      "date": "2025-11-23",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cox Enterprises discloses Oracle E-Business Suite data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/cox-enterprises-discloses-oracle-e-business-suite-data-breach/",
+      "summary": "Cox Enterprises is notifying impacted individuals of a data breach that exposed their personal data to hackers who breached the company network after exploiting a zero-day flaw in Oracle E-Business Su",
+      "urgency": "High",
+      "date": "2025-11-23",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Critical Oracle Identity Manager Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/cisa-warns-of-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting Oracle Identity Manager to its Known Exploited Vulnerabilities ( KEV ) catalog, cit",
+      "urgency": "High",
+      "date": "2025-11-22",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Oracle Identity Manager Flaw Possibly Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/critical-oracle-identity-manager-flaw-possibly-exploited-as-zero-day/",
+      "summary": "CVE-2025-61757 is an unauthenticated remote code execution vulnerability affecting Oracle Identity Manager.",
+      "urgency": "High",
+      "date": "2025-11-22",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA warns Oracle Identity Manager RCE flaw is being actively exploited",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-oracle-identity-manager-rce-flaw-is-being-actively-exploited/",
+      "summary": "The U.S. Cybersecurity & Infrastructure Security Agency (CISA) is warning government agencies to patch an Oracle Identity Manager tracked as CVE-2025-61757 that has been exploited in attacks, potentia",
+      "urgency": "High",
+      "date": "2025-11-22",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "ShadowRay 2.0 Exploits Unpatched Ray Flaw to Build Self-Spreading GPU Cryptomining Botnet",
+      "link": "https://thehackernews.com/2025/11/shadowray-20-exploits-unpatched-ray.html",
+      "summary": "Oligo Security has warned  of ongoing attacks exploiting a two-year-old security flaw in the Ray open-source artificial intelligence (AI) framework to turn infected clusters with NVIDIA GPUs into a se",
+      "urgency": "High",
+      "date": "2025-11-21",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "SolarWinds Patches Three Critical Serv-U Vulnerabilities",
+      "link": "https://www.securityweek.com/solarwinds-patches-three-critical-serv-u-vulnerabilities/",
+      "summary": "SolarWinds Serv-U is affected by vulnerabilities that can be exploited for remote code execution.",
+      "urgency": "High",
+      "date": "2025-11-20",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Google Issues Security Fix for Actively Exploited Chrome V8 Zero-Day Vulnerability",
+      "link": "https://thehackernews.com/2025/11/google-issues-security-fix-for-actively.html",
+      "summary": "Google on Monday released  security updates for its Chrome browser to address two security flaws, including one that has come under active exploitation in the wild.  The vulnerability in question is C",
+      "urgency": "High",
+      "date": "2025-11-18",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Chrome 142 Update Patches Exploited Zero-Day",
+      "link": "https://www.securityweek.com/chrome-142-update-patches-exploited-zero-day/",
+      "summary": "The flaw was reported by Google’s Threat Analysis Group and was likely exploited by a commercial spyware vendor.",
+      "urgency": "High",
+      "date": "2025-11-18",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 272,
+    "top_tag": "attack",
+    "last_update": "2025-11-23T09:29:32.309878"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tag_counts": {
+    "7_days": {},
+    "30_days": {}
+  },
+  "urgency_counts": {
+    "7_days": {},
+    "30_days": {}
+  },
+  "top_sources": {},
+  "top_keywords": {},
+  "daily_counts": [],
+  "top_articles": [],
+  "kpis": {
+    "total_7_days": 0,
+    "total_30_days": 0,
+    "top_tag": "N/A",
+    "last_update": "2025-11-05T09:34:29.173379"
+  }
+}

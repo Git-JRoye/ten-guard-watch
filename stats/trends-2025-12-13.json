@@ -1,0 +1,317 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 64,
+      "vulnerability": 47,
+      "critical": 36,
+      "cybersecurity": 29,
+      "malware": 24,
+      "breach": 16,
+      "ransomware": 13,
+      "phishing": 11,
+      "apt": 6
+    },
+    "30_days": {
+      "attack": 247,
+      "vulnerability": 133,
+      "cybersecurity": 121,
+      "breach": 80,
+      "malware": 79,
+      "critical": 78,
+      "phishing": 70,
+      "apt": 50,
+      "ransomware": 35
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 55,
+      "High": 36,
+      "Low": 37
+    },
+    "30_days": {
+      "High": 81,
+      "Medium": 237,
+      "Low": 178
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 332,
+    "vulnerability": 159,
+    "attacks": 152,
+    "threat": 130,
+    "data": 127,
+    "malware": 127,
+    "code": 122,
+    "access": 122,
+    "phishing": 108,
+    "attack": 107,
+    "cybersecurity": 101,
+    "microsoft": 100,
+    "exploited": 98,
+    "flaw": 97,
+    "browser": 87,
+    "remote": 86,
+    "cve": 84,
+    "critical": 83,
+    "campaign": 82,
+    "researchers": 80
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-13",
+      "count": 16
+    },
+    {
+      "date": "2025-11-14",
+      "count": 16
+    },
+    {
+      "date": "2025-11-15",
+      "count": 16
+    },
+    {
+      "date": "2025-11-16",
+      "count": 16
+    },
+    {
+      "date": "2025-11-17",
+      "count": 16
+    },
+    {
+      "date": "2025-11-18",
+      "count": 16
+    },
+    {
+      "date": "2025-11-19",
+      "count": 16
+    },
+    {
+      "date": "2025-11-20",
+      "count": 16
+    },
+    {
+      "date": "2025-11-21",
+      "count": 16
+    },
+    {
+      "date": "2025-11-22",
+      "count": 16
+    },
+    {
+      "date": "2025-11-23",
+      "count": 16
+    },
+    {
+      "date": "2025-11-24",
+      "count": 16
+    },
+    {
+      "date": "2025-11-25",
+      "count": 16
+    },
+    {
+      "date": "2025-11-26",
+      "count": 16
+    },
+    {
+      "date": "2025-11-27",
+      "count": 16
+    },
+    {
+      "date": "2025-11-28",
+      "count": 16
+    },
+    {
+      "date": "2025-11-29",
+      "count": 16
+    },
+    {
+      "date": "2025-11-30",
+      "count": 16
+    },
+    {
+      "date": "2025-12-01",
+      "count": 16
+    },
+    {
+      "date": "2025-12-02",
+      "count": 16
+    },
+    {
+      "date": "2025-12-03",
+      "count": 16
+    },
+    {
+      "date": "2025-12-04",
+      "count": 16
+    },
+    {
+      "date": "2025-12-05",
+      "count": 16
+    },
+    {
+      "date": "2025-12-06",
+      "count": 16
+    },
+    {
+      "date": "2025-12-07",
+      "count": 16
+    },
+    {
+      "date": "2025-12-08",
+      "count": 16
+    },
+    {
+      "date": "2025-12-09",
+      "count": 16
+    },
+    {
+      "date": "2025-12-10",
+      "count": 16
+    },
+    {
+      "date": "2025-12-11",
+      "count": 16
+    },
+    {
+      "date": "2025-12-12",
+      "count": 16
+    },
+    {
+      "date": "2025-12-13",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Securing GenAI in the Browser: Policy, Isolation, and Data Controls That Actually Work",
+      "link": "https://thehackernews.com/2025/12/securing-genai-in-browser-policy.html",
+      "summary": "The browser has become the main interface to GenAI for most enterprises: from web-based LLMs and copilots, to GenAI‑powered extensions and agentic browsers like ChatGPT Atlas . Employees are leveragin",
+      "urgency": "High",
+      "date": "2025-12-13",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "New React RSC Vulnerabilities Enable DoS and Source Code Exposure",
+      "link": "https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html",
+      "summary": "The React team has released  fixes for two new types of flaws in React Server Components (RSC) that, if successfully exploited, could result in denial-of-service (DoS) or source code exposure.  The te",
+      "urgency": "High",
+      "date": "2025-12-13",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ]
+    },
+    {
+      "title": "React2Shell Exploitation Escalates into Large-Scale Global Attacks, Forcing Emergency Mitigation",
+      "link": "https://thehackernews.com/2025/12/react2shell-exploitation-escalates-into.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged  federal agencies to patch the recent React2Shell  vulnerability by December 12, 2025, amid reports of widespread exploitatio",
+      "urgency": "High",
+      "date": "2025-12-13",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Microsoft Bug Bounty Program Expanded to Third-Party Code",
+      "link": "https://www.securityweek.com/microsoft-bug-bounty-program-expanded-to-third-party-code/",
+      "summary": "All critical vulnerabilities in Microsoft, third-party, and open source code are eligible for rewards if they impact Microsoft services.",
+      "urgency": "High",
+      "date": "2025-12-13",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Apple fixes two zero-day flaws exploited in 'sophisticated' attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-day-flaws-exploited-in-sophisticated-attacks/",
+      "summary": "Apple has released emergency updates to patch two zero-day vulnerabilities that were exploited in an \"extremely sophisticated attack\" targeting specific individuals.",
+      "urgency": "High",
+      "date": "2025-12-13",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "New React RSC Vulnerabilities Enable DoS and Source Code Exposure",
+      "link": "https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html",
+      "summary": "The React team has released  fixes for two new types of flaws in React Server Components (RSC) that, if successfully exploited, could result in denial-of-service (DoS) or source code exposure.  The te",
+      "urgency": "High",
+      "date": "2025-12-12",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ]
+    },
+    {
+      "title": "React2Shell Exploitation Escalates into Large-Scale Global Attacks, Forcing Emergency Mitigation",
+      "link": "https://thehackernews.com/2025/12/react2shell-exploitation-escalates-into.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged  federal agencies to patch the recent React2Shell  vulnerability by December 12, 2025, amid reports of widespread exploitatio",
+      "urgency": "High",
+      "date": "2025-12-12",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Flags Actively Exploited GeoServer XXE Flaw in Updated KEV Catalog",
+      "link": "https://thehackernews.com/2025/12/cisa-flags-actively-exploited-geoserver.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  a high-severity security flaw impacting OSGeo GeoServer to its Known Exploited Vulnerabilities ( KEV ) catalog, base",
+      "urgency": "High",
+      "date": "2025-12-12",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Active Attacks Exploit Gladinet's Hard-Coded Keys for Unauthorized Access and Code Execution",
+      "link": "https://thehackernews.com/2025/12/hard-coded-gladinet-keys-let-attackers.html",
+      "summary": "Huntress is warning of a new actively exploited vulnerability in Gladinet's CentreStack and Triofox products stemming from the use of hard-coded cryptographic keys that have affected nine organization",
+      "urgency": "High",
+      "date": "2025-12-11",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "React2Shell Exploitation Delivers Crypto Miners and New Malware Across Multiple Sectors",
+      "link": "https://thehackernews.com/2025/12/react2shell-exploitation-delivers.html",
+      "summary": "React2Shell  continues  to witness heavy exploitation, with threat actors leveraging the maximum-severity security flaw in React Server Components (RSC) to deliver cryptocurrency miners and an array o",
+      "urgency": "High",
+      "date": "2025-12-11",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2025-12-13T09:30:39.491380"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "date": "2026-01-23",
+  "items": [
+    {
+      "title": "Microsoft Flags Multi-Stage AitM Phishing and BEC Attacks Targeting Energy Firms",
+      "link": "https://thehackernews.com/2026/01/microsoft-flags-multi-stage-aitm.html",
+      "summary": "Microsoft has warned of a multi‑stage adversary‑in‑the‑middle ( AitM ) phishing and business email compromise (BEC) campaign targeting multiple organizations in the energy sector.  \"The campaign abused SharePoint file‑sharing services to deliver phishing payloads and relied on inbox rule creation to maintain persistence and evade user awareness,\" the Microsoft Defender Security Research Team said . \"The attack transitioned into a series of AitM attacks and follow-on BEC activity spanning multiple organizations.\"  As part of post-exploitation activity following initial compromise, the unknown attackers have been found to leverage trusted internal identities from the victim to carry out large‑scale intra‑organizational and external phishing in an effort to cast a wide net and widen the scope of the campaign.  The starting point of the attack is a phishing email likely sent from an email address belonging to a trusted organization, which was compromised beforehand. A...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-flags-multi-stage-aitm-phishing-and-bec-",
+      "source": "The Hacker News",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "New Osiris Ransomware Emerges as New Strain Using POORTRY Driver in BYOVD Attack",
+      "link": "https://thehackernews.com/2026/01/new-osiris-ransomware-emerges-as-new.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new ransomware family called Osiris  that targeted a major food service franchisee operator in Southeast Asia in November 2025.  The attack leveraged a malicious driver called POORTRY  as part of a known technique referred to as bring your own vulnerable driver (BYOVD) to disarm security software, the Symantec and Carbon Black Threat Hunter Team said.  It's worth noting that Osiris is assessed to be a brand-new ransomware strain, sharing no similarities with another variant  of the same name  that emerged in December 2016 as an iteration of the Locky ransomware. It's currently not known who the developers of the locker are, or if it's advertised as a ransomware-as-a-service (RaaS).  However, the Broadcom-owned cybersecurity division said it identified clues that suggest the threat actors who deployed the ransomware may have been previously associated with INC ransomware  (aka Warble).  \"A wide range of living off...",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-osiris-ransomware-emerges-as-new-strain-using-",
+      "source": "The Hacker News",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access",
+      "link": "https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html",
+      "summary": "A critical security flaw has been disclosed in the GNU InetUtils telnet daemon ( telnetd ) that went unnoticed for nearly 11 years.  The vulnerability, tracked as CVE-2026-24061 , is rated 9.8 out of 10.0 on the CVSS scoring system. It affects all versions of GNU InetUtils from version 1.9.3 up to and including version 2.7.  \"Telnetd in GNU Inetutils through 2.7 allows remote authentication bypass via a '-f root' value for the USER environment variable,\" according to a description of the flaw in the NIST National Vulnerability Database (NVD).  In a post  on the oss-security mailing list, GNU contributor Simon Josefsson said the vulnerability can be exploited to gain root access to a target system -  The telnetd server invokes /usr/bin/login (normally running as root) passing the value of the USER environment variable received from the client as the last parameter.  If the client supply [sic] a carefully crafted USER environment value being the string \"-f root...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-gnu-inetutils-telnetd-flaw-lets-attackers",
+      "source": "The Hacker News",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Pixel Zero-Click, Redis RCE, China C2s, RAT Ads, Crypto Scams & 15+ Stories",
+      "link": "https://thehackernews.com/2026/01/threatsday-bulletin-pixel-zero-click.html",
+      "summary": "Most of this week's threats didn't rely on new tricks. They relied on familiar systems behaving exactly as designed, just in the wrong hands. Ordinary files, routine services, and trusted workflows were enough to open doors without forcing them.  What stands out is how little friction attackers now need. Some activity focused on quiet reach and coverage, others on timing and reuse. The emphasis wasn't speed or spectacle, but control gained through scale, patience, and misplaced trust.  The stories below trace where that trust bent, not how it broke. Each item is a small signal of a larger shift, best seen when viewed together.                     Spear-phishing delivers custom backdoor             Operation Nomad Leopard Targets Afghanistan                  Government entities in Afghanistan have been at the receiving end of a spear-phishing campaign dubbed Operation Nomad Leopard that employs bogus administrative documents as decoys to distribute a backdoor named FALSECUB by means o...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-pixel-zero-click-redis-rce-chi",
+      "source": "The Hacker News",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "Filling the Most Common Gaps in Google Workspace Security",
+      "link": "https://thehackernews.com/2026/01/filling-most-common-gaps-in-google.html",
+      "summary": "Security teams at agile, fast-growing companies often have the same mandate: secure the business without slowing it down. Most teams inherit a tech stack optimized for breakneck growth, not resilience. In these environments, the security team is the helpdesk, the compliance expert, and the incident response team all rolled into one.  Securing the cloud office in this scenario is all about finding leverage: identifying the strategic control points that drive the most resilience without adding operational overhead.  Google Workspace provides an excellent security foundation, but its native tooling has inherent limitations, and relying on the default configurations can cause headaches. To build a truly resilient program, there are some common-sense first steps teams can take to secure Workspace natively, before intelligently augmenting the platform where its capabilities fall short.  Secure email, the primary attack vector and largest archive  Email remains the most reliable target for ...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "filling-the-most-common-gaps-in-google-workspace-s",
+      "source": "The Hacker News",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "Malicious PyPI Package Impersonates SymPy, Deploys XMRig Miner on Linux Hosts",
+      "link": "https://thehackernews.com/2026/01/malicious-pypi-package-impersonates.html",
+      "summary": "A new malicious package discovered in the Python Package Index (PyPI) has been found to impersonate a popular library for symbolic mathematics to deploy malicious payloads, including a cryptocurrency miner, on Linux hosts.  The package, named sympy-dev , mimics SymPy , replicating the latter's project description verbatim in an attempt to deceive unsuspecting users into thinking that they are downloading a \"development version\" of the library. It has been downloaded over 1,100 times since it was first published on January 17, 2026.  Although the download count is not a reliable yardstick for measuring the number of infections, the figure likely suggests some developers may have fallen victim to the malicious campaign. The package remains available for download as of writing.  According to Socket , the original library has been modified to act as a downloader for an XMRig cryptocurrency miner on compromised systems. The malicious behavior is designed to trigger only when ...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-pypi-package-impersonates-sympy-deploys-",
+      "source": "The Hacker News",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "2 Venezuelans Convicted in US for Using Malware to Hack ATMs",
+      "link": "https://www.securityweek.com/2-venezuelans-convicted-in-us-for-using-malware-to-hack-atms/",
+      "summary": "Dozens of Venezuelan nationals have been charged by the US for their role in ATM jackpotting attacks.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "2-venezuelans-convicted-in-us-for-using-malware-to",
+      "source": "SecurityWeek",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "The Upside Down is Real: What Stranger Things Teaches Us About Modern Cybersecurity",
+      "link": "https://www.securityweek.com/the-upside-down-is-real-what-stranger-things-teaches-us-about-modern-cybersecurity/",
+      "summary": "To all those who are fighting the good fight in the world of cyber, keep collaborating to ensure our world never succumbs to the chaos of the Upside Down.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "the-upside-down-is-real-what-stranger-things-teach",
+      "source": "SecurityWeek",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "Old Attack, New Speed: Researchers Optimize Page Cache Exploits",
+      "link": "https://www.securityweek.com/old-attack-new-speed-researchers-optimize-page-cache-exploits/",
+      "summary": "A team of researchers from the Graz University of Technology in Austria has revived page Linux page cache attacks.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "old-attack-new-speed-researchers-optimize-page-cac",
+      "source": "SecurityWeek",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "Webinar Today: Rethinking Email Security for Mid-Sized Organizations",
+      "link": "https://www.securityweek.com/webinar-today-rethinking-email-security-for-mid-sized-organizations/",
+      "summary": "See how modern AI-driven detection can block sophisticated attacks that traditional tools miss",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-today-rethinking-email-security-for-mid-si",
+      "source": "SecurityWeek",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "AiStrike Raises $7 Million in Seed Funding",
+      "link": "https://www.securityweek.com/aistrike-raises-7-million-in-seed-funding/",
+      "summary": "The startup’s AI-native platform unifies exposure analysis, threat intelligence, investigation, and response.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "aistrike-raises-7-million-in-seed-funding",
+      "source": "SecurityWeek",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "New Wave of Attacks Targeting FortiGate Firewalls",
+      "link": "https://www.securityweek.com/new-wave-of-attacks-targeting-fortigate-firewalls/",
+      "summary": "Hackers bypass the FortiCloud SSO login authentication to create new accounts and change device configurations.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-wave-of-attacks-targeting-fortigate-firewalls",
+      "source": "SecurityWeek",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "Okta SSO accounts targeted in vishing-based data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/okta-sso-accounts-targeted-in-vishing-based-data-theft-attacks/",
+      "summary": "Okta is warning about custom phishing kits built specifically for voice-based social engineering (vishing) attacks. BleepingComputer has learned that these kits are being used in active attacks to steal Okta SSO credentials for data theft.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "okta-sso-accounts-targeted-in-vishing-based-data-t",
+      "source": "BleepingComputer",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "This $35 Swifdoo PDF editor license lasts for life",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-35-swifdoo-pdf-editor-license-lasts-for-life/",
+      "summary": "Paying a subscription to edit PDFs is a little silly. If you don't want to pay by the month just to use one of the most popular file formats in the world, SwifDoo is a new alternative. This PDF editor lets you edit, convert, and scan PDFs without trouble, and you can even get a lifetime subscription...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "this-35-swifdoo-pdf-editor-license-lasts-for-life",
+      "source": "BleepingComputer",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-23"
+    },
+    {
+      "title": "Curl ending bug bounty program after flood of AI slop reports",
+      "link": "https://www.bleepingcomputer.com/news/security/curl-ending-bug-bounty-program-after-flood-of-ai-slop-reports/",
+      "summary": "The developer of the popular curl command-line utility and library announced that the project will end its HackerOne security bug bounty program at the end of this month, after being overwhelmed by low-quality AI-generated vulnerability reports.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "curl-ending-bug-bounty-program-after-flood-of-ai-s",
+      "source": "BleepingComputer",
+      "date": "2026-01-23"
+    }
+  ]
+}

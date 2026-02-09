@@ -1,0 +1,210 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 35,
+      "vulnerability": 25,
+      "malware": 21,
+      "critical": 21,
+      "cybersecurity": 14,
+      "breach": 13,
+      "ransomware": 9,
+      "apt": 7,
+      "phishing": 7
+    },
+    "30_days": {
+      "attack": 35,
+      "vulnerability": 25,
+      "malware": 21,
+      "critical": 21,
+      "cybersecurity": 14,
+      "breach": 13,
+      "ransomware": 9,
+      "apt": 7,
+      "phishing": 7
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 21,
+      "Medium": 34,
+      "Low": 25
+    },
+    "30_days": {
+      "High": 21,
+      "Medium": 34,
+      "Low": 25
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 30,
+    "SecurityWeek": 30,
+    "BleepingComputer": 20
+  },
+  "top_keywords": {
+    "cve": 39,
+    "security": 38,
+    "google": 33,
+    "code": 31,
+    "exploited": 30,
+    "malicious": 30,
+    "threat": 28,
+    "credentials": 28,
+    "attacks": 26,
+    "users": 26,
+    "malware": 25,
+    "samsung": 24,
+    "packages": 24,
+    "flaw": 21,
+    "android": 21,
+    "activity": 21,
+    "april": 20,
+    "actors": 20,
+    "report": 19,
+    "microsoft": 19
+  },
+  "daily_counts": [
+    {
+      "date": "2025-11-07",
+      "count": 16
+    },
+    {
+      "date": "2025-11-08",
+      "count": 16
+    },
+    {
+      "date": "2025-11-09",
+      "count": 16
+    },
+    {
+      "date": "2025-11-10",
+      "count": 16
+    },
+    {
+      "date": "2025-11-11",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus Feature",
+      "link": "https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html",
+      "summary": "Google's Mandiant Threat Defense on Monday said it discovered  n-day exploitation of a now-patched security flaw in Gladinet's Triofox file-sharing and remote access platform.  The critical vulnerabil",
+      "urgency": "High",
+      "date": "2025-11-11",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Two New Web Application Risk Categories Added to OWASP Top 10",
+      "link": "https://www.securityweek.com/two-new-web-application-risk-categories-added-to-owasp-top-10/",
+      "summary": "OWASP has added two new categories to the revised version of its Top 10 list of the most critical risks to web applications.",
+      "urgency": "High",
+      "date": "2025-11-11",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Google Workspace Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "A checklist for securing Google Workspace.",
+      "urgency": "High",
+      "date": "2025-11-11",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Samsung Mobile Flaw Exploited as Zero-Day to Deploy LANDFALL Android Spyware",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ",
+      "urgency": "High",
+      "date": "2025-11-10",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s",
+      "urgency": "High",
+      "date": "2025-11-10",
+      "tags": [
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "urgency": "High",
+      "date": "2025-11-10",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "5 Critical Google Workspace Security Settings You Could Be Missing",
+      "link": "https://www.bleepingcomputer.com/go/66/",
+      "summary": "A checklist for securing Google Workspace.",
+      "urgency": "High",
+      "date": "2025-11-10",
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "title": "Samsung Mobile Flaw Exploited as Zero-Day to Deploy LANDFALL Android Spyware",
+      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
+      "summary": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL  in targeted attacks in the Middle East.  The ",
+      "urgency": "High",
+      "date": "2025-11-09",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation",
+      "link": "https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html",
+      "summary": "A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.  According to software s",
+      "urgency": "High",
+      "date": "2025-11-09",
+      "tags": [
+        "malware",
+        "critical"
+      ]
+    },
+    {
+      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
+      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
+      "summary": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East.",
+      "urgency": "High",
+      "date": "2025-11-09",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 80,
+    "total_30_days": 80,
+    "top_tag": "attack",
+    "last_update": "2025-11-11T09:33:15.895558"
+  }
+}

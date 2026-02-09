@@ -1,0 +1,208 @@
+{
+  "date": "2025-12-10",
+  "items": [
+    {
+      "title": "Microsoft Issues Security Fixes for 56 Flaws, Including Active Exploit and Two Zero-Days",
+      "link": "https://thehackernews.com/2025/12/microsoft-issues-security-fixes-for-56.html",
+      "summary": "Microsoft closed out 2025 with patches for 56 security flaws  in various products across the Windows platform, including one vulnerability that has been actively exploited in the wild.  Of the 56 flaws, three are rated Critical, and 53 are rated Important in severity. Two other defects are listed as publicly known at the time of the release. These include 29 privilege escalation, 18 remote code execution, four information disclosure, three denial-of-service, and two spoofing vulnerabilities.  In total, Microsoft has addressed a total of 1,275 CVEs in 2025, according to data compiled by Fortra. Tenable's Satnam Narang said 2025 also marks the second consecutive year where the Windows maker has patched over 1,000 CVEs. It's the third time it has done so since Patch Tuesday's inception.  The update is in addition to 17 shortcomings  the tech giant patched in its Chromium-based Edge browser since the release of the November 2025 Patch Tuesday update . This also consists of a s...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-issues-security-fixes-for-56-flaws-inclu",
+      "source": "The Hacker News",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Fortinet, Ivanti, and SAP Issue Urgent Patches for Authentication and Code Execution Flaws",
+      "link": "https://thehackernews.com/2025/12/fortinet-ivanti-and-sap-issue-urgent.html",
+      "summary": "Fortinet, Ivanti, and SAP have moved to address critical security flaws in their products that, if successfully exploited, could result in an authentication bypass and code execution.  The Fortinet vulnerabilities affect FortiOS, FortiWeb, FortiProxy, and FortiSwitchManager and relate to a case of improper verification of a cryptographic signature. They are tracked as CVE-2025-59718  and CVE-2025-59719  (CVSS scores: 9.8).  \"An Improper Verification of Cryptographic Signature vulnerability [CWE-347] in FortiOS, FortiWeb, FortiProxy, and FortiSwitchManager may allow an unauthenticated attacker to bypass the FortiCloud SSO login authentication via a crafted SAML message, if that feature is enabled on the device,\" Fortinet said  in an advisory.  The company, however, noted that the FortiCloud SSO login feature is not enabled in the default factory settings. FortiCloud SSO login is enabled when an administrator registers the device to FortiCare and has not disabled the toggle ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-ivanti-and-sap-issue-urgent-patches-for-a",
+      "source": "The Hacker News",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "North Korea-linked Actors Exploit React2Shell to Deploy New EtherRAT Malware",
+      "link": "https://thehackernews.com/2025/12/north-korea-linked-actors-exploit.html",
+      "summary": "Threat actors with ties to North Korea have likely become the latest to exploit the recently disclosed critical React2Shell  security flaw in React Server Components (RSC) to deliver a previously undocumented remote access trojan dubbed EtherRAT .  \"EtherRAT leverages Ethereum smart contracts for command-and-control (C2) resolution, deploys five independent Linux persistence mechanisms, and downloads its own Node.js runtime from nodejs.org,\" Sysdig said  in a report published Monday.  The cloud security firm said the activity exhibits significant overlap with a long-running campaign codenamed Contagious Interview , which has been observed leveraging the EtherHiding  technique to distribute malware since February 2025.  Contagious Interview is the name given to a series of attacks in which blockchain and Web3 developers, among others, are targeted through fake job interviews, coding assignments, and video assessments, leading to the deployment of malware. These efforts typi...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "north-korea-linked-actors-exploit-react2shell-to-d",
+      "source": "The Hacker News",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Four Threat Clusters Using CastleLoader as GrayBravo Expands Its Malware Service Infrastructure",
+      "link": "https://thehackernews.com/2025/12/four-threat-clusters-using-castleloader.html",
+      "summary": "Four distinct threat activity clusters have been observed leveraging a malware loader known as CastleLoader , strengthening the previous assessment that the tool is offered to other threat actors under a malware-as-a-service (MaaS) model.  The threat actor behind CastleLoader has been assigned the name GrayBravo by Recorded Future's Insikt Group, which was previously tracking it as TAG-150 . The malware first emerged in early 2025.  GrayBravo is \"characterized by rapid development cycles, technical sophistication, responsiveness to public reporting, and an expansive, evolving infrastructure,\" the Mastercard-owned company said  in an analysis published today.   Some of the notable tools in the threat actor's toolset include a remote access trojan called CastleRAT and a malware framework referred to as CastleBot, which comprises three components: a shellcode stager/downloader, a loader, and a core backdoor.   The CastleBot loader is responsible for injecting the core m...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "four-threat-clusters-using-castleloader-as-graybra",
+      "source": "The Hacker News",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Storm-0249 Escalates Ransomware Attacks with ClickFix, Fileless PowerShell, and DLL Sideloading",
+      "link": "https://thehackernews.com/2025/12/storm-0249-escalates-ransomware-attacks.html",
+      "summary": "The threat actor known as Storm-0249  is likely shifting from its role as an initial access broker to adopt a combination of more advanced tactics like domain spoofing, DLL side-loading, and fileless PowerShell execution to facilitate ransomware attacks.  \"These methods allow them to bypass defenses, infiltrate networks, maintain persistence, and operate undetected, raising serious concerns for security teams,\" ReliaQuest said  in a report shared with The Hacker News.  Storm-0249 is the moniker assigned by Microsoft to an initial access broker that has sold footholds into organizations to other cybercrime groups, including ransomware and extortion actors like Storm-0501 . It was first highlighted by the tech giant in September 2024.   Then, earlier this year, Microsoft also revealed  details of a phishing campaign mounted by the threat actor that used tax-related themes to target users in the U.S. ahead of the tax filing season and infect them with Latrodectus and the BruteR...",
+      "tags": [
+        "phishing",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "storm-0249-escalates-ransomware-attacks-with-click",
+      "source": "The Hacker News",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "How to Streamline Zero Trust Using the Shared Signals Framework",
+      "link": "https://thehackernews.com/2025/12/how-to-streamline-zero-trust-using.html",
+      "summary": "Zero Trust helps organizations shrink their attack surface and respond to threats faster, but many still struggle to implement it because their security tools don't share signals reliably. 88% of organizations admit they've suffered significant challenges in trying to implement such approaches, according to Accenture . When products can't communicate, real-time access decisions break down.  The Shared Signals Framework (SSF) aims to fix this with a standardized way to exchange security events. Yet adoption is uneven. For example, Kolide Device Trust doesn't currently support SSF.   Scott Bean, Senior IAM and Security Engineer at MongoDB, proposed a way to solve the problem, giving teams an easy and intuitive way to operationalize SSF across their environment.  In this guide, we'll share an overview of the workflow , plus step-by-step instructions for getting it up and running.  The problem – IAM tools don't support SSF  A core requirement of Zero Trust is continuous, reliable sig...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "how-to-streamline-zero-trust-using-the-shared-sign",
+      "source": "The Hacker News",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Intel, AMD Processors Affected by PCIe Vulnerabilities",
+      "link": "https://www.securityweek.com/intel-amd-processors-affected-by-pcie-vulnerabilities/",
+      "summary": "The PCIe flaws, found by Intel employees, can be exploited for information disclosure, escalation of privilege, or DoS.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "intel-amd-processors-affected-by-pcie-vulnerabilit",
+      "source": "SecurityWeek",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "UK Sanctions Russian and Chinese Firms Suspected of Being ‘Malign Actors’ in Information Warfare",
+      "link": "https://www.securityweek.com/uk-sanctions-russian-and-chinese-firms-suspected-of-being-malign-actors-in-information-warfare/",
+      "summary": "Britain and its allies face escalating “hybrid threats … designed to weaken critical national infrastructure, undermine our interests and interfere in our democracies.”",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "uk-sanctions-russian-and-chinese-firms-suspected-o",
+      "source": "SecurityWeek",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Adobe Patches Nearly 140 Vulnerabilities",
+      "link": "https://www.securityweek.com/adobe-patches-nearly-140-vulnerabilities/",
+      "summary": "The Experience Manager security update resolves 117 vulnerabilities, including 116 identified as cross-site scripting (XSS) bugs.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "adobe-patches-nearly-140-vulnerabilities",
+      "source": "SecurityWeek",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Microsoft Patches 57 Vulnerabilities, Three Zero-Days",
+      "link": "https://www.securityweek.com/microsoft-patches-57-vulnerabilities-three-zero-days/",
+      "summary": "Microsoft has addressed a Windows vulnerability exploited as zero-day that allows attackers to obtain System privileges.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-57-vulnerabilities-three-zero-da",
+      "source": "SecurityWeek",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Microsoft Names New Operating CISOs in Strategic Move to Strengthen Cyberdefense",
+      "link": "https://www.securityweek.com/microsoft-names-new-operating-cisos-in-strategic-move-to-strengthen-cyber-defense/",
+      "summary": "Promotions across Microsoft’s security organization reinforce the company’s shift toward AI-driven defense and tighter operational oversight under Global CISO Igor Tsyganskiy.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-names-new-operating-cisos-in-strategic-m",
+      "source": "SecurityWeek",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Prime Security Raises $20 Million to Build Agentic Security Architect",
+      "link": "https://www.securityweek.com/prime-security-raises-20-million-to-build-agentic-security-architect/",
+      "summary": "The AI-powered platform autonomously conducts security design reviews and proactively identifies design flaws across development work.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "prime-security-raises-20-million-to-build-agentic-",
+      "source": "SecurityWeek",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "SAP fixes three critical vulnerabilities across multiple products",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-three-critical-vulnerabilities-across-multiple-products/",
+      "summary": "SAP has released its December security updates addressing 14 vulnerabilities across a range of products, including three critical-severity flaws.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "sap-fixes-three-critical-vulnerabilities-across-mu",
+      "source": "BleepingComputer",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Windows PowerShell now warns when running Invoke-WebRequest scripts",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-windows-powershell-now-warns-when-running-invoke-webrequest-scripts/",
+      "summary": "Microsoft says Windows PowerShell now warns when running scripts that use the Invoke-WebRequest cmdlet to download web content, aiming to prevent potentially risky code from executing.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "windows-powershell-now-warns-when-running-invoke-w",
+      "source": "BleepingComputer",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "New Webinar: How phishing attacks evolved in 2025",
+      "link": "https://pushsecurity.com/webinar/phishing-2025-review?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "This year, we've seen a huge amount of phishing evolution, with new techniques, toolkits, and delivery methods identified every day.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-how-phishing-attacks-evolved-in-2025",
+      "source": "BleepingComputer",
+      "date": "2025-12-10"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5071546 extended security update",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5071546-extended-security-update/",
+      "summary": "Microsoft has released the KB5071546 extended security update to resolve 57 security vulnerabilities, including three zero-day flaws.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-releases-windows-10-kb5071546-extended-s",
+      "source": "BleepingComputer",
+      "date": "2025-12-10"
+    }
+  ]
+}

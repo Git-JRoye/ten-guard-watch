@@ -1,0 +1,209 @@
+{
+  "date": "2026-01-29",
+  "items": [
+    {
+      "title": "SolarWinds Fixes Four Critical Web Help Desk Flaws With Unauthenticated RCE and Auth Bypass",
+      "link": "https://thehackernews.com/2026/01/solarwinds-fixes-four-critical-web-help.html",
+      "summary": "SolarWinds has released  security updates to address multiple security vulnerabilities impacting SolarWinds Web Help Desk, including four critical vulnerabilities that could result in authentication bypass and remote code execution (RCE).  The list of vulnerabilities is as follows -   CVE-2025-40536  (CVSS score: 8.1) - A security control bypass vulnerability that could allow an unauthenticated attacker to gain access to certain restricted functionality  CVE-2025-40537  (CVSS score: 7.5) - A hard-coded credentials vulnerability that could allow access to administrative functions using the \"client\" user account  CVE-2025-40551  (CVSS score: 9.8) - An untrusted data deserialization vulnerability that could lead to remote code execution, which would allow an unauthenticated attacker to run commands on the host machine  CVE-2025-40552  (CVSS score: 9.8) - An authentication bypass vulnerability that could allow an unauthenticated attacker to execute actions and methods  CVE-202...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "solarwinds-fixes-four-critical-web-help-desk-flaws",
+      "source": "The Hacker News",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Google Disrupts IPIDEA — One of the World's Largest Residential Proxy Networks",
+      "link": "https://thehackernews.com/2026/01/google-disrupts-ipidea-one-of-worlds.html",
+      "summary": "Google on Wednesday announced  that it worked together with other partners to disrupt IPIDEA, which it described as one of the largest residential proxy networks in the world.  To that end, the company said it took legal action to take down dozens of domains used to control devices and proxy traffic through them. As of writing, IPIDEA's website (\"www.ipidea.io\") is no longer accessible. It advertised itself as the \"world's leading provider of IP proxy\" with more than 6.1 million daily updated IP addresses and 69,000 daily new IP addresses.  \"Residential proxy networks have become a pervasive tool for everything from high-end espionage to massive criminal schemes,\" John Hultquist, Google Threat Intelligence Group's (GTIG) chief analyst, said in a statement shared with The Hacker News.  \"By routing traffic through a person's home internet connection, attackers can hide in plain sight while infiltrating corporate environments. By taking do...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-disrupts-ipidea-one-of-the-worlds-largest-r",
+      "source": "The Hacker News",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Fake Moltbot AI Coding Assistant on VS Code Marketplace Drops Malware",
+      "link": "https://thehackernews.com/2026/01/fake-moltbot-ai-coding-assistant-on-vs.html",
+      "summary": "Cybersecurity researchers have flagged  a new malicious Microsoft Visual Studio Code (VS Code) extension for Moltbot  (formerly Clawdbot) on the official Extension Marketplace that claims to be a free artificial intelligence (AI) coding assistant, but stealthily drops a malicious payload on compromised hosts.  The extension, named \"ClawdBot Agent - AI Coding Assistant\" (\"clawdbot.clawdbot-agent\"), has since been taken down by Microsoft. It was published by a user named \"clawdbot\" on January 27, 2026.   Moltbot has taken off in a big way, crossing more than 85,000 stars on GitHub  as of writing. The open-source project, created by Austrian developer Peter Steinberger, allows users to run a personal AI assistant powered by a large language model (LLM) locally on their own devices and interact with it over already established communication platforms like WhatsApp, Telegram, Slack, Discord, Google Chat, Signal, iMessage, Microsoft Teams, and WebChat.",
+      "tags": [
+        "malware",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "fake-moltbot-ai-coding-assistant-on-vs-code-market",
+      "source": "The Hacker News",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
+      "link": "https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html",
+      "summary": "The \"coordinated\" cyber attack targeting multiple sites across the Polish power grid  has been attributed with medium confidence to a Russian state-sponsored hacking crew known as ELECTRUM .  Operational technology (OT) cybersecurity company Dragos, in a new intelligence brief published Tuesday, described the late December 2025 activity as the first major cyber attack targeting distributed energy resources (DERs).  \"The attack affected communication and control systems at combined heat and power (CHP) facilities and systems managing the dispatch of renewable energy systems from wind and solar sites,\" Dragos said . \"While the attack did not result in power outages, adversaries gained access to operational technology systems critical to grid operations and disabled key equipment beyond repair at the site.\"   It's worth pointing out that ELECTRUM  and KAMACITE  share overlaps with a cluster referred to as Sandworm  (aka APT44 and Seashell Blizzard). KA...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "russian-electrum-tied-to-december-2025-cyber-attac",
+      "source": "The Hacker News",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Two High-Severity n8n Flaws Allow Authenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/01/two-high-severity-n8n-flaws-allow.html",
+      "summary": "Cybersecurity researchers have disclosed  two new security flaws in the n8n workflow automation platform, including a crucial vulnerability that could result in remote code execution.  The weaknesses, discovered by the JFrog Security Research team, are listed below -   CVE-2026-1470  (CVSS score: 9.9) - An eval injection vulnerability  that could allow an authenticated user to bypass the Expression sandbox mechanism  and achieve full remote code execution on n8n's main node by passing specially crafted JavaScript code  CVE-2026-0863  (CVSS score: 8.5) - An eval injection vulnerability that could allow an authenticated user to bypass n8n's python-task-executor sandbox restrictions and run arbitrary Python code on the underlying operating system   Successful exploitation of the flaws could permit an attacker to hijack an entire n8n instance, including under scenarios where it's operating under \"internal\" execution mode. In its documentation, n8n notes  that using i...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "two-high-severity-n8n-flaws-allow-authenticated-re",
+      "source": "The Hacker News",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "From Triage to Threat Hunts: How AI Accelerates SecOps",
+      "link": "https://thehackernews.com/2026/01/from-triage-to-threat-hunts-how-ai.html",
+      "summary": "If you work in security operations, the concept of the AI SOC agent  is likely familiar. Early narratives promised total autonomy. Vendors seized on the idea of the \"Autonomous SOC\" and suggested a future where algorithms replaced analysts.  That future has not arrived. We have not seen mass layoffs or empty security operations centers. We have instead seen the emergence of a practical reality. The deployment of AI in the SOC has not removed the human element. It has instead redefined how they are spending their time.   We now understand that the value of AI is not in replacing the operator. It is in solving the math problem of defense. Infrastructure complexity scales exponentially while headcount scales linearly. This mismatch previously forced teams to make statistical compromises and sample alerts rather than solving them. Agentic AI corrects this imbalance. It decouples investigation capacity from human availability and fundamentally alters the daily workflow of the sec...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "from-triage-to-threat-hunts-how-ai-accelerates-sec",
+      "source": "The Hacker News",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "PwC and Google Cloud Ink $400 Million Deal to Scale AI-Powered Defense",
+      "link": "https://www.securityweek.com/pwc-and-google-cloud-ink-400-million-deal-to-scale-ai-powered-defense/",
+      "summary": "The announcement comes just weeks after Palo Alto Networks and Google Cloud announced a multibillion-dollar AI and cloud security deal.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "pwc-and-google-cloud-ink-400-million-deal-to-scale",
+      "source": "SecurityWeek",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Cyber Insights 2026: Offensive Security; Where It Is and Where It’s Going",
+      "link": "https://www.securityweek.com/cyber-insights-2026-offensive-security-where-it-is-and-where-its-going/",
+      "summary": "Malicious attacks are increasing in frequency, sophistication and damage. Defenders need to find and harden system weaknesses before attackers can attack them.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cyber-insights-2026-offensive-security-where-it-is",
+      "source": "SecurityWeek",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Mesh Security Raises $12 Million for CSMA Platform",
+      "link": "https://www.securityweek.com/mesh-security-raises-12-million-for-csma-platform/",
+      "summary": "The investment will allow Mesh to advance its autonomous, agentic capabilities, and scale sales and customer support efforts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "mesh-security-raises-12-million-for-csma-platform",
+      "source": "SecurityWeek",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Why We Can’t Let AI Take the Wheel of Cyber Defense",
+      "link": "https://www.securityweek.com/why-we-cant-let-ai-take-the-wheel-of-cyber-defense/",
+      "summary": "The fastest way to squander the promise of AI is to mistake automation for assurance, and novelty for resilience.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "why-we-cant-let-ai-take-the-wheel-of-cyber-defense",
+      "source": "SecurityWeek",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Rein Security Emerges From Stealth With $8M, Bringing Inside-Out AppSec Approach",
+      "link": "https://www.securityweek.com/rein-security-emerges-from-stealth-with-8m-bringing-inside-out-protection-to-appsec/",
+      "summary": "Rein aims to close the production visibility gap by stopping attacks inside the application runtime.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "rein-security-emerges-from-stealth-with-8m-bringin",
+      "source": "SecurityWeek",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "WhatsApp Boosts Account Security for At-Risk Individuals",
+      "link": "https://www.securityweek.com/whatsapp-boosts-account-security-for-at-risk-individuals/",
+      "summary": "New Strict Account Settings allow users to block attachments and media and silence calls from unknown people.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "whatsapp-boosts-account-security-for-at-risk-indiv",
+      "source": "SecurityWeek",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Initial access hackers switch to Tsundere Bot for ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/initial-access-hackers-switch-to-tsundere-bot-for-ransomware-attacks/",
+      "summary": "A prolific initial access broker tracked as TA584 has been observed using the Tsundere Bot alongside XWorm remote access trojan to gain network access that could lead to ransomware attacks.",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "initial-access-hackers-switch-to-tsundere-bot-for-",
+      "source": "BleepingComputer",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "Cyberattack on Polish energy grid impacted around 30 facilities",
+      "link": "https://www.bleepingcomputer.com/news/security/cyberattack-on-polish-energy-grid-impacted-around-30-facilities/",
+      "summary": "The coordinated attack on Poland's power grid in late December targeted multiple distributed energy resource (DER) sites across the country, including combined heat and power (CHP) facilities and wind and solar dispatch systems.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cyberattack-on-polish-energy-grid-impacted-around-",
+      "source": "BleepingComputer",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "New Webinar: Choose Your Own Investigation — Browser Attack Edition",
+      "link": "https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-choose-your-own-investigation-browser-",
+      "source": "BleepingComputer",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "eScan confirms update server breached to push malicious update",
+      "link": "https://www.bleepingcomputer.com/news/security/escan-confirms-update-server-breached-to-push-malicious-update/",
+      "summary": "MicroWorld Technologies, the maker of the eScan antivirus product, has confirmed that one of its update servers was breached and used to distribute an unauthorized update later analyzed as malicious to a small subset of customers earlier this month.",
+      "tags": [
+        "malware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "escan-confirms-update-server-breached-to-push-mali",
+      "source": "BleepingComputer",
+      "date": "2026-01-29"
+    }
+  ]
+}

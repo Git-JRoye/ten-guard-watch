@@ -1,0 +1,310 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 68,
+      "cybersecurity": 37,
+      "vulnerability": 33,
+      "malware": 26,
+      "apt": 19,
+      "breach": 16,
+      "critical": 15,
+      "phishing": 11,
+      "ransomware": 2
+    },
+    "30_days": {
+      "attack": 239,
+      "cybersecurity": 147,
+      "vulnerability": 134,
+      "malware": 79,
+      "breach": 73,
+      "critical": 66,
+      "apt": 55,
+      "phishing": 48,
+      "ransomware": 25
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Low": 61,
+      "High": 19,
+      "Medium": 48
+    },
+    "30_days": {
+      "Medium": 199,
+      "High": 79,
+      "Low": 218
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 124
+  },
+  "top_keywords": {
+    "security": 243,
+    "attacks": 156,
+    "vulnerability": 136,
+    "access": 135,
+    "attack": 132,
+    "code": 128,
+    "threat": 121,
+    "cybersecurity": 117,
+    "data": 117,
+    "malicious": 110,
+    "malware": 108,
+    "cve": 99,
+    "campaign": 97,
+    "activity": 92,
+    "microsoft": 87,
+    "flaw": 86,
+    "remote": 83,
+    "users": 81,
+    "vulnerabilities": 77,
+    "known": 75
+  },
+  "daily_counts": [
+    {
+      "date": "2026-01-04",
+      "count": 16
+    },
+    {
+      "date": "2026-01-05",
+      "count": 16
+    },
+    {
+      "date": "2026-01-06",
+      "count": 16
+    },
+    {
+      "date": "2026-01-07",
+      "count": 16
+    },
+    {
+      "date": "2026-01-08",
+      "count": 16
+    },
+    {
+      "date": "2026-01-09",
+      "count": 16
+    },
+    {
+      "date": "2026-01-10",
+      "count": 16
+    },
+    {
+      "date": "2026-01-11",
+      "count": 16
+    },
+    {
+      "date": "2026-01-12",
+      "count": 16
+    },
+    {
+      "date": "2026-01-13",
+      "count": 16
+    },
+    {
+      "date": "2026-01-14",
+      "count": 16
+    },
+    {
+      "date": "2026-01-15",
+      "count": 16
+    },
+    {
+      "date": "2026-01-16",
+      "count": 16
+    },
+    {
+      "date": "2026-01-17",
+      "count": 16
+    },
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    },
+    {
+      "date": "2026-01-30",
+      "count": 16
+    },
+    {
+      "date": "2026-01-31",
+      "count": 16
+    },
+    {
+      "date": "2026-02-01",
+      "count": 16
+    },
+    {
+      "date": "2026-02-02",
+      "count": 16
+    },
+    {
+      "date": "2026-02-03",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Russian hackers exploit recently patched Microsoft Office bug in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/",
+      "summary": "Ukraine's Computer Emergency Response Team (CERT) says that Russian hackers are exploiting CVE-2026-21509, a recently patched vulnerability in multiple versions of Microsoft Office.",
+      "urgency": "High",
+      "date": "2026-02-03",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ]
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, an",
+      "urgency": "High",
+      "date": "2026-02-02",
+      "tags": [
+        "attack"
+      ]
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, an",
+      "urgency": "High",
+      "date": "2026-02-01",
+      "tags": [
+        "attack"
+      ]
+    },
+    {
+      "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+      "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+      "summary": "CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, an",
+      "urgency": "High",
+      "date": "2026-01-31",
+      "tags": [
+        "attack"
+      ]
+    },
+    {
+      "title": "SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score",
+      "link": "https://thehackernews.com/2026/01/smartermail-fixes-critical.html",
+      "summary": "SmarterTools has addressed two more security flaws in SmarterMail email software, including one critical security flaw that could result in arbitrary code execution.  The vulnerability, tracked as CVE",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released",
+      "link": "https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html",
+      "summary": "Ivanti has rolled out  security updates to address two security flaws impacting Ivanti Endpoint Manager Mobile (EPMM) that have been exploited in zero-day attacks, one of which has been added  by the ",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Survey of 100+ Energy Systems Reveals Critical OT Cybersecurity Gaps",
+      "link": "https://thehackernews.com/2026/01/survey-of-100-energy-systems-reveals.html",
+      "summary": "A study by OMICRON  has revealed widespread cybersecurity gaps in the operational technology (OT) networks of substations, power plants, and control centers worldwide. Drawing on data from more than 1",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Ivanti Patches Exploited EPMM Zero-Days",
+      "link": "https://www.securityweek.com/ivanti-patches-exploited-epmm-zero-days/",
+      "summary": "The critical-severity vulnerabilities could allow unauthenticated attackers to execute arbitrary code remotely.",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "SolarWinds Patches Critical Web Help Desk Vulnerabilities",
+      "link": "https://www.securityweek.com/solarwinds-patches-critical-web-help-desk-vulnerabilities/",
+      "summary": "The four critical flaws could be exploited without authentication for remote code execution or authentication bypass.",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Ivanti warns of two EPMM flaws exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-two-epmm-flaws-exploited-in-zero-day-attacks/",
+      "summary": "Ivanti has disclosed two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as CVE-2026-1281 and CVE-2026-1340, that were exploited in zero-day attacks.",
+      "urgency": "High",
+      "date": "2026-01-30",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 128,
+    "total_30_days": 496,
+    "top_tag": "attack",
+    "last_update": "2026-02-03T09:59:26.700966"
+  }
+}

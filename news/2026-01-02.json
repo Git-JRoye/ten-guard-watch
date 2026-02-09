@@ -1,0 +1,158 @@
+{
+  "date": "2026-01-02",
+  "items": [
+    {
+      "title": "Cybercriminals Abuse Google Cloud Email Feature in Multi-Stage Phishing Campaign",
+      "link": "https://thehackernews.com/2026/01/cybercriminals-abuse-google-cloud-email.html",
+      "summary": "Cybersecurity researchers have disclosed details of a phishing campaign that involves the attackers impersonating legitimate Google-generated messages by abusing Google Cloud's Application Integration  service to distribute emails.  The activity, Check Point said, takes advantage of the trust associated with Google Cloud infrastructure to send the messages from a legitimate email address (\"noreply-application-integration@google[.]com\") so that they can bypass traditional email security filters and have a better chance of landing in users' inboxes.  \"The emails mimic routine enterprise notifications such as voicemail alerts and file access or permission requests, making them appear normal and trustworthy to recipients,\" the cybersecurity company said .  Attackers have been observed sending 9,394 phishing emails targeting approximately 3,200 customers over a 14-day period observed in December 2025, with the affected organizations located in the U.S., Asia-Pac...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cybercriminals-abuse-google-cloud-email-feature-in",
+      "source": "The Hacker News",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories",
+      "link": "https://thehackernews.com/2026/01/threatsday-bulletin-ghostad-drain-macos.html",
+      "summary": "The first ThreatsDay Bulletin of 2026 lands on a day that already feels symbolic — new year, new breaches, new tricks. If the past twelve months taught defenders anything, it's that threat actors don't pause for holidays or resolutions. They just evolve faster. This week's round-up shows how subtle shifts in behavior, from code tweaks to job scams, are rewriting what \"cybercrime\" looks like in practice.  Across the landscape, big players are being tested, familiar threats are mutating, and smaller stories are quietly signaling bigger patterns ahead. The trend isn't about one big breach anymore; it's about many small openings that attackers exploit with precision.  The pace of exploitation, deception, and persistence hasn't slowed; it's only become more calculated. Each update in this edition highlights how the line between normal operations and compromise is getting thinner by the week.  Here's a sharp look at what's moving beneath the surface of the cybersecurity world as 2026 begin...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-ghostad-drain-macos-attacks-pr",
+      "source": "The Hacker News",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices and Web Servers",
+      "link": "https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a persistent nine-month-long campaign that has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as RondoDox.  As of December 2025, the activity has been observed leveraging the recently disclosed React2Shell  (CVE-2025-55182, CVSS score: 10.0) flaw as an initial access vector, CloudSEK said  in an analysis.  React2Shell is the name assigned to a critical security vulnerability in React Server Components (RSC) and Next.js that could allow unauthenticated attackers to achieve remote code execution on susceptible devices.  According to statistics from the Shadowserver Foundation, there are about 90,300 instances  that remain susceptible to the vulnerability as of December 31, 2025, out of which 68,400 instances  are located in the U.S., followed by Germany (4,300), France (2,800), and India (1,500).   RondoDox, which emerged in early 2025, has broadened its scale by adding new N-day secur...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "rondodox-botnet-exploits-critical-react2shell-flaw",
+      "source": "The Hacker News",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "How To Browse Faster and Get More Done Using Adapt Browser",
+      "link": "https://thehackernews.com/2026/01/how-to-browse-fast-using-a-lightweight-browser.html",
+      "summary": "As web browsers  evolve into all-purpose platforms, performance and productivity often suffer.   Feature overload, excessive background processes, and fragmented workflows can slow down browsing sessions and introduce unnecessary friction, especially for users who rely on the browser as a primary work environment.  This article explores how adopting a lightweight, task-focused browser, like Adapt Browser , can help users browse faster, reduce distractions, and complete everyday tasks more efficiently, without relying on heavy extensions or complex configurations.  The Productivity Problem With Modern Browsing  For many professionals, the browser functions as a central hub for research, communication, content consumption, and operational work. However, common challenges persist:   High CPU and memory usage caused by background services  Excessive tab proliferation leading to loss of context  Frequent switching between browser tabs and external applications  Reliance on extensions t...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "how-to-browse-faster-and-get-more-done-using-adapt",
+      "source": "The Hacker News",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "Trust Wallet Chrome Extension Hack Drains $8.5M via Shai-Hulud Supply Chain Attack",
+      "link": "https://thehackernews.com/2025/12/trust-wallet-chrome-extension-hack.html",
+      "summary": "Trust Wallet on Tuesday revealed that the second iteration of the Shai-Hulud  (aka Sha1-Hulud) supply chain outbreak in November 2025 was likely responsible for the hack of its Google Chrome extension , ultimately resulting in the theft of approximately $8.5 million in assets.  \"Our Developer GitHub secrets were exposed in the attack, which gave the attacker access to our browser extension source code and the Chrome Web Store (CWS) API key,\" the company said  in a post-mortem published Tuesday.  \"The attacker obtained full CWS API access via the leaked key, allowing builds to be uploaded directly without Trust Wallet's standard release process, which requires internal approval/manual review.\"   Subsequently, the attacker is said to have registered the domain \"metrics-trustwallet[.]com\" and pushed a trojanized version of the extension with a backdoor that's capable of harvesting users' wallet mnemonic phrases to the sub-domain \"api.metrics...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trust-wallet-chrome-extension-hack-drains-85m-via-",
+      "source": "The Hacker News",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "DarkSpectre Browser Extension Campaigns Exposed After Impacting 8.8 Million Users Worldwide",
+      "link": "https://thehackernews.com/2025/12/darkspectre-browser-extension-campaigns.html",
+      "summary": "The threat actor behind two malicious browser extension campaigns, ShadyPanda  and GhostPoster , has been attributed to a third attack campaign codenamed DarkSpectre that has impacted 2.2 million users of Google Chrome, Microsoft Edge, and Mozilla Firefox.  The activity is assessed  to be the work of a Chinese threat actor that Koi Security is tracking under the moniker DarkSpectre . In all, the campaigns have collectively affected over 8.8 million users spanning a period of more than seven years.  ShadyPanda was first unmasked by the cybersecurity company earlier this month as targeting all three browser users to facilitate data theft, search query hijacking, and affiliate fraud. It has been found to affect 5.6 million users, including 1.3 newly identified victims stemming from over 100 extensions flagged as connected to the same cluster.  This also includes an Edge add-on named \"New Tab - Customized Dashboard\" that features a logic bomb that waits for three days prior to t...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "darkspectre-browser-extension-campaigns-exposed-af",
+      "source": "The Hacker News",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "Shai-Hulud Supply Chain Attack Led to $8.5 Million Trust Wallet Heist",
+      "link": "https://www.securityweek.com/shai-hulud-supply-chain-attack-led-to-8-5-million-trust-wallet-heist/",
+      "summary": "The worm exposed Trust Wallet’s Developer GitHub secrets, allowing attackers to publish a backdoor extension and steal funds from 2,520 wallets.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "shai-hulud-supply-chain-attack-led-to-85-million-t",
+      "source": "SecurityWeek",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "European Space Agency Confirms Breach After Hacker Offers to Sell Data",
+      "link": "https://www.securityweek.com/european-space-agency-confirms-breach-after-hacker-offers-to-sell-data/",
+      "summary": "The European Space Agency is conducting an investigation and says external science servers have been compromised.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "european-space-agency-confirms-breach-after-hacker",
+      "source": "SecurityWeek",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "8 Cybersecurity Acquisitions Surpassed $1 Billion Mark in 2025",
+      "link": "https://www.securityweek.com/8-cybersecurity-acquisitions-surpassed-1-billion-mark-in-2025/",
+      "summary": "The total disclosed value for all the cybersecurity M&A deals announced in 2025 exceeded $84 billion.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "8-cybersecurity-acquisitions-surpassed-1-billion-m",
+      "source": "SecurityWeek",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "Chinese APT Mustang Panda Caught Using Kernel-Mode Rootkit",
+      "link": "https://www.securityweek.com/chinese-apt-mustang-panda-caught-using-kernel-mode-rootkit/",
+      "summary": "The threat actor uses a signed driver file containing two user-mode shellcodes to execute its ToneShell backdoor.",
+      "tags": [
+        "malware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-apt-mustang-panda-caught-using-kernel-mode",
+      "source": "SecurityWeek",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "Korean Air Data Compromised in Oracle EBS Hack",
+      "link": "https://www.securityweek.com/korean-air-data-compromised-in-oracle-ebs-hack/",
+      "summary": "Roughly 30,000 Korean Air employees had their data stolen by hackers in a breach at former subsidiary KC&D.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "korean-air-data-compromised-in-oracle-ebs-hack",
+      "source": "SecurityWeek",
+      "date": "2026-01-02"
+    },
+    {
+      "title": "Top US Accounting Firm Sax Discloses 2024 Data Breach Impacting 220,000",
+      "link": "https://www.securityweek.com/top-us-accounting-firm-sax-discloses-2024-data-breach-impacting-220000/",
+      "summary": "It took Sax well over a year to complete its investigation after detecting hackers on its network.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "top-us-accounting-firm-sax-discloses-2024-data-bre",
+      "source": "SecurityWeek",
+      "date": "2026-01-02"
+    }
+  ]
+}
