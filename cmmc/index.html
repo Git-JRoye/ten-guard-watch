@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+    <link rel="apple-touch-icon" href="/assets/newlogo.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>CMMC Self-Assessment - Cybersecurity Maturity Model Certification | TenGuard Security</title>
+    <meta name="title" content="CMMC Self-Assessment - Cybersecurity Maturity Model Certification | TenGuard Security">
+    <meta name="description" content="Free CMMC self-assessment tool for defense contractors. Evaluate your compliance with CMMC Level 1 and Level 2 controls. Get plain-English guidance and actionable recommendations.">
+    <meta name="keywords" content="CMMC, CMMC assessment, CMMC Level 1, CMMC Level 2, cybersecurity maturity model, defense contractor compliance, NIST 800-171, CUI protection, TenGuard Security">
+    <meta name="author" content="TenGuard Security">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.tenguardsecurity.com/cmmc/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tenguardsecurity.com/cmmc/">
+    <meta property="og:title" content="CMMC Self-Assessment - Cybersecurity Maturity Model Certification | TenGuard Security">
+    <meta property="og:description" content="Free CMMC self-assessment tool for defense contractors. Evaluate your compliance with CMMC Level 1 and Level 2 controls.">
+    <meta property="og:image" content="https://www.tenguardsecurity.com/assets/newlogo.png">
+    <meta property="og:site_name" content="TenGuard Security">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.tenguardsecurity.com/cmmc/">
+    <meta property="twitter:title" content="CMMC Self-Assessment - Cybersecurity Maturity Model Certification | TenGuard Security">
+    <meta property="twitter:description" content="Free CMMC self-assessment tool for defense contractors. Evaluate your compliance with CMMC Level 1 and Level 2 controls.">
+    <meta property="twitter:image" content="https://www.tenguardsecurity.com/assets/newlogo.png">
+
+    <meta name="theme-color" content="#1e40af">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles_v5.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <style>
+        body {
+            background: url('../assets/background3.jpg') no-repeat center center/cover;
+            background-attachment: fixed;
+        }
+
+        .cmmc-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Landing View */
+        .cmmc-intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .cmmc-intro h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .cmmc-intro p {
+            font-size: 1.15em;
+            line-height: 1.7;
+            color: #e5e7eb;
+            max-width: 700px;
+            margin: 0 auto 20px;
+        }
+
+        .level-cards {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .level-card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            border-radius: 15px;
+            padding: 35px 30px;
+            width: 320px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .level-card:hover {
+            transform: scale(1.03);
+            border-color: #10b981;
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);
+        }
+
+        .level-card h3 {
+            color: #10b981;
+            font-size: 1.5em;
+            margin-bottom: 8px;
+        }
+
+        .level-card .level-badge {
+            display: inline-block;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .level-card p {
+            color: #c9d1d9;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+
+        .level-card .control-count {
+            color: #38bdf8;
+            font-weight: 600;
+            margin-top: 12px;
+            font-size: 1em;
+        }
+
+        /* Assessment View */
+        #assessment-view, #results-view {
+            display: none;
+        }
+
+        .cmmc-progress {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            height: 32px;
+            margin-bottom: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cmmc-progress-fill {
+            background: linear-gradient(90deg, #10b981, #059669);
+            height: 100%;
+            width: 0%;
+            border-radius: 25px;
+            transition: width 0.5s ease;
+        }
+
+        .cmmc-progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .control-card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            padding: 35px;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .control-header {
+            margin-bottom: 20px;
+        }
+
+        .control-id-badge {
+            display: inline-block;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .control-domain {
+            color: #38bdf8;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .control-header h2 {
+            color: #10b981;
+            font-size: 1.6em;
+            margin-bottom: 10px;
+        }
+
+        .control-description {
+            color: #c9d1d9;
+            font-size: 1.05em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Guidance Toggle */
+        .guidance-toggle {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 10px;
+            padding: 12px 18px;
+            color: #10b981;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            width: 100%;
+            text-align: left;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .guidance-toggle:hover {
+            background: rgba(16, 185, 129, 0.2);
+        }
+
+        .guidance-toggle .arrow {
+            float: right;
+            transition: transform 0.3s ease;
+        }
+
+        .guidance-toggle.open .arrow {
+            transform: rotate(180deg);
+        }
+
+        .guidance-content {
+            display: none;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .guidance-content.open {
+            display: block;
+        }
+
+        .guidance-content h4 {
+            color: #10b981;
+            font-size: 1.1em;
+            margin: 18px 0 8px;
+        }
+
+        .guidance-content h4:first-child {
+            margin-top: 0;
+        }
+
+        .guidance-content p, .guidance-content li {
+            color: #c9d1d9;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+
+        .guidance-content ul {
+            padding-left: 20px;
+            margin: 8px 0;
+        }
+
+        .guidance-content li {
+            margin-bottom: 6px;
+        }
+
+        .compliance-box {
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin: 6px 0;
+            font-size: 0.93em;
+            line-height: 1.5;
+        }
+
+        .compliance-box.yes {
+            background: rgba(16, 185, 129, 0.15);
+            border-left: 3px solid #10b981;
+            color: #a7f3d0;
+        }
+
+        .compliance-box.partial {
+            background: rgba(243, 156, 18, 0.15);
+            border-left: 3px solid #f39c12;
+            color: #fde68a;
+        }
+
+        .compliance-box.no {
+            background: rgba(231, 76, 60, 0.15);
+            border-left: 3px solid #e74c3c;
+            color: #fca5a5;
+        }
+
+        .example-box {
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin: 8px 0;
+            font-size: 0.93em;
+            line-height: 1.5;
+        }
+
+        .example-box.compliant {
+            background: rgba(16, 185, 129, 0.1);
+            border-left: 3px solid #10b981;
+            color: #c9d1d9;
+        }
+
+        .example-box.non-compliant {
+            background: rgba(231, 76, 60, 0.1);
+            border-left: 3px solid #e74c3c;
+            color: #c9d1d9;
+        }
+
+        /* Response Buttons */
+        .response-label {
+            color: #e5e7eb;
+            font-weight: 600;
+            font-size: 1.05em;
+            margin-bottom: 12px;
+        }
+
+        .response-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .response-btn {
+            padding: 14px 18px;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .response-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .response-btn.btn-yes:hover, .response-btn.btn-yes.selected {
+            background: rgba(16, 185, 129, 0.25);
+            border-color: #10b981;
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+        }
+
+        .response-btn.btn-partial:hover, .response-btn.btn-partial.selected {
+            background: rgba(243, 156, 18, 0.25);
+            border-color: #f39c12;
+            box-shadow: 0 0 15px rgba(243, 156, 18, 0.3);
+        }
+
+        .response-btn.btn-no:hover, .response-btn.btn-no.selected {
+            background: rgba(231, 76, 60, 0.25);
+            border-color: #e74c3c;
+            box-shadow: 0 0 15px rgba(231, 76, 60, 0.3);
+        }
+
+        .response-btn.btn-na:hover, .response-btn.btn-na.selected {
+            background: rgba(149, 165, 166, 0.25);
+            border-color: #95a5a6;
+            box-shadow: 0 0 15px rgba(149, 165, 166, 0.3);
+        }
+
+        .notes-area {
+            width: 100%;
+            min-height: 80px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            padding: 12px;
+            color: #e5e7eb;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.95em;
+            resize: vertical;
+            margin-top: 5px;
+        }
+
+        .notes-area:focus {
+            outline: none;
+            border-color: #10b981;
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.2);
+        }
+
+        .notes-area::placeholder {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .notes-label {
+            color: #95a5a6;
+            font-size: 0.9em;
+            margin-top: 15px;
+        }
+
+        /* Navigation Buttons */
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+            gap: 15px;
+        }
+
+        .nav-btn {
+            padding: 12px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn.prev {
+            background: rgba(255, 255, 255, 0.1);
+            color: #e5e7eb;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-btn.prev:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .nav-btn.next {
+            background: #10b981;
+            color: white;
+            margin-left: auto;
+        }
+
+        .nav-btn.next:hover {
+            background: #059669;
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        /* Results View */
+        .results-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .results-header h1 {
+            font-size: 2.2em;
+            background: linear-gradient(90deg, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        .results-header p {
+            color: #95a5a6;
+            font-size: 1em;
+        }
+
+        .score-circle-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .score-circle {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 6px solid;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .score-circle .percentage {
+            font-size: 2.8em;
+            font-weight: 600;
+            color: white;
+        }
+
+        .score-circle .label {
+            font-size: 0.9em;
+            color: #c9d1d9;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .summary-item {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 20px 15px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .summary-item .count {
+            font-size: 2em;
+            font-weight: 600;
+            display: block;
+        }
+
+        .summary-item .desc {
+            font-size: 0.85em;
+            color: #95a5a6;
+            margin-top: 5px;
+        }
+
+        .summary-item.yes .count { color: #10b981; }
+        .summary-item.partial .count { color: #f39c12; }
+        .summary-item.no .count { color: #e74c3c; }
+        .summary-item.na .count { color: #95a5a6; }
+
+        .result-card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .result-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .result-card-header h3 {
+            color: #e5e7eb;
+            font-size: 1.1em;
+        }
+
+        .status-badge {
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.82em;
+            font-weight: 600;
+        }
+
+        .status-badge.yes { background: rgba(16, 185, 129, 0.2); color: #10b981; }
+        .status-badge.partial { background: rgba(243, 156, 18, 0.2); color: #f39c12; }
+        .status-badge.no { background: rgba(231, 76, 60, 0.2); color: #e74c3c; }
+        .status-badge.na { background: rgba(149, 165, 166, 0.2); color: #95a5a6; }
+
+        .result-guidance {
+            color: #c9d1d9;
+            font-size: 0.93em;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .result-recommendations {
+            list-style: none;
+            padding: 0;
+        }
+
+        .result-recommendations li {
+            padding: 6px 0 6px 22px;
+            color: #c9d1d9;
+            font-size: 0.9em;
+            position: relative;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .result-recommendations li::before {
+            content: "\2192";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+        }
+
+        .result-notes {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            color: #95a5a6;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        .results-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 35px;
+            flex-wrap: wrap;
+        }
+
+        .results-actions .button-link {
+            display: inline-block;
+        }
+
+        .btn-print {
+            background: rgba(255, 255, 255, 0.1);
+            color: #e5e7eb;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .btn-print:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .cmmc-disclaimer {
+            margin-top: 35px;
+            padding: 15px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 3px solid #f39c12;
+            border-radius: 8px;
+            color: #95a5a6;
+            font-size: 0.85em;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        /* Print Styles */
+        @media print {
+            body { background: white !important; }
+            header, footer, .nav-buttons, .results-actions, .cmmc-disclaimer { display: none !important; }
+            .control-card, .result-card, .summary-item { border: 1px solid #ccc !important; background: white !important; }
+            .score-circle { border-color: #333 !important; }
+            * { color: #333 !important; -webkit-text-fill-color: #333 !important; }
+        }
+
+        @media (max-width: 768px) {
+            .cmmc-intro h1 { font-size: 1.6em; }
+            .level-cards { flex-direction: column; align-items: center; }
+            .level-card { width: 100%; max-width: 400px; }
+            .control-card { padding: 20px; }
+            .response-buttons { grid-template-columns: 1fr; }
+            .summary-grid { grid-template-columns: repeat(2, 1fr); }
+            .results-header h1 { font-size: 1.6em; }
+            .score-circle { width: 140px; height: 140px; }
+            .score-circle .percentage { font-size: 2.2em; }
+            .nav-buttons { flex-direction: column; }
+            .nav-btn { width: 100%; text-align: center; }
+            .nav-btn.next { margin-left: 0; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../assets/svglogo.svg" alt="TenGuard Security Logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../services.html">Services</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../tenguardwatch.html">TenGuard Watch</a></li>
+                <li><a href="../threat-trends/">Threat Trends</a></li>
+                <li><a href="../cmmc/">CMMC</a></li>
+            </ul>
+            <a href="../contact.html" class="button-link consult-button">Secure Your Consultation</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section class="hero blue-tint">
+        <div class="cmmc-section">
+
+            <!-- LANDING VIEW -->
+            <div id="landing-view">
+                <div class="cmmc-intro" data-aos="fade-up" data-aos-once="true">
+                    <h1>CMMC Self-Assessment</h1>
+                    <p>
+                        The Cybersecurity Maturity Model Certification (CMMC) is the Department of Defense's framework for protecting sensitive information. Use this free tool to evaluate your organization's compliance posture and get plain-English guidance on each control.
+                    </p>
+                    <p style="font-size: 0.95em; color: #95a5a6;">
+                        Select your assessment level below to begin.
+                    </p>
+                </div>
+
+                <div class="level-cards" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+                    <div class="level-card" onclick="startAssessment(1)">
+                        <span class="level-badge">Level 1</span>
+                        <h3>Basic Cyber Hygiene</h3>
+                        <p>Foundational cybersecurity practices for protecting Federal Contract Information (FCI). Focuses on basic access control, authentication, media protection, physical security, and boundary protection.</p>
+                        <div class="control-count">7 Controls</div>
+                    </div>
+                    <div class="level-card" onclick="startAssessment(2)">
+                        <span class="level-badge">Level 2</span>
+                        <h3>Intermediate Cyber Hygiene</h3>
+                        <p>Advanced practices for protecting Controlled Unclassified Information (CUI). Adds documentation requirements, CUI flow control, encryption policies, and external system connection management.</p>
+                        <div class="control-count">8 Controls</div>
+                    </div>
+                </div>
+
+                <div class="cmmc-disclaimer" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
+                    This tool is for self-assessment purposes only and does not constitute an official CMMC certification. Official CMMC certification requires assessment by a CMMC Third-Party Assessment Organization (C3PAO). Contact us for guidance on your certification journey.
+                </div>
+            </div>
+
+            <!-- ASSESSMENT VIEW -->
+            <div id="assessment-view">
+                <div class="cmmc-progress">
+                    <div class="cmmc-progress-fill" id="progress-fill"></div>
+                    <span class="cmmc-progress-text" id="progress-text"></span>
+                </div>
+
+                <div class="control-card" id="control-card">
+                    <div class="control-header">
+                        <span class="control-id-badge" id="control-id-badge"></span>
+                        <div class="control-domain" id="control-domain"></div>
+                        <h2 id="control-title"></h2>
+                        <p class="control-description" id="control-description"></p>
+                    </div>
+
+                    <button class="guidance-toggle" id="guidance-toggle" onclick="toggleGuidance()">
+                        Help Me Understand This <span class="arrow">&#9660;</span>
+                    </button>
+                    <div class="guidance-content" id="guidance-content"></div>
+
+                    <p class="response-label">Your Assessment:</p>
+                    <div class="response-buttons" id="response-buttons">
+                        <button class="response-btn btn-yes" onclick="selectResponse('yes')">Yes</button>
+                        <button class="response-btn btn-partial" onclick="selectResponse('partial')">Partial</button>
+                        <button class="response-btn btn-no" onclick="selectResponse('no')">No</button>
+                        <button class="response-btn btn-na" onclick="selectResponse('not_applicable')">Not Applicable</button>
+                    </div>
+
+                    <label class="notes-label">Notes (optional):</label>
+                    <textarea class="notes-area" id="notes-area" placeholder="Add notes about your current implementation..."></textarea>
+
+                    <div class="nav-buttons">
+                        <button class="nav-btn prev" id="prev-btn" onclick="prevControl()">Previous</button>
+                        <button class="nav-btn next" id="next-btn" onclick="nextControl()">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESULTS VIEW -->
+            <div id="results-view">
+                <div class="results-header">
+                    <h1 id="results-title"></h1>
+                    <p id="results-date"></p>
+                </div>
+
+                <div class="score-circle-container">
+                    <div class="score-circle" id="score-circle">
+                        <span class="percentage" id="score-percentage"></span>
+                        <span class="label">Compliant</span>
+                    </div>
+                </div>
+
+                <div class="summary-grid" id="summary-grid"></div>
+
+                <h2 style="color: #10b981; margin: 30px 0 20px; font-size: 1.4em;">Detailed Results</h2>
+                <div id="detailed-results"></div>
+
+                <div class="results-actions">
+                    <button class="button-link" onclick="resetAssessment()">Start New Assessment</button>
+                    <button class="btn-print" onclick="window.print()">Print Results</button>
+                </div>
+
+                <div class="cmmc-disclaimer">
+                    This self-assessment is for informational purposes only and does not constitute an official CMMC certification. Official CMMC certification requires assessment by a CMMC Third-Party Assessment Organization (C3PAO). For professional CMMC compliance assistance, <a href="../contact.html" style="color: #10b981;">contact us</a>.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+        <div class="footer-line"></div>
+    </footer>
+
+    <!-- CMMC Data & Logic -->
+    <script>
+    // ========================================
+    // CMMC CONTROLS DATA
+    // ========================================
+    const cmmcData = {
+        1: {
+            description: "CMMC Level 1 - Basic Cyber Hygiene",
+            controls: [
+                {
+                    control_id: "AC.L1-3.1.1",
+                    domain: "Access Control",
+                    title: "Limit System Access to Authorized Users",
+                    description: "Limit information system access to authorized users, processes acting on behalf of authorized users, or devices (including other information systems).",
+                    guidance: {
+                        what_this_means: "Only allow people who are supposed to use your systems to access them. This is the most basic security control - making sure strangers can't get into your computers and files.",
+                        what_to_do: [
+                            "Create a username and password for each person who needs access",
+                            "Don't share login credentials between people",
+                            "Remove access immediately when someone leaves your company",
+                            "Keep a list of who has access to what"
+                        ],
+                        compliance: {
+                            yes: "Each employee has their own unique login, and you remove access when people leave.",
+                            partial: "You have logins, but sometimes people share accounts or old accounts aren't removed.",
+                            no: "Anyone can access systems without a password, or everyone shares the same login."
+                        },
+                        examples: {
+                            compliant: "We have a username and password for each employee. When John left last month, we disabled his account the same day.",
+                            non_compliant: "We have a shared 'admin' account that five people use, and we haven't removed access for people who left years ago."
+                        }
+                    }
+                },
+                {
+                    control_id: "AC.L1-3.1.2",
+                    domain: "Access Control",
+                    title: "Limit System Access to Transaction Types",
+                    description: "Limit information system access to the types of transactions and functions that authorized users are permitted to execute.",
+                    guidance: {
+                        what_this_means: "People should only be able to do things in your systems that are necessary for their job. An accountant shouldn't be able to delete engineering files, and an engineer shouldn't be able to see payroll information.",
+                        what_to_do: [
+                            "Figure out what different roles need to do (admin, user, viewer, etc.)",
+                            "Set up your systems so people can only do their job functions",
+                            "Don't give everyone 'administrator' access just because it's easier"
+                        ],
+                        compliance: {
+                            yes: "You have different permission levels, and people can only access what they need for their work.",
+                            partial: "You have some restrictions, but many people have more access than they need.",
+                            no: "Everyone has full access to everything, or you haven't thought about limiting what people can do."
+                        },
+                        examples: {
+                            compliant: "Our HR person can access payroll, but our sales team cannot. Our engineers can edit technical documents, but they can't delete financial records.",
+                            non_compliant: "Everyone in the company is an administrator and can access all files and make any changes."
+                        }
+                    }
+                },
+                {
+                    control_id: "IA.L1-3.5.1",
+                    domain: "Identification and Authentication",
+                    title: "Identify System Users",
+                    description: "Identify information system users, processes acting on behalf of users, or devices.",
+                    guidance: {
+                        what_this_means: "You need to know who is accessing your systems at any given time. This means each person needs their own unique identifier (like a username) - not shared accounts.",
+                        what_to_do: [
+                            "Assign a unique username to each person",
+                            "Don't let multiple people share the same account",
+                            "Keep a record of all user accounts you've created",
+                            "Use usernames that make it easy to tell who is who (like 'jsmith' for John Smith)"
+                        ],
+                        compliance: {
+                            yes: "Every person has their own unique username, and you never share accounts.",
+                            partial: "Most people have unique accounts, but you have a few shared accounts.",
+                            no: "Multiple people regularly use the same account, or you don't track who has what username."
+                        },
+                        examples: {
+                            compliant: "John Smith logs in as 'jsmith' and Mary Johnson logs in as 'mjohnson'. We can see exactly who did what in our system logs.",
+                            non_compliant: "We have five people who all use the 'reception' account to log in, so we can't tell which one of them did something."
+                        }
+                    }
+                },
+                {
+                    control_id: "IA.L1-3.5.2",
+                    domain: "Identification and Authentication",
+                    title: "Authenticate System Users",
+                    description: "Authenticate (or verify) the identities of those users, processes, or devices, as a prerequisite to allowing access to organizational information systems.",
+                    guidance: {
+                        what_this_means: "Before letting someone access your systems, you need to verify they are who they say they are. The most common way is requiring a password that only they know.",
+                        what_to_do: [
+                            "Require a password for every user account",
+                            "Don't allow blank passwords or super easy passwords like '123456'",
+                            "Change any default passwords that came with your equipment",
+                            "Consider using additional verification like text message codes for important systems"
+                        ],
+                        compliance: {
+                            yes: "Every account requires a password, and you enforce minimum password requirements.",
+                            partial: "You have passwords, but they're easy to guess or not required everywhere.",
+                            no: "Systems don't require passwords, or you're using default passwords like 'admin/admin'."
+                        },
+                        examples: {
+                            compliant: "All our systems require passwords that are at least 8 characters. We changed the default password on our router when we installed it.",
+                            non_compliant: "Our network doesn't have a password, and our security camera system still uses the default password 'admin'."
+                        }
+                    }
+                },
+                {
+                    control_id: "MP.L1-3.8.3",
+                    domain: "Media Protection",
+                    title: "Sanitize or Destroy Media",
+                    description: "Sanitize or destroy information system media containing Federal Contract Information before disposal or release for reuse.",
+                    guidance: {
+                        what_this_means: "When you throw away or donate old computers, hard drives, USB drives, or phones, you need to make sure all the data is completely erased first. Just deleting files isn't enough - someone can recover them.",
+                        what_to_do: [
+                            "Before disposing of any device, wipe it completely (not just 'delete' - actually wipe it)",
+                            "Use data destruction software or services",
+                            "For very sensitive data, physically destroy the hard drive",
+                            "Keep records of what you destroyed and when"
+                        ],
+                        compliance: {
+                            yes: "You have a process for wiping or destroying all media before disposal, and you follow it every time.",
+                            partial: "You usually wipe devices, but sometimes you forget or skip it.",
+                            no: "You just throw away old computers or donate them without wiping the data."
+                        },
+                        examples: {
+                            compliant: "Before we donated our old computers, we used a wiping tool to completely erase all data three times. We kept a log of which devices were wiped and when.",
+                            non_compliant: "We sold our old laptops on eBay after just deleting files. We threw our old hard drives in the trash."
+                        }
+                    }
+                },
+                {
+                    control_id: "PE.L1-3.10.1",
+                    domain: "Physical Protection",
+                    title: "Limit Physical Access",
+                    description: "Limit physical access to organizational information systems, equipment, and the respective operating environments to authorized individuals.",
+                    guidance: {
+                        what_this_means: "You need to control who can physically walk up to your computers, servers, and equipment. If someone unauthorized can touch your equipment, they can potentially steal it or plug in malicious devices.",
+                        what_to_do: [
+                            "Lock doors to areas where computers and servers are kept",
+                            "Don't let visitors wander around unsupervised near your equipment",
+                            "Consider using ID badges or sign-in sheets",
+                            "Lock up laptops when not in use, especially in shared spaces"
+                        ],
+                        compliance: {
+                            yes: "Your office/facility is secured, and only authorized people can access areas with computers and equipment.",
+                            partial: "You have some security, but it's inconsistent or easy to bypass.",
+                            no: "Anyone can walk in and access your computers and equipment without any restrictions."
+                        },
+                        examples: {
+                            compliant: "Our server room is locked and only IT staff have keys. Visitors must sign in and are escorted at all times.",
+                            non_compliant: "Our office door is always unlocked, and anyone can walk in off the street and access our computers."
+                        }
+                    }
+                },
+                {
+                    control_id: "SC.L1-3.13.1",
+                    domain: "System and Communications Protection",
+                    title: "Boundary Protection",
+                    description: "Monitor, control, and protect organizational communications at the external boundaries and key internal boundaries of the information systems.",
+                    guidance: {
+                        what_this_means: "You need a 'fence' around your computer network - something that protects it from the outside internet. This is typically a firewall, which acts like a security guard checking what comes in and goes out.",
+                        what_to_do: [
+                            "Install a firewall between your network and the internet",
+                            "Keep your firewall updated and turned on",
+                            "Separate your guest WiFi from your work network",
+                            "Don't let people plug their personal devices directly into your work network"
+                        ],
+                        compliance: {
+                            yes: "You have a firewall protecting your network, and it's properly configured and monitored.",
+                            partial: "You have a firewall, but it might not be configured correctly or you're not sure it's working.",
+                            no: "You don't have a firewall, or you've disabled it because it was 'slowing things down.'"
+                        },
+                        examples: {
+                            compliant: "We have a business-grade firewall between our network and the internet. Our guest WiFi is completely separate from our work network.",
+                            non_compliant: "All our computers connect directly to the internet with no firewall. Our guest WiFi can access our file servers."
+                        }
+                    }
+                }
+            ]
+        },
+        2: {
+            description: "CMMC Level 2 - Intermediate Cyber Hygiene",
+            controls: [
+                {
+                    control_id: "AC.L2-3.1.1",
+                    domain: "Access Control",
+                    title: "Limit System Access to Authorized Users",
+                    description: "Limit information system access to authorized users, processes acting on behalf of authorized users, or devices (including other information systems).",
+                    guidance: {
+                        what_this_means: "Only allow people who are supposed to use your systems to access them. At Level 2, you need to document your processes and review them regularly.",
+                        what_to_do: [
+                            "Create unique user accounts for each employee",
+                            "Require passwords for all system access",
+                            "Remove access when employees leave (document this process)",
+                            "Keep written records of who has access to what",
+                            "Review access permissions at least quarterly",
+                            "Document your access control policy"
+                        ],
+                        compliance: {
+                            yes: "You have documented access control procedures, unique accounts for everyone, and regular reviews of who has access.",
+                            partial: "You have individual accounts and passwords, but your documentation is incomplete or reviews are inconsistent.",
+                            no: "You share accounts, have no written policies, or don't review access permissions."
+                        },
+                        examples: {
+                            compliant: "We have a written access control policy. Each employee has their own account. We review all access quarterly and document changes. When Sarah left last month, we followed our documented off-boarding procedure.",
+                            non_compliant: "Multiple employees share the 'admin' account. We have no written policy. We don't regularly review who has access."
+                        }
+                    }
+                },
+                {
+                    control_id: "AC.L2-3.1.2",
+                    domain: "Access Control",
+                    title: "Limit System Access to Transaction Types",
+                    description: "Limit information system access to the types of transactions and functions that authorized users are permitted to execute.",
+                    guidance: {
+                        what_this_means: "Give employees access only to the specific tools and information they need for their job. Level 2 requires documented roles and permission structures.",
+                        what_to_do: [
+                            "Define different user roles in writing (e.g., admin, user, viewer)",
+                            "Assign permissions based on job responsibilities (document these assignments)",
+                            "Regularly review who has access to what",
+                            "Document your role-based access control policy",
+                            "Train employees on what they can and cannot access"
+                        ],
+                        compliance: {
+                            yes: "You have documented roles with specific permissions, regular access reviews, and written policies.",
+                            partial: "You have some role separation, but it's not well documented or consistently enforced.",
+                            no: "Everyone has administrator access, or you have no documentation of roles and permissions."
+                        },
+                        examples: {
+                            compliant: "We have documented five roles: Admin, HR, Finance, Engineering, and Sales. Each role has specific documented permissions. We review these quarterly and maintain records of who has which role.",
+                            non_compliant: "Everyone in the company has full administrator access. We have no written policy about who should access what."
+                        }
+                    }
+                },
+                {
+                    control_id: "AC.L2-3.1.3",
+                    domain: "Access Control",
+                    title: "Control CUI Flow",
+                    description: "Control the flow of CUI in accordance with approved authorizations.",
+                    guidance: {
+                        what_this_means: "Make sure that Controlled Unclassified Information (sensitive government data) only goes to people and systems that are approved to have it. Track where it goes and prevent unauthorized sharing. Level 2 requires documented controls.",
+                        what_to_do: [
+                            "Identify all CUI in your systems (and document what you have)",
+                            "Mark CUI clearly so people know it's sensitive",
+                            "Use access controls to limit who can view/share CUI",
+                            "Monitor and log all access to CUI",
+                            "Train employees on handling CUI properly (document training)",
+                            "Create written procedures for handling CUI"
+                        ],
+                        compliance: {
+                            yes: "You have documented procedures for CUI, can identify all CUI, have access controls, maintain audit logs, and provide regular training.",
+                            partial: "You try to control CUI, but documentation is incomplete or controls aren't consistently applied.",
+                            no: "You don't know where your CUI is, have no documented procedures, or don't restrict access to it."
+                        },
+                        examples: {
+                            compliant: "We maintain a CUI registry. Technical drawings marked as CUI are in a protected folder with documented access controls. Only approved team members can access them. We log all access and provide annual CUI training.",
+                            non_compliant: "Sensitive contract documents are on a shared drive everyone can access. We don't track where CUI is or who accesses it. We have no written CUI procedures."
+                        }
+                    }
+                },
+                {
+                    control_id: "AC.L2-3.1.20",
+                    domain: "Access Control",
+                    title: "External System Connections",
+                    description: "Verify and control/limit connections to and use of external information systems.",
+                    guidance: {
+                        what_this_means: "Control what external systems can connect to your network. This includes cloud services, partner networks, and remote access. Level 2 requires documented approval processes.",
+                        what_to_do: [
+                            "Create a documented list of approved external systems and services",
+                            "Require written approval before connecting new external systems",
+                            "Use VPNs or other secure connections for external access",
+                            "Monitor external connections for security issues (and document monitoring)",
+                            "Review approved external systems at least annually",
+                            "Maintain an inventory of all external connections"
+                        ],
+                        compliance: {
+                            yes: "You have a documented list of approved external systems, a formal approval process, monitoring in place, and regular reviews.",
+                            partial: "You have some controls on external systems, but documentation is lacking or enforcement is inconsistent.",
+                            no: "Employees freely use any external system without approval. You don't track external connections."
+                        },
+                        examples: {
+                            compliant: "We maintain a documented list of approved external systems. Employees must submit a request form to use new external services. We use a VPN for all remote access. We review our external connections quarterly.",
+                            non_compliant: "Employees use personal Dropbox, Google Drive, and other services freely. We have no approval process or list of what's connected to our network."
+                        }
+                    }
+                },
+                {
+                    control_id: "IA.L2-3.5.1",
+                    domain: "Identification and Authentication",
+                    title: "Identify System Users",
+                    description: "Identify information system users, processes acting on behalf of users, or devices.",
+                    guidance: {
+                        what_this_means: "Know who is accessing your systems at all times. Each person has a unique identifier. Level 2 adds requirements for audit trails and documentation.",
+                        what_to_do: [
+                            "Assign unique user IDs to each person (and document assignments)",
+                            "Don't share accounts between multiple people (policy documented)",
+                            "Use identifiers for automated processes too",
+                            "Keep written records of all user accounts",
+                            "Maintain audit logs showing who accessed what and when",
+                            "Review user accounts regularly (at least quarterly)"
+                        ],
+                        compliance: {
+                            yes: "You have documented user ID policies, unique IDs for everyone, comprehensive audit logs, and regular account reviews.",
+                            partial: "You have unique IDs, but audit logging is incomplete or documentation is lacking.",
+                            no: "You share accounts, have no audit logs, or don't document user identities."
+                        },
+                        examples: {
+                            compliant: "Every employee has a unique username documented in our access control system. We maintain audit logs of all system access. We review accounts quarterly and document any changes.",
+                            non_compliant: "Five employees share the 'office' account. We don't keep logs of who accesses what. We have no written policy on user identification."
+                        }
+                    }
+                },
+                {
+                    control_id: "IA.L2-3.5.2",
+                    domain: "Identification and Authentication",
+                    title: "Authenticate System Users",
+                    description: "Authenticate (or verify) the identities of those users, processes, or devices, as a prerequisite to allowing access to organizational information systems.",
+                    guidance: {
+                        what_this_means: "Verify that people are who they say they are before letting them access your systems. Level 2 requires strong authentication methods and documented policies.",
+                        what_to_do: [
+                            "Require strong passwords for all user accounts (document requirements)",
+                            "Implement multi-factor authentication (MFA) for sensitive systems",
+                            "Document your authentication policy in writing",
+                            "Don't allow easy-to-guess passwords (enforce complexity)",
+                            "Change default passwords on all devices (and document this)",
+                            "Consider using biometrics or smart cards for high-security areas"
+                        ],
+                        compliance: {
+                            yes: "You have documented authentication policies, strong passwords enforced, MFA implemented, and regular policy reviews.",
+                            partial: "You have passwords, but they're not very strong, MFA isn't used, or documentation is incomplete.",
+                            no: "Systems have no passwords, use default credentials, or have no written authentication policy."
+                        },
+                        examples: {
+                            compliant: "We have a documented password policy requiring 12+ characters with complexity. We use MFA for all remote access. All device default passwords have been changed and documented.",
+                            non_compliant: "We allow simple passwords like '123456'. We don't use MFA. Many systems still use default passwords. We have no written authentication policy."
+                        }
+                    }
+                },
+                {
+                    control_id: "SC.L2-3.13.1",
+                    domain: "System and Communications Protection",
+                    title: "Boundary Protection",
+                    description: "Monitor, control, and protect organizational communications at the external boundaries and key internal boundaries of the information systems.",
+                    guidance: {
+                        what_this_means: "Protect the 'edges' of your network where your systems connect to the internet or other networks. Level 2 requires documented network architecture, monitoring, and segmentation.",
+                        what_to_do: [
+                            "Use a firewall between your network and the internet (document configuration)",
+                            "Monitor network traffic for suspicious activity (and log it)",
+                            "Segment your network (separate guest WiFi from work network, document segments)",
+                            "Document your network boundaries and security architecture",
+                            "Review firewall rules and logs regularly",
+                            "Maintain diagrams of your network architecture"
+                        ],
+                        compliance: {
+                            yes: "You have documented network architecture, properly configured firewalls, active monitoring, network segmentation, and regular reviews.",
+                            partial: "You have a firewall and some monitoring, but documentation is incomplete or segmentation is lacking.",
+                            no: "You have no firewall, no monitoring, everything is on one network, or you have no documentation."
+                        },
+                        examples: {
+                            compliant: "We have a documented network diagram showing our firewall configuration. Guest WiFi is completely isolated. We monitor firewall logs daily and review rules quarterly.",
+                            non_compliant: "We have a firewall but don't know how it's configured. Guest WiFi connects to our internal network. We never check firewall logs. We have no network documentation."
+                        }
+                    }
+                },
+                {
+                    control_id: "SC.L2-3.13.8",
+                    domain: "System and Communications Protection",
+                    title: "Transmission Confidentiality",
+                    description: "Implement cryptographic mechanisms to prevent unauthorized disclosure of CUI during transmission unless otherwise protected by alternative physical safeguards.",
+                    guidance: {
+                        what_this_means: "Encrypt sensitive information when sending it over networks or the internet, so if someone intercepts it, they can't read it. Level 2 requires documented encryption policies and consistent implementation.",
+                        what_to_do: [
+                            "Use HTTPS for all websites (not just HTTP)",
+                            "Use VPN for all remote access",
+                            "Encrypt email when sending CUI (use encrypted email or secure portals)",
+                            "Use secure file transfer methods (SFTP, not plain FTP)",
+                            "Document your encryption policy in writing",
+                            "Verify that encryption is working correctly",
+                            "Train employees on when and how to use encryption"
+                        ],
+                        compliance: {
+                            yes: "You have documented encryption policies, HTTPS/VPN/encrypted email implemented, regular verification, and employee training.",
+                            partial: "You use some encryption, but it's not consistent, or documentation/training is lacking.",
+                            no: "You send sensitive files via unencrypted email or use HTTP websites. You have no encryption policy."
+                        },
+                        examples: {
+                            compliant: "We have a documented encryption policy. All websites use HTTPS. We require VPN for remote access. Emails with CUI are encrypted. We verify encryption quarterly and train employees annually.",
+                            non_compliant: "We send sensitive files via regular email. Our internal website uses HTTP. We don't use VPN for remote work. We have no written encryption policy."
+                        }
+                    }
+                }
+            ]
+        }
+    };
+
+    // ========================================
+    // STATE
+    // ========================================
+    let currentLevel = null;
+    let currentIndex = 0;
+    let controls = [];
+    let answers = {};  // { control_id: { response: string, notes: string } }
+
+    // ========================================
+    // VIEW MANAGEMENT
+    // ========================================
+    function showView(viewId) {
+        document.getElementById('landing-view').style.display = viewId === 'landing' ? 'block' : 'none';
+        document.getElementById('assessment-view').style.display = viewId === 'assessment' ? 'block' : 'none';
+        document.getElementById('results-view').style.display = viewId === 'results' ? 'block' : 'none';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // ========================================
+    // ASSESSMENT FLOW
+    // ========================================
+    function startAssessment(level) {
+        currentLevel = level;
+        currentIndex = 0;
+        controls = cmmcData[level].controls;
+        answers = {};
+        showView('assessment');
+        renderControl();
+    }
+
+    function renderControl() {
+        const control = controls[currentIndex];
+        const total = controls.length;
+        const progress = ((currentIndex + 1) / total) * 100;
+
+        // Progress bar
+        document.getElementById('progress-fill').style.width = progress + '%';
+        document.getElementById('progress-text').textContent = 'Control ' + (currentIndex + 1) + ' of ' + total;
+
+        // Control info
+        document.getElementById('control-id-badge').textContent = control.control_id;
+        document.getElementById('control-domain').textContent = control.domain;
+        document.getElementById('control-title').textContent = control.title;
+        document.getElementById('control-description').textContent = control.description;
+
+        // Guidance
+        renderGuidance(control.guidance);
+        document.getElementById('guidance-content').classList.remove('open');
+        document.getElementById('guidance-toggle').classList.remove('open');
+
+        // Response buttons - restore previous selection
+        const btns = document.querySelectorAll('.response-btn');
+        btns.forEach(function(btn) { btn.classList.remove('selected'); });
+
+        const saved = answers[control.control_id];
+        if (saved) {
+            const responseMap = { yes: 'btn-yes', partial: 'btn-partial', no: 'btn-no', not_applicable: 'btn-na' };
+            const targetClass = responseMap[saved.response];
+            if (targetClass) {
+                document.querySelector('.' + targetClass).classList.add('selected');
+            }
+            document.getElementById('notes-area').value = saved.notes || '';
+        } else {
+            document.getElementById('notes-area').value = '';
+        }
+
+        // Nav buttons
+        document.getElementById('prev-btn').disabled = currentIndex === 0;
+        var nextBtn = document.getElementById('next-btn');
+        nextBtn.textContent = currentIndex === total - 1 ? 'Finish Assessment' : 'Next';
+    }
+
+    function renderGuidance(guidance) {
+        var html = '';
+        html += '<h4>What This Means</h4>';
+        html += '<p>' + guidance.what_this_means + '</p>';
+
+        html += '<h4>What You Need to Do</h4><ul>';
+        guidance.what_to_do.forEach(function(item) {
+            html += '<li>' + item + '</li>';
+        });
+        html += '</ul>';
+
+        html += '<h4>How to Know You\'re Compliant</h4>';
+        html += '<div class="compliance-box yes"><strong>YES:</strong> ' + guidance.compliance.yes + '</div>';
+        html += '<div class="compliance-box partial"><strong>PARTIAL:</strong> ' + guidance.compliance.partial + '</div>';
+        html += '<div class="compliance-box no"><strong>NO:</strong> ' + guidance.compliance.no + '</div>';
+
+        html += '<h4>Examples</h4>';
+        html += '<div class="example-box compliant"><strong>Compliant:</strong> "' + guidance.examples.compliant + '"</div>';
+        html += '<div class="example-box non-compliant"><strong>Not Compliant:</strong> "' + guidance.examples.non_compliant + '"</div>';
+
+        document.getElementById('guidance-content').innerHTML = html;
+    }
+
+    function toggleGuidance() {
+        document.getElementById('guidance-content').classList.toggle('open');
+        document.getElementById('guidance-toggle').classList.toggle('open');
+    }
+
+    function selectResponse(response) {
+        var btns = document.querySelectorAll('.response-btn');
+        btns.forEach(function(btn) { btn.classList.remove('selected'); });
+
+        var classMap = { yes: 'btn-yes', partial: 'btn-partial', no: 'btn-no', not_applicable: 'btn-na' };
+        document.querySelector('.' + classMap[response]).classList.add('selected');
+
+        var control = controls[currentIndex];
+        if (!answers[control.control_id]) {
+            answers[control.control_id] = {};
+        }
+        answers[control.control_id].response = response;
+    }
+
+    function saveNotes() {
+        var control = controls[currentIndex];
+        var notes = document.getElementById('notes-area').value.trim();
+        if (!answers[control.control_id]) {
+            answers[control.control_id] = {};
+        }
+        answers[control.control_id].notes = notes;
+    }
+
+    function prevControl() {
+        if (currentIndex > 0) {
+            saveNotes();
+            currentIndex--;
+            renderControl();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    }
+
+    function nextControl() {
+        var control = controls[currentIndex];
+        if (!answers[control.control_id] || !answers[control.control_id].response) {
+            alert('Please select a response before continuing.');
+            return;
+        }
+        saveNotes();
+
+        if (currentIndex < controls.length - 1) {
+            currentIndex++;
+            renderControl();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            showResults();
+        }
+    }
+
+    // ========================================
+    // RESULTS
+    // ========================================
+    function showResults() {
+        showView('results');
+
+        var levelDesc = cmmcData[currentLevel].description;
+        document.getElementById('results-title').textContent = levelDesc + ' Assessment';
+        document.getElementById('results-date').textContent = 'Completed: ' + new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+        // Count responses
+        var counts = { yes: 0, partial: 0, no: 0, not_applicable: 0 };
+        var total = controls.length;
+
+        controls.forEach(function(c) {
+            var a = answers[c.control_id];
+            if (a && a.response) {
+                counts[a.response]++;
+            }
+        });
+
+        // Calculate compliance score (yes = 100%, partial = 50%, na excluded)
+        var scoreable = total - counts.not_applicable;
+        var score = scoreable > 0 ? Math.round(((counts.yes + counts.partial * 0.5) / scoreable) * 100) : 100;
+
+        // Score circle color
+        var circleColor = score >= 80 ? '#10b981' : score >= 50 ? '#f39c12' : '#e74c3c';
+        document.getElementById('score-circle').style.borderColor = circleColor;
+        document.getElementById('score-percentage').textContent = score + '%';
+
+        // Summary grid
+        var summaryHtml = '';
+        summaryHtml += '<div class="summary-item yes"><span class="count">' + counts.yes + '</span><span class="desc">Compliant</span></div>';
+        summaryHtml += '<div class="summary-item partial"><span class="count">' + counts.partial + '</span><span class="desc">Partial</span></div>';
+        summaryHtml += '<div class="summary-item no"><span class="count">' + counts.no + '</span><span class="desc">Non-Compliant</span></div>';
+        summaryHtml += '<div class="summary-item na"><span class="count">' + counts.not_applicable + '</span><span class="desc">N/A</span></div>';
+        document.getElementById('summary-grid').innerHTML = summaryHtml;
+
+        // Detailed results
+        var detailHtml = '';
+        controls.forEach(function(control) {
+            var answer = answers[control.control_id] || {};
+            var response = answer.response || 'no';
+            var notes = answer.notes || '';
+
+            var statusLabels = { yes: 'Compliant', partial: 'Partial', no: 'Non-Compliant', not_applicable: 'N/A' };
+            var statusClass = response === 'not_applicable' ? 'na' : response;
+
+            var guidance = buildGuidanceText(control.guidance, response);
+            var recommendations = buildRecommendations(control.guidance, response);
+
+            detailHtml += '<div class="result-card">';
+            detailHtml += '<div class="result-card-header">';
+            detailHtml += '<h3>' + control.control_id + ' - ' + control.title + '</h3>';
+            detailHtml += '<span class="status-badge ' + statusClass + '">' + statusLabels[response] + '</span>';
+            detailHtml += '</div>';
+            detailHtml += '<div class="result-guidance">' + guidance + '</div>';
+
+            if (recommendations.length > 0) {
+                detailHtml += '<ul class="result-recommendations">';
+                recommendations.forEach(function(rec) {
+                    detailHtml += '<li>' + rec + '</li>';
+                });
+                detailHtml += '</ul>';
+            }
+
+            if (notes) {
+                detailHtml += '<div class="result-notes"><strong>Your Notes:</strong> ' + escapeHtml(notes) + '</div>';
+            }
+
+            detailHtml += '</div>';
+        });
+        document.getElementById('detailed-results').innerHTML = detailHtml;
+    }
+
+    function buildGuidanceText(guidance, response) {
+        var text = '<p>' + guidance.what_this_means + '</p>';
+
+        if (response === 'yes') {
+            text += '<p><strong>Status: Compliant</strong> - You\'re meeting this requirement. Make sure to document your current implementation, schedule regular reviews, and train new employees on these procedures.</p>';
+        } else if (response === 'no') {
+            text += '<p><strong>Status: Not Compliant</strong> - This control is not currently implemented. You\'ll need to address this to meet CMMC requirements.</p>';
+        } else if (response === 'partial') {
+            text += '<p><strong>Status: Partially Compliant</strong> - You have partial implementation. Focus on completing the missing pieces to achieve full compliance.</p>';
+        } else {
+            text += '<p><strong>Status: Marked Not Applicable</strong> - Make sure this is accurate. Most CMMC controls apply to all contractors handling CUI or FCI.</p>';
+        }
+
+        return text;
+    }
+
+    function buildRecommendations(guidance, response) {
+        if (response === 'yes') {
+            return [
+                'Document your current implementation',
+                'Schedule regular reviews to ensure compliance continues',
+                'Train new employees on these procedures',
+                'Keep evidence of compliance (policies, logs, screenshots)'
+            ];
+        } else if (response === 'no') {
+            return guidance.what_to_do.slice();
+        } else if (response === 'partial') {
+            return guidance.what_to_do.slice();
+        } else {
+            return [
+                'Document why this control doesn\'t apply to your organization',
+                'Have this decision reviewed by a CMMC consultant',
+                'Revisit this decision if your scope or operations change'
+            ];
+        }
+    }
+
+    function escapeHtml(str) {
+        var div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
+    function resetAssessment() {
+        currentLevel = null;
+        currentIndex = 0;
+        controls = [];
+        answers = {};
+        showView('landing');
+    }
+
+    // ========================================
+    // INIT
+    // ========================================
+    document.addEventListener('DOMContentLoaded', function() {
+        AOS.init({ duration: 1000, once: true });
+    });
+    </script>
+
+    <script src="../script.js"></script>
+</body>
+</html>
