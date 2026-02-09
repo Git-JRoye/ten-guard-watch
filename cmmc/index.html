@@ -36,6 +36,87 @@
     <meta property="twitter:image" content="https://www.tenguardsecurity.com/assets/newlogo.png">
 
     <meta name="theme-color" content="#1e40af">
+    <meta name="msapplication-TileColor" content="#1e40af">
+
+    <!-- Structured Data - WebPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "CMMC Self-Assessment Tool",
+        "description": "Free CMMC self-assessment tool for defense contractors. Evaluate your compliance with CMMC Level 1 and Level 2 controls with plain-English guidance.",
+        "url": "https://www.tenguardsecurity.com/cmmc/",
+        "publisher": {
+            "@type": "Organization",
+            "name": "TenGuard Security",
+            "url": "https://www.tenguardsecurity.com",
+            "logo": "https://www.tenguardsecurity.com/assets/svglogo.svg"
+        },
+        "isAccessibleForFree": true,
+        "about": {
+            "@type": "Thing",
+            "name": "Cybersecurity Maturity Model Certification (CMMC)",
+            "description": "The Department of Defense framework for protecting Controlled Unclassified Information and Federal Contract Information."
+        },
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tenguardsecurity.com/" },
+                { "@type": "ListItem", "position": 2, "name": "CMMC Self-Assessment", "item": "https://www.tenguardsecurity.com/cmmc/" }
+            ]
+        }
+    }
+    </script>
+
+    <!-- Structured Data - FAQPage (helps with rich results in Google) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is CMMC?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "CMMC (Cybersecurity Maturity Model Certification) is the Department of Defense's framework for ensuring that defense contractors adequately protect sensitive information, including Federal Contract Information (FCI) and Controlled Unclassified Information (CUI). It establishes required cybersecurity practices across multiple maturity levels."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between CMMC Level 1 and Level 2?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "CMMC Level 1 covers basic cyber hygiene with 17 practices focused on protecting Federal Contract Information (FCI). Level 2 requires intermediate cyber hygiene with 110 practices aligned with NIST SP 800-171 for protecting Controlled Unclassified Information (CUI), including documentation requirements and regular reviews."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Who needs CMMC certification?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Any organization that handles Federal Contract Information (FCI) or Controlled Unclassified Information (CUI) as part of a Department of Defense contract needs CMMC certification. This includes prime contractors, subcontractors, and suppliers in the defense industrial base."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I self-assess for CMMC compliance?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "CMMC Level 1 allows annual self-assessment. Level 2 may require either self-assessment or third-party assessment by a C3PAO (CMMC Third-Party Assessment Organization), depending on the type of information handled. Level 3 requires government-led assessments. A self-assessment tool like ours helps you understand your current posture before an official assessment."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does it take to become CMMC compliant?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The timeline varies based on your current security posture. Organizations with existing cybersecurity practices may need a few months to document and formalize processes. Organizations starting from scratch may need 6-18 months to implement all required controls, develop policies, and build the necessary documentation for Level 2 compliance."
+                }
+            }
+        ]
+    }
+    </script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles_v5.css">
@@ -725,8 +806,38 @@
                     </div>
                 </div>
 
-                <div class="cmmc-disclaimer" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
-                    This tool is for self-assessment purposes only and does not constitute an official CMMC certification. Official CMMC certification requires assessment by a CMMC Third-Party Assessment Organization (C3PAO). Contact us for guidance on your certification journey.
+                <!-- FAQ Section -->
+                <div data-aos="fade-up" data-aos-once="true" data-aos-delay="400" style="margin-top: 50px;">
+                    <h2 style="text-align: center; font-size: 1.8em; margin-bottom: 25px; background: linear-gradient(90deg, #10b981, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Frequently Asked Questions</h2>
+
+                    <div class="faq-item" style="background: rgba(255,255,255,0.08); border-radius: 12px; padding: 22px 25px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.1);">
+                        <h3 style="color: #10b981; font-size: 1.1em; margin-bottom: 8px;">What is CMMC?</h3>
+                        <p style="color: #c9d1d9; line-height: 1.6; font-size: 0.95em;">CMMC (Cybersecurity Maturity Model Certification) is the Department of Defense's framework for ensuring that defense contractors adequately protect sensitive information, including Federal Contract Information (FCI) and Controlled Unclassified Information (CUI). It establishes required cybersecurity practices across multiple maturity levels.</p>
+                    </div>
+
+                    <div class="faq-item" style="background: rgba(255,255,255,0.08); border-radius: 12px; padding: 22px 25px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.1);">
+                        <h3 style="color: #10b981; font-size: 1.1em; margin-bottom: 8px;">What is the difference between CMMC Level 1 and Level 2?</h3>
+                        <p style="color: #c9d1d9; line-height: 1.6; font-size: 0.95em;">CMMC Level 1 covers basic cyber hygiene with 17 practices focused on protecting Federal Contract Information (FCI). Level 2 requires intermediate cyber hygiene with 110 practices aligned with NIST SP 800-171 for protecting Controlled Unclassified Information (CUI), including documentation requirements and regular reviews.</p>
+                    </div>
+
+                    <div class="faq-item" style="background: rgba(255,255,255,0.08); border-radius: 12px; padding: 22px 25px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.1);">
+                        <h3 style="color: #10b981; font-size: 1.1em; margin-bottom: 8px;">Who needs CMMC certification?</h3>
+                        <p style="color: #c9d1d9; line-height: 1.6; font-size: 0.95em;">Any organization that handles Federal Contract Information (FCI) or Controlled Unclassified Information (CUI) as part of a Department of Defense contract needs CMMC certification. This includes prime contractors, subcontractors, and suppliers in the defense industrial base.</p>
+                    </div>
+
+                    <div class="faq-item" style="background: rgba(255,255,255,0.08); border-radius: 12px; padding: 22px 25px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.1);">
+                        <h3 style="color: #10b981; font-size: 1.1em; margin-bottom: 8px;">Can I self-assess for CMMC compliance?</h3>
+                        <p style="color: #c9d1d9; line-height: 1.6; font-size: 0.95em;">CMMC Level 1 allows annual self-assessment. Level 2 may require either self-assessment or third-party assessment by a C3PAO (CMMC Third-Party Assessment Organization), depending on the type of information handled. Level 3 requires government-led assessments. A self-assessment tool like ours helps you understand your current posture before an official assessment.</p>
+                    </div>
+
+                    <div class="faq-item" style="background: rgba(255,255,255,0.08); border-radius: 12px; padding: 22px 25px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.1);">
+                        <h3 style="color: #10b981; font-size: 1.1em; margin-bottom: 8px;">How long does it take to become CMMC compliant?</h3>
+                        <p style="color: #c9d1d9; line-height: 1.6; font-size: 0.95em;">The timeline varies based on your current security posture. Organizations with existing cybersecurity practices may need a few months to document and formalize processes. Organizations starting from scratch may need 6-18 months to implement all required controls, develop policies, and build the necessary documentation for Level 2 compliance.</p>
+                    </div>
+                </div>
+
+                <div class="cmmc-disclaimer" data-aos="fade-up" data-aos-once="true" data-aos-delay="500">
+                    This tool is for self-assessment purposes only and does not constitute an official CMMC certification. Official CMMC certification requires assessment by a CMMC Third-Party Assessment Organization (C3PAO). <a href="../contact.html" style="color: #10b981;">Contact us</a> for guidance on your certification journey.
                 </div>
             </div>
 
