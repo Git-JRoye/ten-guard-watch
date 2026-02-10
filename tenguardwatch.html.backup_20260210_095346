@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure</div><div class="ticker-item">BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA</div><div class="ticker-item">OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills</div><div class="ticker-item">German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists</div><div class="ticker-item">China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery</div><div class="ticker-item">CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk</div><div class="ticker-item">New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA’s KEV Catalog</div><div class="ticker-item">European Commission Investigating Cyberattack</div><div class="ticker-item">Organizations Urged to Replace Discontinued Edge Devices</div><div class="ticker-item">Flickr Security Incident Tied to Third-Party Email System</div><div class="ticker-item">In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities</div><div class="ticker-item">Living off the AI: The Next Evolution of Attacker Tradecraft</div><div class="ticker-item">European Commission discloses breach that exposed staff data</div><div class="ticker-item">New tool blocks imposter attacks disguised as safe commands</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Tax season is easier with H&R Block Deluxe for $35 in this deal</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have called attention to a "massive campaign" that has systematically targeted cloud native environments to set up malicious infrastructure for follow-on exploitation.  The a...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA</h3>
+                <p><strong>Summary:</strong> BeyondTrust has released updates to address a critical security flaw impacting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could result in remote c...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills</h3>
+                <p><strong>Summary:</strong> OpenClaw (formerly Moltbot and Clawdbot) has announced  that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader e...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists</h3>
+                <p><strong>Summary:</strong> Germany's Federal Office for the Protection of the Constitution (aka Bundesamt für Verfassungsschutz or BfV) and Federal Office for Information Security (BSI) have issued a joint advisory warning of a...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife  that's operated by China-nexus threat actors since at least 2019.  T...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered  Federal Civilian Executive Branch (FCEB) agencies to strengthen asset lifecycle management for edge network devices and re...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA’s KEV Catalog</h3>
+                <p><strong>Summary:</strong> The KEV list is useful but largely misunderstood. KEVology explains what it is, and how best to use it.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-paper-and-tool-help-security-teams-move-beyond-blind-reliance-on-cisas-kev-catalog/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-paper-and-tool-help-security-teams-move-beyond-blind-reliance-on-cisas-kev-catalog/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>European Commission Investigating Cyberattack</h3>
+                <p><strong>Summary:</strong> The signs of a cyberattack were identified on systems EU’s main executive body uses for mobile device management.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/european-commission-investigating-cyberattack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/european-commission-investigating-cyberattack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Organizations Urged to Replace Discontinued Edge Devices</h3>
+                <p><strong>Summary:</strong> Edge devices that are no longer supported have been targeted in attacks by state-sponsored hackers, the US says.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/organizations-urged-to-replace-discontinued-edge-devices/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/organizations-urged-to-replace-discontinued-edge-devices/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Flickr Security Incident Tied to Third-Party Email System</h3>
+                <p><strong>Summary:</strong> Potential breach at Flickr exposes usernames, email addresses, IP addresses, and activity data.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/flickr-security-incident-tied-to-third-party-email-system/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/flickr-security-incident-tied-to-third-party-email-system/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: Record DDoS, Epstein’s Hacker, ESET Product Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: AT&T and Verizon response to Salt Typhoon, AI agents solve security challenges, man arrested in Poland for DDos Attacks.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-record-ddos-epsteins-hacker-eset-product-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-record-ddos-epsteins-hacker-eset-product-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Living off the AI: The Next Evolution of Attacker Tradecraft</h3>
+                <p><strong>Summary:</strong> Living off the AI isn’t a hypothetical but a natural continuation of the tradecraft we’ve all been defending against, now mapped onto assistants, agents, and MCP.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/living-off-the-ai-the-next-evolution-of-attacker-tradecraft/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/living-off-the-ai-the-next-evolution-of-attacker-tradecraft/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>European Commission discloses breach that exposed staff data</h3>
+                <p><strong>Summary:</strong> The European Commission is investigating a breach after finding evidence that its mobile device management platform was hacked.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/european-commission-discloses-breach-that-exposed-staff-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/european-commission-discloses-breach-that-exposed-staff-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New tool blocks imposter attacks disguised as safe commands</h3>
+                <p><strong>Summary:</strong> A new open-source and cross-platform tool called Tirith can detect homoglyph attacks over command-line environments by analyzing URLs in typed commands and stopping their execution.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-tool-blocks-imposter-attacks-disguised-as-safe-commands/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-tool-blocks-imposter-attacks-disguised-as-safe-commands/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tax season is easier with H&R Block Deluxe for $35 in this deal</h3>
+                <p><strong>Summary:</strong> Tax season is officially on the horizon, but this year, the "dread" factor is getting a serious tech-forward makeover. H&R Block Tax Software Deluxe + State 2025 is back, and it's currently sitting at...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/tax-season-is-easier-with-handr-block-deluxe-for-35-in-this-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/tax-season-is-easier-with-handr-block-deluxe-for-35-in-this-deal/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
