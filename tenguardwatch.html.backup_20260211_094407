@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data</div><div class="ticker-item">Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution</div><div class="ticker-item">China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign</div><div class="ticker-item">SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers</div><div class="ticker-item">⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More</div><div class="ticker-item">How Top CISOs Solve Burnout and Speed up MTTR without Extra Hiring</div><div class="ticker-item">RSAC Releases Quantickle Open Source Threat Intelligence Visualization Tool</div><div class="ticker-item">Lema AI Emerges From Stealth With $24 Million to Tackle Third-Party Risk</div><div class="ticker-item">Ransomware Groups May Pivot Back to Encryption as Data Theft Tactics Falter</div><div class="ticker-item">Outtake Raises $40 Million to Bolster Digital Trust Against AI-Driven Threats</div><div class="ticker-item">Cybersecurity M&A Roundup: 34 Deals Announced in January 2026</div><div class="ticker-item">Recent SolarWinds Flaws Potentially Exploited as Zero-Days</div><div class="ticker-item">Fugitive behind $73M 'pig butchering' scheme gets 20 years in prison</div><div class="ticker-item">Chinese cyberspies breach Singapore's four largest telcos</div><div class="ticker-item">New Webinar: Choose Your Own Investigation — Browser Attack Edition</div><div class="ticker-item">Hackers exploit SolarWinds WHD flaws to deploy DFIR tool in attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data</h3>
+                <p><strong>Summary:</strong> The Netherlands' Dutch Data Protection Authority (AP) and the Council for the Judiciary confirmed both agencies (Rvdr) have disclosed that their systems were impacted by cyber attacks that exploited t...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution</h3>
+                <p><strong>Summary:</strong> Fortinet has released security updates to address a critical flaw impacting FortiClientEMS that could lead to the execution of arbitrary code on susceptible systems.  The vulnerability, tracked as CVE...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign</h3>
+                <p><strong>Summary:</strong> The Cyber Security Agency (CSA) of Singapore on Monday revealed that the China-nexus cyber espionage group known as UNC3886  targeted its telecommunications sector.  "UNC3886 had launched a deliberate...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers</h3>
+                <p><strong>Summary:</strong> Microsoft has revealed  that it observed a multi‑stage intrusion that involved the threat actors exploiting internet‑exposed SolarWinds Web Help Desk (WHD) instances to obtain initial access and move ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More</h3>
+                <p><strong>Summary:</strong> Cyber threats are no longer coming from just malware or exploits. They’re showing up inside the tools, platforms, and ecosystems organizations use every day. As companies connect AI, cloud apps, devel...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How Top CISOs Solve Burnout and Speed up MTTR without Extra Hiring</h3>
+                <p><strong>Summary:</strong> Why do SOC teams keep burning out and missing SLAs even after spending big on security tools? Routine triage piles up, senior specialists get dragged into basic validation, and MTTR climbs, while stea...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/how-top-cisos-solve-burnout-and-speed.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/how-top-cisos-solve-burnout-and-speed.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RSAC Releases Quantickle Open Source Threat Intelligence Visualization Tool</h3>
+                <p><strong>Summary:</strong> Quantickle is a browser-based tool designed for creating visual representations of threat research.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rsac-releases-quantickle-open-source-threat-intelligence-visualization-tool/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rsac-releases-quantickle-open-source-threat-intelligence-visualization-tool/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Lema AI Emerges From Stealth With $24 Million to Tackle Third-Party Risk</h3>
+                <p><strong>Summary:</strong> The funding was raised over Series A and seed funding rounds for its supply chain security solution.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/lema-ai-emerges-from-stealth-with-24-million-to-tackle-third-party-risk/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/lema-ai-emerges-from-stealth-with-24-million-to-tackle-third-party-risk/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ransomware Groups May Pivot Back to Encryption as Data Theft Tactics Falter</h3>
+                <p><strong>Summary:</strong> As only data exfiltration for extortion no longer delivers ROI, ransomware gangs may increasingly encrypting data for additional leverage.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ransomware-groups-may-pivot-back-to-encryption-as-data-theft-tactics-falter/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ransomware-groups-may-pivot-back-to-encryption-as-data-theft-tactics-falter/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Outtake Raises $40 Million to Bolster Digital Trust Against AI-Driven Threats</h3>
+                <p><strong>Summary:</strong> The Series B funding round brings the cybersecurity startup’s total raised to $60 million.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/outtake-raises-40-million-to-bolster-digital-trust-against-ai-driven-threats/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/outtake-raises-40-million-to-bolster-digital-trust-against-ai-driven-threats/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cybersecurity M&A Roundup: 34 Deals Announced in January 2026</h3>
+                <p><strong>Summary:</strong> Significant cybersecurity M&A deals announced by CrowdStrike, Infoblox, JumpCloud, LevelBlue, OneSpan, and Radware.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cybersecurity-ma-roundup-34-deals-announced-in-january-2026/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cybersecurity-ma-roundup-34-deals-announced-in-january-2026/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Recent SolarWinds Flaws Potentially Exploited as Zero-Days</h3>
+                <p><strong>Summary:</strong> Vulnerable SolarWinds Web Help Desk instances were exploited in December 2025 for initial access.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-solarwinds-flaws-potentially-exploited-as-zero-days/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-solarwinds-flaws-potentially-exploited-as-zero-days/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fugitive behind $73M 'pig butchering' scheme gets 20 years in prison</h3>
+                <p><strong>Summary:</strong> A dual Chinese and St. Kitts and Nevis national was sentenced to 20 years in prison in absentia for his role in an international cryptocurrency investment scheme (also known as pig butchering or roman...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fugitive-behind-73m-pig-butchering-scheme-gets-20-years-in-prison/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fugitive-behind-73m-pig-butchering-scheme-gets-20-years-in-prison/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese cyberspies breach Singapore's four largest telcos</h3>
+                <p><strong>Summary:</strong> The Chinese threat actor tracked as UNC3886 breached Singapore's four largest telecommunication service providers, Singtel, StarHub, M1, and Simba, at least once last year.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breach-singapores-four-largest-telcos/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breach-singapores-four-largest-telcos/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Choose Your Own Investigation — Browser Attack Edition</h3>
+                <p><strong>Summary:</strong> Modern attacks have shifted focus to the browser, yet detection tools remain largely blind to the crucial activity happening there.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/investigating-browser-threats?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers exploit SolarWinds WHD flaws to deploy DFIR tool in attacks</h3>
+                <p><strong>Summary:</strong> Hackers are now exploiting SolarWinds Web Help Desk (WHD) vulnerabilities to gain code execution rights on exposed systems and deploy legitimate tools, including the Velociraptor forensics tools, for ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/threat-actors-exploit-solarwinds-wdh-flaws-to-deploy-velociraptor/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/threat-actors-exploit-solarwinds-wdh-flaws-to-deploy-velociraptor/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
