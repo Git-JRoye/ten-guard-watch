@@ -1,0 +1,210 @@
+{
+  "date": "2026-02-12",
+  "items": [
+    {
+      "title": "83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure",
+      "link": "https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html",
+      "summary": "A significant chunk of the exploitation attempts targeting a newly disclosed security flaw in Ivanti Endpoint Manager Mobile (EPMM) can be traced back to a single IP address on bulletproof hosting infrastructure offered by PROSPERO.  Threat intelligence firm GreyNoise said  it recorded 417 exploitation sessions from 8 unique source IP addresses between February 1 and 9, 2026. An estimated 346 exploitation sessions have originated from 193.24.123[.]42, accounting for 83% of all attempts.  The malicious activity is designed to exploit CVE-2026-1281  (CVSS scores: 9.8), one of the two critical security vulnerabilities in EPMM, along with CVE-2026-1340  that could be exploited by an attacker to achieve unauthenticated remote code execution. Late last month, Ivanti acknowledged it's aware of a \"very limited number of customers\" who were impacted following the zero-day exploitation of the issues.   Since then, multiple European agencies, including the Netherlands' Dutch Da...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "83-of-ivanti-epmm-exploits-linked-to-single-ip-on-",
+      "source": "The Hacker News",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Apple Devices",
+      "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+      "summary": "Apple on Wednesday released  iOS, iPadOS, macOS Tahoe, tvOS, watchOS, and visionOS updates to address a zero-day flaw that it said has been exploited in sophisticated cyber attacks.  The vulnerability, tracked as CVE-2026-20700  (CVSS score: N/A), has been described as a memory corruption issue in dyld, Apple's Dynamic Link Editor. Successful exploitation of the vulnerability could allow an attacker with memory write capability to execute arbitrary code on susceptible devices. Google Threat Analysis Group (TAG) has been credited with discovering and reporting the bug.  \"Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26,\" the company said in an advisory. \"CVE-2025-14174 and CVE-2025-43529 were also issued in response to this report.\"   It's worth noting that both CVE-2025-14174 and CVE-2025-43529 were addressed  by Cupertino in Decembe...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "apple-fixes-exploited-zero-day-affecting-ios-macos",
+      "source": "The Hacker News",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "First Malicious Outlook Add-In Found Stealing 4,000+ Microsoft Credentials",
+      "link": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
+      "summary": "Cybersecurity researchers have discovered what they said is the first known malicious Microsoft Outlook add-in detected in the wild.  In this unusual supply chain attack detailed  by Koi Security, an unknown attacker claimed the domain associated with a now-abandoned legitimate add-in to serve a fake Microsoft login page, stealing over 4,000 credentials in the process. The activity has been codenamed AgreeToSteal  by the cybersecurity company.  The Outlook add-in in question is AgreeTo , which is advertised by its developer as a way for users to connect different calendars in a single place and share their availability through email. The add-in was last updated in December 2022.  Idan Dardikman, co-founder and CTO of Koi, told The Hacker News that the incident represents a broadening of supply chain attack vectors.  \"This is the same class of attack we've seen in browser extensions, npm packages, and IDE plugins: a trusted distribution channel where the content can change aft...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "first-malicious-outlook-add-in-found-stealing-4000",
+      "source": "The Hacker News",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "APT36 and SideCopy Launch Cross-Platform RAT Campaigns Against Indian Entities",
+      "link": "https://thehackernews.com/2026/02/apt36-and-sidecopy-launch-cross.html",
+      "summary": "Indian defense sector and government-aligned organizations have been targeted by multiple campaigns that are designed to compromise Windows and Linux environments with remote access trojans capable of stealing sensitive data and ensuring continued access to infected machines.  The campaigns are characterized by the use of malware families like Geta RAT , Ares RAT , and DeskRAT , which are often attributed to Pakistan-aligned threat clusters tracked as SideCopy and APT36 (aka Transparent Tribe). SideCopy, active since at least 2019, is assessed to operate as a subdivision of Transparent Tribe.  \"Taken together, these campaigns reinforce a familiar but evolving narrative,\" Aditya K. Sood, vice president of Security Engineering and AI Strategy at Aryaka, said . \"Transparent Tribe and SideCopy are not reinventing espionage – they are refining it.\"   \"By expanding cross-platform coverage, leaning into memory-resident techniques, and experimenting with new delivery ...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "apt36-and-sidecopy-launch-cross-platform-rat-campa",
+      "source": "The Hacker News",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Over 60 Software Vendors Issue Security Fixes Across OS, Cloud, and Network Platforms",
+      "link": "https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html",
+      "summary": "It's Patch Tuesday, which means a number of software vendors have released patches for various security vulnerabilities impacting their products and services.  Microsoft issued  fixes for 59 flaws, including six actively exploited zero-days in various Windows components that could be abused to bypass security features, escalate privileges, and trigger a denial-of-service (DoS) condition.  Elsewhere, Adobe released  updates for Audition, After Effects, InDesign Desktop, Substance 3D, Bridge, Lightroom Classic, and DNG SDK. The company said it's not aware of in-the-wild exploitation of any of the shortcomings.  SAP shipped  fixes for two critical-severity vulnerabilities, including a code injection bug in SAP CRM and SAP S/4HANA (CVE-2026-0488, CVSS score: 9.9) that an authenticated attacker could use to run an arbitrary SQL statement and lead to a full database compromise.  The second critical vulnerability is a case of a missing authorization check in SAP NetWeaver Application...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "over-60-software-vendors-issue-security-fixes-acro",
+      "source": "The Hacker News",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments",
+      "link": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
+      "summary": "Intentionally vulnerable training applications are widely used for security education, internal testing, and product demonstrations. Tools such as OWASP Juice Shop, DVWA, Hackazon, and bWAPP are designed to be insecure by default, making them useful for learning how common attack techniques work in controlled environments.  The issue is not the applications themselves, but how they are often deployed and maintained in real-world cloud environments.  Pentera Labs examined how training and demo applications are being used across cloud infrastructures and identified a recurring pattern: applications intended for isolated lab use were frequently found exposed to the public internet, running inside active cloud accounts, and connected to cloud identities with broader access than required.  Deployment Patterns Observed in the Research  Pentera Labs research  found that these applications were often deployed with default configurations, minimal isolation, and overly permissive cloud roles. T...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "exposed-training-open-the-door-for-crypto-mining-i",
+      "source": "The Hacker News",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Nucleus Raises $20 Million for Exposure Management",
+      "link": "https://www.securityweek.com/nucleus-raises-20-million-for-exposure-management/",
+      "summary": "The company will use the investment to scale operations and deepen intelligence and automation.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "nucleus-raises-20-million-for-exposure-management",
+      "source": "SecurityWeek",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Apple Patches iOS Zero-Day Exploited in ‘Extremely Sophisticated Attack’",
+      "link": "https://www.securityweek.com/apple-patches-ios-zero-day-exploited-in-extremely-sophisticated-attack/",
+      "summary": "Impacting the ‘dyld’ system component, the memory corruption issue can be exploited for arbitrary code execution.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "apple-patches-ios-zero-day-exploited-in-extremely-",
+      "source": "SecurityWeek",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Nevada Unveils New Statewide Data Classification Policy Months After Cyberattack",
+      "link": "https://www.securityweek.com/nevada-unveils-new-statewide-data-classification-policy-months-after-cyberattack/",
+      "summary": "Officials said data will now be classified as one of four categories: “public,” “sensitive,” “confidential” or “restricted.”",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "nevada-unveils-new-statewide-data-classification-p",
+      "source": "SecurityWeek",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Webinar Today: Identity Under Attack – Strengthen Your Identity Defenses",
+      "link": "https://www.securityweek.com/webinar-today-identity-under-attack-strengthen-your-identity-defenses/",
+      "summary": "Gain practical insights on balancing security, user experience, and operational efficiency while staying ahead of increasingly sophisticated threats.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-today-identity-under-attack-strengthen-you",
+      "source": "SecurityWeek",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "GitGuardian Raises $50 Million for Secrets and Non-Human Identity Security",
+      "link": "https://www.securityweek.com/gitguardian-raises-50-million-for-secrets-and-non-human-identity-security/",
+      "summary": "The secrets security company has raised more than $100 million since its creation in 2017.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "gitguardian-raises-50-million-for-secrets-and-non-",
+      "source": "SecurityWeek",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Conduent Breach Hits Volvo Group: Nearly 17,000 Employees’ Data Exposed",
+      "link": "https://www.securityweek.com/conduent-breach-hits-volvo-group-nearly-17000-employees-data-exposed/",
+      "summary": "The Conduent data breach affects at least 25 million individuals, up from 10 million estimated a few months ago.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "conduent-breach-hits-volvo-group-nearly-17000-empl",
+      "source": "SecurityWeek",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Google says hackers are abusing Gemini AI for all attacks stages",
+      "link": "https://www.bleepingcomputer.com/news/security/google-says-hackers-are-abusing-gemini-ai-for-all-attacks-stages/",
+      "summary": "Google Threat Intelligence Group (GTIG) has published a new report warning about AI model extraction/distillation attacks, in which private-sector firms and researchers use legitimate API access to systematically probe models and replicate their logic and reasoning.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-says-hackers-are-abusing-gemini-ai-for-all-",
+      "source": "BleepingComputer",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Apple fixes zero-day flaw used in 'extremely sophisticated' attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/",
+      "summary": "Apple has released security updates to fix a zero-day vulnerability that was exploited in an \"extremely sophisticated attack\" targeting specific individuals.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "apple-fixes-zero-day-flaw-used-in-extremely-sophis",
+      "source": "BleepingComputer",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Windows 11 Notepad flaw let files execute silently via Markdown links",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/",
+      "summary": "Microsoft has fixed a \"remote code execution\" vulnerability in Windows 11 Notepad that allowed attackers to execute local or remote programs by tricking users into clicking specially crafted Markdown links, without displaying any Windows security warnings.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "windows-11-notepad-flaw-let-files-execute-silently",
+      "source": "BleepingComputer",
+      "date": "2026-02-12"
+    }
+  ]
+}
