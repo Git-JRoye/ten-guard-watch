@@ -1,0 +1,204 @@
+{
+  "date": "2026-02-13",
+  "items": [
+    {
+      "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+      "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+      "summary": "Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.  \"Overnight we observed first in-the-wild exploitation of BeyondTrust across our global sensors,\" Ryan Dewhurst, head of threat intelligence at watchTowr, said  in a post on X. \"Attackers are abusing get_portal_info to extract the x-ns-company value before establishing a WebSocket channel.\"  The vulnerability in question is CVE-2026-1731  (CVS score: 9.9), which could allow an unauthenticated attacker to achieve remote code execution by sending specially crafted requests.  BeyondTrust noted last week that successful exploitation of the shortcoming could allow an unauthenticated remote attacker to execute operating system commands in the context of the site user, resulting in unauthorized access, data exfiltration, and service disruption.   It has been patched in the following...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "researchers-observe-in-the-wild-exploitation-of-be",
+      "source": "The Hacker News",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
+      "link": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
+      "summary": "Google on Thursday said it observed the North Korea-linked threat actor known as UNC2970  using its generative artificial intelligence (AI) model Gemini to conduct reconnaissance on its targets, as various hacking groups continue  to weaponize the tool for accelerating various phases of the cyber attack life cycle, enabling information operations, and even conducting model extraction attacks.  \"The group used Gemini to synthesize OSINT and profile high-value targets to support campaign planning and reconnaissance,\" Google Threat Intelligence Group (GTIG) said  in a report shared with The Hacker News. \"This actor's target profiling included searching for information on major cybersecurity and defense companies and mapping specific technical job roles and salary information.\"  The tech giant's threat intelligence team characterized this activity as a blurring of boundaries between what constitutes routine professional research and malicious reconnaissance, al...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-reports-state-backed-hackers-using-gemini-a",
+      "source": "The Hacker News",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems",
+      "link": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
+      "summary": "Cybersecurity researchers have discovered a fresh set of malicious packages across npm and the Python Package Index (PyPI) repository linked to a fake recruitment-themed campaign orchestrated by the North Korea-linked Lazarus Group.  The coordinated campaign has been codenamed graphalgo in reference to the first package published in the npm registry. It's assessed to be active since May 2025.  \"Developers are approached via social platforms like LinkedIn and Facebook, or through job offerings on forums like Reddit,\" ReversingLabs researcher Karlo Zanki said  in a report. \"The campaign includes a well-orchestrated story around a company involved in blockchain and cryptocurrency exchanges.\"  Notably, one of the identified npm packages, bigmathutils, attracted more than 10,000 downloads after the first, non-malicious version was published, and before the second version containing a malicious payload was released. The names of the packages are listed below -  npm...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "lazarus-campaign-plants-malicious-packages-in-npm-",
+      "source": "The Hacker News",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
+      "link": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
+      "summary": "Threat activity this week shows one consistent signal — attackers are leaning harder on what already works. Instead of flashy new exploits, many operations are built around quiet misuse of trusted tools, familiar workflows, and overlooked exposures that sit in plain sight.  Another shift is how access is gained versus how it’s used. Initial entry points are getting simpler, while post-compromise activity is becoming more deliberate, structured, and persistent. The objective is less about disruption and more about staying embedded long enough to extract value.  There’s also growing overlap between cybercrime, espionage tradecraft, and opportunistic intrusion. Techniques are bleeding across groups, making attribution harder and defense baselines less reliable.  Below is this week’s ThreatsDay Bulletin — a tight scan of the signals that matter, distilled into quick reads. Each item adds context to where threat pressure is building next.                          Notepad RCE via Markdown L...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-ai-prompt-rce-claude-0-click-r",
+      "source": "The Hacker News",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "The CTEM Divide: Why 84% of Security Programs Are Falling Behind",
+      "link": "https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html",
+      "summary": "A new 2026 market intelligence study of 128 enterprise security decision-makers ( available here ) reveals a stark divide forming between organizations – one that has nothing to do with budget size or industry and everything to do with a single framework decision. Organizations implementing Continuous Threat Exposure Management (CTEM) demonstrate 50% better attack surface visibility, 23-point higher solution adoption, and superior threat awareness across every measured dimension. The 16% who've implemented it are pulling away. The 84% who haven't are falling behind.  The Demographics of the Divide  The research surveyed a senior cohort: 85% of respondents are Manager-level or above, representing organizations where 66% employ 5,000+ people across finance, healthcare, and retail sectors.  Download the full research here →   What is CTEM?  If you aren’t familiar, CTEM involves shifting from \"patch everything reactively\" to \"continuously discover, validate, and pr...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-ctem-divide-why-84-of-security-programs-are-fa",
+      "source": "The Hacker News",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure",
+      "link": "https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html",
+      "summary": "A significant chunk of the exploitation attempts targeting a newly disclosed security flaw in Ivanti Endpoint Manager Mobile (EPMM) can be traced back to a single IP address on bulletproof hosting infrastructure offered by PROSPERO.  Threat intelligence firm GreyNoise said  it recorded 417 exploitation sessions from 8 unique source IP addresses between February 1 and 9, 2026. An estimated 346 exploitation sessions have originated from 193.24.123[.]42, accounting for 83% of all attempts.  The malicious activity is designed to exploit CVE-2026-1281  (CVSS scores: 9.8), one of the two critical security vulnerabilities in EPMM, along with CVE-2026-1340  that could be exploited by an attacker to achieve unauthenticated remote code execution. Late last month, Ivanti acknowledged it's aware of a \"very limited number of customers\" who were impacted following the zero-day exploitation of the issues.   Since then, multiple European agencies, including the Netherlands' Dutch Da...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "83-of-ivanti-epmm-exploits-linked-to-single-ip-on-",
+      "source": "The Hacker News",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Chrome 145 Patches 11 Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-145-patches-11-vulnerabilities/",
+      "summary": "Three of the security defects are high-severity flaws, two of which were found and reported by Google.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "chrome-145-patches-11-vulnerabilities",
+      "source": "SecurityWeek",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "China Revives Tianfu Cup Hacking Contest Under Increased Secrecy",
+      "link": "https://www.securityweek.com/china-revives-tianfu-cup-hacking-contest-under-increased-secrecy/",
+      "summary": "Rewards for exploits are reportedly much smaller than in the contest’s glory days.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "china-revives-tianfu-cup-hacking-contest-under-inc",
+      "source": "SecurityWeek",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "How to Eliminate the Technical Debt of Insecure AI-Assisted Software Development",
+      "link": "https://www.securityweek.com/how-to-eliminate-the-technical-debt-of-insecure-ai-assisted-software-development/",
+      "summary": "Developers must view AI as a collaborator to be closely monitored, rather than an autonomous entity to be unleashed. Without such a mindset, crippling tech debt is inevitable.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "how-to-eliminate-the-technical-debt-of-insecure-ai",
+      "source": "SecurityWeek",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "ApolloMD Data Breach Impacts 626,000 Individuals",
+      "link": "https://www.securityweek.com/apollomd-data-breach-impacts-626000-individuals/",
+      "summary": "The company says hackers stole the personal information of patients of affiliated physicians and practices.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "apollomd-data-breach-impacts-626000-individuals",
+      "source": "SecurityWeek",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Microsoft to Enable ‘Windows Baseline Security’ With New Runtime Integrity Safeguards",
+      "link": "https://www.securityweek.com/microsoft-to-enable-windows-baseline-security-with-new-runtime-integrity-safeguards/",
+      "summary": "Windows will have runtime safeguards enabled by default, ensuring that only properly signed software runs.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-to-enable-windows-baseline-security-with",
+      "source": "SecurityWeek",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Hacktivists, State Actors, Cybercriminals Target Global Defense Industry, Google Warns",
+      "link": "https://www.securityweek.com/hacktivists-state-actors-cybercriminals-target-global-defense-industry-google-warns/",
+      "summary": "Threat actors from Russia, China, North Korea and Iran have been observed launching attacks.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hacktivists-state-actors-cybercriminals-target-glo",
+      "source": "SecurityWeek",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Microsoft fixes bug that blocked Google Chrome from launching",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
+      "summary": "Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-fixes-bug-that-blocked-google-chrome-fro",
+      "source": "BleepingComputer",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Russia tries to block WhatsApp, Telegram in communication blockade",
+      "link": "https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/",
+      "summary": "The Russian government is attempting to block WhatsApp in the country as its crackdown on communication platforms not under its control intensifies.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "russia-tries-to-block-whatsapp-telegram-in-communi",
+      "source": "BleepingComputer",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Bitwarden introduces ‘Cupid Vault’ for secure password sharing",
+      "link": "https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/",
+      "summary": "Bitwarden has launched a new system called 'Cupid Vault' that allows users to safely share passwords with trusted email addresses.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "bitwarden-introduces-cupid-vault-for-secure-passwo",
+      "source": "BleepingComputer",
+      "date": "2026-02-13"
+    }
+  ]
+}
