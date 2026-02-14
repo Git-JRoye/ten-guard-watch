@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability</div><div class="ticker-item">Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support</div><div class="ticker-item">Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems</div><div class="ticker-item">ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories</div><div class="ticker-item">The CTEM Divide: Why 84% of Security Programs Are Falling Behind</div><div class="ticker-item">83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure</div><div class="ticker-item">Chrome 145 Patches 11 Vulnerabilities</div><div class="ticker-item">China Revives Tianfu Cup Hacking Contest Under Increased Secrecy</div><div class="ticker-item">How to Eliminate the Technical Debt of Insecure AI-Assisted Software Development</div><div class="ticker-item">ApolloMD Data Breach Impacts 626,000 Individuals</div><div class="ticker-item">Microsoft to Enable ‘Windows Baseline Security’ With New Runtime Integrity Safeguards</div><div class="ticker-item">Hacktivists, State Actors, Cybercriminals Target Global Defense Industry, Google Warns</div><div class="ticker-item">Microsoft fixes bug that blocked Google Chrome from launching</div><div class="ticker-item">Russia tries to block WhatsApp, Telegram in communication blockade</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Bitwarden introduces ‘Cupid Vault’ for secure password sharing</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability</h3>
+                <p><strong>Summary:</strong> Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.  "Overn...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/researchers-observe-in-wild.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/researchers-observe-in-wild.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support</h3>
+                <p><strong>Summary:</strong> Google on Thursday said it observed the North Korea-linked threat actor known as UNC2970  using its generative artificial intelligence (AI) model Gemini to conduct reconnaissance on its targets, as va...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a fresh set of malicious packages across npm and the Python Package Index (PyPI) repository linked to a fake recruitment-themed campaign orchestrated by the N...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories</h3>
+                <p><strong>Summary:</strong> Threat activity this week shows one consistent signal — attackers are leaning harder on what already works. Instead of flashy new exploits, many operations are built around quiet misuse of trusted too...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The CTEM Divide: Why 84% of Security Programs Are Falling Behind</h3>
+                <p><strong>Summary:</strong> A new 2026 market intelligence study of 128 enterprise security decision-makers ( available here ) reveals a stark divide forming between organizations – one that has nothing to do with budget size or...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure</h3>
+                <p><strong>Summary:</strong> A significant chunk of the exploitation attempts targeting a newly disclosed security flaw in Ivanti Endpoint Manager Mobile (EPMM) can be traced back to a single IP address on bulletproof hosting inf...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chrome 145 Patches 11 Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Three of the security defects are high-severity flaws, two of which were found and reported by Google.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chrome-145-patches-11-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chrome-145-patches-11-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China Revives Tianfu Cup Hacking Contest Under Increased Secrecy</h3>
+                <p><strong>Summary:</strong> Rewards for exploits are reportedly much smaller than in the contest’s glory days.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/china-revives-tianfu-cup-hacking-contest-under-increased-secrecy/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/china-revives-tianfu-cup-hacking-contest-under-increased-secrecy/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How to Eliminate the Technical Debt of Insecure AI-Assisted Software Development</h3>
+                <p><strong>Summary:</strong> Developers must view AI as a collaborator to be closely monitored, rather than an autonomous entity to be unleashed. Without such a mindset, crippling tech debt is inevitable.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/how-to-eliminate-the-technical-debt-of-insecure-ai-assisted-software-development/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/how-to-eliminate-the-technical-debt-of-insecure-ai-assisted-software-development/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ApolloMD Data Breach Impacts 626,000 Individuals</h3>
+                <p><strong>Summary:</strong> The company says hackers stole the personal information of patients of affiliated physicians and practices.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/apollomd-data-breach-impacts-626000-individuals/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/apollomd-data-breach-impacts-626000-individuals/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft to Enable ‘Windows Baseline Security’ With New Runtime Integrity Safeguards</h3>
+                <p><strong>Summary:</strong> Windows will have runtime safeguards enabled by default, ensuring that only properly signed software runs.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-to-enable-windows-baseline-security-with-new-runtime-integrity-safeguards/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-to-enable-windows-baseline-security-with-new-runtime-integrity-safeguards/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hacktivists, State Actors, Cybercriminals Target Global Defense Industry, Google Warns</h3>
+                <p><strong>Summary:</strong> Threat actors from Russia, China, North Korea and Iran have been observed launching attacks.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hacktivists-state-actors-cybercriminals-target-global-defense-industry-google-warns/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hacktivists-state-actors-cybercriminals-target-global-defense-industry-google-warns/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft fixes bug that blocked Google Chrome from launching</h3>
+                <p><strong>Summary:</strong> Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russia tries to block WhatsApp, Telegram in communication blockade</h3>
+                <p><strong>Summary:</strong> The Russian government is attempting to block WhatsApp in the country as its crackdown on communication platforms not under its control intensifies.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
+                <p><strong>Summary:</strong> Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Bitwarden introduces ‘Cupid Vault’ for secure password sharing</h3>
+                <p><strong>Summary:</strong> Bitwarden has launched a new system called 'Cupid Vault' that allows users to safely share passwords with trusted email addresses.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
