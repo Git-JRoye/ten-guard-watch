@@ -1,0 +1,211 @@
+{
+  "date": "2026-02-15",
+  "items": [
+    {
+      "title": "Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
+      "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
+      "summary": "A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL .  Google Threat Intelligence Group (GTIG) described the hacking group as possibly affiliated with Russian intelligence services. The threat actor is assessed to have targeted defense, military, government, and energy organizations within the Ukrainian regional and national governments.  However, the group has also exhibited growing interest in aerospace organizations, manufacturing companies with military and drone ties, nuclear and chemical research organizations, and international organizations involved in conflict monitoring and humanitarian aid in Ukraine, GTIG added.   \"Despite being less sophisticated and resourced than other Russian threat groups, this actor recently began to overcome some technical limitations using LLMs [large language models],\" GTIG said .   \"Through prompting, they conduct reconnaissance, create lures for soci...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-ties-suspected-russian-actor-to-canfail-mal",
+      "source": "The Hacker News",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
+      "link": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
+      "summary": "Several state-sponsored actors, hacktivist entities, and criminal groups from China, Iran, North Korea, and Russia have trained their sights on the defense industrial base (DIB) sector, according to findings from Google Threat Intelligence Group (GTIG).  The tech giant's threat intelligence division said the adversarial targeting of the sector is centered around four key themes: striking defense entities deploying technologies on the battlefield in the Russia-Ukraine War, directly approaching employees and exploitation of the hiring process by North Korean and Iranian actors, use of edge devices and appliances as initial access pathways for China-nexus groups, and supply chain risk stemming from the breach of the manufacturing sector.  \"Many of the chief state-sponsors of cyber espionage and hacktivist actors have shown an interest in autonomous vehicles and drones, as these platforms play an increasing role in modern warfare,\" GTIG said . \"Further, the 'evasion...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-links-china-iran-russia-north-korea-to-coor",
+      "source": "The Hacker News",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
+      "link": "https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html",
+      "summary": "A previously unknown threat actor tracked as UAT-9921  has been observed leveraging a new modular framework called VoidLink in its campaigns targeting the technology and financial services sectors, according to findings from Cisco Talos.  \"This threat actor seems to have been active since 2019, although they have not necessarily used VoidLink over the duration of their activity,\" researchers Nick Biasini, Aaron Boyd, Asheer Malhotra, and Vitor Ventura said . \"UAT-9921 uses compromised hosts to install VoidLink command-and-control (C2), which are then used to launch scanning activities both internal and external to the network.\"  VoidLink was first documented  by Check Point last month, describing it as a feature-rich malware framework written in Zig designed for long-term, stealthy access to Linux-based cloud environments. It's assessed to be the work of a single developer with assistance from a large language model (LLM) to flesh out its internals based on a p...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "uat-9921-deploys-voidlink-malware-to-target-techno",
+      "source": "The Hacker News",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+      "link": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
+      "summary": "Cybersecurity researchers have discovered a malicious Google Chrome extension that's designed to steal data associated with Meta Business Suite and Facebook Business Manager.  The extension, named CL Suite by @CLMasters (ID: jkphinfhmfkckkcnifhjiplhfoiefffl), is marketed as a way to scrape Meta Business Suite data, remove verification pop-ups, and generate two-factor authentication (2FA) codes. The extension has 33 users as of writing. It was first uploaded to the Chrome Web Store on March 1, 2025.  However, the browser add-on also exfiltrates TOTP codes for Facebook and Meta Business accounts, Business Manager contact lists, and analytics data to infrastructure controlled by the threat actor, Socket said.  \"The extension requests broad access to meta.com and facebook.com and claims in its privacy policy that 2FA secrets and Business Manager data remain local,\" security researcher Kirill Boychenko said .  \"In practice, the code transmits TOTP seeds and current one-t...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-chrome-extensions-caught-stealing-busine",
+      "source": "The Hacker News",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "npm’s Update to Harden Their Supply Chain, and Points to Consider",
+      "link": "https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html",
+      "summary": "In December 2025, in response to the Sha1-Hulud incident, npm completed a major authentication overhaul  intended to reduce supply-chain attacks. While the overhaul is a solid step forward, the changes don’t make npm projects immune from supply-chain attacks. npm is still susceptible to malware attacks – here’s what you need to know for a safer Node community.  Let’s start with the original problem  Historically, npm relied on classic tokens: long-lived, broadly scoped credentials that could persist indefinitely. If stolen, attackers could directly publish malicious versions to the author’s packages (no publicly verifiable source code needed). This made npm a prime vector for supply-chain attacks. Over time, numerous real-world incidents demonstrated this point. Shai-Hulud, Sha1-Hulud, and chalk/debug are examples of recent, notable attacks.   npm’s solution  To address this, npm made the following changes:   npm revoked all classic tokens and defaulted to session-based tokens instead...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "npms-update-to-harden-their-supply-chain-and-point",
+      "source": "The Hacker News",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+      "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+      "summary": "Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.  \"Overnight we observed first in-the-wild exploitation of BeyondTrust across our global sensors,\" Ryan Dewhurst, head of threat intelligence at watchTowr, said  in a post on X. \"Attackers are abusing get_portal_info to extract the x-ns-company value before establishing a WebSocket channel.\"  The vulnerability in question is CVE-2026-1731  (CVS score: 9.9), which could allow an unauthenticated attacker to achieve remote code execution by sending specially crafted requests.  BeyondTrust noted last week that successful exploitation of the shortcoming could allow an unauthenticated remote attacker to execute operating system commands in the context of the site user, resulting in unauthorized access, data exfiltration, and service disruption.   It has been patched in the following...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "researchers-observe-in-the-wild-exploitation-of-be",
+      "source": "The Hacker News",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data",
+      "link": "https://www.securityweek.com/over-300-malicious-chrome-extensions-caught-leaking-or-stealing-user-data/",
+      "summary": "With more than 37 million combined downloads, the extensions expose users to tracking and personal information theft.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "over-300-malicious-chrome-extensions-caught-leakin",
+      "source": "SecurityWeek",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine",
+      "link": "https://www.securityweek.com/in-other-news-google-looks-at-ai-abuse-trump-pauses-china-bans-disneys-2-7m-fine/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: vulnerabilities at 277 water systems, DoD employee acting as money mule, 200 airports exposed by flaw.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "in-other-news-google-looks-at-ai-abuse-trump-pause",
+      "source": "SecurityWeek",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat",
+      "link": "https://www.securityweek.com/check-point-announces-trio-of-acquisitions-amid-solid-2025-earnings-beat/",
+      "summary": "Check Point has acquired Israeli cybersecurity companies Cyata, Cyclops, and Rotate.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "check-point-announces-trio-of-acquisitions-amid-so",
+      "source": "SecurityWeek",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "Dutch Carrier Odido Discloses Data Breach Impacting 6 Million",
+      "link": "https://www.securityweek.com/dutch-carrier-odido-discloses-data-breach-impacting-6-million/",
+      "summary": "Hackers stole personal information such as names, addresses, and phone numbers from a customer contact system.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "dutch-carrier-odido-discloses-data-breach-impactin",
+      "source": "SecurityWeek",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
+      "summary": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "beyondtrust-vulnerability-targeted-by-hackers-with",
+      "source": "SecurityWeek",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities",
+      "link": "https://www.securityweek.com/cisa-warns-of-exploited-solarwinds-notepad-microsoft-vulnerabilities/",
+      "summary": "Disclosed at the end of January, the SolarWinds vulnerability was likely exploited as a zero-day since December 2025.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-warns-of-exploited-solarwinds-notepad-microso",
+      "source": "SecurityWeek",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "One threat actor responsible for 83% of recent Ivanti RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/",
+      "summary": "Threat intelligence observations show that a single threat actor is responsible for most of the active exploitation of two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as CVE-2026-21962 and CVE-2026-24061.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "one-threat-actor-responsible-for-83-of-recent-ivan",
+      "source": "BleepingComputer",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "Snail mail letters target Trezor and Ledger users in crypto-theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/",
+      "summary": "Threat actors are sending physical letters pretending to be from Trezor and Ledger, makers of cryptocurrency hardware wallets, to trick users into submitting recovery phrases in crypto theft attacks.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "snail-mail-letters-target-trezor-and-ledger-users-",
+      "source": "BleepingComputer",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-15"
+    },
+    {
+      "title": "Pay once and get 1TB of Koofr cloud storage for life",
+      "link": "https://www.bleepingcomputer.com/offer/deals/pay-once-and-get-1tb-of-koofr-cloud-storage-for-life/",
+      "summary": "Sick of paying for your cloud storage subscription every month? If you're looking for a more affordable and secure option, it's time to check out Koofr Cloud Storage. This service lets you pay once and enjoy 1TB of cloud storage forever with this lifetime subscription, and right now it's on sale for...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "pay-once-and-get-1tb-of-koofr-cloud-storage-for-li",
+      "source": "BleepingComputer",
+      "date": "2026-02-15"
+    }
+  ]
+}

@@ -44,13 +44,13 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs</div><div class="ticker-item">Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations</div><div class="ticker-item">UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors</div><div class="ticker-item">Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History</div><div class="ticker-item">npm’s Update to Harden Their Supply Chain, and Points to Consider</div><div class="ticker-item">Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability</div><div class="ticker-item">Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data</div><div class="ticker-item">In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine</div><div class="ticker-item">Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat</div><div class="ticker-item">Dutch Carrier Odido Discloses Data Breach Impacting 6 Million</div><div class="ticker-item">BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release</div><div class="ticker-item">CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities</div><div class="ticker-item">One threat actor responsible for 83% of recent Ivanti RCE attacks</div><div class="ticker-item">Snail mail letters target Trezor and Ledger users in crypto-theft attacks</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Pay once and get 1TB of Koofr cloud storage for life</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs</div><div class="ticker-item">Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations</div><div class="ticker-item">UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors</div><div class="ticker-item">Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History</div><div class="ticker-item">npm’s Update to Harden Their Supply Chain, and Points to Consider</div><div class="ticker-item">Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability</div><div class="ticker-item">In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine</div><div class="ticker-item">Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat</div><div class="ticker-item">Dutch Carrier Odido Discloses Data Breach Impacting 6 Million</div><div class="ticker-item">BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release</div><div class="ticker-item">CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities</div><div class="ticker-item">Chrome 145 Patches 11 Vulnerabilities</div><div class="ticker-item">Fake job recruiters hide malware in developer coding challenges</div><div class="ticker-item">Claude LLM artifacts abused to push Mac infostealers in ClickFix attack</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
             <div class="service-card" data-aos="fade-up">
                 <h3>Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs</h3>
-                <p><strong>Summary:</strong> A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL .  Google Threat Intelligence Group (GTIG) described the hacking g...</p>
+                <p><strong>Summary:</strong> A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL .  Google Threat Intelligence Group (GTIG) described the hack grou...</p>
                 <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
                 <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html" target="_blank">Read Full Article</a></p>
                 <a href="https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html" target="_blank" class="button-link">Read Full Article</a>
@@ -91,13 +91,6 @@
                 <a href="https://thehackernews.com/2026/02/researchers-observe-in-wild.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data</h3>
-                <p><strong>Summary:</strong> With more than 37 million combined downloads, the extensions expose users to tracking and personal information theft.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/over-300-malicious-chrome-extensions-caught-leaking-or-stealing-user-data/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/over-300-malicious-chrome-extensions-caught-leaking-or-stealing-user-data/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine</h3>
                 <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: vulnerabilities at 277 water systems, DoD employee acting as money mule, 200 airports exposed by flaw.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/cisa-warns-of-exploited-solarwinds-notepad-microsoft-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>One threat actor responsible for 83% of recent Ivanti RCE attacks</h3>
-                <p><strong>Summary:</strong> Threat intelligence observations show that a single threat actor is responsible for most of the active exploitation of two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Chrome 145 Patches 11 Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Three of the security defects are high-severity flaws, two of which were found and reported by Google.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chrome-145-patches-11-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chrome-145-patches-11-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Snail mail letters target Trezor and Ledger users in crypto-theft attacks</h3>
-                <p><strong>Summary:</strong> Threat actors are sending physical letters pretending to be from Trezor and Ledger, makers of cryptocurrency hardware wallets, to trick users into submitting recovery phrases in crypto theft attacks.</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Fake job recruiters hide malware in developer coding challenges</h3>
+                <p><strong>Summary:</strong> A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude LLM artifacts abused to push Mac infostealers in ClickFix attack</h3>
+                <p><strong>Summary:</strong> Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Pay once and get 1TB of Koofr cloud storage for life</h3>
-                <p><strong>Summary:</strong> Sick of paying for your cloud storage subscription every month? If you're looking for a more affordable and secure option, it's time to check out Koofr Cloud Storage. This service lets you pay once an...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/pay-once-and-get-1tb-of-koofr-cloud-storage-for-life/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/pay-once-and-get-1tb-of-koofr-cloud-storage-for-life/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches</h3>
+                <p><strong>Summary:</strong> South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Couture, and Tiffany $25 million for failing to implement adequate security measures, which facilitated unauthorized access an...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
