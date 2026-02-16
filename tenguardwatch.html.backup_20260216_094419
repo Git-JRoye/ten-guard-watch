@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released</div><div class="ticker-item">Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging</div><div class="ticker-item">Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs</div><div class="ticker-item">Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations</div><div class="ticker-item">UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors</div><div class="ticker-item">Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History</div><div class="ticker-item">Google Patches First Actively Exploited Chrome Zero-Day of 2026</div><div class="ticker-item">Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data</div><div class="ticker-item">In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine</div><div class="ticker-item">Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat</div><div class="ticker-item">Dutch Carrier Odido Discloses Data Breach Impacting 6 Million</div><div class="ticker-item">BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release</div><div class="ticker-item">Canada Goose investigating as hackers leak 600K customer records</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs</div><div class="ticker-item">Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations</div><div class="ticker-item">UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors</div><div class="ticker-item">Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History</div><div class="ticker-item">npm’s Update to Harden Their Supply Chain, and Points to Consider</div><div class="ticker-item">Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability</div><div class="ticker-item">Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data</div><div class="ticker-item">In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine</div><div class="ticker-item">Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat</div><div class="ticker-item">Dutch Carrier Odido Discloses Data Breach Impacting 6 Million</div><div class="ticker-item">BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release</div><div class="ticker-item">CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities</div><div class="ticker-item">One threat actor responsible for 83% of recent Ivanti RCE attacks</div><div class="ticker-item">Snail mail letters target Trezor and Ledger users in crypto-theft attacks</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Pay once and get 1TB of Koofr cloud storage for life</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released</h3>
-                <p><strong>Summary:</strong> Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild.  The high-severity vulnerability, tracked as CVE-2026-2441  (C...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging</h3>
-                <p><strong>Summary:</strong> Microsoft has disclosed  details of a new version of the ClickFix social engineering tactic in which the attackers trick unsuspecting users into running commands that carry out a Domain Name System (D...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs</h3>
                 <p><strong>Summary:</strong> A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL .  Google Threat Intelligence Group (GTIG) described the hacking g...</p>
@@ -91,11 +77,18 @@
                 <a href="https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Google Patches First Actively Exploited Chrome Zero-Day of 2026</h3>
-                <p><strong>Summary:</strong> A Chrome 145 update fixes CVE-2026-2441, a vulnerability that can likely be exploited for arbitrary code execution.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>npm’s Update to Harden Their Supply Chain, and Points to Consider</h3>
+                <p><strong>Summary:</strong> In December 2025, in response to the Sha1-Hulud incident, npm completed a major authentication overhaul  intended to reduce supply-chain attacks. While the overhaul is a solid step forward, the change...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability</h3>
+                <p><strong>Summary:</strong> Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.  "Overn...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/researchers-observe-in-wild.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/researchers-observe-in-wild.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data</h3>
@@ -133,11 +126,25 @@
                 <a href="https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Canada Goose investigating as hackers leak 600K customer records</h3>
-                <p><strong>Summary:</strong> ShinyHunters, a well-known data extortion group, claims to have stolen more than 600,000 Canada Goose customer records containing personal and payment-related data. Canada Goose told BleepingComputer ...</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Disclosed at the end of January, the SolarWinds vulnerability was likely exploited as a zero-day since December 2025.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-warns-of-exploited-solarwinds-notepad-microsoft-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-warns-of-exploited-solarwinds-notepad-microsoft-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>One threat actor responsible for 83% of recent Ivanti RCE attacks</h3>
+                <p><strong>Summary:</strong> Threat intelligence observations show that a single threat actor is responsible for most of the active exploitation of two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Snail mail letters target Trezor and Ledger users in crypto-theft attacks</h3>
+                <p><strong>Summary:</strong> Threat actors are sending physical letters pretending to be from Trezor and Ledger, makers of cryptocurrency hardware wallets, to trick users into submitting recovery phrases in crypto theft attacks.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
@@ -147,11 +154,11 @@
                 <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS</h3>
-                <p><strong>Summary:</strong> Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns.</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Pay once and get 1TB of Koofr cloud storage for life</h3>
+                <p><strong>Summary:</strong> Sick of paying for your cloud storage subscription every month? If you're looking for a more affordable and secure option, it's time to check out Koofr Cloud Storage. This service lets you pay once an...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/pay-once-and-get-1tb-of-koofr-cloud-storage-for-life/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/pay-once-and-get-1tb-of-koofr-cloud-storage-for-life/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
