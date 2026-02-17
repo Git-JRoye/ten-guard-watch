@@ -1,0 +1,188 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released</div><div class="ticker-item">Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging</div><div class="ticker-item">Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs</div><div class="ticker-item">Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations</div><div class="ticker-item">UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors</div><div class="ticker-item">Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History</div><div class="ticker-item">Google Patches First Actively Exploited Chrome Zero-Day of 2026</div><div class="ticker-item">Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data</div><div class="ticker-item">In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine</div><div class="ticker-item">Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat</div><div class="ticker-item">Dutch Carrier Odido Discloses Data Breach Impacting 6 Million</div><div class="ticker-item">BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release</div><div class="ticker-item">Canada Goose investigating as hackers leak 600K customer records</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released</h3>
+                <p><strong>Summary:</strong> Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild.  The high-severity vulnerability, tracked as CVE-2026-2441  (C...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging</h3>
+                <p><strong>Summary:</strong> Microsoft has disclosed  details of a new version of the ClickFix social engineering tactic in which the attackers trick unsuspecting users into running commands that carry out a Domain Name System (D...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs</h3>
+                <p><strong>Summary:</strong> A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL .  Google Threat Intelligence Group (GTIG) described the hacking g...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations</h3>
+                <p><strong>Summary:</strong> Several state-sponsored actors, hacktivist entities, and criminal groups from China, Iran, North Korea, and Russia have trained their sights on the defense industrial base (DIB) sector, according to f...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors</h3>
+                <p><strong>Summary:</strong> A previously unknown threat actor tracked as UAT-9921  has been observed leveraging a new modular framework called VoidLink in its campaigns targeting the technology and financial services sectors, ac...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a malicious Google Chrome extension that's designed to steal data associated with Meta Business Suite and Facebook Business Manager.  The extension, named CL ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Patches First Actively Exploited Chrome Zero-Day of 2026</h3>
+                <p><strong>Summary:</strong> A Chrome 145 update fixes CVE-2026-2441, a vulnerability that can likely be exploited for arbitrary code execution.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data</h3>
+                <p><strong>Summary:</strong> With more than 37 million combined downloads, the extensions expose users to tracking and personal information theft.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/over-300-malicious-chrome-extensions-caught-leaking-or-stealing-user-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/over-300-malicious-chrome-extensions-caught-leaking-or-stealing-user-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: vulnerabilities at 277 water systems, DoD employee acting as money mule, 200 airports exposed by flaw.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-google-looks-at-ai-abuse-trump-pauses-china-bans-disneys-2-7m-fine/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-google-looks-at-ai-abuse-trump-pauses-china-bans-disneys-2-7m-fine/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat</h3>
+                <p><strong>Summary:</strong> Check Point has acquired Israeli cybersecurity companies Cyata, Cyclops, and Rotate.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/check-point-announces-trio-of-acquisitions-amid-solid-2025-earnings-beat/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/check-point-announces-trio-of-acquisitions-amid-solid-2025-earnings-beat/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dutch Carrier Odido Discloses Data Breach Impacting 6 Million</h3>
+                <p><strong>Summary:</strong> Hackers stole personal information such as names, addresses, and phone numbers from a customer contact system.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dutch-carrier-odido-discloses-data-breach-impacting-6-million/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dutch-carrier-odido-discloses-data-breach-impacting-6-million/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release</h3>
+                <p><strong>Summary:</strong> Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Canada Goose investigating as hackers leak 600K customer records</h3>
+                <p><strong>Summary:</strong> ShinyHunters, a well-known data extortion group, claims to have stolen more than 600,000 Canada Goose customer records containing personal and payment-related data. Canada Goose told BleepingComputer ...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
+                <p><strong>Summary:</strong> Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS</h3>
+                <p><strong>Summary:</strong> Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
