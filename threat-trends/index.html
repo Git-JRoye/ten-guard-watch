@@ -34,7 +34,7 @@
             "name": "TenGuard Security",
             "url": "https://www.tenguardsecurity.com"
         },
-        "dateModified": "2026-02-16T10:10:36.187387",
+        "dateModified": "2026-02-17T09:40:31.185989",
         "isAccessibleForFree": true
     }
     </script>
@@ -418,7 +418,7 @@
     <section class="dashboard-section blue-tint" data-aos="fade-up" data-aos-once="true">
         <h1>🛡️ Threat Trends Dashboard</h1>
         <p style="font-size: 1.2em; margin-bottom: 10px;">Real-time cybersecurity intelligence powered by TenGuard Security</p>
-        <p class="update-info">Last updated: <strong>February 16, 2026 at 10:10 AM UTC</strong></p>
+        <p class="update-info">Last updated: <strong>February 17, 2026 at 09:40 AM UTC</strong></p>
         
         
         <!-- KPI Cards -->
@@ -759,32 +759,32 @@
                     
                     <tr>
                         <td>threat</td>
-                        <td><strong>181</strong></td>
+                        <td><strong>178</strong></td>
                     </tr>
                     
                     <tr>
                         <td>attacks</td>
-                        <td><strong>170</strong></td>
+                        <td><strong>173</strong></td>
                     </tr>
                     
                     <tr>
                         <td>access</td>
-                        <td><strong>143</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>attack</td>
-                        <td><strong>135</strong></td>
+                        <td><strong>136</strong></td>
                     </tr>
                     
                     <tr>
                         <td>data</td>
-                        <td><strong>133</strong></td>
+                        <td><strong>136</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>attack</td>
+                        <td><strong>136</strong></td>
                     </tr>
                     
                     <tr>
                         <td>malicious</td>
-                        <td><strong>131</strong></td>
+                        <td><strong>133</strong></td>
                     </tr>
                     
                     <tr>
@@ -799,7 +799,7 @@
                     
                     <tr>
                         <td>malware</td>
-                        <td><strong>118</strong></td>
+                        <td><strong>114</strong></td>
                     </tr>
                     
                     <tr>
@@ -808,13 +808,13 @@
                     </tr>
                     
                     <tr>
-                        <td>activity</td>
-                        <td><strong>96</strong></td>
+                        <td>cybersecurity</td>
+                        <td><strong>95</strong></td>
                     </tr>
                     
                     <tr>
-                        <td>cybersecurity</td>
-                        <td><strong>94</strong></td>
+                        <td>activity</td>
+                        <td><strong>92</strong></td>
                     </tr>
                     
                     <tr>
@@ -824,7 +824,7 @@
                     
                     <tr>
                         <td>google</td>
-                        <td><strong>91</strong></td>
+                        <td><strong>89</strong></td>
                     </tr>
                     
                 </tbody>
@@ -875,7 +875,7 @@
                 labels: ["attack", "vulnerability", "cybersecurity", "malware", "breach", "critical", "apt", "phishing", "ransomware"],
                 datasets: [{
                     label: 'Occurrences',
-                    data: [244, 136, 127, 84, 73, 68, 52, 43, 19],
+                    data: [244, 135, 125, 83, 74, 65, 52, 41, 22],
                     backgroundColor: chartColors.primary,
                     borderColor: chartColors.secondary,
                     borderWidth: 2
@@ -926,7 +926,7 @@
             data: {
                 labels: ['High', 'Medium', 'Low'],
                 datasets: [{
-                    data: [74, 213, 204],
+                    data: [71, 217, 203],
                     backgroundColor: [
                         chartColors.danger,
                         chartColors.warning,
@@ -962,10 +962,10 @@
         new Chart(dailyCtx, {
             type: 'line',
             data: {
-                labels: ["2026-01-18", "2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-24", "2026-01-25", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-01-31", "2026-02-01", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-07", "2026-02-08", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-14", "2026-02-15", "2026-02-16"],
+                labels: ["2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-24", "2026-01-25", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-01-31", "2026-02-01", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-07", "2026-02-08", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-14", "2026-02-15", "2026-02-16", "2026-02-17"],
                 datasets: [{
                     label: 'Threats per Day',
-                    data: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 12, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 15],
+                    data: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 12, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 15, 16],
                     borderColor: chartColors.primary,
                     backgroundColor: 'rgba(16, 185, 129, 0.1)',
                     tension: 0.4,
@@ -1012,10 +1012,10 @@
         new Chart(keywordCtx, {
             type: 'bar',
             data: {
-                labels: ["security", "threat", "attacks", "access", "attack", "data", "malicious", "code", "vulnerability", "malware"],
+                labels: ["security", "threat", "attacks", "access", "data", "attack", "malicious", "code", "vulnerability", "malware"],
                 datasets: [{
                     label: 'Frequency',
-                    data: [290, 181, 170, 143, 135, 133, 131, 128, 119, 118],
+                    data: [290, 178, 173, 136, 136, 136, 133, 128, 119, 114],
                     backgroundColor: chartColors.secondary,
                     borderColor: chartColors.primary,
                     borderWidth: 2
