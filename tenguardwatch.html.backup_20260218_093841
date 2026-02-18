@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Microsoft Finds “Summarize with AI” Prompts Manipulating Chatbot Recommendations</div><div class="ticker-item">Apple Tests End-to-End Encrypted RCS Messaging in iOS 26.4 Developer Beta</div><div class="ticker-item">Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens</div><div class="ticker-item">Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers</div><div class="ticker-item">Weekly Recap: Outlook Add-Ins Hijack, 0-Day Patches, Wormable Botnet & AI Malware</div><div class="ticker-item">Safe and Inclusive E‑Society: How Lithuania Is Bracing for AI‑Driven Cyber Fraud</div><div class="ticker-item">Password Managers Vulnerable to Vault Compromise Under Malicious Server</div><div class="ticker-item">Dior, Louis Vuitton, Tiffany Fined $25 Million in South Korea After Data Breaches</div><div class="ticker-item">Android 17 Beta Strengthens Secure-by-Default Design for Privacy and App Security</div><div class="ticker-item">CISA Navigates DHS Shutdown With Reduced Staff</div><div class="ticker-item">Microsoft Warns of ClickFix Attack Abusing DNS Lookups</div><div class="ticker-item">Amazon Scraps Partnership With Surveillance Company After Super Bowl Ad Backlash</div><div class="ticker-item">Washington Hotel in Japan discloses ransomware infection incident</div><div class="ticker-item">Eurail says stolen traveler data now up for sale on dark web</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Man arrested for demanding reward after accidental police data leak</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Finds “Summarize with AI” Prompts Manipulating Chatbot Recommendations</h3>
+                <p><strong>Summary:</strong> New research from Microsoft has revealed that legitimate businesses are gaming artificial intelligence (AI) chatbots via the "Summarize with AI" button that's being increasingly placed on websites in ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/microsoft-finds-summarize-with-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/microsoft-finds-summarize-with-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Tests End-to-End Encrypted RCS Messaging in iOS 26.4 Developer Beta</h3>
+                <p><strong>Summary:</strong> Apple on Monday released a new developer beta of iOS and iPadOS with support for end-to-end encryption (E2EE) in Rich Communications Services ( RCS ) messages.  The feature is currently available for ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/apple-tests-end-to-end-encrypted-rcs.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/apple-tests-end-to-end-encrypted-rcs.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw  (formerly Clawdbot and Moltbot ) configuration environm...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers</h3>
+                <p><strong>Summary:</strong> A new study has found  that multiple cloud-based password managers, including Bitwarden, Dashlane, and LastPass, are susceptible to password recovery attacks under certain conditions.  "The attacks ra...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Weekly Recap: Outlook Add-Ins Hijack, 0-Day Patches, Wormable Botnet & AI Malware</h3>
+                <p><strong>Summary:</strong> This week’s recap shows how small gaps are turning into big entry points. Not always through new exploits, often through tools, add-ons, cloud setups, or workflows that people already trust and rarely...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Safe and Inclusive E‑Society: How Lithuania Is Bracing for AI‑Driven Cyber Fraud</h3>
+                <p><strong>Summary:</strong> Presentation of the KTU Consortium Mission ‘A Safe and Inclusive Digital Society’ at the Innovation Agency event ‘Innovation Breakfast: How Mission-Oriented Science and Innovation Programmes Will Addr...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/safe-and-inclusive-esociety-how.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/safe-and-inclusive-esociety-how.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Password Managers Vulnerable to Vault Compromise Under Malicious Server</h3>
+                <p><strong>Summary:</strong> Researchers at ETH Zurich have tested the security of Bitwarden, LastPass, Dashlane, and 1Password password managers.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/password-managers-vulnerable-to-vault-compromise-under-malicious-server/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/password-managers-vulnerable-to-vault-compromise-under-malicious-server/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dior, Louis Vuitton, Tiffany Fined $25 Million in South Korea After Data Breaches</h3>
+                <p><strong>Summary:</strong> Luxury brands were among the dozens of major companies whose Salesforce instances were targeted by Scattered LAPSUS$ Hunters.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dior-louis-vuitton-tiffany-fined-25-million-in-south-korea-after-data-breaches/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dior-louis-vuitton-tiffany-fined-25-million-in-south-korea-after-data-breaches/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Android 17 Beta Strengthens Secure-by-Default Design for Privacy and App Security</h3>
+                <p><strong>Summary:</strong> The latest Android version continues to improve security and privacy, according to its developers.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/android-17-beta-strengthens-secure-by-default-design-for-privacy-and-app-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/android-17-beta-strengthens-secure-by-default-design-for-privacy-and-app-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Navigates DHS Shutdown With Reduced Staff</h3>
+                <p><strong>Summary:</strong> CISA is currently operating at roughly 38% capacity (888 out of 2,341 staff) due to the DHS shutdown that began February 14, 2026.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-navigates-dhs-shutdown-with-reduced-staff/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-navigates-dhs-shutdown-with-reduced-staff/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Warns of ClickFix Attack Abusing DNS Lookups</h3>
+                <p><strong>Summary:</strong> Attackers are using DNS requests to deliver a RAT named ModeloRAT to targeted users.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-warns-of-clickfix-attack-abusing-dns-lookups/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-warns-of-clickfix-attack-abusing-dns-lookups/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Amazon Scraps Partnership With Surveillance Company After Super Bowl Ad Backlash</h3>
+                <p><strong>Summary:</strong> Amazon’s smart doorbell maker Ring has terminated a partnership with police surveillance tech company Flock Safety.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/amazon-scraps-partnership-with-surveillance-company-after-super-bowl-ad-backlash/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/amazon-scraps-partnership-with-surveillance-company-after-super-bowl-ad-backlash/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Washington Hotel in Japan discloses ransomware infection incident</h3>
+                <p><strong>Summary:</strong> The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Eurail says stolen traveler data now up for sale on dark web</h3>
+                <p><strong>Summary:</strong> Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
+                <p><strong>Summary:</strong> Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Man arrested for demanding reward after accidental police data leak</h3>
+                <p><strong>Summary:</strong> Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received "something in return...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

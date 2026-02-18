@@ -1,0 +1,213 @@
+{
+  "date": "2026-02-18",
+  "items": [
+    {
+      "title": "Notepad++ Fixes Hijacked Update Mechanism Used to Deliver Targeted Malware",
+      "link": "https://thehackernews.com/2026/02/notepad-fixes-hijacked-update-mechanism.html",
+      "summary": "Notepad++ has released a security fix to plug gaps that were exploited by an advanced threat actor from China to hijack the software update mechanism to selectively deliver malware to targets of interest.  The version 8.9.2 update  incorporates what maintainer Don Ho calls  a \"double lock\" design that aims to make the update process \"robust and effectively unexploitable.\" This includes verification of the signed installer downloaded from GitHub (implemented in version 8.8.9 and later), as well as the newly added verification of the signed XML returned by the update server at notepad-plus-plus[.]org.  In addition to these enhancements, security-focused changes have been introduced to WinGUp, the auto-updater component -   Removal of libcurl.dll to eliminate DLL side-loading risk  Removal of two unsecured cURL SSL options: CURLSSLOPT_ALLOW_BEAST and CURLSSLOPT_NO_REVOKE  Restriction of plugin management execution to programs signed with the same certificate as WinGUp...",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "urgency": "Medium",
+      "slug": "notepad-fixes-hijacked-update-mechanism-used-to-de",
+      "source": "The Hacker News",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
+      "link": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  four security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation in the wild.  The list of vulnerabilities is as follows -   CVE-2026-2441  (CVSS score: 8.8) - A use-after-free vulnerability in Google Chrome that could allow a remote attacker to potentially exploit heap corruption via a crafted HTML page.  CVE-2024-7694  (CVSS score: 7.2) - An arbitrary file upload vulnerability  in TeamT5 ThreatSonar Anti-Ransomware versions 3.4.5 and earlier that could allow an attacker to upload malicious files and achieve arbitrary system command execution on the server.  CVE-2020-7796  (CVSS score: 9.8) - A server-side request forgery (SSRF) vulnerability in Synacor Zimbra Collaboration Suite (ZCS) that could allow an attacker to send a crafted HTTP request to a remote host and obtain unauthorized access to sensitive information.  CVE-2008-0015  (CVSS score: 8.8) - ...",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-flags-four-security-flaws-under-active-exploi",
+      "source": "The Hacker News",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Webinar: How Modern SOC Teams Use AI and Context to Investigate Cloud Breaches Faster",
+      "link": "https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html",
+      "summary": "Cloud attacks move fast — faster than most incident response teams.  In data centers, investigations had time. Teams could collect disk images, review logs, and build timelines over days. In the cloud, infrastructure is short-lived. A compromised instance can disappear in minutes. Identities rotate. Logs expire. Evidence can vanish before analysis even begins.  Cloud forensics  is fundamentally different from traditional forensics. If investigations still rely on manual log stitching, attackers already have the advantage.      Register: See Context-Aware Forensics in Action ➜    Why Traditional Incident Response Fails in the Cloud  Most teams face the same problem: alerts without context.  You might detect a suspicious API call, a new identity login, or unusual data access — but the full attack path remains unclear across the environment.  Attackers use this visibility gap to move laterally, escalate privileges, and reach critical assets before responders can connect the activity.  To...",
+      "tags": [
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "webinar-how-modern-soc-teams-use-ai-and-context-to",
+      "source": "The Hacker News",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Researchers Show Copilot and Grok Can Be Abused as Malware C2 Proxies",
+      "link": "https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html",
+      "summary": "Cybersecurity researchers have disclosed that artificial intelligence (AI) assistants that support web browsing or URL fetching capabilities can be turned into stealthy command-and-control (C2) relays, a technique that could allow attackers to blend into legitimate enterprise communications and evade detection.  The attack method, which has been demonstrated against Microsoft Copilot and xAI Grok, has been codenamed AI as a C2 proxy  by Check Point.  It leverages \"anonymous web access combined with browsing and summarization prompts,\" the cybersecurity company said. \"The same mechanism can also enable AI-assisted malware operations, including generating reconnaissance workflows, scripting attacker actions, and dynamically deciding 'what to do next' during an intrusion.\"  The development signals yet another consequential evolution in how threat actors could abuse AI systems, not just to scale or accelerate different phases  of the cyber attack cycle, but als...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "researchers-show-copilot-and-grok-can-be-abused-as",
+      "source": "The Hacker News",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Keenadu Firmware Backdoor Infects Android Tablets via Signed OTA Updates",
+      "link": "https://thehackernews.com/2026/02/keenadu-firmware-backdoor-infects.html",
+      "summary": "A new Android backdoor that's embedded deep into the device firmware can silently harvest data and remotely control its behavior, according to new findings from Kaspersky.  The Russian cybersecurity vendor said it discovered the backdoor, dubbed Keenadu , in the firmware of devices associated with various brands, including Alldocube, with the compromise occurring during the firmware build phase. Keenadu has been detected in Alldocube iPlay 50 mini Pro firmware dating back to August 18, 2023. In all cases, the backdoor is embedded within tablet firmware, and the firmware files carry valid digital signatures. The names of the other vendors were not disclosed.  \"In several instances, the compromised firmware was delivered with an OTA update,\" security researcher Dmitry Kalinin said  in an exhaustive analysis published today. \"A copy of the backdoor is loaded into the address space of every app upon launch. The malware is a multi-stage loader granting its operators the ...",
+      "tags": [
+        "malware",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "keenadu-firmware-backdoor-infects-android-tablets-",
+      "source": "The Hacker News",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "SmartLoader Attack Uses Trojanized Oura MCP Server to Deploy StealC Infostealer",
+      "link": "https://thehackernews.com/2026/02/smartloader-attack-uses-trojanized-oura.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new SmartLoader  campaign that involves distributing a trojanized version of a Model Context Protocol ( MCP ) server associated with Oura Health to deliver an information stealer known as StealC .  \"The threat actors cloned a legitimate Oura MCP Server – a tool that connects AI assistants to Oura Ring health data – and built a deceptive infrastructure of fake forks and contributors to manufacture credibility,\" Straiker's AI Research (STAR) Labs team said  in a report shared with The Hacker News.  The end game is to leverage the trojanized version of the Oura MCP server to deliver the StealC infostealer, allowing the threat actors to steal credentials, browser passwords, and data from cryptocurrency wallets.   SmartLoader, first highlighted  by OALABS Research in early 2024, is a malware loader that's known to be distributed via fake GitHub repositories containing artificial intelligence (AI)-generated lures to giv...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "smartloader-attack-uses-trojanized-oura-mcp-server",
+      "source": "The Hacker News",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Palo Alto Networks to Acquire Koi in Reported $400 Million Transaction",
+      "link": "https://www.securityweek.com/palo-alto-networks-to-acquire-koi-in-reported-400-million-transaction/",
+      "summary": "Koi has developed an endpoint security solution that Palo Alto will use to enhance its products.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "palo-alto-networks-to-acquire-koi-in-reported-400-",
+      "source": "SecurityWeek",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Dell RecoverPoint Zero-Day Exploited by Chinese Cyberespionage Group",
+      "link": "https://www.securityweek.com/dell-recoverpoint-zero-day-exploited-by-chinese-cyberespionage-group/",
+      "summary": "GTIG and Mandiant said the zero-day tracked as CVE-2026-22769 has been exploited by UNC6201 since at least 2024.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "dell-recoverpoint-zero-day-exploited-by-chinese-cy",
+      "source": "SecurityWeek",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "VulnCheck Raises $25 Million in Series B Funding to Scale Vulnerability Intelligence",
+      "link": "https://www.securityweek.com/vulncheck-raises-25-million-in-series-b-funding-to-scale-vulnerability-intelligence/",
+      "summary": "The latest funding round was led by Sorenson Capital and brings the total investment to $45 million.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "vulncheck-raises-25-million-in-series-b-funding-to",
+      "source": "SecurityWeek",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Hackers Offer to Sell Millions of Eurail User Records",
+      "link": "https://www.securityweek.com/hackers-offer-to-sell-millions-of-eurail-user-records/",
+      "summary": "Eurail has confirmed that the stolen data is up for sale, but it’s still trying to determine how many individuals are impacted.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "hackers-offer-to-sell-millions-of-eurail-user-reco",
+      "source": "SecurityWeek",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Cyber Insights 2026: The Ongoing Fight to Secure Industrial Control Systems",
+      "link": "https://www.securityweek.com/cyber-insights-2026-the-ongoing-fight-to-secure-industrial-control-systems/",
+      "summary": "As nation-state actors, ransomware groups, and aging infrastructure collide, organizations must rethink how they defend critical operations through resilience, visibility, and modern security strategies.",
+      "tags": [
+        "ransomware",
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cyber-insights-2026-the-ongoing-fight-to-secure-in",
+      "source": "SecurityWeek",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "API Threats Grow in Scale as AI Expands the Blast Radius",
+      "link": "https://www.securityweek.com/api-threats-grow-in-scale-as-ai-expands-the-blast-radius/",
+      "summary": "New research shows attackers increasingly abusing APIs at machine speed as AI-driven systems widen exposure and amplify impact.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "api-threats-grow-in-scale-as-ai-expands-the-blast-",
+      "source": "SecurityWeek",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Spain orders NordVPN, ProtonVPN to block LaLiga piracy sites",
+      "link": "https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/",
+      "summary": "A Spanish court has granted precautionary measures against NordVPN and ProtonVPN, ordering the two popular VPN providers to block 16 websites that facilitate piracy of football matches.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "spain-orders-nordvpn-protonvpn-to-block-laliga-pir",
+      "source": "BleepingComputer",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Flaws in popular VSCode extensions expose developers to attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/",
+      "summary": "Vulnerabilities with high to critical severity ratings affecting popular Visual Studio Code (VSCode) extensions collectively downloaded more than 128 million times could be exploited to steal local files and execute code remotely.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "flaws-in-popular-vscode-extensions-expose-develope",
+      "source": "BleepingComputer",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Chinese hackers exploiting Dell zero-day flaw since mid-2024",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/",
+      "summary": "A suspected Chinese state-backed hacking group has been quietly exploiting a critical Dell security flaw in zero-day attacks that started in mid-2024.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "chinese-hackers-exploiting-dell-zero-day-flaw-sinc",
+      "source": "BleepingComputer",
+      "date": "2026-02-18"
+    }
+  ]
+}
