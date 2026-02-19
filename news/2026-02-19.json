@@ -1,0 +1,208 @@
+{
+  "date": "2026-02-19",
+  "items": [
+    {
+      "title": "CRESCENTHARVEST Campaign Targets Iran Protest Supporters With RAT Malware",
+      "link": "https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed CRESCENTHARVEST , likely targeting supporters of Iran's ongoing protests to conduct information theft and long-term espionage.  The Acronis Threat Research Unit (TRU) said it observed the activity after January 9, with the attacks designed to deliver a malicious payload that serves as a remote access trojan (RAT) and information stealer to execute commands, log keystrokes, and exfiltrate sensitive data. It's currently not known if any of the attacks were successful.  \"The campaign exploits recent geopolitical developments to lure victims into opening malicious .LNK files disguised as protest-related images or videos,\" researchers Subhajeet Singha, Eliad Kimhy, and Darrel Virtusio said  in a report published this week.  \"These files are bundled with authentic media and a Farsi-language report providing updates from 'the rebellious cities of Iran.' This pro- protest framing appears ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "crescentharvest-campaign-targets-iran-protest-supp",
+      "source": "The Hacker News",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Citizen Lab Finds Cellebrite Tool Used on Kenyan Activist’s Phone in Police Custody",
+      "link": "https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html",
+      "summary": "New research from the Citizen Lab has found signs that Kenyan authorities used a commercial forensic extraction tool  manufactured by Israeli company Cellebrite to break into a prominent dissident's phone, making it the latest case of abuse of the technology targeting civil society.  The interdisciplinary research unit at the University of Toronto's Munk School of Global Affairs & Public Policy said  it found the indicators on a personal phone belonging to Boniface Mwangi, a Kenyan pro-democracy activist who has announced plans  to run for president in 2027.  Specifically, it has emerged that Cellebrite's forensic extraction tools were used on his Samsung phone while it was in police custody following his arrest in July 2025.  The phone was returned to him nearly two months later, in September, at which point Mwangi found that the phone was no longer password-protected and could be unlocked without requiring a password. It's been assessed with high confidence that ...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "citizen-lab-finds-cellebrite-tool-used-on-kenyan-a",
+      "source": "The Hacker News",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Grandstream GXP1600 VoIP Phones Exposed to Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html",
+      "summary": "Cybersecurity researchers have disclosed a critical security flaw in the Grandstream GXP1600 series of VoIP phones that could allow an attacker to seize control of susceptible devices.  The vulnerability, tracked as CVE-2026-2329 , carries a CVSS score of 9.3 out of a maximum of 10.0. It has been described as a case of unauthenticated stack-based buffer overflow that could result in remote code execution.  \"A remote attacker can leverage CVE-2026-2329 to achieve unauthenticated remote code execution (RCE) with root privileges on a target device,\" Rapid7 researcher Stephen Fewer, who discovered and reported the bug on January 6, 2026, said .  According to the cybersecurity company, the issue is rooted in the device's web-based API service (\"/cgi-bin/api.values.get\") and is accessible in a default configuration without requiring authentication.  This endpoint is designed to fetch one or more configuration values from the phone, such as the firmware version number...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "grandstream-gxp1600-voip-phones-exposed-to-unauthe",
+      "source": "The Hacker News",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Critical Flaws Found in Four VS Code Extensions with Over 125 Million Installs",
+      "link": "https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html",
+      "summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities in four popular Microsoft Visual Studio Code (VS Code) extensions that, if successfully exploited, could allow threat actors to steal local files and execute code remotely.  The extensions, which have been collectively installed more than 125 million times, are Live Server, Code Runner, Markdown Preview Enhanced, and Microsoft Live Preview.  \"Our research demonstrates that a hacker needs only one malicious extension, or a single vulnerability within one extension, to perform lateral movement and compromise entire organizations,\" OX Security researchers Moshe Siman Tov Bustan and Nir Zadok said  in a report shared with The Hacker News.   Details of the vulnerabilities are as follows -   CVE-2025-65717  (CVSS score: 9.1) - A vulnerability in Live Server that allows attackers to exfiltrate local files, tricking a developer into visiting a malicious website when the extension is running, causing JavaScrip...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-flaws-found-in-four-vs-code-extensions-wi",
+      "source": "The Hacker News",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Cybersecurity Tech Predictions for 2026: Operating in a World of Permanent Instability",
+      "link": "https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html",
+      "summary": "In 2025, navigating the digital seas still felt like a matter of direction. Organizations charted routes, watched the horizon, and adjusted course to reach safe harbors of resilience, trust, and compliance.  In 2026, the seas are no longer calm between storms. Cybersecurity  now unfolds in a state of  continuous atmospheric instability : AI-driven threats that adapt in real time, expanding digital ecosystems, fragile trust relationships, persistent regulatory pressure, and accelerating technological change. This is not turbulence on the way to stability; it  is  the climate.  In this environment, cybersecurity technologies are no longer merely navigational aids. They are  structural reinforcements . They determine whether an organization endures volatility or learns to function normally within it. That is why security investments in 2026 are increasingly made not for coverage, but for  operational continuity : sustained operations, decision-grade visibility and cont...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "cybersecurity-tech-predictions-for-2026-operating-",
+      "source": "The Hacker News",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Dell RecoverPoint for VMs Zero-Day CVE-2026-22769 Exploited Since Mid-2024",
+      "link": "https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html",
+      "summary": "A maximum severity security vulnerability in Dell RecoverPoint for Virtual Machines has been exploited as a zero-day by a suspected China-nexus threat cluster dubbed UNC6201  since mid-2024, according to a new report  from Google Mandiant and Google Threat Intelligence Group (GTIG).  The activity involves the exploitation of CVE-2026-22769 (CVSS score: 10.0), a case of hard-coded credentials affecting versions prior to 6.0.3.1 HF1. Other products, including RecoverPoint Classic, are not vulnerable to the flaw.  \"This is considered critical as an unauthenticated remote attacker with knowledge of the hardcoded credential could potentially exploit this vulnerability, leading to unauthorized access to the underlying operating system and root-level persistence,\" Dell said in a bulletin released Tuesday.  The issue impacts the following products -   RecoverPoint for Virtual Machines Version 5.3 SP4 P1 - Migrate from RecoverPoint for Virtual Machines 5.3 SP4 P1 to 6.0 SP3, and th...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "dell-recoverpoint-for-vms-zero-day-cve-2026-22769-",
+      "source": "The Hacker News",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "German Rail Giant Deutsche Bahn Hit by Large-Scale DDoS Attack",
+      "link": "https://www.securityweek.com/german-rail-giant-deutsche-bahn-hit-by-large-scale-ddos-attack/",
+      "summary": "The cyberattack disrupted information and booking systems and lasted for several hours.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "german-rail-giant-deutsche-bahn-hit-by-large-scale",
+      "source": "SecurityWeek",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "New Keenadu Android Malware Found on Thousands of Devices",
+      "link": "https://www.securityweek.com/new-keenadu-android-malware-found-on-thousands-of-devices/",
+      "summary": "The malware has been preinstalled on many devices but it has also been distributed through Google Play and other app stores.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-keenadu-android-malware-found-on-thousands-of-",
+      "source": "SecurityWeek",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Cogent Security Raises $42 Million for AI-Driven Vulnerability Management",
+      "link": "https://www.securityweek.com/cogent-security-raises-42-million-for-ai-driven-vulnerability-management/",
+      "summary": "The Series A funding round, led by Bain Capital, brings the total raised by Cogent to $53 million.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "cogent-security-raises-42-million-for-ai-driven-vu",
+      "source": "SecurityWeek",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Vulnerabilities in Popular PDF Platforms Allowed Account Takeover, Data Exfiltration",
+      "link": "https://www.securityweek.com/vulnerabilities-in-popular-pdf-platforms-allowed-account-takeover-data-exfiltration/",
+      "summary": "Novee researchers discovered 16 vulnerabilities in Foxit and Apryse PDF tools that could have been exploited via malicious documents or URLs.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "vulnerabilities-in-popular-pdf-platforms-allowed-a",
+      "source": "SecurityWeek",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "CISA: Hackers Exploiting Vulnerability in Product of Taiwan Security Firm TeamT5",
+      "link": "https://www.securityweek.com/cisa-hackers-exploiting-vulnerability-in-product-of-taiwan-security-firm-teamt5/",
+      "summary": "The vulnerability added to CISA’s KEV catalog affects ThreatSonar Anti-Ransomware and it was patched in 2024.",
+      "tags": [
+        "vulnerability",
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-hackers-exploiting-vulnerability-in-product-o",
+      "source": "SecurityWeek",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Palo Alto Networks to Acquire Koi in Reported $400 Million Transaction",
+      "link": "https://www.securityweek.com/palo-alto-networks-to-acquire-koi-in-reported-400-million-transaction/",
+      "summary": "Koi has developed an endpoint security solution that Palo Alto will use to enhance its products.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "palo-alto-networks-to-acquire-koi-in-reported-400-",
+      "source": "SecurityWeek",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "Critical infra Honeywell CCTVs vulnerable to auth bypass flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a critical vulnerability in multiple Honeywell CCTV products that allows unauthorized access to feeds or account hijacking.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-infra-honeywell-cctvs-vulnerable-to-auth-",
+      "source": "BleepingComputer",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "AI platforms can be abused for stealthy malware communication",
+      "link": "https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/",
+      "summary": "AI assistants like Grok and Microsoft Copilot with web browsing and URL-fetching capabilities can be abused to intermediate command-and-control (C2) activity.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "ai-platforms-can-be-abused-for-stealthy-malware-co",
+      "source": "BleepingComputer",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-19"
+    },
+    {
+      "title": "These Sony ANC earbuds dropped to just $70",
+      "link": "https://www.bleepingcomputer.com/offer/deals/these-sony-anc-earbuds-dropped-to-just-70/",
+      "summary": "If you've been waiting for a recognizable audio brand to hit a realistic price point, this is it. The new, open-box Sony WF-C710N Truly Wireless Noise-Canceling Earbuds are now just $69.99 (MSRP $129.99) for a limited time — about 46% off.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "these-sony-anc-earbuds-dropped-to-just-70",
+      "source": "BleepingComputer",
+      "date": "2026-02-19"
+    }
+  ]
+}
