@@ -1,0 +1,201 @@
+{
+  "date": "2026-02-21",
+  "items": [
+    {
+      "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning",
+      "link": "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
+      "summary": "Artificial intelligence (AI) company Anthropic has begun to roll out a new security feature for Claude Code that can scan a user's software codebase for vulnerabilities and suggest patches.  The capability, called Claude Code Security , is currently available in a limited research preview to Enterprise and Team customers.  \"It scans codebases for security vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix security issues that traditional methods often miss,\" the company said  in a Friday announcement.  Anthropic said the feature aims to leverage AI as a tool to help find and resolve vulnerabilities to counter attacks where threat actors weaponize the same tools to automate vulnerability discovery.    With AI agents increasingly  capable of detecting security vulnerabilities  that have otherwise escaped human notice, the tech upstart said the same capabilities could be used by adversaries to uncover exploitable weakness...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "anthropic-launches-claude-code-security-for-ai-pow",
+      "source": "The Hacker News",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog",
+      "link": "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerabilities in question are listed below -   CVE-2025-49113  (CVSS score: 9.9) - A deserialization of untrusted data vulnerability that allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php. (Fixed in June 2025 )  CVE-2025-68461  (CVSS score: 7.2) - A cross-site scripting vulnerability via the animate tag in an SVG document. (Fixed in December 2025 )    Dubai-based cybersecurity company FearsOff, whose founder and CEO, Kirill Firsov, was credited with discovering and reporting CVE-2025-49113, said attackers have already \" diffed and weaponized the vulnerability \" within 48 hours of public disclosure of the flaw. An exploit for the vulnerability wa...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-two-actively-exploited-roundcube-flaws-t",
+      "source": "The Hacker News",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security",
+      "link": "https://thehackernews.com/2026/02/ec-council-expands-ai-certification.html",
+      "summary": "With $5.5 trillion in global AI risk exposure and 700,000 U.S. workers needing reskilling, four new AI certifications and Certified CISO v4 help close the gap between AI adoption and workforce readiness .  EC-Council , creator of the world-renowned Certified Ethical Hacker (CEH)  credential and a global leader in applied cybersecurity education, today launched its Enterprise AI Credential Suite, with four new role-based AI certifications  debuting alongside Certified CISO v4 , an overhauled executive cyber leadership program. The dual launch is the largest single expansion of EC-Council’s portfolio in its 25-year history. It addresses a structural gap that no single tool, platform, or policy can solve alone: AI is scaling faster than the workforce trained to run, secure, and govern it.  The launch aligns with U.S. priorities on workforce development and applied AI education outlined in Executive Order 14179, the July 2025 AI Action Plan’s workforce development pillar, and Executive Or...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ec-council-expands-ai-certification-portfolio-to-s",
+      "source": "The Hacker News",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration",
+      "link": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products to conduct a wide range of malicious actions, including deploying VShell and   The vulnerability, tracked as CVE-2026-1731  (CVSS score: 9.9), allows attackers to execute operating system commands in the context of the site user.  In a report published Thursday, Palo Alto Networks Unit 42 said  it detected the security flaw being actively exploited in the wild for network reconnaissance, web shell deployment, command-and-control (C2), backdoor and remote management tool installs, lateral movement, and data theft.  The campaign has targeted financial services, legal services, high technology, higher education, wholesale and retail, and healthcare sectors across the U.S., France, Germany, Australia, and Canada.   The cybersecurity company described the vulnerability as a case of sanitization failure that enab...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "beyondtrust-flaw-used-for-web-shells-backdoors-and",
+      "source": "The Hacker News",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "Cline CLI 2.3.0 Supply Chain Attack Installed OpenClaw on Developer Systems",
+      "link": "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html",
+      "summary": "In yet another software supply chain attack, the open-source, artificial intelligence (AI)-powered coding assistant Cline CLI  was updated to stealthily install OpenClaw , a self-hosted autonomous AI agent that has become exceedingly popular in the past few months.  \"On February 17, 2026, at 3:26 AM PT, an unauthorized party used a compromised npm publish token to publish an update to Cline CLI on the NPM registry: cline@2.3.0,\" the maintainers of the Cline package said  in an advisory. \"The published package contains a modified package.json with an added postinstall script: 'postinstall\": \"npm install -g openclaw@latest.'\"  As a result, this causes OpenClaw to be installed on the developer's machine when Cline version 2.3.0 is installed. Cline said no additional modifications were introduced to the package and there was no malicious behavior observed. However, it noted that the installation of OpenClaw was not authorized or intended.  The s...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cline-cli-230-supply-chain-attack-installed-opencl",
+      "source": "The Hacker News",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "ClickFix Campaign Abuses Compromised Sites to Deploy MIMICRAT Malware",
+      "link": "https://thehackernews.com/2026/02/clickfix-campaign-abuses-compromised.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new ClickFix  campaign that abuses compromised legitimate sites to deliver a previously undocumented remote access trojan (RAT) called MIMICRAT  (aka AstarionRAT).  \"The campaign demonstrates a high level of operational sophistication: compromised sites spanning multiple industries and geographies serve as delivery infrastructure, a multi-stage PowerShell chain performs ETW and AMSI bypass before dropping a Lua-scripted shellcode loader, and the final implant communicates over HTTPS on port 443 using HTTP profiles that resemble legitimate web analytics traffic,\" Elastic Security Labs said  in a Friday report.  According to the enterprise search and cybersecurity company, MIMICRAT is a custom C++ RAT with support for Windows token impersonation, SOCKS5 tunneling, and a set of 22 commands for comprehensive post-exploitation capabilities. The campaign was discovered earlier this month.  It's also assessed to share tactic...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "clickfix-campaign-abuses-compromised-sites-to-depl",
+      "source": "The Hacker News",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "NIST’s Quantum Breakthrough: Single Photons Produced on a Chip",
+      "link": "https://www.securityweek.com/nists-quantum-breakthrough-single-photons-produced-on-a-chip/",
+      "summary": "NIST’s single photon chip will likely make QKD an option for a wider range of companies.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "nists-quantum-breakthrough-single-photons-produced",
+      "source": "SecurityWeek",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "In Other News: Ransomware Shuts US Clinics, ICS Vulnerability Surge, European Parliament Bans AI",
+      "link": "https://www.securityweek.com/in-other-news-ransomware-shuts-us-clinics-ics-vulnerability-surge-european-parliament-bans-ai/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Axonius lays off employees, Abu Dhabi conference data leak, HackerOne addresses AI concerns.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-ransomware-shuts-us-clinics-ics-vuln",
+      "source": "SecurityWeek",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "BeyondTrust Vulnerability Exploited in Ransomware Attacks",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-exploited-in-ransomware-attacks/",
+      "summary": "CISA has updated its KEV entry for CVE-2026-1731 to alert organizations of exploitation in ransomware attacks.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "beyondtrust-vulnerability-exploited-in-ransomware-",
+      "source": "SecurityWeek",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "FBI: $20 Million Losses Caused by 700 ATM Jackpotting Attacks in 2025",
+      "link": "https://www.securityweek.com/fbi-20-million-losses-caused-by-700-atm-jackpotting-attacks-in-2025/",
+      "summary": "The FBI has confirmed that the Ploutus malware, which has been around for over a decade, is still being used in the wild.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-20-million-losses-caused-by-700-atm-jackpottin",
+      "source": "SecurityWeek",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "Chip Testing Giant Advantest Hit by Ransomware",
+      "link": "https://www.securityweek.com/chip-testing-giant-advantest-hit-by-ransomware/",
+      "summary": "The company is investigating whether any customer or employee data was stolen by hackers.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "chip-testing-giant-advantest-hit-by-ransomware",
+      "source": "SecurityWeek",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "PromptSpy Android Malware Abuses Gemini AI at Runtime for Persistence",
+      "link": "https://www.securityweek.com/promptspy-android-malware-abuses-gemini-ai-at-runtime-for-persistence/",
+      "summary": "The malware leverages Gemini to analyze on-screen elements and ensure that it remains on the device even after a reboot.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "promptspy-android-malware-abuses-gemini-ai-at-runt",
+      "source": "SecurityWeek",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "Learn ethical hacking with this hands-on hacking course deal for $28",
+      "link": "https://www.bleepingcomputer.com/offer/deals/learn-ethical-hacking-with-this-hands-on-hacking-course-deal-for-28/",
+      "summary": "The All-in-One Super-Sized Ethical Hacking Bundle packages 14 courses and 118 hours of training into one place, and right now it's just $27.99 (MSRP $854). Instead of random tutorials, this follows a structured path: understand attacks, practice them safely, and learn how to defend against them.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "learn-ethical-hacking-with-this-hands-on-hacking-c",
+      "source": "BleepingComputer",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "Japanese tech giant Advantest hit by ransomware attack",
+      "link": "https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit-by-ransomware-attack/",
+      "summary": "Advantest Corporation disclosed that its corporate network has been targeted in a ransomware attack that may have affected customer or employee data.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "japanese-tech-giant-advantest-hit-by-ransomware-at",
+      "source": "BleepingComputer",
+      "date": "2026-02-21"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-21"
+    }
+  ]
+}

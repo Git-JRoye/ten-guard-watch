@@ -1,0 +1,194 @@
+{
+  "date": "2026-02-20",
+  "items": [
+    {
+      "title": "FBI Reports 1,900 ATM Jackpotting Incidents Since 2020, $20M Lost in 2025",
+      "link": "https://thehackernews.com/2026/02/fbi-reports-1900-atm-jackpotting.html",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has warned of an increase in ATM jackpotting incidents across the country, leading to losses of more than $20 million in 2025.  The agency said 1,900 ATM jackpotting incidents have been reported since 2020, out of which 700 took place last year. In December 2025, the U.S. Department of Justice (DoJ) said  about $40.73 million has been collectively lost to jackpotting attacks since 2021.  \"Threat actors exploit physical and software vulnerabilities in ATMs and deploy malware to dispense cash without a legitimate transaction,\" the FBI said  in a Thursday bulletin.   The jackpotting attacks involve the use of specialized malware, such as Ploutus, to infect ATMs and force them to dispense cash. In most cases, cybercriminals have been observed gaining unauthorized access to the machines by opening an ATM face with widely available generic keys.   There are at least two different ways by which the malware is deployed: Removing the A...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-reports-1900-atm-jackpotting-incidents-since-2",
+      "source": "The Hacker News",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Former Google Engineers Indicted Over Trade Secret Transfers to Iran",
+      "link": "https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html",
+      "summary": "Two former Google engineers and one of their husbands have been indicted  in the U.S. for allegedly committing trade secret theft from the search giant and other tech firms and transferring the information to unauthorized locations, including Iran.  Samaneh Ghandali, 41, and her husband Mohammadjavad Khosravi (aka Mohammad Khosravi), 40, along with her sister Soroor Ghandali, 32, have been accused of conspiring to commit trade secret theft from Google and other leading technology companies, theft and attempted theft of trade secrets, and obstruction of justice.  The three defendants, all Iranian nationals and residing in San Jose, were arrested on Thursday and made their initial appearances in federal district court in the California city.  According to the U.S. Department of Justice (DoJ), the Ghandali sisters worked at Google before joining another technology company identified as Company 3. Khosravi is said to have been employed at a different company (named Company 2). All three o...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "former-google-engineers-indicted-over-trade-secret",
+      "source": "The Hacker News",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence",
+      "link": "https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html",
+      "summary": "Cybersecurity researchers have discovered what they say is the first Android malware that abuses Gemini, Google's generative artificial intelligence (AI) chatbot, as part of its execution flow and achieves persistence.  The malware has been codenamed PromptSpy  by ESET. The malware is equipped to capture lockscreen data, block uninstallation efforts, gather device information, take screenshots, and record screen activity as video.  \"Gemini is used to analyze the current screen and provide PromptSpy with step-by-step instructions on how to ensure the malicious app remains pinned in the recent apps list, thus preventing it from being easily swiped away or killed by the system,\" ESET researcher Lukáš Štefanko said  in a report published today.  \"Since Android malware often relies on UI navigation, leveraging generative AI enables the threat actors to adapt to more or less any device, layout, or OS version, which can greatly expand the pool of potential victims.\"  ...",
+      "tags": [
+        "malware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "promptspy-android-malware-abuses-gemini-ai-to-auto",
+      "source": "The Hacker News",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown",
+      "link": "https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html",
+      "summary": "An international cybercrime operation against online scams has led to 651 arrests and recovered more than $4.3 million as part of an effort led by law enforcement agencies from 16 African countries.  The initiative, codenamed Operation Red Card 2.0, took place between December 8, 2025 and January 30, 2026, according to INTERPOL. It targeted infrastructure and actors behind high-yield investment scams, mobile money fraud, and fraudulent mobile loan applications.  Countries that participated in the law enforcement operation included Angola, Benin, Cameroon, Côte d’Ivoire, Chad, Gabon, Gambia, Ghana, Kenya, Namibia, Nigeria, Rwanda, Senegal, Uganda, Zambia, and Zimbabwe. It was conducted under the African Joint Operation against Cybercrime (AFJOC).   \"During the eight-week operation, investigations exposed scams linked to over USD 45 million in financial losses and identified 1,247 victims, predominantly from the African continent but also from other regions of the world,\" INTE...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "interpol-operation-red-card-20-arrests-651-in-afri",
+      "source": "The Hacker News",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center",
+      "link": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
+      "summary": "Microsoft has disclosed a now-patched security flaw in Windows Admin Center that could allow an attacker to escalate their privileges.  Windows Admin Center  is a locally deployed, browser-based management tool set that lets users manage their Windows Clients, Servers, and Clusters without the need for connecting to the cloud.  The high-severity vulnerability, tracked as CVE-2026-26119 , carries a CVSS score of 8.8 out of a maximum of 10.0  \"Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network,\" Microsoft said  in an advisory released on February 17, 2026. \"The attacker would gain the rights of the user that is running the affected application.\"   Microsoft credited Semperis researcher Andrea Pierini with discovering and reporting the vulnerability. It's worth mentioning that the security issue was patched by the tech giant in Windows Admin Center version 2511  released in December 2025.   While the ...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-patches-cve-2026-26119-privilege-escalat",
+      "source": "The Hacker News",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories",
+      "link": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
+      "summary": "The cyber threat space doesn’t pause, and this week makes that clear. New risks, new tactics, and new security gaps are showing up across platforms, tools, and industries — often all at the same time.  Some developments are headline-level. Others sit in the background but carry long-term impact. Together, they shape how defenders need to think about exposure, response, and preparedness right now.  This edition of ThreatsDay Bulletin brings those signals into one place. Scan through the roundup for quick, clear updates on what’s unfolding across the cybersecurity and hacking landscape.                          Privacy model hardening             Google Showcases New Privacy and Security Features in Android 17                  Google announced  the first beta version of Android 17 , with two privacy and security enhancements: the deprecation of Cleartext Traffic Attribute and support for HPKE Hybrid Cryptography to enable secure communication using a combination of public key and symme...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "threatsday-bulletin-openssl-rce-foxit-0-days-copil",
+      "source": "The Hacker News",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Chip Testing Giant Advantest Hit by Ransomware",
+      "link": "https://www.securityweek.com/chip-testing-giant-advantest-hit-by-ransomware/",
+      "summary": "The company is investigating whether any customer or employee data was stolen by hackers.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "chip-testing-giant-advantest-hit-by-ransomware",
+      "source": "SecurityWeek",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "French Government Says 1.2 Million Bank Accounts Exposed in Breach",
+      "link": "https://www.securityweek.com/french-government-says-1-2-million-bank-accounts-exposed-in-breach/",
+      "summary": "The Ministry of Economy reported discovering unauthorized access to the national bank account registry FICOBA.",
+      "tags": [
+        "breach",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "french-government-says-12-million-bank-accounts-ex",
+      "source": "SecurityWeek",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Nearly 1 Million User Records Compromised in Figure Data Breach",
+      "link": "https://www.securityweek.com/nearly-1-million-user-records-compromised-in-figure-data-breach/",
+      "summary": "The blockchain-based lender has confirmed a data breach after ShinyHunters leaked over 2GB of data allegedly stolen from the company.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "nearly-1-million-user-records-compromised-in-figur",
+      "source": "SecurityWeek",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Venice Security Emerges From Stealth With $33M Funding for Privileged Access Management",
+      "link": "https://www.securityweek.com/venice-security-emerges-from-stealth-with-33m-funding-for-privileged-access-management/",
+      "summary": "Formerly named Valkyrie, the company’s funding includes $25 million raised in a Series A round.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "venice-security-emerges-from-stealth-with-33m-fund",
+      "source": "SecurityWeek",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Ivanti Exploitation Surges as Zero-Day Attacks Traced Back to July 2025",
+      "link": "https://www.securityweek.com/ivanti-exploitation-surges-as-zero-day-attacks-traced-back-to-july-2025/",
+      "summary": "Security researchers have seen the vulnerabilities being exploited to deliver shells, conduct reconnaissance, and download malware.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ivanti-exploitation-surges-as-zero-day-attacks-tra",
+      "source": "SecurityWeek",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Ukrainian gets 5 years for helping North Koreans infiltrate US firms",
+      "link": "https://www.bleepingcomputer.com/news/security/ukrainian-gets-5-years-for-helping-north-koreans-infiltrate-us-firms/",
+      "summary": "A Ukrainian national was sentenced to five years in prison for providing North Korean IT workers with stolen identities that helped them infiltrate U.S. companies.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ukrainian-gets-5-years-for-helping-north-koreans-i",
+      "source": "BleepingComputer",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "PromptSpy is the first known Android malware to use generative AI at runtime",
+      "link": "https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/",
+      "summary": "Researchers have discovered the first known Android malware to use generative AI in its execution flow, using Google's Gemini model to adapt its persistence across different devices.",
+      "tags": [
+        "malware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "promptspy-is-the-first-known-android-malware-to-us",
+      "source": "BleepingComputer",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Train for CompTIA, AWS, Cisco & more with this $40 course deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/",
+      "summary": "The Complete CompTIA & IT Exam Lifetime Access Training Bundle gives you ongoing access to learning paths across CompTIA, Cisco, AWS, Microsoft, Google, and Linux for just $39.99 (MSRP $2,748.75). Instead of one course, you're getting an entire certification ecosystem you can revisit anytime.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "train-for-comptia-aws-cisco-more-with-this-40-cour",
+      "source": "BleepingComputer",
+      "date": "2026-02-20"
+    }
+  ]
+}

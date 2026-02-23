@@ -1,0 +1,316 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 64,
+      "vulnerability": 41,
+      "critical": 26,
+      "cybersecurity": 26,
+      "breach": 22,
+      "malware": 20,
+      "apt": 15,
+      "ransomware": 7,
+      "phishing": 4
+    },
+    "30_days": {
+      "attack": 248,
+      "vulnerability": 140,
+      "cybersecurity": 120,
+      "malware": 85,
+      "breach": 74,
+      "critical": 69,
+      "apt": 53,
+      "phishing": 38,
+      "ransomware": 23
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "Medium": 54,
+      "Low": 47,
+      "High": 26
+    },
+    "30_days": {
+      "Medium": 219,
+      "Low": 197,
+      "High": 75
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 119
+  },
+  "top_keywords": {
+    "security": 293,
+    "threat": 180,
+    "attacks": 175,
+    "data": 139,
+    "attack": 138,
+    "access": 134,
+    "malicious": 132,
+    "code": 130,
+    "vulnerability": 123,
+    "malware": 116,
+    "cve": 114,
+    "cybersecurity": 99,
+    "remote": 94,
+    "activity": 91,
+    "exploited": 88,
+    "browser": 86,
+    "microsoft": 86,
+    "google": 85,
+    "devices": 79,
+    "vulnerabilities": 79
+  },
+  "daily_counts": [
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    },
+    {
+      "date": "2026-01-30",
+      "count": 16
+    },
+    {
+      "date": "2026-01-31",
+      "count": 16
+    },
+    {
+      "date": "2026-02-01",
+      "count": 16
+    },
+    {
+      "date": "2026-02-02",
+      "count": 16
+    },
+    {
+      "date": "2026-02-03",
+      "count": 16
+    },
+    {
+      "date": "2026-02-04",
+      "count": 12
+    },
+    {
+      "date": "2026-02-05",
+      "count": 16
+    },
+    {
+      "date": "2026-02-06",
+      "count": 16
+    },
+    {
+      "date": "2026-02-07",
+      "count": 16
+    },
+    {
+      "date": "2026-02-08",
+      "count": 16
+    },
+    {
+      "date": "2026-02-09",
+      "count": 16
+    },
+    {
+      "date": "2026-02-10",
+      "count": 16
+    },
+    {
+      "date": "2026-02-11",
+      "count": 16
+    },
+    {
+      "date": "2026-02-12",
+      "count": 16
+    },
+    {
+      "date": "2026-02-13",
+      "count": 16
+    },
+    {
+      "date": "2026-02-14",
+      "count": 16
+    },
+    {
+      "date": "2026-02-15",
+      "count": 16
+    },
+    {
+      "date": "2026-02-16",
+      "count": 15
+    },
+    {
+      "date": "2026-02-17",
+      "count": 16
+    },
+    {
+      "date": "2026-02-18",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Webinar: How Modern SOC Teams Use AI and Context to Investigate Cloud Breaches Faster",
+      "link": "https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html",
+      "summary": "Cloud attacks move fast — faster than most incident response teams.  In data centers, investigations had time. Teams could collect disk images, review logs, and build timelines over days. In the cloud",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Dell RecoverPoint Zero-Day Exploited by Chinese Cyberespionage Group",
+      "link": "https://www.securityweek.com/dell-recoverpoint-zero-day-exploited-by-chinese-cyberespionage-group/",
+      "summary": "GTIG and Mandiant said the zero-day tracked as CVE-2026-22769 has been exploited by UNC6201 since at least 2024.",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cyber Insights 2026: The Ongoing Fight to Secure Industrial Control Systems",
+      "link": "https://www.securityweek.com/cyber-insights-2026-the-ongoing-fight-to-secure-industrial-control-systems/",
+      "summary": "As nation-state actors, ransomware groups, and aging infrastructure collide, organizations must rethink how they defend critical operations through resilience, visibility, and modern security strategi",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "ransomware",
+        "apt",
+        "critical"
+      ]
+    },
+    {
+      "title": "Flaws in popular VSCode extensions expose developers to attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/",
+      "summary": "Vulnerabilities with high to critical severity ratings affecting popular Visual Studio Code (VSCode) extensions collectively downloaded more than 128 million times could be exploited to steal local fi",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Chinese hackers exploiting Dell zero-day flaw since mid-2024",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/",
+      "summary": "A suspected Chinese state-backed hacking group has been quietly exploiting a critical Dell security flaw in zero-day attacks that started in mid-2024.",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
+      "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
+      "summary": "Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild.  The high-severity vulnerability, tracked as CVE-2026-2441  (C",
+      "urgency": "High",
+      "date": "2026-02-16",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Google Patches First Actively Exploited Chrome Zero-Day of 2026",
+      "link": "https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/",
+      "summary": "A Chrome 145 update fixes CVE-2026-2441, a vulnerability that can likely be exploited for arbitrary code execution.",
+      "urgency": "High",
+      "date": "2026-02-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
+      "summary": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support.",
+      "urgency": "High",
+      "date": "2026-02-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+      "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+      "summary": "Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.  \"Overn",
+      "urgency": "High",
+      "date": "2026-02-15",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
+      "summary": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support.",
+      "urgency": "High",
+      "date": "2026-02-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 127,
+    "total_30_days": 491,
+    "top_tag": "attack",
+    "last_update": "2026-02-18T10:05:50.890327"
+  }
+}

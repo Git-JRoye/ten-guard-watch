@@ -1,0 +1,319 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 56,
+      "vulnerability": 38,
+      "cybersecurity": 28,
+      "malware": 25,
+      "breach": 23,
+      "critical": 22,
+      "apt": 18,
+      "ransomware": 7,
+      "phishing": 3
+    },
+    "30_days": {
+      "attack": 247,
+      "vulnerability": 144,
+      "cybersecurity": 116,
+      "malware": 86,
+      "breach": 72,
+      "critical": 72,
+      "apt": 57,
+      "phishing": 36,
+      "ransomware": 22
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 22,
+      "Medium": 51,
+      "Low": 53
+    },
+    "30_days": {
+      "Medium": 217,
+      "Low": 196,
+      "High": 77
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 185,
+    "BleepingComputer": 119
+  },
+  "top_keywords": {
+    "security": 300,
+    "threat": 178,
+    "attacks": 173,
+    "data": 140,
+    "code": 134,
+    "attack": 133,
+    "malicious": 131,
+    "vulnerability": 128,
+    "access": 128,
+    "malware": 121,
+    "cve": 120,
+    "cybersecurity": 102,
+    "remote": 96,
+    "exploited": 92,
+    "microsoft": 92,
+    "activity": 92,
+    "google": 90,
+    "vulnerabilities": 85,
+    "devices": 81,
+    "execution": 78
+  },
+  "daily_counts": [
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    },
+    {
+      "date": "2026-01-30",
+      "count": 16
+    },
+    {
+      "date": "2026-01-31",
+      "count": 16
+    },
+    {
+      "date": "2026-02-01",
+      "count": 16
+    },
+    {
+      "date": "2026-02-02",
+      "count": 16
+    },
+    {
+      "date": "2026-02-03",
+      "count": 16
+    },
+    {
+      "date": "2026-02-04",
+      "count": 12
+    },
+    {
+      "date": "2026-02-05",
+      "count": 16
+    },
+    {
+      "date": "2026-02-06",
+      "count": 16
+    },
+    {
+      "date": "2026-02-07",
+      "count": 16
+    },
+    {
+      "date": "2026-02-08",
+      "count": 16
+    },
+    {
+      "date": "2026-02-09",
+      "count": 16
+    },
+    {
+      "date": "2026-02-10",
+      "count": 16
+    },
+    {
+      "date": "2026-02-11",
+      "count": 16
+    },
+    {
+      "date": "2026-02-12",
+      "count": 16
+    },
+    {
+      "date": "2026-02-13",
+      "count": 16
+    },
+    {
+      "date": "2026-02-14",
+      "count": 16
+    },
+    {
+      "date": "2026-02-15",
+      "count": 16
+    },
+    {
+      "date": "2026-02-16",
+      "count": 15
+    },
+    {
+      "date": "2026-02-17",
+      "count": 16
+    },
+    {
+      "date": "2026-02-18",
+      "count": 16
+    },
+    {
+      "date": "2026-02-19",
+      "count": 16
+    },
+    {
+      "date": "2026-02-20",
+      "count": 15
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "Ivanti Exploitation Surges as Zero-Day Attacks Traced Back to July 2025",
+      "link": "https://www.securityweek.com/ivanti-exploitation-surges-as-zero-day-attacks-traced-back-to-july-2025/",
+      "summary": "Security researchers have seen the vulnerabilities being exploited to deliver shells, conduct reconnaissance, and download malware.",
+      "urgency": "High",
+      "date": "2026-02-20",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Grandstream GXP1600 VoIP Phones Exposed to Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html",
+      "summary": "Cybersecurity researchers have disclosed a critical security flaw in the Grandstream GXP1600 series of VoIP phones that could allow an attacker to seize control of susceptible devices.  The vulnerabil",
+      "urgency": "High",
+      "date": "2026-02-19",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical Flaws Found in Four VS Code Extensions with Over 125 Million Installs",
+      "link": "https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html",
+      "summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities in four popular Microsoft Visual Studio Code (VS Code) extensions that, if successfully exploited, could allow threat actors ",
+      "urgency": "High",
+      "date": "2026-02-19",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Dell RecoverPoint for VMs Zero-Day CVE-2026-22769 Exploited Since Mid-2024",
+      "link": "https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html",
+      "summary": "A maximum severity security vulnerability in Dell RecoverPoint for Virtual Machines has been exploited as a zero-day by a suspected China-nexus threat cluster dubbed UNC6201  since mid-2024, according",
+      "urgency": "High",
+      "date": "2026-02-19",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Critical infra Honeywell CCTVs vulnerable to auth bypass flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a critical vulnerability in multiple Honeywell CCTV products that allows unauthorized access to feeds or account hijackin",
+      "urgency": "High",
+      "date": "2026-02-19",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Webinar: How Modern SOC Teams Use AI and Context to Investigate Cloud Breaches Faster",
+      "link": "https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html",
+      "summary": "Cloud attacks move fast — faster than most incident response teams.  In data centers, investigations had time. Teams could collect disk images, review logs, and build timelines over days. In the cloud",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "breach",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Dell RecoverPoint Zero-Day Exploited by Chinese Cyberespionage Group",
+      "link": "https://www.securityweek.com/dell-recoverpoint-zero-day-exploited-by-chinese-cyberespionage-group/",
+      "summary": "GTIG and Mandiant said the zero-day tracked as CVE-2026-22769 has been exploited by UNC6201 since at least 2024.",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "critical"
+      ]
+    },
+    {
+      "title": "Cyber Insights 2026: The Ongoing Fight to Secure Industrial Control Systems",
+      "link": "https://www.securityweek.com/cyber-insights-2026-the-ongoing-fight-to-secure-industrial-control-systems/",
+      "summary": "As nation-state actors, ransomware groups, and aging infrastructure collide, organizations must rethink how they defend critical operations through resilience, visibility, and modern security strategi",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "ransomware",
+        "apt",
+        "critical"
+      ]
+    },
+    {
+      "title": "Flaws in popular VSCode extensions expose developers to attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/",
+      "summary": "Vulnerabilities with high to critical severity ratings affecting popular Visual Studio Code (VSCode) extensions collectively downloaded more than 128 million times could be exploited to steal local fi",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Chinese hackers exploiting Dell zero-day flaw since mid-2024",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/",
+      "summary": "A suspected Chinese state-backed hacking group has been quietly exploiting a critical Dell security flaw in zero-day attacks that started in mid-2024.",
+      "urgency": "High",
+      "date": "2026-02-18",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 126,
+    "total_30_days": 490,
+    "top_tag": "attack",
+    "last_update": "2026-02-20T09:57:09.603463"
+  }
+}

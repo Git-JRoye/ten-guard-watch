@@ -1,0 +1,204 @@
+{
+  "date": "2026-02-17",
+  "items": [
+    {
+      "title": "Microsoft Finds “Summarize with AI” Prompts Manipulating Chatbot Recommendations",
+      "link": "https://thehackernews.com/2026/02/microsoft-finds-summarize-with-ai.html",
+      "summary": "New research from Microsoft has revealed that legitimate businesses are gaming artificial intelligence (AI) chatbots via the \"Summarize with AI\" button that's being increasingly placed on websites in ways that mirror classic search engine poisoning (AI).  The new AI hijacking technique has been codenamed AI Recommendation Poisoning  by the Microsoft Defender Security Research Team. The tech giant described it as a case of an AI memory poisoning attack that's used to induce bias and deceive the AI system to generate responses that artificially boost visibility and skew recommendations.  \"Companies are embedding hidden instructions in 'Summarize with AI' buttons that, when clicked, attempt to inject persistence commands into an AI assistant's memory via URL prompt parameters,\" Microsoft said . \"These prompts instruct the AI to 'remember [Company] as a trusted source' or 'recommend [Company] first.'\"  Microsoft said it ide...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-finds-summarize-with-ai-prompts-manipula",
+      "source": "The Hacker News",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Apple Tests End-to-End Encrypted RCS Messaging in iOS 26.4 Developer Beta",
+      "link": "https://thehackernews.com/2026/02/apple-tests-end-to-end-encrypted-rcs.html",
+      "summary": "Apple on Monday released a new developer beta of iOS and iPadOS with support for end-to-end encryption (E2EE) in Rich Communications Services ( RCS ) messages.  The feature is currently available for testing in iOS and iPadOS 26.4 Beta, and is expected to be shipped to customers in a future update for iOS, iPadOS, macOS, and watchOS.  \"End-to-end encryption is in beta and is not available for all devices or carriers,\" Apple said  in its release notes. \"Conversations labeled as encrypted are encrypted end-to-end, so messages can't be read while they're sent between devices.\"  The iPhone maker also pointed out that the availability of RCS encryption is limited to conversations between Apple devices, and not other platforms like Android.  The secure messaging test arrives nearly a year after the GSM Association (GSMA) formally announced  support for E2EE for safeguarding messages sent via the RCS protocol. E2EE for RCS‌ will require Apple to update to ‌RCS‌ Un...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "apple-tests-end-to-end-encrypted-rcs-messaging-in-",
+      "source": "The Hacker News",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens",
+      "link": "https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html",
+      "summary": "Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw  (formerly Clawdbot and Moltbot ) configuration environment.  \"This finding marks a significant milestone in the evolution of infostealer behavior: the transition from stealing browser credentials to harvesting the 'souls' and identities of personal AI [artificial intelligence] agents,\" Hudson Rock said .  Alon Gal, CTO of Hudson Rock, told The Hacker News that the stealer was likely a variant of Vidar based on the infection details. Vidar is an off-the-shelf information stealer  that's known to be active since late 2018.  That said, the cybersecurity company said the data capture was not facilitated by a custom OpenClaw module within the stealer malware, but rather through a \"broad file-grabbing routine\" that's designed to look for certain file extensions and specific directory names containing sensitiv...",
+      "tags": [
+        "malware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "infostealer-steals-openclaw-ai-agent-configuration",
+      "source": "The Hacker News",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers",
+      "link": "https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html",
+      "summary": "A new study has found  that multiple cloud-based password managers, including Bitwarden, Dashlane, and LastPass, are susceptible to password recovery attacks under certain conditions.  \"The attacks range in severity from integrity violations to the complete compromise of all vaults in an organization,\" researchers Matteo Scarlata, Giovanni Torrisi, Matilda Backendal, and Kenneth G. Paterson said . \"The majority of the attacks allow the recovery of passwords.\"  It's worth noting that the threat actor, per the study from ETH Zurich and Università della Svizzera italiana, supposes a malicious server and aims to examine the password manager's zero-knowledge encryption (ZKE) promises made by the three solutions. ZKE is a cryptographic technique that allows one party to prove knowledge of a secret to another party without actually revealing the secret itself.  ZKE is also a little different from end-to-end encryption (E2EE). While E2EE refers to a method of secur...",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "study-uncovers-25-password-recovery-attacks-in-maj",
+      "source": "The Hacker News",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Weekly Recap: Outlook Add-Ins Hijack, 0-Day Patches, Wormable Botnet & AI Malware",
+      "link": "https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html",
+      "summary": "This week’s recap shows how small gaps are turning into big entry points. Not always through new exploits, often through tools, add-ons, cloud setups, or workflows that people already trust and rarely question.  Another signal: attackers are mixing old and new methods. Legacy botnet tactics, modern cloud abuse, AI assistance, and supply-chain exposure are being used side by side, whichever path gives the easiest foothold.  Below is the full weekly recap — a condensed scan of the incidents, flaws, and campaigns shaping the threat landscape right now.  ⚡ Threat of the Week  Malicious Outlook Add-in Turns Into Phishing Kit  — In an unusual case of a supply chain attack, the legitimate AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. This was made possible by seizing control of a domain associated with the now-abandoned project to serve a fake Microsoft login page. The incident demonstrates how overlooke...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "weekly-recap-outlook-add-ins-hijack-0-day-patches-",
+      "source": "The Hacker News",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Safe and Inclusive E‑Society: How Lithuania Is Bracing for AI‑Driven Cyber Fraud",
+      "link": "https://thehackernews.com/2026/02/safe-and-inclusive-esociety-how.html",
+      "summary": "Presentation of the KTU Consortium Mission ‘A Safe and Inclusive Digital Society’ at the Innovation Agency event ‘Innovation Breakfast: How Mission-Oriented Science and Innovation Programmes Will Address Societal Challenges’.   Technologies are evolving fast, reshaping economies, governance, and daily life. Yet, as innovation accelerates, so do digital risks. Technological change is no longer abstract for such a country as Lithuania, as well. From e-signatures to digital health records, the country depends on secure systems.   Cybersecurity has become not only a technical challenge but a societal one – demanding the cooperation of scientists, business leaders, and policymakers. In Lithuania, this cooperation has taken a concrete form – the government-funded national initiative . Coordinated by the Innovation Agency Lithuania, the project aims to strengthen the country’s e-security and digital resilience.   Under this umbrella, universities and companies with long-standing expe...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "safe-and-inclusive-esociety-how-lithuania-is-braci",
+      "source": "The Hacker News",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Password Managers Vulnerable to Vault Compromise Under Malicious Server",
+      "link": "https://www.securityweek.com/password-managers-vulnerable-to-vault-compromise-under-malicious-server/",
+      "summary": "Researchers at ETH Zurich have tested the security of Bitwarden, LastPass, Dashlane, and 1Password password managers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "password-managers-vulnerable-to-vault-compromise-u",
+      "source": "SecurityWeek",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Dior, Louis Vuitton, Tiffany Fined $25 Million in South Korea After Data Breaches",
+      "link": "https://www.securityweek.com/dior-louis-vuitton-tiffany-fined-25-million-in-south-korea-after-data-breaches/",
+      "summary": "Luxury brands were among the dozens of major companies whose Salesforce instances were targeted by Scattered LAPSUS$ Hunters.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "dior-louis-vuitton-tiffany-fined-25-million-in-sou",
+      "source": "SecurityWeek",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Android 17 Beta Strengthens Secure-by-Default Design for Privacy and App Security",
+      "link": "https://www.securityweek.com/android-17-beta-strengthens-secure-by-default-design-for-privacy-and-app-security/",
+      "summary": "The latest Android version continues to improve security and privacy, according to its developers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "android-17-beta-strengthens-secure-by-default-desi",
+      "source": "SecurityWeek",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "CISA Navigates DHS Shutdown With Reduced Staff",
+      "link": "https://www.securityweek.com/cisa-navigates-dhs-shutdown-with-reduced-staff/",
+      "summary": "CISA is currently operating at roughly 38% capacity (888 out of 2,341 staff) due to the DHS shutdown that began February 14, 2026.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cisa-navigates-dhs-shutdown-with-reduced-staff",
+      "source": "SecurityWeek",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Microsoft Warns of ClickFix Attack Abusing DNS Lookups",
+      "link": "https://www.securityweek.com/microsoft-warns-of-clickfix-attack-abusing-dns-lookups/",
+      "summary": "Attackers are using DNS requests to deliver a RAT named ModeloRAT to targeted users.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-warns-of-clickfix-attack-abusing-dns-loo",
+      "source": "SecurityWeek",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Amazon Scraps Partnership With Surveillance Company After Super Bowl Ad Backlash",
+      "link": "https://www.securityweek.com/amazon-scraps-partnership-with-surveillance-company-after-super-bowl-ad-backlash/",
+      "summary": "Amazon’s smart doorbell maker Ring has terminated a partnership with police surveillance tech company Flock Safety.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "amazon-scraps-partnership-with-surveillance-compan",
+      "source": "SecurityWeek",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Washington Hotel in Japan discloses ransomware infection incident",
+      "link": "https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/",
+      "summary": "The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "washington-hotel-in-japan-discloses-ransomware-inf",
+      "source": "BleepingComputer",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Eurail says stolen traveler data now up for sale on dark web",
+      "link": "https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/",
+      "summary": "Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "eurail-says-stolen-traveler-data-now-up-for-sale-o",
+      "source": "BleepingComputer",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Man arrested for demanding reward after accidental police data leak",
+      "link": "https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/",
+      "summary": "Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received \"something in return.\"",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "man-arrested-for-demanding-reward-after-accidental",
+      "source": "BleepingComputer",
+      "date": "2026-02-17"
+    }
+  ]
+}

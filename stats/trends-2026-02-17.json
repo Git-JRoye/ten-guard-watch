@@ -1,0 +1,313 @@
+{
+  "tag_counts": {
+    "7_days": {
+      "attack": 63,
+      "vulnerability": 41,
+      "cybersecurity": 29,
+      "critical": 24,
+      "breach": 21,
+      "malware": 17,
+      "apt": 15,
+      "ransomware": 6,
+      "phishing": 4
+    },
+    "30_days": {
+      "attack": 244,
+      "vulnerability": 135,
+      "cybersecurity": 125,
+      "malware": 83,
+      "breach": 74,
+      "critical": 65,
+      "apt": 52,
+      "phishing": 41,
+      "ransomware": 22
+    }
+  },
+  "urgency_counts": {
+    "7_days": {
+      "High": 24,
+      "Medium": 55,
+      "Low": 48
+    },
+    "30_days": {
+      "Medium": 217,
+      "Low": 203,
+      "High": 71
+    }
+  },
+  "top_sources": {
+    "The Hacker News": 186,
+    "SecurityWeek": 186,
+    "BleepingComputer": 119
+  },
+  "top_keywords": {
+    "security": 290,
+    "threat": 178,
+    "attacks": 173,
+    "access": 136,
+    "data": 136,
+    "attack": 136,
+    "malicious": 133,
+    "code": 128,
+    "vulnerability": 119,
+    "malware": 114,
+    "cve": 109,
+    "cybersecurity": 95,
+    "activity": 92,
+    "remote": 92,
+    "google": 89,
+    "browser": 86,
+    "microsoft": 85,
+    "exploited": 84,
+    "campaign": 78,
+    "devices": 78
+  },
+  "daily_counts": [
+    {
+      "date": "2026-01-18",
+      "count": 16
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 16
+    },
+    {
+      "date": "2026-01-21",
+      "count": 16
+    },
+    {
+      "date": "2026-01-22",
+      "count": 16
+    },
+    {
+      "date": "2026-01-23",
+      "count": 16
+    },
+    {
+      "date": "2026-01-24",
+      "count": 16
+    },
+    {
+      "date": "2026-01-25",
+      "count": 16
+    },
+    {
+      "date": "2026-01-26",
+      "count": 16
+    },
+    {
+      "date": "2026-01-27",
+      "count": 16
+    },
+    {
+      "date": "2026-01-28",
+      "count": 16
+    },
+    {
+      "date": "2026-01-29",
+      "count": 16
+    },
+    {
+      "date": "2026-01-30",
+      "count": 16
+    },
+    {
+      "date": "2026-01-31",
+      "count": 16
+    },
+    {
+      "date": "2026-02-01",
+      "count": 16
+    },
+    {
+      "date": "2026-02-02",
+      "count": 16
+    },
+    {
+      "date": "2026-02-03",
+      "count": 16
+    },
+    {
+      "date": "2026-02-04",
+      "count": 12
+    },
+    {
+      "date": "2026-02-05",
+      "count": 16
+    },
+    {
+      "date": "2026-02-06",
+      "count": 16
+    },
+    {
+      "date": "2026-02-07",
+      "count": 16
+    },
+    {
+      "date": "2026-02-08",
+      "count": 16
+    },
+    {
+      "date": "2026-02-09",
+      "count": 16
+    },
+    {
+      "date": "2026-02-10",
+      "count": 16
+    },
+    {
+      "date": "2026-02-11",
+      "count": 16
+    },
+    {
+      "date": "2026-02-12",
+      "count": 16
+    },
+    {
+      "date": "2026-02-13",
+      "count": 16
+    },
+    {
+      "date": "2026-02-14",
+      "count": 16
+    },
+    {
+      "date": "2026-02-15",
+      "count": 16
+    },
+    {
+      "date": "2026-02-16",
+      "count": 15
+    },
+    {
+      "date": "2026-02-17",
+      "count": 16
+    }
+  ],
+  "top_articles": [
+    {
+      "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
+      "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
+      "summary": "Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild.  The high-severity vulnerability, tracked as CVE-2026-2441  (C",
+      "urgency": "High",
+      "date": "2026-02-16",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Google Patches First Actively Exploited Chrome Zero-Day of 2026",
+      "link": "https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/",
+      "summary": "A Chrome 145 update fixes CVE-2026-2441, a vulnerability that can likely be exploited for arbitrary code execution.",
+      "urgency": "High",
+      "date": "2026-02-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
+      "summary": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support.",
+      "urgency": "High",
+      "date": "2026-02-16",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+      "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+      "summary": "Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.  \"Overn",
+      "urgency": "High",
+      "date": "2026-02-15",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
+      "summary": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support.",
+      "urgency": "High",
+      "date": "2026-02-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities",
+      "link": "https://www.securityweek.com/cisa-warns-of-exploited-solarwinds-notepad-microsoft-vulnerabilities/",
+      "summary": "Disclosed at the end of January, the SolarWinds vulnerability was likely exploited as a zero-day since December 2025.",
+      "urgency": "High",
+      "date": "2026-02-15",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "One threat actor responsible for 83% of recent Ivanti RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/",
+      "summary": "Threat intelligence observations show that a single threat actor is responsible for most of the active exploitation of two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as",
+      "urgency": "High",
+      "date": "2026-02-15",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+      "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+      "summary": "Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.  \"Overn",
+      "urgency": "High",
+      "date": "2026-02-14",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
+      "summary": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support.",
+      "urgency": "High",
+      "date": "2026-02-14",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    },
+    {
+      "title": "CISA Warns of Exploited SolarWinds, Notepad++, Microsoft Vulnerabilities",
+      "link": "https://www.securityweek.com/cisa-warns-of-exploited-solarwinds-notepad-microsoft-vulnerabilities/",
+      "summary": "Disclosed at the end of January, the SolarWinds vulnerability was likely exploited as a zero-day since December 2025.",
+      "urgency": "High",
+      "date": "2026-02-14",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ]
+    }
+  ],
+  "kpis": {
+    "total_7_days": 127,
+    "total_30_days": 491,
+    "top_tag": "attack",
+    "last_update": "2026-02-17T10:06:02.912136"
+  }
+}

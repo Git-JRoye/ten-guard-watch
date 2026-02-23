@@ -1,0 +1,201 @@
+{
+  "date": "2026-02-16",
+  "items": [
+    {
+      "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
+      "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
+      "summary": "Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild.  The high-severity vulnerability, tracked as CVE-2026-2441  (CVSS score: 8.8), has been described as a use-after-free bug in CSS. Security researcher Shaheen Fazim has been credited with discovering and reporting the shortcoming on February 11, 2026.  \"Use after free in CSS in Google Chrome prior to 145.0.7632.75 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page,\" according to a description of the flaw in the NIST's National Vulnerability Database (NVD).  Google did not disclose any details about how the vulnerability is being exploited in the wild, by whom, or who may have been targeted, but it acknowledged  that \"an exploit for CVE-2026-2441 exists in the wild.\"   While Google Chrome is no stranger to actively exploited vulnerabilities, the development once again highlights how bro...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "new-chrome-zero-day-cve-2026-2441-under-active-att",
+      "source": "The Hacker News",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging",
+      "link": "https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html",
+      "summary": "Microsoft has disclosed  details of a new version of the ClickFix social engineering tactic in which the attackers trick unsuspecting users into running commands that carry out a Domain Name System (DNS) lookup to retrieve the next-stage payload.  Specifically, the attack relies on using the \" nslookup \" (short for nameserver lookup ) command to execute a custom DNS lookup triggered via the Windows Run dialog.  ClickFix is an increasingly popular technique  that's traditionally delivered via phishing, malvertising, or drive-by download schemes, often redirecting targets to bogus landing pages that host fake CAPTCHA verification or instructions to address a non-existent problem on their computers by running a command either through the Windows Run dialog or the macOS Terminal app.  The attack method has become widespread over the past two years since it hinges on the victims infecting their own machines with malware, thereby allowing the threat actors to bypass security c...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-discloses-dns-based-clickfix-attack-usin",
+      "source": "The Hacker News",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
+      "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
+      "summary": "A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL .  Google Threat Intelligence Group (GTIG) described the hacking group as possibly affiliated with Russian intelligence services. The threat actor is assessed to have targeted defense, military, government, and energy organizations within the Ukrainian regional and national governments.  However, the group has also exhibited growing interest in aerospace organizations, manufacturing companies with military and drone ties, nuclear and chemical research organizations, and international organizations involved in conflict monitoring and humanitarian aid in Ukraine, GTIG added.   \"Despite being less sophisticated and resourced than other Russian threat groups, this actor recently began to overcome some technical limitations using LLMs [large language models],\" GTIG said .   \"Through prompting, they conduct reconnaissance, create lures for soci...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-ties-suspected-russian-actor-to-canfail-mal",
+      "source": "The Hacker News",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
+      "link": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
+      "summary": "Several state-sponsored actors, hacktivist entities, and criminal groups from China, Iran, North Korea, and Russia have trained their sights on the defense industrial base (DIB) sector, according to findings from Google Threat Intelligence Group (GTIG).  The tech giant's threat intelligence division said the adversarial targeting of the sector is centered around four key themes: striking defense entities deploying technologies on the battlefield in the Russia-Ukraine War, directly approaching employees and exploitation of the hiring process by North Korean and Iranian actors, use of edge devices and appliances as initial access pathways for China-nexus groups, and supply chain risk stemming from the breach of the manufacturing sector.  \"Many of the chief state-sponsors of cyber espionage and hacktivist actors have shown an interest in autonomous vehicles and drones, as these platforms play an increasing role in modern warfare,\" GTIG said . \"Further, the 'evasion...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-links-china-iran-russia-north-korea-to-coor",
+      "source": "The Hacker News",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
+      "link": "https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html",
+      "summary": "A previously unknown threat actor tracked as UAT-9921  has been observed leveraging a new modular framework called VoidLink in its campaigns targeting the technology and financial services sectors, according to findings from Cisco Talos.  \"This threat actor seems to have been active since 2019, although they have not necessarily used VoidLink over the duration of their activity,\" researchers Nick Biasini, Aaron Boyd, Asheer Malhotra, and Vitor Ventura said . \"UAT-9921 uses compromised hosts to install VoidLink command-and-control (C2), which are then used to launch scanning activities both internal and external to the network.\"  VoidLink was first documented  by Check Point last month, describing it as a feature-rich malware framework written in Zig designed for long-term, stealthy access to Linux-based cloud environments. It's assessed to be the work of a single developer with assistance from a large language model (LLM) to flesh out its internals based on a p...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "uat-9921-deploys-voidlink-malware-to-target-techno",
+      "source": "The Hacker News",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+      "link": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
+      "summary": "Cybersecurity researchers have discovered a malicious Google Chrome extension that's designed to steal data associated with Meta Business Suite and Facebook Business Manager.  The extension, named CL Suite by @CLMasters (ID: jkphinfhmfkckkcnifhjiplhfoiefffl), is marketed as a way to scrape Meta Business Suite data, remove verification pop-ups, and generate two-factor authentication (2FA) codes. The extension has 33 users as of writing. It was first uploaded to the Chrome Web Store on March 1, 2025.  However, the browser add-on also exfiltrates TOTP codes for Facebook and Meta Business accounts, Business Manager contact lists, and analytics data to infrastructure controlled by the threat actor, Socket said.  \"The extension requests broad access to meta.com and facebook.com and claims in its privacy policy that 2FA secrets and Business Manager data remain local,\" security researcher Kirill Boychenko said .  \"In practice, the code transmits TOTP seeds and current one-t...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-chrome-extensions-caught-stealing-busine",
+      "source": "The Hacker News",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Google Patches First Actively Exploited Chrome Zero-Day of 2026",
+      "link": "https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/",
+      "summary": "A Chrome 145 update fixes CVE-2026-2441, a vulnerability that can likely be exploited for arbitrary code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "google-patches-first-actively-exploited-chrome-zer",
+      "source": "SecurityWeek",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data",
+      "link": "https://www.securityweek.com/over-300-malicious-chrome-extensions-caught-leaking-or-stealing-user-data/",
+      "summary": "With more than 37 million combined downloads, the extensions expose users to tracking and personal information theft.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "over-300-malicious-chrome-extensions-caught-leakin",
+      "source": "SecurityWeek",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "In Other News: Google Looks at AI Abuse, Trump Pauses China Bans, Disney’s $2.7M Fine",
+      "link": "https://www.securityweek.com/in-other-news-google-looks-at-ai-abuse-trump-pauses-china-bans-disneys-2-7m-fine/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: vulnerabilities at 277 water systems, DoD employee acting as money mule, 200 airports exposed by flaw.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "in-other-news-google-looks-at-ai-abuse-trump-pause",
+      "source": "SecurityWeek",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat",
+      "link": "https://www.securityweek.com/check-point-announces-trio-of-acquisitions-amid-solid-2025-earnings-beat/",
+      "summary": "Check Point has acquired Israeli cybersecurity companies Cyata, Cyclops, and Rotate.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "check-point-announces-trio-of-acquisitions-amid-so",
+      "source": "SecurityWeek",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Dutch Carrier Odido Discloses Data Breach Impacting 6 Million",
+      "link": "https://www.securityweek.com/dutch-carrier-odido-discloses-data-breach-impacting-6-million/",
+      "summary": "Hackers stole personal information such as names, addresses, and phone numbers from a customer contact system.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "dutch-carrier-odido-discloses-data-breach-impactin",
+      "source": "SecurityWeek",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
+      "summary": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "beyondtrust-vulnerability-targeted-by-hackers-with",
+      "source": "SecurityWeek",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Canada Goose investigating as hackers leak 600K customer records",
+      "link": "https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/",
+      "summary": "ShinyHunters, a well-known data extortion group, claims to have stolen more than 600,000 Canada Goose customer records containing personal and payment-related data. Canada Goose told BleepingComputer the dataset appears to relate to past customer transactions and that it has not found evidence of a ...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "canada-goose-investigating-as-hackers-leak-600k-cu",
+      "source": "BleepingComputer",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS",
+      "link": "https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/",
+      "summary": "Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns.",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-clickfix-attack-abuses-nslookup-to-retrieve-po",
+      "source": "BleepingComputer",
+      "date": "2026-02-16"
+    }
+  ]
+}

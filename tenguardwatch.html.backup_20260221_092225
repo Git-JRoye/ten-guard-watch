@@ -1,0 +1,188 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">FBI Reports 1,900 ATM Jackpotting Incidents Since 2020, $20M Lost in 2025</div><div class="ticker-item">Former Google Engineers Indicted Over Trade Secret Transfers to Iran</div><div class="ticker-item">PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence</div><div class="ticker-item">INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown</div><div class="ticker-item">Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center</div><div class="ticker-item">ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories</div><div class="ticker-item">Chip Testing Giant Advantest Hit by Ransomware</div><div class="ticker-item">French Government Says 1.2 Million Bank Accounts Exposed in Breach</div><div class="ticker-item">Nearly 1 Million User Records Compromised in Figure Data Breach</div><div class="ticker-item">Venice Security Emerges From Stealth With $33M Funding for Privileged Access Management</div><div class="ticker-item">Ivanti Exploitation Surges as Zero-Day Attacks Traced Back to July 2025</div><div class="ticker-item">Ukrainian gets 5 years for helping North Koreans infiltrate US firms</div><div class="ticker-item">PromptSpy is the first known Android malware to use generative AI at runtime</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Train for CompTIA, AWS, Cisco & more with this $40 course deal</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI Reports 1,900 ATM Jackpotting Incidents Since 2020, $20M Lost in 2025</h3>
+                <p><strong>Summary:</strong> The U.S. Federal Bureau of Investigation (FBI) has warned of an increase in ATM jackpotting incidents across the country, leading to losses of more than $20 million in 2025.  The agency said 1,900 ATM...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/fbi-reports-1900-atm-jackpotting.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/fbi-reports-1900-atm-jackpotting.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Former Google Engineers Indicted Over Trade Secret Transfers to Iran</h3>
+                <p><strong>Summary:</strong> Two former Google engineers and one of their husbands have been indicted  in the U.S. for allegedly committing trade secret theft from the search giant and other tech firms and transferring the inform...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered what they say is the first Android malware that abuses Gemini, Google's generative artificial intelligence (AI) chatbot, as part of its execution flow and ach...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown</h3>
+                <p><strong>Summary:</strong> An international cybercrime operation against online scams has led to 651 arrests and recovered more than $4.3 million as part of an effort led by law enforcement agencies from 16 African countries.  ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center</h3>
+                <p><strong>Summary:</strong> Microsoft has disclosed a now-patched security flaw in Windows Admin Center that could allow an attacker to escalate their privileges.  Windows Admin Center  is a locally deployed, browser-based manag...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories</h3>
+                <p><strong>Summary:</strong> The cyber threat space doesn’t pause, and this week makes that clear. New risks, new tactics, and new security gaps are showing up across platforms, tools, and industries — often all at the same time....</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chip Testing Giant Advantest Hit by Ransomware</h3>
+                <p><strong>Summary:</strong> The company is investigating whether any customer or employee data was stolen by hackers.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chip-testing-giant-advantest-hit-by-ransomware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chip-testing-giant-advantest-hit-by-ransomware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>French Government Says 1.2 Million Bank Accounts Exposed in Breach</h3>
+                <p><strong>Summary:</strong> The Ministry of Economy reported discovering unauthorized access to the national bank account registry FICOBA.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/french-government-says-1-2-million-bank-accounts-exposed-in-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/french-government-says-1-2-million-bank-accounts-exposed-in-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nearly 1 Million User Records Compromised in Figure Data Breach</h3>
+                <p><strong>Summary:</strong> The blockchain-based lender has confirmed a data breach after ShinyHunters leaked over 2GB of data allegedly stolen from the company.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/nearly-1-million-user-records-compromised-in-figure-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/nearly-1-million-user-records-compromised-in-figure-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Venice Security Emerges From Stealth With $33M Funding for Privileged Access Management</h3>
+                <p><strong>Summary:</strong> Formerly named Valkyrie, the company’s funding includes $25 million raised in a Series A round.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/venice-security-emerges-from-stealth-with-33m-funding-for-privileged-access-management/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/venice-security-emerges-from-stealth-with-33m-funding-for-privileged-access-management/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ivanti Exploitation Surges as Zero-Day Attacks Traced Back to July 2025</h3>
+                <p><strong>Summary:</strong> Security researchers have seen the vulnerabilities being exploited to deliver shells, conduct reconnaissance, and download malware.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ivanti-exploitation-surges-as-zero-day-attacks-traced-back-to-july-2025/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ivanti-exploitation-surges-as-zero-day-attacks-traced-back-to-july-2025/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ukrainian gets 5 years for helping North Koreans infiltrate US firms</h3>
+                <p><strong>Summary:</strong> A Ukrainian national was sentenced to five years in prison for providing North Korean IT workers with stolen identities that helped them infiltrate U.S. companies.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ukrainian-gets-5-years-for-helping-north-koreans-infiltrate-us-firms/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ukrainian-gets-5-years-for-helping-north-koreans-infiltrate-us-firms/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>PromptSpy is the first known Android malware to use generative AI at runtime</h3>
+                <p><strong>Summary:</strong> Researchers have discovered the first known Android malware to use generative AI in its execution flow, using Google's Gemini model to adapt its persistence across different devices.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
+                <p><strong>Summary:</strong> Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Train for CompTIA, AWS, Cisco & more with this $40 course deal</h3>
+                <p><strong>Summary:</strong> The Complete CompTIA & IT Exam Lifetime Access Training Bundle gives you ongoing access to learning paths across CompTIA, Cisco, AWS, Microsoft, Google, and Linux for just $39.99 (MSRP $2,748.75). Ins...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
