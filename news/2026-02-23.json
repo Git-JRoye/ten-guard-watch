@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-23",
+  "items": [
+    {
+      "title": "MuddyWater Targets MENA Organizations with GhostFetch, CHAR, and HTTP_VIP",
+      "link": "https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html",
+      "summary": "The Iranian hacking group known as MuddyWater  (aka Earth Vetala, Mango Sandstorm, and MUDDYCOAST) has targeted several organizations and individuals mainly located across the Middle East and North Africa (MENA) region as part of a new campaign codenamed Operation Olalampo .  The activity, first observed on January 26, 2026, has resulted in the deployment of new malware families that share overlapping samples previously identified as used by the threat actor, according to a report published by Group-IB. These include downloaders like GhostFetch and HTTP_VIP, along with a Rust backdoor called CHAR and an advanced implant codenamed GhostBackDoor that's dropped by GhostFetch.  \"These attacks follow similar patterns and align with the killchains previously observed in MuddyWater attacks; starting with a phishing email with a Microsoft Office document attached to it that contains malicious macro code that decodes the embedded payload and drops it on the system and executes it, pro...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "muddywater-targets-mena-organizations-with-ghostfe",
+      "source": "The Hacker News",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries",
+      "link": "https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html",
+      "summary": "A Russian-speaking, financially motivated threat actor has been observed taking advantage of commercial generative artificial intelligence (AI) services to compromise over 600 FortiGate devices located in 55 countries.  That's according to new findings from Amazon Threat Intelligence, which said it observed the activity between January 11 and February 18, 2026.  \"No exploitation of FortiGate vulnerabilities was observed—instead, this campaign succeeded by exploiting exposed management ports and weak credentials with single-factor authentication, fundamental security gaps that AI helped an unsophisticated actor exploit at scale,\" CJ Moses, Chief Information Security Officer (CISO) of Amazon Integrated Security, said  in a report.  The tech giant described the threat actor as having limited technical capabilities, a constraint they overcame by relying on multiple commercial generative AI tools to implement various phases of the attack cycle, such as tool development, attac...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ai-assisted-threat-actor-compromises-600-fortigate",
+      "source": "The Hacker News",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning",
+      "link": "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
+      "summary": "Artificial intelligence (AI) company Anthropic has begun to roll out a new security feature for Claude Code that can scan a user's software codebase for vulnerabilities and suggest patches.  The capability, called Claude Code Security , is currently available in a limited research preview to Enterprise and Team customers.  \"It scans codebases for security vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix security issues that traditional methods often miss,\" the company said  in a Friday announcement.  Anthropic said the feature aims to leverage AI as a tool to help find and resolve vulnerabilities to counter attacks where threat actors weaponize the same tools to automate vulnerability discovery.    With AI agents increasingly  capable of detecting security vulnerabilities  that have otherwise escaped human notice, the tech upstart said the same capabilities could be used by adversaries to uncover exploitable weakness...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "anthropic-launches-claude-code-security-for-ai-pow",
+      "source": "The Hacker News",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog",
+      "link": "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerabilities in question are listed below -   CVE-2025-49113  (CVSS score: 9.9) - A deserialization of untrusted data vulnerability that allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php. (Fixed in June 2025 )  CVE-2025-68461  (CVSS score: 7.2) - A cross-site scripting vulnerability via the animate tag in an SVG document. (Fixed in December 2025 )    Dubai-based cybersecurity company FearsOff, whose founder and CEO, Kirill Firsov, was credited with discovering and reporting CVE-2025-49113, said attackers have already \" diffed and weaponized the vulnerability \" within 48 hours of public disclosure of the flaw. An exploit for the vulnerability wa...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-two-actively-exploited-roundcube-flaws-t",
+      "source": "The Hacker News",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security",
+      "link": "https://thehackernews.com/2026/02/ec-council-expands-ai-certification.html",
+      "summary": "With $5.5 trillion in global AI risk exposure and 700,000 U.S. workers needing reskilling, four new AI certifications and Certified CISO v4 help close the gap between AI adoption and workforce readiness .  EC-Council , creator of the world-renowned Certified Ethical Hacker (CEH)  credential and a global leader in applied cybersecurity education, today launched its Enterprise AI Credential Suite, with four new role-based AI certifications  debuting alongside Certified CISO v4 , an overhauled executive cyber leadership program. The dual launch is the largest single expansion of EC-Council’s portfolio in its 25-year history. It addresses a structural gap that no single tool, platform, or policy can solve alone: AI is scaling faster than the workforce trained to run, secure, and govern it.  The launch aligns with U.S. priorities on workforce development and applied AI education outlined in Executive Order 14179, the July 2025 AI Action Plan’s workforce development pillar, and Executive Or...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ec-council-expands-ai-certification-portfolio-to-s",
+      "source": "The Hacker News",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration",
+      "link": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products to conduct a wide range of malicious actions, including deploying VShell and   The vulnerability, tracked as CVE-2026-1731  (CVSS score: 9.9), allows attackers to execute operating system commands in the context of the site user.  In a report published Thursday, Palo Alto Networks Unit 42 said  it detected the security flaw being actively exploited in the wild for network reconnaissance, web shell deployment, command-and-control (C2), backdoor and remote management tool installs, lateral movement, and data theft.  The campaign has targeted financial services, legal services, high technology, higher education, wholesale and retail, and healthcare sectors across the U.S., France, Germany, Australia, and Canada.   The cybersecurity company described the vulnerability as a case of sanitization failure that enab...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "beyondtrust-flaw-used-for-web-shells-backdoors-and",
+      "source": "The Hacker News",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "PayPal Data Breach Led to Fraudulent Transactions",
+      "link": "https://www.securityweek.com/paypal-data-breach-led-to-fraudulent-transactions/",
+      "summary": "PayPal blamed an application error for the exposure of customer personal information for nearly 6 months.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "paypal-data-breach-led-to-fraudulent-transactions",
+      "source": "SecurityWeek",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Critical Grandstream Phone Vulnerability Exposes Calls to Interception",
+      "link": "https://www.securityweek.com/critical-grandstream-phone-vulnerability-exposes-calls-to-interception/",
+      "summary": "The flaw tracked as CVE-2026-2329 can be exploited without authentication for remote code execution with root privileges.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-grandstream-phone-vulnerability-exposes-c",
+      "source": "SecurityWeek",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "NIST’s Quantum Breakthrough: Single Photons Produced on a Chip",
+      "link": "https://www.securityweek.com/nists-quantum-breakthrough-single-photons-produced-on-a-chip/",
+      "summary": "NIST’s single photon chip will likely make QKD an option for a wider range of companies.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "nists-quantum-breakthrough-single-photons-produced",
+      "source": "SecurityWeek",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "In Other News: Ransomware Shuts US Clinics, ICS Vulnerability Surge, European Parliament Bans AI",
+      "link": "https://www.securityweek.com/in-other-news-ransomware-shuts-us-clinics-ics-vulnerability-surge-european-parliament-bans-ai/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Axonius lays off employees, Abu Dhabi conference data leak, HackerOne addresses AI concerns.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-ransomware-shuts-us-clinics-ics-vuln",
+      "source": "SecurityWeek",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "BeyondTrust Vulnerability Exploited in Ransomware Attacks",
+      "link": "https://www.securityweek.com/beyondtrust-vulnerability-exploited-in-ransomware-attacks/",
+      "summary": "CISA has updated its KEV entry for CVE-2026-1731 to alert organizations of exploitation in ransomware attacks.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "beyondtrust-vulnerability-exploited-in-ransomware-",
+      "source": "SecurityWeek",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "FBI: $20 Million Losses Caused by 700 ATM Jackpotting Attacks in 2025",
+      "link": "https://www.securityweek.com/fbi-20-million-losses-caused-by-700-atm-jackpotting-attacks-in-2025/",
+      "summary": "The FBI has confirmed that the Ploutus malware, which has been around for over a decade, is still being used in the wild.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-20-million-losses-caused-by-700-atm-jackpottin",
+      "source": "SecurityWeek",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Arkanix Stealer pops up as short-lived AI info-stealer experiment",
+      "link": "https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/",
+      "summary": "An information-stealing malware operation named Arkanix Stealer, promoted on multiple dark web forums towards the end of 2025, was likely developed as an AI-assisted experiment.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "arkanix-stealer-pops-up-as-short-lived-ai-info-ste",
+      "source": "BleepingComputer",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "This $790 AI automation course bundle is $20 today",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-790-ai-automation-course-bundle-is-20-today/",
+      "summary": "One of the most useful ways to use AI is also one of the hardest to learn. With a little training, you can learn to use AI to automate all the repetitive tasks that burn through your day, and the ChatGPT and Automation E-Degree can help you learn how. Right now, it's also on sale for only $19.99 (re...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "this-790-ai-automation-course-bundle-is-20-today",
+      "source": "BleepingComputer",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Predator spyware hooks iOS SpringBoard to hide mic, camera activity",
+      "link": "https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/",
+      "summary": "Intellexa's Predator spyware can hide iOS recording indicators while secretly streaming camera and microphone feeds to its operators.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "predator-spyware-hooks-ios-springboard-to-hide-mic",
+      "source": "BleepingComputer",
+      "date": "2026-02-23"
+    }
+  ]
+}
