@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">MuddyWater Targets MENA Organizations with GhostFetch, CHAR, and HTTP_VIP</div><div class="ticker-item">AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries</div><div class="ticker-item">Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning</div><div class="ticker-item">CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog</div><div class="ticker-item">EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security</div><div class="ticker-item">BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration</div><div class="ticker-item">PayPal Data Breach Led to Fraudulent Transactions</div><div class="ticker-item">Critical Grandstream Phone Vulnerability Exposes Calls to Interception</div><div class="ticker-item">NIST’s Quantum Breakthrough: Single Photons Produced on a Chip</div><div class="ticker-item">In Other News: Ransomware Shuts US Clinics, ICS Vulnerability Surge, European Parliament Bans AI</div><div class="ticker-item">BeyondTrust Vulnerability Exploited in Ransomware Attacks</div><div class="ticker-item">FBI: $20 Million Losses Caused by 700 ATM Jackpotting Attacks in 2025</div><div class="ticker-item">Arkanix Stealer pops up as short-lived AI info-stealer experiment</div><div class="ticker-item">This $790 AI automation course bundle is $20 today</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Predator spyware hooks iOS SpringBoard to hide mic, camera activity</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MuddyWater Targets MENA Organizations with GhostFetch, CHAR, and HTTP_VIP</h3>
+                <p><strong>Summary:</strong> The Iranian hacking group known as MuddyWater  (aka Earth Vetala, Mango Sandstorm, and MUDDYCOAST) has targeted several organizations and individuals mainly located across the Middle East and North Af...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries</h3>
+                <p><strong>Summary:</strong> A Russian-speaking, financially motivated threat actor has been observed taking advantage of commercial generative artificial intelligence (AI) services to compromise over 600 FortiGate devices locate...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning</h3>
+                <p><strong>Summary:</strong> Artificial intelligence (AI) company Anthropic has begun to roll out a new security feature for Claude Code that can scan a user's software codebase for vulnerabilities and suggest patches.  The capab...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security</h3>
+                <p><strong>Summary:</strong> With $5.5 trillion in global AI risk exposure and 700,000 U.S. workers needing reskilling, four new AI certifications and Certified CISO v4 help close the gap between AI adoption and workforce readine...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/ec-council-expands-ai-certification.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/ec-council-expands-ai-certification.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration</h3>
+                <p><strong>Summary:</strong> Threat actors have been observed exploiting a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products to conduct a wide range of...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>PayPal Data Breach Led to Fraudulent Transactions</h3>
+                <p><strong>Summary:</strong> PayPal blamed an application error for the exposure of customer personal information for nearly 6 months.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/paypal-data-breach-led-to-fraudulent-transactions/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/paypal-data-breach-led-to-fraudulent-transactions/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Grandstream Phone Vulnerability Exposes Calls to Interception</h3>
+                <p><strong>Summary:</strong> The flaw tracked as CVE-2026-2329 can be exploited without authentication for remote code execution with root privileges.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-grandstream-phone-vulnerability-exposes-calls-to-interception/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-grandstream-phone-vulnerability-exposes-calls-to-interception/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>NIST’s Quantum Breakthrough: Single Photons Produced on a Chip</h3>
+                <p><strong>Summary:</strong> NIST’s single photon chip will likely make QKD an option for a wider range of companies.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/nists-quantum-breakthrough-single-photons-produced-on-a-chip/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/nists-quantum-breakthrough-single-photons-produced-on-a-chip/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: Ransomware Shuts US Clinics, ICS Vulnerability Surge, European Parliament Bans AI</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: Axonius lays off employees, Abu Dhabi conference data leak, HackerOne addresses AI concerns.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-ransomware-shuts-us-clinics-ics-vulnerability-surge-european-parliament-bans-ai/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-ransomware-shuts-us-clinics-ics-vulnerability-surge-european-parliament-bans-ai/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BeyondTrust Vulnerability Exploited in Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> CISA has updated its KEV entry for CVE-2026-1731 to alert organizations of exploitation in ransomware attacks.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/beyondtrust-vulnerability-exploited-in-ransomware-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/beyondtrust-vulnerability-exploited-in-ransomware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI: $20 Million Losses Caused by 700 ATM Jackpotting Attacks in 2025</h3>
+                <p><strong>Summary:</strong> The FBI has confirmed that the Ploutus malware, which has been around for over a decade, is still being used in the wild.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fbi-20-million-losses-caused-by-700-atm-jackpotting-attacks-in-2025/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fbi-20-million-losses-caused-by-700-atm-jackpotting-attacks-in-2025/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Arkanix Stealer pops up as short-lived AI info-stealer experiment</h3>
+                <p><strong>Summary:</strong> An information-stealing malware operation named Arkanix Stealer, promoted on multiple dark web forums towards the end of 2025, was likely developed as an AI-assisted experiment.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>This $790 AI automation course bundle is $20 today</h3>
+                <p><strong>Summary:</strong> One of the most useful ways to use AI is also one of the hardest to learn. With a little training, you can learn to use AI to automate all the repetitive tasks that burn through your day, and the Chat...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-790-ai-automation-course-bundle-is-20-today/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/this-790-ai-automation-course-bundle-is-20-today/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
+                <p><strong>Summary:</strong> Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Predator spyware hooks iOS SpringBoard to hide mic, camera activity</h3>
+                <p><strong>Summary:</strong> Intellexa's Predator spyware can hide iOS recording indicators while secretly streaming camera and microphone feeds to its operators.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
