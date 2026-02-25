@@ -1,0 +1,208 @@
+{
+  "date": "2026-02-25",
+  "items": [
+    {
+      "title": "Defense Contractor Employee Jailed for Selling 8 Zero-Days to Russian Broker",
+      "link": "https://thehackernews.com/2026/02/defense-contractor-employee-jailed-for.html",
+      "summary": "A 39-year-old Australian national who was previously employed at U.S. defense contractor L3Harris has been sentenced to a little over seven years in prison for selling eight zero-day exploits to Russian exploit broker Operation Zero in exchange for millions of dollars.  Peter Williams pleaded guilty  to two counts of theft of trade secrets in October 2025. In addition to the jail term, Williams has been ordered to serve three years of supervised release with special conditions, as well as forfeit illicit proceeds, including properties, clothing, jewelry, and luxury watches, purchased from the cryptocurrency payments he received in return for selling the exploits.  The case's connection to Operation Zero was disclosed  by cybersecurity journalist Kim Zetter late last year. The nature of the exploits are presently unclear. But a sentencing memorandum  published earlier this month revealed that the tools could have been \"used against any manner of victim, civilian or military ...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "defense-contractor-employee-jailed-for-selling-8-z",
+      "source": "The Hacker News",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "SolarWinds Patches 4 Critical Serv-U 15.5 Flaws Allowing Root Code Execution",
+      "link": "https://thehackernews.com/2026/02/solarwinds-patches-4-critical-serv-u.html",
+      "summary": "SolarWinds has released updates  to address four critical security flaws in its Serv-U file transfer software that, if successfully exploited, could result in remote code execution.  The vulnerabilities, all rated 9.1 on the CVSS scoring system, are listed below -   CVE-2025-40538  - A broken access control vulnerability that allows an attacker to create a system admin user and execute arbitrary code as root via domain admin or group admin privileges.  CVE-2025-40539  - A type confusion vulnerability that allows an attacker to execute arbitrary native code as root.  CVE-2025-40540  - A type confusion vulnerability that allows an attacker to execute arbitrary native code as root.  CVE-2025-40541  - An insecure direct object reference (IDOR) vulnerability that allows an attacker to execute native code as root.    SolarWinds noted that the vulnerabilities require administrative privileges for successful exploitation. It also said that they carry a medium security risk on Windows deployme...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "solarwinds-patches-4-critical-serv-u-155-flaws-all",
+      "source": "The Hacker News",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "CISA Confirms Active Exploitation of FileZen CVE-2026-25108 Vulnerability",
+      "link": "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a recently disclosed vulnerability in FileZen to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability, tracked as CVE-2026-25108  (CVSS v4 score: 8.7), is a case of operating system (OS) command injection that could allow an authenticated user to execute arbitrary commands via specially crafted HTTP requests.  \"Soliton Systems K.K FileZen contains an OS command injection vulnerability when a user logs-in to the affected product and sends a specially crafted HTTP request,\" CISA said.   According to the Japan Vulnerability Notes (JVN), the vulnerability affects  the following versions of the file transfer product -   Versions 4.2.1 to 4.2.8  Versions 5.0.0 to 5.0.10    Soliton noted in its advisory that successful exploitation of the issue is only possible when FileZen Antivirus Check Option is enabled, adding it has \"received at le...",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-confirms-active-exploitation-of-filezen-cve-2",
+      "source": "The Hacker News",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN",
+      "link": "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html",
+      "summary": "A vulnerability in GitHub Codespaces  could have been exploited by bad actors to seize control of repositories by injecting malicious Copilot instructions in a GitHub issue.  The artificial intelligence (AI)-driven vulnerability has been codenamed RoguePilot  by Orca Security. It has since been patched by Microsoft following responsible disclosure.  \"Attackers can craft hidden instructions inside a GitHub issue that are automatically processed by GitHub Copilot, giving them silent control of the in-codespaces AI agent,\" security researcher Roi Nisimi said  in a report.  The vulnerability has been described as a case of passive or indirect prompt injection where a malicious instruction is embedded within data or content that's processed by the large language model (LLM), causing it to produce unintended outputs or carry out arbitrary actions.  The cloud security company also called it a type of AI-mediated supply chain attack that induces the LLM to automatically execute ...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "roguepilot-flaw-in-github-codespaces-enabled-copil",
+      "source": "The Hacker News",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "UAC-0050 Targets European Financial Institution With Spoofed Domain and RMS Malware",
+      "link": "https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html",
+      "summary": "A Russia-aligned threat actor has been observed targeting a European financial institution as part of a social engineering attack to likely facilitate intelligence gathering or financial theft, signaling a possible expansion of the threat actor's targeting beyond Ukraine and into entities supporting the war-torn nation .  The activity, which targeted an unnamed entity involved in regional development and reconstruction initiatives, has been attributed to a cybercrime group tracked as UAC-0050  (aka DaVinci Group ). BlueVoyant has designated the name Mercenary Akula to the threat cluster. The attack was observed earlier this month.  \"The attack spoofed a Ukrainian judicial domain to deliver an email containing a link to a remote access payload,\" researchers Patrick McHale and Joshua Green said  in a report shared with The Hacker News. \"The target was a senior legal and policy advisor involved in procurement, a role with privileged insight into institutional operation...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "uac-0050-targets-european-financial-institution-wi",
+      "source": "The Hacker News",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Identity Prioritization isn't a Backlog Problem - It's a Risk Math Problem",
+      "link": "https://thehackernews.com/2026/02/identity-prioritization-isnt-backlog.html",
+      "summary": "Most identity programs still prioritize work the way they prioritize IT tickets: by volume, loudness, or “what failed a control check.” That approach breaks the moment your environment stops being mostly-human and mostly-onboarded.  In modern enterprises, identity risk is created by a compound of factors: control posture, hygiene, business context, and intent. Any one of these can perhaps be manageable on its own. The real danger is the toxic combination, when multiple weaknesses align and attackers get a clean chain from entry to impact.  A useful prioritization framework treats identity risk as contextual exposure, not configuration completeness.  1. Controls Posture: Compliance and Security As Risk Signals, Not Checkboxes   Controls posture answers a simple question: If something goes wrong, will we prevent it, detect it, and prove it?  In classic IAM programs, controls are assessed as “configured / not configured.” But prioritization needs more nuance: a missing control is a risk ...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "identity-prioritization-isnt-a-backlog-problem-its",
+      "source": "The Hacker News",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Claude’s New AI Vulnerability Scanner Sends Cybersecurity Shares Plunging",
+      "link": "https://www.securityweek.com/claudes-new-ai-vulnerability-scanner-sends-cybersecurity-shares-plunging/",
+      "summary": "The stocks of major cybersecurity companies have fallen sharply over fears that AI is disrupting the industry.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "claudes-new-ai-vulnerability-scanner-sends-cyberse",
+      "source": "SecurityWeek",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Ad Tech Company Optimizely Targeted in Cyberattack",
+      "link": "https://www.securityweek.com/ad-tech-company-optimizely-confirms-cyberattack/",
+      "summary": "The company says the attackers accessed internal business systems such as Zendesk and Salesforce.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ad-tech-company-optimizely-targeted-in-cyberattack",
+      "source": "SecurityWeek",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "‘Arkanix Stealer’ Malware Disappears Shortly After Debut",
+      "link": "https://www.securityweek.com/arkanix-stealer-malware-disappears-shortly-after-debut/",
+      "summary": "Written in C++ and Python, the malware exfiltrates system information, browser data, and steals files.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "arkanix-stealer-malware-disappears-shortly-after-d",
+      "source": "SecurityWeek",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "VMware Aria Operations Vulnerability Could Allow Remote Code Execution",
+      "link": "https://www.securityweek.com/vmware-aria-operations-vulnerability-could-allow-remote-code-execution/",
+      "summary": "Broadcom has patched several vulnerabilities in VMware Aria Operations, including high-severity flaws.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "vmware-aria-operations-vulnerability-could-allow-r",
+      "source": "SecurityWeek",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "CISO Conversations: Timothy Youngblood; 4x Fortune 500 CISO/CSO",
+      "link": "https://www.securityweek.com/ciso-conversations-timothy-youngblood-4x-fortune-500-ciso-cso/",
+      "summary": "Timothy Youngblood was CISO at Dell, CISO at Kimberley-Clark, VP & CISO at McDonald’s, and SVP, CSO & Product Security Officer at T-Mobile.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ciso-conversations-timothy-youngblood-4x-fortune-5",
+      "source": "SecurityWeek",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "New ‘Sandworm_Mode’ Supply Chain Attack Hits NPM",
+      "link": "https://www.securityweek.com/new-sandworm_mode-supply-chain-attack-hits-npm/",
+      "summary": "The malicious code propagates like a worm, poisons AI assistants, exfiltrates secrets, and contains a destructive dead switch.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-sandworm_mode-supply-chain-attack-hits-npm",
+      "source": "SecurityWeek",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Ex-L3Harris exec jailed for selling zero-days to Russian exploit broker",
+      "link": "https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/",
+      "summary": "The former head of Trenchant, a specialized U.S. defense contractor unit, was sentenced Tuesday to more than seven years in federal prison for stealing and selling zero-day exploits to a Russian exploit broker whose clients include the Russian government.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ex-l3harris-exec-jailed-for-selling-zero-days-to-r",
+      "source": "BleepingComputer",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077241-update-improves-bitlocker-adds-sysmon-tool/",
+      "summary": "Microsoft has released the KB5077241 optional cumulative update for Windows 11, which comes with 29 changes, including improvements to BitLocker, a new network speed test tool, and native System Monitor (Sysmon) functionality.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "windows-11-kb5077241-update-improves-bitlocker-add",
+      "source": "BleepingComputer",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Phishing campaign targets freight and logistics orgs in the US, Europe",
+      "link": "https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/",
+      "summary": "A financially motivated threat group dubbed \"Diesel Vortex\" is stealing credentials from freight and logistics operators in the U.S. and Europe in phishing attacks using 52 domains.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "phishing-campaign-targets-freight-and-logistics-or",
+      "source": "BleepingComputer",
+      "date": "2026-02-25"
+    }
+  ]
+}

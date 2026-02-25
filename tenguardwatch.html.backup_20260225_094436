@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model</div><div class="ticker-item">APT28 Targeted European Entities Using Webhook-Based Macro Malware</div><div class="ticker-item">Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb</div><div class="ticker-item">⚡ Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware & More</div><div class="ticker-item">How Exposed Endpoints Increase Risk Across LLM Infrastructure</div><div class="ticker-item">Malicious npm Packages Harvest Crypto Keys, CI Secrets, and API Tokens</div><div class="ticker-item">US Healthcare Diagnostic Firm Says 140,000 Affected by Data Breach</div><div class="ticker-item">Ukrainian Gets 5 Years in US Prison for Aiding North Korean IT Fraud</div><div class="ticker-item">Autonomous AI Agents Provide New Class of Supply Chain Attack</div><div class="ticker-item">Romanian Hacker Pleads Guilty to Selling Access to US State Network</div><div class="ticker-item">Hundreds of FortiGate Firewalls Hacked in AI-Powered Attacks: AWS</div><div class="ticker-item">Recent RoundCube Webmail Vulnerability Exploited in Attacks</div><div class="ticker-item">Android mental health apps with 14.7M installs filled with security flaws</div><div class="ticker-item">Spain arrests suspected hacktivists for DDoSing govt sites</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Microsoft says bug in classic Outlook hides the mouse pointer</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model</h3>
+                <p><strong>Summary:</strong> Anthropic on Monday said it identified "industrial-scale campaigns" mounted by three artificial intelligence (AI) companies, DeepSeek, Moonshot AI, and MiniMax, to illegally extract Claude's capabilit...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APT28 Targeted European Entities Using Webhook-Based Macro Malware</h3>
+                <p><strong>Summary:</strong> The Russia-linked state-sponsored threat actor  tracked as APT28  has been attributed to a new campaign targeting specific entities in Western and Central Europe.  The activity, per S2 Grupo's LAB52 t...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new cryptojacking campaign that uses pirated software bundles as lures to deploy a bespoke XMRig miner program on compromised hosts.  "Analysis of...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware & More</h3>
+                <p><strong>Summary:</strong> Security news rarely moves in a straight line. This week, it feels more like a series of sharp turns, some happening quietly in the background, others playing out in public view. The details are diffe...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How Exposed Endpoints Increase Risk Across LLM Infrastructure</h3>
+                <p><strong>Summary:</strong> As more organizations run their own Large Language Models (LLMs), they are also deploying more internal services and Application Programming Interfaces (APIs) to support those models. Modern security ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious npm Packages Harvest Crypto Keys, CI Secrets, and API Tokens</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed what they say is an active "Shai-Hulud-like" supply chain worm campaign that has leveraged a cluster of at least 19 malicious npm packages to enable credential...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US Healthcare Diagnostic Firm Says 140,000 Affected by Data Breach</h3>
+                <p><strong>Summary:</strong> The Everest ransomware group has taken credit for a hacker attack on Vikor Scientific, now called Vanta Diagnostics.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-healthcare-diagnostic-firm-says-140000-affected-by-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/us-healthcare-diagnostic-firm-says-140000-affected-by-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ukrainian Gets 5 Years in US Prison for Aiding North Korean IT Fraud</h3>
+                <p><strong>Summary:</strong> Oleksandr Didenko sold the stolen identities of US citizens, allowing North Koreans to get hired using freelance work platforms.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ukrainian-gets-5-years-in-us-prison-for-aiding-north-korean-it-fraud/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ukrainian-gets-5-years-in-us-prison-for-aiding-north-korean-it-fraud/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Autonomous AI Agents Provide New Class of Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> While this campaign targets crypto wallets and steals money, the methodology has far wider potential that could be used by other attackers.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/autonomous-ai-agents-provide-new-class-of-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/autonomous-ai-agents-provide-new-class-of-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Romanian Hacker Pleads Guilty to Selling Access to US State Network</h3>
+                <p><strong>Summary:</strong> Catalin Dragomir admitted in a US court to selling access to an Oregon state government office’s network.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/romanian-hacker-pleads-guilty-to-selling-access-to-us-state-network/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/romanian-hacker-pleads-guilty-to-selling-access-to-us-state-network/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hundreds of FortiGate Firewalls Hacked in AI-Powered Attacks: AWS</h3>
+                <p><strong>Summary:</strong> Threat actors relying on AI have been exploiting exposed ports and weak credentials to take over FortiGate devices.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hundreds-of-fortigate-firewalls-hacked-in-ai-powered-attacks-aws/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hundreds-of-fortigate-firewalls-hacked-in-ai-powered-attacks-aws/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Recent RoundCube Webmail Vulnerability Exploited in Attacks</h3>
+                <p><strong>Summary:</strong> Patched in December 2025, the exploited flaw leads to XSS attacks via the animate tags in SVG documents.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-roundcube-webmail-vulnerability-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-roundcube-webmail-vulnerability-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Android mental health apps with 14.7M installs filled with security flaws</h3>
+                <p><strong>Summary:</strong> Several mental health mobile apps with millions of downloads on Google Play contain security vulnerabilities that could expose users' sensitive medical information.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Spain arrests suspected hacktivists for DDoSing govt sites</h3>
+                <p><strong>Summary:</strong> Spanish authorities have arrested four alleged members of a hacktivist group believed to have carried out cyberattacks targeting government ministries, political parties, and various public institutio...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
+                <p><strong>Summary:</strong> Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft says bug in classic Outlook hides the mouse pointer</h3>
+                <p><strong>Summary:</strong> Microsoft is investigating a known issue that causes the mouse pointer to disappear in the classic Outlook desktop email client for some users.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
