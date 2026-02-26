@@ -1,0 +1,199 @@
+{
+  "date": "2026-02-26",
+  "items": [
+    {
+      "title": "Cisco SD-WAN Zero-Day CVE-2026-20127 Exploited Since 2023 for Admin Access",
+      "link": "https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html",
+      "summary": "A newly disclosed maximum-severity security flaw in Cisco Catalyst SD-WAN Controller (formerly vSmart) and Catalyst SD-WAN Manager (formerly vManage) has come under active exploitation in the wild as part of malicious activity that dates back to 2023.  The vulnerability, tracked as CVE-2026-20127  (CVSS score: 10.0), allows an unauthenticated remote attacker to bypass authentication and obtain administrative privileges on the affected system by sending a crafted request to an affected system.  Successful exploitation of the flaw could allow the adversary to obtain elevated privileges on the system as an internal, high-privileged, non-root user account.  \"This vulnerability exists because the peering authentication mechanism in an affected system is not working properly,\" Cisco said  in an advisory, adding the threat actor could leverage the non-root user account to access NETCONF and manipulate network configuration for the SD-WAN fabric.    The shortcoming affects the follo...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-sd-wan-zero-day-cve-2026-20127-exploited-sin",
+      "source": "The Hacker News",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Google Disrupts UNC2814 GRIDTIDE Campaign After 53 Breaches Across 42 Countries",
+      "link": "https://thehackernews.com/2026/02/google-disrupts-unc2814-gridtide.html",
+      "summary": "Google on Wednesday disclosed that it worked with industry partners to disrupt the infrastructure of a suspected China-nexus cyber espionage group tracked as UNC2814  that breached at least 53 organizations across 42 countries.  \"This prolific, elusive actor has a long history of targeting international governments and global telecommunications organizations across Africa, Asia, and the Americas,\" Google Threat Intelligence Group (GTIG) and Mandiant said  in a report published today.  UNC2814 is also suspected to be linked to additional infections in more than 20 other nations. The tech giant, which has been tracking the threat actor since 2017, has been observed using API calls to communicate with software-as-a-service (SaaS) apps as command-and-control (C2) infrastructure. The idea, it added, is to disguise their malicious traffic as benign.   Central to the hacking group's operations is a novel backdoor dubbed GRIDTIDE that abuses Google Sheets API as a communication ...",
+      "tags": [
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-disrupts-unc2814-gridtide-campaign-after-53",
+      "source": "The Hacker News",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Claude Code Flaws Allow Remote Code Execution and API Key Exfiltration",
+      "link": "https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html",
+      "summary": "Cybersecurity researchers have disclosed  multiple security vulnerabilities in Anthropic's Claude Code, an artificial intelligence (AI)-powered coding assistant, that could result in remote code execution and theft of API credentials.  \"The vulnerabilities exploit various configuration mechanisms, including Hooks, Model Context Protocol (MCP) servers, and environment variables – executing arbitrary shell commands and exfiltrating Anthropic API keys when users clone and open untrusted repositories,\" Check Point researchers Aviv Donenfeld and Oded Vanunu said  in a report shared with The Hacker News.  The identified shortcomings fall under three broad categories -   No CVE  (CVSS score: 8.7) - A code injection vulnerability stemming from a user consent bypass when starting Claude Code in a new directory that could result in arbitrary code execution without additional confirmation via untrusted project hooks  defined in .claude/settings.json. (Fixed in version 1.0.87 in Sep...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "claude-code-flaws-allow-remote-code-execution-and-",
+      "source": "The Hacker News",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "SLH Offers $500–$1,000 Per Call to Recruit Women for IT Help Desk Vishing Attacks",
+      "link": "https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html",
+      "summary": "The notorious cybercrime collective known as Scattered LAPSUS$ Hunters  (SLH) has been observed offering financial incentives to recruit women to pull off social engineering attacks.  The idea is to hire them for voice phishing campaigns targeting IT help desks, Dataminr said in a new threat brief. The group is said to be offering anywhere between $500 and $1,000 upfront per call, in addition to providing them with the necessary pre-written scripts to carry out the attack.  \"SLH is diversifying its social engineering pool by specifically recruiting women to conduct vishing attacks, likely to increase the success rate of help desk impersonation,\" the threat intelligence firm said .  A high-profile cybercrime supergroup  comprising LAPSUS$, Scattered Spider, and ShinyHunters, SLH has a record of engaging in advanced social engineering attacks to sidestep multi-factor authentication (MFA) through techniques like MFA prompt bombing  and SIM swapping.    The group's modus ope...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "slh-offers-5001000-per-call-to-recruit-women-for-i",
+      "source": "The Hacker News",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Top 5 Ways Broken Triage Increases Business Risk Instead of Reducing It",
+      "link": "https://thehackernews.com/2026/02/top-5-ways-broken-triage-increases.html",
+      "summary": "Triage is supposed to make things simpler. In a lot of teams, it does the opposite.  When you can’t reach a confident verdict early, alerts turn into repeat checks, back-and-forth, and “just escalate it” calls. That cost doesn’t stay inside the SOC; it shows up as missed SLAs, higher cost per case, and more room for real threats to slip through.  So where does triage go wrong? Here are five triage issues that turn investigations into expensive guesswork, and how top teams are changing the outcome with execution evidence.  1. Decisions Made Without Real Evidence  Business risk:  The hardest triage failure to notice is when decisions get made before proof exists. If responders rely on partial signals (labels, hash matches, reputation), they end up approving or escalating cases without seeing what the file or link actually does.   That uncertainty fuels false positives, missed real threats, slower containment, and higher cost per case, while giving attackers more time before anyone h...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "top-5-ways-broken-triage-increases-business-risk-i",
+      "source": "The Hacker News",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Malicious NuGet Packages Stole ASP.NET Data; npm Package Dropped Malware",
+      "link": "https://thehackernews.com/2026/02/malicious-nuget-packages-stole-aspnet.html",
+      "summary": "Cybersecurity researchers have discovered four malicious NuGet packages that are designed to target ASP.NET web application developers to steal sensitive data.  The campaign, discovered by Socket , exfiltrates ASP.NET Identity data , including user accounts, role assignments, and permission mappings, as well as manipulates authorization rules to create persistent backdoors in victim applications.  The names of the packages are listed below -   NCryptYo  DOMOAuth2_  IRAOAuth2.0  SimpleWriter_   The NuGet packages were published to the repository between August 12 and 21, 2024, by a user named hamzazaheer . They have since been taken down from the repository following responsible disclosure, but not before attracting more than 4,500 downloads.   According to the software supply chain security company, NCryptYo acts as a first-stage dropper that establishes a local proxy on localhost:7152 that relays traffic to an attacker-controlled command-and-control (C2) server whose address is dyna...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "malicious-nuget-packages-stole-aspnet-data-npm-pac",
+      "source": "The Hacker News",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Cisco Patches Catalyst SD-WAN Zero-Day Exploited by Highly Sophisticated Hackers",
+      "link": "https://www.securityweek.com/cisco-patches-catalyst-sd-wan-zero-day-exploited-by-highly-sophisticated-hackers/",
+      "summary": "Already added to CISA’s KEV catalog, the flaw allows attackers to bypass authentication and gain administrative privileges.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-patches-catalyst-sd-wan-zero-day-exploited-b",
+      "source": "SecurityWeek",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "The Blast Radius Problem: Stolen Credentials Are Weaponizing Agentic AI",
+      "link": "https://www.securityweek.com/the-blast-radius-problem-stolen-credentials-are-weaponizing-agentic-ai/",
+      "summary": "More than half (56%) of the 400,000 vulnerabilities IBM X-Force tracked in 2025 required no authentication before exploitation.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "the-blast-radius-problem-stolen-credentials-are-we",
+      "source": "SecurityWeek",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Google Disrupts Chinese Hackers Targeting Telecoms, Governments",
+      "link": "https://www.securityweek.com/google-disrupts-chinese-cyberespionage-campaign-targeting-telecoms-governments/",
+      "summary": "The UNC2814 threat actor has been active since at least 2017, targeting organizations across 42 countries.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "google-disrupts-chinese-hackers-targeting-telecoms",
+      "source": "SecurityWeek",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "SolarWinds Patches Four Critical Serv-U Vulnerabilities",
+      "link": "https://www.securityweek.com/solarwinds-patches-four-critical-serv-u-vulnerabilities/",
+      "summary": "The four security defects could be exploited for remote code execution but require administrative privileges.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "solarwinds-patches-four-critical-serv-u-vulnerabil",
+      "source": "SecurityWeek",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Medical Device Maker UFP Technologies Hit by Cyberattack",
+      "link": "https://www.securityweek.com/medical-device-maker-ufp-technologies-hit-by-cyberattack/",
+      "summary": "UFP Technologies appears to have been targeted in a ransomware attack that involved data theft and file-encrypting malware.",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "medical-device-maker-ufp-technologies-hit-by-cyber",
+      "source": "SecurityWeek",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Ex-US Defense Contractor Executive Jailed for Selling Exploits to Russia",
+      "link": "https://www.securityweek.com/ex-us-defense-contractor-executive-jailed-for-selling-exploits-to-russia/",
+      "summary": "Peter Williams was sentenced to 87 months in prison for selling cyber exploits to a Russian broker.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "ex-us-defense-contractor-executive-jailed-for-sell",
+      "source": "SecurityWeek",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Fake Next.js job interview tests backdoor developer's devices",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/",
+      "summary": "The Microsoft Defender team has discovered a coordinated campaign targeting software developers through malicious repositories posing as legitimate Next.js projects and technical assessment materials, including recruiting coding tests.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "fake-nextjs-job-interview-tests-backdoor-developer",
+      "source": "BleepingComputer",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Save 38% on this refurbished 10th Gen Apple iPad with free shipping",
+      "link": "https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/",
+      "summary": "Useful tablet are light enough to grab without thinking and powerful enough that you don't need another device. This refurbished 10th-generation iPad (2022) lands right in that middle ground — and right now it's $369.97 instead of $599 MSRP in near-mint condition with free shipping.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "save-38-on-this-refurbished-10th-gen-apple-ipad-wi",
+      "source": "BleepingComputer",
+      "date": "2026-02-26"
+    }
+  ]
+}
