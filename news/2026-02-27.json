@@ -1,0 +1,204 @@
+{
+  "date": "2026-02-27",
+  "items": [
+    {
+      "title": "Meta Files Lawsuits Against Brazil, China, Vietnam Advertisers Over Celeb-Bait Scams",
+      "link": "https://thehackernews.com/2026/02/meta-files-lawsuits-against-brazil.html",
+      "summary": "Meta on Thursday said  it's taking legal action to tackle scams on its platforms by filing lawsuits against what it calls deceptive advertisers based in Brazil, China, and Vietnam.  As part of the effort, the advertisers' methods of payment have been suspended, related accounts have been disabled, and the website domain names used to pull off the scams have been blocked.  Concurrently, the social media giant said it has also issued cease and desist letters to eight marketing consultants who advertised the ability to bypass its ad policy enforcement systems. This included fake \"un-ban\" or account restoration services and renting access to trusted accounts so as to help clients bypass its controls.  At least three advertisers, two from Brazil and one from China, were found to engage in celeb-bait scams, which often involve misusing the image of well-known figures to trick people into clicking on bogus ads that lead to scam sites. These websites are designed to harvest ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "meta-files-lawsuits-against-brazil-china-vietnam-a",
+      "source": "The Hacker News",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Aeternum C2 Botnet Stores Encrypted Commands on Polygon Blockchain to Evade Takedown",
+      "link": "https://thehackernews.com/2026/02/aeternum-c2-botnet-stores-encrypted.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new botnet loader called Aeternum C2  that uses a blockchain-based command-and-control (C2) infrastructure to make it resilient to takedown efforts.  \"Instead of relying on traditional servers or domains for command-and-control, Aeternum stores its instructions on the public Polygon blockchain,\" Qrator Labs said  in a report shared with The Hacker News.  \"This network is widely used by decentralized applications, including Polymarket, the world's largest prediction market. This approach makes Aeternum's C2 infrastructure effectively permanent and resistant to traditional takedown methods.\"  This is not the first time botnets have been found relying on blockchain for C2. In 2021, Google said it took steps to disrupt a botnet known as Glupteba  that uses the Bitcoin blockchain as a backup C2 mechanism to fetch the actual C2 server address.  Details of Aeternum C2 first emerged in December 2025, when Outpos...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "aeternum-c2-botnet-stores-encrypted-commands-on-po",
+      "source": "The Hacker News",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "UAT-10027 Targets U.S. Education and Healthcare with Dohdoor Backdoor",
+      "link": "https://thehackernews.com/2026/02/uat-10027-targets-us-education-and.html",
+      "summary": "A previously undocumented threat activity cluster has been attributed to an ongoing malicious campaign targeting education and healthcare sectors in the U.S. since at least December 2025.  The campaign is being tracked by Cisco Talos under the moniker UAT-10027 . The end goal of the attacks is to deliver a never-before-seen backdoor codenamed Dohdoor.  \"Dohdoor utilizes the DNS-over-HTTPS (DoH) technique for command-and-control (C2) communications and has the ability to download and execute other payload binaries reflectively,\" security researchers Alex Karkins and Chetan Raghuprasad said  in a technical report shared with The Hacker News.  Although the initial access vector used in the campaign is currently not known, it's suspected to involve the use of social engineering phishing techniques, leading to the execution of a PowerShell script.   The script then proceeds to download and run a Windows batch script from a remote staging server, which, for its part, facilitat...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "uat-10027-targets-us-education-and-healthcare-with",
+      "source": "The Hacker News",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Kali Linux + Claude, Chrome Crash Traps, WinRAR Flaws, LockBit & 15+ Stories",
+      "link": "https://thehackernews.com/2026/02/threatsday-bulletin-kali-linux-claude.html",
+      "summary": "Nothing here looks dramatic at first glance. That’s the point. Many of this week’s threats begin with something ordinary, like an ad, a meeting invite, or a software update.  Behind the scenes, the tactics are sharper. Access happens faster. Control is established sooner. Cleanup becomes harder.  Here is a quick look at the signals worth paying attention to.                       AI-powered command execution             Kali Linux Integrates Claude AI Assistant via MCP                  Kali Linux, an advanced penetration testing Linux distribution used for ethical hacking and network security assessments, has added  an integration with Anthropic's Claude large language model through the Model Context Protocol (MCP) to issue commands in natural language and translate them into technical commands.                           Belarus-linked Android spyware             ResidentBat Infrastructure Analyzed                  ResidentBat is an Android spyware implant used by Belarusian autho...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "threatsday-bulletin-kali-linux-claude-chrome-crash",
+      "source": "The Hacker News",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Expert Recommends: Prepare for PQC Right Now",
+      "link": "https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html",
+      "summary": "Introduction: Steal It Today, Break It in a Decade  Digital evolution is unstoppable, and though the pace may vary, things tend to fall into place sooner rather than later. That, of course, applies to adversaries as well. The rise of ransomware and cyber extortion generated funding for a complex and highly professional criminal ecosystem. The era of the cloud brought general availability of almost infinite amounts of storage. So there is literally nothing that stops criminals from stealing and trafficking heaps of data, be it encrypted or not.   Patient adversaries are employing a \"Harvest Now, Decrypt Later\" (HNDL) strategy. They are quietly accumulating encrypted data with the intention of decrypting it later using quantum computers. Any data requiring long-term security, such as trade secrets or classified designs, is vulnerable because its lifespan will inevitably outlive its current encryption. Therefore, it is crucial that organizations begin planning their PQC migrati...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "expert-recommends-prepare-for-pqc-right-now",
+      "source": "The Hacker News",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Microsoft Warns Developers of Fake Next.js Job Repos Delivering In-Memory Malware",
+      "link": "https://thehackernews.com/2026/02/fake-nextjs-repos-target-developers.html",
+      "summary": "A \"coordinated developer-targeting campaign\" is using malicious repositories disguised as legitimate Next.js projects and technical assessments to trick victims into executing them and establish persistent access to compromised machines.  \"The activity aligns with a broader cluster of threats that use job-themed lures to blend into routine developer workflows and increase the likelihood of code execution,\" the Microsoft Defender Security Research Team said  in a report published this week.  The tech giant said the campaign is characterized by the use of multiple entry points that lead to the same outcome, where attacker-controlled JavaScript is retrieved at runtime and executed to facilitate command-and-control (C2).  The attacks rely on the threat actors setting up fake repositories on trusted developer platforms like Bitbucket, using names like \"Cryptan-Platform-MVP1\" to trick developers looking for jobs into running them as part of an assessment proces...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-warns-developers-of-fake-nextjs-job-repo",
+      "source": "The Hacker News",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Critical Flaws Exposed Gardyn Smart Gardens to Remote Hacking",
+      "link": "https://www.securityweek.com/critical-flaws-exposed-gardyn-smart-gardens-to-remote-hacking/",
+      "summary": "CISA has released an advisory to warn about four vulnerabilities discovered by a researcher in Gardyn Home and Gardyn Studio.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-flaws-exposed-gardyn-smart-gardens-to-rem",
+      "source": "SecurityWeek",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Apple iPhone and iPad Cleared for Classified NATO Use",
+      "link": "https://www.securityweek.com/apple-iphone-and-ipad-cleared-for-classified-nato-use/",
+      "summary": "The devices have been added to the NATO Information Assurance Product Catalogue (NIAPC).",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "apple-iphone-and-ipad-cleared-for-classified-nato-",
+      "source": "SecurityWeek",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Four Risks Boards Cannot Treat as Background Noise",
+      "link": "https://www.securityweek.com/four-risks-boards-cannot-treat-as-background-noise/",
+      "summary": "The goal isn’t about preventing every attack but about keeping the business running when attacks succeed.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "four-risks-boards-cannot-treat-as-background-noise",
+      "source": "SecurityWeek",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Claude Code Flaws Exposed Developer Devices to Silent Hacking",
+      "link": "https://www.securityweek.com/claude-code-flaws-exposed-developer-devices-to-silent-hacking/",
+      "summary": "Anthropic has patched vulnerabilities whose impact was demonstrated by Check Point via malicious configuration files.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "claude-code-flaws-exposed-developer-devices-to-sil",
+      "source": "SecurityWeek",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Gambit Security Emerges From Stealth With $61 Million in Funding",
+      "link": "https://www.securityweek.com/gambit-security-emerges-from-stealth-with-61-million-in-funding/",
+      "summary": "The seed and Series A investment will enable the startup to accelerate product development and expand sales and customer success teams.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "gambit-security-emerges-from-stealth-with-61-milli",
+      "source": "SecurityWeek",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Zyxel Patches Critical Vulnerability in Many Device Models",
+      "link": "https://www.securityweek.com/zyxel-patches-critical-vulnerability-in-many-device-models/",
+      "summary": "The issue impacts the UPnP function of multiple device models and could be exploited for remote code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "zyxel-patches-critical-vulnerability-in-many-devic",
+      "source": "SecurityWeek",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Previously harmless Google API keys now expose Gemini AI data",
+      "link": "https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/",
+      "summary": "Google API keys for services like Maps embedded in accessible client-side code could be used to authenticate to the Gemini AI assistant and access private data.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "previously-harmless-google-api-keys-now-expose-gem",
+      "source": "BleepingComputer",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Trend Micro warns of critical Apex One code execution flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-critical-apex-one-rce-vulnerabilities/",
+      "summary": "Trend Micro has patched two critical Apex One vulnerabilities that allow attackers to gain remote code execution (RCE) on vulnerable Windows systems.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trend-micro-warns-of-critical-apex-one-code-execut",
+      "source": "BleepingComputer",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "European DYI chain ManoMano data breach impacts 38 million customers",
+      "link": "https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/",
+      "summary": "DIY store chain ManoMano is notifying customers of a data breach personal data, which was caused by hackers compromising a third-party service provider.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "european-dyi-chain-manomano-data-breach-impacts-38",
+      "source": "BleepingComputer",
+      "date": "2026-02-27"
+    }
+  ]
+}
