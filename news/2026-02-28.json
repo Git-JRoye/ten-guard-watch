@@ -1,0 +1,207 @@
+{
+  "date": "2026-02-28",
+  "items": [
+    {
+      "title": "Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute",
+      "link": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
+      "summary": "Anthropic on Friday hit back after U.S. Secretary of Defense Pete Hegseth directed the Pentagon to designate the artificial intelligence (AI) upstart as a \"supply chain risk.\"  \"This action follows months of negotiations that reached an impasse over two exceptions we requested to the lawful use of our AI model, Claude: the mass domestic surveillance of Americans and fully autonomous weapons,\" the company said .  \"No amount of intimidation or punishment from the Department of War will change our position on mass domestic surveillance or fully autonomous weapons.\"  In a social media post on Truth Social, U.S. President Donald Trump said  he was ordering all federal agencies to phase out the use of Anthropic technology within the next six months. A subsequent X post from Hegseth mandated that all contractors, suppliers, and partners doing business with the U.S. military cease any \"commercial activity with Anthropic\" effective immediately.   \"I...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "pentagon-designates-anthropic-supply-chain-risk-ov",
+      "source": "The Hacker News",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams",
+      "link": "https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html",
+      "summary": "The U.S. Department of Justice (DoJ) this week announced the seizure of $61 million worth of Tether that were allegedly associated with bogus cryptocurrency schemes known as pig butchering .  The confiscated funds were traced to cryptocurrency addresses used for the laundering of criminally derived proceeds stolen from victims of cryptocurrency investment scams, the department added.  \"Criminal actors and professional money launderers use cyber-enabled fraud schemes to swindle their victims and conceal their ill-gotten gains,\" said  HSI Charlotte Acting Special Agent in Charge Kyle D. Burns.  \"HSI special agents work diligently to trace the illicit proceeds of crime across the globe to disrupt and dismantle the transnational criminal organizations that seek to defraud hardworking Americans.\"  As is the norm in such cybercrime operations, threat actors are known to target individuals by cultivating romantic relationships after approaching them on dating and social m...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "doj-seizes-61-million-in-tether-linked-to-pig-butc",
+      "source": "The Hacker News",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks",
+      "link": "https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html",
+      "summary": "The Shadowserver Foundation has revealed  that over 900 Sangoma FreePBX instances still remain infected with web shells as part of attacks that exploited a command injection vulnerability starting in December 2025.  Of these, 401 instances  are located in the U.S., followed by 51 in Brazil, 43 in Canada, 40 in Germany, and 36 in France.  The non-profit entity said the compromises are likely accomplished via the exploitation of CVE-2025-64328 (CVSS score: 8.6), a high-severity security flaw that could enable post-authentication command injection.  \"The impact is that any user with access to the FreePBX Administration panel could leverage this vulnerability to execute arbitrary shell commands on the underlying host,\" FreePBX said  in an advisory for the flaw in November 2025. \"An attacker could leverage this to obtain remote access to the system as the asterisk user.\"   The vulnerability affects FreePBX versions higher than and including 17.0.2.36. It was resolved in...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "900-sangoma-freepbx-instances-compromised-in-ongoi",
+      "source": "The Hacker News",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor",
+      "link": "https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html",
+      "summary": "Cybersecurity researchers have disclosed details of a malicious Go module that's designed to harvest passwords, create persistent access via SSH, and deliver a Linux backdoor named Rekoobe.  The Go module, github[.]com/xinfeisoft/crypto, impersonates the legitimate \"golang.org/x/crypto\" codebase, but injects malicious code that's responsible for exfiltrating secrets entered via terminal password prompts to a remote endpoint, fetches a shell script in response, and executes it.  \"This activity fits namespace confusion and impersonation of the legitimate golang.org/x/crypto subrepository (and its GitHub mirror github.com/golang/crypto),\" Socket security researcher Kirill Boychenko said . \"The legitimate project identifies go.googlesource.com/crypto as canonical and treats GitHub as a mirror, a distinction the threat actor abuses to make github.com/xinfeisoft/crypto look routine in dependency graphs.\"   Specifically, the backdoor has been placed with...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-go-crypto-module-steals-passwords-deploy",
+      "source": "The Hacker News",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks",
+      "link": "https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html",
+      "summary": "The North Korean threat actor known as ScarCruft  has been attributed to a fresh set of tools, including a backdoor that uses Zoho WorkDrive for command-and-control (C2) communications to fetch more payloads and an implant that uses removable media to relay commands and breach air-gapped networks.  The campaign, codenamed Ruby Jumper  by Zscaler ThreatLabz, involves the deployment of malware families, such as RESTLEAF, SNAKEDROPPER, THUMBSBD, VIRUSTASK, FOOTWINE, and BLUELIGHT to facilitate surveillance on a victim's system. It was discovered by the cybersecurity company in December 2025.  \"In the Ruby Jumper campaign, when a victim opens a malicious LNK file, it launches a PowerShell command and scans the current directory to locate itself based on file size,\" security researcher Seongsu Park said . \"Then, the PowerShell script launched by the LNK file carves multiple embedded payloads from fixed offsets within that LNK, including a decoy document, an executable pa...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "scarcruft-uses-zoho-workdrive-and-usb-malware-to-b",
+      "source": "The Hacker News",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Trojanized Gaming Tools Spread Java-Based RAT via Browser and Chat Platforms",
+      "link": "https://thehackernews.com/2026/02/trojanized-gaming-tools-spread-java.html",
+      "summary": "Threat actors are luring unsuspecting users into running trojanized gaming utilities that are distributed via browsers and chat platforms to distribute a remote access trojan (RAT).  \"A malicious downloader staged a portable Java runtime and executed a malicious Java archive (JAR) file named jd-gui.jar,\" the Microsoft Threat Intelligence team said  in a post on X. \"This downloader used PowerShell and living-off-the-land binaries (LOLBins) like cmstp.exe for stealthy execution.\"  The attack chain is also designed to evade detection by deleting the initial downloader and by configuring Microsoft Defender exclusions for the RAT components.  Persistence is achieved by means of a scheduled task and Windows startup script named \"world.vbs,\" before the final payload is deployed on the compromised host. The malware, per Microsoft, is a \"multi-purpose malware\" that acts as a loader, runner, downloader, and RAT.  Once launched, it connects to an external ...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trojanized-gaming-tools-spread-java-based-rat-via-",
+      "source": "The Hacker News",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Trump Orders All Federal Agencies to Phase Out Use of Anthropic Technology",
+      "link": "https://www.securityweek.com/trump-orders-all-federal-agencies-to-phase-out-use-of-anthropic-technology/",
+      "summary": "OpenAI and Google, along with Elon Musk’s xAI, also have contracts to supply their AI models to the military.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "trump-orders-all-federal-agencies-to-phase-out-use",
+      "source": "SecurityWeek",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "In Other News: ATT&CK Advisory Council, Russian Cyberattacks Aid Missile Strikes, Predator Bypasses iOS Indicators",
+      "link": "https://www.securityweek.com/in-other-news-attck-advisory-council-russian-cyberattacks-aid-missile-strikes-predator-bypasses-ios-indicators/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: cyber valuations surge, OpenAI disrupts malicious AI use, ShinyHunters claims Odido breach.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-attck-advisory-council-russian-cyber",
+      "source": "SecurityWeek",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "38 Million Allegedly Impacted by ManoMano Data Breach",
+      "link": "https://www.securityweek.com/38-million-allegedly-impacted-by-manomano-data-breach/",
+      "summary": "Hackers stole personal information such as names, email addresses, phone numbers, and other information.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "38-million-allegedly-impacted-by-manomano-data-bre",
+      "source": "SecurityWeek",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "900 Sangoma FreePBX Instances Infected With Web Shells",
+      "link": "https://www.securityweek.com/900-sangoma-freepbx-instances-infected-with-web-shells/",
+      "summary": "The attacks exploited a post-authentication command injection vulnerability in the endpoint manager’s interface.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "900-sangoma-freepbx-instances-infected-with-web-sh",
+      "source": "SecurityWeek",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Chilean Carding Shop Operator Extradited to US",
+      "link": "https://www.securityweek.com/chilean-carding-shop-operator-extradited-to-us/",
+      "summary": "The 24-year-old suspect has been accused of trafficking over 26,000 cards from a single brand.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "chilean-carding-shop-operator-extradited-to-us",
+      "source": "SecurityWeek",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Anthropic Refuses to Bend to Pentagon on AI Safeguards as Dispute Nears Deadline",
+      "link": "https://www.securityweek.com/anthropic-refuses-to-bend-to-pentagon-on-ai-safeguards-as-dispute-nears-deadline/",
+      "summary": "Anthropic said it sought narrow assurances from the Pentagon that Claude won’t be used for mass surveillance of Americans or in fully autonomous weapons.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "anthropic-refuses-to-bend-to-pentagon-on-ai-safegu",
+      "source": "SecurityWeek",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Microsoft testing Windows 11 batch file security improvements",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/",
+      "summary": "Microsoft is rolling out new Windows 11 Insider Preview builds that improve security and performance during batch file or CMD script execution.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-testing-windows-11-batch-file-security-i",
+      "source": "BleepingComputer",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "APT37 hackers use new malware to breach air-gapped networks",
+      "link": "https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/",
+      "summary": "North Korean hackers are deploying newly uncovered tools to move data between internet-connected and air-gapped systems, spread via removable drives, and conduct covert surveillance.",
+      "tags": [
+        "malware",
+        "breach",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "apt37-hackers-use-new-malware-to-breach-air-gapped",
+      "source": "BleepingComputer",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "New Webinar: Defending Against Malicious Browser Extensions",
+      "link": "https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-webinar-defending-against-malicious-browser-ex",
+      "source": "BleepingComputer",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Europol-led crackdown on The Com hackers leads to 30 arrests",
+      "link": "https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/",
+      "summary": "A yearlong Europol-coordinated operation dubbed \"Project Compass\" has led to 30 arrests and 179 suspects being tied to \"The Com,\" an online cybercrime collective that targets children and teenagers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "europol-led-crackdown-on-the-com-hackers-leads-to-",
+      "source": "BleepingComputer",
+      "date": "2026-02-28"
+    }
+  ]
+}
