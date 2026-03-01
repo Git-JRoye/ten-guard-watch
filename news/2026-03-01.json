@@ -1,0 +1,207 @@
+{
+  "date": "2026-03-01",
+  "items": [
+    {
+      "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
+      "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
+      "summary": "OpenClaw has fixed a high-severity security issue that, if successfully exploited, could have allowed a malicious website to connect to a locally running artificial intelligence (AI) agent and take over control.  \"Our vulnerability lives in the core system itself – no plugins, no marketplace, no user-installed extensions – just the bare OpenClaw gateway, running exactly as documented,\" Oasis Security said  in a report published this week.  The flaw has been codenamed ClawJacked  by the cybersecurity company.  The attack assumes the following threat model: A developer has OpenClaw  set up and running on their laptop, with its gateway , a local WebSocket server, bound to localhost and protected by a password. The attack kicks in when the developer lands on an attacker-controlled website through social engineering or some other means.  The infection sequence then follows the steps below -   Malicious JavaScript on the web page opens a WebSocket connection to localhost on the ...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "clawjacked-flaw-lets-malicious-sites-hijack-local-",
+      "source": "The Hacker News",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
+      "link": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
+      "summary": "New research has found that Google Cloud API keys, typically designated as project identifiers for billing purposes, could be abused to authenticate to sensitive Gemini endpoints and access private data.  The findings come from Truffle Security, which discovered nearly 3,000 Google API keys (identified by the prefix \"AIza\") embedded in client-side code to provide Google-related services like embedded maps on websites.  \"With a valid key, an attacker can access uploaded files, cached data, and charge LLM-usage to your account,\" security researcher Joe Leon said , adding the keys \"now also authenticate to Gemini even though they were never intended for it.\"  The problem occurs when users enable the Gemini API on a Google Cloud project (i.e., Generative Language API), causing the existing API keys in that project, including those accessible via the website JavaScript code, to gain surreptitious access to Gemini endpoints without any warning or notice.   Th...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "thousands-of-public-google-cloud-api-keys-exposed-",
+      "source": "The Hacker News",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute",
+      "link": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
+      "summary": "Anthropic on Friday hit back after U.S. Secretary of Defense Pete Hegseth directed the Pentagon to designate the artificial intelligence (AI) upstart as a \"supply chain risk.\"  \"This action follows months of negotiations that reached an impasse over two exceptions we requested to the lawful use of our AI model, Claude: the mass domestic surveillance of Americans and fully autonomous weapons,\" the company said .  \"No amount of intimidation or punishment from the Department of War will change our position on mass domestic surveillance or fully autonomous weapons.\"  In a social media post on Truth Social, U.S. President Donald Trump said  he was ordering all federal agencies to phase out the use of Anthropic technology within the next six months. A subsequent X post from Hegseth mandated that all contractors, suppliers, and partners doing business with the U.S. military cease any \"commercial activity with Anthropic\" effective immediately.   \"I...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "pentagon-designates-anthropic-supply-chain-risk-ov",
+      "source": "The Hacker News",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams",
+      "link": "https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html",
+      "summary": "The U.S. Department of Justice (DoJ) this week announced the seizure of $61 million worth of Tether that were allegedly associated with bogus cryptocurrency schemes known as pig butchering .  The confiscated funds were traced to cryptocurrency addresses used for the laundering of criminally derived proceeds stolen from victims of cryptocurrency investment scams, the department added.  \"Criminal actors and professional money launderers use cyber-enabled fraud schemes to swindle their victims and conceal their ill-gotten gains,\" said  HSI Charlotte Acting Special Agent in Charge Kyle D. Burns.  \"HSI special agents work diligently to trace the illicit proceeds of crime across the globe to disrupt and dismantle the transnational criminal organizations that seek to defraud hardworking Americans.\"  As is the norm in such cybercrime operations, threat actors are known to target individuals by cultivating romantic relationships after approaching them on dating and social m...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "doj-seizes-61-million-in-tether-linked-to-pig-butc",
+      "source": "The Hacker News",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks",
+      "link": "https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html",
+      "summary": "The Shadowserver Foundation has revealed  that over 900 Sangoma FreePBX instances still remain infected with web shells as part of attacks that exploited a command injection vulnerability starting in December 2025.  Of these, 401 instances  are located in the U.S., followed by 51 in Brazil, 43 in Canada, 40 in Germany, and 36 in France.  The non-profit entity said the compromises are likely accomplished via the exploitation of CVE-2025-64328 (CVSS score: 8.6), a high-severity security flaw that could enable post-authentication command injection.  \"The impact is that any user with access to the FreePBX Administration panel could leverage this vulnerability to execute arbitrary shell commands on the underlying host,\" FreePBX said  in an advisory for the flaw in November 2025. \"An attacker could leverage this to obtain remote access to the system as the asterisk user.\"   The vulnerability affects FreePBX versions higher than and including 17.0.2.36. It was resolved in...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "900-sangoma-freepbx-instances-compromised-in-ongoi",
+      "source": "The Hacker News",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor",
+      "link": "https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html",
+      "summary": "Cybersecurity researchers have disclosed details of a malicious Go module that's designed to harvest passwords, create persistent access via SSH, and deliver a Linux backdoor named Rekoobe.  The Go module, github[.]com/xinfeisoft/crypto, impersonates the legitimate \"golang.org/x/crypto\" codebase, but injects malicious code that's responsible for exfiltrating secrets entered via terminal password prompts to a remote endpoint, fetches a shell script in response, and executes it.  \"This activity fits namespace confusion and impersonation of the legitimate golang.org/x/crypto subrepository (and its GitHub mirror github.com/golang/crypto),\" Socket security researcher Kirill Boychenko said . \"The legitimate project identifies go.googlesource.com/crypto as canonical and treats GitHub as a mirror, a distinction the threat actor abuses to make github.com/xinfeisoft/crypto look routine in dependency graphs.\"   Specifically, the backdoor has been placed with...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-go-crypto-module-steals-passwords-deploy",
+      "source": "The Hacker News",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Canadian Tire Data Breach Impacts 38 Million Accounts",
+      "link": "https://www.securityweek.com/canadian-tire-data-breach-impacts-38-million-accounts/",
+      "summary": "Names, addresses, email addresses, phone numbers, and encrypted passwords were compromised in the attack.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "canadian-tire-data-breach-impacts-38-million-accou",
+      "source": "SecurityWeek",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Trump Orders All Federal Agencies to Phase Out Use of Anthropic Technology",
+      "link": "https://www.securityweek.com/trump-orders-all-federal-agencies-to-phase-out-use-of-anthropic-technology/",
+      "summary": "OpenAI and Google, along with Elon Musk’s xAI, also have contracts to supply their AI models to the military.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "trump-orders-all-federal-agencies-to-phase-out-use",
+      "source": "SecurityWeek",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "In Other News: ATT&CK Advisory Council, Russian Cyberattacks Aid Missile Strikes, Predator Bypasses iOS Indicators",
+      "link": "https://www.securityweek.com/in-other-news-attck-advisory-council-russian-cyberattacks-aid-missile-strikes-predator-bypasses-ios-indicators/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: cyber valuations surge, OpenAI disrupts malicious AI use, ShinyHunters claims Odido breach.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-attck-advisory-council-russian-cyber",
+      "source": "SecurityWeek",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "38 Million Allegedly Impacted by ManoMano Data Breach",
+      "link": "https://www.securityweek.com/38-million-allegedly-impacted-by-manomano-data-breach/",
+      "summary": "Hackers stole personal information such as names, email addresses, phone numbers, and other information.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "38-million-allegedly-impacted-by-manomano-data-bre",
+      "source": "SecurityWeek",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "900 Sangoma FreePBX Instances Infected With Web Shells",
+      "link": "https://www.securityweek.com/900-sangoma-freepbx-instances-infected-with-web-shells/",
+      "summary": "The attacks exploited a post-authentication command injection vulnerability in the endpoint manager’s interface.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "900-sangoma-freepbx-instances-infected-with-web-sh",
+      "source": "SecurityWeek",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Chilean Carding Shop Operator Extradited to US",
+      "link": "https://www.securityweek.com/chilean-carding-shop-operator-extradited-to-us/",
+      "summary": "The 24-year-old suspect has been accused of trafficking over 26,000 cards from a single brand.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "chilean-carding-shop-operator-extradited-to-us",
+      "source": "SecurityWeek",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "QuickLens Chrome extension steals crypto, shows ClickFix attack",
+      "link": "https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/",
+      "summary": "A Chrome extension named \"QuickLens - Search Screen with Google Lens\" has been removed from the Chrome Web Store after it was compromised to push malware and attempt to steal crypto from thousands of users.",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "quicklens-chrome-extension-steals-crypto-shows-cli",
+      "source": "BleepingComputer",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "$4.8M in crypto stolen after Korean tax agency exposes wallet seed",
+      "link": "https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/",
+      "summary": "South Korea's National Tax Service accidentally exposed the mnemonic recovery phrase of a seized cryptocurrency wallet in an official press release, allowing hackers to steal 6.4 billion won ($4.8M) worth in cryptocurrency.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "48m-in-crypto-stolen-after-korean-tax-agency-expos",
+      "source": "BleepingComputer",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Shadow AI Is Everywhere. Here's How to Find and Secure It.",
+      "link": "https://www.bleepingcomputer.com/mgo/77/",
+      "summary": "AI is quietly accessing sensitive data through integrations and MCP server connections. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Take control of shadow AI risks today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "shadow-ai-is-everywhere-heres-how-to-find-and-secu",
+      "source": "BleepingComputer",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Just $80 gets you a refurbished travel-ready Lenovo Chromebook",
+      "link": "https://www.bleepingcomputer.com/offer/deals/just-80-gets-you-a-refurbished-travel-ready-lenovo-chromebook/",
+      "summary": "Spending hundreds on a secondary laptop doesn't always make sense — especially if you just need something lightweight for travel, quick tasks, or as a backup around the house. At $79.99 (MSRP: $284.99) with free shipping, the refurbished Lenovo 300e Chromebook keeps things simple and affordable.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "just-80-gets-you-a-refurbished-travel-ready-lenovo",
+      "source": "BleepingComputer",
+      "date": "2026-03-01"
+    }
+  ]
+}

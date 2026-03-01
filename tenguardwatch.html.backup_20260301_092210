@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket</div><div class="ticker-item">Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement</div><div class="ticker-item">Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute</div><div class="ticker-item">DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams</div><div class="ticker-item">900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks</div><div class="ticker-item">Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor</div><div class="ticker-item">Canadian Tire Data Breach Impacts 38 Million Accounts</div><div class="ticker-item">Trump Orders All Federal Agencies to Phase Out Use of Anthropic Technology</div><div class="ticker-item">In Other News: ATT&CK Advisory Council, Russian Cyberattacks Aid Missile Strikes, Predator Bypasses iOS Indicators</div><div class="ticker-item">38 Million Allegedly Impacted by ManoMano Data Breach</div><div class="ticker-item">900 Sangoma FreePBX Instances Infected With Web Shells</div><div class="ticker-item">Chilean Carding Shop Operator Extradited to US</div><div class="ticker-item">QuickLens Chrome extension steals crypto, shows ClickFix attack</div><div class="ticker-item">$4.8M in crypto stolen after Korean tax agency exposes wallet seed</div><div class="ticker-item">Shadow AI Is Everywhere. Here's How to Find and Secure It.</div><div class="ticker-item">Just $80 gets you a refurbished travel-ready Lenovo Chromebook</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute</div><div class="ticker-item">DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams</div><div class="ticker-item">900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks</div><div class="ticker-item">Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor</div><div class="ticker-item">ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks</div><div class="ticker-item">Trojanized Gaming Tools Spread Java-Based RAT via Browser and Chat Platforms</div><div class="ticker-item">Trump Orders All Federal Agencies to Phase Out Use of Anthropic Technology</div><div class="ticker-item">In Other News: ATT&CK Advisory Council, Russian Cyberattacks Aid Missile Strikes, Predator Bypasses iOS Indicators</div><div class="ticker-item">38 Million Allegedly Impacted by ManoMano Data Breach</div><div class="ticker-item">900 Sangoma FreePBX Instances Infected With Web Shells</div><div class="ticker-item">Chilean Carding Shop Operator Extradited to US</div><div class="ticker-item">Anthropic Refuses to Bend to Pentagon on AI Safeguards as Dispute Nears Deadline</div><div class="ticker-item">Microsoft testing Windows 11 batch file security improvements</div><div class="ticker-item">APT37 hackers use new malware to breach air-gapped networks</div><div class="ticker-item">New Webinar: Defending Against Malicious Browser Extensions</div><div class="ticker-item">Europol-led crackdown on The Com hackers leads to 30 arrests</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket</h3>
-                <p><strong>Summary:</strong> OpenClaw has fixed a high-severity security issue that, if successfully exploited, could have allowed a malicious website to connect to a locally running artificial intelligence (AI) agent and take ov...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement</h3>
-                <p><strong>Summary:</strong> New research has found that Google Cloud API keys, typically designated as project identifiers for billing purposes, could be abused to authenticate to sensitive Gemini endpoints and access private da...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute</h3>
                 <p><strong>Summary:</strong> Anthropic on Friday hit back after U.S. Secretary of Defense Pete Hegseth directed the Pentagon to designate the artificial intelligence (AI) upstart as a "supply chain risk."  "This action follows mo...</p>
@@ -91,11 +77,18 @@
                 <a href="https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Canadian Tire Data Breach Impacts 38 Million Accounts</h3>
-                <p><strong>Summary:</strong> Names, addresses, email addresses, phone numbers, and encrypted passwords were compromised in the attack.</p>
+                <h3>ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks</h3>
+                <p><strong>Summary:</strong> The North Korean threat actor known as ScarCruft  has been attributed to a fresh set of tools, including a backdoor that uses Zoho WorkDrive for command-and-control (C2) communications to fetch more p...</p>
                 <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/canadian-tire-data-breach-impacts-38-million-accounts/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/canadian-tire-data-breach-impacts-38-million-accounts/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Trojanized Gaming Tools Spread Java-Based RAT via Browser and Chat Platforms</h3>
+                <p><strong>Summary:</strong> Threat actors are luring unsuspecting users into running trojanized gaming utilities that are distributed via browsers and chat platforms to distribute a remote access trojan (RAT).  "A malicious down...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/trojanized-gaming-tools-spread-java.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/trojanized-gaming-tools-spread-java.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Trump Orders All Federal Agencies to Phase Out Use of Anthropic Technology</h3>
@@ -133,32 +126,39 @@
                 <a href="https://www.securityweek.com/chilean-carding-shop-operator-extradited-to-us/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>QuickLens Chrome extension steals crypto, shows ClickFix attack</h3>
-                <p><strong>Summary:</strong> A Chrome extension named "QuickLens - Search Screen with Google Lens" has been removed from the Chrome Web Store after it was compromised to push malware and attempt to steal crypto from thousands of ...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Anthropic Refuses to Bend to Pentagon on AI Safeguards as Dispute Nears Deadline</h3>
+                <p><strong>Summary:</strong> Anthropic said it sought narrow assurances from the Pentagon that Claude won’t be used for mass surveillance of Americans or in fully autonomous weapons.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/anthropic-refuses-to-bend-to-pentagon-on-ai-safeguards-as-dispute-nears-deadline/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/anthropic-refuses-to-bend-to-pentagon-on-ai-safeguards-as-dispute-nears-deadline/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>$4.8M in crypto stolen after Korean tax agency exposes wallet seed</h3>
-                <p><strong>Summary:</strong> South Korea's National Tax Service accidentally exposed the mnemonic recovery phrase of a seized cryptocurrency wallet in an official press release, allowing hackers to steal 6.4 billion won ($4.8M) w...</p>
+                <h3>Microsoft testing Windows 11 batch file security improvements</h3>
+                <p><strong>Summary:</strong> Microsoft is rolling out new Windows 11 Insider Preview builds that improve security and performance during batch file or CMD script execution.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APT37 hackers use new malware to breach air-gapped networks</h3>
+                <p><strong>Summary:</strong> North Korean hackers are deploying newly uncovered tools to move data between internet-connected and air-gapped systems, spread via removable drives, and conduct covert surveillance.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Webinar: Defending Against Malicious Browser Extensions</h3>
+                <p><strong>Summary:</strong> Attackers are doubling down on malicious browser extensions as their method of choice, stealing data, intercepting cookies and tokens, logging keystrokes, and more.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/browser-extension-attacks?utm_source=bleepingcomputer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Europol-led crackdown on The Com hackers leads to 30 arrests</h3>
+                <p><strong>Summary:</strong> A yearlong Europol-coordinated operation dubbed "Project Compass" has led to 30 arrests and 179 suspects being tied to "The Com," an online cybercrime collective that targets children and teenagers.</p>
                 <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Shadow AI Is Everywhere. Here's How to Find and Secure It.</h3>
-                <p><strong>Summary:</strong> AI is quietly accessing sensitive data through integrations and MCP server connections. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server con...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/77/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/mgo/77/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Just $80 gets you a refurbished travel-ready Lenovo Chromebook</h3>
-                <p><strong>Summary:</strong> Spending hundreds on a secondary laptop doesn't always make sense — especially if you just need something lightweight for travel, quick tasks, or as a backup around the house. At $79.99 (MSRP: $284.99...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/just-80-gets-you-a-refurbished-travel-ready-lenovo-chromebook/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/just-80-gets-you-a-refurbished-travel-ready-lenovo-chromebook/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
