@@ -1,0 +1,209 @@
+{
+  "date": "2026-03-02",
+  "items": [
+    {
+      "title": "North Korean Hackers Publish 26 npm Packages Hiding Pastebin C2 for Cross-Platform RAT",
+      "link": "https://thehackernews.com/2026/03/north-korean-hackers-publish-26-npm.html",
+      "summary": "Cybersecurity researchers have disclosed a new iteration of the ongoing Contagious Interview  campaign, where the North Korean threat actors have published a set of 26 malicious packages to the npm registry.  The packages masquerade as developer tools, but contain functionality to extract the actual command-and-control (C2) by using seemingly harmless Pastebin content as a dead drop resolver and ultimately drop a developer-targeted credential stealer and remote access trojan. The C2 infrastructure is hosted on Vercel across 31 deployments.  The campaign , tracked by Socket and kmsec.uk's Kieran Miyamoto is being tracked under the moniker StegaBin .  \"The loader extracts C2 URLs steganographically encoded within three Pastebin pastes, innocuous computer science essays in which characters at evenly-spaced positions have been replaced to spell out hidden infrastructure addresses,\" Socket researchers Philipp Burckhardt and Peter van der Zee said .   The list of the malicious...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "north-korean-hackers-publish-26-npm-packages-hidin",
+      "source": "The Hacker News",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
+      "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
+      "summary": "OpenClaw has fixed a high-severity security issue that, if successfully exploited, could have allowed a malicious website to connect to a locally running artificial intelligence (AI) agent and take over control.  \"Our vulnerability lives in the core system itself – no plugins, no marketplace, no user-installed extensions – just the bare OpenClaw gateway, running exactly as documented,\" Oasis Security said  in a report published this week.  The flaw has been codenamed ClawJacked  by the cybersecurity company.  The attack assumes the following threat model: A developer has OpenClaw  set up and running on their laptop, with its gateway , a local WebSocket server, bound to localhost and protected by a password. The attack kicks in when the developer lands on an attacker-controlled website through social engineering or some other means.  The infection sequence then follows the steps below -   Malicious JavaScript on the web page opens a WebSocket connection to localhost on the ...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "clawjacked-flaw-lets-malicious-sites-hijack-local-",
+      "source": "The Hacker News",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
+      "link": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
+      "summary": "New research has found that Google Cloud API keys, typically designated as project identifiers for billing purposes, could be abused to authenticate to sensitive Gemini endpoints and access private data.  The findings come from Truffle Security, which discovered nearly 3,000 Google API keys (identified by the prefix \"AIza\") embedded in client-side code to provide Google-related services like embedded maps on websites.  \"With a valid key, an attacker can access uploaded files, cached data, and charge LLM-usage to your account,\" security researcher Joe Leon said , adding the keys \"now also authenticate to Gemini even though they were never intended for it.\"  The problem occurs when users enable the Gemini API on a Google Cloud project (i.e., Generative Language API), causing the existing API keys in that project, including those accessible via the website JavaScript code, to gain surreptitious access to Gemini endpoints without any warning or notice.   Th...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "thousands-of-public-google-cloud-api-keys-exposed-",
+      "source": "The Hacker News",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute",
+      "link": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
+      "summary": "Anthropic on Friday hit back after U.S. Secretary of Defense Pete Hegseth directed the Pentagon to designate the artificial intelligence (AI) upstart as a \"supply chain risk.\"  \"This action follows months of negotiations that reached an impasse over two exceptions we requested to the lawful use of our AI model, Claude: the mass domestic surveillance of Americans and fully autonomous weapons,\" the company said .  \"No amount of intimidation or punishment from the Department of War will change our position on mass domestic surveillance or fully autonomous weapons.\"  In a social media post on Truth Social, U.S. President Donald Trump said  he was ordering all federal agencies to phase out the use of Anthropic technology within the next six months. A subsequent X post from Hegseth mandated that all contractors, suppliers, and partners doing business with the U.S. military cease any \"commercial activity with Anthropic\" effective immediately.   \"I...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "pentagon-designates-anthropic-supply-chain-risk-ov",
+      "source": "The Hacker News",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams",
+      "link": "https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html",
+      "summary": "The U.S. Department of Justice (DoJ) this week announced the seizure of $61 million worth of Tether that were allegedly associated with bogus cryptocurrency schemes known as pig butchering .  The confiscated funds were traced to cryptocurrency addresses used for the laundering of criminally derived proceeds stolen from victims of cryptocurrency investment scams, the department added.  \"Criminal actors and professional money launderers use cyber-enabled fraud schemes to swindle their victims and conceal their ill-gotten gains,\" said  HSI Charlotte Acting Special Agent in Charge Kyle D. Burns.  \"HSI special agents work diligently to trace the illicit proceeds of crime across the globe to disrupt and dismantle the transnational criminal organizations that seek to defraud hardworking Americans.\"  As is the norm in such cybercrime operations, threat actors are known to target individuals by cultivating romantic relationships after approaching them on dating and social m...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "doj-seizes-61-million-in-tether-linked-to-pig-butc",
+      "source": "The Hacker News",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks",
+      "link": "https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html",
+      "summary": "The Shadowserver Foundation has revealed  that over 900 Sangoma FreePBX instances still remain infected with web shells as part of attacks that exploited a command injection vulnerability starting in December 2025.  Of these, 401 instances  are located in the U.S., followed by 51 in Brazil, 43 in Canada, 40 in Germany, and 36 in France.  The non-profit entity said the compromises are likely accomplished via the exploitation of CVE-2025-64328 (CVSS score: 8.6), a high-severity security flaw that could enable post-authentication command injection.  \"The impact is that any user with access to the FreePBX Administration panel could leverage this vulnerability to execute arbitrary shell commands on the underlying host,\" FreePBX said  in an advisory for the flaw in November 2025. \"An attacker could leverage this to obtain remote access to the system as the asterisk user.\"   The vulnerability affects FreePBX versions higher than and including 17.0.2.36. It was resolved in...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "900-sangoma-freepbx-instances-compromised-in-ongoi",
+      "source": "The Hacker News",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Hackers Weaponize Claude Code in Mexican Government Cyberattack",
+      "link": "https://www.securityweek.com/hackers-weaponize-claude-code-in-mexican-government-cyberattack/",
+      "summary": "The AI was abused to write exploits, create tools, and automatically exfiltrate over 150GB of data.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-weaponize-claude-code-in-mexican-governmen",
+      "source": "SecurityWeek",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Canadian Tire Data Breach Impacts 38 Million Accounts",
+      "link": "https://www.securityweek.com/canadian-tire-data-breach-impacts-38-million-accounts/",
+      "summary": "Names, addresses, email addresses, phone numbers, and encrypted passwords were compromised in the attack.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "canadian-tire-data-breach-impacts-38-million-accou",
+      "source": "SecurityWeek",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Trump Orders All Federal Agencies to Phase Out Use of Anthropic Technology",
+      "link": "https://www.securityweek.com/trump-orders-all-federal-agencies-to-phase-out-use-of-anthropic-technology/",
+      "summary": "OpenAI and Google, along with Elon Musk’s xAI, also have contracts to supply their AI models to the military.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "trump-orders-all-federal-agencies-to-phase-out-use",
+      "source": "SecurityWeek",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "In Other News: ATT&CK Advisory Council, Russian Cyberattacks Aid Missile Strikes, Predator Bypasses iOS Indicators",
+      "link": "https://www.securityweek.com/in-other-news-attck-advisory-council-russian-cyberattacks-aid-missile-strikes-predator-bypasses-ios-indicators/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: cyber valuations surge, OpenAI disrupts malicious AI use, ShinyHunters claims Odido breach.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-attck-advisory-council-russian-cyber",
+      "source": "SecurityWeek",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "38 Million Allegedly Impacted by ManoMano Data Breach",
+      "link": "https://www.securityweek.com/38-million-allegedly-impacted-by-manomano-data-breach/",
+      "summary": "Hackers stole personal information such as names, email addresses, phone numbers, and other information.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "38-million-allegedly-impacted-by-manomano-data-bre",
+      "source": "SecurityWeek",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "900 Sangoma FreePBX Instances Infected With Web Shells",
+      "link": "https://www.securityweek.com/900-sangoma-freepbx-instances-infected-with-web-shells/",
+      "summary": "The attacks exploited a post-authentication command injection vulnerability in the endpoint manager’s interface.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "900-sangoma-freepbx-instances-infected-with-web-sh",
+      "source": "SecurityWeek",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "ClawJacked attack let malicious websites hijack OpenClaw to steal data",
+      "link": "https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/",
+      "summary": "Security researchers have disclosed a high-severity vulnerability dubbed \"ClawJacked\" in the popular AI agent OpenClaw that allowed a malicious website to silently bruteforce access to a locally running instance and take control over it.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "clawjacked-attack-let-malicious-websites-hijack-op",
+      "source": "BleepingComputer",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Samsung TVs to stop collecting Texans’ data without express consent",
+      "link": "https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/",
+      "summary": "Samsung and the State of Texas have reached a settlement agreement over the alleged unlawful collection of content-viewing information through its smart TVs",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "samsung-tvs-to-stop-collecting-texans-data-without",
+      "source": "BleepingComputer",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Shadow AI Is Everywhere. Here's How to Find and Secure It.",
+      "link": "https://www.bleepingcomputer.com/mgo/77/",
+      "summary": "AI is quietly accessing sensitive data through integrations and MCP server connections. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Take control of shadow AI risks today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "shadow-ai-is-everywhere-heres-how-to-find-and-secu",
+      "source": "BleepingComputer",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "1TB lifetime of Koffr cloud storage is just $160 for a limited time",
+      "link": "https://www.bleepingcomputer.com/offer/deals/1tb-lifetime-of-koffr-cloud-storage-is-just-160-for-a-limited-time/",
+      "summary": "For just $159.99 (MSRP: $810) through March 7 at 11:59 p.m. PT, you can lock in 1TB of Koofr cloud storage with a single payment.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "1tb-lifetime-of-koffr-cloud-storage-is-just-160-fo",
+      "source": "BleepingComputer",
+      "date": "2026-03-02"
+    }
+  ]
+}

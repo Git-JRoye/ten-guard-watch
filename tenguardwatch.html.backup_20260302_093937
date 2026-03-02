@@ -44,17 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">North Korean Hackers Publish 26 npm Packages Hiding Pastebin C2 for Cross-Platform RAT</div><div class="ticker-item">ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket</div><div class="ticker-item">Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement</div><div class="ticker-item">Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute</div><div class="ticker-item">DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams</div><div class="ticker-item">900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks</div><div class="ticker-item">Hackers Weaponize Claude Code in Mexican Government Cyberattack</div><div class="ticker-item">Canadian Tire Data Breach Impacts 38 Million Accounts</div><div class="ticker-item">Trump Orders All Federal Agencies to Phase Out Use of Anthropic Technology</div><div class="ticker-item">In Other News: ATT&CK Advisory Council, Russian Cyberattacks Aid Missile Strikes, Predator Bypasses iOS Indicators</div><div class="ticker-item">38 Million Allegedly Impacted by ManoMano Data Breach</div><div class="ticker-item">900 Sangoma FreePBX Instances Infected With Web Shells</div><div class="ticker-item">ClawJacked attack let malicious websites hijack OpenClaw to steal data</div><div class="ticker-item">Samsung TVs to stop collecting Texans’ data without express consent</div><div class="ticker-item">Shadow AI Is Everywhere. Here's How to Find and Secure It.</div><div class="ticker-item">1TB lifetime of Koffr cloud storage is just $160 for a limited time</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket</div><div class="ticker-item">Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement</div><div class="ticker-item">Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute</div><div class="ticker-item">DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams</div><div class="ticker-item">900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks</div><div class="ticker-item">Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor</div><div class="ticker-item">Canadian Tire Data Breach Impacts 38 Million Accounts</div><div class="ticker-item">Trump Orders All Federal Agencies to Phase Out Use of Anthropic Technology</div><div class="ticker-item">In Other News: ATT&CK Advisory Council, Russian Cyberattacks Aid Missile Strikes, Predator Bypasses iOS Indicators</div><div class="ticker-item">38 Million Allegedly Impacted by ManoMano Data Breach</div><div class="ticker-item">900 Sangoma FreePBX Instances Infected With Web Shells</div><div class="ticker-item">Chilean Carding Shop Operator Extradited to US</div><div class="ticker-item">QuickLens Chrome extension steals crypto, shows ClickFix attack</div><div class="ticker-item">$4.8M in crypto stolen after Korean tax agency exposes wallet seed</div><div class="ticker-item">Shadow AI Is Everywhere. Here's How to Find and Secure It.</div><div class="ticker-item">Just $80 gets you a refurbished travel-ready Lenovo Chromebook</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>North Korean Hackers Publish 26 npm Packages Hiding Pastebin C2 for Cross-Platform RAT</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed a new iteration of the ongoing Contagious Interview  campaign, where the North Korean threat actors have published a set of 26 malicious packages to the npm re...</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/north-korean-hackers-publish-26-npm.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/north-korean-hackers-publish-26-npm.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket</h3>
                 <p><strong>Summary:</strong> OpenClaw has fixed a high-severity security issue that, if successfully exploited, could have allowed a malicious website to connect to a locally running artificial intelligence (AI) agent and take ov...</p>
@@ -91,11 +84,11 @@
                 <a href="https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Hackers Weaponize Claude Code in Mexican Government Cyberattack</h3>
-                <p><strong>Summary:</strong> The AI was abused to write exploits, create tools, and automatically exfiltrate over 150GB of data.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackers-weaponize-claude-code-in-mexican-government-cyberattack/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/hackers-weaponize-claude-code-in-mexican-government-cyberattack/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a malicious Go module that's designed to harvest passwords, create persistent access via SSH, and deliver a Linux backdoor named Rekoobe.  The Go mo...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Canadian Tire Data Breach Impacts 38 Million Accounts</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/900-sangoma-freepbx-instances-infected-with-web-shells/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>ClawJacked attack let malicious websites hijack OpenClaw to steal data</h3>
-                <p><strong>Summary:</strong> Security researchers have disclosed a high-severity vulnerability dubbed "ClawJacked" in the popular AI agent OpenClaw that allowed a malicious website to silently bruteforce access to a locally runni...</p>
-                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Chilean Carding Shop Operator Extradited to US</h3>
+                <p><strong>Summary:</strong> The 24-year-old suspect has been accused of trafficking over 26,000 cards from a single brand.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chilean-carding-shop-operator-extradited-to-us/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chilean-carding-shop-operator-extradited-to-us/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Samsung TVs to stop collecting Texans’ data without express consent</h3>
-                <p><strong>Summary:</strong> Samsung and the State of Texas have reached a settlement agreement over the alleged unlawful collection of content-viewing information through its smart TVs</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>QuickLens Chrome extension steals crypto, shows ClickFix attack</h3>
+                <p><strong>Summary:</strong> A Chrome extension named "QuickLens - Search Screen with Google Lens" has been removed from the Chrome Web Store after it was compromised to push malware and attempt to steal crypto from thousands of ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>$4.8M in crypto stolen after Korean tax agency exposes wallet seed</h3>
+                <p><strong>Summary:</strong> South Korea's National Tax Service accidentally exposed the mnemonic recovery phrase of a seized cryptocurrency wallet in an official press release, allowing hackers to steal 6.4 billion won ($4.8M) w...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Shadow AI Is Everywhere. Here's How to Find and Secure It.</h3>
@@ -154,11 +154,11 @@
                 <a href="https://www.bleepingcomputer.com/mgo/77/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>1TB lifetime of Koffr cloud storage is just $160 for a limited time</h3>
-                <p><strong>Summary:</strong> For just $159.99 (MSRP: $810) through March 7 at 11:59 p.m. PT, you can lock in 1TB of Koofr cloud storage with a single payment.</p>
+                <h3>Just $80 gets you a refurbished travel-ready Lenovo Chromebook</h3>
+                <p><strong>Summary:</strong> Spending hundreds on a secondary laptop doesn't always make sense — especially if you just need something lightweight for travel, quick tasks, or as a backup around the house. At $79.99 (MSRP: $284.99...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/1tb-lifetime-of-koffr-cloud-storage-is-just-160-for-a-limited-time/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/1tb-lifetime-of-koffr-cloud-storage-is-just-160-for-a-limited-time/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/just-80-gets-you-a-refurbished-travel-ready-lenovo-chromebook/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/just-80-gets-you-a-refurbished-travel-ready-lenovo-chromebook/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
