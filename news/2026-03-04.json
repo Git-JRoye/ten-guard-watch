@@ -1,0 +1,212 @@
+{
+  "date": "2026-03-04",
+  "items": [
+    {
+      "title": "APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google Drive C2",
+      "link": "https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html",
+      "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) group dubbed Silver Dragon  that has been linked to cyber attacks targeting entities in Europe and Southeast Asia since at least mid-2024.  \"Silver Dragon gains its initial access by exploiting public-facing internet servers and by delivering phishing emails that contain malicious attachments,\" Check Point said  in a technical report. \"To maintain persistence, the group hijacks legitimate Windows services, which allows the malware processes to blend into normal system activity.\"  Silver Dragon is assessed to be operating within the APT41 umbrella . APT41 is the cryptonym assigned to a prolific Chinese hacking group known for its targeting of healthcare, telecoms, high-tech, education, travel services, and media sectors for cyber espionage as early as 2012. It's also believed to engage in financially motivated activity potentially outside of state control.  Attacks mounted by...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apt41-linked-silver-dragon-targets-governments-usi",
+      "source": "The Hacker News",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog",
+      "link": "https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a recently disclosed security flaw impacting Broadcom VMware Aria Operations to its Known Exploited Vulnerabilities ( KEV ) catalog, citing active exploitation in the wild.  The high-severity vulnerability, CVE-2026-22719  (CVSS score: 8.1), has been described as a case of command injection that could allow an unauthenticated attacker to execute arbitrary commands.  \"A malicious unauthenticated actor may exploit this issue to execute arbitrary commands, which may lead to remote code execution in VMware Aria Operations while support-assisted product migration is in progress,\" the company said  in an advisory released late last month.   The shortcoming was addressed, along withCVE-2026-22720, a stored cross-site scripting vulnerability, and CVE-2026-22721, a privilege escalation vulnerability that could result in administrative access. It impacts the following products -   VMware Cloud Foundatio...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-actively-exploited-vmware-aria-operation",
+      "source": "The Hacker News",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Fake Tech Support Spam Deploys Customized Havoc C2 Across Organizations",
+      "link": "https://thehackernews.com/2026/03/fake-tech-support-spam-deploys.html",
+      "summary": "Threat hunters have called attention to a new campaign as part of which bad actors masqueraded as fake IT support to deliver the Havoc  command-and-control (C2) framework as a precursor to data exfiltration or ransomware attack.  The intrusions, identified  by Huntress last month across five partner organizations, involved the threat actors using email spam as lures, followed by a phone call from an IT desk that activates a layered malware delivery pipeline.  \"In one organization, the adversary moved from initial access to nine additional endpoints over the course of eleven hours, deploying a mix of custom Havoc Demon  payloads and legitimate RMM tools for persistence, with the speed of lateral movement strongly suggesting the end goal was data exfiltration, ransomware, or both,\" researchers Michael Tigges, Anna Pham, and Bryan Masters said.  It's worth noting that the modus operandi is consistent with email bombing and Microsoft Teams phishing attacks orchestrated  by t...",
+      "tags": [
+        "malware",
+        "phishing",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fake-tech-support-spam-deploys-customized-havoc-c2",
+      "source": "The Hacker News",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Building a High-Impact Tier 1: The 3 Steps CISOs Must Follow",
+      "link": "https://thehackernews.com/2026/03/building-high-impact-tier-1-3-steps.html",
+      "summary": "Every CISO knows the uncomfortable truth about their Security Operations Center: the people most responsible for catching threats in real time are the people with the least experience. Tier 1 analysts sit at the front line of detection, and yet they are also the most vulnerable to the cognitive and organizational pressures that quietly erode SOC performance over time.  The Paradox at the Gate: Why Tier 1 Carries the Weight but Lacks the Armor  Tier 1 is the layer that processes the highest volume of alerts, performs initial triage, and determines what gets escalated. But it is built on a foundation that is structurally fragile. Entry-level analysts, high turnover rates, and relentless alert queues create conditions where even well-designed detection rules fail to translate into timely, accurate responses.  The paradox is here:    Tier 1 performance defines SOC performance;  But Tier 1 is often the least supported, least empowered, and most cognitively overloaded layer   Tier 1 an...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "building-a-high-impact-tier-1-the-3-steps-cisos-mu",
+      "source": "The Hacker News",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Open-Source CyberStrikeAI Deployed in AI-Driven FortiGate Attacks Across 55 Countries",
+      "link": "https://thehackernews.com/2026/03/open-source-cyberstrikeai-deployed-in.html",
+      "summary": "The threat actor behind the recently disclosed artificial intelligence (AI)-assisted campaign targeting Fortinet FortiGate appliances leveraged an open-source, AI-native security testing platform called CyberStrikeAI  to execute the attacks.  The new findings come from Team Cymru, which detected its use following an analysis of the IP address (\"212.11.64[.]250\") that was used by the suspected Russian-speaking threat actor to conduct automated mass scanning for vulnerable appliances.  CyberStrikeAI is an \"open-source artificial intelligence (AI) offensive security tool (OST) developed by a China-based developer who we assess has some ties to the Chinese government,\" security researcher Will Thomas (aka @BushidoToken ) said .  Details of the AI-powered activity came to light last month when Amazon Threat Intelligence said  it detected the unknown attacker systematically targeting FortiGate devices using generative artificial intelligence (AI) services like Anthropic ...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "open-source-cyberstrikeai-deployed-in-ai-driven-fo",
+      "source": "The Hacker News",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "AI Agents: The Next Wave Identity Dark Matter - Powerful, Invisible, and Unmanaged",
+      "link": "https://thehackernews.com/2026/03/ai-agents-next-wave-identity-dark.html",
+      "summary": "The Rise of MCPs in the Enterprise  The Model Context Protocol (MCP) is quickly becoming a practical way to push LLMs from “chat” into real work. By providing structured access to applications, APIs, and data, MCP enables prompt-driven AI agents that can retrieve information, take action, and automate end-to-end business workflows across the enterprise. This is already showing up in production through horizontal assistants and custom vertical agents. like Microsoft Copilot, ServiceNow, Zendesk bots, and Salesforce Agentforce, with custom and vertical agents moving fast behind them. This echoes the recent Gartner  “Market Guide for Guardian Agents” report , where analysts note that the rapid enterprise adoption of these AI agents is significantly outpacing the maturity of the governance and policy controls required to manage them.  We believe the primary disconnect is that these AI “colleagues” don’t look like humans.   They don’t join or leave through HR  They don’t submit access re...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ai-agents-the-next-wave-identity-dark-matter-power",
+      "source": "The Hacker News",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Critical FreeScout Vulnerability Leads to Full Server Compromise",
+      "link": "https://www.securityweek.com/critical-freescout-vulnerability-leads-to-full-server-compromise/",
+      "summary": "A patch bypass for an authenticated code execution bug, the flaw leads to zero-click remote code execution attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-freescout-vulnerability-leads-to-full-ser",
+      "source": "SecurityWeek",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "VMware Aria Operations Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/vmware-aria-operations-vulnerability-exploited-in-the-wild/",
+      "summary": "The recently patched CVE-2026-22719 can be exploited by an unauthenticated attacker for remote code execution.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "vmware-aria-operations-vulnerability-exploited-in-",
+      "source": "SecurityWeek",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Iranian Strikes on Amazon Data Centers Highlight Industry’s Vulnerability to Physical Disasters",
+      "link": "https://www.securityweek.com/iranian-strikes-on-amazon-data-centers-highlight-industrys-vulnerability-to-physical-disasters/",
+      "summary": "Two AWS data centers in the United Arab Emirates were “directly struck” and another facility in Bahrain was also damaged after a drone landed nearby.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "iranian-strikes-on-amazon-data-centers-highlight-i",
+      "source": "SecurityWeek",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Fig Security Launches With $38 Million to Bolster SecOps Resilience",
+      "link": "https://www.securityweek.com/fig-security-launches-with-38-million-to-bolster-secops-resilience/",
+      "summary": "The company was founded in March 2025 and it has now emerged from stealth mode.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fig-security-launches-with-38-million-to-bolster-s",
+      "source": "SecurityWeek",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Honeywell, Researcher Clash Over Impact of Building Controller Vulnerability",
+      "link": "https://www.securityweek.com/honeywell-researcher-clash-over-impact-of-building-controller-vulnerability/",
+      "summary": "The researcher says he has identified thousands of internet-exposed IQ4 building management controllers.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "honeywell-researcher-clash-over-impact-of-building",
+      "source": "SecurityWeek",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Quantum Decryption of RSA Is Much Closer Than Expected",
+      "link": "https://www.securityweek.com/quantum-decryption-of-rsa-is-much-closer-than-expected/",
+      "summary": "For decades, the quantum threat to RSA and ECC encryption has been tied to Shor’s algorithm and the assumption that we would need million-qubit quantum computers to make it practical. A newly announced algorithm challenges that assumption and suggests the breaking point could arrive far sooner than expected.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "quantum-decryption-of-rsa-is-much-closer-than-expe",
+      "source": "SecurityWeek",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "CISA flags VMware Aria Operations RCE flaw as exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a VMware Aria Operations vulnerability tracked as CVE-2026-22719 to its Known Exploited Vulnerabilities catalog, flagging the flaw as exploited in attacks.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-flags-vmware-aria-operations-rce-flaw-as-expl",
+      "source": "BleepingComputer",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Paint maker giant AkzoNobel confirms cyberattack on U.S. site",
+      "link": "https://www.bleepingcomputer.com/news/security/paint-maker-giant-akzonobel-confirms-cyberattack-on-us-site/",
+      "summary": "The multinational Dutch paint company AkzoNobel has confirmed to BleepingComputer that hackers breached the network of one of its U.S. sites.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "paint-maker-giant-akzonobel-confirms-cyberattack-o",
+      "source": "BleepingComputer",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Shadow AI Is Everywhere. Here's How to Find and Secure It.",
+      "link": "https://www.bleepingcomputer.com/mgo/77/",
+      "summary": "AI is quietly accessing sensitive data through integrations and MCP server connections. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Take control of shadow AI risks today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "shadow-ai-is-everywhere-heres-how-to-find-and-secu",
+      "source": "BleepingComputer",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Facebook accounts unavailable in worldwide outage",
+      "link": "https://www.bleepingcomputer.com/news/technology/facebook-hit-with-worldwide-outage-stating-accounts-are-unavailable/",
+      "summary": "Social media giant Facebook is currently experiencing a massive worldwide outage, preventing users from accessing their accounts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "facebook-accounts-unavailable-in-worldwide-outage",
+      "source": "BleepingComputer",
+      "date": "2026-03-04"
+    }
+  ]
+}
