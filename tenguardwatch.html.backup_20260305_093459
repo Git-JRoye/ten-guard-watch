@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google Drive C2</div><div class="ticker-item">CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog</div><div class="ticker-item">Fake Tech Support Spam Deploys Customized Havoc C2 Across Organizations</div><div class="ticker-item">Building a High-Impact Tier 1: The 3 Steps CISOs Must Follow</div><div class="ticker-item">Open-Source CyberStrikeAI Deployed in AI-Driven FortiGate Attacks Across 55 Countries</div><div class="ticker-item">AI Agents: The Next Wave Identity Dark Matter - Powerful, Invisible, and Unmanaged</div><div class="ticker-item">Critical FreeScout Vulnerability Leads to Full Server Compromise</div><div class="ticker-item">VMware Aria Operations Vulnerability Exploited in the Wild</div><div class="ticker-item">Iranian Strikes on Amazon Data Centers Highlight Industry’s Vulnerability to Physical Disasters</div><div class="ticker-item">Fig Security Launches With $38 Million to Bolster SecOps Resilience</div><div class="ticker-item">Honeywell, Researcher Clash Over Impact of Building Controller Vulnerability</div><div class="ticker-item">Quantum Decryption of RSA Is Much Closer Than Expected</div><div class="ticker-item">CISA flags VMware Aria Operations RCE flaw as exploited in attacks</div><div class="ticker-item">Paint maker giant AkzoNobel confirms cyberattack on U.S. site</div><div class="ticker-item">Shadow AI Is Everywhere. Here's How to Find and Secure It.</div><div class="ticker-item">Facebook accounts unavailable in worldwide outage</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google Drive C2</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) group dubbed Silver Dragon  that has been linked to cyber attacks targeting entities in Europe and Southeast Asi...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a recently disclosed security flaw impacting Broadcom VMware Aria Operations to its Known Exploited Vulnerabilities (...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake Tech Support Spam Deploys Customized Havoc C2 Across Organizations</h3>
+                <p><strong>Summary:</strong> Threat hunters have called attention to a new campaign as part of which bad actors masqueraded as fake IT support to deliver the Havoc  command-and-control (C2) framework as a precursor to data exfilt...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/fake-tech-support-spam-deploys.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/fake-tech-support-spam-deploys.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Building a High-Impact Tier 1: The 3 Steps CISOs Must Follow</h3>
+                <p><strong>Summary:</strong> Every CISO knows the uncomfortable truth about their Security Operations Center: the people most responsible for catching threats in real time are the people with the least experience. Tier 1 analysts...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/building-high-impact-tier-1-3-steps.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/building-high-impact-tier-1-3-steps.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Open-Source CyberStrikeAI Deployed in AI-Driven FortiGate Attacks Across 55 Countries</h3>
+                <p><strong>Summary:</strong> The threat actor behind the recently disclosed artificial intelligence (AI)-assisted campaign targeting Fortinet FortiGate appliances leveraged an open-source, AI-native security testing platform call...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/open-source-cyberstrikeai-deployed-in.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/open-source-cyberstrikeai-deployed-in.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Agents: The Next Wave Identity Dark Matter - Powerful, Invisible, and Unmanaged</h3>
+                <p><strong>Summary:</strong> The Rise of MCPs in the Enterprise  The Model Context Protocol (MCP) is quickly becoming a practical way to push LLMs from “chat” into real work. By providing structured access to applications, APIs, ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/ai-agents-next-wave-identity-dark.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/ai-agents-next-wave-identity-dark.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical FreeScout Vulnerability Leads to Full Server Compromise</h3>
+                <p><strong>Summary:</strong> A patch bypass for an authenticated code execution bug, the flaw leads to zero-click remote code execution attacks.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-freescout-vulnerability-leads-to-full-server-compromise/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-freescout-vulnerability-leads-to-full-server-compromise/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>VMware Aria Operations Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> The recently patched CVE-2026-22719 can be exploited by an unauthenticated attacker for remote code execution.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/vmware-aria-operations-vulnerability-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/vmware-aria-operations-vulnerability-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Iranian Strikes on Amazon Data Centers Highlight Industry’s Vulnerability to Physical Disasters</h3>
+                <p><strong>Summary:</strong> Two AWS data centers in the United Arab Emirates were “directly struck” and another facility in Bahrain was also damaged after a drone landed nearby.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/iranian-strikes-on-amazon-data-centers-highlight-industrys-vulnerability-to-physical-disasters/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/iranian-strikes-on-amazon-data-centers-highlight-industrys-vulnerability-to-physical-disasters/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fig Security Launches With $38 Million to Bolster SecOps Resilience</h3>
+                <p><strong>Summary:</strong> The company was founded in March 2025 and it has now emerged from stealth mode.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fig-security-launches-with-38-million-to-bolster-secops-resilience/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fig-security-launches-with-38-million-to-bolster-secops-resilience/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Honeywell, Researcher Clash Over Impact of Building Controller Vulnerability</h3>
+                <p><strong>Summary:</strong> The researcher says he has identified thousands of internet-exposed IQ4 building management controllers.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/honeywell-researcher-clash-over-impact-of-building-controller-vulnerability/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/honeywell-researcher-clash-over-impact-of-building-controller-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Quantum Decryption of RSA Is Much Closer Than Expected</h3>
+                <p><strong>Summary:</strong> For decades, the quantum threat to RSA and ECC encryption has been tied to Shor’s algorithm and the assumption that we would need million-qubit quantum computers to make it practical. A newly announce...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/quantum-decryption-of-rsa-is-much-closer-than-expected/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/quantum-decryption-of-rsa-is-much-closer-than-expected/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA flags VMware Aria Operations RCE flaw as exploited in attacks</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a VMware Aria Operations vulnerability tracked as CVE-2026-22719 to its Known Exploited Vulnerabilities catalog, flagging the...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Paint maker giant AkzoNobel confirms cyberattack on U.S. site</h3>
+                <p><strong>Summary:</strong> The multinational Dutch paint company AkzoNobel has confirmed to BleepingComputer that hackers breached the network of one of its U.S. sites.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/paint-maker-giant-akzonobel-confirms-cyberattack-on-us-site/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/paint-maker-giant-akzonobel-confirms-cyberattack-on-us-site/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Shadow AI Is Everywhere. Here's How to Find and Secure It.</h3>
+                <p><strong>Summary:</strong> AI is quietly accessing sensitive data through integrations and MCP server connections. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server con...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/77/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/77/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Facebook accounts unavailable in worldwide outage</h3>
+                <p><strong>Summary:</strong> Social media giant Facebook is currently experiencing a massive worldwide outage, preventing users from accessing their accounts.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/technology/facebook-hit-with-worldwide-outage-stating-accounts-are-unavailable/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/technology/facebook-hit-with-worldwide-outage-stating-accounts-are-unavailable/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

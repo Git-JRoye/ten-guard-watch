@@ -1,0 +1,206 @@
+{
+  "date": "2026-03-05",
+  "items": [
+    {
+      "title": "Europol-Led Operation Takes Down Tycoon 2FA Phishing-as-a-Service Linked to 64,000 Attacks",
+      "link": "https://thehackernews.com/2026/03/europol-led-operation-takes-down-tycoon.html",
+      "summary": "Tycoon 2FA , one of the prominent phishing-as-a-service (PhaaS) toolkits  that allowed cybercriminals to stage adversary-in-the-middle (AitM) credential harvesting attacks at scale, was dismantled by a coalition of law enforcement agencies and security companies.  The subscription-based phishing kit , which first emerged in August 2023 , was described by Europol as one of the largest phishing operations worldwide. The kit was sold via Telegram and Signal for a starting price of $120 for 10 days or $350 for access to a web-based administration panel for a month. Tycoon 2FA's primary developer is alleged to be Saad Fridi , who is said to be based in Pakistan.  The panel serves as a hub for configuring, tracking, and refining campaigns. It features pre‑built templates, attachment files for common lure formats, domain and hosting configuration, redirect logic, and victim tracking. Operators can also configure how the malicious content is delivered through attachments, as well as kee...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "europol-led-operation-takes-down-tycoon-2fa-phishi",
+      "source": "The Hacker News",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "FBI and Europol Seize LeakBase Forum Used to Trade Stolen Credentials",
+      "link": "https://thehackernews.com/2026/03/fbi-and-europol-seize-leakbase-forum.html",
+      "summary": "A joint law enforcement operation has dismantled LeakBase , one of the world's largest online forums for cybercriminals to buy and sell stolen data and cybercrime tools.  The LeakBase forum, per the U.S. Department of Justice (DoJ), had over 142,000 members and more than 215,000 messages between members as of December 2025. Those attempting to access the forum's website (\" leakbase[.]la \") are now greeted with a seizure banner that says it was confiscated by the U.S. Federal Bureau of Investigation (FBI) as part of an international law enforcement effort.  \"All forum content, including users' accounts, posts, credit details, private messages, and IP logs, has been secured and preserved for evidentiary purposes,\" the banner reads.  Available in English and accessible over the clearnet, LeakBase offered hacked databases , including hundreds of millions of account credentials and financial information such as credit and debit card numbers, banking account ...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "fbi-and-europol-seize-leakbase-forum-used-to-trade",
+      "source": "The Hacker News",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "149 Hacktivist DDoS Attacks Hit 110 Organizations in 16 Countries After Middle East Conflict",
+      "link": "https://thehackernews.com/2026/03/149-hacktivist-ddos-attacks-hit-110.html",
+      "summary": "Cybersecurity researchers have warned of a surge in retaliatory hacktivist activity following the U.S.-Israel coordinated military campaign against Iran , codenamed Epic Fury and Roaring Lion.  \"The hacktivist threat in the Middle East is highly lopsided, with two groups, Keymous+ and DieNet, driving nearly 70% of all attack activity between February 28 and March 2,\" Radware said  in a Tuesday report. The first distributed denial-of-service (DDoS) attack was launched by Hider Nex (aka Tunisian Maskers Cyber Force) on February 28, 2026.  According to details  shared by Orange Cyberdefense, Hider Nex is a shadowy Tunisian hacktivist group that supports pro-Palestinian causes. It leverages a hack-and-leak strategy combining DDoS attacks with data breaches to leak sensitive data and advance its geopolitical agenda. The group emerged in mid-2025.  In all, a total of 149 hacktivist DDoS claims were recorded targeting 110 distinct organizations across 16 countries. The attacks were...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "149-hacktivist-ddos-attacks-hit-110-organizations-",
+      "source": "The Hacker News",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Coruna iOS Exploit Kit Uses 23 Exploits Across Five Chains Targeting iOS 13–17.2.1",
+      "link": "https://thehackernews.com/2026/03/coruna-ios-exploit-kit-uses-23-exploits.html",
+      "summary": "Google said it identified a \"new and powerful\" exploit kit dubbed Coruna  (aka CryptoWaters) targeting Apple iPhone models running iOS versions between 13.0 and 17.2.1.  The exploit kit featured five full iOS exploit chains and a total of 23 exploits, Google Threat Intelligence Group (GTIG) said. It's not effective against the latest version of iOS. The findings were first reported  by WIRED.  \"The core technical value of this exploit kit lies in its comprehensive collection of iOS exploits, with the most advanced ones using non-public exploitation techniques and mitigation bypasses,\" according  to GTIG. \"The framework surrounding the exploit kit is extremely well engineered; the exploit pieces are all connected naturally and combined together using common utility and exploitation frameworks.\"  The kit is said to have circulated among multiple threat actors since February 2025, moving from a commercial surveillance operation to a government-backed att...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "coruna-ios-exploit-kit-uses-23-exploits-across-fiv",
+      "source": "The Hacker News",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "New RFP Template for AI Usage Control and AI Governance",
+      "link": "https://thehackernews.com/2026/03/new-rfp-template-for-ai-usage-control.html",
+      "summary": "As AI becomes the central engine for enterprise productivity, security leaders are finally getting the green light — and the budget — to secure it. But there’s a quiet crisis unfolding in the boardroom: many organizations know they need \"AI Governance,\" but they have no idea what they are actually looking for.  The CISO’s Dilemma: You Have the AI Budget, but Do You Have the Requirements?  As AI becomes the central engine for enterprise productivity, security leaders are finally getting the green light—and the budget—to secure it. But there’s a quiet crisis unfolding in the boardroom: many organizations know they need \"AI Governance,\" but they have no idea what they are actually looking for.  Without a structured way to evaluate the exploding market of AI Usage Control (AUC) solutions, teams risk \"investing\" in legacy tools that were never built for the age of agentic workflows and shadow browser extensions.  A new RFP Guide for Evaluating AI Usage Control...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "new-rfp-template-for-ai-usage-control-and-ai-gover",
+      "source": "The Hacker News",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Fake Laravel Packages on Packagist Deploy RAT on Windows, macOS, and Linux",
+      "link": "https://thehackernews.com/2026/03/fake-laravel-packages-on-packagist.html",
+      "summary": "Cybersecurity researchers have flagged  malicious Packagist PHP packages masquerading as Laravel utilities that act as a conduit for a cross-platform remote access trojan (RAT) that's functional on Windows, macOS, and Linux systems.  The names of the packages  are listed below -   nhattuanbl/lara-helper (37 Downloads)  nhattuanbl/simple-queue (29 Downloads)  nhattuanbl/lara-swagger (49 Downloads)   According to Socket, the package \"nhattuanbl/lara-swagger\" does not directly embed malicious code, lists \"nhattuanbl/lara-helper\" as a Composer dependency , causing it to install the RAT. The packages are still available for download from the PHP package registry.   Both lara-helper and simple-queue have been found to contain a PHP file named \"src/helper.php,\" which employs a number of tricks to complicate static analysis by making use of techniques like control flow obfuscation, encoding domain names, command names, and file paths, and randomized identifie...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "fake-laravel-packages-on-packagist-deploy-rat-on-w",
+      "source": "The Hacker News",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Cisco Patches Critical Vulnerabilities in Enterprise Networking Products",
+      "link": "https://www.securityweek.com/cisco-patches-critical-vulnerabilities-in-enterprise-networking-products/",
+      "summary": "Cisco has rolled out patches for 48 vulnerabilities in Firewall ASA, Secure FMC, and Secure FTD products.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-patches-critical-vulnerabilities-in-enterpri",
+      "source": "SecurityWeek",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Nation-State iOS Exploit Kit ‘Coruna’ Found Powering Global Attacks",
+      "link": "https://www.securityweek.com/nation-state-ios-exploit-kit-coruna-found-powering-global-attacks/",
+      "summary": "Google and iVerify analysis reveals a powerful exploit kit originally used by Russian state actors that is now appearing in broader criminal campaigns.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "nation-state-ios-exploit-kit-coruna-found-powering",
+      "source": "SecurityWeek",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Tycoon 2FA Phishing Platform Dismantled in Global Takedown",
+      "link": "https://www.securityweek.com/tycoon-2fa-phishing-platform-dismantled-in-global-takedown/",
+      "summary": "The phishing-as-a-service platform was used to send fraudulent emails to over 500,000 organizations every month.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "tycoon-2fa-phishing-platform-dismantled-in-global-",
+      "source": "SecurityWeek",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "New LexisNexis Data Breach Confirmed After Hackers Leak Files",
+      "link": "https://www.securityweek.com/new-lexisnexis-data-breach-confirmed-after-hackers-leak-files/",
+      "summary": "The hackers claim to have stolen 2GB of files, including 400,000 personal information records.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "new-lexisnexis-data-breach-confirmed-after-hackers",
+      "source": "SecurityWeek",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Zurich Acquires Beazley in $11 Billion Deal to Lead Cyberinsurance",
+      "link": "https://www.securityweek.com/zurich-acquires-beazley-in-11-billion-deal-to-lead-cyberinsurance/",
+      "summary": "The deal awaits final shareholder and regulatory approvals and is expected to be completed in the second half of 2026.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "zurich-acquires-beazley-in-11-billion-deal-to-lead",
+      "source": "SecurityWeek",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Hacker Conversations: Inti De Ceukelaire, Raging Against the Machine Creatively",
+      "link": "https://www.securityweek.com/hacker-conversations-inti-de-ceukelaire-raging-against-the-machine-creatively/",
+      "summary": "A Belgian national, De Ceukelaire’ did not set out to be a hacker. Like many hackers he was born with the potential to become one and only gradually realized he is one.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "hacker-conversations-inti-de-ceukelaire-raging-aga",
+      "source": "SecurityWeek",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Phobos ransomware admin pleads guilty to wire fraud conspiracy",
+      "link": "https://www.bleepingcomputer.com/news/security/phobos-ransomware-admin-pleads-guilty-to-wire-fraud-conspiracy/",
+      "summary": "A Russian national pleaded guilty to a wire fraud conspiracy charge related to his role in administering the Phobos ransomware operation, which breached hundreds of victims worldwide.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "phobos-ransomware-admin-pleads-guilty-to-wire-frau",
+      "source": "BleepingComputer",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Bitwarden adds support for passkey login on Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/",
+      "summary": "Bitwarden announced support for logging into Windows 11 devices using passkeys stored in the manager's vault, enabling phishing-resistant authentication.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "bitwarden-adds-support-for-passkey-login-on-window",
+      "source": "BleepingComputer",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "New research: What AI usage data reveals about risk and governance",
+      "link": "https://www.bleepingcomputer.com/mgo/78/",
+      "summary": "AI adoption is no longer experimental. Research from Nudge Security shows that AI is now embedded in everyday workflows and connected to sensitive systems like email, file shares, and code repos. Get the research along with practical guidance for building a scalable AI governance program.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "new-research-what-ai-usage-data-reveals-about-risk",
+      "source": "BleepingComputer",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Mail2Shell zero-click attack lets hackers hijack FreeScout mail servers",
+      "link": "https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/",
+      "summary": "A maximum severity vulnerability in the FreeScout helpdesk platform allows hackers to achieve remote code execution without any user interaction or authentication.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mail2shell-zero-click-attack-lets-hackers-hijack-f",
+      "source": "BleepingComputer",
+      "date": "2026-03-05"
+    }
+  ]
+}
