@@ -1,0 +1,209 @@
+{
+  "date": "2026-03-06",
+  "items": [
+    {
+      "title": "China-Linked Hackers Use TernDoor, PeerTime, BruteEntry in South American Telecom Attacks",
+      "link": "https://thehackernews.com/2026/03/china-linked-hackers-use-terndoor.html",
+      "summary": "A China-linked advanced persistent threat (APT) actor has been targeting critical telecommunications infrastructure in South America since 2024, targeting Windows and Linux systems and edge devices with three different implants.  The activity is being tracked  by Cisco Talos under the moniker UAT-9244 , describing it as closely associated with another cluster known as FamousSparrow .  It's worth noting that FamousSparrow is assessed to share tactical overlaps with Salt Typhoon , a China-nexus espionage group known for its targeting of telecommunication service providers. Despite the similar targeting footprint between UAT-9244 and Salt Typhoon, there is no conclusive evidence that ties the two clusters together.  In the campaign analyzed by the cybersecurity company, the attack chains have been found to distribute three previously undocumented implants: TernDoor targeting Windows, PeerTime (aka angrypeer) targeting Linux, and BruteEntry, which is installed on network edge device...",
+      "tags": [
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "china-linked-hackers-use-terndoor-peertime-bruteen",
+      "source": "The Hacker News",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Microsoft Reveals ClickFix Campaign Using Windows Terminal to Deploy Lumma Stealer",
+      "link": "https://thehackernews.com/2026/03/microsoft-reveals-clickfix-campaign.html",
+      "summary": "Microsoft on Thursday disclosed details of a new widespread ClickFix  social engineering campaign that has leveraged the Windows Terminal app  as a way to activate a sophisticated attack chain and deploy the Lumma Stealer  malware.  The activity, observed in February 2026, makes use of the terminal emulator program instead of instructing users to launch the Windows Run dialog and paste a command into it.  \"This campaign instructs targets to use the Windows + X → I shortcut to launch Windows Terminal (wt.exe) directly, guiding users into a privileged command execution environment that blends into legitimate administrative workflows and appears more trustworthy to users,\" the Microsoft Threat Intelligence team said  in a series of posts on X.   What makes the latest variant notable is that it bypasses detections specifically designed to flag Run dialog abuse, not to mention take advantage of the legitimacy of Windows Terminal to trick unsuspecting users into running malicious ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-reveals-clickfix-campaign-using-windows-",
+      "source": "The Hacker News",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Hikvision and Rockwell Automation CVSS 9.8 Flaws Added to CISA KEV Catalog",
+      "link": "https://thehackernews.com/2026/03/hikvision-and-rockwell-automation-cvss.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  two security flaws impacting Hikvision and Rockwell Automation products to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The critical-severity vulnerabilities are listed below -   CVE-2017-7921  (CVSS score: 9.8) - An improper authentication vulnerability affecting multiple Hikvision products that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.   CVE-2021-22681  (CVSS score: 9.8) - An insufficiently protected credentials vulnerability affecting multiple Rockwell Automation Studio 5000 Logix Designer, RSLogix 5000, and Logix Controllers that could allow an unauthorized user with network access to the controller to bypass the verification mechanism and authenticate with it, as well as alter its configuration and/or application code.    The addition of CVE-2017-7921 to the KEV catalog comes more...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "hikvision-and-rockwell-automation-cvss-98-flaws-ad",
+      "source": "The Hacker News",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Cisco Confirms Active Exploitation of Two Catalyst SD-WAN Manager Vulnerabilities",
+      "link": "https://thehackernews.com/2026/03/cisco-confirms-active-exploitation-of.html",
+      "summary": "Cisco has disclosed that two more vulnerabilities affecting Catalyst SD-WAN Manager (formerly SD-WAN vManage) have come under active exploitation in the wild.  The vulnerabilities in question  are listed below -   CVE-2026-20122  (CVSS score: 7.1) - An arbitrary file overwrite vulnerability that could allow an authenticated, remote attacker to overwrite arbitrary files on the local file system. Successful exploitation requires the attacker to have valid read-only credentials with API access on the affected system.  CVE-2026-20128  (CVSS score: 5.5) - An information disclosure vulnerability that could allow an authenticated, local attacker to gain Data Collection Agent (DCA) user privileges on an affected system. Successful exploitation requires the attacker to have valid vManage credentials on the affected system.   Patches for the security defects, along with CVE-2026-20126, CVE-2026-20129, and CVE-2026-20133, were released by Cisco late last month in the following versions -   Earli...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisco-confirms-active-exploitation-of-two-catalyst",
+      "source": "The Hacker News",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Preparing for the Quantum Era: Post-Quantum Cryptography Webinar for Security Leaders",
+      "link": "https://thehackernews.com/2026/03/preparing-for-quantum-era-post-quantum.html",
+      "summary": "Most organizations assume encrypted data is safe.  But many attackers are already preparing for a future where today’s encryption can be broken. Instead of trying to decrypt information now, they are collecting encrypted data and storing it  so it can be decrypted later using quantum computers.  This tactic—known as “harvest now, decrypt later” —means sensitive data transmitted today could become readable years from now once quantum capabilities mature.  Security leaders who want to understand this risk and how to prepare can explore it in detail in the upcoming webinar on Post-Quantum Cryptography best practices , where experts will explain practical ways organizations can begin protecting data before quantum decryption becomes possible.  Why Post-Quantum Cryptography Matters  Quantum computing is advancing quickly, and most modern encryption algorithms, such as RSA and ECC, will not remain secure forever.  For organizations that must keep data confidential for many years—financial r...",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "preparing-for-the-quantum-era-post-quantum-cryptog",
+      "source": "The Hacker News",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "ThreatsDay Bulletin: DDR5 Bot Scalping, Samsung TV Tracking, Reddit Privacy Fine & More",
+      "link": "https://thehackernews.com/2026/03/threatsday-bulletin-redis-rce-ddr5-bot.html",
+      "summary": "Some weeks in cybersecurity feel routine. This one doesn’t.  Several new developments surfaced over the past few days, showing how quickly the threat landscape keeps shifting. Researchers uncovered fresh activity, security teams shared new findings, and a few unexpected moves from major tech companies also drew attention.  Together, these updates offer a useful snapshot of what is happening behind the scenes in the cyber world right now. From new tactics and campaigns to security and policy changes that could affect millions of users, there is a lot unfolding at once.  Below is a quick roundup of the most notable stories making headlines this week.                      Phishing Campaign Deploys Multiple Malware Strains             Ukraine Targeted by SHADOWSNIFF, SALATSTEALER, DEAFTICKK Malware                  The Computer Emergency Response Team of Ukraine (CERT-UA) has warned  of a hacking campaign targeting Ukrainian government institutions using phishing emails containing a...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "threatsday-bulletin-ddr5-bot-scalping-samsung-tv-t",
+      "source": "The Hacker News",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Data Security Firm Evervault Raises $25 Million in Series B Funding",
+      "link": "https://www.securityweek.com/data-security-firm-evervault-raises-25-million-in-series-b-funding/",
+      "summary": "The company has raised a total of $46 million in funding for its developer-focused encryption and orchestration platform.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "data-security-firm-evervault-raises-25-million-in-",
+      "source": "SecurityWeek",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Google: Half of 2025’s 90 Exploited Zero-Days Aimed at Enterprises",
+      "link": "https://www.securityweek.com/google-half-of-2025s-90-exploited-zero-days-aimed-at-enterprises/",
+      "summary": "Less than half of the total zero-days have been attributed to a threat actor, but spyware vendors and China are in the lead.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "google-half-of-2025s-90-exploited-zero-days-aimed-",
+      "source": "SecurityWeek",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Russian Ransomware Operator Pleads Guilty in US",
+      "link": "https://www.securityweek.com/russian-ransomware-operator-pleads-guilty-in-us/",
+      "summary": "Evgenii Ptitsyn was extradited to the United States from South Korea in November 2024.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "russian-ransomware-operator-pleads-guilty-in-us",
+      "source": "SecurityWeek",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Cisco Warns of More Catalyst SD-WAN Flaws Exploited in the Wild",
+      "link": "https://www.securityweek.com/cisco-warns-of-more-catalyst-sd-wan-flaws-exploited-in-the-wild/",
+      "summary": "The networking giant has added the recently patched CVE-2026-20128 and CVE-2026-20122 to the list of exploited vulnerabilities.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "cisco-warns-of-more-catalyst-sd-wan-flaws-exploite",
+      "source": "SecurityWeek",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Reclaim Security Raises $20 Million to Accelerate Remediation",
+      "link": "https://www.securityweek.com/reclaim-security-raises-20-million-to-accelerate-remediation/",
+      "summary": "The company will expand its engineering team, deepen integrations, and accelerate go-to-market initiatives.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "reclaim-security-raises-20-million-to-accelerate-r",
+      "source": "SecurityWeek",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "LeakBase Cybercrime Forum Shut Down, Suspects Arrested",
+      "link": "https://www.securityweek.com/leakbase-cybercrime-forum-shut-down-suspects-arrested/",
+      "summary": "The stolen credential marketplace had been active since 2021 and in late 2025 it counted 142,000 users.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "leakbase-cybercrime-forum-shut-down-suspects-arres",
+      "source": "SecurityWeek",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "FBI investigates breach of surveillance and wiretap systems",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-investigates-breach-of-surveillance-and-wiretap-systems/",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) confirmed on Thursday that it's investigating a breach that affected systems used to manage surveillance and wiretap warrants.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-investigates-breach-of-surveillance-and-wireta",
+      "source": "BleepingComputer",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Chinese state hackers target telcos with new malware toolkit",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-state-hackers-target-telcos-with-new-malware-toolkit/",
+      "summary": "A China-linked advanced persistent threat actor tracked as UAT-9244 has been targeting telecommunication service providers in South America since 2024, compromising Windows, Linux, and network-edge devices.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-state-hackers-target-telcos-with-new-malwa",
+      "source": "BleepingComputer",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Shadow AI Is Everywhere. Here's How to Find and Secure It.",
+      "link": "https://www.bleepingcomputer.com/mgo/77/",
+      "summary": "AI is quietly accessing sensitive data through integrations and MCP server connections. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Take control of shadow AI risks today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "shadow-ai-is-everywhere-heres-how-to-find-and-secu",
+      "source": "BleepingComputer",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Bing AI promoted fake OpenClaw GitHub repo pushing info-stealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/bing-ai-promoted-fake-openclaw-github-repo-pushing-info-stealing-malware/",
+      "summary": "Fake OpenClaw installers hosted in GitHub repositories and promoted by Microsoft Bing's AI-enhanced search feature instructed users to run commands that deployed information stealers and proxy malware.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "bing-ai-promoted-fake-openclaw-github-repo-pushing",
+      "source": "BleepingComputer",
+      "date": "2026-03-06"
+    }
+  ]
+}
