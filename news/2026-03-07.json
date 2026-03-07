@@ -1,0 +1,210 @@
+{
+  "date": "2026-03-07",
+  "items": [
+    {
+      "title": "Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India",
+      "link": "https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html",
+      "summary": "The Pakistan-aligned threat actor known as Transparent Tribe  has become the latest hacking group to embrace artificial intelligence (AI)-powered coding tools to strike targets with various implants.  The activity is designed to produce a \"high-volume, mediocre mass of implants\" that are developed using lesser-known programming languages like Nim, Zig, and Crystal and rely on trusted services like Slack, Discord, Supabase, and Google Sheets to fly under the radar, according to new findings from Bitdefender.  \"Rather than a breakthrough in technical sophistication, we are seeing a transition toward AI-assisted malware industrialization that allows the actor to flood target environments with disposable, polyglot binaries,\" security researchers Radu Tudorica, Adrian Schipor, Victor Vrabie, Marius Baciu, and Martin Zugec said  in a technical breakdown of the campaign.  The transition towards vibe-coded malware, aka vibeware , as a means to complicate detection has been...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "transparent-tribe-uses-ai-to-mass-produce-malware-",
+      "source": "The Hacker News",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT",
+      "link": "https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html",
+      "summary": "Cybersecurity researchers have disclosed details of a multi-stage malware campaign that uses batch scripts as a pathway to deliver various encrypted remote access trojan (RATs) payloads that correspond to XWorm , AsyncRAT , and Xeno RAT .  The stealthy attack chain has been codenamed VOID#GEIST  by Securonix Threat Research.  At a high level, the obfuscated batch script is used to deploy a second batch script, stage a legitimate embedded Python runtime, and decrypt encrypted shellcode blobs, which are executed directly in memory by injecting them into separate instances of \"explorer.exe\" using a technique called Early Bird Asynchronous Procedure Call (APC) injection .  \"Modern malware campaigns increasingly shift from standalone executables toward complex, script-based delivery frameworks that closely mimic legitimate user activity,\" researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said  in a technical report shared with The Hacker News.   \"Rath...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "multi-stage-voidgeist-malware-delivering-xworm-asy",
+      "source": "The Hacker News",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "The MSP Guide to Using AI-Powered Risk Management to Scale Cybersecurity",
+      "link": "https://thehackernews.com/2026/03/the-msp-guide-to-using-ai-powered-risk.html",
+      "summary": "Scaling cybersecurity services as an MSP or MSSP requires technical expertise and  a business model that delivers measurable value at scale.  Risk-based cybersecurity is the foundation of that model. When done right, it builds client trust, increases upsell opportunities, and drives recurring revenue. But to deliver this consistently and efficiently, you need the right technology and processes.  We created The MSP Growth Guide: How MSPs Use AI-Powered Risk Management to Scale Their Cybersecurity Business  to help providers transition to scalable, risk-first cybersecurity. Inside, you’ll find practical insights into the top challenges MSPs face, expert guidance on overcoming them, and a framework for selecting and implementing AI-powered risk management to unlock scalable, recurring revenue.  Why Risk Management Is the Key to Scaling Cybersecurity Services  Most MSPs offer critical cybersecurity services, from compliance support to endpoint protection, but these are often isolated en...",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "the-msp-guide-to-using-ai-powered-risk-management-",
+      "source": "The Hacker News",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "Iran-Linked MuddyWater Hackers Target U.S. Networks With New Dindoor Backdoor",
+      "link": "https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html",
+      "summary": "New research from Broadcom's Symantec and Carbon Black Threat Hunter Team has discovered  evidence of an Iranian hacking group embedding itself in several U.S. companies' networks, including banks, airports, non-profit, and the Israeli arm of a software company.  The activity has been attributed to a state-sponsored hacking group called MuddyWater  (aka Seedworm). It's affiliated with the Iranian Ministry of Intelligence and Security (MOIS). The campaign is assessed to have begun in early February, with recent activity detected following U.S. and Israeli military strikes on Iran .  \"The software company is a supplier to the defense and aerospace industries, among others, and has a presence in Israel, with the company's Israel operation seeming to be the target in this activity,\" the security vendor said in a report shared with The Hacker News.  The attacks targeting the software company, as well as a U.S. bank and a Canadian non-profit, have been found to p...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "iran-linked-muddywater-hackers-target-us-networks-",
+      "source": "The Hacker News",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "China-Linked Hackers Use TernDoor, PeerTime, BruteEntry in South American Telecom Attacks",
+      "link": "https://thehackernews.com/2026/03/china-linked-hackers-use-terndoor.html",
+      "summary": "A China-linked advanced persistent threat (APT) actor has been targeting critical telecommunications infrastructure in South America since 2024, targeting Windows and Linux systems and edge devices with three different implants.  The activity is being tracked  by Cisco Talos under the moniker UAT-9244 , describing it as closely associated with another cluster known as FamousSparrow .  It's worth noting that FamousSparrow is assessed to share tactical overlaps with Salt Typhoon , a China-nexus espionage group known for its targeting of telecommunication service providers. Despite the similar targeting footprint between UAT-9244 and Salt Typhoon, there is no conclusive evidence that ties the two clusters together.  In the campaign analyzed by the cybersecurity company, the attack chains have been found to distribute three previously undocumented implants: TernDoor targeting Windows, PeerTime (aka angrypeer) targeting Linux, and BruteEntry, which is installed on network edge device...",
+      "tags": [
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "china-linked-hackers-use-terndoor-peertime-bruteen",
+      "source": "The Hacker News",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "Microsoft Reveals ClickFix Campaign Using Windows Terminal to Deploy Lumma Stealer",
+      "link": "https://thehackernews.com/2026/03/microsoft-reveals-clickfix-campaign.html",
+      "summary": "Microsoft on Thursday disclosed details of a new widespread ClickFix  social engineering campaign that has leveraged the Windows Terminal app  as a way to activate a sophisticated attack chain and deploy the Lumma Stealer  malware.  The activity, observed in February 2026, makes use of the terminal emulator program instead of instructing users to launch the Windows Run dialog and paste a command into it.  \"This campaign instructs targets to use the Windows + X → I shortcut to launch Windows Terminal (wt.exe) directly, guiding users into a privileged command execution environment that blends into legitimate administrative workflows and appears more trustworthy to users,\" the Microsoft Threat Intelligence team said  in a series of posts on X.   What makes the latest variant notable is that it bypasses detections specifically designed to flag Run dialog abuse, not to mention take advantage of the legitimacy of Windows Terminal to trick unsuspecting users into running malicious ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-reveals-clickfix-campaign-using-windows-",
+      "source": "The Hacker News",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information",
+      "link": "https://www.securityweek.com/fbi-investigating-suspicious-cyber-activity-on-system-holding-sensitive-surveillance-information/",
+      "summary": "The bureau is working to determine the scope and impact of the problem, according to a notification sent to members of Congress.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fbi-investigating-suspicious-cyber-activity-on-sys",
+      "source": "SecurityWeek",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "ArmorCode Raises $16 Million for Exposure Management Platform",
+      "link": "https://www.securityweek.com/armorcode-raises-16-million-for-exposure-management-platform/",
+      "summary": "The company will accelerate platform development, expand go-to-market efforts, and invest in product innovation.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "armorcode-raises-16-million-for-exposure-managemen",
+      "source": "SecurityWeek",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei Strike",
+      "link": "https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Avira antivirus vulnerabilities, Transport for London data breach affects 10 million, Gaming cheat exposes North Korean hacker.",
+      "tags": [
+        "malware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-fbi-hacked-us-security-pro-killed-in",
+      "source": "SecurityWeek",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "CISA Adds iOS Flaws From Coruna Exploit Kit to KEV List",
+      "link": "https://www.securityweek.com/cisa-adds-ios-flaws-from-coruna-exploit-kit-to-kev/",
+      "summary": "The nation-state-grade iOS exploit kit targets 23 vulnerabilities affecting iOS 13 to 17.2.1.",
+      "tags": [
+        "vulnerability",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-adds-ios-flaws-from-coruna-exploit-kit-to-kev",
+      "source": "SecurityWeek",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "Rockwell Vulnerability Allowing Remote ICS Hacking Exploited in Attacks",
+      "link": "https://www.securityweek.com/rockwell-vulnerability-allowing-remote-ics-hacking-exploited-in-attacks/",
+      "summary": "The vulnerability was disclosed and mitigated in 2021 but its in-the-wild exploitation has only now come to light.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "rockwell-vulnerability-allowing-remote-ics-hacking",
+      "source": "SecurityWeek",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "James ‘Aaron’ Bishop Tapped to Serve as New Pentagon CISO",
+      "link": "https://www.securityweek.com/james-aaron-bishop-tapped-to-serve-as-new-pentagon-ciso/",
+      "summary": "Bishop replaces David McKeown, who will take on a role in the private sector after 40 years of government service.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "james-aaron-bishop-tapped-to-serve-as-new-pentagon",
+      "source": "SecurityWeek",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "Cognizant TriZetto breach exposes health data of 3.4 million patients",
+      "link": "https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/",
+      "summary": "TriZetto Provider Solutions, a healthcare IT company that develops software and services used by health insurers and healthcare providers, has suffered a data breach that exposed the sensitive information of over 3.4 million people.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "cognizant-trizetto-breach-exposes-health-data-of-3",
+      "source": "BleepingComputer",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "CISA warns feds to patch iOS flaws exploited in crypto-theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/",
+      "summary": "CISA ordered U.S. federal agencies to patch three iOS security flaws targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-warns-feds-to-patch-ios-flaws-exploited-in-cr",
+      "source": "BleepingComputer",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "New research: What AI usage data reveals about risk and governance",
+      "link": "https://www.bleepingcomputer.com/mgo/78/",
+      "summary": "AI adoption is no longer experimental. Research from Nudge Security shows that AI is now embedded in everyday workflows and connected to sensitive systems like email, file shares, and code repos. Get the research along with practical guidance for building a scalable AI governance program.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "new-research-what-ai-usage-data-reveals-about-risk",
+      "source": "BleepingComputer",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security",
+      "link": "https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/",
+      "summary": "EC-Council, creator of the world-renowned Certified Ethical Hacker (CEH) credential and a global leader in applied cybersecurity education, today launched its Enterprise AI Credential Suite, with four new role-based AI certifications debuting alongside Certified CISO v4, an overhauled executive cybe...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ec-council-expands-ai-certification-portfolio-to-s",
+      "source": "BleepingComputer",
+      "date": "2026-03-07"
+    }
+  ]
+}
