@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues</div><div class="ticker-item">Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model</div><div class="ticker-item">Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India</div><div class="ticker-item">Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT</div><div class="ticker-item">The MSP Guide to Using AI-Powered Risk Management to Scale Cybersecurity</div><div class="ticker-item">Iran-Linked MuddyWater Hackers Target U.S. Networks With New Dindoor Backdoor</div><div class="ticker-item">US Cyber Strategy Targets Adversaries, Critical Infrastructure, and Emerging Technologies</div><div class="ticker-item">Over 100 GitHub Repositories Distributing BoryptGrab Stealer</div><div class="ticker-item">Pentagon’s Chief Tech Officer Says He Clashed With AI Company Anthropic Over Autonomous Warfare</div><div class="ticker-item">FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information</div><div class="ticker-item">ArmorCode Raises $16 Million for Exposure Management Platform</div><div class="ticker-item">In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei Strike</div><div class="ticker-item">Termite ransomware breaches linked to ClickFix CastleRAT attacks</div><div class="ticker-item">Microsoft: Hackers abusing AI at every stage of cyberattacks</div><div class="ticker-item">Are AI Tools Accessing Your Sensitive Data?</div><div class="ticker-item">1-year Gold Star Membership + $20 Digital Costco Shop Card* for $65</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India</div><div class="ticker-item">Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT</div><div class="ticker-item">The MSP Guide to Using AI-Powered Risk Management to Scale Cybersecurity</div><div class="ticker-item">Iran-Linked MuddyWater Hackers Target U.S. Networks With New Dindoor Backdoor</div><div class="ticker-item">China-Linked Hackers Use TernDoor, PeerTime, BruteEntry in South American Telecom Attacks</div><div class="ticker-item">Microsoft Reveals ClickFix Campaign Using Windows Terminal to Deploy Lumma Stealer</div><div class="ticker-item">FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information</div><div class="ticker-item">ArmorCode Raises $16 Million for Exposure Management Platform</div><div class="ticker-item">In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei Strike</div><div class="ticker-item">CISA Adds iOS Flaws From Coruna Exploit Kit to KEV List</div><div class="ticker-item">Rockwell Vulnerability Allowing Remote ICS Hacking Exploited in Attacks</div><div class="ticker-item">James ‘Aaron’ Bishop Tapped to Serve as New Pentagon CISO</div><div class="ticker-item">Cognizant TriZetto breach exposes health data of 3.4 million patients</div><div class="ticker-item">CISA warns feds to patch iOS flaws exploited in crypto-theft attacks</div><div class="ticker-item">New research: What AI usage data reveals about risk and governance</div><div class="ticker-item">EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues</h3>
-                <p><strong>Summary:</strong> OpenAI on Friday began rolling out Codex Security , an artificial intelligence (AI)-powered security agent that's designed to find, validate, and propose fixes for vulnerabilities.  The feature is ava...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model</h3>
-                <p><strong>Summary:</strong> Anthropic on Friday said it discovered  22 new security vulnerabilities in the Firefox web browser as part of a security partnership with Mozilla.  Of these, 14 have been classified as high, seven hav...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India</h3>
                 <p><strong>Summary:</strong> The Pakistan-aligned threat actor known as Transparent Tribe  has become the latest hacking group to embrace artificial intelligence (AI)-powered coding tools to strike targets with various implants. ...</p>
@@ -91,25 +77,18 @@
                 <a href="https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>US Cyber Strategy Targets Adversaries, Critical Infrastructure, and Emerging Technologies</h3>
-                <p><strong>Summary:</strong> Trump’s Cyber Strategy calls for stronger deterrence against cyber adversaries, modernization of federal networks, protection of critical infrastructure, and investment in technologies such as AI and ...</p>
+                <h3>China-Linked Hackers Use TernDoor, PeerTime, BruteEntry in South American Telecom Attacks</h3>
+                <p><strong>Summary:</strong> A China-linked advanced persistent threat (APT) actor has been targeting critical telecommunications infrastructure in South America since 2024, targeting Windows and Linux systems and edge devices wi...</p>
                 <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/china-linked-hackers-use-terndoor.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/china-linked-hackers-use-terndoor.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Over 100 GitHub Repositories Distributing BoryptGrab Stealer</h3>
-                <p><strong>Summary:</strong> The malware targets browser and cryptocurrency wallet data, along with system information and user files.</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/over-100-github-repositories-distributing-boryptgrab-stealer/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/over-100-github-repositories-distributing-boryptgrab-stealer/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Pentagon’s Chief Tech Officer Says He Clashed With AI Company Anthropic Over Autonomous Warfare</h3>
-                <p><strong>Summary:</strong> Pentagon CTO Emil Michael said the military is developing procedures for enabling different levels of autonomy in warfare depending on the risk posed.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/pentagons-chief-tech-officer-says-he-clashed-with-ai-company-anthropic-over-autonomous-warfare/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/pentagons-chief-tech-officer-says-he-clashed-with-ai-company-anthropic-over-autonomous-warfare/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Microsoft Reveals ClickFix Campaign Using Windows Terminal to Deploy Lumma Stealer</h3>
+                <p><strong>Summary:</strong> Microsoft on Thursday disclosed details of a new widespread ClickFix  social engineering campaign that has leveraged the Windows Terminal app  as a way to activate a sophisticated attack chain and dep...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/microsoft-reveals-clickfix-campaign.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/microsoft-reveals-clickfix-campaign.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information</h3>
@@ -133,32 +112,53 @@
                 <a href="https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Termite ransomware breaches linked to ClickFix CastleRAT attacks</h3>
-                <p><strong>Summary:</strong> Ransomware threat actors tracked as Velvet Tempest are using the ClickFix technique and legitimate Windows utilities to deploy the DonutLoader malware and the CastleRAT backdoor.</p>
+                <h3>CISA Adds iOS Flaws From Coruna Exploit Kit to KEV List</h3>
+                <p><strong>Summary:</strong> The nation-state-grade iOS exploit kit targets 23 vulnerabilities affecting iOS 13 to 17.2.1.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-adds-ios-flaws-from-coruna-exploit-kit-to-kev/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-adds-ios-flaws-from-coruna-exploit-kit-to-kev/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Rockwell Vulnerability Allowing Remote ICS Hacking Exploited in Attacks</h3>
+                <p><strong>Summary:</strong> The vulnerability was disclosed and mitigated in 2021 but its in-the-wild exploitation has only now come to light.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rockwell-vulnerability-allowing-remote-ics-hacking-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rockwell-vulnerability-allowing-remote-ics-hacking-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>James ‘Aaron’ Bishop Tapped to Serve as New Pentagon CISO</h3>
+                <p><strong>Summary:</strong> Bishop replaces David McKeown, who will take on a role in the private sector after 40 years of government service.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/james-aaron-bishop-tapped-to-serve-as-new-pentagon-ciso/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/james-aaron-bishop-tapped-to-serve-as-new-pentagon-ciso/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cognizant TriZetto breach exposes health data of 3.4 million patients</h3>
+                <p><strong>Summary:</strong> TriZetto Provider Solutions, a healthcare IT company that develops software and services used by health insurers and healthcare providers, has suffered a data breach that exposed the sensitive informa...</p>
                 <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft: Hackers abusing AI at every stage of cyberattacks</h3>
-                <p><strong>Summary:</strong> Microsoft says threat actors are increasingly using artificial intelligence in their operations to accelerate attacks, scale malicious activity, and lower technical barriers across all aspects of a cy...</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>CISA warns feds to patch iOS flaws exploited in crypto-theft attacks</h3>
+                <p><strong>Summary:</strong> CISA ordered U.S. federal agencies to patch three iOS security flaws targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Are AI Tools Accessing Your Sensitive Data?</h3>
-                <p><strong>Summary:</strong> MCP server connections have opened up data super-highways for AI tools to access your corporate data. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and ...</p>
+                <h3>New research: What AI usage data reveals about risk and governance</h3>
+                <p><strong>Summary:</strong> AI adoption is no longer experimental. Research from Nudge Security shows that AI is now embedded in everyday workflows and connected to sensitive systems like email, file shares, and code repos. Get ...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/76/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/mgo/76/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/78/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/78/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>1-year Gold Star Membership + $20 Digital Costco Shop Card* for $65</h3>
-                <p><strong>Summary:</strong> Maybe you've visited Costco with a friend. Maybe you've browsed online. If you've been on the fence, this offer makes the decision simpler: a 1-Year Costco Gold Star Membership plus a $20 Digital Cost...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/1-year-gold-star-membership-plus-20-digital-costco-shop-card-for-65/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/1-year-gold-star-membership-plus-20-digital-costco-shop-card-for-65/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security</h3>
+                <p><strong>Summary:</strong> EC-Council, creator of the world-renowned Certified Ethical Hacker (CEH) credential and a global leader in applied cybersecurity education, today launched its Enterprise AI Credential Suite, with four...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
