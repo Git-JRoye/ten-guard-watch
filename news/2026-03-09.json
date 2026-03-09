@@ -1,0 +1,205 @@
+{
+  "date": "2026-03-09",
+  "items": [
+    {
+      "title": "Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure",
+      "link": "https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html",
+      "summary": "High-value organizations located in South, Southeast, and East Asia have been targeted by a Chinese threat actor as part of a years-long campaign.  The activity, which has targeted aviation, energy, government, law enforcement, pharmaceutical, technology, and telecommunications sectors, has been attributed by Palo Alto Networks Unit 42 to a previously undocumented threat activity group dubbed CL-UNK-1068 , where \"CL\" refers to \"cluster\" and \"UNK\" stands for unknown motivation.  However, the security vendor has assessed with \"moderate-to-high confidence\" that the primary objective of the campaign is cyber espionage.  \"Our analysis reveals a multi-faceted tool set that includes custom malware, modified open-source utilities, and living-off-the-land binaries (LOLBINs),\" security researcher Tom Fakterman said . \"These provide a simple, effective way for the attackers to maintain a persistent presence within targeted environments....",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "web-server-exploits-and-mimikatz-used-in-attacks-t",
+      "source": "The Hacker News",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues",
+      "link": "https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html",
+      "summary": "OpenAI on Friday began rolling out Codex Security , an artificial intelligence (AI)-powered security agent that's designed to find, validate, and propose fixes for vulnerabilities.  The feature is available in a research preview to ChatGPT Pro, Enterprise, Business, and Edu customers via the Codex web with free usage for the next month.  \"It builds deep context about your project to identify complex vulnerabilities that other agentic tools miss, surfacing higher-confidence findings with fixes that meaningfully improve the security of your system while sparing you from the noise of insignificant bugs,\" the company said .  Codex Security represents an evolution of Aardvark⁠ , which OpenAI unveiled in private beta in October 2025 as a way for developers and security teams to detect and fix security vulnerabilities at scale.   Over the last 30 days, Codex Security has scanned more than 1.2 million commits across external repositories over the course of the beta, identifying ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-codex-security-scanned-12-million-commits-a",
+      "source": "The Hacker News",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model",
+      "link": "https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html",
+      "summary": "Anthropic on Friday said it discovered  22 new security vulnerabilities in the Firefox web browser as part of a security partnership with Mozilla.  Of these, 14 have been classified as high, seven have been classified as moderate, and one has been rated low in severity. The issues were addressed in Firefox 148 , released late last month. The vulnerabilities  were identified over a two-week period in January 2026.  The artificial intelligence (AI) company said the number of high-severity bugs identified by its Claude Opus 4.6 large language model (LLM) represents \"almost a fifth\" of all high-severity vulnerabilities that were patched in Firefox in 2025.  Anthropic said the LLM detected a use-after-free bug in the browser's JavaScript after \"just\" 20 minutes of exploration, which was then validated by a human researcher in a virtualized environment to rule out the possibility of a false positive.   \"By the end of this effort, we had scanned nearly 6,000 C++ ...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "anthropic-finds-22-firefox-vulnerabilities-using-c",
+      "source": "The Hacker News",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India",
+      "link": "https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html",
+      "summary": "The Pakistan-aligned threat actor known as Transparent Tribe  has become the latest hacking group to embrace artificial intelligence (AI)-powered coding tools to strike targets with various implants.  The activity is designed to produce a \"high-volume, mediocre mass of implants\" that are developed using lesser-known programming languages like Nim, Zig, and Crystal and rely on trusted services like Slack, Discord, Supabase, and Google Sheets to fly under the radar, according to new findings from Bitdefender.  \"Rather than a breakthrough in technical sophistication, we are seeing a transition toward AI-assisted malware industrialization that allows the actor to flood target environments with disposable, polyglot binaries,\" security researchers Radu Tudorica, Adrian Schipor, Victor Vrabie, Marius Baciu, and Martin Zugec said  in a technical breakdown of the campaign.  The transition towards vibe-coded malware, aka vibeware , as a means to complicate detection has been...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "transparent-tribe-uses-ai-to-mass-produce-malware-",
+      "source": "The Hacker News",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT",
+      "link": "https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html",
+      "summary": "Cybersecurity researchers have disclosed details of a multi-stage malware campaign that uses batch scripts as a pathway to deliver various encrypted remote access trojan (RATs) payloads that correspond to XWorm , AsyncRAT , and Xeno RAT .  The stealthy attack chain has been codenamed VOID#GEIST  by Securonix Threat Research.  At a high level, the obfuscated batch script is used to deploy a second batch script, stage a legitimate embedded Python runtime, and decrypt encrypted shellcode blobs, which are executed directly in memory by injecting them into separate instances of \"explorer.exe\" using a technique called Early Bird Asynchronous Procedure Call (APC) injection .  \"Modern malware campaigns increasingly shift from standalone executables toward complex, script-based delivery frameworks that closely mimic legitimate user activity,\" researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said  in a technical report shared with The Hacker News.   \"Rath...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "multi-stage-voidgeist-malware-delivering-xworm-asy",
+      "source": "The Hacker News",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "The MSP Guide to Using AI-Powered Risk Management to Scale Cybersecurity",
+      "link": "https://thehackernews.com/2026/03/the-msp-guide-to-using-ai-powered-risk.html",
+      "summary": "Scaling cybersecurity services as an MSP or MSSP requires technical expertise and  a business model that delivers measurable value at scale.  Risk-based cybersecurity is the foundation of that model. When done right, it builds client trust, increases upsell opportunities, and drives recurring revenue. But to deliver this consistently and efficiently, you need the right technology and processes.  We created The MSP Growth Guide: How MSPs Use AI-Powered Risk Management to Scale Their Cybersecurity Business  to help providers transition to scalable, risk-first cybersecurity. Inside, you’ll find practical insights into the top challenges MSPs face, expert guidance on overcoming them, and a framework for selecting and implementing AI-powered risk management to unlock scalable, recurring revenue.  Why Risk Management Is the Key to Scaling Cybersecurity Services  Most MSPs offer critical cybersecurity services, from compliance support to endpoint protection, but these are often isolated en...",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "the-msp-guide-to-using-ai-powered-risk-management-",
+      "source": "The Hacker News",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Recent Cisco Catalyst SD-WAN Vulnerability Now Widely Exploited",
+      "link": "https://www.securityweek.com/recent-cisco-catalyst-sd-wan-vulnerability-now-widely-exploited/",
+      "summary": "WatchTowr reports seeing exploitation attempts for CVE-2026-20127 from numerous unique IP addresses.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "recent-cisco-catalyst-sd-wan-vulnerability-now-wid",
+      "source": "SecurityWeek",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "US Cyber Strategy Targets Adversaries, Critical Infrastructure, and Emerging Technologies",
+      "link": "https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies/",
+      "summary": "Trump’s Cyber Strategy calls for stronger deterrence against cyber adversaries, modernization of federal networks, protection of critical infrastructure, and investment in technologies such as AI and post-quantum cryptography.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "us-cyber-strategy-targets-adversaries-critical-inf",
+      "source": "SecurityWeek",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Over 100 GitHub Repositories Distributing BoryptGrab Stealer",
+      "link": "https://www.securityweek.com/over-100-github-repositories-distributing-boryptgrab-stealer/",
+      "summary": "The malware targets browser and cryptocurrency wallet data, along with system information and user files.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "over-100-github-repositories-distributing-boryptgr",
+      "source": "SecurityWeek",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Pentagon’s Chief Tech Officer Says He Clashed With AI Company Anthropic Over Autonomous Warfare",
+      "link": "https://www.securityweek.com/pentagons-chief-tech-officer-says-he-clashed-with-ai-company-anthropic-over-autonomous-warfare/",
+      "summary": "Pentagon CTO Emil Michael said the military is developing procedures for enabling different levels of autonomy in warfare depending on the risk posed.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "pentagons-chief-tech-officer-says-he-clashed-with-",
+      "source": "SecurityWeek",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information",
+      "link": "https://www.securityweek.com/fbi-investigating-suspicious-cyber-activity-on-system-holding-sensitive-surveillance-information/",
+      "summary": "The bureau is working to determine the scope and impact of the problem, according to a notification sent to members of Congress.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fbi-investigating-suspicious-cyber-activity-on-sys",
+      "source": "SecurityWeek",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "ArmorCode Raises $16 Million for Exposure Management Platform",
+      "link": "https://www.securityweek.com/armorcode-raises-16-million-for-exposure-management-platform/",
+      "summary": "The company will accelerate platform development, expand go-to-market efforts, and invest in product innovation.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "armorcode-raises-16-million-for-exposure-managemen",
+      "source": "SecurityWeek",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "EU court adviser says banks must immediately refund phishing victims",
+      "link": "https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/",
+      "summary": "Athanasios Rantos, the Advocate General of the Court of Justice of the EU (CJEU), has issued a formal opinion suggesting that banks must immediately refund account holders affected by unauthorized transactions, even when it's their fault.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "eu-court-adviser-says-banks-must-immediately-refun",
+      "source": "BleepingComputer",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Hackers abuse .arpa DNS and ipv6 to evade phishing defenses",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/",
+      "summary": "Threat actors are abusing the special-use \".arpa\" domain and IPv6 reverse DNS in phishing campaigns that more easily evade domain reputation checks and email security gateways.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-",
+      "source": "BleepingComputer",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Are AI Tools Accessing Your Sensitive Data?",
+      "link": "https://www.bleepingcomputer.com/mgo/76/",
+      "summary": "MCP server connections have opened up data super-highways for AI tools to access your corporate data. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Get your free shadow AI inventory today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "are-ai-tools-accessing-your-sensitive-data",
+      "source": "BleepingComputer",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Today only—AdGuard Family Plan lifetime access is just $11 in this deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/today-only-adguard-family-plan-lifetime-access-is-just-11-in-this-deal/",
+      "summary": "Right now, lifetime access to the AdGuard Family Plan is available for just $11 (MSRP: $169.99), but this deal ends tonight at 11:59 p.m. PT, so the window to grab it at this low price is pretty short.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "today-onlyadguard-family-plan-lifetime-access-is-j",
+      "source": "BleepingComputer",
+      "date": "2026-03-09"
+    }
+  ]
+}
