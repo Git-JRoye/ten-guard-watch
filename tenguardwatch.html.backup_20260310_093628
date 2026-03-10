@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure</div><div class="ticker-item">OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues</div><div class="ticker-item">Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model</div><div class="ticker-item">Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India</div><div class="ticker-item">Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT</div><div class="ticker-item">The MSP Guide to Using AI-Powered Risk Management to Scale Cybersecurity</div><div class="ticker-item">Recent Cisco Catalyst SD-WAN Vulnerability Now Widely Exploited</div><div class="ticker-item">US Cyber Strategy Targets Adversaries, Critical Infrastructure, and Emerging Technologies</div><div class="ticker-item">Over 100 GitHub Repositories Distributing BoryptGrab Stealer</div><div class="ticker-item">Pentagon’s Chief Tech Officer Says He Clashed With AI Company Anthropic Over Autonomous Warfare</div><div class="ticker-item">FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information</div><div class="ticker-item">ArmorCode Raises $16 Million for Exposure Management Platform</div><div class="ticker-item">EU court adviser says banks must immediately refund phishing victims</div><div class="ticker-item">Hackers abuse .arpa DNS and ipv6 to evade phishing defenses</div><div class="ticker-item">Are AI Tools Accessing Your Sensitive Data?</div><div class="ticker-item">Today only—AdGuard Family Plan lifetime access is just $11 in this deal</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure</h3>
+                <p><strong>Summary:</strong> High-value organizations located in South, Southeast, and East Asia have been targeted by a Chinese threat actor as part of a years-long campaign.  The activity, which has targeted aviation, energy, g...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues</h3>
+                <p><strong>Summary:</strong> OpenAI on Friday began rolling out Codex Security , an artificial intelligence (AI)-powered security agent that's designed to find, validate, and propose fixes for vulnerabilities.  The feature is ava...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model</h3>
+                <p><strong>Summary:</strong> Anthropic on Friday said it discovered  22 new security vulnerabilities in the Firefox web browser as part of a security partnership with Mozilla.  Of these, 14 have been classified as high, seven hav...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India</h3>
+                <p><strong>Summary:</strong> The Pakistan-aligned threat actor known as Transparent Tribe  has become the latest hacking group to embrace artificial intelligence (AI)-powered coding tools to strike targets with various implants. ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a multi-stage malware campaign that uses batch scripts as a pathway to deliver various encrypted remote access trojan (RATs) payloads that correspon...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The MSP Guide to Using AI-Powered Risk Management to Scale Cybersecurity</h3>
+                <p><strong>Summary:</strong> Scaling cybersecurity services as an MSP or MSSP requires technical expertise and  a business model that delivers measurable value at scale.  Risk-based cybersecurity is the foundation of that model. ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/the-msp-guide-to-using-ai-powered-risk.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/the-msp-guide-to-using-ai-powered-risk.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Recent Cisco Catalyst SD-WAN Vulnerability Now Widely Exploited</h3>
+                <p><strong>Summary:</strong> WatchTowr reports seeing exploitation attempts for CVE-2026-20127 from numerous unique IP addresses.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-cisco-catalyst-sd-wan-vulnerability-now-widely-exploited/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-cisco-catalyst-sd-wan-vulnerability-now-widely-exploited/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US Cyber Strategy Targets Adversaries, Critical Infrastructure, and Emerging Technologies</h3>
+                <p><strong>Summary:</strong> Trump’s Cyber Strategy calls for stronger deterrence against cyber adversaries, modernization of federal networks, protection of critical infrastructure, and investment in technologies such as AI and ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Over 100 GitHub Repositories Distributing BoryptGrab Stealer</h3>
+                <p><strong>Summary:</strong> The malware targets browser and cryptocurrency wallet data, along with system information and user files.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/over-100-github-repositories-distributing-boryptgrab-stealer/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/over-100-github-repositories-distributing-boryptgrab-stealer/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Pentagon’s Chief Tech Officer Says He Clashed With AI Company Anthropic Over Autonomous Warfare</h3>
+                <p><strong>Summary:</strong> Pentagon CTO Emil Michael said the military is developing procedures for enabling different levels of autonomy in warfare depending on the risk posed.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/pentagons-chief-tech-officer-says-he-clashed-with-ai-company-anthropic-over-autonomous-warfare/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/pentagons-chief-tech-officer-says-he-clashed-with-ai-company-anthropic-over-autonomous-warfare/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information</h3>
+                <p><strong>Summary:</strong> The bureau is working to determine the scope and impact of the problem, according to a notification sent to members of Congress.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fbi-investigating-suspicious-cyber-activity-on-system-holding-sensitive-surveillance-information/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fbi-investigating-suspicious-cyber-activity-on-system-holding-sensitive-surveillance-information/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ArmorCode Raises $16 Million for Exposure Management Platform</h3>
+                <p><strong>Summary:</strong> The company will accelerate platform development, expand go-to-market efforts, and invest in product innovation.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/armorcode-raises-16-million-for-exposure-management-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/armorcode-raises-16-million-for-exposure-management-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>EU court adviser says banks must immediately refund phishing victims</h3>
+                <p><strong>Summary:</strong> Athanasios Rantos, the Advocate General of the Court of Justice of the EU (CJEU), has issued a formal opinion suggesting that banks must immediately refund account holders affected by unauthorized tra...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers abuse .arpa DNS and ipv6 to evade phishing defenses</h3>
+                <p><strong>Summary:</strong> Threat actors are abusing the special-use ".arpa" domain and IPv6 reverse DNS in phishing campaigns that more easily evade domain reputation checks and email security gateways.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Are AI Tools Accessing Your Sensitive Data?</h3>
+                <p><strong>Summary:</strong> MCP server connections have opened up data super-highways for AI tools to access your corporate data. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/76/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/76/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Today only—AdGuard Family Plan lifetime access is just $11 in this deal</h3>
+                <p><strong>Summary:</strong> Right now, lifetime access to the AdGuard Family Plan is available for just $11 (MSRP: $169.99), but this deal ends tonight at 11:59 p.m. PT, so the window to grab it at this low price is pretty short...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/today-only-adguard-family-plan-lifetime-access-is-just-11-in-this-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/today-only-adguard-family-plan-lifetime-access-is-just-11-in-this-deal/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
