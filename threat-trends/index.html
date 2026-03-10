@@ -34,7 +34,7 @@
             "name": "TenGuard Security",
             "url": "https://www.tenguardsecurity.com"
         },
-        "dateModified": "2026-03-09T10:06:01.591156",
+        "dateModified": "2026-03-10T09:36:57.793798",
         "isAccessibleForFree": true
     }
     </script>
@@ -418,7 +418,7 @@
     <section class="dashboard-section blue-tint" data-aos="fade-up" data-aos-once="true">
         <h1>🛡️ Threat Trends Dashboard</h1>
         <p style="font-size: 1.2em; margin-bottom: 10px;">Real-time cybersecurity intelligence powered by TenGuard Security</p>
-        <p class="update-info">Last updated: <strong>March 09, 2026 at 10:06 AM UTC</strong></p>
+        <p class="update-info">Last updated: <strong>March 10, 2026 at 09:36 AM UTC</strong></p>
         
         
         <!-- KPI Cards -->
@@ -479,6 +479,32 @@
         <!-- Top Articles -->
         <div class="articles-section" data-aos="fade-up">
             <h2>🔥 Top Threat Articles</h2>
+            
+            <div class="article-card">
+                <div class="article-title">
+                    <a href="https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html" target="_blank" rel="noopener noreferrer">
+                        CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited
+                    </a>
+                </div>
+                <div class="article-meta">
+                    <span class="urgency-badge urgency-high">High</span>
+                    <span>2026-03-10</span>
+                </div>
+                <div class="article-summary">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  three security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation.</div>
+                
+                <div class="tags">
+                    
+                    <span class="tag">vulnerability</span>
+                    
+                    <span class="tag">breach</span>
+                    
+                    <span class="tag">attack</span>
+                    
+                    <span class="tag">critical</span>
+                    
+                </div>
+                
+            </div>
             
             <div class="article-card">
                 <div class="article-title">
@@ -678,32 +704,6 @@
                 
             </div>
             
-            <div class="article-card">
-                <div class="article-title">
-                    <a href="https://thehackernews.com/2026/03/threatsday-bulletin-redis-rce-ddr5-bot.html" target="_blank" rel="noopener noreferrer">
-                        ThreatsDay Bulletin: DDR5 Bot Scalping, Samsung TV Tracking, Reddit Privacy Fine & More
-                    </a>
-                </div>
-                <div class="article-meta">
-                    <span class="urgency-badge urgency-high">High</span>
-                    <span>2026-03-06</span>
-                </div>
-                <div class="article-summary">Some weeks in cybersecurity feel routine. This one doesn’t.  Several new developments surfaced over the past few days, showing how quickly the threat landscape keeps shifting. Researchers uncovered fr</div>
-                
-                <div class="tags">
-                    
-                    <span class="tag">malware</span>
-                    
-                    <span class="tag">phishing</span>
-                    
-                    <span class="tag">apt</span>
-                    
-                    <span class="tag">attack</span>
-                    
-                </div>
-                
-            </div>
-            
         </div>
         
         <!-- Data Tables -->
@@ -750,57 +750,62 @@
                     
                     <tr>
                         <td>security</td>
-                        <td><strong>286</strong></td>
+                        <td><strong>285</strong></td>
                     </tr>
                     
                     <tr>
                         <td>threat</td>
-                        <td><strong>188</strong></td>
+                        <td><strong>187</strong></td>
                     </tr>
                     
                     <tr>
                         <td>data</td>
-                        <td><strong>168</strong></td>
+                        <td><strong>176</strong></td>
                     </tr>
                     
                     <tr>
                         <td>vulnerability</td>
-                        <td><strong>145</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>attacks</td>
-                        <td><strong>132</strong></td>
+                        <td><strong>149</strong></td>
                     </tr>
                     
                     <tr>
                         <td>malicious</td>
-                        <td><strong>128</strong></td>
+                        <td><strong>133</strong></td>
                     </tr>
                     
                     <tr>
-                        <td>malware</td>
-                        <td><strong>119</strong></td>
+                        <td>attacks</td>
+                        <td><strong>130</strong></td>
                     </tr>
                     
                     <tr>
                         <td>access</td>
+                        <td><strong>123</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>malware</td>
                         <td><strong>118</strong></td>
                     </tr>
                     
                     <tr>
                         <td>cybersecurity</td>
-                        <td><strong>112</strong></td>
+                        <td><strong>111</strong></td>
                     </tr>
                     
                     <tr>
                         <td>code</td>
-                        <td><strong>108</strong></td>
+                        <td><strong>104</strong></td>
                     </tr>
                     
                     <tr>
                         <td>google</td>
-                        <td><strong>100</strong></td>
+                        <td><strong>101</strong></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>cve</td>
+                        <td><strong>101</strong></td>
                     </tr>
                     
                     <tr>
@@ -809,18 +814,13 @@
                     </tr>
                     
                     <tr>
-                        <td>cve</td>
-                        <td><strong>98</strong></td>
+                        <td>exploited</td>
+                        <td><strong>94</strong></td>
                     </tr>
                     
                     <tr>
                         <td>remote</td>
-                        <td><strong>91</strong></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>exploited</td>
-                        <td><strong>91</strong></td>
+                        <td><strong>93</strong></td>
                     </tr>
                     
                 </tbody>
@@ -868,10 +868,10 @@
         new Chart(tagCtx, {
             type: 'bar',
             data: {
-                labels: ["attack", "vulnerability", "cybersecurity", "malware", "breach", "critical", "apt", "ransomware", "phishing"],
+                labels: ["attack", "vulnerability", "cybersecurity", "malware", "breach", "critical", "apt", "phishing", "ransomware"],
                 datasets: [{
                     label: 'Occurrences',
-                    data: [237, 148, 115, 91, 77, 71, 52, 34, 31],
+                    data: [238, 151, 116, 93, 77, 71, 52, 34, 33],
                     backgroundColor: chartColors.primary,
                     borderColor: chartColors.secondary,
                     borderWidth: 2
@@ -922,7 +922,7 @@
             data: {
                 labels: ['High', 'Medium', 'Low'],
                 datasets: [{
-                    data: [72, 232, 188],
+                    data: [72, 231, 189],
                     backgroundColor: [
                         chartColors.danger,
                         chartColors.warning,
@@ -958,10 +958,10 @@
         new Chart(dailyCtx, {
             type: 'line',
             data: {
-                labels: ["2026-02-08", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-14", "2026-02-15", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-21", "2026-02-22", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-02-28", "2026-03-01", "2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-07", "2026-03-08", "2026-03-09"],
+                labels: ["2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-14", "2026-02-15", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-21", "2026-02-22", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-02-28", "2026-03-01", "2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-07", "2026-03-08", "2026-03-09", "2026-03-10"],
                 datasets: [{
                     label: 'Threats per Day',
-                    data: [16, 16, 16, 16, 16, 16, 16, 16, 15, 16, 16, 16, 15, 15, 16, 16, 16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+                    data: [16, 16, 16, 16, 16, 16, 16, 15, 16, 16, 16, 15, 15, 16, 16, 16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
                     borderColor: chartColors.primary,
                     backgroundColor: 'rgba(16, 185, 129, 0.1)',
                     tension: 0.4,
@@ -1008,10 +1008,10 @@
         new Chart(keywordCtx, {
             type: 'bar',
             data: {
-                labels: ["security", "threat", "data", "vulnerability", "attacks", "malicious", "malware", "access", "cybersecurity", "code"],
+                labels: ["security", "threat", "data", "vulnerability", "malicious", "attacks", "access", "malware", "cybersecurity", "code"],
                 datasets: [{
                     label: 'Frequency',
-                    data: [286, 188, 168, 145, 132, 128, 119, 118, 112, 108],
+                    data: [285, 187, 176, 149, 133, 130, 123, 118, 111, 104],
                     backgroundColor: chartColors.secondary,
                     borderColor: chartColors.primary,
                     borderWidth: 2
