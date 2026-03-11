@@ -1,0 +1,208 @@
+{
+  "date": "2026-03-11",
+  "items": [
+    {
+      "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
+      "link": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+      "summary": "Microsoft on Tuesday released patches for a set of 84 new security vulnerabilities  affecting various software components, including two that have been listed as publicly known.  Of these, eight are rated Critical, and 76 are rated Important in severity. Forty-six of the patched vulnerabilities relate to privilege escalation, followed by 18 remote code execution, 10 information disclosure, four spoofing, four denial-of-service, and two security feature bypass flaws.  The fixes are in addition to 10 vulnerabilities  that have been addressed in its Chromium-based Edge browser since the release of the February 2026 Patch Tuesday update .  The two publicly disclosed zero-days are CVE-2026-26127  (CVSS score: 7.5), a denial-of-service vulnerability in .NET, and CVE-2026-21262  (CVSS score: 8.8), an elevation of privilege vulnerability in SQL Server.   The vulnerability with the highest CVSS score in this month's update is a critical remote code execution flaw in the Microsoft Devices ...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-84-flaws-in-march-patch-tuesday-",
+      "source": "The Hacker News",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
+      "link": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
+      "summary": "A threat actor known as UNC6426  leveraged keys stolen following the supply chain compromise of the nx npm package last year  to completely breach a victim's cloud environment within a span of 72 hours.  The attack started with the theft of a developer's GitHub token, which the threat actor then used to gain unauthorized access to the cloud and steal data.  \"The threat actor, UNC6426, then used this access to abuse the GitHub-to-AWS OpenID Connect (OIDC) trust and create a new administrator role in the cloud environment,\" Google said  in its Cloud Threat Horizons Report for H1 2026. \"They abused this role to exfiltrate files from the client's Amazon Web Services (AWS) Simple Storage Service (S3) buckets and performed data destruction in their production cloud environments.\"   The supply chain attack targeting the nx npm package took place  in August 2025, when unknown threat actors exploited a vulnerable pull_request_target workflow  – an attack  type  ...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "unc6426-exploits-nx-npm-supply-chain-attack-to-gai",
+      "source": "The Hacker News",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
+      "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
+      "summary": "Cybersecurity researchers have discovered five malicious Rust crates that masquerade as time-related utilities to transmit .env file data to the threat actors.  The Rust packages, published to crates.io, are listed below -   chrono_anchor  dnp3times  time_calibrator  time_calibrators  time-sync   The crates, per Socket, impersonate timeapi.io and were published between late February and early March 2026. It's assessed to be the work of a single threat actor based on the use of the same exfiltration methodology and the lookalike domain (\"timeapis[.]io\") to stash the stolen data.  \"Although the crates pose as local time utilities, their core behavior is credential and secret theft,\" security researcher Kirill Boychenko said . \"They attempt to collect sensitive data from developer environments, most notably .env files, and exfiltrate it to threat actor-controlled infrastructure.\"   While four of the aforementioned packages exhibit fairly straightforward ...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "five-malicious-rust-crates-and-ai-bot-exploit-cicd",
+      "source": "The Hacker News",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
+      "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
+      "summary": "Cybersecurity researchers are calling attention to a new campaign where threat actors are abusing FortiGate Next-Generation Firewall (NGFW) appliances as entry points to breach victim networks.   The activity involves the exploitation of recently disclosed security vulnerabilities or weak credentials to extract configuration files containing service account credentials and network topology information, SentinelOne said in a report published today. The security outfit said the campaign has singled out environments tied to healthcare, government, and managed service providers.  \"FortiGate network appliances have considerable access to the environments they were installed to protect,\" security researchers Alex Delamotte, Stephen Bromfield, Mary Braden Murphy, and Amey Patne said . \"In many configurations, this includes service accounts which are connected to the authentication infrastructure, such as Active Directory (AD) and Lightweight Directory Access Protocol (LDAP)....",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fortigate-devices-exploited-to-breach-networks-and",
+      "source": "The Hacker News",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "How to Stop AI Data Leaks: A Webinar Guide to Auditing Modern Agentic Workflows",
+      "link": "https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html",
+      "summary": "Artificial Intelligence (AI) is no longer just a tool we talk to; it is a tool that does things  for us. These are called AI Agents . They can send emails, move data, and even manage software on their own.  But there is a problem. While these agents make work faster, they also open a new \"back door\" for hackers.  The Problem: \"The Invisible Employee\"  Think of an AI Agent like a new employee who has the keys to every office in your building but doesn't have a name tag.  Because these agents act on their own, they often have access to sensitive information that nobody is watching. Hackers have figured this out. They don't need to break your password anymore—they just need to trick your AI Agent into doing the work for them.  If your company uses AI to automate tasks, you might be at risk. Traditional security tools were built to protect humans, not \"digital workers.\"  In our upcoming webinar, Beyond the Model: The Expanded Attack Surface of AI Agen...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "how-to-stop-ai-data-leaks-a-webinar-guide-to-audit",
+      "source": "The Hacker News",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "KadNap Malware Infects 14,000+ Edge Devices to Power Stealth Proxy Botnet",
+      "link": "https://thehackernews.com/2026/03/kadnap-malware-infects-14000-edge.html",
+      "summary": "Cybersecurity researchers have discovered a new malware called KadNap  that's primarily targeting Asus routers to enlist them into a botnet for proxying malicious traffic.  The malware, first detected in the wild in August 2025, has expanded to over 14,000 infected devices, with more than 60% of victims located in the U.S., according to the Black Lotus Labs team at Lumen. A lesser number of infections have been detected in Taiwan, Hong Kong, Russia, the U.K., Australia, Brazil, France, Italy, and Spain.  \"KadNap employs a custom version of the Kademlia  Distributed Hash Table ( DHT ) protocol, which is used to conceal the IP address of their infrastructure within a peer-to-peer system to evade traditional network monitoring,\" the cybersecurity company said  in a report shared with The Hacker News.  Compromised nodes in the network leverage the DHT protocol to locate and connect with a command-and-control (C2) server, thereby making it resilient to detection and disrupt...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "kadnap-malware-infects-14000-edge-devices-to-power",
+      "source": "The Hacker News",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Moxa, Mitsubishi Electric",
+      "link": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-moxa-mitsubishi-electric/",
+      "summary": "Industrial giants Siemens, Schneider Electric, Mitsubishi Electric, and Moxa have published new ICS Patch Tuesday advisories.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "ics-patch-tuesday-vulnerabilities-fixed-by-siemens",
+      "source": "SecurityWeek",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Microsoft Patches 83 Vulnerabilities",
+      "link": "https://www.securityweek.com/microsoft-patches-83-vulnerabilities/",
+      "summary": "Microsoft has fixed a critical vulnerability, but none of the flaws fixed this Patch Tuesday has been exploited in the wild.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-83-vulnerabilities",
+      "source": "SecurityWeek",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Adobe Patches 80 Vulnerabilities Across Eight Products",
+      "link": "https://www.securityweek.com/adobe-patches-80-vulnerabilities-across-eight-products/",
+      "summary": "Adobe has rolled out patches for 80 vulnerabilities across 8 products, including Commerce, Illustrator, Acrobat Reader, and Premiere Pro.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "adobe-patches-80-vulnerabilities-across-eight-prod",
+      "source": "SecurityWeek",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Jazz Emerges From Stealth With $61M in Funding for AI-Powered DLP",
+      "link": "https://www.securityweek.com/jazz-emerges-from-stealth-with-61m-in-funding-for-ai-powered-dlp/",
+      "summary": "The startup brings AI to data loss prevention to provide visibility into intent, context, and risk.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "jazz-emerges-from-stealth-with-61m-in-funding-for-",
+      "source": "SecurityWeek",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Kai Emerges From Stealth With $125M in Funding for AI Platform Bridging IT and OT Security",
+      "link": "https://www.securityweek.com/kai-emerges-from-stealth-with-125m-in-funding-for-ai-platform-bridging-it-and-ot-security/",
+      "summary": "The company was created by a Claroty founder and is backed by Evolution Equity Partners, N47, and other investors.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "kai-emerges-from-stealth-with-125m-in-funding-for-",
+      "source": "SecurityWeek",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Webinar Today: Securing Fragile OT in an Exposed World",
+      "link": "https://www.securityweek.com/webinar-today-securing-fragile-ot-in-an-exposed-world/",
+      "summary": "Join the webinar as we examine the current OT threat landscape and move past the “doom and gloom” to discuss the mechanics of modern OT exposure.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "webinar-today-securing-fragile-ot-in-an-exposed-wo",
+      "source": "SecurityWeek",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "New ‘BlackSanta’ EDR killer spotted targeting HR departments",
+      "link": "https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/",
+      "summary": "For more than a year, a Russian-speaking threat actor targeted human resource (HR) departments with malware that delivers a new EDR killer named BlackSanta.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "new-blacksanta-edr-killer-spotted-targeting-hr-dep",
+      "source": "BleepingComputer",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "New BeatBanker Android malware poses as Starlink app to hijack devices",
+      "link": "https://www.bleepingcomputer.com/news/security/new-beatbanker-android-malware-poses-as-starlink-app-to-hijack-devices/",
+      "summary": "A new Android malware named BeatBanker can hijack devices and tricks users into installing it by posing as a Starlink app on websites masquerading as the official Google Play Store.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-beatbanker-android-malware-poses-as-starlink-a",
+      "source": "BleepingComputer",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Are AI Tools Accessing Your Sensitive Data?",
+      "link": "https://www.bleepingcomputer.com/mgo/76/",
+      "summary": "MCP server connections have opened up data super-highways for AI tools to access your corporate data. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Get your free shadow AI inventory today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "are-ai-tools-accessing-your-sensitive-data",
+      "source": "BleepingComputer",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "New 'Zombie ZIP' technique lets malware slip past security tools",
+      "link": "https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/",
+      "summary": "A new technique dubbed \"Zombie ZIP\" helps conceal payloads in compressed files specially created to avoid detection from security solutions such as antivirus and endpoint detection and response (EDR) products.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-zombie-zip-technique-lets-malware-slip-past-se",
+      "source": "BleepingComputer",
+      "date": "2026-03-11"
+    }
+  ]
+}

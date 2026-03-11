@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool</div><div class="ticker-item">CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited</div><div class="ticker-item">Malicious npm Package Posing as OpenClaw Installer Deploys RAT, Steals macOS Credentials</div><div class="ticker-item">UNC4899 Breached Crypto Firm After Developer AirDropped Trojanized File to Work Device</div><div class="ticker-item">⚡ Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware</div><div class="ticker-item">Can the Security Platform Finally Deliver for the Mid-Market?</div><div class="ticker-item">Cylake Raises $45 Million to Secure Organizations Barred From Cloud</div><div class="ticker-item">Cybersecurity M&A Roundup: 42 Deals Announced in February 2026</div><div class="ticker-item">ClickFix Attack Uses Windows Terminal to Evade Detection</div><div class="ticker-item">Internet Infrastructure TLD .arpa Abused in Phishing Attacks</div><div class="ticker-item">Cloned AI Tool Sites Distribute Malware in ‘InstallFix’ Campaign</div><div class="ticker-item">Recent Cisco Catalyst SD-WAN Vulnerability Now Widely Exploited</div><div class="ticker-item">Microsoft Teams phishing targets employees with A0Backdoor malware</div><div class="ticker-item">Google: Cloud attacks exploit flaws more than weak credentials</div><div class="ticker-item">New research: What AI usage data reveals about risk and governance</div><div class="ticker-item">Dutch govt warns of Signal, WhatsApp account hijacking attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool</h3>
+                <p><strong>Summary:</strong> Salesforce has warned of an increase in threat actor activity that's aimed at exploiting misconfigurations in publicly accessible Experience Cloud sites by making use of a customized version of an ope...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  three security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation....</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious npm Package Posing as OpenClaw Installer Deploys RAT, Steals macOS Credentials</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a malicious npm package that masquerades as an OpenClaw  installer to deploy a remote access trojan (RAT) and steal sensitive data from compromised hosts.  Th...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UNC4899 Breached Crypto Firm After Developer AirDropped Trojanized File to Work Device</h3>
+                <p><strong>Summary:</strong> The North Korean threat actor known as UNC4899  is suspected to be behind a sophisticated cloud compromise campaign targeting a cryptocurrency organization in 2025 to steal millions of dollars in cryp...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware</h3>
+                <p><strong>Summary:</strong> Another week in cybersecurity. Another week of "you've got to be kidding me."  Attackers were busy. Defenders were busy. And somewhere in the middle, a whole lot of people had a very bad Monday mornin...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Can the Security Platform Finally Deliver for the Mid-Market?</h3>
+                <p><strong>Summary:</strong> Mid-market organizations are constantly striving to achieve security levels on a par with their enterprise peers. With heightened awareness of supply chain attacks, your customers and business partner...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/can-security-platform-finally-deliver.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/can-security-platform-finally-deliver.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cylake Raises $45 Million to Secure Organizations Barred From Cloud</h3>
+                <p><strong>Summary:</strong> The company, founded by Palo Alto Networks’ Nir Zuk, has developed a platform that focuses on data sovereignty.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cylake-raises-45-million-to-secure-organizations-barred-from-cloud/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cylake-raises-45-million-to-secure-organizations-barred-from-cloud/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cybersecurity M&A Roundup: 42 Deals Announced in February 2026</h3>
+                <p><strong>Summary:</strong> Significant cybersecurity M&A deals announced by Check Point, Booz Allen, Proofpoint, Sophos, Palo Alto Networks, and Zscaler.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cybersecurity-ma-roundup-42-deals-announced-in-february-2026/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cybersecurity-ma-roundup-42-deals-announced-in-february-2026/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ClickFix Attack Uses Windows Terminal to Evade Detection</h3>
+                <p><strong>Summary:</strong> Fake CAPTCHA pages instruct victims to paste malicious commands in the Windows Terminal instead of the Run dialog.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/clickfix-attack-uses-windows-terminal-to-evade-detection/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/clickfix-attack-uses-windows-terminal-to-evade-detection/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Internet Infrastructure TLD .arpa Abused in Phishing Attacks</h3>
+                <p><strong>Summary:</strong> Abusing DNS record management controls, the threat actor hides the location of malicious content via Cloudflare.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/internet-infrastructure-tld-arpa-abused-in-phishing-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/internet-infrastructure-tld-arpa-abused-in-phishing-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cloned AI Tool Sites Distribute Malware in ‘InstallFix’ Campaign</h3>
+                <p><strong>Summary:</strong> Threat actors replace legitimate commands on the cloned installation webpages with malicious commands.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Recent Cisco Catalyst SD-WAN Vulnerability Now Widely Exploited</h3>
+                <p><strong>Summary:</strong> WatchTowr reports seeing exploitation attempts for CVE-2026-20127 from numerous unique IP addresses.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-cisco-catalyst-sd-wan-vulnerability-now-widely-exploited/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-cisco-catalyst-sd-wan-vulnerability-now-widely-exploited/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Teams phishing targets employees with A0Backdoor malware</h3>
+                <p><strong>Summary:</strong> Hackers contacted employees at financial and healthcare organizations over Microsoft Teams to trick them into granting remote access through Quick Assist and deploy a new piece of malware called A0Bac...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google: Cloud attacks exploit flaws more than weak credentials</h3>
+                <p><strong>Summary:</strong> Hackers are increasingly exploiting newly disclosed vulnerabilities in third-party software to gain initial access to cloud environments, with the window for attacks shrinking from weeks to just days.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New research: What AI usage data reveals about risk and governance</h3>
+                <p><strong>Summary:</strong> AI adoption is no longer experimental. Research from Nudge Security shows that AI is now embedded in everyday workflows and connected to sensitive systems like email, file shares, and code repos. Get ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/78/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/78/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dutch govt warns of Signal, WhatsApp account hijacking attacks</h3>
+                <p><strong>Summary:</strong> Russian state-sponsored hackers have been linked to an ongoing Signal and WhatsApp phishing campaign targeting government officials, military personnel, and journalists to gain access to sensitive mes...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/dutch-govt-warns-of-signal-whatsapp-account-hijacking-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/dutch-govt-warns-of-signal-whatsapp-account-hijacking-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
