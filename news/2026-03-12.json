@@ -1,0 +1,207 @@
+{
+  "date": "2026-03-12",
+  "items": [
+    {
+      "title": "Six Android Malware Families Target Pix Payments, Banking Apps, and Crypto Wallets",
+      "link": "https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html",
+      "summary": "Cybersecurity researchers have discovered half-a-dozen new Android malware families that come with capabilities to steal data from compromised devices and conduct financial fraud.  The Android malware range from traditional banking trojans like PixRevolution , TaxiSpy RAT , BeatBanker , Mirax , and Oblivion RAT  to full-fledged remote administration tools such as SURXRAT .  PixRevolution, according to Zimperium, targets Brazil's Pix instant payment platform , hijacking victims' money transfers in real-time to route them to the threat actors instead of the intended payee.  \"This new strain of malware operates stealthily within the device until the moment the victim initiates a Pix transfer,\" security researcher Aazim Yaswant said . \"What distinguishes this threat from conventional banking trojans is its fundamental design: a human or AI agent operator is actively engaged on the remote end, observing the victim's phone screen instantaneously, poised to act at ...",
+      "tags": [
+        "malware",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "six-android-malware-families-target-pix-payments-b",
+      "source": "The Hacker News",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed",
+      "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting n8n to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation.  The vulnerability, tracked as CVE-2025-68613  (CVSS score: 9.9), concerns a case of expression injection that leads to remote code execution. The security shortcoming was patched by n8n in December 2025  in versions 1.120.4, 1.121.1, and 1.122.0. CVE-2025-68613 is the first n8n vulnerability to be placed in the KEV catalog.  \"N8n contains an improper control of dynamically managed code resources vulnerability in its workflow expression evaluation system that allows for remote code execution,\" CISA said.  According to the maintainers of the workflow automation platform, the vulnerability could be weaponized by an authenticated attacker to execute arbitrary code with the privileges of the n8n process.   Successful exploitation of the flaw could result in a c...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-flags-actively-exploited-n8n-rce-bug-as-24700",
+      "source": "The Hacker News",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes",
+      "link": "https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html",
+      "summary": "Agentic web browsers that leverage artificial intelligence (AI) capabilities to autonomously execute actions across multiple websites on behalf of a user could be trained and tricked into falling prey to phishing and scam traps.  The attack, at its core, takes advantage of AI browsers' tendency to reason their actions and use it against the model itself to lower their security guardrails, Guardio said  in a report shared with The Hacker News ahead of publication.  \"The AI now operates in real time, inside messy and dynamic pages, while continuously requesting information, making decisions, and narrating its actions along the way. Well, 'narrating' is quite an understatement - It blabbers, and way too much!,\" security researcher Shaked Chen said.  \"This is what we call Agentic Blabbering : the AI Browser exposing what it sees, what it believes is happening, what it plans to do next, and what signals it considers suspicious or safe.\"   By intercepting thi...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "researchers-trick-perplexitys-comet-ai-browser-int",
+      "source": "The Hacker News",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+      "link": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+      "summary": "Cybersecurity researchers have disclosed details of two now-patched security flaws in the n8n  workflow automation platform, including two critical bugs that could result in arbitrary command execution.  The vulnerabilities are listed below -   CVE-2026-27577  (CVSS score: 9.4) - Expression sandbox escape leading to remote code execution (RCE)  CVE-2026-27493  (CVSS score: 9.5) - Unauthenticated expression evaluation via n8n's Form nodes   \"CVE-2026-27577 is a sandbox escape in the expression compiler: a missing case in the AST rewriter lets process slip through untransformed, giving any authenticated expression full RCE,\" Pillar Security researcher Eilon Cohen, who discovered and reported the issues, said  in a report shared with The Hacker News.   The cybersecurity company described CVE-2026-27493 as a \"double-evaluation bug\" in n8n's Form nodes that could be abused for expression injection by taking advantage of the fact that the form endpoints are publi...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-n8n-flaws-allow-remote-code-execution-and",
+      "source": "The Hacker News",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown",
+      "link": "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
+      "summary": "Meta on Wednesday said it disabled over 150,000 accounts associated with scam centers in Southeast Asia  as part of a coordinated effort in partnership with authorities from Thailand, the U.S., the U.K., Canada, Korea, Japan, Singapore, the Philippines, Australia, New Zealand, and Indonesia.  The effort also led to 21 arrests made by the Royal Thai Police, the company said. The action builds upon a pilot initiative in December 2025 that resulted in Meta removing 59,000 accounts, Pages, and Groups from its platforms and six arrest warrants.  \" Online scams  have become significantly more sophisticated and industrialized in recent years, with criminal networks often based in Southeast Asia in countries like Cambodia, Myanmar, and Laos running what amount to full-scale business operations,\" Meta said  in a statement. \"These operations cause real harm – they upend lives, destroy trust, and are deliberately designed to avoid detection and disruption.\"   In tandem, Meta ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "meta-disables-150k-accounts-linked-to-southeast-as",
+      "source": "The Hacker News",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
+      "link": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+      "summary": "SAP has released  security updates to address two critical security flaws that could be exploited to achieve arbitrary code execution on affected systems.  The vulnerabilities in question listed below -   CVE-2019-17571  (CVSS score: 9.8) - A code injection vulnerability in SAP Quotation Management Insurance application (FS-QUO)  CVE-2026-27685  (CVSS score: 9.1) - An insecure deserialization vulnerability in SAP NetWeaver Enterprise Portal Administration   \"The application uses an outdated artifact of Apache Log4j 1.2.17 that is vulnerable to CVE-2019-17571,\" SAP security company Onapsis said . \"It allows an unprivileged attacker to execute arbitrary code remotely on the server, causing high impact on confidentiality, integrity, and availability of the application.\"   CVE-2026-27685, on the other hand, stems from missing or insufficient validation during the deserialization of uploaded content, which could allow an attacker to upload untrusted or malicious content...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "dozens-of-vendors-patch-security-flaws-across-ente",
+      "source": "The Hacker News",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Senate Confirms Joshua Rudd to Lead NSA and US Cyber Command",
+      "link": "https://www.securityweek.com/senate-confirms-joshua-rudd-to-lead-nsa-and-us-cyber-command/",
+      "summary": "The leadership structure, commonly referred to as the “dual-hat” arrangement, assigns a single individual to oversee both organizations.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "senate-confirms-joshua-rudd-to-lead-nsa-and-us-cyb",
+      "source": "SecurityWeek",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "MedTech Giant Stryker Crippled by Iran-Linked Hacker Attack",
+      "link": "https://www.securityweek.com/medtech-giant-stryker-crippled-by-iran-linked-hacker-attack/",
+      "summary": "Stryker was targeted by the Handala group, which claims to have wiped more than 200,000 of the company’s devices.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "medtech-giant-stryker-crippled-by-iran-linked-hack",
+      "source": "SecurityWeek",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Wiz Joins Google Cloud as Landmark Acquisition Closes",
+      "link": "https://www.securityweek.com/wiz-joins-google-cloud-as-landmark-acquisition-closes/",
+      "summary": "Google has completed its $32 billion acquisition of the cloud security giant, which will maintain its brand.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "wiz-joins-google-cloud-as-landmark-acquisition-clo",
+      "source": "SecurityWeek",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "CISO Conversations: Aimee Cardwell",
+      "link": "https://www.securityweek.com/ciso-conversations-aimee-cardwell/",
+      "summary": "Cardwell started her career at Netscape, become a VP of engineering at American Express, CISO at UnitedHealth Group, and now CISO in Residence at Transcend.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ciso-conversations-aimee-cardwell",
+      "source": "SecurityWeek",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "238,000 Impacted by Bell Ambulance Data Breach",
+      "link": "https://www.securityweek.com/238000-impacted-by-bell-ambulance-data-breach/",
+      "summary": "Hackers stole personal information such as names, Social Security numbers, and driver’s license numbers.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "238000-impacted-by-bell-ambulance-data-breach",
+      "source": "SecurityWeek",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Scanner Raises $22 Million for AI-Powered Threat Hunting",
+      "link": "https://www.securityweek.com/scanner-raises-22-million-for-ai-powered-threat-hunting/",
+      "summary": "The company connects AI agents to security data lakes for interactive investigations, detection engineering, and autonomous response.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "scanner-raises-22-million-for-ai-powered-threat-hu",
+      "source": "SecurityWeek",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "WhatsApp introduces parent-managed accounts for pre-teens",
+      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/",
+      "summary": "WhatsApp has begun rolling out parent-managed accounts for pre-teens, allowing parents and guardians to decide who can contact them and which groups they can join.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "whatsapp-introduces-parent-managed-accounts-for-pr",
+      "source": "BleepingComputer",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
+      "summary": "An SQL injection vulnerability in Ally, a WordPress plugin from Elementor for web accessibility and usability with more than 400,000 installations, could be exploited to steal sensitive data without authentication.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "sqli-flaw-in-elementor-ally-plugin-impacts-250k-wo",
+      "source": "BleepingComputer",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Shadow AI Is Everywhere. Here's How to Find and Secure It.",
+      "link": "https://www.bleepingcomputer.com/mgo/77/",
+      "summary": "AI is quietly accessing sensitive data through integrations and MCP server connections. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Take control of shadow AI risks today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "shadow-ai-is-everywhere-heres-how-to-find-and-secu",
+      "source": "BleepingComputer",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "CISA orders feds to patch n8n RCE flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-i",
+      "source": "BleepingComputer",
+      "date": "2026-03-12"
+    }
+  ]
+}
