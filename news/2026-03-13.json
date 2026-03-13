@@ -1,0 +1,195 @@
+{
+  "date": "2026-03-13",
+  "items": [
+    {
+      "title": "Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8",
+      "link": "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html",
+      "summary": "Google on Thursday released security updates for its Chrome web browser to address two high-severity vulnerabilities that it said have been exploited in the wild.  The list of vulnerabilities is as follows -   CVE-2026-3909  (CVSS score: 8.8) - An out-of-bounds write vulnerability in the Skia 2D graphics library that allows a remote attacker to perform out-of-bounds memory access via a crafted HTML page.  CVE-2026-3910  (CVSS score: 8.8) - An inappropriate implementation vulnerability in the V8 JavaScript and WebAssembly engine that allows a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.   Both vulnerabilities were discovered and reported by Google itself on March 10, 2026. As is customary in these cases, no details are available about how the issues are being abused in the wild and who is behind the efforts. This is done so as to prevent other threat actors from exploiting the issues.   \"Google is aware that exploits for both CVE-2026-3909 an...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "google-fixes-two-chrome-zero-days-exploited-in-the",
+      "source": "The Hacker News",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
+      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities within the Linux kernel's AppArmor  module that could be exploited by unprivileged users to circumvent kernel protections, escalate to root, and undermine container isolation guarantees.  The nine confused deputy vulnerabilities have been collectively codenamed CrackArmor  by the Qualys Threat Research Unit (TRU). The cybersecurity company said the issue has existed since 2017. No CVE identifiers have been assigned to the shortcomings.  AppArmor is a Linux security module that provides mandatory access control (MAC) and secures the operating system against external or internal threats by preventing known and unknown application flaws from being exploited. It has been included in the mainline Linux kernel since version 2.6.36.   \"This 'CrackArmor' advisory exposes a confused deputy flaw  allowing unprivileged users to manipulate security profiles via pseudo-files, bypass user-namespace restricti...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-roo",
+      "source": "The Hacker News",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries",
+      "link": "https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html",
+      "summary": "A court-authorized international law enforcement operation has dismantled a criminal proxy service named SocksEscort  that enslaved thousands of residential routers worldwide into a botnet for committing large-scale fraud.  \"SocksEscort infected home and small business internet routers with malware,\" the U.S. Department of Justice (DoJ) said . \"The malware allowed SocksEscort to direct internet traffic through the infected routers. SocksEscort sold this access to its customers.\"  SocksEscort (\"socksescort[.]com\") is said to have offered to sell access to about 369,000 different IP addresses in 163 countries since the summer of 2020, with the service listing nearly 8,000 infected routers as of February 2026. Of these, 2,500 were located in the U.S.  As of December 2025, SocksEscort's website claimed to offer \"static residential IPs with unlimited bandwidth\" and that they can bypass spam blocklists. It advertised over 35,900 proxies from 102 c...",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "urgency": "Medium",
+      "slug": "authorities-disrupt-socksescort-proxy-botnet-explo",
+      "source": "The Hacker News",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
+      "summary": "Veeam has released security updates to address multiple critical vulnerabilities in its Backup & Replication software that, if successfully exploited, could result in remote code execution.  The vulnerabilities  are as follows -   CVE-2026-21666  (CVSS score: 9.9) - A vulnerability that allows an authenticated domain user to perform remote code execution on the Backup Server.  CVE-2026-21667  (CVSS score: 9.9) - A vulnerability that allows an authenticated domain user to perform remote code execution on the Backup Server.  CVE-2026-21668  (CVSS score: 8.8) - A vulnerability that allows an authenticated domain user to bypass restrictions and manipulate arbitrary files on a Backup Repository.  CVE-2026-21672  (CVSS score: 8.8) - A vulnerability that allows local privilege escalation on Windows-based Veeam Backup & Replication servers.  CVE-2026-21708  (CVSS score: 9.9) - A vulnerability that allows a Backup Viewer to perform remote code execution as the postgres user.    The sho...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "veeam-patches-7-critical-backup-replication-flaws-",
+      "source": "The Hacker News",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
+      "link": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new banking malware targeting Brazilian users that's written in Rust, marking a significant departure from other known Delphi-based malware families  associated with the Latin American cybercrime ecosystem.  The malware, which is designed to infect Windows systems and was first discovered last month, has been codenamed VENON  by Brazilian cybersecurity company ZenoX.  What makes VENON notable is that it shares behaviors that are consistent with established banking trojans targeting the region, such as Grandoreiro, Mekotio, and Coyote, specifically when it comes to features like banking overlay logic, active window monitoring, and a shortcut (LNK) hijacking mechanism.  The malware has not been attributed to any previously documented group or campaign. However, an earlier version of the artifact, dating back to January 2026, has been found to expose full paths from the malware author's development environment. The paths repea...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "rust-based-venon-malware-targets-33-brazilian-bank",
+      "source": "The Hacker News",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks",
+      "link": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
+      "summary": "Cybersecurity researchers have disclosed details of a suspected artificial intelligence (AI)-generated malware codenamed Slopoly  put to use by a financially motivated threat actor named Hive0163 .  \"Although still relatively unspectacular, AI-generated malware such as Slopoly shows how easily threat actors can weaponize AI to develop new malware frameworks in a fraction of the time it used to take,\" IBM X-Force researcher Golo Mühr said  in a report shared with The Hacker News.  Hive0163's operations are driven by extortion through large-scale data exfiltration and ransomware. The e-crime group is primarily associated  with a wide range of malicious tools, including NodeSnake, Interlock RAT, JunkFiction loader, and Interlock ransomware.  In one ransomware attack observed by the company in early 2026, the threat actor was observed deploying Slopoly during the post-exploitation phase so as to maintain persistent access to the compromised server for more than a week.   Slo...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hive0163-uses-ai-assisted-slopoly-malware-for-pers",
+      "source": "The Hacker News",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Onyx Security Launches With $40 Million in Funding",
+      "link": "https://www.securityweek.com/onyx-security-launches-with-40-million-in-funding/",
+      "summary": "The startup is building a control pane to help organizations oversee autonomous AI agents and rapidly adopt them.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "onyx-security-launches-with-40-million-in-funding",
+      "source": "SecurityWeek",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Authorities Disrupt SocksEscort Proxy Service Powered by AVrecon Botnet",
+      "link": "https://www.securityweek.com/authorities-disrupt-socksescort-proxy-service-powered-by-avrecon-botnet/",
+      "summary": "Law enforcement agencies in the US and Europe targeted the cybercrime service that has impacted 360,000 devices since 2020.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "authorities-disrupt-socksescort-proxy-service-powe",
+      "source": "SecurityWeek",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Chrome 146 Update Patches Two Exploited Zero-Days",
+      "link": "https://www.securityweek.com/chrome-146-update-patches-two-exploited-zero-days/",
+      "summary": "The flaws can be exploited to manipulate data and bypass security restrictions, potentially leading to code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "chrome-146-update-patches-two-exploited-zero-days",
+      "source": "SecurityWeek",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Apple Updates Legacy iOS Versions to Patch Coruna Exploits",
+      "link": "https://www.securityweek.com/apple-updates-older-ios-versions-to-patch-coruna-exploits/",
+      "summary": "The company has released iOS and iPadOS versions 16.7.15 and 15.8.7 to patch the vulnerabilities.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "apple-updates-legacy-ios-versions-to-patch-coruna-",
+      "source": "SecurityWeek",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Meta Launches New Protection Tools as It Helps Disrupt Scam Centers",
+      "link": "https://www.securityweek.com/meta-launches-new-protection-tools-as-it-helps-disrupt-scam-centers/",
+      "summary": "The social media giant has disabled more than 150,000 accounts powering scam centers in Asia.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "meta-launches-new-protection-tools-as-it-helps-dis",
+      "source": "SecurityWeek",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Ally WordPress Plugin Flaw Exposes Over 200,000 Websites to Attacks",
+      "link": "https://www.securityweek.com/ally-wordpress-plugin-flaw-exposes-over-200000-websites-to-attacks/",
+      "summary": "The issue allows attackers to inject SQL queries and extract sensitive information from the database.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ally-wordpress-plugin-flaw-exposes-over-200000-web",
+      "source": "SecurityWeek",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Starbucks discloses data breach affecting hundreds of employees",
+      "link": "https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/",
+      "summary": "Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "starbucks-discloses-data-breach-affecting-hundreds",
+      "source": "BleepingComputer",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Are AI Tools Accessing Your Sensitive Data?",
+      "link": "https://www.bleepingcomputer.com/mgo/76/",
+      "summary": "MCP server connections have opened up data super-highways for AI tools to access your corporate data. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Get your free shadow AI inventory today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "are-ai-tools-accessing-your-sensitive-data",
+      "source": "BleepingComputer",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Canadian retail giant Loblaw notifies customers of data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
+      "summary": "Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to log in again.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "canadian-retail-giant-loblaw-notifies-customers-of",
+      "source": "BleepingComputer",
+      "date": "2026-03-13"
+    }
+  ]
+}

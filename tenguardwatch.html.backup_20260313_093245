@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Six Android Malware Families Target Pix Payments, Banking Apps, and Crypto Wallets</div><div class="ticker-item">CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed</div><div class="ticker-item">Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes</div><div class="ticker-item">Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials</div><div class="ticker-item">Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown</div><div class="ticker-item">Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices</div><div class="ticker-item">Senate Confirms Joshua Rudd to Lead NSA and US Cyber Command</div><div class="ticker-item">MedTech Giant Stryker Crippled by Iran-Linked Hacker Attack</div><div class="ticker-item">Wiz Joins Google Cloud as Landmark Acquisition Closes</div><div class="ticker-item">CISO Conversations: Aimee Cardwell</div><div class="ticker-item">238,000 Impacted by Bell Ambulance Data Breach</div><div class="ticker-item">Scanner Raises $22 Million for AI-Powered Threat Hunting</div><div class="ticker-item">WhatsApp introduces parent-managed accounts for pre-teens</div><div class="ticker-item">SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites</div><div class="ticker-item">Shadow AI Is Everywhere. Here's How to Find and Secure It.</div><div class="ticker-item">CISA orders feds to patch n8n RCE flaw exploited in attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Six Android Malware Families Target Pix Payments, Banking Apps, and Crypto Wallets</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered half-a-dozen new Android malware families that come with capabilities to steal data from compromised devices and conduct financial fraud.  The Android malware...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting n8n to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes</h3>
+                <p><strong>Summary:</strong> Agentic web browsers that leverage artificial intelligence (AI) capabilities to autonomously execute actions across multiple websites on behalf of a user could be trained and tricked into falling prey...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of two now-patched security flaws in the n8n  workflow automation platform, including two critical bugs that could result in arbitrary command executio...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown</h3>
+                <p><strong>Summary:</strong> Meta on Wednesday said it disabled over 150,000 accounts associated with scam centers in Southeast Asia  as part of a coordinated effort in partnership with authorities from Thailand, the U.S., the U....</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices</h3>
+                <p><strong>Summary:</strong> SAP has released  security updates to address two critical security flaws that could be exploited to achieve arbitrary code execution on affected systems.  The vulnerabilities in question listed below...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Senate Confirms Joshua Rudd to Lead NSA and US Cyber Command</h3>
+                <p><strong>Summary:</strong> The leadership structure, commonly referred to as the “dual-hat” arrangement, assigns a single individual to oversee both organizations.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/senate-confirms-joshua-rudd-to-lead-nsa-and-us-cyber-command/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/senate-confirms-joshua-rudd-to-lead-nsa-and-us-cyber-command/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MedTech Giant Stryker Crippled by Iran-Linked Hacker Attack</h3>
+                <p><strong>Summary:</strong> Stryker was targeted by the Handala group, which claims to have wiped more than 200,000 of the company’s devices.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/medtech-giant-stryker-crippled-by-iran-linked-hacker-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/medtech-giant-stryker-crippled-by-iran-linked-hacker-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Wiz Joins Google Cloud as Landmark Acquisition Closes</h3>
+                <p><strong>Summary:</strong> Google has completed its $32 billion acquisition of the cloud security giant, which will maintain its brand.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/wiz-joins-google-cloud-as-landmark-acquisition-closes/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/wiz-joins-google-cloud-as-landmark-acquisition-closes/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISO Conversations: Aimee Cardwell</h3>
+                <p><strong>Summary:</strong> Cardwell started her career at Netscape, become a VP of engineering at American Express, CISO at UnitedHealth Group, and now CISO in Residence at Transcend.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ciso-conversations-aimee-cardwell/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ciso-conversations-aimee-cardwell/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>238,000 Impacted by Bell Ambulance Data Breach</h3>
+                <p><strong>Summary:</strong> Hackers stole personal information such as names, Social Security numbers, and driver’s license numbers.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/238000-impacted-by-bell-ambulance-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/238000-impacted-by-bell-ambulance-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Scanner Raises $22 Million for AI-Powered Threat Hunting</h3>
+                <p><strong>Summary:</strong> The company connects AI agents to security data lakes for interactive investigations, detection engineering, and autonomous response.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/scanner-raises-22-million-for-ai-powered-threat-hunting/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/scanner-raises-22-million-for-ai-powered-threat-hunting/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WhatsApp introduces parent-managed accounts for pre-teens</h3>
+                <p><strong>Summary:</strong> WhatsApp has begun rolling out parent-managed accounts for pre-teens, allowing parents and guardians to decide who can contact them and which groups they can join.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites</h3>
+                <p><strong>Summary:</strong> An SQL injection vulnerability in Ally, a WordPress plugin from Elementor for web accessibility and usability with more than 400,000 installations, could be exploited to steal sensitive data without a...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Shadow AI Is Everywhere. Here's How to Find and Secure It.</h3>
+                <p><strong>Summary:</strong> AI is quietly accessing sensitive data through integrations and MCP server connections. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server con...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/77/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/77/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA orders feds to patch n8n RCE flaw exploited in attacks</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
