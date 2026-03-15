@@ -1,0 +1,209 @@
+{
+  "date": "2026-03-15",
+  "items": [
+    {
+      "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration",
+      "link": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
+      "summary": "China's National Computer Network Emergency Response Technical Team (CNCERT) has issued  a warning about the security stemming from the use of OpenClaw  (formerly Clawdbot and Moltbot), an open-source and self-hosted autonomous artificial intelligence (AI) agent.  In a post shared on WeChat, CNCERT noted that the platform's \"inherently weak default security configurations,\" coupled with its privileged access to the system to facilitate autonomous task execution capabilities, could be explored by bad actors to seize control of the endpoint.  This includes risks arising from prompt injections, where malicious instructions embedded within a web page can cause the agent to leak sensitive information if it's tricked into accessing and consuming the content.  The attack is also referred  to as indirect prompt injection (IDPI) or cross-domain prompt injection (XPIA), as adversaries, instead of interacting directly with a large language model (LLM), weaponize benign AI f...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "openclaw-ai-agent-flaws-could-enable-prompt-inject",
+      "source": "The Hacker News",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers",
+      "link": "https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html",
+      "summary": "Cybersecurity researchers have flagged a new iteration of the GlassWorm campaign that they say represents a \"significant escalation\" in how it propagates through the Open VSX registry.  \"Instead of requiring every malicious listing to embed the loader directly, the threat actor is now abusing extensionPack and extensionDependencies to turn initially standalone-looking extensions into transitive delivery vehicles in later updates, allowing a benign-appearing package to begin pulling a separate GlassWorm-linked extension only after trust has already been established,\" Socket said  in a report published Friday.  The software supply chain security company said it discovered at least 72 additional malicious Open VSX extensions since January 31, 2026, targeting developers. These extensions mimic widely used developer utilities, including linters and formatters, code runners, and tools for artificial intelligence (AI)-powered coding assistants like Clade Code and Google...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "glassworm-supply-chain-attack-abuses-72-open-vsx-e",
+      "source": "The Hacker News",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware",
+      "link": "https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html",
+      "summary": "A suspected China-based cyber espionage operation has targeted Southeast Asian military organizations as part of a state-sponsored campaign that dates back to at least 2020.  Palo Alto Networks Unit 42 is tracking the threat activity under the moniker CL-STA-1087 , where CL refers to cluster, and STA stands for state-backed motivation.  \"The activity demonstrated strategic operational patience and a focus on highly targeted intelligence collection, rather than bulk data theft,\" security researchers Lior Rochberger and Yoav Zemah said. \"The attackers behind this cluster actively searched for and collected highly specific files concerning military capabilities, organizational structures, and collaborative efforts with Western armed forces.\"  The campaign exhibits hallmarks commonly associated with advanced persistent threat (APT) operations, including carefully crafted delivery methods, defense evasion strategies, highly stable operational infrastructure, and custom ...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "chinese-hackers-target-southeast-asian-militaries-",
+      "source": "The Hacker News",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026",
+      "link": "https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html",
+      "summary": "Meta has announced plans to discontinue support for end-to-end encryption (E2EE) for chats on Instagram after May 8, 2026.  \"If you have chats that are impacted by this change, you will see instructions on how you can download any media or messages you may want to keep,\" the social media giant said  in a help document. \"If you're on an older version of Instagram, you may also need to update the app before you can download your affected chats.\"  When reached for comment, this is what Meta had to say: \"Very few people were opting in to end-to-end encrypted messaging in DMs, so we're removing this option from Instagram in the coming months. Anyone who wants to keep messaging with end-to-end encryption can easily do that on WhatsApp.\"  The American company first began testing E2EE  for Instagram  direct messages  in 2021 as part of CEO Mark Zuckerberg's \"privacy-focused vision for social networking.\" The feature is currently \" only ...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "meta-to-shut-down-instagram-end-to-end-encrypted-c",
+      "source": "The Hacker News",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime",
+      "link": "https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html",
+      "summary": "INTERPOL on Friday announced  the takedown of 45,000 malicious IP addresses and servers used in connection with phishing, malware, and ransomware campaigns, as part of the agency's ongoing efforts to dismantle criminal networks, disrupt emerging threats, and safeguard victims from scams.  The effort is part of an international law enforcement operation that involved 72 countries and territories. It also led to the arrest of 94 people, with another 110 individuals still under investigation. A total of 212 electronic devices and servers were seized during raids at various key locations.  One such operation in Bangladesh saw 40 suspects arrested and 134 electronic devices confiscated pertaining to a wide range of cybercrime offences, including loan and job scams, identity theft, and credit card fraud.  In Togo, authorities apprehended 10 suspects accused of running a fraud ring from a residential area. While some were involved in hacking into social media accounts, others conducted s...",
+      "tags": [
+        "malware",
+        "phishing",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "interpol-dismantles-45000-malicious-ips-arrests-94",
+      "source": "The Hacker News",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials",
+      "link": "https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html",
+      "summary": "Microsoft has disclosed details of a credential theft campaign that employs fake virtual private network (VPN) clients distributed through search engine optimization (SEO) poisoning techniques.  \"The campaign redirects users searching for legitimate enterprise software to malicious ZIP files on attacker-controlled websites to deploy digitally signed trojans that masquerade as trusted VPN clients while harvesting VPN credentials,\" the Microsoft Threat Intelligence and Microsoft Defender Experts teams said .  The Windows maker, which observed the activity in mid-January 2026, has attributed it to Storm-2561 , a threat activity cluster known for propagating malware through SEO poisoning and impersonating popular software vendors since May 2025.   The threat actor's campaigns were first documented  by Cyjax, highlighting the use of SEO poisoning to redirect users searching for software programs from companies like SonicWall, Hanwha Vision, and Pulse Secure (now Ivanti Secure...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "storm-2561-spreads-trojan-vpn-clients-via-seo-pois",
+      "source": "The Hacker News",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Critical HPE AOS-CX Vulnerability Allows Admin Password Resets",
+      "link": "https://www.securityweek.com/critical-hpe-aos-cx-vulnerability-allows-admin-password-resets/",
+      "summary": "The vulnerability can be exploited remotely, without authentication, to circumvent existing authentication controls.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-hpe-aos-cx-vulnerability-allows-admin-pas",
+      "source": "SecurityWeek",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Starbucks Data Breach Impacts Employees",
+      "link": "https://www.securityweek.com/starbucks-data-breach-impacts-employees/",
+      "summary": "Starbucks said the incident involved phishing attacks targeting an employee portal, affecting hundreds.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "starbucks-data-breach-impacts-employees",
+      "source": "SecurityWeek",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "In Other News: N8n Flaw Exploited, Slopoly Malware, Interpol Cybercrime Crackdown",
+      "link": "https://www.securityweek.com/in-other-news-n8n-flaw-exploited-slopoly-malware-interpol-cybercrime-crackdown/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Telus Digital data breach, vulnerabilities in Linux AppArmor allow root privileges, US defense contractor behind Coruna exploits.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-n8n-flaw-exploited-slopoly-malware-i",
+      "source": "SecurityWeek",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Iran-Linked Hackers Take Aim at US and Other Targets, Raising Risk of Cyberattacks During War",
+      "link": "https://www.securityweek.com/iran-linked-hackers-take-aim-at-us-and-other-targets-raising-risk-of-cyberattacks-during-war/",
+      "summary": "Pro-Iranian hackers are targeting sites in the Middle East and starting to stretch into the United States during the war, raising the risk of American defense contractors, power stations and water plants.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "iran-linked-hackers-take-aim-at-us-and-other-targe",
+      "source": "SecurityWeek",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Bold Security Emerges From Stealth With $40 Million in Funding",
+      "link": "https://www.securityweek.com/bold-security-emerges-from-stealth-with-40-million-in-funding/",
+      "summary": "The startup relies on AI to turn devices into active agents that understand users’ actions and provide protection in real time.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "bold-security-emerges-from-stealth-with-40-million",
+      "source": "SecurityWeek",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Google Paid Out $17 Million in Bug Bounty Rewards in 2025",
+      "link": "https://www.securityweek.com/google-paid-out-17-million-in-bug-bounty-rewards-in-2025/",
+      "summary": "Google paid over $3.7 million for Chrome vulnerabilities, and more than $3.5 million for cloud security defects.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-paid-out-17-million-in-bug-bounty-rewards-i",
+      "source": "SecurityWeek",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/",
+      "summary": "Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise devices that receive hotpatch updates instead of the regular Patch Tuesday cumulative updates.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-releases-windows-11-oob-hotpatch-to-fix-",
+      "source": "BleepingComputer",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code",
+      "link": "https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/",
+      "summary": "The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-chain attack.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "appsflyer-web-sdk-hijacked-to-spread-crypto-steali",
+      "source": "BleepingComputer",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "Are AI Tools Accessing Your Sensitive Data?",
+      "link": "https://www.bleepingcomputer.com/mgo/76/",
+      "summary": "MCP server connections have opened up data super-highways for AI tools to access your corporate data. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and MCP server connections. Get your free shadow AI inventory today.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "are-ai-tools-accessing-your-sensitive-data",
+      "source": "BleepingComputer",
+      "date": "2026-03-15"
+    },
+    {
+      "title": "This documentary streaming service is $140 for lifetime access",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/",
+      "summary": "like general streaming platforms that mix documentaries with everything else, the MagellanTV platform focuses entirely on documentary content. You can currently get lifetime access to MagellanTV for just $139.97 (MSRP: $999) through March 22, giving you long-term access to the platform's growing doc...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "this-documentary-streaming-service-is-140-for-life",
+      "source": "BleepingComputer",
+      "date": "2026-03-15"
+    }
+  ]
+}

@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration</div><div class="ticker-item">GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers</div><div class="ticker-item">Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware</div><div class="ticker-item">Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026</div><div class="ticker-item">INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime</div><div class="ticker-item">Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials</div><div class="ticker-item">Critical HPE AOS-CX Vulnerability Allows Admin Password Resets</div><div class="ticker-item">Starbucks Data Breach Impacts Employees</div><div class="ticker-item">In Other News: N8n Flaw Exploited, Slopoly Malware, Interpol Cybercrime Crackdown</div><div class="ticker-item">Iran-Linked Hackers Take Aim at US and Other Targets, Raising Risk of Cyberattacks During War</div><div class="ticker-item">Bold Security Emerges From Stealth With $40 Million in Funding</div><div class="ticker-item">Google Paid Out $17 Million in Bug Bounty Rewards in 2025</div><div class="ticker-item">Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw</div><div class="ticker-item">AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code</div><div class="ticker-item">Are AI Tools Accessing Your Sensitive Data?</div><div class="ticker-item">This documentary streaming service is $140 for lifetime access</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware</div><div class="ticker-item">Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026</div><div class="ticker-item">INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime</div><div class="ticker-item">Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials</div><div class="ticker-item">Investigating a New Click-Fix Variant</div><div class="ticker-item">Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8</div><div class="ticker-item">Starbucks Data Breach Impacts Employees</div><div class="ticker-item">In Other News: N8n Flaw Exploited, Slopoly Malware, Interpol Cybercrime Crackdown</div><div class="ticker-item">Iran-Linked Hackers Take Aim at US and Other Targets, Raising Risk of Cyberattacks During War</div><div class="ticker-item">Bold Security Emerges From Stealth With $40 Million in Funding</div><div class="ticker-item">Google Paid Out $17 Million in Bug Bounty Rewards in 2025</div><div class="ticker-item">Iran-Linked Hacker Attack on Stryker Disrupted Manufacturing and Shipping</div><div class="ticker-item">Microsoft: Windows 11 users can't access C: drive on some Samsung PCs</div><div class="ticker-item">FBI seeks victims of Steam games used to spread malware</div><div class="ticker-item">Are AI Tools Accessing Your Sensitive Data?</div><div class="ticker-item">Poland's nuclear research centre targeted by cyberattack</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration</h3>
-                <p><strong>Summary:</strong> China's National Computer Network Emergency Response Technical Team (CNCERT) has issued  a warning about the security stemming from the use of OpenClaw  (formerly Clawdbot and Moltbot), an open-source...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a new iteration of the GlassWorm campaign that they say represents a "significant escalation" in how it propagates through the Open VSX registry.  "Instead of re...</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware</h3>
                 <p><strong>Summary:</strong> A suspected China-based cyber espionage operation has targeted Southeast Asian military organizations as part of a state-sponsored campaign that dates back to at least 2020.  Palo Alto Networks Unit 4...</p>
@@ -91,11 +77,18 @@
                 <a href="https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Critical HPE AOS-CX Vulnerability Allows Admin Password Resets</h3>
-                <p><strong>Summary:</strong> The vulnerability can be exploited remotely, without authentication, to circumvent existing authentication controls.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-hpe-aos-cx-vulnerability-allows-admin-password-resets/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/critical-hpe-aos-cx-vulnerability-allows-admin-password-resets/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Investigating a New Click-Fix Variant</h3>
+                <p><strong>Summary:</strong> Disclaimer : This report has been prepared by the Threat Research Center to enhance cybersecurity awareness and support the strengthening of defense capabilities. It is based on independent research a...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/investigating-new-click-fix-variant.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/investigating-new-click-fix-variant.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8</h3>
+                <p><strong>Summary:</strong> Google on Thursday released security updates for its Chrome web browser to address two high-severity vulnerabilities that it said have been exploited in the wild.  The list of vulnerabilities is as fo...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Starbucks Data Breach Impacts Employees</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/google-paid-out-17-million-in-bug-bounty-rewards-in-2025/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw</h3>
-                <p><strong>Summary:</strong> Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise devices that receive hotpatch updates instead of the regular Patch Tuesday cumulati...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Iran-Linked Hacker Attack on Stryker Disrupted Manufacturing and Shipping</h3>
+                <p><strong>Summary:</strong> Evidence indicates that the attackers leveraged existing endpoint management software rather than malware to wipe devices.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/iran-linked-hacker-attack-on-stryker-disrupted-manufacturing-and-shipping/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/iran-linked-hacker-attack-on-stryker-disrupted-manufacturing-and-shipping/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code</h3>
-                <p><strong>Summary:</strong> The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-chain attack.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Microsoft: Windows 11 users can't access C: drive on some Samsung PCs</h3>
+                <p><strong>Summary:</strong> Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\ drive and are unab...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI seeks victims of Steam games used to spread malware</h3>
+                <p><strong>Summary:</strong> The FBI is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Are AI Tools Accessing Your Sensitive Data?</h3>
@@ -154,11 +154,11 @@
                 <a href="https://www.bleepingcomputer.com/mgo/76/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This documentary streaming service is $140 for lifetime access</h3>
-                <p><strong>Summary:</strong> like general streaming platforms that mix documentaries with everything else, the MagellanTV platform focuses entirely on documentary content. You can currently get lifetime access to MagellanTV for j...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Poland's nuclear research centre targeted by cyberattack</h3>
+                <p><strong>Summary:</strong> Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
