@@ -1,0 +1,210 @@
+{
+  "date": "2026-03-16",
+  "items": [
+    {
+      "title": "DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage",
+      "link": "https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html",
+      "summary": "Ukrainian entities have emerged as the target of a new campaign likely orchestrated by threat actors linked to Russia, according to a report from S2 Grupo's LAB52 threat intelligence team.  The campaign, observed  in February 2026, has been assessed to share overlaps with a prior campaign mounted by Laundry Bear  (aka UAC-0190 or Void Blizzard) aimed at Ukrainian defense forces with a malware family known as PLUGGYAPE.  The attack activity \"employs various judicial and charity themed lures to deploy a JavaScript‑based backdoor that runs through the Edge browser,\" the cybersecurity company said. Codenamed DRILLAPP , the malware is capable of uploading and downloading files, leveraging the microphone, and capturing images through the webcam by taking advantage of the web browser's features.   Two different versions of the campaign have been identified, with the first iteration detected in early February by making use of a Windows shortcut (LNK) file to create an HTML...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "drillapp-backdoor-targets-ukraine-abuses-microsoft",
+      "source": "The Hacker News",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse",
+      "link": "https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html",
+      "summary": "Google is testing a new security feature as part of Android Advanced Protection Mode (AAPM) that prevents certain kinds of apps from using the accessibility services API.  The change, incorporated in Android 17 Beta 2, was first reported  by Android Authority last week.  AAPM was introduced  by Google in Android 16, released last year. When enabled , it causes the device to enter a heightened security state  to guard against sophisticated cyber attacks. Like Apple's Lockdown Mode, the opt-in feature prioritizes security at the cost of diminished functionality and usability so as to minimize the attack surface.   Some of the core configurations  include blocking app installation from unknown sources, restricting USB data signaling, and mandating Google Play Protect scanning.  \"Developers can integrate with this feature using the AdvancedProtectionManager  API to detect the mode's status, enabling applications to automatically adopt a hardened security posture or restrict h...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "android-17-blocks-non-accessibility-apps-from-acce",
+      "source": "The Hacker News",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration",
+      "link": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
+      "summary": "China's National Computer Network Emergency Response Technical Team (CNCERT) has issued  a warning about the security stemming from the use of OpenClaw  (formerly Clawdbot and Moltbot), an open-source and self-hosted autonomous artificial intelligence (AI) agent.  In a post shared on WeChat, CNCERT noted that the platform's \"inherently weak default security configurations,\" coupled with its privileged access to the system to facilitate autonomous task execution capabilities, could be explored by bad actors to seize control of the endpoint.  This includes risks arising from prompt injections, where malicious instructions embedded within a web page can cause the agent to leak sensitive information if it's tricked into accessing and consuming the content.  The attack is also referred  to as indirect prompt injection (IDPI) or cross-domain prompt injection (XPIA), as adversaries, instead of interacting directly with a large language model (LLM), weaponize benign AI f...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "openclaw-ai-agent-flaws-could-enable-prompt-inject",
+      "source": "The Hacker News",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers",
+      "link": "https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html",
+      "summary": "Cybersecurity researchers have flagged a new iteration of the GlassWorm campaign that they say represents a \"significant escalation\" in how it propagates through the Open VSX registry.  \"Instead of requiring every malicious listing to embed the loader directly, the threat actor is now abusing extensionPack and extensionDependencies to turn initially standalone-looking extensions into transitive delivery vehicles in later updates, allowing a benign-appearing package to begin pulling a separate GlassWorm-linked extension only after trust has already been established,\" Socket said  in a report published Friday.  The software supply chain security company said it discovered at least 72 additional malicious Open VSX extensions since January 31, 2026, targeting developers. These extensions mimic widely used developer utilities, including linters and formatters, code runners, and tools for artificial intelligence (AI)-powered coding assistants like Clade Code and Google...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "glassworm-supply-chain-attack-abuses-72-open-vsx-e",
+      "source": "The Hacker News",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware",
+      "link": "https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html",
+      "summary": "A suspected China-based cyber espionage operation has targeted Southeast Asian military organizations as part of a state-sponsored campaign that dates back to at least 2020.  Palo Alto Networks Unit 42 is tracking the threat activity under the moniker CL-STA-1087 , where CL refers to cluster, and STA stands for state-backed motivation.  \"The activity demonstrated strategic operational patience and a focus on highly targeted intelligence collection, rather than bulk data theft,\" security researchers Lior Rochberger and Yoav Zemah said. \"The attackers behind this cluster actively searched for and collected highly specific files concerning military capabilities, organizational structures, and collaborative efforts with Western armed forces.\"  The campaign exhibits hallmarks commonly associated with advanced persistent threat (APT) operations, including carefully crafted delivery methods, defense evasion strategies, highly stable operational infrastructure, and custom ...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "chinese-hackers-target-southeast-asian-militaries-",
+      "source": "The Hacker News",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026",
+      "link": "https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html",
+      "summary": "Meta has announced plans to discontinue support for end-to-end encryption (E2EE) for chats on Instagram after May 8, 2026.  \"If you have chats that are impacted by this change, you will see instructions on how you can download any media or messages you may want to keep,\" the social media giant said  in a help document. \"If you're on an older version of Instagram, you may also need to update the app before you can download your affected chats.\"  When reached for comment, this is what Meta had to say: \"Very few people were opting in to end-to-end encrypted messaging in DMs, so we're removing this option from Instagram in the coming months. Anyone who wants to keep messaging with end-to-end encryption can easily do that on WhatsApp.\"  The American company first began testing E2EE  for Instagram  direct messages  in 2021 as part of CEO Mark Zuckerberg's \"privacy-focused vision for social networking.\" The feature is currently \" only ...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "meta-to-shut-down-instagram-end-to-end-encrypted-c",
+      "source": "The Hacker News",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Hacking Attempt Reported at Poland’s Nuclear Research Center",
+      "link": "https://www.securityweek.com/hack-attempt-reported-at-polands-nuclear-research-center/",
+      "summary": "Initial evidence indicates Iran may be behind the attack, but officials admitted it could be a false flag.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hacking-attempt-reported-at-polands-nuclear-resear",
+      "source": "SecurityWeek",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Loblaw Data Breach Impacts Customer Information",
+      "link": "https://www.securityweek.com/loblaw-data-breach-impacts-customer-information/",
+      "summary": "Personal information such as names, email addresses, and phone numbers was accessed by hackers.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "loblaw-data-breach-impacts-customer-information",
+      "source": "SecurityWeek",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Critical HPE AOS-CX Vulnerability Allows Admin Password Resets",
+      "link": "https://www.securityweek.com/critical-hpe-aos-cx-vulnerability-allows-admin-password-resets/",
+      "summary": "The vulnerability can be exploited remotely, without authentication, to circumvent existing authentication controls.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-hpe-aos-cx-vulnerability-allows-admin-pas",
+      "source": "SecurityWeek",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Starbucks Data Breach Impacts Employees",
+      "link": "https://www.securityweek.com/starbucks-data-breach-impacts-employees/",
+      "summary": "Starbucks said the incident involved phishing attacks targeting an employee portal, affecting hundreds.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "starbucks-data-breach-impacts-employees",
+      "source": "SecurityWeek",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "In Other News: N8n Flaw Exploited, Slopoly Malware, Interpol Cybercrime Crackdown",
+      "link": "https://www.securityweek.com/in-other-news-n8n-flaw-exploited-slopoly-malware-interpol-cybercrime-crackdown/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Telus Digital data breach, vulnerabilities in Linux AppArmor allow root privileges, US defense contractor behind Coruna exploits.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-n8n-flaw-exploited-slopoly-malware-i",
+      "source": "SecurityWeek",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Iran-Linked Hackers Take Aim at US and Other Targets, Raising Risk of Cyberattacks During War",
+      "link": "https://www.securityweek.com/iran-linked-hackers-take-aim-at-us-and-other-targets-raising-risk-of-cyberattacks-during-war/",
+      "summary": "Pro-Iranian hackers are targeting sites in the Middle East and starting to stretch into the United States during the war, raising the risk of American defense contractors, power stations and water plants.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "iran-linked-hackers-take-aim-at-us-and-other-targe",
+      "source": "SecurityWeek",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "OpenAI says ChatGPT ads are not rolling out globally for now",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/",
+      "summary": "OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet rolling out outside the United States, even though some users noticed references to ads in the updated privacy policy.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-says-chatgpt-ads-are-not-rolling-out-global",
+      "source": "BleepingComputer",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Betterleaks, a new open-source secrets scanner to replace Gitleaks",
+      "link": "https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/",
+      "summary": "A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "betterleaks-a-new-open-source-secrets-scanner-to-r",
+      "source": "BleepingComputer",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "This $20 EDU Unlimited deal unlocks 1,000+ online courses",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/",
+      "summary": "Lifetime access to EDU Unlimited by StackSkills is available for just $19.97 (MSRP: $600) for a limited time. That's a one-time payment for an ever-expanding library of professional and personal development courses.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "this-20-edu-unlimited-deal-unlocks-1000-online-cou",
+      "source": "BleepingComputer",
+      "date": "2026-03-16"
+    }
+  ]
+}

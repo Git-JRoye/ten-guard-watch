@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage</div><div class="ticker-item">Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse</div><div class="ticker-item">OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration</div><div class="ticker-item">GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers</div><div class="ticker-item">Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware</div><div class="ticker-item">Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026</div><div class="ticker-item">Hacking Attempt Reported at Poland’s Nuclear Research Center</div><div class="ticker-item">Loblaw Data Breach Impacts Customer Information</div><div class="ticker-item">Critical HPE AOS-CX Vulnerability Allows Admin Password Resets</div><div class="ticker-item">Starbucks Data Breach Impacts Employees</div><div class="ticker-item">In Other News: N8n Flaw Exploited, Slopoly Malware, Interpol Cybercrime Crackdown</div><div class="ticker-item">Iran-Linked Hackers Take Aim at US and Other Targets, Raising Risk of Cyberattacks During War</div><div class="ticker-item">OpenAI says ChatGPT ads are not rolling out globally for now</div><div class="ticker-item">Betterleaks, a new open-source secrets scanner to replace Gitleaks</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">This $20 EDU Unlimited deal unlocks 1,000+ online courses</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration</div><div class="ticker-item">GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers</div><div class="ticker-item">Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware</div><div class="ticker-item">Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026</div><div class="ticker-item">INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime</div><div class="ticker-item">Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials</div><div class="ticker-item">Critical HPE AOS-CX Vulnerability Allows Admin Password Resets</div><div class="ticker-item">Starbucks Data Breach Impacts Employees</div><div class="ticker-item">In Other News: N8n Flaw Exploited, Slopoly Malware, Interpol Cybercrime Crackdown</div><div class="ticker-item">Iran-Linked Hackers Take Aim at US and Other Targets, Raising Risk of Cyberattacks During War</div><div class="ticker-item">Bold Security Emerges From Stealth With $40 Million in Funding</div><div class="ticker-item">Google Paid Out $17 Million in Bug Bounty Rewards in 2025</div><div class="ticker-item">Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw</div><div class="ticker-item">AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code</div><div class="ticker-item">Are AI Tools Accessing Your Sensitive Data?</div><div class="ticker-item">This documentary streaming service is $140 for lifetime access</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage</h3>
-                <p><strong>Summary:</strong> Ukrainian entities have emerged as the target of a new campaign likely orchestrated by threat actors linked to Russia, according to a report from S2 Grupo's LAB52 threat intelligence team.  The campai...</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse</h3>
-                <p><strong>Summary:</strong> Google is testing a new security feature as part of Android Advanced Protection Mode (AAPM) that prevents certain kinds of apps from using the accessibility services API.  The change, incorporated in ...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration</h3>
                 <p><strong>Summary:</strong> China's National Computer Network Emergency Response Technical Team (CNCERT) has issued  a warning about the security stemming from the use of OpenClaw  (formerly Clawdbot and Moltbot), an open-source...</p>
@@ -91,18 +77,18 @@
                 <a href="https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Hacking Attempt Reported at Poland’s Nuclear Research Center</h3>
-                <p><strong>Summary:</strong> Initial evidence indicates Iran may be behind the attack, but officials admitted it could be a false flag.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hack-attempt-reported-at-polands-nuclear-research-center/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/hack-attempt-reported-at-polands-nuclear-research-center/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime</h3>
+                <p><strong>Summary:</strong> INTERPOL on Friday announced  the takedown of 45,000 malicious IP addresses and servers used in connection with phishing, malware, and ransomware campaigns, as part of the agency's ongoing efforts to ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Loblaw Data Breach Impacts Customer Information</h3>
-                <p><strong>Summary:</strong> Personal information such as names, email addresses, and phone numbers was accessed by hackers.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/loblaw-data-breach-impacts-customer-information/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/loblaw-data-breach-impacts-customer-information/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials</h3>
+                <p><strong>Summary:</strong> Microsoft has disclosed details of a credential theft campaign that employs fake virtual private network (VPN) clients distributed through search engine optimization (SEO) poisoning techniques.  "The ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Critical HPE AOS-CX Vulnerability Allows Admin Password Resets</h3>
@@ -133,32 +119,46 @@
                 <a href="https://www.securityweek.com/iran-linked-hackers-take-aim-at-us-and-other-targets-raising-risk-of-cyberattacks-during-war/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>OpenAI says ChatGPT ads are not rolling out globally for now</h3>
-                <p><strong>Summary:</strong> OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet rolling out outside the United States, even though some users noticed references to ads in the updated privacy policy.</p>
+                <h3>Bold Security Emerges From Stealth With $40 Million in Funding</h3>
+                <p><strong>Summary:</strong> The startup relies on AI to turn devices into active agents that understand users’ actions and provide protection in real time.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/bold-security-emerges-from-stealth-with-40-million-in-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/bold-security-emerges-from-stealth-with-40-million-in-funding/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Betterleaks, a new open-source secrets scanner to replace Gitleaks</h3>
-                <p><strong>Summary:</strong> A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules.</p>
+                <h3>Google Paid Out $17 Million in Bug Bounty Rewards in 2025</h3>
+                <p><strong>Summary:</strong> Google paid over $3.7 million for Chrome vulnerabilities, and more than $3.5 million for cloud security defects.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-paid-out-17-million-in-bug-bounty-rewards-in-2025/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-paid-out-17-million-in-bug-bounty-rewards-in-2025/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
-                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
-                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw</h3>
+                <p><strong>Summary:</strong> Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise devices that receive hotpatch updates instead of the regular Patch Tuesday cumulati...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This $20 EDU Unlimited deal unlocks 1,000+ online courses</h3>
-                <p><strong>Summary:</strong> Lifetime access to EDU Unlimited by StackSkills is available for just $19.97 (MSRP: $600) for a limited time. That's a one-time payment for an ever-expanding library of professional and personal devel...</p>
+                <h3>AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code</h3>
+                <p><strong>Summary:</strong> The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-chain attack.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Are AI Tools Accessing Your Sensitive Data?</h3>
+                <p><strong>Summary:</strong> MCP server connections have opened up data super-highways for AI tools to access your corporate data. Nudge Security provides Day One visibility of AI use, including AI apps, users, integrations, and ...</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/76/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/76/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>This documentary streaming service is $140 for lifetime access</h3>
+                <p><strong>Summary:</strong> like general streaming platforms that mix documentaries with everything else, the MagellanTV platform focuses entirely on documentary content. You can currently get lifetime access to MagellanTV for j...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
