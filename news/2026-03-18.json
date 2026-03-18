@@ -1,0 +1,211 @@
+{
+  "date": "2026-03-18",
+  "items": [
+    {
+      "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit",
+      "link": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+      "summary": "A high-severity security flaw affecting default installations of Ubuntu Desktop versions 24.04 and later could be exploited to escalate privileges to the root level.  Tracked as CVE-2026-3888  (CVSS score: 7.8), the issue could allow an attacker to seize control of a susceptible system.  \"This flaw (CVE-2026-3888) allows an unprivileged local attacker to escalate privileges to full root access through the interaction of two standard system components: snap-confine  and systemd-tmpfiles,\" the Qualys Threat Research Unit (TRU) said . \"While the exploit requires a specific time-based window (10–30 days), the resulting impact is a complete compromise of the host system.\"   The problem, Qualys noted, stems from the unintended interaction of snap-confine, which manages execution environments for snap applications by creating a sandbox, and systemd-tmpfiles, which automatically cleans up temporary files and directories (e.g.,/tmp, /run, and /var/tmp) older than a defined ...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ubuntu-cve-2026-3888-bug-lets-attackers-gain-root-",
+      "source": "The Hacker News",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+      "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+      "summary": "Apple on Tuesday released its first round of Background Security Improvements  to address a security flaw in WebKit that affects iOS, iPadOS, and macOS.  The vulnerability, tracked as CVE-2026-20643  (CVSS score: N/A), has been described as a cross-origin issue in WebKit's Navigation API that could be exploited to bypass the same-origin policy when processing maliciously crafted web content.  The flaw affects iOS 26.3.1, iPadOS 26.3.1, macOS 26.3.1, and macOS 26.3.2. It has been addressed with improved input validation in iOS 26.3.1 (a), iPadOS 26.3.1 (a), macOS 26.3.1 (a), and macOS 26.3.2 (a). Security researcher Thomas Espach has been credited with discovering and reporting the shortcoming.  Apple notes  that Background Security Improvements are meant for delivering lightweight security releases for components such as the Safari browser, WebKit framework stack, and other system libraries through smaller, ongoing security patches rather than issuing them as part of larger softwa...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "apple-fixes-webkit-vulnerability-enabling-same-ori",
+      "source": "The Hacker News",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
+      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "summary": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges.  The vulnerability, tracked as CVE-2026-32746 , carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set Local Characters (SLC) suboption handler that results in a buffer overflow, ultimately paving the way for code execution.  Israeli cybersecurity company Dream, which discovered and reported the flaw on March 11, 2026, said it affects all versions of the Telnet service implementation through 2.7. A fix for the vulnerability is expected to be available no later than April 1, 2026.   \"An unauthenticated remote attacker can exploit this by sending a specially crafted message during the initial connection handshake — before any login prompt appears,\" Dream said  in an alert. \"Successful...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-unpatched-telnetd-flaw-cve-2026-32746-ena",
+      "source": "The Hacker News",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
+      "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries.  In a report published Monday, BeyondTrust revealed  that Amazon Bedrock AgentCore Code Interpreter's sandbox mode permits outbound DNS queries that an attacker can exploit to enable interactive shells and bypass network isolation. The issue, which does not have a CVE identifier, carries a CVSS score of 7.5 out of 10.0.  Amazon Bedrock AgentCore Code Interpreter  is a fully managed service that enables AI agents to securely execute code in isolated sandbox environments , such that agentic workloads cannot access external systems. It was launched by Amazon in August 2025.  The fact that the service allows DNS queries despite \"no network access\" configuration can allow \"threat actors to establish command-and-control channels and data exfiltration over DNS in certain scenar...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ai-flaws-in-amazon-bedrock-langsmith-and-sglang-en",
+      "source": "The Hacker News",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader",
+      "link": "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
+      "summary": "The ransomware operation known as LeakNet has adopted the ClickFix  social engineering tactic delivered through compromised websites as an initial access method.  The use of ClickFix, where users are tricked into manually running malicious commands to address non-existent errors, is a departure from relying on traditional methods for obtaining initial access, such as through stolen credentials acquired from initial access brokers (IABs), ReliaQuest said  in a technical report published today.  The second important aspect of these attacks is the use of a staged command-and-control (C2) loader built on the Deno JavaScript runtime to execute malicious payloads directly in memory.  \"The key takeaway here is that both entry paths lead to the same repeatable post-exploitation sequence every time,\" the cybersecurity company said. \"That gives defenders something concrete to work with: known behaviors you can detect and disrupt at each stage, well before ransomware deployment, r...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "leaknet-ransomware-uses-clickfix-via-hacked-sites-",
+      "source": "The Hacker News",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds",
+      "link": "https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html",
+      "summary": "A majority of security leaders are struggling to defend AI systems with tools and skills that are not fit for the challenge, according to the AI and Adversarial Testing Benchmark Report 2026  from Pentera.  The report, based on a survey of 300 US CISOs and senior security leaders, examines how organizations are securing AI infrastructure and highlights critical gaps tied to skills shortages and reliance on security controls not designed for the AI era.  AI adoption is outpacing security visibility  AI systems are rarely deployed in isolation. They are layered across and integrated into existing corporate technology, from cloud platforms and identity systems to applications and data pipelines. With ownership spread across disparate teams, effective centralized oversight has collapsed.  As a result, 67 percent of CISOs reported limited visibility into how AI is being used across their organization. None of the respondents indicated they have full visibility; rather, they acknowledge bei...",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ai-is-everywhere-but-cisos-are-still-securing-it-w",
+      "source": "The Hacker News",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Tech Giants Invest $12.5 Million in Open Source Security",
+      "link": "https://www.securityweek.com/tech-giants-invest-12-5-million-in-open-source-security/",
+      "summary": "Anthropic, AWS, Google, Microsoft, and OpenAI fund the Linux Foundation’s long-term security initiatives focused on open source software.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "tech-giants-invest-125-million-in-open-source-secu",
+      "source": "SecurityWeek",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "UK Companies House Exposed Details of Millions of Firms",
+      "link": "https://www.securityweek.com/uk-companies-house-exposed-details-of-millions-of-firms/",
+      "summary": "The government agency confirmed the vulnerability could have been exploited to obtain company details and alter records.",
+      "tags": [
+        "vulnerability",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "uk-companies-house-exposed-details-of-millions-of-",
+      "source": "SecurityWeek",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Surf AI Raises $57 Million for Agentic Security Operations Platform",
+      "link": "https://www.securityweek.com/surf-ai-raises-57-million-for-agentic-security-operations-platform/",
+      "summary": "The company has announced its launch, backed by funding from Accel, Cyberstarts, and Boldstart Ventures.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "surf-ai-raises-57-million-for-agentic-security-ope",
+      "source": "SecurityWeek",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Robotic Surgery Giant Intuitive Discloses Cyberattack",
+      "link": "https://www.securityweek.com/robotic-surgery-giant-intuitive-discloses-cyberattack/",
+      "summary": "The company says some of its internal business applications were accessed after an employee fell victim to a phishing attack.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "robotic-surgery-giant-intuitive-discloses-cyberatt",
+      "source": "SecurityWeek",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "174 Vulnerabilities Targeted by RondoDox Botnet",
+      "link": "https://www.securityweek.com/rondodox-botnet-targeted-174-vulnerabilities/",
+      "summary": "The botnet has increased its activity, peaking at 15,000 exploitation attempts per day, and taking a more targeted approach.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "174-vulnerabilities-targeted-by-rondodox-botnet",
+      "source": "SecurityWeek",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Google, Meta, Microsoft Among Signatories of Pact to Combat Scams",
+      "link": "https://www.securityweek.com/google-meta-microsoft-among-signatories-of-pact-to-combat-scams/",
+      "summary": "Several major tech and retail companies have signed an industry accord against online scams and fraud.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-meta-microsoft-among-signatories-of-pact-to",
+      "source": "SecurityWeek",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Apple pushes first Background Security Improvements update to fix WebKit flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/",
+      "summary": "Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "apple-pushes-first-background-security-improvement",
+      "source": "BleepingComputer",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX",
+      "link": "https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/",
+      "summary": "The GlassWorm supply-chain campaign has returned with a new, coordinated attack that targeted hundreds of packages, repositories, and extensions on GitHub, npm, and VSCode/OpenVSX extensions.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "glassworm-malware-hits-400-code-repos-on-github-np",
+      "source": "BleepingComputer",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Europe sanctions Chinese and Iranian firms for cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/",
+      "summary": "The European Union Council has announced sanctions against three entities and two individuals for their involvement in cyberattacks targeting critical infrastructure in the region.",
+      "tags": [
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "europe-sanctions-chinese-and-iranian-firms-for-cyb",
+      "source": "BleepingComputer",
+      "date": "2026-03-18"
+    }
+  ]
+}

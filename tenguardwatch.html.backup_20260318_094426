@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths</div><div class="ticker-item">GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos</div><div class="ticker-item">⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents & More</div><div class="ticker-item">Why Security Validation Is Becoming Agentic</div><div class="ticker-item">ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers</div><div class="ticker-item">DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage</div><div class="ticker-item">Oracle EBS Hack: Only 4 Corporate Giants Still Silent on Potential Impact</div><div class="ticker-item">Security Firm Executive Targeted in Sophisticated Phishing Attack</div><div class="ticker-item">China-Linked Hackers Hit Asian Militaries in Patient Espionage Operation</div><div class="ticker-item">Threat Actor Targeting VPN Users in New Credential Theft Campaign</div><div class="ticker-item">ForceMemo: Python Repositories Compromised in GlassWorm Aftermath</div><div class="ticker-item">Hacking Attempt Reported at Poland’s Nuclear Research Center</div><div class="ticker-item">Stryker attack wiped tens of thousands of devices, no malware needed</div><div class="ticker-item">CISA flags Wing FTP Server flaw as actively exploited in attacks</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">UK’s Companies House confirms security flaw exposed business data</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  a medium-severity security flaw impacting Wing FTP to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evid...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos</h3>
+                <p><strong>Summary:</strong> The GlassWorm  malware campaign is being used to fuel an ongoing attack that leverages the stolen GitHub tokens to inject malware into hundreds of Python repositories.  "The attack targets Python proj...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents & More</h3>
+                <p><strong>Summary:</strong> Some weeks in security feel normal. Then you read a few tabs and get that immediate “ah, great, we’re doing this now” feeling.  This week has that energy. Fresh messes, old problems getting sharper, a...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Why Security Validation Is Becoming Agentic</h3>
+                <p><strong>Summary:</strong> If you run security at any reasonably complex organization, your validation stack probably looks something like this: a BAS tool in one corner. A pentest engagement, or maybe an automated pentesting p...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/why-security-validation-is-becoming.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/why-security-validation-is-becoming.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers</h3>
+                <p><strong>Summary:</strong> Three different ClickFix campaigns have been found to act as a delivery vector for the deployment of a macOS information stealer called MacSync .  "Unlike traditional exploit-based attacks, this metho...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage</h3>
+                <p><strong>Summary:</strong> Ukrainian entities have emerged as the target of a new campaign likely orchestrated by threat actors linked to Russia, according to a report from S2 Grupo's LAB52 threat intelligence team.  The campai...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Oracle EBS Hack: Only 4 Corporate Giants Still Silent on Potential Impact</h3>
+                <p><strong>Summary:</strong> Broadcom, Bechtel, Estée Lauder, and Abbott Technologies are the only major companies that have yet to issue a public statement.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/oracle-ebs-hack-only-4-corporate-giants-still-silent-on-potential-impact/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/oracle-ebs-hack-only-4-corporate-giants-still-silent-on-potential-impact/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Security Firm Executive Targeted in Sophisticated Phishing Attack</h3>
+                <p><strong>Summary:</strong> The attackers used a DKIM-signed phishing email, trusted redirect infrastructure, compromised servers, and Cloudflare-protected phishing pages.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/security-firm-executive-targeted-in-sophisticated-phishing-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/security-firm-executive-targeted-in-sophisticated-phishing-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked Hackers Hit Asian Militaries in Patient Espionage Operation</h3>
+                <p><strong>Summary:</strong> The state-sponsored hackers deployed custom tools and stayed dormant in the compromised environments for months.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/china-linked-hackers-hit-asian-militaries-in-patient-espionage-operation/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/china-linked-hackers-hit-asian-militaries-in-patient-espionage-operation/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Threat Actor Targeting VPN Users in New Credential Theft Campaign</h3>
+                <p><strong>Summary:</strong> Storm-2561 is distributing fake VPN clients through SEO poisoning, deploying trojans, and stealing login information.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/threat-actor-targeting-vpn-users-in-new-credential-theft-campaign/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/threat-actor-targeting-vpn-users-in-new-credential-theft-campaign/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ForceMemo: Python Repositories Compromised in GlassWorm Aftermath</h3>
+                <p><strong>Summary:</strong> Hundreds of GitHub accounts were accessed using credentials stolen in the VS Code GlassWorm campaign.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/forcememo-python-repositories-compromised-in-glassworm-aftermath/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/forcememo-python-repositories-compromised-in-glassworm-aftermath/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hacking Attempt Reported at Poland’s Nuclear Research Center</h3>
+                <p><strong>Summary:</strong> Initial evidence indicates Iran may be behind the attack, but officials admitted it could be a false flag.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hack-attempt-reported-at-polands-nuclear-research-center/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hack-attempt-reported-at-polands-nuclear-research-center/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Stryker attack wiped tens of thousands of devices, no malware needed</h3>
+                <p><strong>Summary:</strong> Last week's cyberattack on medical technology giant Stryker was limited to its internal Microsoft environment and remotely wiped tens of thousands of employee devices.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA flags Wing FTP Server flaw as actively exploited in attacks</h3>
+                <p><strong>Summary:</strong> CISA warned U.S. government agencies to secure their Wing FTP Server instances against an actively exploited vulnerability that may be chained in remote code execution attacks.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UK’s Companies House confirms security flaw exposed business data</h3>
+                <p><strong>Summary:</strong> Companies House, a British government agency that operates the registry for all U.K. companies, says its WebFiling service is back online after it was closed on Friday to fix a security flaw that expo...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
