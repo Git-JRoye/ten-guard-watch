@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit</div><div class="ticker-item">Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS</div><div class="ticker-item">Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23</div><div class="ticker-item">AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE</div><div class="ticker-item">LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader</div><div class="ticker-item">AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds</div><div class="ticker-item">Tech Giants Invest $12.5 Million in Open Source Security</div><div class="ticker-item">UK Companies House Exposed Details of Millions of Firms</div><div class="ticker-item">Surf AI Raises $57 Million for Agentic Security Operations Platform</div><div class="ticker-item">Robotic Surgery Giant Intuitive Discloses Cyberattack</div><div class="ticker-item">174 Vulnerabilities Targeted by RondoDox Botnet</div><div class="ticker-item">Google, Meta, Microsoft Among Signatories of Pact to Combat Scams</div><div class="ticker-item">Apple pushes first Background Security Improvements update to fix WebKit flaw</div><div class="ticker-item">GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Europe sanctions Chinese and Iranian firms for cyberattacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit</h3>
+                <p><strong>Summary:</strong> A high-severity security flaw affecting default installations of Ubuntu Desktop versions 24.04 and later could be exploited to escalate privileges to the root level.  Tracked as CVE-2026-3888  (CVSS s...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS</h3>
+                <p><strong>Summary:</strong> Apple on Tuesday released its first round of Background Security Improvements  to address a security flaw in WebKit that affects iOS, iPadOS, and macOS.  The vulnerability, tracked as CVE-2026-20643  ...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries.  ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader</h3>
+                <p><strong>Summary:</strong> The ransomware operation known as LeakNet has adopted the ClickFix  social engineering tactic delivered through compromised websites as an initial access method.  The use of ClickFix, where users are ...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds</h3>
+                <p><strong>Summary:</strong> A majority of security leaders are struggling to defend AI systems with tools and skills that are not fit for the challenge, according to the AI and Adversarial Testing Benchmark Report 2026  from Pen...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tech Giants Invest $12.5 Million in Open Source Security</h3>
+                <p><strong>Summary:</strong> Anthropic, AWS, Google, Microsoft, and OpenAI fund the Linux Foundation’s long-term security initiatives focused on open source software.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tech-giants-invest-12-5-million-in-open-source-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tech-giants-invest-12-5-million-in-open-source-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UK Companies House Exposed Details of Millions of Firms</h3>
+                <p><strong>Summary:</strong> The government agency confirmed the vulnerability could have been exploited to obtain company details and alter records.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/uk-companies-house-exposed-details-of-millions-of-firms/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/uk-companies-house-exposed-details-of-millions-of-firms/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Surf AI Raises $57 Million for Agentic Security Operations Platform</h3>
+                <p><strong>Summary:</strong> The company has announced its launch, backed by funding from Accel, Cyberstarts, and Boldstart Ventures.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/surf-ai-raises-57-million-for-agentic-security-operations-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/surf-ai-raises-57-million-for-agentic-security-operations-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Robotic Surgery Giant Intuitive Discloses Cyberattack</h3>
+                <p><strong>Summary:</strong> The company says some of its internal business applications were accessed after an employee fell victim to a phishing attack.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/robotic-surgery-giant-intuitive-discloses-cyberattack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/robotic-surgery-giant-intuitive-discloses-cyberattack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>174 Vulnerabilities Targeted by RondoDox Botnet</h3>
+                <p><strong>Summary:</strong> The botnet has increased its activity, peaking at 15,000 exploitation attempts per day, and taking a more targeted approach.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rondodox-botnet-targeted-174-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rondodox-botnet-targeted-174-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google, Meta, Microsoft Among Signatories of Pact to Combat Scams</h3>
+                <p><strong>Summary:</strong> Several major tech and retail companies have signed an industry accord against online scams and fraud.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-meta-microsoft-among-signatories-of-pact-to-combat-scams/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-meta-microsoft-among-signatories-of-pact-to-combat-scams/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple pushes first Background Security Improvements update to fix WebKit flaw</h3>
+                <p><strong>Summary:</strong> Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX</h3>
+                <p><strong>Summary:</strong> The GlassWorm supply-chain campaign has returned with a new, coordinated attack that targeted hundreds of packages, repositories, and extensions on GitHub, npm, and VSCode/OpenVSX extensions.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Europe sanctions Chinese and Iranian firms for cyberattacks</h3>
+                <p><strong>Summary:</strong> The European Union Council has announced sanctions against three entities and two individuals for their involvement in cyberattacks targeting critical infrastructure in the region.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

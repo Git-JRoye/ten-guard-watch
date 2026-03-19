@@ -1,0 +1,220 @@
+{
+  "date": "2026-03-19",
+  "items": [
+    {
+      "title": "DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover",
+      "link": "https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html",
+      "summary": "A new exploit kit for Apple iOS devices designed to steal sensitive data from is being wielded by multiple threat actors since at least November 2025, according to reports from Google Threat Intelligence Group  (GTIG), iVerify , and Lookout .  According to GTIG, multiple commercial surveillance vendors and suspected state-sponsored actors have utilized the full-chain exploit kit, codenamed DarkSword , in distinct campaigns targeting Saudi Arabia, Turkey, Malaysia, and Ukraine.   The discovery of DarkSword makes it the second iOS exploit kit, after Coruna , to be discovered within the span of a month. The kit is designed to target iPhones running iOS versions between iOS 18.4 and 18.7, and is said to have been deployed by a suspected Russian espionage group named UNC6353 in attacks targeting Ukrainian users.  It's worth noting that UNC6353 has also been linked to the use of the Coruna in attacks aimed at Ukrainians by injecting the JavaScript framework into compromised websites.  ...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "darksword-ios-exploit-kit-uses-6-flaws-3-zero-days",
+      "source": "The Hacker News",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks",
+      "link": "https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged government agencies to apply patches for two security flaws impacting Synacor Zimbra Collaboration Suite  (ZCS) and Microsoft Office SharePoint , stating they have been actively exploited in the wild.  The vulnerabilities in question are as follows -   CVE-2025-66376  (CVSS score: 7.2) - A stored cross-site scripting vulnerability in the Classic UI of ZCS, where attackers could abuse Cascading Style Sheets (CSS) @import directives in an HTML e-mail message. (Fixed in versions 10.0.18 and 10.1.13 in November 2025 )  CVE-2026-20963  (CVSS score: 8.8) - A deserialization of untrusted data vulnerability in Microsoft Office SharePoint that allows an unauthorized attacker to execute code over a network. (Fixed in January 2026 )    There are currently no public reports referencing the exploitation of aforementioned flaws, who may be exploiting them, and the scale of such efforts. In light of active exploitation, Feder...",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-warns-of-zimbra-sharepoint-flaw-exploits-cisc",
+      "source": "The Hacker News",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "OFAC Sanctions DPRK IT Worker Network Funding WMD Programs Through Fake Remote Jobs",
+      "link": "https://thehackernews.com/2026/03/ofac-sanctions-dprk-it-worker-network.html",
+      "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) has sanctioned six individuals and two entities for their involvement in the Democratic People's Republic of Korea (DPRK) information technology (IT) worker scheme  with an aim to defraud U.S. businesses and generate illicit revenue for the regime to fund its weapons of mass destruction (WMD) programs.  \"The North Korean regime targets American companies through deceptive schemes carried out by its overseas IT operatives, who weaponize sensitive data and extort businesses for substantial payments,\" said  Secretary of the Treasury Scott Bessent.  The fraudulent scheme , also called Coral Sleet/Jasper Sleet, PurpleDelta and Wagemole, relies on bogus documentation, stolen identities, and fabricated personas to help the IT workers obscure their true origins and land jobs at legitimate companies in the U.S. and elsewhere. A disproportionate portion of the salaries is then funneled back to North ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ofac-sanctions-dprk-it-worker-network-funding-wmd-",
+      "source": "The Hacker News",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access",
+      "link": "https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html",
+      "summary": "Amazon Threat Intelligence is warning of an active Interlock  ransomware campaign that's exploiting a recently disclosed critical security flaw in Cisco Secure Firewall Management Center (FMC) Software.  The vulnerability in question is CVE-2026-20131  (CVSS score: 10.0), a case of insecure deserialization of user-supplied Java byte stream, which could allow an unauthenticated, remote attacker to bypass authentication and execute arbitrary Java code as root on an affected device.  According to data gleaned from the tech giant's MadPot  global sensor network , the security flaw is said to have been exploited as a zero-day since January 26, 2026, more than a month before it was publicly disclosed by Cisco.  \"This wasn't just another vulnerability exploit; Interlock had a zero-day in their hands, giving them a week's head start to compromise organizations before defenders even knew to look. Upon making this discovery, we shared our findings with Cisco to help support...",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "interlock-ransomware-exploits-cisco-fmc-zero-day-c",
+      "source": "The Hacker News",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE",
+      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "summary": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges.  The vulnerability, tracked as CVE-2026-32746 , carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set Local Characters (SLC) suboption handler that results in a buffer overflow, ultimately paving the way for code execution.  Israeli cybersecurity company Dream, which discovered and reported the flaw on March 11, 2026, said it affects all versions of the Telnet service implementation through 2.7. A fix for the vulnerability is expected to be available no later than April 1, 2026.   \"An unauthenticated remote attacker can exploit this by sending a specially crafted message during the initial connection handshake — before any login prompt appears,\" Dream said  in an alert. \"Successful...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-unpatched-telnetd-flaw-cve-2026-32746-ena",
+      "source": "The Hacker News",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Claude Code Security and Magecart: Getting the Threat Model Right",
+      "link": "https://thehackernews.com/2026/03/claude-code-security-and-magecart.html",
+      "summary": "When a Magecart payload hides inside the EXIF data of a dynamically loaded third-party favicon, no repository scanner will catch it – because the malicious code never actually touches your repo. As teams adopt Claude Code Security for static analysis, this is the exact technical boundary where AI code scanning stops and client-side runtime execution begins.  A detailed analysis of where Claude Code Security stops — and what runtime monitoring covers — is available here .  A Magecart skimmer  recently found in the wild used a three-stage loader chain to hide its payload inside a favicon's EXIF metadata — never touching the merchant's source code, never appearing in a repository, and executing entirely in the shopper's browser at checkout. The attack raises a question that’s worth getting precise about: which category of tool is actually supposed to catch this?  Magecart Lives Outside Your Codebase  Magecart‑style attacks are rarely about classic vulnerabilities in your own ...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "claude-code-security-and-magecart-getting-the-thre",
+      "source": "The Hacker News",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Cisco Firewall Vulnerability Exploited as Zero-Day in Interlock Ransomware Attacks",
+      "link": "https://www.securityweek.com/cisco-firewall-vulnerability-exploited-as-zero-day-in-interlock-ransomware-attacks/",
+      "summary": "Amazon found evidence that the FMC software vulnerability has been exploited since late January, and found links to Russia.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-firewall-vulnerability-exploited-as-zero-day",
+      "source": "SecurityWeek",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "The Collapse of Predictive Security in the Age of Machine-Speed Attacks",
+      "link": "https://www.securityweek.com/the-collapse-of-predictive-security-in-the-age-of-machine-speed-attacks/",
+      "summary": "With exploitation of vulnerabilities taking just days, preemptive security must be the new model for defenders.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-collapse-of-predictive-security-in-the-age-of-",
+      "source": "SecurityWeek",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Autonomous Offensive Security Firm XBOW Raises $120M at $1B+ Valuation",
+      "link": "https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-120m-at-1b-valuation/",
+      "summary": "The company has developed an AI-powered platform that autonomously discovers and validates software vulnerabilities.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "autonomous-offensive-security-firm-xbow-raises-120",
+      "source": "SecurityWeek",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Cloud Security Startup Native Exits Stealth With $42 Million in Funding",
+      "link": "https://www.securityweek.com/cloud-security-startup-native-exits-stealth-with-42-million-in-funding/",
+      "summary": "Phil Venables, former CISO of Google Cloud and now a venture partner at Ballistic Ventures, has joined Native’s board of directors.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cloud-security-startup-native-exits-stealth-with-4",
+      "source": "SecurityWeek",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "‘DarkSword’ iOS Exploit Kit Used by State-Sponsored Hackers, Spyware Vendors",
+      "link": "https://www.securityweek.com/darksword-ios-exploit-kit-used-by-state-sponsored-hackers-spyware-vendors/",
+      "summary": "Targeting six iOS vulnerabilities and leading to full device compromise, the exploit chain is meant for surveillance.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "darksword-ios-exploit-kit-used-by-state-sponsored-",
+      "source": "SecurityWeek",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Virtual Summit Today: Supply Chain & Third-Party Risk Summit",
+      "link": "https://www.securityweek.com/virtual-summit-today-supply-chain-third-party-risk-summit/",
+      "summary": "Cyber risk doesn’t stop at your perimeter. Today’s most dangerous threats could be hiding in your software supply chain.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "virtual-summit-today-supply-chain-third-party-risk",
+      "source": "SecurityWeek",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Aura confirms data breach exposing 900,000 marketing contacts",
+      "link": "https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/",
+      "summary": "Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer records containing names and email addresses.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "aura-confirms-data-breach-exposing-900000-marketin",
+      "source": "BleepingComputer",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "CISA orders feds to patch Zimbra XSS flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/",
+      "summary": "CISA has ordered U.S. government agencies to secure their servers against an actively exploited vulnerability in the Zimbra Collaboration Suite (ZCS).",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-orders-feds-to-patch-zimbra-xss-flaw-exploite",
+      "source": "BleepingComputer",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "ConnectWise patches new flaw allowing ScreenConnect hijacking",
+      "link": "https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/",
+      "summary": "ConnectWise is warning ScreenConnect customers of a cryptographic signature verification vulnerability that could lead to unauthorized access and privilege escalation.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "connectwise-patches-new-flaw-allowing-screenconnec",
+      "source": "BleepingComputer",
+      "date": "2026-03-19"
+    }
+  ]
+}
