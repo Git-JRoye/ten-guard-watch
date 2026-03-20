@@ -1,0 +1,212 @@
+{
+  "date": "2026-03-20",
+  "items": [
+    {
+      "title": "DoJ Disrupts 3 Million-Device IoT Botnets Behind Record 31.4 Tbps Global DDoS Attacks",
+      "link": "https://thehackernews.com/2026/03/doj-disrupts-3-million-device-iot.html",
+      "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the disruption of command-and-control (C2) infrastructure used by several Internet of Things (IoT) botnets like AISURU, Kimwolf , JackSkid , and Mossad as part of a court-authorized law enforcement operation.  The effort also saw authorities from Canada and Germany targeting the operators behind these botnets, with a number of private sector firms, including Akamai, Amazon Web Services, Cloudflare, DigitalOcean, Google, Lumen, Nokia, Okta, Oracle, PayPal, SpyCloud, Synthient, Team Cymru, Unit 221B, and QiAnXin XLab assisting in the investigation efforts.  \"The four botnets launched distributed denial-of-service (DDoS) attacks targeting victims around the world,\" the DoJ said . \"Some of these attacks measured approximately 30 Terabits per second, which were record-breaking attacks.\"  In a report last month, Cloudflare attributed  AISURU/Kimwolf to a massive 31.4 Tbps DDoS attack that occurred in November 202...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "doj-disrupts-3-million-device-iot-botnets-behind-r",
+      "source": "The Hacker News",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Apple Warns Older iPhones Vulnerable to Coruna, DarkSword Exploit Kit Attacks",
+      "link": "https://thehackernews.com/2026/03/apple-warns-older-iphones-vulnerable-to.html",
+      "summary": "Apple is urging users who are still running an outdated version of iOS to update their iPhones to secure against web-based attacks carried out via powerful exploit kits like Coruna  and DarkSword .  These attacks employ malicious web content to target out-of-date versions of iOS, triggering an infection chain that leads to the theft of sensitive data.  \"For example, if you're using an older version of iOS and were to click a malicious link or visit a compromised website, the data on your iPhone might be at risk of being stolen,\" Apple said  in a support document.   \"We thoroughly investigated these issues as they were found and released software updates as quickly as possible for the most recent operating system versions to address vulnerabilities and disrupt such attacks.\"",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apple-warns-older-iphones-vulnerable-to-coruna-dar",
+      "source": "The Hacker News",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Speagle Malware Hijacks Cobra DocGuard to Steal Data via Compromised Servers",
+      "link": "https://thehackernews.com/2026/03/speagle-malware-hijacks-cobra-docguard.html",
+      "summary": "Cybersecurity researchers have flagged a new malware dubbed Speagle  that hijacks the functionality and infrastructure of a legitimate program called Cobra DocGuard.  \"Speagle is designed to surreptitiously harvest sensitive information from infected computers and transmit it to a Cobra DocGuard server that has been compromised by the attackers, masking the data exfiltration process as legitimate communications between client and server,\" Symantec and Carbon Black researchers said  in a report published today.  Cobra DocGuard is a document security and encryption platform developed by EsafeNet. The abuse of this software in real-world attacks has been publicly recorded twice  to date. In January 2023, ESET documented an intrusion where a gambling company in Hong Kong was compromised in September 2022 via a malicious update pushed by the software.   Later that August, Symantec highlighted the activity of a new threat cluster codenamed Carderbee, which was found using a trojan...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "speagle-malware-hijacks-cobra-docguard-to-steal-da",
+      "source": "The Hacker News",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "54 EDR Killers Use BYOVD to Exploit 35 Signed Vulnerable Drivers and Disable Security",
+      "link": "https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html",
+      "summary": "A new analysis of endpoint detection and response (EDR) killers has revealed that 54 of them leverage a technique known as bring your own vulnerable driver ( BYOVD ) by abusing a total of 35 vulnerable drivers.  EDR killer programs have been a common presence in ransomware intrusions as they offer a way for affiliates to neutralize security software before deploying file-encrypting malware. This is done so in an attempt to evade detection.  \"Ransomware gangs, especially those with ransomware-as-a-service (RaaS) programs, frequently produce new builds of their encryptors, and ensuring that each new build is reliably undetected can be time-consuming,\" ESET researcher Jakub Souček said  in a report shared with The Hacker News.  \"More importantly, encryptors are inherently very noisy (as they inherently need to modify a large number of files in a short period); making such malware undetected is rather challenging.\"  EDR killers act as a specialized, external component...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "54-edr-killers-use-byovd-to-exploit-35-signed-vuln",
+      "source": "The Hacker News",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "ThreatsDay Bulletin: FortiGate RaaS, Citrix Exploits, MCP Abuse, LiveChat Phish & More",
+      "link": "https://thehackernews.com/2026/03/threatsday-bulletin-fortigate-raas.html",
+      "summary": "ThreatsDay Bulletin is back on The Hacker News, and this week feels off in a familiar way. Nothing loud, nothing breaking everything at once. Just a lot of small things that shouldn’t work anymore but still do.  Some of it looks simple, almost sloppy, until you see how well it lands. Other bits feel a little too practical, like they’re already closer to real-world use than anyone wants to admit. And the background noise is getting louder again, the kind people usually ignore.  A few stories are clever in a bad way. Others are just frustratingly avoidable. Overall, it feels like quiet pressure is building in places that matter.  Skim it or read it properly, but don’t skip this one.                     Emerging RaaS exploiting FortiGate flaws             The Gentlemen RaaS Detailed                  Group-IB has shed light on the various tactics adopted by The Gentlemen, a nascent Ransomware-as-a-Service (RaaS) operation that consists of about 20 members. It originated f...",
+      "tags": [
+        "vulnerability",
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-fortigate-raas-citrix-exploits",
+      "source": "The Hacker News",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "New Perseus Android Banking Malware Monitors Notes Apps to Extract Sensitive Data",
+      "link": "https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html",
+      "summary": "Cybersecurity researchers have disclosed a new Android malware family called Perseus  that's being actively distributed in the wild with an aim to conduct device takeover (DTO) and financial fraud.  Perseus is built upon the foundations of Cerberus  and Phoenix, at the same time evolving into a \"more flexible and capable platform\" for compromising Android devices through dropper apps distributed via phishing sites.  \"Through Accessibility-based remote sessions, the malware enables real-time monitoring and precise interaction with infected devices, allowing full device takeover and targeting various regions, with a strong focus on Turkey and Italy,\" ThreatFabric said  in a report shared with The Hacker News.  \"Beyond traditional credential theft, Perseus monitors user notes, indicating a focus on extracting high-value personal or financial information.\"  Cerberus was first documented  by the Dutch mobile security company in August 2019, highlighting th...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "new-perseus-android-banking-malware-monitors-notes",
+      "source": "The Hacker News",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Allure Security Raises $17 Million for Online Brand Protection",
+      "link": "https://www.securityweek.com/allure-security-raises-17-million-for-online-brand-protection/",
+      "summary": "The company will invest in expanding its digital brand protection platform and in scaling its go-to-market efforts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "allure-security-raises-17-million-for-online-brand",
+      "source": "SecurityWeek",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Critical Langflow Vulnerability Exploited Hours After Public Disclosure",
+      "link": "https://www.securityweek.com/critical-langflow-vulnerability-exploited-hours-after-public-disclosure/",
+      "summary": "Because attacker-supplied flow data is used in public flows, the bug leads to unauthenticated remote code execution.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-langflow-vulnerability-exploited-hours-af",
+      "source": "SecurityWeek",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Aisuru and Kimwolf DDoS Botnets Disrupted in International Operation",
+      "link": "https://www.securityweek.com/aisuru-and-kimwolf-ddos-botnets-disrupted-in-international-operation/",
+      "summary": "The lesser-known JackSkid and Mossad botnets have also been targeted in the operation.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "aisuru-and-kimwolf-ddos-botnets-disrupted-in-inter",
+      "source": "SecurityWeek",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Oasis Security Raises $120 Million for Agentic Access Management",
+      "link": "https://www.securityweek.com/oasis-security-raises-120-million-for-agentic-access-management/",
+      "summary": "The company will invest in R&D, product expansion across AI frameworks, and in scaling go-to-market and sales efforts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "oasis-security-raises-120-million-for-agentic-acce",
+      "source": "SecurityWeek",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "1stProtect Emerges From Stealth With $20 Million in Funding",
+      "link": "https://www.securityweek.com/1stprotect-emerges-from-stealth-with-20-million-in-funding/",
+      "summary": "The company’s endpoint security platform monitors behavior and verifies user intent to stop cyberattacks in real time.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "1stprotect-emerges-from-stealth-with-20-million-in",
+      "source": "SecurityWeek",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Critical ScreenConnect Vulnerability Exposes Machine Keys",
+      "link": "https://www.securityweek.com/critical-screenconnect-vulnerability-exposes-machine-keys/",
+      "summary": "Latest ScreenConnect version adds encrypted storage and management to prevent unauthorized access to machine keys.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-screenconnect-vulnerability-exposes-machi",
+      "source": "SecurityWeek",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "International joint action disrupts world’s largest DDoS botnets",
+      "link": "https://www.bleepingcomputer.com/news/security/aisuru-kimwolf-jackskid-and-mossad-botnets-disrupted-in-joint-action/",
+      "summary": "Authorities from the United States, Germany, and Canada have taken down Command and Control (C2) infrastructure used by the Aisuru, KimWolf, JackSkid, and Mossad botnets to infect Internet of Things (IoT) devices.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "international-joint-action-disrupts-worlds-largest",
+      "source": "BleepingComputer",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Microsoft: March Windows updates break Teams, OneDrive sign-ins",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/kb5079473-march-windows-11-update-breaks-microsoft-account-sign-ins/",
+      "summary": "Microsoft says the March Windows 11 update breaks sign-ins with Microsoft accounts across multiple Microsoft apps, including Teams and OneDrive.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-march-windows-updates-break-teams-onedri",
+      "source": "BleepingComputer",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Ex-data analyst stole company data in $2.5M extortion scheme",
+      "link": "https://www.bleepingcomputer.com/news/security/data-analyst-found-guilty-of-extorting-brightly-software-of-25-million/",
+      "summary": "A North Carolina man was found guilty of extorting a D.C.-based technology company while still being employed as a data analyst contractor.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ex-data-analyst-stole-company-data-in-25m-extortio",
+      "source": "BleepingComputer",
+      "date": "2026-03-20"
+    }
+  ]
+}
