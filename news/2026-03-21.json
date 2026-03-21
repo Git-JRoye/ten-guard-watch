@@ -1,0 +1,211 @@
+{
+  "date": "2026-03-21",
+  "items": [
+    {
+      "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages",
+      "link": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
+      "summary": "The threat actors behind the supply chain attack  targeting the popular Trivy scanner are suspected to be conducting follow-on attacks that have led to the compromise of a large number of npm packages with a previously undocumented self-propagating worm dubbed CanisterWorm .  The name is a reference to the fact that the malware uses an ICP canister , which refers to tamperproof smart contracts on the Internet Computer blockchain, as a dead drop resolver . The development marks the first publicly documented abuse of an ICP canister for the explicit purpose of fetching the command-and-control (C2) server, Aikido Security researcher Charlie Eriksen said .  The list of affected packages is below -   28 packages in the @EmilGroup scope  16 packages in the @opengov scope  @teale.io/eslint-config  @airtm/uuid-base32  @pypestream/floating-ui-dom   The development comes within a day after threat actors leveraged a compromised credential to publish malicious trivy, trivy-action, and setup-tri...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trivy-supply-chain-attack-triggers-self-spreading-",
+      "source": "The Hacker News",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026",
+      "link": "https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  five security flaws impacting Apple, Craft CMS, and Laravel Livewire to its Known Exploited Vulnerabilities ( KEV ) catalog, urging federal agencies to patch them by April 3, 2026.  The vulnerabilities that have come under exploitation are listed below -   CVE-2025-31277  (CVSS score: 8.8) - A vulnerability in Apple WebKit that could result in memory corruption when processing maliciously crafted web content. (Fixed in July 2025)  CVE-2025-43510  (CVSS score: 7.8) - A memory corruption vulnerability in Apple's kernel component that could allow a malicious application to cause unexpected changes in memory shared between processes. (Fixed in December 2025)  CVE-2025-43520  (CVSS score: 8.8) - A memory corruption vulnerability in Apple's kernel component that could allow a malicious application to cause unexpected system termination or write kernel memory. (Fixed in December 2025)  CVE-2025-32432 ...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-flags-apple-craft-cms-laravel-bugs-in-kev-ord",
+      "source": "The Hacker News",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets",
+      "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
+      "summary": "Trivy, a popular open-source vulnerability scanner maintained by Aqua Security, was compromised a second time within the span of a month to deliver malware that stole sensitive CI/CD secrets.  The latest incident impacted GitHub Actions \" aquasecurity/trivy-action \" and \" aquasecurity/setup-trivy ,\" which are used to scan Docker container images for vulnerabilities and set up GitHub Actions workflow with a specific version of the scanner, respectively.  \"We identified that an attacker force-pushed 75 out of 76 version tags in the aquasecurity/trivy-action repository, the official GitHub Action for running Trivy vulnerability scans in CI/CD pipelines,\" Socket security researcher Philipp Burckhardt said . \"These tags were modified to serve a malicious payload, effectively turning trusted version references into a distribution mechanism for an infostealer.\"  The payload executes within GitHub Actions runners and aims to extract valuable developer s...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trivy-security-scanner-github-actions-breached-75-",
+      "source": "The Hacker News",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
+      "summary": "A critical security flaw impacting Langflow has come under active exploitation  within 20 hours of public disclosure, highlighting the speed at which threat actors weaponize newly published vulnerabilities.  The security defect, tracked as CVE-2026-33017  (CVSS score: 9.3), is a case of missing authentication combined with code injection that could result in remote code execution.  \"The POST /api/v1/build_public_tmp/{flow_id}/flow endpoint allows building public flows without requiring authentication,\" according to Langflow's advisory for the flaw.  \"When the optional data parameter is supplied, the endpoint uses attacker-controlled flow data (containing arbitrary Python code in node definitions) instead of the stored flow data from the database. This code is passed to exec() with zero sandboxing, resulting in unauthenticated remote code execution.\"  The vulnerability affects all versions of the open-source artificial intelligence (AI) platform prior to and inc...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-langflow-flaw-cve-2026-33017-triggers-att",
+      "source": "The Hacker News",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce Malware and Scams",
+      "link": "https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html",
+      "summary": "Google on Thursday announced  a new \"advanced flow\" for Android sideloading that requires a mandatory 24-hour wait period to install apps from unverified developers in an attempt to balance openness with safety.  The new changes come against the backdrop of a developer verification mandate  the tech giant announced last year that requires all Android apps to be registered by verified developers to be installed on certified Android devices. The move, it added, was done to flag bad actors faster and prevent them from distributing malware.  This also includes potential scenarios where cybercriminals trick unsuspecting users who sideload such apps into granting them elevated privileges  that make it possible to turn off Play Protect, the anti-malware feature built into all Google-certified Android devices.   However, the mandatory registration requirements  have been met with criticism  from over 50 app developers and marketplaces, including F-Droid, Brave, The Electronic Fronti...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "google-adds-24-hour-wait-for-unverified-app-sidelo",
+      "source": "The Hacker News",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "The Importance of Behavioral Analytics in AI-Enabled Cyber Attacks",
+      "link": "https://thehackernews.com/2026/03/the-importance-of-behavioral-analytics.html",
+      "summary": "Artificial Intelligence (AI) is changing how individuals and organizations conduct many activities, including how cybercriminals carry out phishing attacks and iterate on malware. Now, cybercriminals are using AI to generate personalized phishing emails, deepfakes and malware that evade traditional detection by impersonating normal user activity and bypassing legacy security models. As a result, rule-based models alone are often insufficient for identity security against AI-enabled threats. Behavioral analytics must evolve beyond monitoring suspicious activity patterns over time into dynamic, identity-based risk modeling capable of identifying inconsistencies in real time.  Common risks introduced by AI-enabled attacks  AI-enabled cyber attacks introduce very different security risks compared to traditional cyber threats. By relying on automation and mimicking legitimate behavior, AI allows cybercriminals to scale their attacks while reducing obvious signals to remain undetected.  AI-...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-importance-of-behavioral-analytics-in-ai-enabl",
+      "source": "The Hacker News",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting",
+      "link": "https://www.securityweek.com/in-other-news-new-android-safeguards-operation-alice-uk-toughens-cyber-reporting/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: vulnerabilities found in KVM devices, Claudy Day Claude vulnerabilities, The Gentlemen ransomware group.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-new-android-safeguards-operation-ali",
+      "source": "SecurityWeek",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "3 Men Charged With Conspiring to Smuggle US Artificial Intelligence to China",
+      "link": "https://www.securityweek.com/3-men-charged-with-conspiring-to-smuggle-us-artificial-intelligence-to-china/",
+      "summary": "The men violated U.S. export controls laws by scheming to divert massive quantities of the high-performance servers assembled in the United States to China.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "3-men-charged-with-conspiring-to-smuggle-us-artifi",
+      "source": "SecurityWeek",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Eclypsium Raises $25 Million for Device Supply Chain Security",
+      "link": "https://www.securityweek.com/eclypsium-raises-25-million-for-device-supply-chain-security/",
+      "summary": "The company will use the investment to expand its platform’s capabilities and grow channel partnerships.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "eclypsium-raises-25-million-for-device-supply-chai",
+      "source": "SecurityWeek",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "US Confirms Handala Link to Iran Government Amid Takedown of Hackers’ Sites",
+      "link": "https://www.securityweek.com/us-confirms-handala-link-to-iran-government-amid-takedown-of-hackers-sites/",
+      "summary": "The US has seized several domains used by Handala in cyber-enabled psychological operations.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "us-confirms-handala-link-to-iran-government-amid-t",
+      "source": "SecurityWeek",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Cape Raises $100 Million for Protection Against Cellular Security Threats",
+      "link": "https://www.securityweek.com/cape-raises-100-million-for-protection-against-cellular-security-threats/",
+      "summary": "Cape offers a privacy-focused mobile virtual network operator (MVNO) service for consumers, enterprises, and governments.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "cape-raises-100-million-for-protection-against-cel",
+      "source": "SecurityWeek",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Navia Data Breach Impacts 2.7 Million",
+      "link": "https://www.securityweek.com/navia-data-breach-impacts-2-7-million/",
+      "summary": "Between late December 2025 and mid-January 2026, hackers stole personal and health plan information from Navia’s environment.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "navia-data-breach-impacts-27-million",
+      "source": "SecurityWeek",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "FBI links Signal phishing attacks to Russian intelligence services",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/",
+      "summary": "The FBI has issued a public service announcement warning that Russian intelligence-linked threat actors are actively targeting users of encrypted messaging apps such as Signal and WhatsApp in phishing campaigns that have already compromised thousands of accounts.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-links-signal-phishing-attacks-to-russian-intel",
+      "source": "BleepingComputer",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Oracle pushes emergency fix for critical Identity Manager RCE flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/",
+      "summary": "Oracle has released an out-of-band security update to fix a critical unauthenticated remote code execution vulnerability in Identity Manager and Web Services Manager tracked as CVE-2026-21992.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "oracle-pushes-emergency-fix-for-critical-identity-",
+      "source": "BleepingComputer",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Police take down 373,000 fake CSAM sites in Operation Alice",
+      "link": "https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/",
+      "summary": "An international law enforcement action called Operation Alice has shut down over 373,000 dark web sites that offered fake CSAM packages.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "police-take-down-373000-fake-csam-sites-in-operati",
+      "source": "BleepingComputer",
+      "date": "2026-03-21"
+    }
+  ]
+}
