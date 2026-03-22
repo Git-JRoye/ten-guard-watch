@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-22",
+  "items": [
+    {
+      "title": "FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks",
+      "link": "https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html",
+      "summary": "Threat actors affiliated with Russian Intelligence Services are conducting phishing campaigns to compromise commercial messaging applications (CMAs) like WhatsApp and Signal to seize control of accounts belonging to individuals with high intelligence value, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) and Federal Bureau of Investigation (FBI) said  Friday.  \"The campaign targets individuals of high intelligence value, including current and former U.S. government officials, military personnel, political figures, and journalists,\" FBI Director Kash Patel said  in a post on X. \"Globally, this effort has resulted in unauthorized access to thousands of individual accounts. After gaining access, the actors can view messages and contact lists, send messages as the victim, and conduct additional phishing from a trusted identity.\"  CISA and the FBI said the activity has resulted in the compromise of thousands of individual CMA accounts. It's worth no...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-warns-russian-hackers-target-signal-whatsapp-i",
+      "source": "The Hacker News",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager",
+      "link": "https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html",
+      "summary": "Oracle has released  security updates to address a critical security flaw impacting Identity Manager and Web Services Manager that could be exploited to achieve remote code execution.  The vulnerability, tracked as CVE-2026-21992 , carries a CVSS score of 9.8 out of a maximum of 10.0.  \"This vulnerability is remotely exploitable without authentication,\" Oracle said  in an advisory. \"If successfully exploited, this vulnerability may result in remote code execution.\"  CVE-2026-21992 affects the following versions -   Oracle Identity Manager versions 12.2.1.4.0 and 14.1.2.1.0  Oracle Web Services Manager versions 12.2.1.4.0 and 14.1.2.1.0    According to a description  of the flaw in the NIST National Vulnerability Database (NVD), it's \"easily exploitable\" and could allow an unauthenticated attacker with network access via HTTP to compromise Oracle Identity Manager and Oracle Web Services Manager. This, in turn, can result in the successful takeover of s...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "oracle-patches-critical-cve-2026-21992-enabling-un",
+      "source": "The Hacker News",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages",
+      "link": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
+      "summary": "The threat actors behind the supply chain attack  targeting the popular Trivy scanner are suspected to be conducting follow-on attacks that have led to the compromise of a large number of npm packages with a previously undocumented self-propagating worm dubbed CanisterWorm .  The name is a reference to the fact that the malware uses an ICP canister , which refers to tamperproof smart contracts on the Internet Computer blockchain, as a dead drop resolver . The development marks the first publicly documented abuse of an ICP canister for the explicit purpose of fetching the command-and-control (C2) server, Aikido Security researcher Charlie Eriksen said .  The list of affected packages is below -   28 packages in the @EmilGroup scope  16 packages in the @opengov scope  @teale.io/eslint-config  @airtm/uuid-base32  @pypestream/floating-ui-dom   The development comes within a day after threat actors leveraged a compromised credential to publish malicious trivy, trivy-action, and setup-tri...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trivy-supply-chain-attack-triggers-self-spreading-",
+      "source": "The Hacker News",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026",
+      "link": "https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  five security flaws impacting Apple, Craft CMS, and Laravel Livewire to its Known Exploited Vulnerabilities ( KEV ) catalog, urging federal agencies to patch them by April 3, 2026.  The vulnerabilities that have come under exploitation are listed below -   CVE-2025-31277  (CVSS score: 8.8) - A vulnerability in Apple WebKit that could result in memory corruption when processing maliciously crafted web content. (Fixed in July 2025)  CVE-2025-43510  (CVSS score: 7.8) - A memory corruption vulnerability in Apple's kernel component that could allow a malicious application to cause unexpected changes in memory shared between processes. (Fixed in December 2025)  CVE-2025-43520  (CVSS score: 8.8) - A memory corruption vulnerability in Apple's kernel component that could allow a malicious application to cause unexpected system termination or write kernel memory. (Fixed in December 2025)  CVE-2025-32432 ...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-flags-apple-craft-cms-laravel-bugs-in-kev-ord",
+      "source": "The Hacker News",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets",
+      "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
+      "summary": "Trivy, a popular open-source vulnerability scanner maintained by Aqua Security, was compromised a second time within the span of a month to deliver malware that stole sensitive CI/CD secrets.  The latest incident impacted GitHub Actions \" aquasecurity/trivy-action \" and \" aquasecurity/setup-trivy ,\" which are used to scan Docker container images for vulnerabilities and set up GitHub Actions workflow with a specific version of the scanner, respectively.  \"We identified that an attacker force-pushed 75 out of 76 version tags in the aquasecurity/trivy-action repository, the official GitHub Action for running Trivy vulnerability scans in CI/CD pipelines,\" Socket security researcher Philipp Burckhardt said . \"These tags were modified to serve a malicious payload, effectively turning trusted version references into a distribution mechanism for an infostealer.\"  The payload executes within GitHub Actions runners and aims to extract valuable developer s...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trivy-security-scanner-github-actions-breached-75-",
+      "source": "The Hacker News",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
+      "summary": "A critical security flaw impacting Langflow has come under active exploitation  within 20 hours of public disclosure, highlighting the speed at which threat actors weaponize newly published vulnerabilities.  The security defect, tracked as CVE-2026-33017  (CVSS score: 9.3), is a case of missing authentication combined with code injection that could result in remote code execution.  \"The POST /api/v1/build_public_tmp/{flow_id}/flow endpoint allows building public flows without requiring authentication,\" according to Langflow's advisory for the flaw.  \"When the optional data parameter is supplied, the endpoint uses attacker-controlled flow data (containing arbitrary Python code in node definitions) instead of the stored flow data from the database. This code is passed to exec() with zero sandboxing, resulting in unauthenticated remote code execution.\"  The vulnerability affects all versions of the open-source artificial intelligence (AI) platform prior to and inc...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-langflow-flaw-cve-2026-33017-triggers-att",
+      "source": "The Hacker News",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Critical Quest KACE Vulnerability Potentially Exploited in Attacks",
+      "link": "https://www.securityweek.com/critical-quest-kace-vulnerability-potentially-exploited-in-attacks/",
+      "summary": "The vulnerability is tracked as CVE-2025-32975 and it may have been exploited in attacks against the education sector.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-quest-kace-vulnerability-potentially-expl",
+      "source": "SecurityWeek",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting",
+      "link": "https://www.securityweek.com/in-other-news-new-android-safeguards-operation-alice-uk-toughens-cyber-reporting/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: vulnerabilities found in KVM devices, Claudy Day Claude vulnerabilities, The Gentlemen ransomware group.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-new-android-safeguards-operation-ali",
+      "source": "SecurityWeek",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "3 Men Charged With Conspiring to Smuggle US Artificial Intelligence to China",
+      "link": "https://www.securityweek.com/3-men-charged-with-conspiring-to-smuggle-us-artificial-intelligence-to-china/",
+      "summary": "The men violated U.S. export controls laws by scheming to divert massive quantities of the high-performance servers assembled in the United States to China.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "3-men-charged-with-conspiring-to-smuggle-us-artifi",
+      "source": "SecurityWeek",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Eclypsium Raises $25 Million for Device Supply Chain Security",
+      "link": "https://www.securityweek.com/eclypsium-raises-25-million-for-device-supply-chain-security/",
+      "summary": "The company will use the investment to expand its platform’s capabilities and grow channel partnerships.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "eclypsium-raises-25-million-for-device-supply-chai",
+      "source": "SecurityWeek",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "US Confirms Handala Link to Iran Government Amid Takedown of Hackers’ Sites",
+      "link": "https://www.securityweek.com/us-confirms-handala-link-to-iran-government-amid-takedown-of-hackers-sites/",
+      "summary": "The US has seized several domains used by Handala in cyber-enabled psychological operations.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "us-confirms-handala-link-to-iran-government-amid-t",
+      "source": "SecurityWeek",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Cape Raises $100 Million for Protection Against Cellular Security Threats",
+      "link": "https://www.securityweek.com/cape-raises-100-million-for-protection-against-cellular-security-threats/",
+      "summary": "Cape offers a privacy-focused mobile virtual network operator (MVNO) service for consumers, enterprises, and governments.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "cape-raises-100-million-for-protection-against-cel",
+      "source": "SecurityWeek",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Trivy vulnerability scanner breach pushed infostealer via GitHub Actions",
+      "link": "https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/",
+      "summary": "The Trivy vulnerability scanner was compromised in a supply-chain attack by threat actors known as TeamPCP, which distributed credential-stealing malware through official releases and GitHub Actions.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trivy-vulnerability-scanner-breach-pushed-infostea",
+      "source": "BleepingComputer",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Google adds ‘Advanced Flow’ for safe APK sideloading on Android",
+      "link": "https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/",
+      "summary": "Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified developers for power users in a more secure way.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-adds-advanced-flow-for-safe-apk-sideloading",
+      "source": "BleepingComputer",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Microsoft Azure Monitor alerts abused for callback phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/",
+      "summary": "Microsoft Azure Monitor alerts are being abused to send callback phishing emails that impersonate warnings from the Microsoft Security Team about unauthorized charges on your account.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-azure-monitor-alerts-abused-for-callback",
+      "source": "BleepingComputer",
+      "date": "2026-03-22"
+    }
+  ]
+}

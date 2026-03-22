@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks</div><div class="ticker-item">Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager</div><div class="ticker-item">Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages</div><div class="ticker-item">CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026</div><div class="ticker-item">Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets</div><div class="ticker-item">Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure</div><div class="ticker-item">Critical Quest KACE Vulnerability Potentially Exploited in Attacks</div><div class="ticker-item">In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting</div><div class="ticker-item">3 Men Charged With Conspiring to Smuggle US Artificial Intelligence to China</div><div class="ticker-item">Eclypsium Raises $25 Million for Device Supply Chain Security</div><div class="ticker-item">US Confirms Handala Link to Iran Government Amid Takedown of Hackers’ Sites</div><div class="ticker-item">Cape Raises $100 Million for Protection Against Cellular Security Threats</div><div class="ticker-item">Trivy vulnerability scanner breach pushed infostealer via GitHub Actions</div><div class="ticker-item">Google adds ‘Advanced Flow’ for safe APK sideloading on Android</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Microsoft Azure Monitor alerts abused for callback phishing attacks</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages</div><div class="ticker-item">CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026</div><div class="ticker-item">Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets</div><div class="ticker-item">Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure</div><div class="ticker-item">Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce Malware and Scams</div><div class="ticker-item">The Importance of Behavioral Analytics in AI-Enabled Cyber Attacks</div><div class="ticker-item">In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting</div><div class="ticker-item">3 Men Charged With Conspiring to Smuggle US Artificial Intelligence to China</div><div class="ticker-item">Eclypsium Raises $25 Million for Device Supply Chain Security</div><div class="ticker-item">US Confirms Handala Link to Iran Government Amid Takedown of Hackers’ Sites</div><div class="ticker-item">Cape Raises $100 Million for Protection Against Cellular Security Threats</div><div class="ticker-item">Navia Data Breach Impacts 2.7 Million</div><div class="ticker-item">FBI links Signal phishing attacks to Russian intelligence services</div><div class="ticker-item">Oracle pushes emergency fix for critical Identity Manager RCE flaw</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Police take down 373,000 fake CSAM sites in Operation Alice</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks</h3>
-                <p><strong>Summary:</strong> Threat actors affiliated with Russian Intelligence Services are conducting phishing campaigns to compromise commercial messaging applications (CMAs) like WhatsApp and Signal to seize control of accoun...</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager</h3>
-                <p><strong>Summary:</strong> Oracle has released  security updates to address a critical security flaw impacting Identity Manager and Web Services Manager that could be exploited to achieve remote code execution.  The vulnerabili...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages</h3>
                 <p><strong>Summary:</strong> The threat actors behind the supply chain attack  targeting the popular Trivy scanner are suspected to be conducting follow-on attacks that have led to the compromise of a large number of npm packages...</p>
@@ -91,11 +77,18 @@
                 <a href="https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Critical Quest KACE Vulnerability Potentially Exploited in Attacks</h3>
-                <p><strong>Summary:</strong> The vulnerability is tracked as CVE-2025-32975 and it may have been exploited in attacks against the education sector.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-quest-kace-vulnerability-potentially-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/critical-quest-kace-vulnerability-potentially-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce Malware and Scams</h3>
+                <p><strong>Summary:</strong> Google on Thursday announced  a new "advanced flow" for Android sideloading that requires a mandatory 24-hour wait period to install apps from unverified developers in an attempt to balance openness w...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Importance of Behavioral Analytics in AI-Enabled Cyber Attacks</h3>
+                <p><strong>Summary:</strong> Artificial Intelligence (AI) is changing how individuals and organizations conduct many activities, including how cybercriminals carry out phishing attacks and iterate on malware. Now, cybercriminals ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/the-importance-of-behavioral-analytics.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/the-importance-of-behavioral-analytics.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/cape-raises-100-million-for-protection-against-cellular-security-threats/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Trivy vulnerability scanner breach pushed infostealer via GitHub Actions</h3>
-                <p><strong>Summary:</strong> The Trivy vulnerability scanner was compromised in a supply-chain attack by threat actors known as TeamPCP, which distributed credential-stealing malware through official releases and GitHub Actions.</p>
+                <h3>Navia Data Breach Impacts 2.7 Million</h3>
+                <p><strong>Summary:</strong> Between late December 2025 and mid-January 2026, hackers stole personal and health plan information from Navia’s environment.</p>
                 <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/navia-data-breach-impacts-2-7-million/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/navia-data-breach-impacts-2-7-million/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Google adds ‘Advanced Flow’ for safe APK sideloading on Android</h3>
-                <p><strong>Summary:</strong> Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified developers for power users in a more secure way.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>FBI links Signal phishing attacks to Russian intelligence services</h3>
+                <p><strong>Summary:</strong> The FBI has issued a public service announcement warning that Russian intelligence-linked threat actors are actively targeting users of encrypted messaging apps such as Signal and WhatsApp in phishing...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Oracle pushes emergency fix for critical Identity Manager RCE flaw</h3>
+                <p><strong>Summary:</strong> Oracle has released an out-of-band security update to fix a critical unauthenticated remote code execution vulnerability in Identity Manager and Web Services Manager tracked as CVE-2026-21992.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New report: How browser-based attacks are bypassing your security controls</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft Azure Monitor alerts abused for callback phishing attacks</h3>
-                <p><strong>Summary:</strong> Microsoft Azure Monitor alerts are being abused to send callback phishing emails that impersonate warnings from the Microsoft Security Team about unauthorized charges on your account.</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Police take down 373,000 fake CSAM sites in Operation Alice</h3>
+                <p><strong>Summary:</strong> An international law enforcement action called Operation Alice has shut down over 373,000 dark web sites that offered fake CSAM packages.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
