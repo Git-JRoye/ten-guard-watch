@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper</div><div class="ticker-item">Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems</div><div class="ticker-item">FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks</div><div class="ticker-item">Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager</div><div class="ticker-item">Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages</div><div class="ticker-item">CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026</div><div class="ticker-item">Oracle Releases Emergency Patch for Critical Identity Manager Vulnerability</div><div class="ticker-item">Critical Quest KACE Vulnerability Potentially Exploited in Attacks</div><div class="ticker-item">In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting</div><div class="ticker-item">3 Men Charged With Conspiring to Smuggle US Artificial Intelligence to China</div><div class="ticker-item">Eclypsium Raises $25 Million for Device Supply Chain Security</div><div class="ticker-item">US Confirms Handala Link to Iran Government Amid Takedown of Hackers’ Sites</div><div class="ticker-item">FBI warns of Handala hackers using Telegram in malware attacks</div><div class="ticker-item">CISA orders feds to patch DarkSword iOS flaws exploited attacks</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">New KB5085516 emergency update fixes Microsoft account sign-in</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks</div><div class="ticker-item">Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager</div><div class="ticker-item">Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages</div><div class="ticker-item">CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026</div><div class="ticker-item">Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets</div><div class="ticker-item">Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure</div><div class="ticker-item">Critical Quest KACE Vulnerability Potentially Exploited in Attacks</div><div class="ticker-item">In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting</div><div class="ticker-item">3 Men Charged With Conspiring to Smuggle US Artificial Intelligence to China</div><div class="ticker-item">Eclypsium Raises $25 Million for Device Supply Chain Security</div><div class="ticker-item">US Confirms Handala Link to Iran Government Amid Takedown of Hackers’ Sites</div><div class="ticker-item">Cape Raises $100 Million for Protection Against Cellular Security Threats</div><div class="ticker-item">Trivy vulnerability scanner breach pushed infostealer via GitHub Actions</div><div class="ticker-item">Google adds ‘Advanced Flow’ for safe APK sideloading on Android</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Microsoft Azure Monitor alerts abused for callback phishing attacks</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack , highlighting the widening blast radius across developer environments. ...</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems</h3>
-                <p><strong>Summary:</strong> Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf.  The cybersecurity company said  it obs...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks</h3>
                 <p><strong>Summary:</strong> Threat actors affiliated with Russian Intelligence Services are conducting phishing campaigns to compromise commercial messaging applications (CMAs) like WhatsApp and Signal to seize control of accoun...</p>
@@ -91,11 +77,18 @@
                 <a href="https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Oracle Releases Emergency Patch for Critical Identity Manager Vulnerability</h3>
-                <p><strong>Summary:</strong> CVE-2026-21992 can be used without authentication for remote code execution and it may have been exploited in the wild.</p>
+                <h3>Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets</h3>
+                <p><strong>Summary:</strong> Trivy, a popular open-source vulnerability scanner maintained by Aqua Security, was compromised a second time within the span of a month to deliver malware that stole sensitive CI/CD secrets.  The lat...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure</h3>
+                <p><strong>Summary:</strong> A critical security flaw impacting Langflow has come under active exploitation  within 20 hours of public disclosure, highlighting the speed at which threat actors weaponize newly published vulnerabil...</p>
                 <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/oracle-releases-emergency-patch-for-critical-identity-manager-vulnerability/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/oracle-releases-emergency-patch-for-critical-identity-manager-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Critical Quest KACE Vulnerability Potentially Exploited in Attacks</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/us-confirms-handala-link-to-iran-government-amid-takedown-of-hackers-sites/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>FBI warns of Handala hackers using Telegram in malware attacks</h3>
-                <p><strong>Summary:</strong> The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks.</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Cape Raises $100 Million for Protection Against Cellular Security Threats</h3>
+                <p><strong>Summary:</strong> Cape offers a privacy-focused mobile virtual network operator (MVNO) service for consumers, enterprises, and governments.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cape-raises-100-million-for-protection-against-cellular-security-threats/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cape-raises-100-million-for-protection-against-cellular-security-threats/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>CISA orders feds to patch DarkSword iOS flaws exploited attacks</h3>
-                <p><strong>Summary:</strong> CISA ordered U.S. government agencies to patch three iOS vulnerabilities targeted in cryptocurrency theft and cyberespionage attacks using the DarkSword exploit kit.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Trivy vulnerability scanner breach pushed infostealer via GitHub Actions</h3>
+                <p><strong>Summary:</strong> The Trivy vulnerability scanner was compromised in a supply-chain attack by threat actors known as TeamPCP, which distributed credential-stealing malware through official releases and GitHub Actions.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google adds ‘Advanced Flow’ for safe APK sideloading on Android</h3>
+                <p><strong>Summary:</strong> Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified developers for power users in a more secure way.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New report: How browser-based attacks are bypassing your security controls</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New KB5085516 emergency update fixes Microsoft account sign-in</h3>
-                <p><strong>Summary:</strong> Microsoft has released an emergency update to address a major issue that breaks sign-ins with Microsoft accounts across multiple Microsoft apps, including Teams and OneDrive.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Microsoft Azure Monitor alerts abused for callback phishing attacks</h3>
+                <p><strong>Summary:</strong> Microsoft Azure Monitor alerts are being abused to send callback phishing emails that impersonate warnings from the Microsoft Security Team about unauthorized charges on your account.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
