@@ -1,0 +1,219 @@
+{
+  "date": "2026-03-24",
+  "items": [
+    {
+      "title": "TeamPCP Hacks Checkmarx GitHub Actions Using Stolen CI Credentials",
+      "link": "https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html",
+      "summary": "Two more GitHub Actions workflows have become the latest to be compromised by credential-stealing malware by a threat actor known as TeamPCP, the cloud-native cybercriminal operation also behind the Trivy supply chain attack .  The workflows, both maintained by the supply chain security company Checkmarx, are listed below -   checkmarx/ast-github-action  checkmarx/kics-github-action   Cloud security company Sysdig said it observed an identical credential stealer as the one used in TeamPCP's operations targeting Aqua Security's Trivy vulnerability scanner and its associated GitHub Actions, about four days after the breach on March 19, 2026. The Try supply chain compromise is being tracked under the CVE identifier CVE-2026-33634  (CVSS score: 9.4).  \"This suggests that the stolen credentials from the Trivy compromise were used to poison additional actions in affected repositories,\" Sysdig said .  The stealer, referred to as \"TeamPCP Cloud stealer,\" is designe...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "teampcp-hacks-checkmarx-github-actions-using-stole",
+      "source": "The Hacker News",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage",
+      "link": "https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html",
+      "summary": "A 26-year-old Russian citizen has been sentenced in the U.S. to 6.75 years (81 months) in prison for his role in assisting major cybercrime groups, including the Yanluowang ransomware crew, in conducting numerous attacks against U.S. companies and other organizations.  According to the U.S. Department of Justice (DoJ), Aleksei Olegovich Volkov  facilitated dozens of ransomware attacks across the U.S., causing more than $9 million in actual losses and over $24 million in intended losses. Volkov was arrested on January 18, 2024, in Italy and extradited to the U.S. to face charges. He pleaded guilty  to the crimes in November 2025.  Volkov is said to have served as an initial access broker responsible for obtaining unauthorized access to computer networks and systems belonging to various organizations and selling that access to other criminal groups, including ransomware actors. This was accomplished by exploiting vulnerabilities or finding ways to access the networks without authorizati...",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "us-sentences-russian-hacker-to-675-years-for-role-",
+      "source": "The Hacker News",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Citrix Urges Patching Critical NetScaler Flaw Allowing Unauthenticated Data Leaks",
+      "link": "https://thehackernews.com/2026/03/citrix-urges-patching-critical.html",
+      "summary": "Citrix has released security updates  to address two vulnerabilities in NetScaler  ADC and NetScaler Gateway, including a critical flaw that could be exploited to leak sensitive data from the application.  The vulnerabilities are listed below -   CVE-2026-3055  (CVSS score: 9.3) - Insufficient input validation leading to memory overread  CVE-2026-4368  (CVSS score: 7.7) - Race condition leading to user session mixup   Cybersecurity company Rapid7 said  that CVE-2026-3055 refers to an out-of-bounds read that could be exploited by unauthenticated remote attackers to leak potentially sensitive information from the appliance's memory.  However, for exploitation to be successful, the Citrix ADC or Citrix Gateway appliance must be configured as a SAML Identity Provider (SAML IDP), which means default configurations are unaffected. To determine if the device has been configured as a SAML IDP Profile, Citrix is urging customers to inspect their NetScaler Configuration for the specified st...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "citrix-urges-patching-critical-netscaler-flaw-allo",
+      "source": "The Hacker News",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware",
+      "link": "https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign, also tracked as WaterPlum, have been attributed to a malware family tracked as StoatWaffle  that's distributed via malicious Microsoft Visual Studio Code (VS Code) projects.  The use of VS Code \"tasks.json\" to distribute malware is a relatively new tactic  adopted by the threat actor since December 2025 , with the attacks leveraging the \"runOn: folderOpen\" option to automatically trigger its execution every time any file in the project folder is opened in VS Code.  \"This task is configured so that it downloads data from a web application on Vercel regardless of executing OS [operating system],\" NTT Security said  in a report published last week. \"Though we assume that the executing OS is Windows in this article, the essential behaviors are the same for any OS.\"  The downloaded payload first checks whether Node.js is installed in the executing environment. If it's ab...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "north-korean-hackers-abuse-vs-code-auto-run-tasks-",
+      "source": "The Hacker News",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More",
+      "link": "https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html",
+      "summary": "Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in simple ways, showing many still ignore basic advisories.  This edition covers a mix of issues: supply chain attacks hitting CI/CD setups, long-abused IoT devices being shut down, and exploits moving quickly from disclosure to real attacks. There are also new malware tricks showing attackers are becoming more patient and creative.  It’s a mix of old problems that never go away and new methods that are harder to detect. There are quiet state-backed activities, exposed data from open directories, growing mobile threats, and a steady stream of zero-days and rushed patches.  Grab a coffee, and at least skim the CVE list. Some of these are the kind you don’t want to discover after the damage is done.  ⚡ Threat of the Week  Trivy Vulnerability Scanner Breached in for Supply Chain Attack  — Attackers have backdoored  the widely used open-source Trivy vulnerability scanner, ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "-weekly-recap-cicd-backdoor-fbi-buys-location-data",
+      "source": "The Hacker News",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them",
+      "link": "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html",
+      "summary": "AWS Bedrock  is Amazon's platform for building AI-powered applications. It gives developers access to foundation models and the tools to connect those models directly to enterprise data and systems. That connectivity is what makes it powerful – but it’s also what makes Bedrock a target.  When an AI agent can query your Salesforce instance, trigger a Lambda function, or pull from a SharePoint knowledge base, it becomes a node in your infrastructure - with permissions, with reachability, and with paths that lead to critical assets. The XM Cyber threat research team mapped exactly how attackers could exploit that connectivity inside Bedrock environments. The result: eight validated attack vectors spanning log manipulation, knowledge base compromise, agent hijacking, flow injection, guardrail degradation, and prompt poisoning.  In this article, we’ll walk through each vector - what it targets, how it works, and what an attacker can reach on the other side.  The Eight Vectors  The XM ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "we-found-eight-attack-vectors-inside-aws-bedrock-h",
+      "source": "The Hacker News",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Stryker Says Malicious File Found During Probe Into Iran-Linked Attack",
+      "link": "https://www.securityweek.com/stryker-says-malicious-file-found-during-probe-into-iran-linked-attack/",
+      "summary": "The FBI has published an alert describing the malware used by Iranian government hackers.",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "stryker-says-malicious-file-found-during-probe-int",
+      "source": "SecurityWeek",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "RSAC 2026 Conference Announcements Summary (Pre-Event)",
+      "link": "https://www.securityweek.com/rsac-2026-conference-announcements-summary-pre-event/",
+      "summary": "A summary of the announcements made by vendors in the days leading up to the RSAC 2026 Conference.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "rsac-2026-conference-announcements-summary-pre-eve",
+      "source": "SecurityWeek",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "M-Trends 2026: Initial Access Handoff Shrinks From Hours to 22 Seconds",
+      "link": "https://www.securityweek.com/m-trends-2026-initial-access-handoff-shrinks-from-hours-to-22-seconds/",
+      "summary": "The latest M-Trends report is based on insights from over 500,000 hours of Mandiant incident response investigations in 2025.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "m-trends-2026-initial-access-handoff-shrinks-from-",
+      "source": "SecurityWeek",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Chip Services Firm Trio-Tech Says Subsidiary Hit by Ransomware",
+      "link": "https://www.securityweek.com/chip-services-firm-trio-tech-says-subsidiary-hit-by-ransomware/",
+      "summary": "The semiconductor company says hackers deployed file-encrypting ransomware on the network of a subsidiary in Singapore.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "chip-services-firm-trio-tech-says-subsidiary-hit-b",
+      "source": "SecurityWeek",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Aqua’s Trivy Vulnerability Scanner Hit by Supply Chain Attack",
+      "link": "https://www.securityweek.com/aquas-trivy-vulnerability-scanner-hit-by-supply-chain-attack/",
+      "summary": "Hackers published a malicious scanner release and replaced tags to point to information-stealer malware.",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "aquas-trivy-vulnerability-scanner-hit-by-supply-ch",
+      "source": "SecurityWeek",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "QNAP Patches Four Vulnerabilities Exploited at Pwn2Own",
+      "link": "https://www.securityweek.com/qnap-patches-four-vulnerabilities-exploited-at-pwn2own/",
+      "summary": "The flaws could allow attackers to access sensitive information, execute code, or cause unexpected behavior.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "qnap-patches-four-vulnerabilities-exploited-at-pwn",
+      "source": "SecurityWeek",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "OpenAI rolls out ChatGPT Library to store your personal files",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/",
+      "summary": "OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows you to store your personal files or images on OpenAI's cloud storage, so you can reference those items in a future chat.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-rolls-out-chatgpt-library-to-store-your-per",
+      "source": "BleepingComputer",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Mazda discloses security breach exposing employee and partner data",
+      "link": "https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/",
+      "summary": "Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exposed in a security incident detected last December.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "mazda-discloses-security-breach-exposing-employee-",
+      "source": "BleepingComputer",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Tycoon2FA phishing platform returns after recent police disruption",
+      "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/",
+      "summary": "The Tycoon2FA phishing-as-a-service (PhaaS) platform that Europol and partners disrupted on March 4 has already returned to previously observed activity levels.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "tycoon2fa-phishing-platform-returns-after-recent-p",
+      "source": "BleepingComputer",
+      "date": "2026-03-24"
+    }
+  ]
+}
