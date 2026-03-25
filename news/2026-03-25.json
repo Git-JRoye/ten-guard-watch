@@ -1,0 +1,210 @@
+{
+  "date": "2026-03-25",
+  "items": [
+    {
+      "title": "FCC Bans New Foreign-Made Routers Over Supply Chain and Cyber Risk Concerns",
+      "link": "https://thehackernews.com/2026/03/fcc-bans-new-foreign-made-routers-over.html",
+      "summary": "The U.S. Federal Communications Commission (FCC) said on Monday that it was banning the import of new, foreign-made consumer routers, citing \"unacceptable\" risks to cyber and national security.  The action was designed to safeguard Americans and the underlying communications networks the country relies on, FCC Chairman Brendan Carr said  in a post on X. The development means that new models of foreign-produced routers will no longer be eligible for marketing or sale in the U.S. The move comes in the wake of a national security determination provided by Executive Branch Agencies, Carr added.  To that end, all consumer-grade routers manufactured in foreign countries have been added to the Covered List , unless they have been granted a Conditional Approval by the Department of War (DoW) or the Department of Homeland Security (DHS) after determining that they do not pose any risks.  As of writing, the approved list  only includes drone systems and software-defined radios (SDRs) ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fcc-bans-new-foreign-made-routers-over-supply-chai",
+      "source": "The Hacker News",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise",
+      "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
+      "summary": "TeamPCP , the threat actor behind the recent compromises of Trivy and KICS, has now compromised a popular Python package named litellm , pushing two malicious versions containing a credential harvester, a Kubernetes lateral movement toolkit, and a persistent backdoor.  Multiple security vendors, including Endor Labs  and JFrog , revealed that litellm versions 1.82.7 and 1.82.8 were published  on March 24, 2026, likely stemming from the package's use of Trivy  in their CI/CD workflow. Both the backdoored versions have since been removed from PyPI.  \"The payload is a three-stage attack: a credential harvester sweeping SSH keys, cloud credentials, Kubernetes secrets, cryptocurrency wallets, and .env files; a Kubernetes lateral movement toolkit deploying privileged pods to every node; and a persistent systemd backdoor (sysmon.service) polling 'checkmarx[.]zone/raw' for additional binaries,\" Endor Labs researcher Kiran Raj said.   As observed in previous cases, the ha...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "teampcp-backdoors-litellm-versions-18271828-via-tr",
+      "source": "The Hacker News",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR",
+      "link": "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
+      "summary": "A large-scale malvertising campaign active since January 2026 has been observed targeting U.S.-based individuals searching for tax-related documents to serve rogue installers for ConnectWise ScreenConnect that drop a tool named HwAudKiller to blind security programs using the bring your own vulnerable driver ( BYOVD ) technique.  \"The campaign abuses Google Ads to serve rogue ScreenConnect (ConnectWise Control) installers, ultimately delivering a BYOVD EDR killer that drops a kernel driver to blind security tools before further compromise,\" Huntress researcher Anna Pham said  in a report published last week.  The cybersecurity vendor said it identified over 60 instances of malicious ScreenConnect sessions tied to the campaign. The attack chain stands out for a couple of reasons. Unlike recent campaigns highlighted  by Microsoft that leverage tax-themed lures, the newly flagged activity employs commercial cloaking services to avoid detection by security scanners and abuses a ...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "tax-search-ads-deliver-screenconnect-malware-using",
+      "source": "The Hacker News",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents",
+      "link": "https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html",
+      "summary": "On February 25, 2026, Gartner published its inaugural Market Guide for Guardian Agents, marking an important milestone for this emerging category. For those unfamiliar with the various Gartner report types , “a Market Guide defines a market and explains what clients can expect it to do in the short term. With the focus on early, more chaotic markets, a Market Guide does not rate or position vendors within the market, but rather more commonly outlines attributes of representative vendors that are providing offerings in the market to give further insight into the market itself.”  And if Guardian Agent is an unfamiliar term, Gartner defines it quite simply. “Guardian agents supervise AI agents, helping ensure agent actions align with goals and boundaries.” Enterprise security and identity leaders can request a limited distribution copy of the Gartner Market Guide for Guardian Agents.   Learning 1: Why Guardian Agent technology is important  One need only to read the news- in the Wall Str...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "5-learnings-from-the-first-ever-gartner-market-gui",
+      "source": "The Hacker News",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner",
+      "link": "https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html",
+      "summary": "An ongoing phishing campaign is targeting French-speaking corporate environments with fake resumes that lead to the deployment of cryptocurrency miners and information stealers.  \"The campaign uses highly obfuscated VBScript files disguised as resume/CV documents, delivered through phishing emails,\" Securonix researchers Shikha Sangwan, Akshay Gaikwad, and Aaron Beardslee said  in a report shared with The Hacker News.  \"Once executed, the malware deploys a multi-purpose toolkit that combines credential theft, data exfiltration, and Monero cryptocurrency mining for maximum monetization.\"  The activity has been codenamed FAUX#ELEVATE  by the cybersecurity company. The campaign is noteworthy for the abuse of legitimate services and infrastructure, such as Dropbox for staging payloads, Moroccan WordPress sites for hosting command-and-control (C2) configuration, and mail[.]ru SMTP infrastructure for exfiltrating stolen browser credentials and desktop files.  This is an ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "hackers-use-fake-resumes-to-steal-enterprise-crede",
+      "source": "The Hacker News",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills",
+      "link": "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
+      "summary": "Cybersecurity has changed fast. Roles are more specialized, and tooling is more advanced. On paper, this should make organizations more secure. But in practice, many teams struggle with the same basic problems they faced years ago: unclear risk priorities, misaligned tooling decisions, and difficulty explaining security issues in terms the business understands.  These challenges do not usually come from a lack of effort. They emerge from something more subtle, a gradual loss of foundational understanding as specialization accelerates. Specialization itself is not the problem. A lack of context is. When security teams do not have a shared understanding of how the business, systems, and risks fit together, even strong technical execution starts to break down. Over time, that gap shows up in the way programs are designed, tools are chosen, and incidents are handled. Unfortunately, I’ve seen this pattern repeatedly when assisting with ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "the-hidden-cost-of-cybersecurity-specialization-lo",
+      "source": "The Hacker News",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "US Prisons Russian Access Broker for Aiding Ransomware Attacks",
+      "link": "https://www.securityweek.com/us-prisons-russian-access-broker-for-aiding-ransomware-attacks/",
+      "summary": "Aleksei Volkov has been sentenced to 81 months in prison for his role in Yanluowang ransomware attacks.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "us-prisons-russian-access-broker-for-aiding-ransom",
+      "source": "SecurityWeek",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "HackerOne Employee Data Exposed in Massive Navia Breach",
+      "link": "https://www.securityweek.com/hackerone-employee-data-exposed-in-massive-navia-breach/",
+      "summary": "The cybersecurity firm said the personal information of hundreds of employees was stolen in the hacker attack targeting Navia.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackerone-employee-data-exposed-in-massive-navia-b",
+      "source": "SecurityWeek",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "DoE Publishes 5-Year Energy Security Plan",
+      "link": "https://www.securityweek.com/doe-publishes-5-year-energy-security-plan/",
+      "summary": "CESER’s Project Armor is a five year initiative to harden the US critical energy infrastructure, including strengthening energy systems ‘to prevent and recover from wildfires and other hazards’.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "doe-publishes-5-year-energy-security-plan",
+      "source": "SecurityWeek",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Why Agentic AI Systems Need Better Governance – Lessons from OpenClaw",
+      "link": "https://www.securityweek.com/why-agentic-ai-systems-need-better-governance-lessons-from-openclaw/",
+      "summary": "Agentic AI platforms are shifting from passive recommendation tools to autonomous action-takers with real system access,",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "why-agentic-ai-systems-need-better-governance-less",
+      "source": "SecurityWeek",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Poland Faced a Surge in Cyberattacks in 2025, Including a Major Assault on the Energy Sector",
+      "link": "https://www.securityweek.com/poland-faced-a-surge-in-cyberattacks-in-2025-including-a-major-assault-on-the-energy-sector/",
+      "summary": "The attacks included a destructive infiltration of Poland’s energy system in December and was suspected of originating in Russia.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "poland-faced-a-surge-in-cyberattacks-in-2025-inclu",
+      "source": "SecurityWeek",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "RSAC 2026 Conference Announcements Summary (Day 1)",
+      "link": "https://www.securityweek.com/rsac-2026-conference-announcements-summary-day-1/",
+      "summary": "A summary of the announcements made by vendors on the first day of the RSAC 2026 Conference.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "rsac-2026-conference-announcements-summary-day-1",
+      "source": "SecurityWeek",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Manager of botnet used in ransomware attacks gets 2 years in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/",
+      "summary": "A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies.",
+      "tags": [
+        "phishing",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "manager-of-botnet-used-in-ransomware-attacks-gets-",
+      "source": "BleepingComputer",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "PTC warns of imminent threat from critical Windchill, FlexPLM RCE bug",
+      "link": "https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/",
+      "summary": "PTC Inc. is warning of a critical vulnerability in Windchill and FlexPLM, widely used product lifecycle management (PLM) solutions, that could allow remote code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ptc-warns-of-imminent-threat-from-critical-windchi",
+      "source": "BleepingComputer",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Popular LiteLLM PyPI package backdoored to steal credentials, auth tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/",
+      "summary": "The TeamPCP hacking group continues its supply-chain rampage, now compromising the massively popular \"LiteLLM\" Python package on PyPI and claiming to have stolen data from hundreds of thousands of devices during the attack.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "popular-litellm-pypi-package-backdoored-to-steal-c",
+      "source": "BleepingComputer",
+      "date": "2026-03-25"
+    }
+  ]
+}
