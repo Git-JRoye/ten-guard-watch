@@ -1,0 +1,213 @@
+{
+  "date": "2026-03-26",
+  "items": [
+    {
+      "title": "WebRTC Skimmer Bypasses CSP to Steal Payment Data from E-Commerce Sites",
+      "link": "https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html",
+      "summary": "Cybersecurity researchers have discovered a new payment skimmer  that uses WebRTC data channels  as a means to receive payloads and exfiltrate data, effectively bypassing security controls.  \"Instead of the usual HTTP requests or image beacons, this malware uses WebRTC data channels to load its payload and exfiltrate stolen payment data,\" Sansec said  in a report published this week.  The attack, which targeted a car maker's e-commerce website, is said to have been facilitated by PolyShell , a new vulnerability impacting Magento Open Source and Adobe Commerce that allows unauthenticated attackers to upload arbitrary executables via the REST API and achieve code execution.   Notably, the vulnerability has since come under mass exploitation since March 19, 2026, with more than 50 IP addresses participating in the scanning activity. The Dutch security company said it has found PolyShell attacks on 56.7% of all vulnerable stores.  The skimmer is designed as a self-executing ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webrtc-skimmer-bypasses-csp-to-steal-payment-data-",
+      "source": "The Hacker News",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace",
+      "link": "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
+      "summary": "The alleged administrator of the LeakBase  cybercrime forum has been arrested by Russian law enforcement authorities, state media reported Thursday.  According to TASS  and MVD Media , a news website linked to the Russian Interior Ministry, the suspect is a resident of the city of Taganrog. The suspect is said to have been detained for creating and managing a criminal site that allowed stolen personal databases to be traded since 2021.  In addition, technical equipment and other items of evidentiary value were confiscated during a search of the suspect's residence.  \"The platform hosted hundreds of millions of user accounts, bank details, usernames, and passwords, as well as corporate documents obtained through hacking,\" said Irina Volk, an official spokesperson for the Russian Ministry of Internal Affairs. \"More than 147,000 users registered on the forum could buy and sell this data, as well as use it to commit fraudulent acts against citizens.\"   LeakBase was...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "leakbase-admin-arrested-in-russia-over-massive-sto",
+      "source": "The Hacker News",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser, Crypto Data",
+      "link": "https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html",
+      "summary": "Cybersecurity researchers have flagged a new evolution of the GlassWorm campaign that delivers a multi-stage framework capable of comprehensive data theft and installing a remote access trojan (RAT), which deploys an information-stealing Google Chrome extension masquerading as an offline version of Google Docs.  \"It logs keystrokes, dumps cookies and session tokens, captures screenshots, and takes commands from a C2 server hidden in a Solana blockchain memo,\" Aikido security researcher Ilyas Makari said  in a report published last week.  GlassWorm  is the moniker assigned to a persistent campaign  that obtains an initial foothold through rogue packages published across npm, PyPI, GitHub, and the Open VSX marketplace. In addition, the operators are known to compromise the accounts of project maintainers to push poisoned updates.  The attacks are careful enough to avoid infecting systems with a Russian locale and use Solana transactions as a dead drop resolver to fetch the com...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "glassworm-malware-uses-solana-dead-drops-to-delive",
+      "source": "The Hacker News",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "The Kill Chain Is Obsolete When Your AI Agent Is the Threat",
+      "link": "https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html",
+      "summary": "In September 2025, Anthropic disclosed  that a state-sponsored threat actor used an AI coding agent to execute an autonomous cyber espionage campaign against 30 global targets. The AI handled 80-90% of tactical operations on its own, performing reconnaissance, writing exploit code, and attempting lateral movement at machine speed.  This incident is worrying, but there's a scenario that should concern security teams even more: an attacker who doesn't need to run through the kill chain at all, because they've compromised an AI agent that already lives inside your environment. One that already has the access, the permissions, and a legitimate reason to move across your systems every day.  A Framework Built for Human Threats  The traditional cyber kill chain assumes attackers have to earn every inch of access. It's a model  developed by Lockheed Martin in 2011 to describe how adversaries move from initial compromise to their ultimate objective, and it's shaped how secu...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-kill-chain-is-obsolete-when-your-ai-agent-is-t",
+      "source": "The Hacker News",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Russian Hacker Sentenced to 2 Years for TA551 Botnet-Driven Ransomware Attacks",
+      "link": "https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html",
+      "summary": "The U.S. Department of Justice (DoJ) said  a Russian national has been sentenced to two years in prison for managing a botnet that was used to launch ransomware attacks against U.S. companies.  Ilya Angelov, 40, of Tolyatti, Russia, was also fined $100,000. Angelov, who went by the online aliases \"milan\" and \"okart,\" is said to have co-managed a Russia-based cybercriminal group known as TA551  (aka ATK236, G0127, Gold Cabin, Hive0106, Mario Kart, Monster Libra, Shathak, and UNC2420 ) between 2017 and 2021.  \"Angelov's group built a network of compromised computers (a 'botnet') through distribution of malware-infected files attached to spam emails,\" the DoJ said. \"Angelov and his co-manager then monetized this botnet by selling access to individual compromised computers ('bots').\"   According to the sentencing memorandum , the threat group developed programs to distribute spam email and refined malware to bypass security tools...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russian-hacker-sentenced-to-2-years-for-ta551-botn",
+      "source": "The Hacker News",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse",
+      "link": "https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html",
+      "summary": "Cybersecurity researchers are calling attention to an active device code phishing campaign that's targeting Microsoft 365 identities across more than 340 organizations in the U.S., Canada, Australia, New Zealand, and Germany.  The activity, per Huntress, was first spotted  on February 19, 2026, with subsequent cases appearing at an accelerated pace since then. Notably, the campaign leverages Cloudflare Workers redirects with captured sessions redirected to infrastructure hosted on a platform-as-a-service (PaaS) offering called Railway, effectively turning it into a credential harvesting engine.  Construction, non-profits, real estate, manufacturing, financial services, healthcare, legal, and government are some of the prominent sectors targeted as part of the campaign.   \"What also makes this campaign unusual is not just the device code phishing techniques involved, but the variety of techniques observed,\" the company said. \"Construction bid lures, landing page code...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "device-code-phishing-hits-340-microsoft-365-orgs-a",
+      "source": "The Hacker News",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Dell and HP Roll Out Quantum-Resistant Device Security and AI-Era Cyber Resilience",
+      "link": "https://www.securityweek.com/hp-and-dell-roll-out-quantum-resistant-device-security-and-ai-era-cyber-resilience/",
+      "summary": "The computer giants have announced new security capabilities for PCs and printers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "dell-and-hp-roll-out-quantum-resistant-device-secu",
+      "source": "SecurityWeek",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Onit Security Raises $11 Million for Exposure Management Platform",
+      "link": "https://www.securityweek.com/onit-security-raises-11-million-for-exposure-management-platform/",
+      "summary": "The startup will invest in product development and go-to-market efforts as it expands into new sectors.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "onit-security-raises-11-million-for-exposure-manag",
+      "source": "SecurityWeek",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Russian Cybercriminal Gets 2-Year Prison Sentence in US",
+      "link": "https://www.securityweek.com/russian-cybercriminal-gets-2-year-prison-sentence-in-us/",
+      "summary": "Ilya Angelov was a member of the cybercrime group tracked as TA-551, Shathak, Gold Cabin, Monster Libra, and ATK236.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "russian-cybercriminal-gets-2-year-prison-sentence-",
+      "source": "SecurityWeek",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "AI Speeds Attacks, But Identity Remains Cybersecurity’s Weakest Link",
+      "link": "https://www.securityweek.com/ai-speeds-attacks-but-identity-remains-cybersecuritys-weakest-link/",
+      "summary": "PwC finds AI is amplifying speed and scale of attacks, as identity theft evolves into a cybercriminal supply chain.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ai-speeds-attacks-but-identity-remains-cybersecuri",
+      "source": "SecurityWeek",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "iOS, macOS 26.4 Roll Out With Fresh Security Patches",
+      "link": "https://www.securityweek.com/ios-macos-26-4-roll-out-with-fresh-security-updates/",
+      "summary": "Apple released security fixes for older devices as well, in iOS 18.7.7, iPadOS 18.7.7, macOS Sequoia 15.7.5, and macOS Sonoma 14.8.5.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "ios-macos-264-roll-out-with-fresh-security-patches",
+      "source": "SecurityWeek",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "FCC Bans New Routers Made Outside the US Over National Security Risks",
+      "link": "https://www.securityweek.com/fcc-bans-new-foreign-made-consumer-routers-over-national-security-risks/",
+      "summary": "The ban aligns with a White House determination that all routers produced abroad are a threat to national security.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fcc-bans-new-routers-made-outside-the-us-over-nati",
+      "source": "SecurityWeek",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "GitHub adds AI-powered bug detection to expand security coverage",
+      "link": "https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/",
+      "summary": "GitHub is adopting AI-based scanning for its Code Security tool to expand vulnerability detections beyond the CodeQL static analysis and cover more languages and frameworks.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "github-adds-ai-powered-bug-detection-to-expand-sec",
+      "source": "BleepingComputer",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "PolyShell attacks target 56% of all vulnerable Magento stores",
+      "link": "https://www.bleepingcomputer.com/news/security/polyshell-attacks-target-56-percent-of-all-vulnerable-magento-stores/",
+      "summary": "Attacks leveraging the 'PolyShell' vulnerability in version 2 of Magento Open Source and Adobe Commerce installations are underway, targeting more than half of all vulnerable stores.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "polyshell-attacks-target-56-of-all-vulnerable-mage",
+      "source": "BleepingComputer",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Bubble AI app builder abused to steal Microsoft account credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/bubble-ai-app-builder-abused-to-steal-microsoft-account-credentials/",
+      "summary": "Threat actors are evading phishing detection in campaigns targeting Microsoft accounts by abusing the no-code app-building platform Bubble to generate and host malicious web apps.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "bubble-ai-app-builder-abused-to-steal-microsoft-ac",
+      "source": "BleepingComputer",
+      "date": "2026-03-26"
+    }
+  ]
+}

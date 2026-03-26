@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">FCC Bans New Foreign-Made Routers Over Supply Chain and Cyber Risk Concerns</div><div class="ticker-item">TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise</div><div class="ticker-item">Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR</div><div class="ticker-item">5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents</div><div class="ticker-item">Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner</div><div class="ticker-item">The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills</div><div class="ticker-item">US Prisons Russian Access Broker for Aiding Ransomware Attacks</div><div class="ticker-item">HackerOne Employee Data Exposed in Massive Navia Breach</div><div class="ticker-item">DoE Publishes 5-Year Energy Security Plan</div><div class="ticker-item">Why Agentic AI Systems Need Better Governance – Lessons from OpenClaw</div><div class="ticker-item">Poland Faced a Surge in Cyberattacks in 2025, Including a Major Assault on the Energy Sector</div><div class="ticker-item">RSAC 2026 Conference Announcements Summary (Day 1)</div><div class="ticker-item">Manager of botnet used in ransomware attacks gets 2 years in prison</div><div class="ticker-item">PTC warns of imminent threat from critical Windchill, FlexPLM RCE bug</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Popular LiteLLM PyPI package backdoored to steal credentials, auth tokens</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FCC Bans New Foreign-Made Routers Over Supply Chain and Cyber Risk Concerns</h3>
+                <p><strong>Summary:</strong> The U.S. Federal Communications Commission (FCC) said on Monday that it was banning the import of new, foreign-made consumer routers, citing "unacceptable" risks to cyber and national security.  The a...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/fcc-bans-new-foreign-made-routers-over.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/fcc-bans-new-foreign-made-routers-over.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise</h3>
+                <p><strong>Summary:</strong> TeamPCP , the threat actor behind the recent compromises of Trivy and KICS, has now compromised a popular Python package named litellm , pushing two malicious versions containing a credential harveste...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR</h3>
+                <p><strong>Summary:</strong> A large-scale malvertising campaign active since January 2026 has been observed targeting U.S.-based individuals searching for tax-related documents to serve rogue installers for ConnectWise ScreenCon...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents</h3>
+                <p><strong>Summary:</strong> On February 25, 2026, Gartner published its inaugural Market Guide for Guardian Agents, marking an important milestone for this emerging category. For those unfamiliar with the various Gartner report ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner</h3>
+                <p><strong>Summary:</strong> An ongoing phishing campaign is targeting French-speaking corporate environments with fake resumes that lead to the deployment of cryptocurrency miners and information stealers.  "The campaign uses hi...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills</h3>
+                <p><strong>Summary:</strong> Cybersecurity has changed fast. Roles are more specialized, and tooling is more advanced. On paper, this should make organizations more secure. But in practice, many teams struggle with the same basic...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US Prisons Russian Access Broker for Aiding Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> Aleksei Volkov has been sentenced to 81 months in prison for his role in Yanluowang ransomware attacks.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-prisons-russian-access-broker-for-aiding-ransomware-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/us-prisons-russian-access-broker-for-aiding-ransomware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>HackerOne Employee Data Exposed in Massive Navia Breach</h3>
+                <p><strong>Summary:</strong> The cybersecurity firm said the personal information of hundreds of employees was stolen in the hacker attack targeting Navia.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackerone-employee-data-exposed-in-massive-navia-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hackerone-employee-data-exposed-in-massive-navia-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DoE Publishes 5-Year Energy Security Plan</h3>
+                <p><strong>Summary:</strong> CESER’s Project Armor is a five year initiative to harden the US critical energy infrastructure, including strengthening energy systems ‘to prevent and recover from wildfires and other hazards’.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/doe-publishes-5-year-energy-security-plan/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/doe-publishes-5-year-energy-security-plan/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Why Agentic AI Systems Need Better Governance – Lessons from OpenClaw</h3>
+                <p><strong>Summary:</strong> Agentic AI platforms are shifting from passive recommendation tools to autonomous action-takers with real system access,</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/why-agentic-ai-systems-need-better-governance-lessons-from-openclaw/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/why-agentic-ai-systems-need-better-governance-lessons-from-openclaw/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Poland Faced a Surge in Cyberattacks in 2025, Including a Major Assault on the Energy Sector</h3>
+                <p><strong>Summary:</strong> The attacks included a destructive infiltration of Poland’s energy system in December and was suspected of originating in Russia.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/poland-faced-a-surge-in-cyberattacks-in-2025-including-a-major-assault-on-the-energy-sector/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/poland-faced-a-surge-in-cyberattacks-in-2025-including-a-major-assault-on-the-energy-sector/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RSAC 2026 Conference Announcements Summary (Day 1)</h3>
+                <p><strong>Summary:</strong> A summary of the announcements made by vendors on the first day of the RSAC 2026 Conference.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rsac-2026-conference-announcements-summary-day-1/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rsac-2026-conference-announcements-summary-day-1/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Manager of botnet used in ransomware attacks gets 2 years in prison</h3>
+                <p><strong>Summary:</strong> A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>PTC warns of imminent threat from critical Windchill, FlexPLM RCE bug</h3>
+                <p><strong>Summary:</strong> PTC Inc. is warning of a critical vulnerability in Windchill and FlexPLM, widely used product lifecycle management (PLM) solutions, that could allow remote code execution.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Popular LiteLLM PyPI package backdoored to steal credentials, auth tokens</h3>
+                <p><strong>Summary:</strong> The TeamPCP hacking group continues its supply-chain rampage, now compromising the massively popular "LiteLLM" Python package on PyPI and claiming to have stolen data from hundreds of thousands of dev...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
