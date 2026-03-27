@@ -1,0 +1,211 @@
+{
+  "date": "2026-03-27",
+  "items": [
+    {
+      "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
+      "link": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
+      "summary": "Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and conversation history.  Both LangChain and LangGraph are open-source frameworks that are used to build applications powered by Large Language Models (LLMs). LangGraph is built on the foundations of LangChain for more sophisticated and non-linear agentic workflows. According to statistics on the Python Package Index (PyPI), LangChain, LangChain-Core, and LangGraph have been downloaded more than 52 million , 23 million , and 9 million times  last week alone.  \"Each vulnerability exposes a different class of enterprise data: filesystem files, environment secrets, and conversation history,\" Cyera security researcher Vladimir Tokarev said  in a report published Thursday.   The issues, in a nutshell, offer three independent paths that an attacker can leverage to drain sensitive data from any...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "langchain-langgraph-flaws-expose-files-secrets-dat",
+      "source": "The Hacker News",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks",
+      "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
+      "summary": "A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks.  The strategic positioning activity, which involves implanting and maintaining stealthy access mechanisms within critical environments, has been attributed to Red Menshen , a threat cluster that's also tracked as Earth Bluecrow, DecisiveArchitect, and Red Dev 18. The group has a track record of striking telecom providers across the Middle East and Asia since at least 2021.  Rapid7 described the covert access mechanisms as \"some of the stealthiest digital sleeper cells\" ever encountered in telecommunications networks.  The campaign is characterized by the use of kernel-level implants, passive backdoors, credential-harvesting utilities, and cross-platform command frameworks, giving the threat actor the ability to persistently inhabit networks of interest. One of the most recognized tools in its malware arsenal i...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "china-linked-red-menshen-uses-stealthy-bpfdoor-imp",
+      "source": "The Hacker News",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks",
+      "link": "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
+      "summary": "Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control.  But one question usually stays unanswered: Would your defenses actually stop a real attack?  That’s where things get shaky. A control exists, so it’s assumed to work. A detection rule is active, so it’s expected to catch something. But very few teams are consistently testing how all of this holds up when someone is actively trying to break through, step by step.  This is exactly the gap this webinar focuses on.  Exposure-Driven Resilience: Automate Testing to Validate & Improve Your Security Posture  is a practical session built around one idea: stop guessing, start proving. Instead of relying on occasional testing or assumptions, it shows how to validate your security posture continuously using real attacker behavior.     The session walks through how to pressure-test both your controls and your processes, how to use threa...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-stop-guessing-learn-to-validate-your-defen",
+      "source": "The Hacker News",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website",
+      "link": "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
+      "summary": "Cybersecurity researchers have disclosed a vulnerability in Anthropic's Claude Google Chrome Extension that could have been exploited to trigger malicious prompts simply by visiting a web page.  The flaw \"allowed any website to silently inject prompts into that assistant as if the user wrote them,\" Koi Security researcher Oren Yomtov said  in a report shared with The Hacker News. \"No clicks, no permission prompts. Just visit a page, and an attacker completely controls your browser.\"  The issue, codenamed ShadowPrompt , chains two underlying flaws:   An overly permissive origin allowlist in the extension that allowed any subdomain matching the pattern (*.claude.ai) to send a prompt to Claude for execution.  A document object model ( DOM )-based cross-site scripting ( XSS ) vulnerability in an Arkose Labs CAPTCHA component hosted on \"a-cdn.claude[.]ai.\"    Specifically, the XSS vulnerability enables the execution of arbitrary JavaScript code in the cont...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "claude-extension-flaw-enabled-zero-click-xss-promp",
+      "source": "The Hacker News",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception",
+      "link": "https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html",
+      "summary": "Unmasking impostors is something the art world has faced for decades, and there are valuable lessons from the works of Elmyr de Hory that can apply to the world of defensive cybersecurity. During the 1960s, de Hory gained infamy as a premier forger, passing off counterfeit masterworks of Picasso, Matisse, and Renoir to unsuspecting collectors and renowned museums. Over the next several decades, more than a thousand of his works slipped past experts who relied on trusted signatures, familiar patterns, and reputable provenance.  It’s not unlike the challenges SOCs are facing now. We’re firmly in the Age of Imitation. Cyberattackers, equipped with AI, are mastering the art of imitating the familiar, posing as trusted users and masking their activity within legitimate processes and ordinary network traffic. As history shows, it’s often easier to identify impostors when you know what to look for.  Key takeaways for defenders:   Mimicry is the new normal: 81% of attacks are malware-free  Ag...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "masters-of-imitation-how-hackers-and-art-forgers-p",
+      "source": "The Hacker News",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits & 20 More Stories",
+      "link": "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
+      "summary": "Some weeks in security feel loud. This one feels sneaky. Less big dramatic fireworks, more of that slow creeping sense that too many people are getting way too comfortable abusing things they probably shouldn’t even be touching.  There’s a little bit of everything in this one, too. Weird delivery tricks, old problems coming back in slightly worse forms, shady infrastructure doing shady infrastructure things, and the usual reminder that if criminals find a workflow annoying, they’ll just make a new one by Friday. Efficient little parasites. You almost have to respect the commitment.  A few of these updates have that nasty “yeah, that tracks” energy. Stuff that sounds niche right up until you picture it landing in a real environment with real users clicking real nonsense because they’re busy and tired and just trying to get through the day. Then it stops being abstract pretty fast.  So yeah, this week’s ThreatsDay Bulletin is a solid scroll-befor...",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "threatsday-bulletin-pqc-push-ai-vuln-hunting-pirat",
+      "source": "The Hacker News",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "CISA Flags Critical PTC Vulnerability That Had German Police Mobilized",
+      "link": "https://www.securityweek.com/cisa-flags-critical-ptc-vulnerability-that-had-german-police-mobilized/",
+      "summary": "Police in Germany physically warned organizations about the critical PTC Windchill vulnerability tracked as CVE-2026-4681.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-flags-critical-ptc-vulnerability-that-had-ger",
+      "source": "SecurityWeek",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Hightower Holding Data Breach Impacts 130,000",
+      "link": "https://www.securityweek.com/hightower-holding-data-breach-impacts-130000/",
+      "summary": "The holdings company says hackers stole names, Social Security numbers, and driver’s license numbers from its environment.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "hightower-holding-data-breach-impacts-130000",
+      "source": "SecurityWeek",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "BIND Updates Patch High-Severity Vulnerabilities",
+      "link": "https://www.securityweek.com/bind-updates-patch-high-severity-vulnerabilities-2/",
+      "summary": "Specially crafted domains could be used to cause out-of-memory conditions, leading to memory leaks in the BIND resolvers.",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "bind-updates-patch-high-severity-vulnerabilities",
+      "source": "SecurityWeek",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Chinese Hackers Caught Deep Within Telecom Backbone Infrastructure",
+      "link": "https://www.securityweek.com/chinese-hackers-caught-deep-within-telecom-backbone-infrastructure/",
+      "summary": "The state-sponsored threat actor deployed kernel implants and passive backdoors enabling long-term, high-level espionage.",
+      "tags": [
+        "malware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-hackers-caught-deep-within-telecom-backbon",
+      "source": "SecurityWeek",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Cisco Patches Multiple Vulnerabilities in IOS Software",
+      "link": "https://www.securityweek.com/cisco-patches-multiple-vulnerabilities-in-ios-software/",
+      "summary": "The high- and medium-severity flaws could lead to denial-of-service, secure boot bypass, information disclosure, and privilege escalation.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "cisco-patches-multiple-vulnerabilities-in-ios-soft",
+      "source": "SecurityWeek",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Alleged RedLine Malware Administrator Extradited to US",
+      "link": "https://www.securityweek.com/alleged-redline-malware-administrator-extradited-to-us/",
+      "summary": "Hambardzum Minasyan of Armenia has been accused of being involved in the development and administration of the infostealer malware.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "alleged-redline-malware-administrator-extradited-t",
+      "source": "SecurityWeek",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Windows 11 KB5079391 update rolls out Smart App Control improvements",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079391-update-rolls-out-smart-app-control-improvements/",
+      "summary": "​Microsoft has released the KB5079391 preview cumulative update for Windows 11 24H2 and 25H2, which includes 29 changes, such as Smart App Control and Display improvements.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "windows-11-kb5079391-update-rolls-out-smart-app-co",
+      "source": "BleepingComputer",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Dutch Police discloses security breach after phishing attack",
+      "link": "https://www.bleepingcomputer.com/news/security/dutch-police-discloses-security-breach-after-phishing-attack/",
+      "summary": "The Dutch National Police (Politie) says a security breach resulting from a successful phishing attack has had a limited impact and hasn't affected citizens' data.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "dutch-police-discloses-security-breach-after-phish",
+      "source": "BleepingComputer",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Ajax football club hack exposed fan data, enabled ticket hijack",
+      "link": "https://www.bleepingcomputer.com/news/security/ajax-football-club-hack-exposed-fan-data-enabled-ticket-hijack/",
+      "summary": "Dutch professional football club Ajax Amsterdam (AFC Ajax) disclosed that a hacker exploited vulnerabilities in its IT systems and accessed data belonging to a few hundred people.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "ajax-football-club-hack-exposed-fan-data-enabled-t",
+      "source": "BleepingComputer",
+      "date": "2026-03-27"
+    }
+  ]
+}

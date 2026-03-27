@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">WebRTC Skimmer Bypasses CSP to Steal Payment Data from E-Commerce Sites</div><div class="ticker-item">LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace</div><div class="ticker-item">GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser, Crypto Data</div><div class="ticker-item">The Kill Chain Is Obsolete When Your AI Agent Is the Threat</div><div class="ticker-item">Russian Hacker Sentenced to 2 Years for TA551 Botnet-Driven Ransomware Attacks</div><div class="ticker-item">Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse</div><div class="ticker-item">Dell and HP Roll Out Quantum-Resistant Device Security and AI-Era Cyber Resilience</div><div class="ticker-item">Onit Security Raises $11 Million for Exposure Management Platform</div><div class="ticker-item">Russian Cybercriminal Gets 2-Year Prison Sentence in US</div><div class="ticker-item">AI Speeds Attacks, But Identity Remains Cybersecurity’s Weakest Link</div><div class="ticker-item">iOS, macOS 26.4 Roll Out With Fresh Security Patches</div><div class="ticker-item">FCC Bans New Routers Made Outside the US Over National Security Risks</div><div class="ticker-item">GitHub adds AI-powered bug detection to expand security coverage</div><div class="ticker-item">PolyShell attacks target 56% of all vulnerable Magento stores</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Bubble AI app builder abused to steal Microsoft account credentials</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WebRTC Skimmer Bypasses CSP to Steal Payment Data from E-Commerce Sites</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a new payment skimmer  that uses WebRTC data channels  as a means to receive payloads and exfiltrate data, effectively bypassing security controls.  "Instead ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace</h3>
+                <p><strong>Summary:</strong> The alleged administrator of the LeakBase  cybercrime forum has been arrested by Russian law enforcement authorities, state media reported Thursday.  According to TASS  and MVD Media , a news website ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser, Crypto Data</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a new evolution of the GlassWorm campaign that delivers a multi-stage framework capable of comprehensive data theft and installing a remote access trojan (RAT), ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Kill Chain Is Obsolete When Your AI Agent Is the Threat</h3>
+                <p><strong>Summary:</strong> In September 2025, Anthropic disclosed  that a state-sponsored threat actor used an AI coding agent to execute an autonomous cyber espionage campaign against 30 global targets. The AI handled 80-90% o...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian Hacker Sentenced to 2 Years for TA551 Botnet-Driven Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> The U.S. Department of Justice (DoJ) said  a Russian national has been sentenced to two years in prison for managing a botnet that was used to launch ransomware attacks against U.S. companies.  Ilya A...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are calling attention to an active device code phishing campaign that's targeting Microsoft 365 identities across more than 340 organizations in the U.S., Canada, Australia, ...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dell and HP Roll Out Quantum-Resistant Device Security and AI-Era Cyber Resilience</h3>
+                <p><strong>Summary:</strong> The computer giants have announced new security capabilities for PCs and printers.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hp-and-dell-roll-out-quantum-resistant-device-security-and-ai-era-cyber-resilience/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hp-and-dell-roll-out-quantum-resistant-device-security-and-ai-era-cyber-resilience/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Onit Security Raises $11 Million for Exposure Management Platform</h3>
+                <p><strong>Summary:</strong> The startup will invest in product development and go-to-market efforts as it expands into new sectors.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/onit-security-raises-11-million-for-exposure-management-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/onit-security-raises-11-million-for-exposure-management-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian Cybercriminal Gets 2-Year Prison Sentence in US</h3>
+                <p><strong>Summary:</strong> Ilya Angelov was a member of the cybercrime group tracked as TA-551, Shathak, Gold Cabin, Monster Libra, and ATK236.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/russian-cybercriminal-gets-2-year-prison-sentence-in-us/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/russian-cybercriminal-gets-2-year-prison-sentence-in-us/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Speeds Attacks, But Identity Remains Cybersecurity’s Weakest Link</h3>
+                <p><strong>Summary:</strong> PwC finds AI is amplifying speed and scale of attacks, as identity theft evolves into a cybercriminal supply chain.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ai-speeds-attacks-but-identity-remains-cybersecuritys-weakest-link/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ai-speeds-attacks-but-identity-remains-cybersecuritys-weakest-link/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>iOS, macOS 26.4 Roll Out With Fresh Security Patches</h3>
+                <p><strong>Summary:</strong> Apple released security fixes for older devices as well, in iOS 18.7.7, iPadOS 18.7.7, macOS Sequoia 15.7.5, and macOS Sonoma 14.8.5.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ios-macos-26-4-roll-out-with-fresh-security-updates/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ios-macos-26-4-roll-out-with-fresh-security-updates/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FCC Bans New Routers Made Outside the US Over National Security Risks</h3>
+                <p><strong>Summary:</strong> The ban aligns with a White House determination that all routers produced abroad are a threat to national security.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fcc-bans-new-foreign-made-consumer-routers-over-national-security-risks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fcc-bans-new-foreign-made-consumer-routers-over-national-security-risks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GitHub adds AI-powered bug detection to expand security coverage</h3>
+                <p><strong>Summary:</strong> GitHub is adopting AI-based scanning for its Code Security tool to expand vulnerability detections beyond the CodeQL static analysis and cover more languages and frameworks.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>PolyShell attacks target 56% of all vulnerable Magento stores</h3>
+                <p><strong>Summary:</strong> Attacks leveraging the 'PolyShell' vulnerability in version 2 of Magento Open Source and Adobe Commerce installations are underway, targeting more than half of all vulnerable stores.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/polyshell-attacks-target-56-percent-of-all-vulnerable-magento-stores/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/polyshell-attacks-target-56-percent-of-all-vulnerable-magento-stores/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Bubble AI app builder abused to steal Microsoft account credentials</h3>
+                <p><strong>Summary:</strong> Threat actors are evading phishing detection in campaigns targeting Microsoft accounts by abusing the no-code app-building platform Bubble to generate and host malicious web apps.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/bubble-ai-app-builder-abused-to-steal-microsoft-account-credentials/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/bubble-ai-app-builder-abused-to-steal-microsoft-account-credentials/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
