@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks</div><div class="ticker-item">China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks</div><div class="ticker-item">[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks</div><div class="ticker-item">Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website</div><div class="ticker-item">Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception</div><div class="ticker-item">ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits & 20 More Stories</div><div class="ticker-item">CISA Flags Critical PTC Vulnerability That Had German Police Mobilized</div><div class="ticker-item">Hightower Holding Data Breach Impacts 130,000</div><div class="ticker-item">BIND Updates Patch High-Severity Vulnerabilities</div><div class="ticker-item">Chinese Hackers Caught Deep Within Telecom Backbone Infrastructure</div><div class="ticker-item">Cisco Patches Multiple Vulnerabilities in IOS Software</div><div class="ticker-item">Alleged RedLine Malware Administrator Extradited to US</div><div class="ticker-item">Windows 11 KB5079391 update rolls out Smart App Control improvements</div><div class="ticker-item">Dutch Police discloses security breach after phishing attack</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Ajax football club hack exposed fan data, enabled ticket hijack</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and conver...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks</h3>
+                <p><strong>Summary:</strong> A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks.  The strategic positioning activity,...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks</h3>
+                <p><strong>Summary:</strong> Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control.  But one question usually stays unanswere...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed a vulnerability in Anthropic's Claude Google Chrome Extension that could have been exploited to trigger malicious prompts simply by visiting a web page.  The f...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception</h3>
+                <p><strong>Summary:</strong> Unmasking impostors is something the art world has faced for decades, and there are valuable lessons from the works of Elmyr de Hory that can apply to the world of defensive cybersecurity. During the ...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits & 20 More Stories</h3>
+                <p><strong>Summary:</strong> Some weeks in security feel loud. This one feels sneaky. Less big dramatic fireworks, more of that slow creeping sense that too many people are getting way too comfortable abusing things they probably...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Flags Critical PTC Vulnerability That Had German Police Mobilized</h3>
+                <p><strong>Summary:</strong> Police in Germany physically warned organizations about the critical PTC Windchill vulnerability tracked as CVE-2026-4681.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-flags-critical-ptc-vulnerability-that-had-german-police-mobilized/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-flags-critical-ptc-vulnerability-that-had-german-police-mobilized/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hightower Holding Data Breach Impacts 130,000</h3>
+                <p><strong>Summary:</strong> The holdings company says hackers stole names, Social Security numbers, and driver’s license numbers from its environment.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hightower-holding-data-breach-impacts-130000/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hightower-holding-data-breach-impacts-130000/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BIND Updates Patch High-Severity Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Specially crafted domains could be used to cause out-of-memory conditions, leading to memory leaks in the BIND resolvers.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/bind-updates-patch-high-severity-vulnerabilities-2/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/bind-updates-patch-high-severity-vulnerabilities-2/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese Hackers Caught Deep Within Telecom Backbone Infrastructure</h3>
+                <p><strong>Summary:</strong> The state-sponsored threat actor deployed kernel implants and passive backdoors enabling long-term, high-level espionage.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chinese-hackers-caught-deep-within-telecom-backbone-infrastructure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chinese-hackers-caught-deep-within-telecom-backbone-infrastructure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cisco Patches Multiple Vulnerabilities in IOS Software</h3>
+                <p><strong>Summary:</strong> The high- and medium-severity flaws could lead to denial-of-service, secure boot bypass, information disclosure, and privilege escalation.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisco-patches-multiple-vulnerabilities-in-ios-software/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisco-patches-multiple-vulnerabilities-in-ios-software/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Alleged RedLine Malware Administrator Extradited to US</h3>
+                <p><strong>Summary:</strong> Hambardzum Minasyan of Armenia has been accused of being involved in the development and administration of the infostealer malware.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/alleged-redline-malware-administrator-extradited-to-us/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/alleged-redline-malware-administrator-extradited-to-us/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Windows 11 KB5079391 update rolls out Smart App Control improvements</h3>
+                <p><strong>Summary:</strong> ​Microsoft has released the KB5079391 preview cumulative update for Windows 11 24H2 and 25H2, which includes 29 changes, such as Smart App Control and Display improvements.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079391-update-rolls-out-smart-app-control-improvements/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079391-update-rolls-out-smart-app-control-improvements/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dutch Police discloses security breach after phishing attack</h3>
+                <p><strong>Summary:</strong> The Dutch National Police (Politie) says a security breach resulting from a successful phishing attack has had a limited impact and hasn't affected citizens' data.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/dutch-police-discloses-security-breach-after-phishing-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/dutch-police-discloses-security-breach-after-phishing-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ajax football club hack exposed fan data, enabled ticket hijack</h3>
+                <p><strong>Summary:</strong> Dutch professional football club Ajax Amsterdam (AFC Ajax) disclosed that a hacker exploited vulnerabilities in its IT systems and accessed data belonging to a few hundred people.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ajax-football-club-hack-exposed-fan-data-enabled-ticket-hijack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ajax-football-club-hack-exposed-fan-data-enabled-ticket-hijack/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
