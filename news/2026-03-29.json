@@ -1,0 +1,217 @@
+{
+  "date": "2026-03-29",
+  "items": [
+    {
+      "title": "Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack",
+      "link": "https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html",
+      "summary": "Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and other documents to the internet.  Handala Hack Team , which carried out the breach, said on its website that Patel \"will now find his name among the list of successfully hacked victims.\" In a statement shared with Reuters, the FBI confirmed  Patel's emails had been targeted, and noted necessary steps have been taken to \"mitigate ​potential risks associated with this activity.\"  The agency also said the published data was \"historical in nature and involves no government information.\" The leak includes emails from ​2010 and 2019 allegedly sent by Patel.  Handala Hack  is assessed to be a pro-Iranian, pro-Palestinian hacktivist persona adopted by Iran's Ministry of Intelligence and Security ( MOIS ). It's tracked by the cybersecurity community under the m...",
+      "tags": [
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "iran-linked-hackers-breach-fbi-directors-personal-",
+      "source": "The Hacker News",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+      "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
+      "summary": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber  and watchTowr .  The vulnerability, CVE-2026-3055  (CVSS score: 9.3), refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information.  Per Citrix, successful exploitation of the flaw hinges on the appliance being configured as a SAML Identity Provider (SAML IDP).  \"We are now observing auth method fingerprinting activity against NetScaler ADC/Gateway in the wild,\" Defused Cyber said in a post on X. \"Attackers are probing /cgi/GetAuthMethods to enumerate enabled authentication flows in our Citrix honeypots.\"   This is likely an attempt on the part of threat actors to determine if NetScaler ADC and NetScaler Gateway are indeed configured as a SAML IDP.  In a similar warning, watchTowr said it has detected active...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "citrix-netscaler-under-active-recon-for-cve-2026-3",
+      "source": "The Hacker News",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+      "link": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+      "summary": "Proofpoint has disclosed  details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword  exploit kit to target iOS devices.  The activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446 , which is also tracked by the broader cybersecurity community under the monikers Callisto, COLDRIVER, and Star Blizzard (formerly SEABORGIUM). It's assessed to be affiliated with Russia's Federal Security Service (FSB).  The hacking group is known  for spear-phishing campaigns aimed at harvesting credentials from targets of interest. However, attacks mounted by the threat actor over the past year have targeted victims' WhatsApp accounts, as well as leveraged various custom malware families to steal sensitive data.   The latest activity, highlighted by Proofpoint  and Malfors , involves using fake \"discussion invitation\" emails spoofing the Atlantic Council to faci...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ta446-deploys-darksword-ios-exploit-kit-in-targete",
+      "source": "The Hacker News",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
+      "link": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability in question is CVE-2025-53521  (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution.  \"When a BIG-IP APM access policy is configured on a virtual server, specific malicious traffic can lead to Remote Code Execution (RCE),\" according to a description of the flaw in CVE.org.  While the shortcoming was initially categorized and remediated as a denial-of-service (DoS) vulnerability with a CVSS v4 score of 8.7, F5 said it has been reclassified as a case of RCE in light of \"new information obtained in March 2026.\"  The company has since updated  its advisory to confirm that the vulnerability \"has been exploited in the vulnerable BIG-IP versions.\" It did not shar...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-cve-2025-53521-to-kev-after-active-f5-bi",
+      "source": "The Hacker News",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits",
+      "link": "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
+      "summary": "Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update.  The development was first reported  by MacRumors.  \"Apple is aware of attacks targeting out-of-date iOS software, including the version on your iPhone. Install this critical update to protect your iPhone,\" the notification issued by Apple reads.  The development comes a week after Apple released  a support document, asking users running older versions of iOS and iPadOS to update their devices following the discovery of new iOS exploit kits like Coruna  and DarkSword .   Multiple threat actors of varied motivations have been found to leverage these kits over the past year to deliver malicious payloads when unsuspecting users visit a compromised website. While Coruna targets iOS versions between 13.0 and 17.2.1, DarkSword is designed to target iPhones running iOS versions between 18.4 and 18.7.  A...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "apple-sends-lock-screen-alerts-to-outdated-iphones",
+      "source": "The Hacker News",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files",
+      "link": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
+      "summary": "TeamPCP, the threat actor behind the supply chain attack targeting Trivy , KICS , and litellm , has now compromised the telnyx  Python package by pushing two malicious versions to steal sensitive data.  The two versions, 4.87.1 and 4.87.2, published to the Python Package Index (PyPI) repository on March 27, 2026, concealed their credential harvesting capabilities within a .WAV file. Users are recommended to downgrade to version 4.87.0 immediately. The PyPI project is currently quarantined.  Various reports from Aikido , Endor Labs , JFrog ,  Ossprey Security , SafeDep , Socket , and StepSecurity  indicate the malicious code is injected  into \"telnyx/_client.py,\" causing it to be invoked when the package is imported into a Python application. The malware is designed to target Windows, Linux, and macOS systems.   \"Our analysis reveals a three-stage runtime attack chain on Linux/macOS consisting of delivery via audio steganography, in-memory execution of a data harvester, ...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "teampcp-pushes-malicious-telnyx-versions-to-pypi-h",
+      "source": "The Hacker News",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs",
+      "link": "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
+      "summary": "The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cloudflare-themed-clickfix-attack-drops-infiniti-s",
+      "source": "SecurityWeek",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account",
+      "link": "https://www.securityweek.com/pro-iranian-hacking-group-claims-credit-for-hack-of-fbi-director-kash-patels-personal-account/",
+      "summary": "The group that it was making available for download emails and other documents from Patel’s account.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "pro-iranian-hacking-group-claims-credit-for-hack-o",
+      "source": "SecurityWeek",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline",
+      "link": "https://www.securityweek.com/in-other-news-palo-alto-recruiter-scam-anti-deepfake-chip-google-sets-2029-quantum-deadline/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Heritage Bank data breach, new State Department unit tackles cyber threats, LA Metro disruptions.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-palo-alto-recruiter-scam-anti-deepfa",
+      "source": "SecurityWeek",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "OpenAI Launches Bug Bounty Program for Abuse and Safety Risks",
+      "link": "https://www.securityweek.com/openai-launches-bug-bounty-program-for-abuse-and-safety-risks/",
+      "summary": "Through the new program, OpenAI will reward reports covering design or implementation issues leading to material harm.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openai-launches-bug-bounty-program-for-abuse-and-s",
+      "source": "SecurityWeek",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "TP-Link Patches High-Severity Router Vulnerabilities",
+      "link": "https://www.securityweek.com/tp-link-patches-high-severity-router-vulnerabilities/",
+      "summary": "The security defects could be used to bypass authentication, execute arbitrary commands, and decrypt configuration files.",
+      "tags": [
+        "vulnerability",
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "tp-link-patches-high-severity-router-vulnerabiliti",
+      "source": "SecurityWeek",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "RSAC 2026 Conference Announcements Summary (Days 3-4)",
+      "link": "https://www.securityweek.com/rsac-2026-conference-announcements-summary-days-3-4/",
+      "summary": "A summary of the announcements made by vendors on the third and fourth days of the RSAC 2026 Conference.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "rsac-2026-conference-announcements-summary-days-3-",
+      "source": "SecurityWeek",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "New Infinity Stealer malware grabs macOS data via ClickFix lures",
+      "link": "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
+      "summary": "A new info-stealing malware named Infinity Stealer is targeting macOS systems with a Python payload packaged as an executable using the open-source Nuitka compiler.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "new-infinity-stealer-malware-grabs-macos-data-via-",
+      "source": "BleepingComputer",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "Learn 71 languages in one science-backed app while it’s on sale",
+      "link": "https://www.bleepingcomputer.com/offer/deals/learn-71-languages-in-one-science-backed-app-while-its-on-sale/",
+      "summary": "With lifetime access to 71 languages for a one-time $59 (MSRP $239), the Qlango platform positions itself as a flexible, long-term learning tool rather than something you'll outgrow after a few weeks.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "learn-71-languages-in-one-science-backed-app-while",
+      "source": "BleepingComputer",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "Backdoored Telnyx PyPI package pushes malware hidden in WAV audio",
+      "link": "https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/",
+      "summary": "TeamPCP hackers compromised the Telnyx package on the Python Package Index today, uploading malicious versions that deliver credential-stealing malware hidden inside a WAV file.",
+      "tags": [
+        "malware",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "backdoored-telnyx-pypi-package-pushes-malware-hidd",
+      "source": "BleepingComputer",
+      "date": "2026-03-29"
+    }
+  ]
+}
