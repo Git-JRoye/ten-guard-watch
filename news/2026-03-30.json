@@ -1,0 +1,218 @@
+{
+  "date": "2026-03-30",
+  "items": [
+    {
+      "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
+      "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
+      "summary": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders.  The CTRL  toolkit, according to Censys, is custom-built using .NET and includes various executables\" to facilitate credential phishing, keylogging, Remote Desktop Protocol (RDP) hijacking, and reverse tunneling via Fast Reverse Proxy (FRP).  \"The executables provide encrypted payload loading, credential harvesting via a polished Windows Hello phishing UI, keylogging, RDP session hijacking, and reverse proxy tunneling through FRP,\" Censys security researcher Andrew Northern said .  The attack surface management platform said it recovered CTRL from an open directory at 146.19.213[.]155 in February 2026. Attack chains distributing the toolkit rely on a weaponized LNK file (\"Private Key #kfxm7p9q_yek.lnk\") with a folder icon to trick users into double-clicking it.  This tri...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russian-ctrl-toolkit-delivered-via-malicious-lnk-f",
+      "source": "The Hacker News",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign",
+      "link": "https://thehackernews.com/2026/03/three-china-linked-clusters-target.html",
+      "summary": "Three threat activity clusters aligned with China have targeted a government organization in Southeast Asia as part of what has been described as a \"complex and well-resourced operation.\"  The campaigns have led to the deployment of various malware families, including HIUPAN  (aka USBFect, MISTCLOAK, or U2DiskWatch), PUBLOAD , EggStremeFuel  (aka RawCookie), EggStremeLoader  (aka Gorem RAT), MASOL RAT , PoshRAT , TrackBak Stealer, RawCookie, Hypnosis Loader, and FluffyGh0st .   The activity  has been attributed to the following clusters -   June - August 2025: Mustang Panda  (aka Stately Taurus).   March - September 2025: CL-STA-1048, which overlaps with clusters publicly documented under the monikers Earth Estries  and Crimson Palace .  April and August 2025 - CL-STA-1049, which overlaps with a publicly documented cluster known as Unfading Sea Haze .   Activity timeline  \"These activity clusters overlap with publicly reported campaigns aimed at establishing persistent ...",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "three-china-linked-clusters-target-southeast-asian",
+      "source": "The Hacker News",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack",
+      "link": "https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html",
+      "summary": "Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and other documents to the internet.  Handala Hack Team , which carried out the breach, said on its website that Patel \"will now find his name among the list of successfully hacked victims.\" In a statement shared with Reuters, the FBI confirmed  Patel's emails had been targeted, and noted necessary steps have been taken to \"mitigate ​potential risks associated with this activity.\"  The agency also said the published data was \"historical in nature and involves no government information.\" The leak includes emails from ​2010 and 2019 allegedly sent by Patel.  Handala Hack  is assessed to be a pro-Iranian, pro-Palestinian hacktivist persona adopted by Iran's Ministry of Intelligence and Security ( MOIS ). It's tracked by the cybersecurity community under the m...",
+      "tags": [
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "iran-linked-hackers-breach-fbi-directors-personal-",
+      "source": "The Hacker News",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+      "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
+      "summary": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber  and watchTowr .  The vulnerability, CVE-2026-3055  (CVSS score: 9.3), refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information.  Per Citrix, successful exploitation of the flaw hinges on the appliance being configured as a SAML Identity Provider (SAML IDP).  \"We are now observing auth method fingerprinting activity against NetScaler ADC/Gateway in the wild,\" Defused Cyber said in a post on X. \"Attackers are probing /cgi/GetAuthMethods to enumerate enabled authentication flows in our Citrix honeypots.\"   This is likely an attempt on the part of threat actors to determine if NetScaler ADC and NetScaler Gateway are indeed configured as a SAML IDP.  In a similar warning, watchTowr said it has detected active...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "citrix-netscaler-under-active-recon-for-cve-2026-3",
+      "source": "The Hacker News",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+      "link": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+      "summary": "Proofpoint has disclosed  details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword  exploit kit to target iOS devices.  The activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446 , which is also tracked by the broader cybersecurity community under the monikers Callisto, COLDRIVER, and Star Blizzard (formerly SEABORGIUM). It's assessed to be affiliated with Russia's Federal Security Service (FSB).  The hacking group is known  for spear-phishing campaigns aimed at harvesting credentials from targets of interest. However, attacks mounted by the threat actor over the past year have targeted victims' WhatsApp accounts, as well as leveraged various custom malware families to steal sensitive data.   The latest activity, highlighted by Proofpoint  and Malfors , involves using fake \"discussion invitation\" emails spoofing the Atlantic Council to faci...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ta446-deploys-darksword-ios-exploit-kit-in-targete",
+      "source": "The Hacker News",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
+      "link": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability in question is CVE-2025-53521  (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution.  \"When a BIG-IP APM access policy is configured on a virtual server, specific malicious traffic can lead to Remote Code Execution (RCE),\" according to a description of the flaw in CVE.org.  While the shortcoming was initially categorized and remediated as a denial-of-service (DoS) vulnerability with a CVSS v4 score of 8.7, F5 said it has been reclassified as a case of RCE in light of \"new information obtained in March 2026.\"  The company has since updated  its advisory to confirm that the vulnerability \"has been exploited in the vulnerable BIG-IP versions.\" It did not shar...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-cve-2025-53521-to-kev-after-active-f5-bi",
+      "source": "The Hacker News",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Exploitation of Fresh Citrix NetScaler Vulnerability Begins",
+      "link": "https://www.securityweek.com/exploitation-of-fresh-citrix-netscaler-vulnerability-begins/",
+      "summary": "The critical-severity flaw leaks application memory and can be exploited to obtain authenticated administrative session IDs.",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "exploitation-of-fresh-citrix-netscaler-vulnerabili",
+      "source": "SecurityWeek",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers",
+      "link": "https://www.securityweek.com/fbi-confirms-kash-patel-email-hack-as-us-offers-10m-reward-for-hackers/",
+      "summary": "The agency said Iranian hackers targeted the director’s personal email account and noted that the compromised information is old.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "fbi-confirms-kash-patel-email-hack-as-us-offers-10",
+      "source": "SecurityWeek",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "F5 BIG-IP DoS Flaw Upgraded to Critical RCE, Now Exploited in the Wild",
+      "link": "https://www.securityweek.com/f5-big-ip-dos-flaw-upgraded-to-critical-rce-now-exploited-in-the-wild/",
+      "summary": "Initially disclosed as a high-severity denial-of-service (DoS), the bug was reclassified as a critical RCE issue.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "f5-big-ip-dos-flaw-upgraded-to-critical-rce-now-ex",
+      "source": "SecurityWeek",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs",
+      "link": "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
+      "summary": "The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cloudflare-themed-clickfix-attack-drops-infiniti-s",
+      "source": "SecurityWeek",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account",
+      "link": "https://www.securityweek.com/pro-iranian-hacking-group-claims-credit-for-hack-of-fbi-director-kash-patels-personal-account/",
+      "summary": "The group that it was making available for download emails and other documents from Patel’s account.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "pro-iranian-hacking-group-claims-credit-for-hack-o",
+      "source": "SecurityWeek",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline",
+      "link": "https://www.securityweek.com/in-other-news-palo-alto-recruiter-scam-anti-deepfake-chip-google-sets-2029-quantum-deadline/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Heritage Bank data breach, new State Department unit tackles cyber threats, LA Metro disruptions.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-palo-alto-recruiter-scam-anti-deepfa",
+      "source": "SecurityWeek",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Microsoft pulls KB5079391 Windows update over install issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/",
+      "summary": "Microsoft has pulled a buggy Windows 11 non-security preview update to investigate a known issue that triggers 0x80073712 errors during installation.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-pulls-kb5079391-windows-update-over-inst",
+      "source": "BleepingComputer",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Critical Fortinet Forticlient EMS flaw now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/",
+      "summary": "Attackers are now actively exploiting a critical vulnerability in Fortinet's FortiClient EMS platform, according to threat intelligence company Defused.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-fortinet-forticlient-ems-flaw-now-exploit",
+      "source": "BleepingComputer",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "European Commission confirms data breach after Europa.eu hack",
+      "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/",
+      "summary": "The European Commission has confirmed a data breach after its Europa.eu web platform was hacked in a cyberattack claimed by the ShinyHunters extortion gang.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "european-commission-confirms-data-breach-after-eur",
+      "source": "BleepingComputer",
+      "date": "2026-03-30"
+    }
+  ]
+}

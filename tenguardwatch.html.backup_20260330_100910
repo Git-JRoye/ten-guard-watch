@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels</div><div class="ticker-item">Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign</div><div class="ticker-item">Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack</div><div class="ticker-item">Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug</div><div class="ticker-item">TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign</div><div class="ticker-item">CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation</div><div class="ticker-item">Exploitation of Fresh Citrix NetScaler Vulnerability Begins</div><div class="ticker-item">FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers</div><div class="ticker-item">F5 BIG-IP DoS Flaw Upgraded to Critical RCE, Now Exploited in the Wild</div><div class="ticker-item">Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs</div><div class="ticker-item">Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account</div><div class="ticker-item">In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline</div><div class="ticker-item">Microsoft pulls KB5079391 Windows update over install issues</div><div class="ticker-item">Critical Fortinet Forticlient EMS flaw now exploited in attacks</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">European Commission confirms data breach after Europa.eu hack</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack</div><div class="ticker-item">Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug</div><div class="ticker-item">TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign</div><div class="ticker-item">CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation</div><div class="ticker-item">Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits</div><div class="ticker-item">TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files</div><div class="ticker-item">Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs</div><div class="ticker-item">Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account</div><div class="ticker-item">In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline</div><div class="ticker-item">OpenAI Launches Bug Bounty Program for Abuse and Safety Risks</div><div class="ticker-item">TP-Link Patches High-Severity Router Vulnerabilities</div><div class="ticker-item">RSAC 2026 Conference Announcements Summary (Days 3-4)</div><div class="ticker-item">New Infinity Stealer malware grabs macOS data via ClickFix lures</div><div class="ticker-item">Learn 71 languages in one science-backed app while it’s on sale</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Backdoored Telnyx PyPI package pushes malware hidden in WAV audio</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders.  The CTRL  ...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign</h3>
-                <p><strong>Summary:</strong> Three threat activity clusters aligned with China have targeted a government organization in Southeast Asia as part of what has been described as a "complex and well-resourced operation."  The campaig...</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/three-china-linked-clusters-target.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/03/three-china-linked-clusters-target.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack</h3>
                 <p><strong>Summary:</strong> Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and other...</p>
@@ -91,25 +77,18 @@
                 <a href="https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Exploitation of Fresh Citrix NetScaler Vulnerability Begins</h3>
-                <p><strong>Summary:</strong> The critical-severity flaw leaks application memory and can be exploited to obtain authenticated administrative session IDs.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/exploitation-of-fresh-citrix-netscaler-vulnerability-begins/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/exploitation-of-fresh-citrix-netscaler-vulnerability-begins/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits</h3>
+                <p><strong>Summary:</strong> Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update.  The development w...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers</h3>
-                <p><strong>Summary:</strong> The agency said Iranian hackers targeted the director’s personal email account and noted that the compromised information is old.</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fbi-confirms-kash-patel-email-hack-as-us-offers-10m-reward-for-hackers/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/fbi-confirms-kash-patel-email-hack-as-us-offers-10m-reward-for-hackers/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>F5 BIG-IP DoS Flaw Upgraded to Critical RCE, Now Exploited in the Wild</h3>
-                <p><strong>Summary:</strong> Initially disclosed as a high-severity denial-of-service (DoS), the bug was reclassified as a critical RCE issue.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/f5-big-ip-dos-flaw-upgraded-to-critical-rce-now-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/f5-big-ip-dos-flaw-upgraded-to-critical-rce-now-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files</h3>
+                <p><strong>Summary:</strong> TeamPCP, the threat actor behind the supply chain attack targeting Trivy , KICS , and litellm , has now compromised the telnyx  Python package by pushing two malicious versions to steal sensitive data...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs</h3>
@@ -133,18 +112,39 @@
                 <a href="https://www.securityweek.com/in-other-news-palo-alto-recruiter-scam-anti-deepfake-chip-google-sets-2029-quantum-deadline/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft pulls KB5079391 Windows update over install issues</h3>
-                <p><strong>Summary:</strong> Microsoft has pulled a buggy Windows 11 non-security preview update to investigate a known issue that triggers 0x80073712 errors during installation.</p>
+                <h3>OpenAI Launches Bug Bounty Program for Abuse and Safety Risks</h3>
+                <p><strong>Summary:</strong> Through the new program, OpenAI will reward reports covering design or implementation issues leading to material harm.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/openai-launches-bug-bounty-program-for-abuse-and-safety-risks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/openai-launches-bug-bounty-program-for-abuse-and-safety-risks/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Critical Fortinet Forticlient EMS flaw now exploited in attacks</h3>
-                <p><strong>Summary:</strong> Attackers are now actively exploiting a critical vulnerability in Fortinet's FortiClient EMS platform, according to threat intelligence company Defused.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>TP-Link Patches High-Severity Router Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The security defects could be used to bypass authentication, execute arbitrary commands, and decrypt configuration files.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tp-link-patches-high-severity-router-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tp-link-patches-high-severity-router-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RSAC 2026 Conference Announcements Summary (Days 3-4)</h3>
+                <p><strong>Summary:</strong> A summary of the announcements made by vendors on the third and fourth days of the RSAC 2026 Conference.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rsac-2026-conference-announcements-summary-days-3-4/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rsac-2026-conference-announcements-summary-days-3-4/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Infinity Stealer malware grabs macOS data via ClickFix lures</h3>
+                <p><strong>Summary:</strong> A new info-stealing malware named Infinity Stealer is targeting macOS systems with a Python payload packaged as an executable using the open-source Nuitka compiler.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Learn 71 languages in one science-backed app while it’s on sale</h3>
+                <p><strong>Summary:</strong> With lifetime access to 71 languages for a one-time $59 (MSRP $239), the Qlango platform positions itself as a flexible, long-term learning tool rather than something you'll outgrow after a few weeks.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/learn-71-languages-in-one-science-backed-app-while-its-on-sale/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/learn-71-languages-in-one-science-backed-app-while-its-on-sale/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>European Commission confirms data breach after Europa.eu hack</h3>
-                <p><strong>Summary:</strong> The European Commission has confirmed a data breach after its Europa.eu web platform was hacked in a cyberattack claimed by the ShinyHunters extortion gang.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Backdoored Telnyx PyPI package pushes malware hidden in WAV audio</h3>
+                <p><strong>Summary:</strong> TeamPCP hackers compromised the Telnyx package on the Python Package Index today, uploading malicious versions that deliver credential-stealing malware hidden inside a WAV file.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
