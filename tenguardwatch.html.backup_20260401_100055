@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account</div><div class="ticker-item">OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability</div><div class="ticker-item">DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials</div><div class="ticker-item">⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More</div><div class="ticker-item">3 SOC Process Fixes That Unlock Tier 1 Productivity</div><div class="ticker-item">Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels</div><div class="ticker-item">Critical Vulnerability in OpenAI Codex Allowed GitHub Token Compromise</div><div class="ticker-item">Healthcare IT Platform CareCloud Probing Potential Data Breach</div><div class="ticker-item">Silent Drift: How LLMs Are Quietly Breaking Organizational Access Control</div><div class="ticker-item">Huskeys Emerges From Stealth With $8 Million in Funding</div><div class="ticker-item">Russian APT Star Blizzard Adopts DarkSword iOS Exploit Kit</div><div class="ticker-item">European Commission Reports Cyber Intrusion and Data Theft</div><div class="ticker-item">Hacker charged with stealing $53 million from Uranium crypto exchange</div><div class="ticker-item">Dutch Finance Ministry takes treasury banking portal offline after breach</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">CISA orders feds to patch actively exploited Citrix flaw by Thursday</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account</h3>
+                <p><strong>Summary:</strong> The popular HTTP client known as Axios  has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency.  Versions 1.14.1 and 0.30.4 of Axios...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability</h3>
+                <p><strong>Summary:</strong> A previously unknown vulnerability in OpenAI ChatGPT allowed sensitive conversation data to be exfiltrated without user knowledge or consent, according to new findings from Check Point.  "A single mal...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials</h3>
+                <p><strong>Summary:</strong> A new campaign has leveraged the ClickFix  social engineering tactic as a way to distribute a previously undocumented malware loader referred to as DeepLoad .  "It likely uses AI-assisted obfuscation ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More</h3>
+                <p><strong>Summary:</strong> Some weeks are loud. This one was quieter but not in a good way. Long-running operations are finally hitting courtrooms, old attack methods are showing up in new places, and research that stopped bein...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>3 SOC Process Fixes That Unlock Tier 1 Productivity</h3>
+                <p><strong>Summary:</strong> What is really slowing Tier 1 down: the threat itself or the process around it? In many SOCs, the biggest delays do not come from the threat alone. They come from fragmented workflows, manual triage s...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/3-soc-process-fixes-that-unlock-tier-1.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/3-soc-process-fixes-that-unlock-tier-1.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders.  The CTRL  ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Vulnerability in OpenAI Codex Allowed GitHub Token Compromise</h3>
+                <p><strong>Summary:</strong> Researchers found an OpenAI Codex vulnerability that could have been exploited to compromise GitHub tokens.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-vulnerability-in-openai-codex-allowed-github-token-compromise/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-vulnerability-in-openai-codex-allowed-github-token-compromise/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Healthcare IT Platform CareCloud Probing Potential Data Breach</h3>
+                <p><strong>Summary:</strong> The company has disclosed a cybersecurity incident involving one of its electronic health record environments.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/healthcare-it-platform-carecloud-probing-potential-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/healthcare-it-platform-carecloud-probing-potential-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Silent Drift: How LLMs Are Quietly Breaking Organizational Access Control</h3>
+                <p><strong>Summary:</strong> LLMs can write complex Rego and Cedar code in seconds, but a single missing condition or hallucinated attribute can quietly dismantle your organization’s least-privilege security model.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/silent-drift-how-llms-are-quietly-breaking-organizational-access-control/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/silent-drift-how-llms-are-quietly-breaking-organizational-access-control/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Huskeys Emerges From Stealth With $8 Million in Funding</h3>
+                <p><strong>Summary:</strong> The startup has built an edge security management (ESM) platform, an AI engine atop the entire edge security stack.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/huskeys-emerges-from-stealth-with-8-million-in-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/huskeys-emerges-from-stealth-with-8-million-in-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian APT Star Blizzard Adopts DarkSword iOS Exploit Kit</h3>
+                <p><strong>Summary:</strong> The state-sponsored group’s campaign has targeted government, higher education, financial, and legal entities, as well as think tanks.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/russian-apt-star-blizzard-adopts-darksword-ios-exploit-kit/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/russian-apt-star-blizzard-adopts-darksword-ios-exploit-kit/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>European Commission Reports Cyber Intrusion and Data Theft</h3>
+                <p><strong>Summary:</strong> The ShinyHunters hacker group claimed to have stolen over 350GB of information from European Commission cloud systems.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/european-commission-reports-cyber-intrusion-and-data-theft/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/european-commission-reports-cyber-intrusion-and-data-theft/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hacker charged with stealing $53 million from Uranium crypto exchange</h3>
+                <p><strong>Summary:</strong> U.S. prosecutors have charged a Maryland man with stealing more than $53 million after hacking the Uranium Finance crypto exchange twice and laundering the proceeds through a cryptocurrency mixer.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hacker-charged-with-stealing-53-million-from-uranium-crypto-exchange/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hacker-charged-with-stealing-53-million-from-uranium-crypto-exchange/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dutch Finance Ministry takes treasury banking portal offline after breach</h3>
+                <p><strong>Summary:</strong> The Dutch Ministry of Finance took some of its systems offline, including the digital portal for treasury banking, while investigating a cyberattack detected two weeks ago.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA orders feds to patch actively exploited Citrix flaw by Thursday</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their Citrix NetScaler appliances against an actively exploited vulnerability by Thursday.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

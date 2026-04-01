@@ -1,0 +1,216 @@
+{
+  "date": "2026-04-01",
+  "items": [
+    {
+      "title": "Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069",
+      "link": "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
+      "summary": "Google has formally attributed  the supply chain compromise  of the popular Axios npm package to a financially motivated North Korean threat activity cluster tracked as UNC1069 .  \"We have attributed the attack to a suspected North Korean threat actor we track as UNC1069,\" John Hultquist, chief analyst at Google Threat Intelligence Group (GTIG), told The Hacker News in a statement.  \"North Korean hackers have deep experience with supply chain attacks, which they've historically used to steal cryptocurrency. The full breadth of this incident is still unclear, but given the popularity of the compromised package, we expect it will have far reaching impacts.\"  The development comes after threat actors seized control  of the package maintainer's npm account to push two trojanized versions 1.14.1 and 0.30.4 that introduced a malicious dependency named \"plain-crypto-js\" that's used to deliver a cross-platform backdoor capable of infecting Windows, ma...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-attributes-axios-npm-supply-chain-attack-to",
+      "source": "The Hacker News",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
+      "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+      "summary": "Anthropic on Tuesday confirmed that internal code for its popular artificial intelligence (AI) coding assistant, Claude Code, had been inadvertently released due to a human error.  \"No sensitive customer data or credentials were involved or exposed,\" an Anthropic spokesperson said  in a statement shared with CNBC News. \"This was a release packaging issue caused by human error, not a security breach. We’re rolling out measures to prevent this from happening again.\"  The discovery came after the AI upstart released version 2.1.88  of the Claude Code npm package, with users spotting that it contained a source map file that could be used to access Claude Code's source code – comprising nearly 2,000 TypeScript files and more than 512,000 lines of code. The version is no longer available for download from npm.  Security researcher Chaofan Shou was the first to publicly flag  it on X, stating \"Claude code source code has been leaked via a map file in their npm re...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "claude-code-source-leaked-via-npm-packaging-error-",
+      "source": "The Hacker News",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Android Developer Verification Rollout Begins Ahead of September Enforcement",
+      "link": "https://thehackernews.com/2026/03/android-developer-verification-rollout.html",
+      "summary": "Google on Monday said it's officially rolling out Android developer verification to all developers to combat the problem of bad actors distributing harmful apps while \"hiding behind anonymity.\"  The development comes ahead of a planned verification mandate  that goes into effect in Brazil, Indonesia, Singapore, and Thailand this September, before it expands globally next year.  As part of this effort, Google is requiring app developers who distribute apps outside of Google Play to create an account in the Android Developer Console to confirm their identity. Those who distribute apps through Android's official app marketplace and have verified their identity may be \"already set,\" the tech giant said.   \"For the vast majority of users, the experience of installing apps will stay exactly the same,\" Matthew Forsythe, director of product management for Android App Safety, said . \"It's only when a user tries to install an unregistered app that...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "android-developer-verification-rollout-begins-ahea",
+      "source": "The Hacker News",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks",
+      "link": "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html",
+      "summary": "A high-severity security flaw in the TrueConf client video conferencing software has been exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia  dubbed TrueChaos .  The vulnerability in question is CVE-2026-3502  (CVSS score: 7.8), a lack of integrity check when fetching application update code, allowing an attacker to distribute a tampered update, resulting in the execution of arbitrary code. It has been patched in the TrueConf Windows client starting with version 8.5.3 , released earlier this month.  \"The flaw stems from the abuse of TrueConf's updater validation mechanism, allowing an attacker who controls the on-premises TrueConf server to distribute and execute arbitrary files across all connected endpoints,\" Check Point said  in a report published today.   In other words, an attacker who manages to gain control of the on-premises TrueConf server can substitute the update package with a poisoned version, which then...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trueconf-zero-day-exploited-in-attacks-on-southeas",
+      "source": "The Hacker News",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts",
+      "link": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
+      "summary": "Cybersecurity researchers have disclosed a security \"blind spot\" in Google Cloud's Vertex AI platform that could allow artificial intelligence (AI) agents to be weaponized by an attacker to gain unauthorized access to sensitive data and compromise an organization's cloud environment.  According to Palo Alto Networks Unit 42, the issue relates to how the Vertex AI permission model can be misused by taking advantage of the service agent 's excessive permission scoping by default.  \"A misconfigured or compromised agent can become a 'double agent' that appears to serve its intended purpose, while secretly exfiltrating sensitive data, compromising infrastructure, and creating backdoors into an organization's most critical systems,\" Unit 42 researcher Ofir Shaty said  in a report shared with The Hacker News.   Specifically, the cybersecurity company found that the Per-Project, Per-Product Service Agent ( P4SA ) associated with a deployed AI agent ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "vertex-ai-vulnerability-exposes-google-cloud-data-",
+      "source": "The Hacker News",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
+      "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
+      "summary": "The cybersecurity landscape is accelerating at an unprecedented rate. What is emerging is not simply a rise in the number of vulnerabilities or tools, but a dramatic increase in speed. Speed of attack, speed of exploitation, and speed of change across modern environments.  This is the defining challenge of the new era of digital warfare: the weaponization of Artificial Intelligence. Threat actors, from nation-states to sophisticated criminal enterprises, are no longer just attacking. They are automating the entire kill chain.  In this AI arms race, traditional defensive strategies are no longer sufficient. Periodic point-in-time assessments, manual triage, and human-speed response were already under pressure in fast-moving environments. Against AI-enabled adversaries, they are increasingly inadequate.  Solutions like PlexTrac  are built to help organizations move beyond fragmented findings, disconnected tools, and slow manual workflows by unifying exposure management, remediation, and...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-ai-arms-race-why-unified-exposure-management-i",
+      "source": "The Hacker News",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Axios NPM Package Breached in North Korean Supply Chain Attack",
+      "link": "https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/",
+      "summary": "A long-lived NPM access token was used to bypass the GitHub Actions OIDC-based CI/CD publishing workflow and push backdoored package versions.",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "axios-npm-package-breached-in-north-korean-supply-",
+      "source": "SecurityWeek",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents",
+      "link": "https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/",
+      "summary": "Palo Alto Networks has disclosed the details of its analysis of Google Cloud Platform’s Vertex AI.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-addresses-vertex-security-issues-after-rese",
+      "source": "SecurityWeek",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Censys Raises $70 Million for Internet Intelligence Platform",
+      "link": "https://www.securityweek.com/censys-raises-70-million-for-internet-intelligence-platform/",
+      "summary": "The latest funding round brings the total venture capital investment in Censys to $149 million.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "censys-raises-70-million-for-internet-intelligence",
+      "source": "SecurityWeek",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "The Next Cybersecurity Crisis Isn’t Breaches—It’s Data You Can’t Trust",
+      "link": "https://www.securityweek.com/the-next-cybersecurity-crisis-isnt-breaches-its-data-you-cant-trust/",
+      "summary": "Data integrity shouldn’t be seen only through the prism of a technical concern but also as a leadership issue.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "the-next-cybersecurity-crisis-isnt-breachesits-dat",
+      "source": "SecurityWeek",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Stolen Logins Are Fueling Everything From Ransomware to Nation-State Cyberattacks",
+      "link": "https://www.securityweek.com/stolen-logins-are-fueling-everything-from-ransomware-to-nation-state-cyberattacks/",
+      "summary": "Report shows how industrialized credential theft underpins ransomware, SaaS breaches, and geopolitical attacks, shifting security focus from prevention to detecting misuse of legitimate access.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "stolen-logins-are-fueling-everything-from-ransomwa",
+      "source": "SecurityWeek",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Venom Stealer Raises Stakes With Continuous Credential Harvesting",
+      "link": "https://www.securityweek.com/venom-stealer-raises-stakes-with-continuous-credential-harvesting/",
+      "summary": "Licensed malware with built-in persistence and automation enables attackers to continuously siphon credentials, session data, and cryptocurrency assets.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "venom-stealer-raises-stakes-with-continuous-creden",
+      "source": "SecurityWeek",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Google Drive ransomware detection now on by default for paying users",
+      "link": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
+      "summary": "Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "google-drive-ransomware-detection-now-on-by-defaul",
+      "source": "BleepingComputer",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "New Windows 11 emergency update fixes preview update install issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/",
+      "summary": "Microsoft released an emergency update to fix the March 2026 KB5079391 non-security preview update, which was pulled over the weekend due to installation issues.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "High",
+      "slug": "new-windows-11-emergency-update-fixes-preview-upda",
+      "source": "BleepingComputer",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Claude Code source code accidentally leaked in NPM package",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/",
+      "summary": "Anthropic says it accidentally leaked the source code for Claude Code, which is closed source, but the company says no customer data or credentials were exposed.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "claude-code-source-code-accidentally-leaked-in-npm",
+      "source": "BleepingComputer",
+      "date": "2026-04-01"
+    }
+  ]
+}
