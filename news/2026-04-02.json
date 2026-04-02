@@ -1,0 +1,213 @@
+{
+  "date": "2026-04-02",
+  "items": [
+    {
+      "title": "WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action",
+      "link": "https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html",
+      "summary": "Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with spyware.  According to reports from Italian newspaper La Repubblica  and news agency ANSA , the vast majority of the targets are located in Italy. It's assessed that the threat actors behind the activity used social engineering tactics to get users to install malicious software that mimicked WhatsApp.  All the affected users have been logged out and have been recommended to uninstall the malware-laced apps and download the official WhatsApp app. WhatsApp did not reveal who was targeted in these attacks.  The tech giant said it's also taking action against Asigint, an Italian subsidiary of spyware company SIO, for allegedly creating a counterfeit version of WhatsApp.   On its website, the company advertises solutions to law enforcement agencies, government organizations, and police and intelligenc...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "whatsapp-alerts-200-users-after-fake-ios-app-insta",
+      "source": "The Hacker News",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit",
+      "link": "https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html",
+      "summary": "Apple on Wednesday expanded  the availability of iOS 18.7.7 and iPadOS 18.7.7 to a broader range of devices to protect users from the risk posed by a recently disclosed exploit kit known as DarkSword .  \"We enabled the availability of iOS 18.7.7 for more devices on April 1, 2026, so users with Automatic Updates turned on can automatically receive important security protections from web attacks called DarkSword,\" the company said. \"The fixes associated with the DarkSword exploit first shipped in 2025.\"  The update is available for the following devices -   iPhone XR, iPhone XS, iPhone XS Max, iPhone 11 (all models), iPhone SE (2nd generation), iPhone 12 (all models), iPhone 13 (all models), iPhone SE (3rd generation), iPhone 14 (all models), iPhone 15 (all models), iPhone 16 (all models), and iPhone 16e  iPad mini (5th generation - A17 Pro), iPad (7th generation - A16), iPad Air (3rd - 5th generation), iPad Air 11-inch (M2 - M3), iPad Air 13-...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apple-expands-ios-1877-update-to-more-devices-to-b",
+      "source": "The Hacker News",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails",
+      "link": "https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed  details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote administration tool known as AGEWHEEZE.  As part of the attacks, the threat actors, tracked as UAC-0255 , sent emails on March 26 and 27, 2026, posing as CERT-UA to distribute a password-protected ZIP archive hosted on Files.fm and urged recipients to install the \"specialized software.\"  The targets of the campaign included state organizations, medical centers, security companies, educational institutions, financial institutions, and software development companies. Some of the emails were sent from the email address \"incidents@cert-ua[.]tech.\"   The ZIP file (\"CERT_UA_protection_tool.zip\") is designed to download malware packaged as security software from the agency. The malware, per CERT-UA, is a remote access trojan codenamed AGEWHEEZE.   A Go-based malware, AGEWHEEZE...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "cert-ua-impersonation-campaign-spread-agewheeze-ma",
+      "source": "The Hacker News",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass",
+      "link": "https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html",
+      "summary": "Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files.  The activity, beginning in late February 2026, leverages these scripts to initiate a multi-stage infection chain for establishing persistence and enabling remote access. It's currently not known what lures the threat actors use to trick users into executing the scripts.  \"The campaign relies on a combination of social engineering and living-off-the-land techniques,\" the Microsoft Defender Security Research Team said . \"It uses renamed Windows utilities to blend into normal system activity, retrieves payloads from trusted cloud services such as AWS, Tencent Cloud, and Backblaze B2, and installs malicious Microsoft Installer (MSI) packages to maintain control of the system.\"   The use of legitimate tools and trusted platforms is a deadly combination, as it allows threat actors to blend in normal network activity and incre...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-warns-of-whatsapp-delivered-vbs-malware-",
+      "source": "The Hacker News",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Block the Prompt, Not the Work: The End of \"Doctor No\"",
+      "link": "https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html",
+      "summary": "There is a character that keeps appearing in enterprise security departments, and most CISOs know exactly who that is. It doesn’t build. It doesn’t enable. Its entire function is to say \"No.\"  No to ChatGPT.  No to DeepSeek.  No to the file-sharing tool the product team swears by.  For years, this looked like security. But in 2026, \"Doctor No\" is no longer just a management headache – it is a systemic security liability. Because when you block the work, users don’t stop. They reroute.  The Tax-Evaders of Productivity  When security feels like a tax on efficiency, employees find a way to \"evade\" it.  The industry has long relied on Endpoint Agents to enforce control. But as any CISO knows, these agents come with a heavy \"tax.\" They hook into the OS kernel, they’re invasive, they notoriously break during macOS updates, and they make high-performance machines run hot.  The result? Users find workarounds. Files move into personal Gmail. Prompts are...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "block-the-prompt-not-the-work-the-end-of-doctor-no",
+      "source": "The Hacker News",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures",
+      "link": "https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html",
+      "summary": "A multi-pronged phishing campaign is targeting Spanish-speaking users in organizations across Latin America and Europe to deliver Windows banking trojans like Casbaneiro  (aka Metamorfo) via another malware called Horabot .  The activity has been attributed to a Brazilian cybercrime threat actor tracked as Augmented Marauder and Water Saci . The e-crime group was first documented  by Trend Micro in October 2025.  \"This threat group employs a wider-ranging attack model focused on a bespoke delivery and propagation mechanism that includes WhatsApp, ClickFix  techniques, and email-centric phishing,\" BlueVoyant security researchers Thomas Elkins and Joshua Green said  in a technical breakdown published Tuesday.   \"It is now evident that while these Brazil-based operators heavily leverage script-based WhatsApp automation to compromise retail and consumer users in Latin America, they concurrently maintain and deploy an advanced, email-hijacking engine to penetrate enterprise ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "casbaneiro-phishing-targets-latin-america-and-euro",
+      "source": "The Hacker News",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Sophisticated CrystalX RAT Emerges",
+      "link": "https://www.securityweek.com/sophisticated-crystalx-rat-emerges/",
+      "summary": "The malware can spy on victims, steal their information, and make configuration changes on devices.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "sophisticated-crystalx-rat-emerges",
+      "source": "SecurityWeek",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Variance Raises $21.5M for Compliance Investigation Platform Powered by AI Agents",
+      "link": "https://www.securityweek.com/variance-raises-21-5m-for-compliance-investigation-platform-powered-by-ai-agents/",
+      "summary": "Variance has raised a total of $26 million in funding and the latest investment will fuel platform growth.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "variance-raises-215m-for-compliance-investigation-",
+      "source": "SecurityWeek",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Linx Security Raises $50 Million for Identity Security and Governance",
+      "link": "https://www.securityweek.com/linx-security-raises-50-million-for-identity-security-and-governance/",
+      "summary": "The company will accelerate product development, scale go-to-market efforts, and expand its global footprint.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "linx-security-raises-50-million-for-identity-secur",
+      "source": "SecurityWeek",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Depthfirst Raises $80 Million in Series B Funding",
+      "link": "https://www.securityweek.com/depthfirst-raises-80-million-in-series-b-funding/",
+      "summary": "The startup will expand its AI research team, train additional security models, and scale enterprise adoption.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "depthfirst-raises-80-million-in-series-b-funding",
+      "source": "SecurityWeek",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Toy Giant Hasbro Hit by Cyberattack",
+      "link": "https://www.securityweek.com/toy-giant-hasbro-hit-by-cyberattack/",
+      "summary": "The company is investigating the full scope of the incident, including whether any files have been compromised.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "toy-giant-hasbro-hit-by-cyberattack",
+      "source": "SecurityWeek",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "New DeepLoad Malware Dropped in ClickFix Attacks",
+      "link": "https://www.securityweek.com/new-deepload-malware-dropped-in-clickfix-attacks/",
+      "summary": "The malware steals credentials, installs a malicious browser extension, and can spread via USB drives.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-deepload-malware-dropped-in-clickfix-attacks",
+      "source": "SecurityWeek",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Microsoft links Classic Outlook issue to email delivery problems",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-links-classic-outlook-bug-to-email-delivery-issues/",
+      "summary": "Microsoft is investigating a known issue that prevents some Classic Outlook users from sending emails via Outlook.com.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-links-classic-outlook-issue-to-email-del",
+      "source": "BleepingComputer",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Over 14,000 F5 BIG-IP APM instances still exposed to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/over-14-000-f5-big-ip-apm-instances-still-exposed-to-rce-attacks/",
+      "summary": "Internet security watchdog Shadowserver has found over 14,000 BIG-IP APM instances exposed online amid ongoing attacks exploiting a critical-severity remote code execution (RCE) vulnerability.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "over-14000-f5-big-ip-apm-instances-still-exposed-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "New CrystalRAT malware adds RAT, stealer and prankware features",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/",
+      "summary": "A new malware-as-a-service called CrystalRAT is being promoted on Telegram, offering remote access, data theft, keylogging, and clipboard hijacking capabilities.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-crystalrat-malware-adds-rat-stealer-and-prankw",
+      "source": "BleepingComputer",
+      "date": "2026-04-02"
+    }
+  ]
+}

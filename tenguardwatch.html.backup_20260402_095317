@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069</div><div class="ticker-item">Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms</div><div class="ticker-item">Android Developer Verification Rollout Begins Ahead of September Enforcement</div><div class="ticker-item">TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks</div><div class="ticker-item">Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts</div><div class="ticker-item">The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority</div><div class="ticker-item">Axios NPM Package Breached in North Korean Supply Chain Attack</div><div class="ticker-item">Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents</div><div class="ticker-item">Censys Raises $70 Million for Internet Intelligence Platform</div><div class="ticker-item">The Next Cybersecurity Crisis Isn’t Breaches—It’s Data You Can’t Trust</div><div class="ticker-item">Stolen Logins Are Fueling Everything From Ransomware to Nation-State Cyberattacks</div><div class="ticker-item">Venom Stealer Raises Stakes With Continuous Credential Harvesting</div><div class="ticker-item">Google Drive ransomware detection now on by default for paying users</div><div class="ticker-item">New Windows 11 emergency update fixes preview update install issues</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Claude Code source code accidentally leaked in NPM package</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069</h3>
+                <p><strong>Summary:</strong> Google has formally attributed  the supply chain compromise  of the popular Axios npm package to a financially motivated North Korean threat activity cluster tracked as UNC1069 .  "We have attributed ...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms</h3>
+                <p><strong>Summary:</strong> Anthropic on Tuesday confirmed that internal code for its popular artificial intelligence (AI) coding assistant, Claude Code, had been inadvertently released due to a human error.  "No sensitive custo...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Android Developer Verification Rollout Begins Ahead of September Enforcement</h3>
+                <p><strong>Summary:</strong> Google on Monday said it's officially rolling out Android developer verification to all developers to combat the problem of bad actors distributing harmful apps while "hiding behind anonymity."  The d...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/android-developer-verification-rollout.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/android-developer-verification-rollout.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks</h3>
+                <p><strong>Summary:</strong> A high-severity security flaw in the TrueConf client video conferencing software has been exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia  dub...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed a security "blind spot" in Google Cloud's Vertex AI platform that could allow artificial intelligence (AI) agents to be weaponized by an attacker to gain unaut...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority</h3>
+                <p><strong>Summary:</strong> The cybersecurity landscape is accelerating at an unprecedented rate. What is emerging is not simply a rise in the number of vulnerabilities or tools, but a dramatic increase in speed. Speed of attack...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Axios NPM Package Breached in North Korean Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> A long-lived NPM access token was used to bypass the GitHub Actions OIDC-based CI/CD publishing workflow and push backdoored package versions.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents</h3>
+                <p><strong>Summary:</strong> Palo Alto Networks has disclosed the details of its analysis of Google Cloud Platform’s Vertex AI.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Censys Raises $70 Million for Internet Intelligence Platform</h3>
+                <p><strong>Summary:</strong> The latest funding round brings the total venture capital investment in Censys to $149 million.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/censys-raises-70-million-for-internet-intelligence-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/censys-raises-70-million-for-internet-intelligence-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Next Cybersecurity Crisis Isn’t Breaches—It’s Data You Can’t Trust</h3>
+                <p><strong>Summary:</strong> Data integrity shouldn’t be seen only through the prism of a technical concern but also as a leadership issue.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/the-next-cybersecurity-crisis-isnt-breaches-its-data-you-cant-trust/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/the-next-cybersecurity-crisis-isnt-breaches-its-data-you-cant-trust/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Stolen Logins Are Fueling Everything From Ransomware to Nation-State Cyberattacks</h3>
+                <p><strong>Summary:</strong> Report shows how industrialized credential theft underpins ransomware, SaaS breaches, and geopolitical attacks, shifting security focus from prevention to detecting misuse of legitimate access.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/stolen-logins-are-fueling-everything-from-ransomware-to-nation-state-cyberattacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/stolen-logins-are-fueling-everything-from-ransomware-to-nation-state-cyberattacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Venom Stealer Raises Stakes With Continuous Credential Harvesting</h3>
+                <p><strong>Summary:</strong> Licensed malware with built-in persistence and automation enables attackers to continuously siphon credentials, session data, and cryptocurrency assets.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/venom-stealer-raises-stakes-with-continuous-credential-harvesting/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/venom-stealer-raises-stakes-with-continuous-credential-harvesting/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Drive ransomware detection now on by default for paying users</h3>
+                <p><strong>Summary:</strong> Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Windows 11 emergency update fixes preview update install issues</h3>
+                <p><strong>Summary:</strong> Microsoft released an emergency update to fix the March 2026 KB5079391 non-security preview update, which was pulled over the weekend due to installation issues.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude Code source code accidentally leaked in NPM package</h3>
+                <p><strong>Summary:</strong> Anthropic says it accidentally leaked the source code for Claude Code, which is closed source, but the company says no customer data or credentials were exposed.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
