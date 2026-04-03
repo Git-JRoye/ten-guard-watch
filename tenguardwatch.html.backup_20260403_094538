@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action</div><div class="ticker-item">Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit</div><div class="ticker-item">CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails</div><div class="ticker-item">Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass</div><div class="ticker-item">Block the Prompt, Not the Work: The End of "Doctor No"</div><div class="ticker-item">Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures</div><div class="ticker-item">Sophisticated CrystalX RAT Emerges</div><div class="ticker-item">Variance Raises $21.5M for Compliance Investigation Platform Powered by AI Agents</div><div class="ticker-item">Linx Security Raises $50 Million for Identity Security and Governance</div><div class="ticker-item">Depthfirst Raises $80 Million in Series B Funding</div><div class="ticker-item">Toy Giant Hasbro Hit by Cyberattack</div><div class="ticker-item">New DeepLoad Malware Dropped in ClickFix Attacks</div><div class="ticker-item">Microsoft links Classic Outlook issue to email delivery problems</div><div class="ticker-item">Over 14,000 F5 BIG-IP APM instances still exposed to RCE attacks</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">New CrystalRAT malware adds RAT, stealer and prankware features</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action</h3>
+                <p><strong>Summary:</strong> Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with spyware.  According to reports from Italia...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit</h3>
+                <p><strong>Summary:</strong> Apple on Wednesday expanded  the availability of iOS 18.7.7 and iPadOS 18.7.7 to a broader range of devices to protect users from the risk posed by a recently disclosed exploit kit known as DarkSword ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails</h3>
+                <p><strong>Summary:</strong> The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed  details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote administrat...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass</h3>
+                <p><strong>Summary:</strong> Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files.  The activity, beginning in late February 2026, leverages...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Block the Prompt, Not the Work: The End of "Doctor No"</h3>
+                <p><strong>Summary:</strong> There is a character that keeps appearing in enterprise security departments, and most CISOs know exactly who that is. It doesn’t build. It doesn’t enable. Its entire function is to say "No."  No to C...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures</h3>
+                <p><strong>Summary:</strong> A multi-pronged phishing campaign is targeting Spanish-speaking users in organizations across Latin America and Europe to deliver Windows banking trojans like Casbaneiro  (aka Metamorfo) via another m...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Sophisticated CrystalX RAT Emerges</h3>
+                <p><strong>Summary:</strong> The malware can spy on victims, steal their information, and make configuration changes on devices.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sophisticated-crystalx-rat-emerges/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sophisticated-crystalx-rat-emerges/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Variance Raises $21.5M for Compliance Investigation Platform Powered by AI Agents</h3>
+                <p><strong>Summary:</strong> Variance has raised a total of $26 million in funding and the latest investment will fuel platform growth.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/variance-raises-21-5m-for-compliance-investigation-platform-powered-by-ai-agents/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/variance-raises-21-5m-for-compliance-investigation-platform-powered-by-ai-agents/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Linx Security Raises $50 Million for Identity Security and Governance</h3>
+                <p><strong>Summary:</strong> The company will accelerate product development, scale go-to-market efforts, and expand its global footprint.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/linx-security-raises-50-million-for-identity-security-and-governance/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/linx-security-raises-50-million-for-identity-security-and-governance/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Depthfirst Raises $80 Million in Series B Funding</h3>
+                <p><strong>Summary:</strong> The startup will expand its AI research team, train additional security models, and scale enterprise adoption.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/depthfirst-raises-80-million-in-series-b-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/depthfirst-raises-80-million-in-series-b-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Toy Giant Hasbro Hit by Cyberattack</h3>
+                <p><strong>Summary:</strong> The company is investigating the full scope of the incident, including whether any files have been compromised.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/toy-giant-hasbro-hit-by-cyberattack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/toy-giant-hasbro-hit-by-cyberattack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New DeepLoad Malware Dropped in ClickFix Attacks</h3>
+                <p><strong>Summary:</strong> The malware steals credentials, installs a malicious browser extension, and can spread via USB drives.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-deepload-malware-dropped-in-clickfix-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-deepload-malware-dropped-in-clickfix-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft links Classic Outlook issue to email delivery problems</h3>
+                <p><strong>Summary:</strong> Microsoft is investigating a known issue that prevents some Classic Outlook users from sending emails via Outlook.com.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-links-classic-outlook-bug-to-email-delivery-issues/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-links-classic-outlook-bug-to-email-delivery-issues/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Over 14,000 F5 BIG-IP APM instances still exposed to RCE attacks</h3>
+                <p><strong>Summary:</strong> Internet security watchdog Shadowserver has found over 14,000 BIG-IP APM instances exposed online amid ongoing attacks exploiting a critical-severity remote code execution (RCE) vulnerability.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/over-14-000-f5-big-ip-apm-instances-still-exposed-to-rce-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/over-14-000-f5-big-ip-apm-instances-still-exposed-to-rce-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New CrystalRAT malware adds RAT, stealer and prankware features</h3>
+                <p><strong>Summary:</strong> A new malware-as-a-service called CrystalRAT is being promoted on Telegram, offering remote access, data theft, keylogging, and clipboard hijacking capabilities.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

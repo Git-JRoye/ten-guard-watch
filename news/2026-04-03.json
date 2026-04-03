@@ -1,0 +1,211 @@
+{
+  "date": "2026-04-03",
+  "items": [
+    {
+      "title": "New SparkCat Variant in iOS, Android Apps Steals Crypto Wallet Recovery Phrase Images",
+      "link": "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
+      "summary": "Cybersecurity researchers have discovered  a new version of the SparkCat  malware on the Apple App Store and Google Play Store, more than a year after the trojan was discovered targeting both the mobile operating systems.  The malware has been found  to conceal itself within seemingly benign apps, such as enterprise messengers and food delivery services, while silently scanning victims' photo galleries for cryptocurrency wallet recovery phrases.  Russian cybersecurity company Kaspersky said it found two infected apps on the App Store and one on the Google Play Store that primarily target cryptocurrency users in Asia.   \"The iOS variant, however, takes a different approach as it scans for cryptocurrency wallet mnemonic phrases, which are in English,\" the company said. \"This makes the iOS variant potentially broader in reach, as it can affect users regardless of their region.\"  The improved version of SparkCat for...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "new-sparkcat-variant-in-ios-android-apps-steals-cr",
+      "source": "The Hacker News",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK",
+      "link": "https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html",
+      "summary": "Solana-based decentralized exchange Drift has confirmed that attackers drained about $285 million from the platform during a security incident that took place on April 1, 2026.  \"Earlier today, a malicious actor gained unauthorized access to Drift Protocol through a novel attack involving durable nonces, resulting in a rapid takeover of Drift’s Security Council administrative powers,\" the company said  in a series of posts on X.  \"This was a highly sophisticated operation that appears to have involved multi-week preparation and staged execution, including the use of durable nonce accounts to pre-sign transactions that delayed execution.\"  Drift noted that the attack did not exploit a vulnerability in its programs or smart contracts, and that there is no evidence of compromised seed phrases. Rather, the breach is said to have \"involved unauthorized or misrepresented transaction approvals obtained prior to execution, likely facilitated through durable n...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "drift-loses-285-million-in-durable-nonce-social-en",
+      "source": "The Hacker News",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
+      "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
+      "summary": "A large-scale credential harvesting operation has been observed exploiting the React2Shell vulnerability as an initial infection vector to steal database credentials, SSH private keys, Amazon Web Services (AWS) secrets, shell command history, Stripe API keys, and GitHub tokens at scale.  Cisco Talos has attributed the operation to a threat cluster it tracks as UAT-10608 . At least 766 hosts spanning multiple geographic regions and cloud providers have been compromised as part of the activity.  \"Post-compromise, UAT-10608 leverages automated scripts for extracting and exfiltrating credentials from a variety of applications, that are then posted to its command-and-control (C2),\" security researchers  Asheer Malhotra and Brandon White said  in a report shared with The Hacker News ahead of publication.  \"The C2 hosts a web-based graphical user interface (GUI) titled 'NEXUS Listener' that can be used to view s...",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-exploit-cve-2025-55182-to-breach-766-nextj",
+      "source": "The Hacker News",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise",
+      "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
+      "summary": "Cisco has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to bypass authentication and gain access to the system with elevated privileges.  The vulnerability, tracked as CVE-2026-20093, carries a CVSS score of 9.8 out of a maximum of 10.0.  \"This vulnerability is due to incorrect handling of password change requests,\" Cisco said  in an advisory released Wednesday. \"An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device.\"  \"A successful exploit could allow the attacker to bypass authentication, alter the passwords of any user on the system, including an Admin user, and gain access to the system as that user.\"   Security researcher \"jyh\" has been credited with discovering and reporting the vulnerability. The shortcoming affects the following products regardless of the dev...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-patches-98-cvss-imc-and-ssm-flaws-allowing-r",
+      "source": "The Hacker News",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Pre-Auth Chains, Android Rootkits, CloudTrail Evasion & 10 More Stories",
+      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html",
+      "summary": "The latest ThreatsDay Bulletin is basically a cheat sheet for everything breaking on the internet right now. No corporate fluff or boring lectures here, just a quick and honest look at the messy reality of keeping systems safe this week.  Things are moving fast. The list includes researchers chaining small bugs together to create massive backdoors, old software flaws coming back to haunt us, and some very clever new tricks that let attackers bypass security logs entirely without leaving a trace. We are also seeing sketchier traffic on the underground and the usual supply chain mess, where one bad piece of code threatens thousands of apps.  It is definitely worth a quick scan before you log off for the day, if only to make sure none of this is sitting in your own network. Let's get into it.                     Pre-auth RCE chain exposed             Security Flaws in Progress ShareFile                  watchTower Labs has disclosed  two securi...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-pre-auth-chains-android-rootki",
+      "source": "The Hacker News",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners",
+      "link": "https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html",
+      "summary": "A financially motivated operation codenamed REF1695  has been observed leveraging fake installers to deploy remote access trojans (RATs) and cryptocurrency miners since November 2023.  \"Beyond cryptomining, the threat actor monetizes infections through CPA (Cost Per Action) fraud, directing victims to content locker pages under the guise of software registration,\" Elastic Security Labs researchers Jia Yu Chan, Cyril François, and Remco Sprooten said  in an analysis published this week.  Recent iterations of the campaign have also been found to deliver a previously undocumented .NET implant codenamed CNB Bot. These attacks leverage an ISO file as the infection vector to deliver a .NET Reactor-protected loader and a text file with explicit instructions to the user to bypass Microsoft Defender SmartScreen protections against running unrecognized applications by clicking on \"More info\" and \"Run anyway...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "researchers-uncover-mining-operation-using-iso-lur",
+      "source": "The Hacker News",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Critical Vulnerability in Claude Code Emerges Days After Source Leak",
+      "link": "https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/",
+      "summary": "Within days of each other, Anthropic first leaked the source code to Claude Code, and then a critical vulnerability was found by Adversa AI.",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-vulnerability-in-claude-code-emerges-days",
+      "source": "SecurityWeek",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Apple Rolls Out DarkSword Exploit Protection to More Devices",
+      "link": "https://www.securityweek.com/apple-rolls-out-darksword-exploit-protection-to-more-devices/",
+      "summary": "The DarkSword exploit kit has been used by both state-sponsored hackers and commercial spyware vendors.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "apple-rolls-out-darksword-exploit-protection-to-mo",
+      "source": "SecurityWeek",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Cybersecurity M&A Roundup: 38 Deals Announced in March 2026",
+      "link": "https://www.securityweek.com/cybersecurity-ma-roundup-38-deals-announced-in-march-2026/",
+      "summary": "Significant cybersecurity M&A deals announced by Airbus, Cellebrite, Databricks, Quantum eMotion, Rapid7, and OpenAI.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cybersecurity-ma-roundup-38-deals-announced-in-mar",
+      "source": "SecurityWeek",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Cisco Patches Critical and High-Severity Vulnerabilities",
+      "link": "https://www.securityweek.com/cisco-patches-critical-and-high-severity-vulnerabilities/",
+      "summary": "The bugs could lead to authentication bypass, remote code execution, information disclosure, and privilege escalation.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-patches-critical-and-high-severity-vulnerabi",
+      "source": "SecurityWeek",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "250,000 Affected by Data Breach at Nacogdoches Memorial Hospital",
+      "link": "https://www.securityweek.com/250000-affected-by-data-breach-at-nacogdoches-memorial-hospital/",
+      "summary": "In January 2026, a threat actor hacked the hospital’s internal network and stole personal and health information.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "250000-affected-by-data-breach-at-nacogdoches-memo",
+      "source": "SecurityWeek",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Mercor Hit by LiteLLM Supply Chain Attack",
+      "link": "https://www.securityweek.com/mercor-hit-by-litellm-supply-chain-attack/",
+      "summary": "The AI recruiting firm is investigating the incident as Lapsus$ claimed the theft of 4TB of Mercor data.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mercor-hit-by-litellm-supply-chain-attack",
+      "source": "SecurityWeek",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Man admits to locking thousands of Windows devices in extortion plot",
+      "link": "https://www.bleepingcomputer.com/news/security/man-admits-to-extortion-plot-locking-coworkers-out-of-thousands-of-windows-devices/",
+      "summary": "A former core infrastructure engineer has pleaded guilty to locking Windows admins out of 254 servers as part of a failed extortion plot targeting his employer, an industrial company headquartered in Somerset County, New Jersey.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "man-admits-to-locking-thousands-of-windows-devices",
+      "source": "BleepingComputer",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "Microsoft now force upgrades unmanaged Windows 11 24H2 PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-force-upgrades-unmanaged-windows-11-24h2-pcs/",
+      "summary": "Starting this week, Microsoft has begun force-upgrading unmanaged devices running Windows 11 24H2 Home and Pro editions to Windows 11 25H2.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-now-force-upgrades-unmanaged-windows-11-",
+      "source": "BleepingComputer",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-03"
+    },
+    {
+      "title": "CERT-EU: European Commission hack exposes data of 30 EU entities",
+      "link": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
+      "summary": "The European Union's Cybersecurity Service (CERT-EU) has attributed the European Commission cloud hack to the TeamPCP threat group, saying the resulting breach exposed the data of at least 29 other Union entities.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "cert-eu-european-commission-hack-exposes-data-of-3",
+      "source": "BleepingComputer",
+      "date": "2026-04-03"
+    }
+  ]
+}
