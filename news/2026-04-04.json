@@ -1,0 +1,218 @@
+{
+  "date": "2026-04-04",
+  "items": [
+    {
+      "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing",
+      "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
+      "summary": "A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025, following a two-year period of minimal targeting in the region.  The campaign has been attributed to TA416 , a cluster of activity that overlaps with DarkPeony, RedDelta, Red Lich, SmugX, UNC6384, and Vertigo Panda.  \"This TA416 activity included multiple waves of web bug and malware delivery campaigns against diplomatic missions to the European Union and NATO across a range of European countries,\" Proofpoint researchers Mark Kelly and Georgi Mladenov said .  \"Throughout this period, TA416 regularly altered its infection chain, including abusing Cloudflare Turnstile challenge pages, abusing OAuth redirects, and using C# project files, as well as frequently updating its custom PlugX payload.\"  TA416 has also been observed orchestrating multiple campaigns aimed at diplomatic and government entities in the Middle East following the outbreak...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "china-linked-ta416-targets-european-governments-wi",
+      "source": "The Hacker News",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers",
+      "link": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
+      "summary": "Threat actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Defender Security Research Team.  \"Instead of exposing command execution through URL parameters or request bodies, these web shells rely on threat actor-supplied cookie values to gate execution, pass instructions, and activate malicious functionality,\" the tech giant said .  The approach offers added stealth as it allows malicious code to stay dormant during normal application execution and activate the web shell logic only when specific cookie values are present. This behavior, Microsoft noted, extends to web requests, scheduled tasks, and trusted background workers.  The malicious activity takes advantage of the fact that cookie values are available at runtime through the $_COOKIE superglobal  variable, allowing attacker-supplied inputs to be consumed with...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-details-cookie-controlled-php-web-shells",
+      "source": "The Hacker News",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
+      "summary": "The maintainer of the Axios npm package has confirmed that the supply chain compromise was the result of a highly-targeted social engineering campaign orchestrated by North Korean threat actors tracked as UNC1069 .  Maintainer Jason Saayman said the attackers tailored their social engineering efforts \"specifically to me\" by first approaching him under the guise of the founder of a legitimate, well-known company.  \"They had cloned the company's founders' likeness as well as the company itself,\" Saayman said  in a post-mortem of the incident. \"They then invited me to a real Slack workspace. This workspace was branded to the company's CI and named in a plausible manner. The Slack [workspace] was thought out very well; they had channels where they were sharing LinkedIn posts.\"   Subsequently, the threat actors are said to have scheduled a meeting with him on Microsoft Teams. Upon joining the fake call, he was presented with a fake error mes...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "unc1069-social-engineering-of-axios-maintainer-led",
+      "source": "The Hacker News",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture",
+      "link": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
+      "summary": "The next major breach hitting your clients probably won't come from inside their walls. It'll come through a vendor they trust, a SaaS tool their finance team signed up for, or a subcontractor nobody in IT knows about. That's the new attack surface, and most organizations are underprepared for it.  Cynomi's new guide, Securing the Modern Perimeter: The Rise of Third-Party Risk Management , makes the case that TPRM is no longer a compliance formality. It's a frontline security challenge and a defining growth opportunity for MSPs and MSSPs who get ahead of it.  The Modern Perimeter Has Expanded  For decades, cybersecurity strategy revolved around a defined perimeter. Firewalls, endpoint controls, and identity management systems were deployed to protect assets within a known boundary.  That boundary has dissolved.  Today, client data lives in third-party SaaS applications, flows through vendor APIs, and is processed by subcontractors ...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "why-third-party-risk-is-the-biggest-gap-in-your-cl",
+      "source": "The Hacker News",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "New SparkCat Variant in iOS, Android Apps Steals Crypto Wallet Recovery Phrase Images",
+      "link": "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
+      "summary": "Cybersecurity researchers have discovered  a new version of the SparkCat  malware on the Apple App Store and Google Play Store, more than a year after the trojan was discovered targeting both the mobile operating systems.  The malware has been found  to conceal itself within seemingly benign apps, such as enterprise messengers and food delivery services, while silently scanning victims' photo galleries for cryptocurrency wallet recovery phrases.  Russian cybersecurity company Kaspersky said it found two infected apps on the App Store and one on the Google Play Store that primarily target cryptocurrency users in Asia.   \"The iOS variant, however, takes a different approach as it scans for cryptocurrency wallet mnemonic phrases, which are in English,\" the company said. \"This makes the iOS variant potentially broader in reach, as it can affect users regardless of their region.\"  The improved version of SparkCat for...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "new-sparkcat-variant-in-ios-android-apps-steals-cr",
+      "source": "The Hacker News",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK",
+      "link": "https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html",
+      "summary": "Solana-based decentralized exchange Drift has confirmed that attackers drained about $285 million from the platform during a security incident that took place on April 1, 2026.  \"Earlier today, a malicious actor gained unauthorized access to Drift Protocol through a novel attack involving durable nonces, resulting in a rapid takeover of Drift’s Security Council administrative powers,\" the company said  in a series of posts on X.  \"This was a highly sophisticated operation that appears to have involved multi-week preparation and staged execution, including the use of durable nonce accounts to pre-sign transactions that delayed execution.\"  Drift noted that the attack did not exploit a vulnerability in its programs or smart contracts, and that there is no evidence of compromised seed phrases. Rather, the breach is said to have \"involved unauthorized or misrepresented transaction approvals obtained prior to execution, likely facilitated through durable n...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "drift-loses-285-million-in-durable-nonce-social-en",
+      "source": "The Hacker News",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "TrueConf Zero-Day Exploited in Asian Government Attacks",
+      "link": "https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/",
+      "summary": "A Chinese threat actor exploited the video conferencing platform to perform reconnaissance, escalate privileges, and execute additional payloads.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trueconf-zero-day-exploited-in-asian-government-at",
+      "source": "SecurityWeek",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware",
+      "link": "https://www.securityweek.com/in-other-news-chatgpt-data-leak-android-rootkit-water-facility-hit-by-ransomware/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Symantec vulnerability, anti-ClickFix mechanism added to macOS, FBI hack classified as major incident.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-chatgpt-data-leak-android-rootkit-wa",
+      "source": "SecurityWeek",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "Critical ShareFile Flaws Lead to Unauthenticated RCE",
+      "link": "https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/",
+      "summary": "The vulnerabilities can be chained together to bypass authentication and upload arbitrary files to the server.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-sharefile-flaws-lead-to-unauthenticated-r",
+      "source": "SecurityWeek",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "Mobile Attack Surface Expands as Enterprises Lose Control",
+      "link": "https://www.securityweek.com/mobile-attack-surface-expands-as-enterprises-lose-control/",
+      "summary": "Shadow AI embedded in everyday apps, combined with outdated mobile devices and zero-click exploits, is creating a new and largely unseen mobile risk.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mobile-attack-surface-expands-as-enterprises-lose-",
+      "source": "SecurityWeek",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "React2Shell Exploited in Large-Scale Credential Harvesting Campaign",
+      "link": "https://www.securityweek.com/react2shell-exploited-in-large-scale-credential-harvesting-campaign/",
+      "summary": "Using automated scanning and the Nexus Listener collection framework, the hackers compromised over 750 systems.",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "react2shell-exploited-in-large-scale-credential-ha",
+      "source": "SecurityWeek",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "T-Mobile Sets the Record Straight on Latest Data Breach Filing",
+      "link": "https://www.securityweek.com/t-mobile-sets-the-record-straight-on-latest-data-breach-filing/",
+      "summary": "The cybersecurity incident involved an insider and had a limited impact, the telecoms giant told SecurityWeek.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "t-mobile-sets-the-record-straight-on-latest-data-b",
+      "source": "SecurityWeek",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "LinkedIn secretely scans for 6,000+ Chrome extensions, collects data",
+      "link": "https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/",
+      "summary": "A new report dubbed \"BrowserGate\" warns that Microsoft's LinkedIn is using hidden JavaScript scripts on its website to scan visitors' browsers for installed extensions and collect device data.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "linkedin-secretely-scans-for-6000-chrome-extension",
+      "source": "BleepingComputer",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "Hims & Hers warns of data breach after Zendesk support ticket breach",
+      "link": "https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/",
+      "summary": "Telehealth giant Hims & Hers Health is warning that it suffered a data breach after support tickets were stolen from a third-party customer service platform.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "hims-hers-warns-of-data-breach-after-zendesk-suppo",
+      "source": "BleepingComputer",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-04"
+    },
+    {
+      "title": "Die Linke German political party confirms data stolen by Qilin ransomware",
+      "link": "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
+      "summary": "The Qilin ransomware group has claimed responsibility for an attack against Die Linke ('The Left'), forcing an IT systems outage at the political party, and threatening sensitive data leak.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "die-linke-german-political-party-confirms-data-sto",
+      "source": "BleepingComputer",
+      "date": "2026-04-04"
+    }
+  ]
+}
