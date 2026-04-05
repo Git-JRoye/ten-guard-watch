@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants</div><div class="ticker-item">Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS</div><div class="ticker-item">China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing</div><div class="ticker-item">Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers</div><div class="ticker-item">UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack</div><div class="ticker-item">Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture</div><div class="ticker-item">European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack</div><div class="ticker-item">TrueConf Zero-Day Exploited in Asian Government Attacks</div><div class="ticker-item">In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware</div><div class="ticker-item">Critical ShareFile Flaws Lead to Unauthenticated RCE</div><div class="ticker-item">Mobile Attack Surface Expands as Enterprises Lose Control</div><div class="ticker-item">React2Shell Exploited in Large-Scale Credential Harvesting Campaign</div><div class="ticker-item">Axios npm hack used fake Teams error fix to hijack maintainer account</div><div class="ticker-item">Device code phishing attacks surge 37x as new kits spread online</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">This $20 training bundle helps prepare you for the CISSP certification</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing</div><div class="ticker-item">Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers</div><div class="ticker-item">UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack</div><div class="ticker-item">Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture</div><div class="ticker-item">New SparkCat Variant in iOS, Android Apps Steals Crypto Wallet Recovery Phrase Images</div><div class="ticker-item">Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK</div><div class="ticker-item">TrueConf Zero-Day Exploited in Asian Government Attacks</div><div class="ticker-item">In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware</div><div class="ticker-item">Critical ShareFile Flaws Lead to Unauthenticated RCE</div><div class="ticker-item">Mobile Attack Surface Expands as Enterprises Lose Control</div><div class="ticker-item">React2Shell Exploited in Large-Scale Credential Harvesting Campaign</div><div class="ticker-item">T-Mobile Sets the Record Straight on Latest Data Breach Filing</div><div class="ticker-item">LinkedIn secretely scans for 6,000+ Chrome extensions, collects data</div><div class="ticker-item">Hims & Hers warns of data breach after Zendesk support ticket breach</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Die Linke German political party confirms data stolen by Qilin ransomware</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploit...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS</h3>
-                <p><strong>Summary:</strong> Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the wild.  The vulnerability, tracked as CVE-2026-35616  (CVSS score...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing</h3>
                 <p><strong>Summary:</strong> A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025, following a two-year period of minimal targeting in the region.  The campaign has be...</p>
@@ -91,11 +77,18 @@
                 <a href="https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack</h3>
-                <p><strong>Summary:</strong> Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>New SparkCat Variant in iOS, Android Apps Steals Crypto Wallet Recovery Phrase Images</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered  a new version of the SparkCat  malware on the Apple App Store and Google Play Store, more than a year after the trojan was discovered targeting both the mobi...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK</h3>
+                <p><strong>Summary:</strong> Solana-based decentralized exchange Drift has confirmed that attackers drained about $285 million from the platform during a security incident that took place on April 1, 2026.  "Earlier today, a mali...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>TrueConf Zero-Day Exploited in Asian Government Attacks</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/react2shell-exploited-in-large-scale-credential-harvesting-campaign/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Axios npm hack used fake Teams error fix to hijack maintainer account</h3>
-                <p><strong>Summary:</strong> The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been conducte...</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>T-Mobile Sets the Record Straight on Latest Data Breach Filing</h3>
+                <p><strong>Summary:</strong> The cybersecurity incident involved an insider and had a limited impact, the telecoms giant told SecurityWeek.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/t-mobile-sets-the-record-straight-on-latest-data-breach-filing/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/t-mobile-sets-the-record-straight-on-latest-data-breach-filing/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Device code phishing attacks surge 37x as new kits spread online</h3>
-                <p><strong>Summary:</strong> Device code phishing attacks that abuse the OAuth 2.0 Device Authorization Grant flow to hijack accounts have surged more than 37 times this year.</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>LinkedIn secretely scans for 6,000+ Chrome extensions, collects data</h3>
+                <p><strong>Summary:</strong> A new report dubbed "BrowserGate" warns that Microsoft's LinkedIn is using hidden JavaScript scripts on its website to scan visitors' browsers for installed extensions and collect device data.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hims & Hers warns of data breach after Zendesk support ticket breach</h3>
+                <p><strong>Summary:</strong> Telehealth giant Hims & Hers Health is warning that it suffered a data breach after support tickets were stolen from a third-party customer service platform.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New report: How browser-based attacks are bypassing your security controls</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This $20 training bundle helps prepare you for the CISSP certification</h3>
-                <p><strong>Summary:</strong> For cybersecurity professionals looking to move into higher roles or deepen their expertise, structured training can make a meaningful difference. The CISSP Security & Risk Management Training Bundle ...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-20-training-bundle-helps-prepare-you-for-the-cissp-certification/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-20-training-bundle-helps-prepare-you-for-the-cissp-certification/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Die Linke German political party confirms data stolen by Qilin ransomware</h3>
+                <p><strong>Summary:</strong> The Qilin ransomware group has claimed responsibility for an attack against Die Linke ('The Left'), forcing an IT systems outage at the political party, and threatening sensitive data leak.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->

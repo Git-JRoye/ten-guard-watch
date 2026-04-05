@@ -1,0 +1,217 @@
+{
+  "date": "2026-04-05",
+  "items": [
+    {
+      "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+      "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+      "summary": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy reverse shells, harvest credentials, and drop a persistent implant.  \"Every package contains three files (package.json, index.js, postinstall.js), has no description, repository, or homepage, and uses version 3.6.8 to appear as a mature Strapi v3 community plugin,\" SafeDep said .  All identified npm packages follow the same naming convention, starting with \"strapi-plugin-\" and then phrases like \"cron,\" \"database,\" or \"server\" to fool unsuspecting developers into downloading them. It's worth noting that the official Strapi plugins are scoped under \"@strapi/.\"  The packages, uploaded by four sock puppet accounts \"umarbek1233,\" \"kekylf12,\" \"tikeqemif26,\" and \"umar_bektembiev1...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "36-malicious-npm-packages-exploited-redis-postgres",
+      "source": "The Hacker News",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+      "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+      "summary": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the wild.  The vulnerability, tracked as CVE-2026-35616  (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation.  \"An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests,\" Fortinet said  in a Saturday advisory.  The issue affects FortiClient EMS versions 7.4.5 through 7.4.6. It's expected to be fully patched in the upcoming version 7.4.7, although the company has released a hotfix  to address it.    Simo Kohonen from Defused Cyber and Nguyen Duc Anh have been credited with discovering and reporting the flaw. In a post on X, Defused Cyber said  it observed zero-day exploitation of CVE-2026-35616 earlier this week. Accor...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-patches-actively-exploited-cve-2026-35616",
+      "source": "The Hacker News",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing",
+      "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
+      "summary": "A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025, following a two-year period of minimal targeting in the region.  The campaign has been attributed to TA416 , a cluster of activity that overlaps with DarkPeony, RedDelta, Red Lich, SmugX, UNC6384, and Vertigo Panda.  \"This TA416 activity included multiple waves of web bug and malware delivery campaigns against diplomatic missions to the European Union and NATO across a range of European countries,\" Proofpoint researchers Mark Kelly and Georgi Mladenov said .  \"Throughout this period, TA416 regularly altered its infection chain, including abusing Cloudflare Turnstile challenge pages, abusing OAuth redirects, and using C# project files, as well as frequently updating its custom PlugX payload.\"  TA416 has also been observed orchestrating multiple campaigns aimed at diplomatic and government entities in the Middle East following the outbreak...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "china-linked-ta416-targets-european-governments-wi",
+      "source": "The Hacker News",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers",
+      "link": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
+      "summary": "Threat actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Defender Security Research Team.  \"Instead of exposing command execution through URL parameters or request bodies, these web shells rely on threat actor-supplied cookie values to gate execution, pass instructions, and activate malicious functionality,\" the tech giant said .  The approach offers added stealth as it allows malicious code to stay dormant during normal application execution and activate the web shell logic only when specific cookie values are present. This behavior, Microsoft noted, extends to web requests, scheduled tasks, and trusted background workers.  The malicious activity takes advantage of the fact that cookie values are available at runtime through the $_COOKIE superglobal  variable, allowing attacker-supplied inputs to be consumed with...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-details-cookie-controlled-php-web-shells",
+      "source": "The Hacker News",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
+      "summary": "The maintainer of the Axios npm package has confirmed that the supply chain compromise was the result of a highly-targeted social engineering campaign orchestrated by North Korean threat actors tracked as UNC1069 .  Maintainer Jason Saayman said the attackers tailored their social engineering efforts \"specifically to me\" by first approaching him under the guise of the founder of a legitimate, well-known company.  \"They had cloned the company's founders' likeness as well as the company itself,\" Saayman said  in a post-mortem of the incident. \"They then invited me to a real Slack workspace. This workspace was branded to the company's CI and named in a plausible manner. The Slack [workspace] was thought out very well; they had channels where they were sharing LinkedIn posts.\"   Subsequently, the threat actors are said to have scheduled a meeting with him on Microsoft Teams. Upon joining the fake call, he was presented with a fake error mes...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "unc1069-social-engineering-of-axios-maintainer-led",
+      "source": "The Hacker News",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture",
+      "link": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
+      "summary": "The next major breach hitting your clients probably won't come from inside their walls. It'll come through a vendor they trust, a SaaS tool their finance team signed up for, or a subcontractor nobody in IT knows about. That's the new attack surface, and most organizations are underprepared for it.  Cynomi's new guide, Securing the Modern Perimeter: The Rise of Third-Party Risk Management , makes the case that TPRM is no longer a compliance formality. It's a frontline security challenge and a defining growth opportunity for MSPs and MSSPs who get ahead of it.  The Modern Perimeter Has Expanded  For decades, cybersecurity strategy revolved around a defined perimeter. Firewalls, endpoint controls, and identity management systems were deployed to protect assets within a known boundary.  That boundary has dissolved.  Today, client data lives in third-party SaaS applications, flows through vendor APIs, and is processed by subcontractors ...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "why-third-party-risk-is-the-biggest-gap-in-your-cl",
+      "source": "The Hacker News",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack",
+      "link": "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
+      "summary": "Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "european-commission-confirms-data-breach-linked-to",
+      "source": "SecurityWeek",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "TrueConf Zero-Day Exploited in Asian Government Attacks",
+      "link": "https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/",
+      "summary": "A Chinese threat actor exploited the video conferencing platform to perform reconnaissance, escalate privileges, and execute additional payloads.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trueconf-zero-day-exploited-in-asian-government-at",
+      "source": "SecurityWeek",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware",
+      "link": "https://www.securityweek.com/in-other-news-chatgpt-data-leak-android-rootkit-water-facility-hit-by-ransomware/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Symantec vulnerability, anti-ClickFix mechanism added to macOS, FBI hack classified as major incident.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-chatgpt-data-leak-android-rootkit-wa",
+      "source": "SecurityWeek",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "Critical ShareFile Flaws Lead to Unauthenticated RCE",
+      "link": "https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/",
+      "summary": "The vulnerabilities can be chained together to bypass authentication and upload arbitrary files to the server.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-sharefile-flaws-lead-to-unauthenticated-r",
+      "source": "SecurityWeek",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "Mobile Attack Surface Expands as Enterprises Lose Control",
+      "link": "https://www.securityweek.com/mobile-attack-surface-expands-as-enterprises-lose-control/",
+      "summary": "Shadow AI embedded in everyday apps, combined with outdated mobile devices and zero-click exploits, is creating a new and largely unseen mobile risk.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mobile-attack-surface-expands-as-enterprises-lose-",
+      "source": "SecurityWeek",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "React2Shell Exploited in Large-Scale Credential Harvesting Campaign",
+      "link": "https://www.securityweek.com/react2shell-exploited-in-large-scale-credential-harvesting-campaign/",
+      "summary": "Using automated scanning and the Nexus Listener collection framework, the hackers compromised over 750 systems.",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "react2shell-exploited-in-large-scale-credential-ha",
+      "source": "SecurityWeek",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
+      "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
+      "summary": "The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been conducted by North Korean threat actors.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "axios-npm-hack-used-fake-teams-error-fix-to-hijack",
+      "source": "BleepingComputer",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "Device code phishing attacks surge 37x as new kits spread online",
+      "link": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
+      "summary": "Device code phishing attacks that abuse the OAuth 2.0 Device Authorization Grant flow to hijack accounts have surged more than 37 times this year.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "device-code-phishing-attacks-surge-37x-as-new-kits",
+      "source": "BleepingComputer",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-05"
+    },
+    {
+      "title": "This $20 training bundle helps prepare you for the CISSP certification",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-20-training-bundle-helps-prepare-you-for-the-cissp-certification/",
+      "summary": "For cybersecurity professionals looking to move into higher roles or deepen their expertise, structured training can make a meaningful difference. The CISSP Security & Risk Management Training Bundle helps you train for this rigorous certification and is currently on sale for $19.99.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "this-20-training-bundle-helps-prepare-you-for-the-",
+      "source": "BleepingComputer",
+      "date": "2026-04-05"
+    }
+  ]
+}
