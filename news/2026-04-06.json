@@ -1,0 +1,220 @@
+{
+  "date": "2026-04-06",
+  "items": [
+    {
+      "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+      "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+      "summary": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil  (aka Sodinokibi ) ransomware-as-a-service (RaaS) operation.  One of the threat actors, who went by the alias UNKN , functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum. He has now been identified as Daniil Maksimovich Shchukin , a 31-year-old Russian national. He also went by the online monikers Oneiilk2, Oneillk2, Oneillk22, and GandCrab.  The development was reported  by independent security journalist Brian Krebs.  \"From early 2019 at the latest until at least July 2021, the wanted person, in cooperation with other individuals, acted as the leader of one of the largest global ransomware groups, known as GandCrab/REvil,\" BKA said. \"The perpetrators demanded large ransom payments in exchange for decrypting and not leaki...",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "bka-identifies-revil-leaders-behind-130-german-ran",
+      "source": "The Hacker News",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
+      "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
+      "summary": "Drift has revealed  that the April 1, 2026, attack that led to the theft of $285 million  was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that began in the fall of 2025.  The Solana-based decentralized exchange described it as \"an attack six months in the making,\" attributing it with medium confidence to a North Korean state-sponsored hacking group dubbed UNC4736 , which is also tracked under the cyptonyms AppleJeus, Citrine Sleet, Golden Chollima, and Gleaming Pisces.  The threat actor has a history  of targeting the cryptocurrency sector for financial theft since at least 2018. It's best known for the X_TRADER/3CX supply chain breach  in 2023 and the $53 million hack  of decentralized finance (DeFi) platform Radiant Capital  in October 2024.  \"The basis for this connection is both on-chain (f...",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "285-million-drift-hack-traced-to-six-month-dprk-so",
+      "source": "The Hacker News",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+      "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+      "summary": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy reverse shells, harvest credentials, and drop a persistent implant.  \"Every package contains three files (package.json, index.js, postinstall.js), has no description, repository, or homepage, and uses version 3.6.8 to appear as a mature Strapi v3 community plugin,\" SafeDep said .  All identified npm packages follow the same naming convention, starting with \"strapi-plugin-\" and then phrases like \"cron,\" \"database,\" or \"server\" to fool unsuspecting developers into downloading them. It's worth noting that the official Strapi plugins are scoped under \"@strapi/.\"  The packages, uploaded by four sock puppet accounts \"umarbek1233,\" \"kekylf12,\" \"tikeqemif26,\" and \"umar_bektembiev1...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "36-malicious-npm-packages-exploited-redis-postgres",
+      "source": "The Hacker News",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+      "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+      "summary": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the wild.  The vulnerability, tracked as CVE-2026-35616  (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation.  \"An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests,\" Fortinet said  in a Saturday advisory.  The issue affects FortiClient EMS versions 7.4.5 through 7.4.6. It's expected to be fully patched in the upcoming version 7.4.7, although the company has released a hotfix  to address it.    Simo Kohonen from Defused Cyber and Nguyen Duc Anh have been credited with discovering and reporting the flaw. In a post on X, Defused Cyber said  it observed zero-day exploitation of CVE-2026-35616 earlier this week. Accor...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-patches-actively-exploited-cve-2026-35616",
+      "source": "The Hacker News",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing",
+      "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
+      "summary": "A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025, following a two-year period of minimal targeting in the region.  The campaign has been attributed to TA416 , a cluster of activity that overlaps with DarkPeony, RedDelta, Red Lich, SmugX, UNC6384, and Vertigo Panda.  \"This TA416 activity included multiple waves of web bug and malware delivery campaigns against diplomatic missions to the European Union and NATO across a range of European countries,\" Proofpoint researchers Mark Kelly and Georgi Mladenov said .  \"Throughout this period, TA416 regularly altered its infection chain, including abusing Cloudflare Turnstile challenge pages, abusing OAuth redirects, and using C# project files, as well as frequently updating its custom PlugX payload.\"  TA416 has also been observed orchestrating multiple campaigns aimed at diplomatic and government entities in the Middle East following the outbreak...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "china-linked-ta416-targets-european-governments-wi",
+      "source": "The Hacker News",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers",
+      "link": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
+      "summary": "Threat actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Defender Security Research Team.  \"Instead of exposing command execution through URL parameters or request bodies, these web shells rely on threat actor-supplied cookie values to gate execution, pass instructions, and activate malicious functionality,\" the tech giant said .  The approach offers added stealth as it allows malicious code to stay dormant during normal application execution and activate the web shell logic only when specific cookie values are present. This behavior, Microsoft noted, extends to web requests, scheduled tasks, and trusted background workers.  The malicious activity takes advantage of the fact that cookie values are available at runtime through the $_COOKIE superglobal  variable, allowing attacker-supplied inputs to be consumed with...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-details-cookie-controlled-php-web-shells",
+      "source": "The Hacker News",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "Fortinet Rushes Emergency Fixes for Exploited Zero-Day",
+      "link": "https://www.securityweek.com/fortinet-rushes-emergency-fixes-for-exploited-zero-day/",
+      "summary": "The improper access control bug in FortiClient EMS allows unauthenticated attackers to execute arbitrary code remotely.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-rushes-emergency-fixes-for-exploited-zero",
+      "source": "SecurityWeek",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack",
+      "link": "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
+      "summary": "Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "european-commission-confirms-data-breach-linked-to",
+      "source": "SecurityWeek",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "TrueConf Zero-Day Exploited in Asian Government Attacks",
+      "link": "https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/",
+      "summary": "A Chinese threat actor exploited the video conferencing platform to perform reconnaissance, escalate privileges, and execute additional payloads.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trueconf-zero-day-exploited-in-asian-government-at",
+      "source": "SecurityWeek",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware",
+      "link": "https://www.securityweek.com/in-other-news-chatgpt-data-leak-android-rootkit-water-facility-hit-by-ransomware/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Symantec vulnerability, anti-ClickFix mechanism added to macOS, FBI hack classified as major incident.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-chatgpt-data-leak-android-rootkit-wa",
+      "source": "SecurityWeek",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "Critical ShareFile Flaws Lead to Unauthenticated RCE",
+      "link": "https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/",
+      "summary": "The vulnerabilities can be chained together to bypass authentication and upload arbitrary files to the server.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-sharefile-flaws-lead-to-unauthenticated-r",
+      "source": "SecurityWeek",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "Mobile Attack Surface Expands as Enterprises Lose Control",
+      "link": "https://www.securityweek.com/mobile-attack-surface-expands-as-enterprises-lose-control/",
+      "summary": "Shadow AI embedded in everyday apps, combined with outdated mobile devices and zero-click exploits, is creating a new and largely unseen mobile risk.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mobile-attack-surface-expands-as-enterprises-lose-",
+      "source": "SecurityWeek",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "Traffic violation scams switch to QR codes in new phishing texts",
+      "link": "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
+      "summary": "Scammers are sending fake \"Notice of Default\" traffic violation text messages impersonating state courts across the U.S., pressuring recipients to scan a QR code that leads to a phishing site demanding a $6.99 payment while stealing personal and financial information.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "traffic-violation-scams-switch-to-qr-codes-in-new-",
+      "source": "BleepingComputer",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "New FortiClient EMS flaw exploited in attacks, emergency patch released",
+      "link": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
+      "summary": "Fortinet has released an emergency weekend security update for a new critical FortiClient Enterprise Management Server (EMS) vulnerability that is actively exploited in attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "new-forticlient-ems-flaw-exploited-in-attacks-emer",
+      "source": "BleepingComputer",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "Hackers exploit React2Shell in automated credential theft campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+      "summary": "Hackers are running a large-scale campaign to steal credentials in an automated way after exploiting React2Shell (CVE-2025-55182) in vulnerable Next.js apps.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-exploit-react2shell-in-automated-credentia",
+      "source": "BleepingComputer",
+      "date": "2026-04-06"
+    }
+  ]
+}
