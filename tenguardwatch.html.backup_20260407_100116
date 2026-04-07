@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks</div><div class="ticker-item">$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation</div><div class="ticker-item">36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants</div><div class="ticker-item">Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS</div><div class="ticker-item">China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing</div><div class="ticker-item">Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers</div><div class="ticker-item">Fortinet Rushes Emergency Fixes for Exploited Zero-Day</div><div class="ticker-item">European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack</div><div class="ticker-item">TrueConf Zero-Day Exploited in Asian Government Attacks</div><div class="ticker-item">In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware</div><div class="ticker-item">Critical ShareFile Flaws Lead to Unauthenticated RCE</div><div class="ticker-item">Mobile Attack Surface Expands as Enterprises Lose Control</div><div class="ticker-item">Traffic violation scams switch to QR codes in new phishing texts</div><div class="ticker-item">New FortiClient EMS flaw exploited in attacks, emergency patch released</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Hackers exploit React2Shell in automated credential theft campaign</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil  (aka Sodinokibi ) ransomwa...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation</h3>
+                <p><strong>Summary:</strong> Drift has revealed  that the April 1, 2026, attack that led to the theft of $285 million  was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploit...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS</h3>
+                <p><strong>Summary:</strong> Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the wild.  The vulnerability, tracked as CVE-2026-35616  (CVSS score...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing</h3>
+                <p><strong>Summary:</strong> A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025, following a two-year period of minimal targeting in the region.  The campaign has be...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers</h3>
+                <p><strong>Summary:</strong> Threat actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Defender...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet Rushes Emergency Fixes for Exploited Zero-Day</h3>
+                <p><strong>Summary:</strong> The improper access control bug in FortiClient EMS allows unauthenticated attackers to execute arbitrary code remotely.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fortinet-rushes-emergency-fixes-for-exploited-zero-day/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fortinet-rushes-emergency-fixes-for-exploited-zero-day/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TrueConf Zero-Day Exploited in Asian Government Attacks</h3>
+                <p><strong>Summary:</strong> A Chinese threat actor exploited the video conferencing platform to perform reconnaissance, escalate privileges, and execute additional payloads.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: Symantec vulnerability, anti-ClickFix mechanism added to macOS, FBI hack classified as major incident.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-chatgpt-data-leak-android-rootkit-water-facility-hit-by-ransomware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-chatgpt-data-leak-android-rootkit-water-facility-hit-by-ransomware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical ShareFile Flaws Lead to Unauthenticated RCE</h3>
+                <p><strong>Summary:</strong> The vulnerabilities can be chained together to bypass authentication and upload arbitrary files to the server.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Mobile Attack Surface Expands as Enterprises Lose Control</h3>
+                <p><strong>Summary:</strong> Shadow AI embedded in everyday apps, combined with outdated mobile devices and zero-click exploits, is creating a new and largely unseen mobile risk.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/mobile-attack-surface-expands-as-enterprises-lose-control/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/mobile-attack-surface-expands-as-enterprises-lose-control/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Traffic violation scams switch to QR codes in new phishing texts</h3>
+                <p><strong>Summary:</strong> Scammers are sending fake "Notice of Default" traffic violation text messages impersonating state courts across the U.S., pressuring recipients to scan a QR code that leads to a phishing site demandin...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New FortiClient EMS flaw exploited in attacks, emergency patch released</h3>
+                <p><strong>Summary:</strong> Fortinet has released an emergency weekend security update for a new critical FortiClient Enterprise Management Server (EMS) vulnerability that is actively exploited in attacks.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers exploit React2Shell in automated credential theft campaign</h3>
+                <p><strong>Summary:</strong> Hackers are running a large-scale campaign to steal credentials in an automated way after exploiting React2Shell (CVE-2025-55182) in vulnerable Next.js apps.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
