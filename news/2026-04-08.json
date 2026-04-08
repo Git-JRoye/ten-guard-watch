@@ -1,0 +1,215 @@
+{
+  "date": "2026-04-08",
+  "items": [
+    {
+      "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
+      "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
+      "summary": "Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative called Project Glasswing  that will use a preview version of its new frontier model, Claude Mythos , to find and address security vulnerabilities.  The model will be used  by a small set of organizations, including Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorgan Chase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks, along with Anthropic, to secure critical software.  The company said it's forming this initiative in response to capabilities observed in its general-purpose frontier model that demonstrate a \"level of coding capability where they can surpass all but the most skilled humans at finding and exploiting software vulnerabilities.\" Because of its cybersecurity capabilities and concerns that they could be abused, Anthropic has opted not to make the model generall...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "anthropics-claude-mythos-finds-thousands-of-zero-d",
+      "source": "The Hacker News",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust",
+      "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
+      "summary": "The North Korea-linked persistent campaign known as Contagious Interview  has spread its tentacles by publishing malicious packages targeting the Go, Rust, and PHP ecosystems.  \"The threat actor's packages were designed to impersonate legitimate developer tooling [...], while quietly functioning as malware loaders, extending Contagious Interview’s established playbook into a coordinated cross-ecosystem supply chain operation,\" Socket security researcher Kirill Boychenko said  in a Tuesday report.  The complete list of identified packages is as follows -   npm: dev-log-core, logger-base, logkitx, pino-debugger, debug-fmt, debug-glitz  PyPI: logutilkit, apachelicense, fluxhttp, license-utils-kit  Go: github[.]com/golangorg/formstash, github[.]com/aokisasakidev/mit-license-pkg  Rust: logtrace  Packagist: golangorg/logkit    These loaders are designed to fetch platform-specific second-stage payloads, which turn out to be a piece of malware with infostealer and remo...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "n-korean-hackers-spread-1700-malicious-packages-ac",
+      "source": "The Hacker News",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs",
+      "link": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
+      "summary": "Iran-affiliated cyber actors are targeting internet-facing operational technology (OT) devices across critical infrastructures in the U.S., including programmable logic controllers (PLCs), cybersecurity and intelligence agencies warned  Tuesday.  \"These attacks have led to diminished PLC functionality, manipulation of display data and, in some cases, operational disruption and financial loss,\" the U.S. Federal Bureau of Investigation (FBI) said  in a post on X.  The agencies said the campaign  is part of a recent escalation  in cyber attacks orchestrated by Iranian hacking groups against U.S. organizations in response to the ongoing conflict between Iran, and the U.S. and Israel.  Specifically, the activity has led to PLC disruptions across several U.S. critical infrastructure sectors via what the authoring agencies described as malicious interactions with the project file and manipulation of data on human-machine interface (HMI) and supervisory control an...",
+      "tags": [
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "iran-linked-hackers-disrupt-us-critical-infrastruc",
+      "source": "The Hacker News",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign",
+      "link": "https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html",
+      "summary": "The Russia-linked threat actor known as APT28  (aka Forest Blizzard) has been linked to a new campaign that has compromised insecure MikroTik and TP-Link routers and modified their settings to turn them into malicious infrastructure under their control as part of a cyber espionage campaign since at least May 2025.  The large-scale exploitation campaign has been codenamed   FrostArmada  by Lumen's Black Lotus Labs, with Microsoft describing  it as an effort to exploit vulnerable home and small office (SOHO) internet devices to hijack DNS traffic and enable passive collection of network data.  \"Their technique modified DNS settings on compromised routers to hijack local network traffic to capture and exfiltrate authentication credentials,\" Black Lotus Labs said in a report shared with The Hacker News.  \"When targeted domains were requested by a user, the actor redirected traffic to an attacker-in-the-middle (AitM) node, where those credentials were harv...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russian-state-linked-apt28-exploits-soho-routers-i",
+      "source": "The Hacker News",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk",
+      "link": "https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html",
+      "summary": "In the rapid evolution of the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security leaders: Identity programs are maturing, yet the risk is actually increasing .  According to new research from the Ponemon Institute , hundreds of applications within the typical enterprise remain disconnected from centralized identity systems. These \"dark matter\" applications operate outside the reach of standard governance, creating a massive, unmanaged attack surface that is now being aggressively exploited—not just by human threat actors, but by autonomous AI agents .  The Invisible Threat: Disconnected Apps & AI Amplification  Modern enterprises have invested heavily in IAM and Zero Trust, but the \"last mile\" of identity—legacy apps, localized accounts, and siloed SaaS—remains a stubborn blind spot.  The entry of AI into the workforce has turned this gap from a compliance headache into a critical vul...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "webinar-how-to-close-identity-gaps-in-2026-before-",
+      "source": "The Hacker News",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
+      "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
+      "summary": "A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins ( AuthZ ) under specific circumstances.  The vulnerability, tracked as CVE-2026-34040  (CVSS score: 8.8), stems from an incomplete fix for CVE-2024-41110 , a maximum-severity vulnerability in the same component that came to light in July 2024.  \"Using a specially-crafted API request, an attacker could make the Docker daemon forward the request to an authorization plugin without the body,\" Docker Engine maintainers said  in an advisory released late last month. \"The authorization plugin may allow a request which it would have otherwise denied if the body had been forwarded to it.\"  \"Anyone who depends on authorization plugins that introspect the request body to make access control decisions is potentially impacted.\"  Multiple security vulnerabilities, including Asim Viladi Oglu Manizada, Cody, Oleh Konko, and Vladimir...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "docker-cve-2026-34040-lets-attackers-bypass-author",
+      "source": "The Hacker News",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Iran-Linked Hackers Disrupt US Critical Infrastructure via PLC Attacks",
+      "link": "https://www.securityweek.com/iran-linked-hackers-disrupt-us-critical-infrastructure-via-plc-attacks/",
+      "summary": "Federal agencies warn attackers are manipulating PLC and SCADA systems across multiple sectors, triggering operational disruptions and raising concerns over broader OT targeting.",
+      "tags": [
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "iran-linked-hackers-disrupt-us-critical-infrastruc",
+      "source": "SecurityWeek",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Anthropic Unveils ‘Claude Mythos’ – A Cybersecurity Breakthrough That Could Also Supercharge Attacks",
+      "link": "https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/",
+      "summary": "New AI model drives Project Glasswing, a effort to secure critical software before advanced capabilities fall into the wrong hands.",
+      "tags": [
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "anthropic-unveils-claude-mythos-a-cybersecurity-br",
+      "source": "SecurityWeek",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "The New Rules of Engagement: Matching Agentic Attack Speed",
+      "link": "https://www.securityweek.com/the-new-rules-of-engagement-matching-agentic-attack-speed/",
+      "summary": "The cybersecurity response to AI-enabled nation-state threats cannot be incremental. It must be architectural.",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-new-rules-of-engagement-matching-agentic-attac",
+      "source": "SecurityWeek",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Trent AI Emerges From Stealth With $13 Million in Funding",
+      "link": "https://www.securityweek.com/trent-ai-emerges-from-stealth-with-13-million-in-funding/",
+      "summary": "The startup has created a layered security solution aiming to secure AI agents throughout their entire lifecycle.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "trent-ai-emerges-from-stealth-with-13-million-in-f",
+      "source": "SecurityWeek",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Critical Flowise Vulnerability in Attacker Crosshairs",
+      "link": "https://www.securityweek.com/critical-flowise-vulnerability-in-attacker-crosshairs/",
+      "summary": "The improper validation of user-supplied JavaScript code allows attackers to execute arbitrary code and access the file system.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-flowise-vulnerability-in-attacker-crossha",
+      "source": "SecurityWeek",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Severe StrongBox Vulnerability Patched in Android",
+      "link": "https://www.securityweek.com/severe-strongbox-vulnerability-patched-in-android/",
+      "summary": "A critical DoS vulnerability in the Framework component of Android has also been fixed with the latest update.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "severe-strongbox-vulnerability-patched-in-android",
+      "source": "SecurityWeek",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Microsoft rolls out fix for broken Windows Start Menu search",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/",
+      "summary": "Microsoft has pushed a server-side fix for a known issue that broke the Windows Start Menu search feature on some Windows 11 23H2 devices.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-rolls-out-fix-for-broken-windows-start-m",
+      "source": "BleepingComputer",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "Hackers exploit critical flaw in Ninja Forms WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/",
+      "summary": "A critical vulnerability in the Ninja Forms File Uploads premium add-on for WordPress allows uploading arbitrary files without authentication, which can lead to remote code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "hackers-exploit-critical-flaw-in-ninja-forms-wordp",
+      "source": "BleepingComputer",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-08"
+    },
+    {
+      "title": "FBI: Americans lost a record $21 billion to cybercrime last year",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/",
+      "summary": "U.S. victims lost nearly $21 billion to cyber-enabled crimes last year, driven primarily by investment scams, business email compromise, tech support fraud, and data breaches, the Federal Bureau of Investigation says.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-americans-lost-a-record-21-billion-to-cybercri",
+      "source": "BleepingComputer",
+      "date": "2026-04-08"
+    }
+  ]
+}
