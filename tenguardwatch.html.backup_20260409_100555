@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems</div><div class="ticker-item">N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust</div><div class="ticker-item">Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs</div><div class="ticker-item">Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign</div><div class="ticker-item">[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk</div><div class="ticker-item">Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access</div><div class="ticker-item">Iran-Linked Hackers Disrupt US Critical Infrastructure via PLC Attacks</div><div class="ticker-item">Anthropic Unveils ‘Claude Mythos’ – A Cybersecurity Breakthrough That Could Also Supercharge Attacks</div><div class="ticker-item">The New Rules of Engagement: Matching Agentic Attack Speed</div><div class="ticker-item">Trent AI Emerges From Stealth With $13 Million in Funding</div><div class="ticker-item">Critical Flowise Vulnerability in Attacker Crosshairs</div><div class="ticker-item">Severe StrongBox Vulnerability Patched in Android</div><div class="ticker-item">Microsoft rolls out fix for broken Windows Start Menu search</div><div class="ticker-item">Hackers exploit critical flaw in Ninja Forms WordPress plugin</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">FBI: Americans lost a record $21 billion to cybercrime last year</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems</h3>
+                <p><strong>Summary:</strong> Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative called Project Glasswing  that will use a preview version of its new frontier model, Claude Mythos , to find and...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust</h3>
+                <p><strong>Summary:</strong> The North Korea-linked persistent campaign known as Contagious Interview  has spread its tentacles by publishing malicious packages targeting the Go, Rust, and PHP ecosystems.  "The threat actor's pac...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs</h3>
+                <p><strong>Summary:</strong> Iran-affiliated cyber actors are targeting internet-facing operational technology (OT) devices across critical infrastructures in the U.S., including programmable logic controllers (PLCs), cybersecuri...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign</h3>
+                <p><strong>Summary:</strong> The Russia-linked threat actor known as APT28  (aka Forest Blizzard) has been linked to a new campaign that has compromised insecure MikroTik and TP-Link routers and modified their settings to turn th...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk</h3>
+                <p><strong>Summary:</strong> In the rapid evolution of the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security leaders: Identity programs are maturing, yet the risk is actually increasing .  According ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access</h3>
+                <p><strong>Summary:</strong> A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins ( AuthZ ) under specific circumstances.  The vulnerability, tra...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Iran-Linked Hackers Disrupt US Critical Infrastructure via PLC Attacks</h3>
+                <p><strong>Summary:</strong> Federal agencies warn attackers are manipulating PLC and SCADA systems across multiple sectors, triggering operational disruptions and raising concerns over broader OT targeting.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/iran-linked-hackers-disrupt-us-critical-infrastructure-via-plc-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/iran-linked-hackers-disrupt-us-critical-infrastructure-via-plc-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Anthropic Unveils ‘Claude Mythos’ – A Cybersecurity Breakthrough That Could Also Supercharge Attacks</h3>
+                <p><strong>Summary:</strong> New AI model drives Project Glasswing, a effort to secure critical software before advanced capabilities fall into the wrong hands.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The New Rules of Engagement: Matching Agentic Attack Speed</h3>
+                <p><strong>Summary:</strong> The cybersecurity response to AI-enabled nation-state threats cannot be incremental. It must be architectural.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/the-new-rules-of-engagement-matching-agentic-attack-speed/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/the-new-rules-of-engagement-matching-agentic-attack-speed/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Trent AI Emerges From Stealth With $13 Million in Funding</h3>
+                <p><strong>Summary:</strong> The startup has created a layered security solution aiming to secure AI agents throughout their entire lifecycle.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/trent-ai-emerges-from-stealth-with-13-million-in-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/trent-ai-emerges-from-stealth-with-13-million-in-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Flowise Vulnerability in Attacker Crosshairs</h3>
+                <p><strong>Summary:</strong> The improper validation of user-supplied JavaScript code allows attackers to execute arbitrary code and access the file system.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-flowise-vulnerability-in-attacker-crosshairs/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-flowise-vulnerability-in-attacker-crosshairs/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Severe StrongBox Vulnerability Patched in Android</h3>
+                <p><strong>Summary:</strong> A critical DoS vulnerability in the Framework component of Android has also been fixed with the latest update.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/severe-strongbox-vulnerability-patched-in-android/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/severe-strongbox-vulnerability-patched-in-android/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft rolls out fix for broken Windows Start Menu search</h3>
+                <p><strong>Summary:</strong> Microsoft has pushed a server-side fix for a known issue that broke the Windows Start Menu search feature on some Windows 11 23H2 devices.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers exploit critical flaw in Ninja Forms WordPress plugin</h3>
+                <p><strong>Summary:</strong> A critical vulnerability in the Ninja Forms File Uploads premium add-on for WordPress allows uploading arbitrary files without authentication, which can lead to remote code execution.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI: Americans lost a record $21 billion to cybercrime last year</h3>
+                <p><strong>Summary:</strong> U.S. victims lost nearly $21 billion to cyber-enabled crimes last year, driven primarily by investment scams, business email compromise, tech support fraud, and data breaches, the Federal Bureau of In...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
