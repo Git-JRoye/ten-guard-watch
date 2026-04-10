@@ -1,0 +1,215 @@
+{
+  "date": "2026-04-10",
+  "items": [
+    {
+      "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows",
+      "link": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
+      "summary": "Google has made Device Bound Session Credentials  ( DBSC ) generally available to all Windows users of its Chrome web browser, months after it began testing  the security feature in open beta.  The public availability is currently limited to Windows users on Chrome 146, with macOS expansion planned in an upcoming Chrome release.  \"This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape,\" Google's Chrome and Account Security teams said  in a Thursday post.  Session theft involves the covert exfiltration of session cookies from the web browser, either by gathering existing ones or waiting for a victim to log in to an account, to an attacker-controlled server.   Typically, this happens when users inadvertently download information-stealing malware into their systems. These stealer malware families – of which there are many, such as ...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-rolls-out-dbsc-in-chrome-146-to-block-sessi",
+      "source": "The Hacker News",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers",
+      "link": "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
+      "summary": "Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor.  The incident impacts Smart Slider 3 Pro version 3.5.1.35 for WordPress, per WordPress security company Patchstack. Smart Slider 3 is a popular WordPress slider plugin with more than 800,000 active installations across its free and Pro editions.  \"An unauthorized party gained access to Nextend’s update infrastructure and distributed a fully attacker-authored build through the official update channel,\" the company said . \"Any site that updated to 3.5.1.35 between its release on April 7, 2026, and its detection approximately 6 hours later received a fully weaponized remote access toolkit.\"  Nextend, which maintains the plugin, said  an unauthorized party gained unauthorized access to its update system and pushed a malicious version (3.5.1.35 Pro) that remained accessible for approximately six hours, before ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "backdoored-smart-slider-3-pro-update-distributed-v",
+      "source": "The Hacker News",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs",
+      "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
+      "summary": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called  EngageLab SDK  that could have put millions of cryptocurrency wallet users at risk.  \"This flaw allows apps on the same device to bypass Android security sandbox and gain unauthorized access to private data,\" the Microsoft Defender Security Research Team said  in a report published today.  EngageLab SDK offers a push notification service , which, according to its website, is designed to deliver \"timely notifications\" based on user behavior already tracked by developers. Once integrated into an app, the SDK offers a way to send personalized notifications and drive real-time engagement.   The tech giant said a significant number of apps using the SDK are part of the cryptocurrency and digital wallet ecosystem, and that the affected wallet apps accounted for more than 30 million ins...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "engagelab-sdk-flaw-exposed-50m-android-users-inclu",
+      "source": "The Hacker News",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
+      "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
+      "summary": "A previously undocumented threat cluster dubbed UAT-10362  has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to deploy a new Lua-based malware called LucidRook.  \"LucidRook is a sophisticated stager that embeds a Lua interpreter and Rust-compiled libraries within a dynamic-link library (DLL) to download and execute staged Lua bytecode payloads,\" Cisco Talos researcher Ashley Shen said .  The cybersecurity company said it discovered the activity in October 2025, with the attack using RAR or 7-Zip archives lures to deliver a dropper called LucidPawn, which then opens a decoy file and launches LucidRook. A notable characteristic of the intrusion set is the use of DLL side-loading to execute both LucidPawn and LucidRook.   There are two distinct infection chains that lead to LucidRook, one using a Windows Shortcut (LNK) file with a PDF icon and another involving an executable that masquer...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "uat-10362-targets-taiwanese-ngos-with-lucidrook-ma",
+      "source": "The Hacker News",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
+      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
+      "summary": "Thursday. Another week, another batch of things that probably should've been caught sooner but weren't.  This one's got some range — old vulnerabilities getting new life, a few \"why was that even possible\" moments, attackers leaning on platforms and tools you'd normally trust without thinking twice. Quiet escalations more than loud zero-days, but the kind that matter more in practice anyway.  Mix of malware, infrastructure exposure, AI-adjacent weirdness, and some supply chain stuff that's... not great. Let's get into it.                     Resilient hybrid botnet surge             Phorpiex Botnet Detailed                  A new variant of the botnet known as Phorpiex  (aka Trik) has been observed, using a hybrid communication model that combines traditional C2 HTTP polling with a peer-to-peer (P2P) protocol over both TCP and UDP to ensure operational continuity in the face of server takedowns. The malware acts as a conduit for encrypted payloads, ma...",
+      "tags": [
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "threatsday-bulletin-hybrid-p2p-botnet-13-year-old-",
+      "source": "The Hacker News",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "The Hidden Security Risks of Shadow AI in Enterprises",
+      "link": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
+      "summary": "As AI tools become more accessible, employees are adopting them without formal approval from IT and security teams. While these tools may boost productivity, automate tasks, or fill gaps in existing workflows, they also operate outside the visibility of security teams, bypassing controls and creating new blind spots in what is known as shadow AI. While similar to the phenomenon of shadow IT, shadow AI goes beyond unapproved software by involving systems that process, generate, and potentially retain sensitive data. The result is a category of risk that most organizations are not yet equipped to govern: uncontrolled data exposure, expanded attack surfaces, and weakened identity security.  Why shadow AI is spreading so quickly  Shadow AI is expanding rapidly across organizations because it is easy to adopt and instantly useful, yet largely unregulated. Unlike traditional enterprise software, most AI tools require little to no setup, allowing employ...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-hidden-security-risks-of-shadow-ai-in-enterpri",
+      "source": "The Hacker News",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "MITRE Releases Fight Fraud Framework",
+      "link": "https://www.securityweek.com/mitre-releases-fight-fraud-framework/",
+      "summary": "The document provides a behavior-based model of the tactics and techniques employed by fraudsters.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "mitre-releases-fight-fraud-framework",
+      "source": "SecurityWeek",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "Critical Marimo Flaw Exploited Hours After Public Disclosure",
+      "link": "https://www.securityweek.com/critical-marimo-flaw-exploited-hours-after-public-disclosure/",
+      "summary": "Within nine hours, a hacker built an exploit from the unauthenticated bug’s advisory and started using it in the wild.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-marimo-flaw-exploited-hours-after-public-",
+      "source": "SecurityWeek",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "Google Rolls Out Cookie Theft Protections in Chrome",
+      "link": "https://www.securityweek.com/google-rolls-out-cookie-theft-protections-in-chrome/",
+      "summary": "New Device Bound Session Credentials render stolen session cookies unusable by cryptographically binding authentication.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-rolls-out-cookie-theft-protections-in-chrom",
+      "source": "SecurityWeek",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "Microsoft Finds Vulnerability Exposing Millions of Android Crypto Wallet Users",
+      "link": "https://www.securityweek.com/microsoft-finds-vulnerability-exposing-millions-of-android-crypto-wallet-users/",
+      "summary": "The security hole affected an EngageLab SDK and it was reported by Microsoft to the vendor one year ago.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-finds-vulnerability-exposing-millions-of",
+      "source": "SecurityWeek",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "Apple Intelligence AI Guardrails Bypassed in New Attack",
+      "link": "https://www.securityweek.com/apple-intelligence-ai-guardrails-bypassed-in-new-attack/",
+      "summary": "RSAC researchers hacked Apple Intelligence using the Neural Exect method and Unicode manipulation.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apple-intelligence-ai-guardrails-bypassed-in-new-a",
+      "source": "SecurityWeek",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "Can We Trust AI? No – But Eventually We Must",
+      "link": "https://www.securityweek.com/can-we-trust-ai-no-but-eventually-we-must/",
+      "summary": "From hallucinations and bias to model collapse and adversarial abuse, today’s AI is built on probability rather than truth, yet enterprises are deploying it at speed without fully understanding the risks.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "can-we-trust-ai-no-but-eventually-we-must",
+      "source": "SecurityWeek",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "New ‘LucidRook’ malware used in targeted attacks on NGOs, universities",
+      "link": "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
+      "summary": "A new Lua-based malware, called LucidRook, is being used in spear-phishing campaigns targeting non-governmental organizations and universities in Taiwan.",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-lucidrook-malware-used-in-targeted-attacks-on-",
+      "source": "BleepingComputer",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "New VENOM phishing attacks steal senior executives' Microsoft logins",
+      "link": "https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/",
+      "summary": "Threat actors using a previously undocumented phishing-as-a-service (PhaaS) platform called \"VENOM\" are targeting credentials of C-suite executives across multiple industries.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-venom-phishing-attacks-steal-senior-executives",
+      "source": "BleepingComputer",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-10"
+    },
+    {
+      "title": "Healthcare IT solutions provider ChipSoft hit by ransomware attack",
+      "link": "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
+      "summary": "Dutch healthcare software vendor ChipSoft has been impacted by a ransomware attack that forced the company to take offline its website and digital services for patients and healthcare providers.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "healthcare-it-solutions-provider-chipsoft-hit-by-r",
+      "source": "BleepingComputer",
+      "date": "2026-04-10"
+    }
+  ]
+}
