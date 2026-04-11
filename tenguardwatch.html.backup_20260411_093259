@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows</div><div class="ticker-item">Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers</div><div class="ticker-item">EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs</div><div class="ticker-item">UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns</div><div class="ticker-item">ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories</div><div class="ticker-item">The Hidden Security Risks of Shadow AI in Enterprises</div><div class="ticker-item">MITRE Releases Fight Fraud Framework</div><div class="ticker-item">Critical Marimo Flaw Exploited Hours After Public Disclosure</div><div class="ticker-item">Google Rolls Out Cookie Theft Protections in Chrome</div><div class="ticker-item">Microsoft Finds Vulnerability Exposing Millions of Android Crypto Wallet Users</div><div class="ticker-item">Apple Intelligence AI Guardrails Bypassed in New Attack</div><div class="ticker-item">Can We Trust AI? No – But Eventually We Must</div><div class="ticker-item">New ‘LucidRook’ malware used in targeted attacks on NGOs, universities</div><div class="ticker-item">New VENOM phishing attacks steal senior executives' Microsoft logins</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Healthcare IT solutions provider ChipSoft hit by ransomware attack</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows</h3>
+                <p><strong>Summary:</strong> Google has made Device Bound Session Credentials  ( DBSC ) generally available to all Windows users of its Chrome web browser, months after it began testing  the security feature in open beta.  The pu...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers</h3>
+                <p><strong>Summary:</strong> Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor.  The incident impacts Smart Slider 3 ...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs</h3>
+                <p><strong>Summary:</strong> Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called  EngageLab SDK  that could have put millions of cryptocurrenc...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns</h3>
+                <p><strong>Summary:</strong> A previously undocumented threat cluster dubbed UAT-10362  has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to deplo...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories</h3>
+                <p><strong>Summary:</strong> Thursday. Another week, another batch of things that probably should've been caught sooner but weren't.  This one's got some range — old vulnerabilities getting new life, a few "why was that even poss...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Hidden Security Risks of Shadow AI in Enterprises</h3>
+                <p><strong>Summary:</strong> As AI tools become more accessible, employees are adopting them without formal approval from IT and security teams. While these tools may boost productivity, automate tasks, or fill gaps in existing w...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MITRE Releases Fight Fraud Framework</h3>
+                <p><strong>Summary:</strong> The document provides a behavior-based model of the tactics and techniques employed by fraudsters.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/mitre-releases-fight-fraud-framework/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/mitre-releases-fight-fraud-framework/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Marimo Flaw Exploited Hours After Public Disclosure</h3>
+                <p><strong>Summary:</strong> Within nine hours, a hacker built an exploit from the unauthenticated bug’s advisory and started using it in the wild.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-marimo-flaw-exploited-hours-after-public-disclosure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-marimo-flaw-exploited-hours-after-public-disclosure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Rolls Out Cookie Theft Protections in Chrome</h3>
+                <p><strong>Summary:</strong> New Device Bound Session Credentials render stolen session cookies unusable by cryptographically binding authentication.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-rolls-out-cookie-theft-protections-in-chrome/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-rolls-out-cookie-theft-protections-in-chrome/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Finds Vulnerability Exposing Millions of Android Crypto Wallet Users</h3>
+                <p><strong>Summary:</strong> The security hole affected an EngageLab SDK and it was reported by Microsoft to the vendor one year ago.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-finds-vulnerability-exposing-millions-of-android-crypto-wallet-users/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-finds-vulnerability-exposing-millions-of-android-crypto-wallet-users/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Intelligence AI Guardrails Bypassed in New Attack</h3>
+                <p><strong>Summary:</strong> RSAC researchers hacked Apple Intelligence using the Neural Exect method and Unicode manipulation.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/apple-intelligence-ai-guardrails-bypassed-in-new-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/apple-intelligence-ai-guardrails-bypassed-in-new-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Can We Trust AI? No – But Eventually We Must</h3>
+                <p><strong>Summary:</strong> From hallucinations and bias to model collapse and adversarial abuse, today’s AI is built on probability rather than truth, yet enterprises are deploying it at speed without fully understanding the ri...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/can-we-trust-ai-no-but-eventually-we-must/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/can-we-trust-ai-no-but-eventually-we-must/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New ‘LucidRook’ malware used in targeted attacks on NGOs, universities</h3>
+                <p><strong>Summary:</strong> A new Lua-based malware, called LucidRook, is being used in spear-phishing campaigns targeting non-governmental organizations and universities in Taiwan.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New VENOM phishing attacks steal senior executives' Microsoft logins</h3>
+                <p><strong>Summary:</strong> Threat actors using a previously undocumented phishing-as-a-service (PhaaS) platform called "VENOM" are targeting credentials of C-suite executives across multiple industries.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Healthcare IT solutions provider ChipSoft hit by ransomware attack</h3>
+                <p><strong>Summary:</strong> Dutch healthcare software vendor ChipSoft has been impacted by a ransomware attack that forced the company to take offline its website and digital services for patients and healthcare providers.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
