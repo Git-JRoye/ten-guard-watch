@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads</div><div class="ticker-item">Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621</div><div class="ticker-item">Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data</div><div class="ticker-item">GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs</div><div class="ticker-item">Browser Extensions Are the New AI Consumption Channel That No One Is Talking About</div><div class="ticker-item">Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows</div><div class="ticker-item">Adobe Patches Reader Zero-Day Exploited for Months</div><div class="ticker-item">In Other News: Cyberattack Stings Stryker, Windows Zero-Day, China Supercomputer Hack</div><div class="ticker-item">Juniper Networks Patches Dozens of Junos OS Vulnerabilities</div><div class="ticker-item">Industry Reactions to Iran Hacking ICS in Critical Infrastructure: Feedback Friday</div><div class="ticker-item">Orthanc DICOM Vulnerabilities Lead to Crashes, RCE</div><div class="ticker-item">Chrome 147 Patches 60 Vulnerabilities, Including Two Critical Flaws Worth $86,000</div><div class="ticker-item">Over 20,000 crypto fraud victims identified in international crackdown</div><div class="ticker-item">This offer gives you lifetime access to all Babbel languages</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">ChatGPT rolls out new $100 Pro subscription to challenge Claude</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data</div><div class="ticker-item">GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs</div><div class="ticker-item">Browser Extensions Are the New AI Consumption Channel That No One Is Talking About</div><div class="ticker-item">Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows</div><div class="ticker-item">Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure</div><div class="ticker-item">Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers</div><div class="ticker-item">In Other News: Cyberattack Stings Stryker, Windows Zero-Day, China Supercomputer Hack</div><div class="ticker-item">Juniper Networks Patches Dozens of Junos OS Vulnerabilities</div><div class="ticker-item">Industry Reactions to Iran Hacking ICS in Critical Infrastructure: Feedback Friday</div><div class="ticker-item">Orthanc DICOM Vulnerabilities Lead to Crashes, RCE</div><div class="ticker-item">Chrome 147 Patches 60 Vulnerabilities, Including Two Critical Flaws Worth $86,000</div><div class="ticker-item">MITRE Releases Fight Fraud Framework</div><div class="ticker-item">ChatGPT rolls out new $100 Pro subscription to challenge Claude</div><div class="ticker-item">Nearly 4,000 US industrial devices exposed to Iranian cyberattacks</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Analysis of one billion CISA KEV remediation records exposes limits of human-scale security</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads</h3>
-                <p><strong>Summary:</strong> Unknown threat actors compromised CPUID ("cpuid[.]com"), a website that hosts popular hardware monitoring tools like CPU-Z, HWMonitor, HWMonitor Pro, and PerfMonitor, for less than 24 hours to serve m...</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621</h3>
-                <p><strong>Summary:</strong> Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that has come under active exploitation in the wild.  The vulnerability, assigned the CVE identifier CVE-2026-346...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data</h3>
                 <p><strong>Summary:</strong> Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global geolocation ...</p>
@@ -91,11 +77,18 @@
                 <a href="https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Adobe Patches Reader Zero-Day Exploited for Months</h3>
-                <p><strong>Summary:</strong> The vulnerability is tracked as CVE-2026-34621 and Adobe has confirmed that it can be exploited for arbitrary code execution.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/adobe-patches-reader-zero-day-exploited-for-months/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/adobe-patches-reader-zero-day-exploited-for-months/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure</h3>
+                <p><strong>Summary:</strong> A critical security vulnerability in Marimo , an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according to findings  from Sysdig....</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers</h3>
+                <p><strong>Summary:</strong> Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor.  The incident impacts Smart Slider 3 ...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: Cyberattack Stings Stryker, Windows Zero-Day, China Supercomputer Hack</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/chrome-147-patches-60-vulnerabilities-including-two-critical-flaws-worth-86000/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Over 20,000 crypto fraud victims identified in international crackdown</h3>
-                <p><strong>Summary:</strong> An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United State...</p>
+                <h3>MITRE Releases Fight Fraud Framework</h3>
+                <p><strong>Summary:</strong> The document provides a behavior-based model of the tactics and techniques employed by fraudsters.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/mitre-releases-fight-fraud-framework/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/mitre-releases-fight-fraud-framework/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This offer gives you lifetime access to all Babbel languages</h3>
-                <p><strong>Summary:</strong> If you want a more practical way to learn a foreign language, Babbel is now offering a lifetime subscription to all their language lessons for $159 (down from $646.20).</p>
+                <h3>ChatGPT rolls out new $100 Pro subscription to challenge Claude</h3>
+                <p><strong>Summary:</strong> OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-offer-gives-you-lifetime-access-to-all-babbel-languages/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-offer-gives-you-lifetime-access-to-all-babbel-languages/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nearly 4,000 US industrial devices exposed to Iranian cyberattacks</h3>
+                <p><strong>Summary:</strong> The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manufac...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>ChatGPT rolls out new $100 Pro subscription to challenge Claude</h3>
-                <p><strong>Summary:</strong> OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Analysis of one billion CISA KEV remediation records exposes limits of human-scale security</h3>
+                <p><strong>Summary:</strong> Analysis of 1 billion CISA KEV remediation records reveal a breaking point for human-scale security. Qualys shows most critical flaws are exploited before defenders can patch them.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
