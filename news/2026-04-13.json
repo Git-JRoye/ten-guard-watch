@@ -1,0 +1,213 @@
+{
+  "date": "2026-04-13",
+  "items": [
+    {
+      "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
+      "link": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+      "summary": "The North Korean hacking group tracked as APT37  (aka ScarCruft) has been attributed to a fresh multi-stage, social engineering campaign in which threat actors approached targets on Facebook and added them as friends on the social media platform, turning the trust-building exercise into a delivery channel for a remote access trojan called RokRAT .  \"The threat actor used two Facebook accounts with their location set to Pyongyang and Pyongsong, North Korea, to identify and screen targets,\" the Genians Security Center (GSC) said  in a technical breakdown of the campaign. \"After building trust through friend requests, the actor moved the conversation to Messenger and used specific topics to lure targets as part of the initial social engineering stage of the attack.\"  Central to the attack is the use of what the GSC describes as pretexting, a tactic where the threat actors aim to trick unsuspecting users into installing a dedicated PDF viewer, claiming the software...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "north-koreas-apt37-uses-facebook-social-engineerin",
+      "source": "The Hacker News",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+      "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+      "summary": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised.  \"Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,\" OpenAI said  in a post last week. \"We found no evidence that OpenAI user data was accessed, that our systems or intellectual property were compromised, or that our software was altered.\"  The disclosure comes a little over a week after Google Threat Intelligence Group (GTIG) attributed the supply chain compromise  of the popular npm package to a North Korean hacking group it tracks as UNC1069 .  The attack enabled the threat actors to hijack the package maintainer's npm account to push two poisoned versions 1.14.1 and 0.30.4 that came embedded with a malicious dependency named \"plain-crypto-js,\" which depl...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "openai-revokes-macos-app-certificate-after-malicio",
+      "source": "The Hacker News",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads",
+      "link": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
+      "summary": "Unknown threat actors compromised CPUID (\"cpuid[.]com\"), a website that hosts popular hardware monitoring tools like CPU-Z, HWMonitor, HWMonitor Pro, and PerfMonitor, for less than 24 hours to serve malicious executables for the software and deploy a remote access trojan called STX RAT.  The incident lasted from approximately April 9, 15:00 UTC, to about April 10, 10:00 UTC, with the download URLs for CPU-Z and HWMonitor installers replaced with links to malicious websites.  In a post  shared on X, CPUID confirmed the breach, attributing it to a compromise of a \"secondary feature (basically a side API)\" that caused the main site to randomly display malicious links. It's worth noting that the attack did not impact its signed original files.   According to Kaspersky , the names of the rogue websites are as follows -   cahayailmukreatif.web[.]id  pub-45c2577dbd174292a02137c18e7b1b5a.r2[.]dev  transitopalermo[.]com  vatrobran[.]hr   \"The t...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cpuid-breach-distributes-stx-rat-via-trojanized-cp",
+      "source": "The Hacker News",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621",
+      "link": "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
+      "summary": "Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that has come under active exploitation in the wild.  The vulnerability, assigned the CVE identifier CVE-2026-34621 , carries a CVSS score of 8.6 out of 10.0. Successful exploitation of the flaw could allow an attacker to run malicious code on affected installations.  It has been described as a case of prototype pollution  that could result in arbitrary code execution. Prototype pollution refers to a JavaScript security vulnerability  that permits an attacker to manipulate an application'sobjects and properties.   The issue impacts the following products and versions for both Windows and macOS -   Acrobat DC versions 26.001.21367 and earlier (Fixed in 26.001.21411)  Acrobat Reader DC versions 26.001.21367 and earlier (Fixed in 26.001.21411)  Acrobat 2024 versions 24.001.30356 and earlier (Fixed in 24.001.30362 for Windows...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "adobe-patches-actively-exploited-acrobat-reader-fl",
+      "source": "The Hacker News",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
+      "link": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
+      "summary": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called  Webloc .  The tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after the two firms merged in July 2023 , according to a report  published by the Citizen Lab. Penlink, founded in 1986, is a provider of \"mission-critical communications and digital evidence collection and analysis software\" to law enforcement agencies in the U.S. and across the world.  U.S. customers of the Webloc include Immigration and Customs Enforcement (ICE), the U.S. military, Texas Department of Public Safety, DHS West Virginia, NYC district attorneys, and various police departments in Los Angeles, Dallas, Baltimore, Tucson, Durham, and in smaller cities and counties like the City of Elk Grov...",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "citizen-lab-law-enforcement-used-webloc-to-track-5",
+      "source": "The Hacker News",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
+      "link": "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
+      "summary": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm  campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development environments (IDEs) on a developer's machine.  The technique has been discovered in an Open VSX extension named \" specstudio.code-wakatime-activity-tracker ,\" which masquerades as WakaTime, a popular tool that measures the time programmers spend inside their IDE. The extension is no longer available for download.  \"The extension [...] ships a Zig-compiled native binary alongside its JavaScript code,\" Aikido Security researcher Ilyas Makari said  in an analysis published this week.   \"This is not the first time GlassWorm  has resorted to using native compiled code  in extensions. However, rather than using the binary as the payload directly, it is used as a stealthy indirection for the known GlassWorm dropper, which now secretly infects all other I...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "glassworm-campaign-uses-zig-dropper-to-infect-mult",
+      "source": "The Hacker News",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Fake Claude Website Distributes PlugX RAT",
+      "link": "https://www.securityweek.com/fake-claude-website-distributes-plugx-rat/",
+      "summary": "The malware mimics the legitimate Anthropic installation, relies on DLL sideloading, and cleans up after itself.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "fake-claude-website-distributes-plugx-rat",
+      "source": "SecurityWeek",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Gmail Brings End-to-End Encryption to Android and iOS for Enterprise Users",
+      "link": "https://www.securityweek.com/gmail-brings-end-to-end-encryption-to-android-and-ios-for-enterprise-users/",
+      "summary": "The feature allows enterprise users to compose and read end-to-end encrypted messages natively on their mobile devices.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "gmail-brings-end-to-end-encryption-to-android-and-",
+      "source": "SecurityWeek",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Adobe Patches Reader Zero-Day Exploited for Months",
+      "link": "https://www.securityweek.com/adobe-patches-reader-zero-day-exploited-for-months/",
+      "summary": "The vulnerability is tracked as CVE-2026-34621 and Adobe has confirmed that it can be exploited for arbitrary code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "adobe-patches-reader-zero-day-exploited-for-months",
+      "source": "SecurityWeek",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "In Other News: Cyberattack Stings Stryker, Windows Zero-Day, China Supercomputer Hack",
+      "link": "https://www.securityweek.com/in-other-news-cyberattack-stings-stryker-windows-zero-day-china-supercomputer-hack/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Jones Day hacked, Internet Bug Bounty program paused due to AI, new Mac stealer malware.",
+      "tags": [
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "in-other-news-cyberattack-stings-stryker-windows-z",
+      "source": "SecurityWeek",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Juniper Networks Patches Dozens of Junos OS Vulnerabilities",
+      "link": "https://www.securityweek.com/juniper-networks-patches-dozens-of-junos-os-vulnerabilities/",
+      "summary": "A critical-severity flaw could be exploited remotely, without authentication, to take over a vulnerable device.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "juniper-networks-patches-dozens-of-junos-os-vulner",
+      "source": "SecurityWeek",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Industry Reactions to Iran Hacking ICS in Critical Infrastructure: Feedback Friday",
+      "link": "https://www.securityweek.com/industry-reactions-to-iran-hacking-ics-in-critical-infrastructure-feedback-friday/",
+      "summary": "The US government has warned that Iran-linked hackers are manipulating PLCs and SCADA systems to cause disruption.",
+      "tags": [
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "industry-reactions-to-iran-hacking-ics-in-critical",
+      "source": "SecurityWeek",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Critical Marimo pre-auth RCE flaw now under active exploitation",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+      "summary": "A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-marimo-pre-auth-rce-flaw-now-under-active",
+      "source": "BleepingComputer",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Secure 1TB of Koofr cloud storage with lifetime access for one $130 payment",
+      "link": "https://www.bleepingcomputer.com/offer/deals/secure-1tb-of-koofr-cloud-storage-with-lifetime-access-for-one-130-payment/",
+      "summary": "Multiple drives and scattered cloud accounts can make it hard to find what you need. Koofr Cloud Storage solves that problem with a centralized, secure, and user-friendly platform. This lifetime subscription to a 1TB plan is available for $129.97, giving you a permanent solution for digital storage ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "secure-1tb-of-koofr-cloud-storage-with-lifetime-ac",
+      "source": "BleepingComputer",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-13"
+    },
+    {
+      "title": "Over 20,000 crypto fraud victims identified in international crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
+      "summary": "An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United States.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "over-20000-crypto-fraud-victims-identified-in-inte",
+      "source": "BleepingComputer",
+      "date": "2026-04-13"
+    }
+  ]
+}
