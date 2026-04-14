@@ -1,0 +1,209 @@
+{
+  "date": "2026-04-14",
+  "items": [
+    {
+      "title": "Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)",
+      "link": "https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html",
+      "summary": "OX Security recently analyzed 216 million security findings  across 250 organizations over a 90-day period. The primary takeaway: while raw alert volume grew by 52% year-over-year, prioritized critical risk grew by nearly 400%.  The surge in AI-assisted development is creating a \"velocity gap\" where the density of high-impact vulnerabilities is scaling faster than remediation workflows. The ratio of critical findings to raw alerts nearly tripled, moving from 0.035% to 0.092%.  Key Findings from the 2026 Analysis:   CVSS vs. Business Context:  Technical severity scores are no longer the primary driver of risk. The most common elevation factors were High Business Priority (27.76%)  and PII Processing (22.08%) . In modern environments, where  a vulnerability lives is now more important than what  the vulnerability is.  The AI Fingerprint:  We observed a direct correlation between the adoption of AI coding tools and the quadrupling of critical f...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "analysis-of-216m-security-findings-shows-a-4x-incr",
+      "source": "The Hacker News",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
+      "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
+      "summary": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page visited.  According to Socket, the extensions are published under five distinct publisher identities – Yana Project, GameGen, SideGames, Rodeo Games, and InterAlt – and have collectively amassed about 20,000 installs in the Chrome Web Store.  \"All 108 route stolen credentials, user identities, and browsing data to servers controlled by the same operator,\" security researcher Kush Pandya said  in an analysis.    Of these, 54 add-ons steal Google account identity via OAuth2, 45 extensions contain a universal backdoor that opens arbitrary URLs as soon as the browser is started, and the remaining ones engage in a variety of malicious behavio...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "108-malicious-chrome-extensions-steal-google-and-t",
+      "source": "The Hacker News",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
+      "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
+      "summary": "A critical security vulnerability impacting ShowDoc , a document management and collaboration service popular in China, has come under active exploitation in the wild.  The vulnerability in question is CVE-2025-0520  (aka CNVD-2020-26585), which carries a CVSS score of 9.4 out of 10.0.  It relates to a case of unrestricted file upload that stems from improper validation of file extension, allowing an attacker to upload arbitrary PHP files and achieve remote code execution.  \"[In] ShowDoc version before 2.8.7, an unrestricted and unauthenticated file upload issue is found and [an] attacker is able to upload a web shell and execute arbitrary code on server,\" according to an advisory released  by Vulhub.    The vulnerability was addressed in ShowDoc version 2.8.7 , which was shipped in October 2020. The current version of the software is 3.8.1 .  According to new details  shared by Caitlin Cond...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "showdoc-rce-flaw-cve-2025-0520-actively-exploited-",
+      "source": "The Hacker News",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software",
+      "link": "https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  half a dozen security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The list of vulnerabilities is as follows -   CVE-2026-21643  (CVSS score: 9.1) -  An SQL injection vulnerability in  Fortinet FortiClient EMS that could allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.  CVE-2020-9715  (CVSS score: 7.8) - A use-after-free vulnerability in Adobe Acrobat Reader that could result in remote code execution.  CVE-2023-36424  (CVSS score: 7.8) - An out-of-bounds read vulnerability in Microsoft Windows Common Log File System Driver that could result in privilege escalation.  CVE-2023-21529  (CVSS score: 8.8) - A deserialization of untrusted data in Microsoft Exchange Server that could allow an authenticated attacker to achieve remote code execution.   CVE-2025-60710  (CVSS score: 7.8) - An i...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-adds-6-known-exploited-flaws-in-fortinet-micr",
+      "source": "The Hacker News",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
+      "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
+      "summary": "Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT .  A modified version of BX RAT, JanelaRAT is known to steal financial and cryptocurrency data associated with specific financial entities, as well as track mouse inputs, log keystrokes, take screenshots, and collect system metadata.  \"One of the key differences between these trojans is that JanelaRAT uses a custom title bar detection mechanism to identify desired websites in victims' browsers and perform malicious actions,\" Kaspersky said  in a report published today. \"The threat actors behind JanelaRAT campaigns continuously update the infection chain and malware versions by adding new features.\"   Telemetry data gathered by the Russian cybersecurity vendor shows that as many as 14,739 attacks were recorded in Brazil in 2025 and 11,695 in Mexico. It's currently not known how many of these resulted in a su...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "janelarat-malware-targets-latin-american-banks-wit",
+      "source": "The Hacker News",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts",
+      "link": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an off-the-shelf toolkit called W3LL  to steal thousands of victims' account credentials and attempt more than $20 million in fraud.  In tandem, authorities detained the alleged developer, who has been identified as G.L, and seized key domains linked to the phishing scheme. \"The takedown cuts off a major resource used by cybercriminals to gain unauthorized access to victims' accounts,\" the FBI said  in a statement.   The W3LL phishing kit allowed criminals to mimic legitimate login pages to deceive victims into handing over their credentials, thus allowing the attackers to seize control of their accounts. The phishing kit was advertised for a fee of about $500.   The phishing kit enabled its customers to deploy bogus websi...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-and-indonesian-police-dismantle-w3ll-phishing-",
+      "source": "The Hacker News",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "Nightclub Giant RCI Hospitality Reports Data Breach",
+      "link": "https://www.securityweek.com/nightclub-giant-rci-hospitality-reports-data-breach/",
+      "summary": "The company said in an SEC filing that an IDOR vulnerability affecting RCI Internet Services exposed contractor data.",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "nightclub-giant-rci-hospitality-reports-data-breac",
+      "source": "SecurityWeek",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "Organizations Warned of Exploited Windows, Adobe Acrobat Vulnerabilities",
+      "link": "https://www.securityweek.com/organizations-warned-of-exploited-windows-adobe-acrobat-vulnerabilities/",
+      "summary": "The security defects allow attackers to escalate privileges and execute arbitrary code remotely.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "organizations-warned-of-exploited-windows-adobe-ac",
+      "source": "SecurityWeek",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "Booking.com Says Hackers Accessed User Information",
+      "link": "https://www.securityweek.com/booking-com-says-hackers-accessed-user-information/",
+      "summary": "The online travel platform has not said how many customers’ booking information was exposed, but said the issue has been contained.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "bookingcom-says-hackers-accessed-user-information",
+      "source": "SecurityWeek",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "BrowserGate: Claims of LinkedIn ‘Spying’ Clash With Security Research Findings",
+      "link": "https://www.securityweek.com/browsergate-claims-of-linkedin-spying-clash-with-security-research-findings/",
+      "summary": "Claims that “Microsoft is running one of the largest corporate espionage operations in modern history” face scrutiny as researchers analyze LinkedIn’s browser extension probing",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "browsergate-claims-of-linkedin-spying-clash-with-s",
+      "source": "SecurityWeek",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack",
+      "link": "https://www.securityweek.com/openai-impacted-by-north-korea-linked-axios-supply-chain-hack/",
+      "summary": "The AI giant is taking action after determining that a macOS code signing certificate may have been compromised.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "openai-impacted-by-north-korea-linked-axios-supply",
+      "source": "SecurityWeek",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "International Operation Targets Multimillion-Dollar Crypto Theft Schemes",
+      "link": "https://www.securityweek.com/international-operation-targets-multimillion-dollar-crypto-theft-schemes/",
+      "summary": "Law enforcement in the US, UK and Canada identified more than $45 million in cryptocurrency and froze $12 million.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "international-operation-targets-multimillion-dolla",
+      "source": "SecurityWeek",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "European Gym giant Basic-Fit data breach affects 1 million members",
+      "link": "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
+      "summary": "Dutch fitness giant Basic-Fit announced that hackers breached its systems and gained access to information belonging to a million of its customers.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "european-gym-giant-basic-fit-data-breach-affects-1",
+      "source": "BleepingComputer",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "Stolen Rockstar Games analytics data leaked by extortion gang",
+      "link": "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
+      "summary": "Rockstar Games has suffered a data breach linked to a recent security incident at Anodot, with the ShinyHunters extortion gang now leaking the stolen data on its data leak site.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "stolen-rockstar-games-analytics-data-leaked-by-ext",
+      "source": "BleepingComputer",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "Critical flaw in wolfSSL library enables forged certificate use",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
+      "summary": "A critical vulnerability in the wolfSSL SSL/TLS library can weaken security via improper verification of the hash algorithm or its size when checking Elliptic Curve Digital Signature Algorithm (ECDSA) signatures.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-flaw-in-wolfssl-library-enables-forged-ce",
+      "source": "BleepingComputer",
+      "date": "2026-04-14"
+    }
+  ]
+}
