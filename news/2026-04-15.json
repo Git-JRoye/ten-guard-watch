@@ -1,0 +1,198 @@
+{
+  "date": "2026-04-15",
+  "items": [
+    {
+      "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities",
+      "link": "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
+      "summary": "Microsoft on Tuesday released updates to address a record 169 security flaws  across its product portfolio, including one vulnerability that has been actively exploited in the wild.  Of these 169 vulnerabilities, 157 are rated Important, eight are rated Critical, three are rated Moderate, and one is rated Low in severity. Ninety-three of the flaws are classified as privilege escalation, followed by 21 information disclosure, 21 remote code execution, 14 security feature bypass, 10 spoofing, and nine denial-of-service vulnerabilities.  Also included among the 169 flaws are four non-Microsoft issued CVEs impacting AMD (CVE-2023-20585), Node.js (CVE-2026-21637), Windows Secure Boot (CVE-2026-25250), and Git for Windows (CVE-2026-32631). The updates are in addition to 78 vulnerabilities  that have been addressed in its Chromium-based Edge browser since the update that was released last month .  T...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-issues-patches-for-sharepoint-zero-day-a",
+      "source": "The Hacker News",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
+      "link": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
+      "summary": "OpenAI on Tuesday unveiled GPT-5.4-Cyber , a variant of its latest flagship model, GPT‑5.4 , that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropic unveiled its own frontier model, Mythos .  \"The progressive use of AI accelerates defenders – those responsible for keeping systems, data, and users safe – enabling them to find and fix problems faster in the digital infrastructure everyone relies on,\" OpenAI said .  In conjunction with the announcement, the artificial intelligence (AI) company said it's ramping up its Trusted Access for Cyber ( TAC ) program to thousands of authenticated individual defenders and hundreds of teams responsible for securing critical software.  AI systems are inherently dual-use, as bad actors can repurpose technologies developed for legitimate applications to their own advantage and achieve malicious goals. One core area of concern is that adversaries could invert the models fine...",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "openai-launches-gpt-54-cyber-with-expanded-access-",
+      "source": "The Hacker News",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
+      "link": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
+      "summary": "Two high-severity security vulnerabilities have been disclosed  in Composer, a package manager for PHP, that, if successfully exploited, could result in arbitrary command execution.  The vulnerabilities have been described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below -   CVE-2026-40176  (CVSS score: 7.8) - An improper input validation vulnerability that could allow an attacker controlling a repository configuration in a malicious composer.json declaring a Perforce VCS repository to inject arbitrary commands, resulting in command execution in the context of the user running Composer.  CVE-2026-40261  (CVSS score: 8.8) - An improper input validation vulnerability stemming from inadequate escaping  that could allow an attacker to inject arbitrary commands through a crafted source reference containing shell metacharacters.   In both cases, Composer would execute these injected ...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-php-composer-flaws-enable-arbitrary-command-ex",
+      "source": "The Hacker News",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security",
+      "link": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
+      "summary": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational level.  \"The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying the foundation for broader adoption of memory-safe code in other areas,\" Jiacheng Lu, a software engineer part of the Google Pixel Team, said .  The security boost via Rust integration is available for Pixel 10 devices, making it the first Pixel device to integrate a memory-safe language into its modem.  The move builds upon a series of initiatives the tech giant has taken to harden the cellular baseband modem against exploitation. In late 2023, it highlighted  the role played by Clang sanitizers like Overflow Sanitizer (IntSan) and BoundsSanitizer (BoundSan) to cat...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "google-adds-rust-based-dns-parser-into-pixel-10-mo",
+      "source": "The Hacker News",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud",
+      "link": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
+      "summary": "Cybersecurity researchers have unmasked a novel ad fraud scheme that has been found to leverage search engine poisoning (SEO) techniques and artificial intelligence (AI)-generated content to push deceptive news stories into Google's Discover feed  and trick users into enabling persistent browser notifications that lead to scareware and financial scams.  The campaign, which has been found to target the personalized content feeds of Android and Chrome users, has been codenamed Pushpaganda  by HUMAN's Satori Threat Intelligence and Research Team.  \"This operation, named for push notifications central to the scheme, generates invalid organic traffic from real mobile devices by tricking users into subscribing to enabling notifications that presented alarming messages,\" researchers Louisa Abel, Vikas Parthasarathy, João Santos, and Adam Sell said  in a report shared with The Hacker News.   At its peak, about 240 million bid requests have been associated wit...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ai-driven-pushpaganda-scam-exploits-google-discove",
+      "source": "The Hacker News",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads",
+      "link": "https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html",
+      "summary": "A nascent Android remote access trojan called Mirax  has been observed actively targeting Spanish-speaking countries, with campaigns reaching more than 220,000 accounts on Facebook, Instagram, Messenger, and Threads through advertisements on Meta.  \"Mirax integrates advanced Remote Access Trojan (RAT) capabilities, allowing threat actors to fully interact with compromised devices in real time,\" Italian online fraud prevention firm Cleafy said .  \"Beyond traditional RAT behavior, Mirax enhances its operational value by turning infected devices into residential proxy nodes . Leveraging SOCKS5 protocol support and Yamux multiplexing, it establishes persistent proxy channels that allow attackers to route their traffic through the victim's real IP address.\"  Details of Mirax first emerged  last month when Outpost24's KrakenLabs revealed that a threat actor going by the name \"Mirax Bot\" has been advertising a private malware-as-a-service (MaaS) offerin...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mirax-android-rat-turns-devices-into-socks5-proxie",
+      "source": "The Hacker News",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "Fortinet Patches Critical FortiSandbox Vulnerabilities",
+      "link": "https://www.securityweek.com/fortinet-patches-critical-fortisandbox-vulnerabilities/",
+      "summary": "The flaws could allow attackers to bypass authentication or execute arbitrary code or commands via HTTP requests.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "fortinet-patches-critical-fortisandbox-vulnerabili",
+      "source": "SecurityWeek",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "ICS Patch Tuesday: 8 Industrial Giants Publish New Security Advisories",
+      "link": "https://www.securityweek.com/ics-patch-tuesday-8-industrial-giants-publish-new-security-advisories/",
+      "summary": "Siemens, Schneider Electric, Aveva, Rockwell Automation, ABB, Phoenix Contact, Mitsubishi Electric, and Moxa patched vulnerabilities.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "ics-patch-tuesday-8-industrial-giants-publish-new-",
+      "source": "SecurityWeek",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "Adobe Patches 55 Vulnerabilities Across 11 Products",
+      "link": "https://www.securityweek.com/adobe-patches-55-vulnerabilities-across-11-products/",
+      "summary": "Critical ColdFusion vulnerabilities are the most at risk of being exploited in attacks, according to the software giant.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "adobe-patches-55-vulnerabilities-across-11-product",
+      "source": "SecurityWeek",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "‘Mythos-Ready’ Security: CSA Urges CISOs to Prepare for Accelerated AI Threats",
+      "link": "https://www.securityweek.com/mythos-ready-security-csa-urges-cisos-to-prepare-for-accelerated-ai-threats/",
+      "summary": "CISOs face a shrinking window to prepare as AI models like Mythos collapse the gap between vulnerability discovery and exploitation, driving a new era of high-velocity cyberattacks.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mythos-ready-security-csa-urges-cisos-to-prepare-f",
+      "source": "SecurityWeek",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "Europe’s Largest Gym Chain Says Data Breach Impacts 1 Million Members",
+      "link": "https://www.securityweek.com/europes-largest-gym-chain-says-data-breach-impacts-1-million-members/",
+      "summary": "Basic-Fit has reported that hackers have stolen names, dates of birth, and even bank account details.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "europes-largest-gym-chain-says-data-breach-impacts",
+      "source": "SecurityWeek",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "Microsoft adds Windows protections for malicious Remote Desktop files",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-windows-protections-for-malicious-remote-desktop-files/",
+      "summary": "Microsoft has introduced new Windows protections to defend against phishing attacks that abuse Remote Desktop connection (.rdp) files, adding warnings and disabling risky shared resources by default.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-adds-windows-protections-for-malicious-r",
+      "source": "BleepingComputer",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "Crypto-exchange Kraken extorted by hackers after insider breach",
+      "link": "https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/",
+      "summary": "The Kraken cryptocurrency exchange announced that a cybercrime group is trying to extort the company by threatening to release videos showing internal systems that host client data.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "crypto-exchange-kraken-extorted-by-hackers-after-i",
+      "source": "BleepingComputer",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-15"
+    },
+    {
+      "title": "Over 100 Chrome Web Store extensions steal user accounts, data",
+      "link": "https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/",
+      "summary": "More than 100 malicious extensions in the official Chrome Web Store are attempting to steal Google OAuth2 Bearer tokens, deploy backdoors, and carry out ad fraud.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "over-100-chrome-web-store-extensions-steal-user-ac",
+      "source": "BleepingComputer",
+      "date": "2026-04-15"
+    }
+  ]
+}

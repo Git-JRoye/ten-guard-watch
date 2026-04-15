@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)</div><div class="ticker-item">108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users</div><div class="ticker-item">ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers</div><div class="ticker-item">CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software</div><div class="ticker-item">JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025</div><div class="ticker-item">FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts</div><div class="ticker-item">Nightclub Giant RCI Hospitality Reports Data Breach</div><div class="ticker-item">Organizations Warned of Exploited Windows, Adobe Acrobat Vulnerabilities</div><div class="ticker-item">Booking.com Says Hackers Accessed User Information</div><div class="ticker-item">BrowserGate: Claims of LinkedIn ‘Spying’ Clash With Security Research Findings</div><div class="ticker-item">OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack</div><div class="ticker-item">International Operation Targets Multimillion-Dollar Crypto Theft Schemes</div><div class="ticker-item">European Gym giant Basic-Fit data breach affects 1 million members</div><div class="ticker-item">Stolen Rockstar Games analytics data leaked by extortion gang</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Critical flaw in wolfSSL library enables forged certificate use</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)</h3>
+                <p><strong>Summary:</strong> OX Security recently analyzed 216 million security findings  across 250 organizations over a 90-day period. The primary takeaway: while raw alert volume grew by 52% year-over-year, prioritized critica...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers</h3>
+                <p><strong>Summary:</strong> A critical security vulnerability impacting ShowDoc , a document management and collaboration service popular in China, has come under active exploitation in the wild.  The vulnerability in question i...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  half a dozen security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploita...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025</h3>
+                <p><strong>Summary:</strong> Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT .  A modified version of BX RAT, JanelaRAT is k...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts</h3>
+                <p><strong>Summary:</strong> The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an off-...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Nightclub Giant RCI Hospitality Reports Data Breach</h3>
+                <p><strong>Summary:</strong> The company said in an SEC filing that an IDOR vulnerability affecting RCI Internet Services exposed contractor data.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/nightclub-giant-rci-hospitality-reports-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/nightclub-giant-rci-hospitality-reports-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Organizations Warned of Exploited Windows, Adobe Acrobat Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The security defects allow attackers to escalate privileges and execute arbitrary code remotely.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/organizations-warned-of-exploited-windows-adobe-acrobat-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/organizations-warned-of-exploited-windows-adobe-acrobat-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Booking.com Says Hackers Accessed User Information</h3>
+                <p><strong>Summary:</strong> The online travel platform has not said how many customers’ booking information was exposed, but said the issue has been contained.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/booking-com-says-hackers-accessed-user-information/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/booking-com-says-hackers-accessed-user-information/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>BrowserGate: Claims of LinkedIn ‘Spying’ Clash With Security Research Findings</h3>
+                <p><strong>Summary:</strong> Claims that “Microsoft is running one of the largest corporate espionage operations in modern history” face scrutiny as researchers analyze LinkedIn’s browser extension probing</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/browsergate-claims-of-linkedin-spying-clash-with-security-research-findings/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/browsergate-claims-of-linkedin-spying-clash-with-security-research-findings/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack</h3>
+                <p><strong>Summary:</strong> The AI giant is taking action after determining that a macOS code signing certificate may have been compromised.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/openai-impacted-by-north-korea-linked-axios-supply-chain-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/openai-impacted-by-north-korea-linked-axios-supply-chain-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>International Operation Targets Multimillion-Dollar Crypto Theft Schemes</h3>
+                <p><strong>Summary:</strong> Law enforcement in the US, UK and Canada identified more than $45 million in cryptocurrency and froze $12 million.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/international-operation-targets-multimillion-dollar-crypto-theft-schemes/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/international-operation-targets-multimillion-dollar-crypto-theft-schemes/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>European Gym giant Basic-Fit data breach affects 1 million members</h3>
+                <p><strong>Summary:</strong> Dutch fitness giant Basic-Fit announced that hackers breached its systems and gained access to information belonging to a million of its customers.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Stolen Rockstar Games analytics data leaked by extortion gang</h3>
+                <p><strong>Summary:</strong> Rockstar Games has suffered a data breach linked to a recent security incident at Anodot, with the ShinyHunters extortion gang now leaking the stolen data on its data leak site.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical flaw in wolfSSL library enables forged certificate use</h3>
+                <p><strong>Summary:</strong> A critical vulnerability in the wolfSSL SSL/TLS library can weaken security via improper verification of the hash algorithm or its size when checking Elliptic Curve Digital Signature Algorithm (ECDSA)...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
