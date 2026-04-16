@@ -1,0 +1,215 @@
+{
+  "date": "2026-04-16",
+  "items": [
+    {
+      "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
+      "link": "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
+      "summary": "The Computer Emergencies Response Team of Ukraine (CERT-UA) has disclosed  details of a new campaign that has targeted governments and municipal healthcare institutions, mainly clinics and emergency hospitals, to deliver malware capable of stealing sensitive data from Chromium-based web browsers and WhatsApp.  The activity, which was observed between March and April 2026, has been attributed to a threat cluster dubbed UAC-0247 . The origins of the campaign are presently unknown.  According to CERT-UA, the starting point of the attack chain is an email message claiming to be a humanitarian aid proposal, urging recipients to click on a link that redirects to either a legitimate website compromised via a cross-site scripting (XSS) vulnerability or a bogus site created with help from artificial intelligence (AI) tools.  Regardless of what the site is, the goal is to download and run a Windows Shortcut (LNK) file, which then execut...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "High",
+      "slug": "uac-0247-targets-ukrainian-clinics-and-government-",
+      "source": "The Hacker News",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
+      "link": "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
+      "summary": "Threat actors have been observed weaponizing n8n , a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious payloads or fingerprint devices by sending automated emails.  \"By leveraging trusted infrastructure, these attackers bypass traditional security filters, turning productivity tools into delivery vehicles for persistent remote access,\" Cisco Talos researchers Sean Gallagher and Omid Mirzaei said  in an analysis published today.  N8n is a workflow automation platform that allows users to connect various web applications, APIs, and AI model services to sync data, build agentic systems, and run repetitive rule-based tasks.  Users can register for a developer account at no extra cost to avail a managed cloud-hosted service and run automation workflows without having to set up their own infrastructure.Doing so, however, creates a unique custom domain t...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "n8n-webhooks-abused-since-october-2025-to-deliver-",
+      "source": "The Hacker News",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
+      "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
+      "summary": "A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the wild.  The vulnerability in question is CVE-2026-33032 (CVSS score: 9.8), an authentication bypass vulnerability that enables threat actors to seize control of the Nginx service. It has been codenamed MCPwn by Pluto Security.  \"The nginx-ui MCP  (Model Context Protocol) integration exposes two HTTP endpoints: /mcp and /mcp_message,\" according to an advisory  released by nginx-ui maintainers last month. \"While /mcp requires both IP whitelisting and authentication (AuthRequired() middleware), the /mcp_message endpoint only applies IP whitelisting -- and the default IP whitelist is empty, which the middleware treats as 'allow all.'\"   \"This means any network attacker can invoke all MCP tools without authentication, including restarting nginx, creating/modifying/deleting nginx configuration files, and t...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "actively-exploited-nginx-ui-flaw-cve-2026-33032-en",
+      "source": "The Hacker News",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
+      "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
+      "summary": "A number of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday releases.  Topping the list is an SQL injection vulnerability impacting SAP Business Planning and Consolidation and SAP Business Warehouse ( CVE-2026-27681 , CVSS score: 9.9) that could result in the execution of arbitrary database commands.  \"The vulnerable ABAP program allows a low-privileged user to upload a file with arbitrary SQL statements that will then be executed,\" Onapsis said  in an advisory.  In a potential attack scenario, a bad actor could abuse the affected upload-related functionality to run malicious SQL against BW/BPC data stores, extract sensitive data, and delete or corrupt database content.  \"Manipulated planning figures, broken reports, or deleted consolidation data can undermine close processes, executive reporting, and operational planning,\" Pathlock said . \"In the wrong hands, t...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "april-patch-tuesday-fixes-critical-flaws-across-sa",
+      "source": "The Hacker News",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
+      "link": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
+      "summary": "Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across industries, leadership teams have embraced its broader potential, and boards, investors, and executives are already pushing organizations to adopt it across operational and security functions. Pentera’s AI Security and Exposure Report 2026  reflects that momentum: every CISO surveyed reported that AI is already in use across their organizations.  Security testing is inevitably part of that shift. Modern environments are too dynamic, and attack techniques too variable, for purely static testing logic to remain sufficient on its own. Adaptive payload generation, contextual interpretation of controls, and real-time execution adjustments are necessary to get closer to how attackers, and increasingly their own AI agents, operate.  For experienced security teams, the need to incorporate AI into testing is no longer in question. You have to fight fire with fire. Wh...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "deterministic-agentic-ai-the-architecture-exposure",
+      "source": "The Hacker News",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities",
+      "link": "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
+      "summary": "Microsoft on Tuesday released updates to address a record 169 security flaws  across its product portfolio, including one vulnerability that has been actively exploited in the wild.  Of these 169 vulnerabilities, 157 are rated Important, eight are rated Critical, three are rated Moderate, and one is rated Low in severity. Ninety-three of the flaws are classified as privilege escalation, followed by 21 information disclosure, 21 remote code execution, 14 security feature bypass, 10 spoofing, and nine denial-of-service vulnerabilities.  Also included among the 169 flaws are four non-Microsoft issued CVEs impacting AMD (CVE-2023-20585), Node.js (CVE-2026-21637), Windows Secure Boot (CVE-2026-25250), and Git for Windows (CVE-2026-32631). The updates are in addition to 78 vulnerabilities  that have been addressed in its Chromium-based Edge browser since the update that was released last month .  T...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-issues-patches-for-sharepoint-zero-day-a",
+      "source": "The Hacker News",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Cisco Patches Critical Vulnerabilities in Webex, ISE",
+      "link": "https://www.securityweek.com/cisco-patches-critical-vulnerabilities-in-webex-ise/",
+      "summary": "The flaws can be exploited remotely to impersonate users or execute arbitrary commands on the underlying OS.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-patches-critical-vulnerabilities-in-webex-is",
+      "source": "SecurityWeek",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Ransomware Hits Automotive Data Expert Autovista",
+      "link": "https://www.securityweek.com/ransomware-hits-automotive-data-expert-autovista/",
+      "summary": "The automotive analysis and data company is working with external experts to investigate the attack.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ransomware-hits-automotive-data-expert-autovista",
+      "source": "SecurityWeek",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Claude Code, Gemini CLI, GitHub Copilot Agents Vulnerable to Prompt Injection via Comments",
+      "link": "https://www.securityweek.com/claude-code-gemini-cli-github-copilot-agents-vulnerable-to-prompt-injection-via-comments/",
+      "summary": "A researcher has disclosed the details of the AI attack method he has named ‘Comment and Control’.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "claude-code-gemini-cli-github-copilot-agents-vulne",
+      "source": "SecurityWeek",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Sweden Blames Pro-Russian Group for Cyberattack Last Year on Its Energy Infrastructure",
+      "link": "https://www.securityweek.com/sweden-blames-pro-russian-group-for-cyberattack-last-year-on-its-energy-infrastructure/",
+      "summary": "In what was Sweden’s first public mention of the attack, the country’s minister for civil defense said it targeted a heating plant in western Sweden.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "sweden-blames-pro-russian-group-for-cyberattack-la",
+      "source": "SecurityWeek",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Exploited Vulnerability Exposes Nginx Servers to Hacking",
+      "link": "https://www.securityweek.com/exploited-vulnerability-exposes-nginx-servers-to-hacking/",
+      "summary": "Hackers are exploiting CVE-2026-33032, a critical remote takeover vulnerability in the Nginx UI management tool.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "exploited-vulnerability-exposes-nginx-servers-to-h",
+      "source": "SecurityWeek",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Capsule Security Emerges From Stealth With $7 Million in Funding",
+      "link": "https://www.securityweek.com/capsule-security-emerges-from-stealth-with-7-million-in-funding/",
+      "summary": "The Israeli startup aims to secure AI agents at runtime, continuously monitoring their behavior to prevent unsafe actions.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "capsule-security-emerges-from-stealth-with-7-milli",
+      "source": "SecurityWeek",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "US nationals behind DPRK IT worker 'laptop farm' sent to prison",
+      "link": "https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/",
+      "summary": "Two U.S. nationals have been sent to prison for helping North Korean remote information technology (IT) workers to pose as U.S. residents and get hired by over 100 companies across the country, including many Fortune 500 firms.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "us-nationals-behind-dprk-it-worker-laptop-farm-sen",
+      "source": "BleepingComputer",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Microsoft: April Windows Server 2025 update may fail to install",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-april-windows-server-2025-update-may-fail-to-install/",
+      "summary": "Microsoft is investigating an issue causing this month's KB5082063 security update to fail to install on some Windows Server 2025 systems.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-april-windows-server-2025-update-may-fai",
+      "source": "BleepingComputer",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-16"
+    },
+    {
+      "title": "Critical Nginx UI auth bypass flaw now actively exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
+      "summary": "A critical vulnerability in Nginx UI with Model Context Protocol (MCP) support is now being exploited in the wild for full server takeover without authentication.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-nginx-ui-auth-bypass-flaw-now-actively-ex",
+      "source": "BleepingComputer",
+      "date": "2026-04-16"
+    }
+  ]
+}
