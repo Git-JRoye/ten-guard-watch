@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign</div><div class="ticker-item">n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails</div><div class="ticker-item">Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover</div><div class="ticker-item">April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More</div><div class="ticker-item">Deterministic + Agentic AI: The Architecture Exposure Validation Requires</div><div class="ticker-item">Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities</div><div class="ticker-item">Cisco Patches Critical Vulnerabilities in Webex, ISE</div><div class="ticker-item">Ransomware Hits Automotive Data Expert Autovista</div><div class="ticker-item">Claude Code, Gemini CLI, GitHub Copilot Agents Vulnerable to Prompt Injection via Comments</div><div class="ticker-item">Sweden Blames Pro-Russian Group for Cyberattack Last Year on Its Energy Infrastructure</div><div class="ticker-item">Exploited Vulnerability Exposes Nginx Servers to Hacking</div><div class="ticker-item">Capsule Security Emerges From Stealth With $7 Million in Funding</div><div class="ticker-item">US nationals behind DPRK IT worker 'laptop farm' sent to prison</div><div class="ticker-item">Microsoft: April Windows Server 2025 update may fail to install</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Critical Nginx UI auth bypass flaw now actively exploited in the wild</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign</h3>
+                <p><strong>Summary:</strong> The Computer Emergencies Response Team of Ukraine (CERT-UA) has disclosed  details of a new campaign that has targeted governments and municipal healthcare institutions, mainly clinics and emergency h...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails</h3>
+                <p><strong>Summary:</strong> Threat actors have been observed weaponizing n8n , a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious payloads or...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover</h3>
+                <p><strong>Summary:</strong> A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the wild.  The vulnerability in question is CVE-2...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More</h3>
+                <p><strong>Summary:</strong> A number of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday releases.  Topping the list is an SQL injection vulner...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Deterministic + Agentic AI: The Architecture Exposure Validation Requires</h3>
+                <p><strong>Summary:</strong> Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across industries, leadership teams have embraced its broader potential, and boards, investors, and executives a...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Microsoft on Tuesday released updates to address a record 169 security flaws  across its product portfolio, including one vulnerability that has been actively exploited in the wild.  Of these 169 vuln...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cisco Patches Critical Vulnerabilities in Webex, ISE</h3>
+                <p><strong>Summary:</strong> The flaws can be exploited remotely to impersonate users or execute arbitrary commands on the underlying OS.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisco-patches-critical-vulnerabilities-in-webex-ise/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisco-patches-critical-vulnerabilities-in-webex-ise/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ransomware Hits Automotive Data Expert Autovista</h3>
+                <p><strong>Summary:</strong> The automotive analysis and data company is working with external experts to investigate the attack.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ransomware-hits-automotive-data-expert-autovista/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ransomware-hits-automotive-data-expert-autovista/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude Code, Gemini CLI, GitHub Copilot Agents Vulnerable to Prompt Injection via Comments</h3>
+                <p><strong>Summary:</strong> A researcher has disclosed the details of the AI attack method he has named ‘Comment and Control’.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/claude-code-gemini-cli-github-copilot-agents-vulnerable-to-prompt-injection-via-comments/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/claude-code-gemini-cli-github-copilot-agents-vulnerable-to-prompt-injection-via-comments/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Sweden Blames Pro-Russian Group for Cyberattack Last Year on Its Energy Infrastructure</h3>
+                <p><strong>Summary:</strong> In what was Sweden’s first public mention of the attack, the country’s minister for civil defense said it targeted a heating plant in western Sweden.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sweden-blames-pro-russian-group-for-cyberattack-last-year-on-its-energy-infrastructure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sweden-blames-pro-russian-group-for-cyberattack-last-year-on-its-energy-infrastructure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Exploited Vulnerability Exposes Nginx Servers to Hacking</h3>
+                <p><strong>Summary:</strong> Hackers are exploiting CVE-2026-33032, a critical remote takeover vulnerability in the Nginx UI management tool.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/exploited-vulnerability-exposes-nginx-servers-to-hacking/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/exploited-vulnerability-exposes-nginx-servers-to-hacking/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Capsule Security Emerges From Stealth With $7 Million in Funding</h3>
+                <p><strong>Summary:</strong> The Israeli startup aims to secure AI agents at runtime, continuously monitoring their behavior to prevent unsafe actions.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/capsule-security-emerges-from-stealth-with-7-million-in-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/capsule-security-emerges-from-stealth-with-7-million-in-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US nationals behind DPRK IT worker 'laptop farm' sent to prison</h3>
+                <p><strong>Summary:</strong> Two U.S. nationals have been sent to prison for helping North Korean remote information technology (IT) workers to pose as U.S. residents and get hired by over 100 companies across the country, includ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft: April Windows Server 2025 update may fail to install</h3>
+                <p><strong>Summary:</strong> Microsoft is investigating an issue causing this month's KB5082063 security update to fail to install on some Windows Server 2025 systems.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-april-windows-server-2025-update-may-fail-to-install/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-april-windows-server-2025-update-may-fail-to-install/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Nginx UI auth bypass flaw now actively exploited in the wild</h3>
+                <p><strong>Summary:</strong> A critical vulnerability in Nginx UI with Model Context Protocol (MCP) support is now being exploited in the wild for full server takeover without authentication.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

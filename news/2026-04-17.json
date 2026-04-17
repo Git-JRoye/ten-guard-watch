@@ -1,0 +1,207 @@
+{
+  "date": "2026-04-17",
+  "items": [
+    {
+      "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
+      "link": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
+      "summary": "The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (NVD), stating it will only enrich those that fulfil certain conditions owing to an explosion in CVE submissions.  \"CVEs that do not meet those criteria will still be listed in the NVD but will not automatically be enriched by NIST ,\" it said . \"This change is driven by a surge in CVE submissions, which increased 263% between 2020 and 2025. We don’t expect this trend to let up anytime soon.\"  The prioritization criteria outlined by NIST, which went into effect on April 15, 2026, are as follows -   CVEs appearing in the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) Known Exploited Vulnerabilities (KEV) catalog.  CVEs for software used within the federal government.  CVEs for critical software  as defined by Executive Order 14028: this includes soft...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "nist-limits-cve-enrichment-after-263-surge-in-vuln",
+      "source": "The Hacker News",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts",
+      "link": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
+      "summary": "An international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than 75,000 cybercriminals.  The ongoing effort, dubbed Operation PowerOFF , disrupted access to the DDoS-for-hire services, took down the technical infrastructure supporting them, and obtained access to databases containing over 3 million criminal user accounts. Authorities are also sending warning emails and letters to the identified criminal users, and 25 search warrants have been issued.  As many as 21 countries participated in the action: Australia, Austria, Belgium, Brazil, Bulgaria, Denmark, Estonia, Finland, Germany, Japan, Latvia, Lithuania, Luxembourg, the Netherlands, Poland, Portugal, Sweden, Thailand, the U.K., and the U.S.  \"Booter services allow users to launch DDoS attacks against targeted websites, servers, or networks,\" Europol said  in a statement. \"Their infr...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "operation-poweroff-seizes-53-ddos-domains-exposes-",
+      "source": "The Hacker News",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+      "summary": "A recently disclosed high-severity security flaw in Apache ActiveMQ Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA).  To that end, the agency has added  the vulnerability, tracked as CVE-2026-34197  (CVSS score: 8.8), to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by April 30, 2026.  CVE-2026-34197 has been described  as a case of improper input validation that could lead to code injection, effectively allowing an attacker to execute arbitrary code on susceptible installations. According to Horizon3.ai's Naveen Sunkavally, CVE-2026-34197 has been \"hiding in plain sight\" for 13 years.    \"An attacker can invoke a management operation through ActiveMQ's Jolokia API to trick the broker into fetching a remote configuration file and running arbitrary OS c...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "apache-activemq-cve-2026-34197-added-to-cisa-kev-a",
+      "source": "The Hacker News",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic",
+      "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
+      "summary": "Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet dubbed PowMix  since at least December 2025.  \"PowMix employs randomized command-and-control (C2) beaconing intervals, rather than persistent connection to the C2 server, to evade the network signature detections,\" Cisco Talos researcher Chetan Raghuprasad said  in a report published today.  \"PowMix embeds the encrypted heartbeat data along with unique identifiers of the victim machine into the C2 URL paths, mimicking legitimate REST API URLs. PowMix has the capability to remotely update the new C2 domain to the botnet configuration file dynamically.\"  The attack chain begins with a malicious ZIP file, likely delivered via a phishing email, to activate a multi-stage infection chain that drops PowMix. Specifically, it involves a Windows Shortcut (LNK) that's used to launch a PowerShell loader, which ...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "newly-discovered-powmix-botnet-hits-czech-workers-",
+      "source": "The Hacker News",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories",
+      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
+      "summary": "You know that feeling when you open your feed on a Thursday morning and it's just... a lot? Yeah. This week delivered. We've got hackers getting creative in ways that are almost impressive if you ignore the whole \"crime\" part, ancient vulnerabilities somehow still ruining people's days, and enough supply chain drama to fill a season of television nobody asked for.  Not all bad though. Some threat actors got exposed with receipts, a few platforms finally tightened things up, and there's research in here that's genuinely worth your time. Grab your coffee and keep scrolling.                   Targeted wallet breach             Zerion Hack Likely Linked to North Korea                  Cryptocurrency wallet service Zerion has disclosed  that one of its team member's devices was compromised, resulting in the theft of approximately $100K in stolen funds from internal company hot wallets. The company noted that user funds, Zerion apps, or infrastructure were...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-defender-0-day-sonicwall-brute",
+      "source": "The Hacker News",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
+      "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+      "summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching.  For every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, andOAuth grants. When projects end or employees leave, most of these stay active. Fully privileged. Completely unmonitored.  Attackers don't need to break in. They just pick up the keys you left out.  Join our upcoming webinar  where we’ll show you how to find and eliminate these \"Ghost Identities\" before they become a back door for hackers.  AI agents and automated workflows are multiplying these credentials at a pace security teams can't manually track. Many carry admin-level access they never needed. One compromised token can give an attacker lateral movement across your entire environment, and the average dwell time for...",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-find-and-eliminate-orphaned-non-human-iden",
+      "source": "The Hacker News",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Recent Apache ActiveMQ Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/recent-apache-activemq-vulnerability-exploited-in-the-wild/",
+      "summary": "The remote code execution vulnerability tracked as CVE-2026-34197 came to light in early April.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "recent-apache-activemq-vulnerability-exploited-in-",
+      "source": "SecurityWeek",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Two North Korean IT Worker Scheme Facilitators Jailed in the US",
+      "link": "https://www.securityweek.com/two-north-korean-it-worker-scheme-facilitators-jailed-in-the-us/",
+      "summary": "Kejia Wang and Zhenxing Wang compromised the identities of dozens of US persons to help land jobs at over 100 companies.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "two-north-korean-it-worker-scheme-facilitators-jai",
+      "source": "SecurityWeek",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "ZionSiphon Malware Targets ICS in Water Facilities",
+      "link": "https://www.securityweek.com/zionsiphon-malware-targets-ics-in-water-facilities/",
+      "summary": "The malware is configured to operate on systems associated with Israeli water treatment and desalination plants.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "zionsiphon-malware-targets-ics-in-water-facilities",
+      "source": "SecurityWeek",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Cursor AI Vulnerability Exposed Developer Devices",
+      "link": "https://www.securityweek.com/cursor-ai-vulnerability-exposed-developer-devices/",
+      "summary": "An indirect prompt injection could be chained with a sandbox bypass and Cursor’s remote tunnel feature for shell access to machines.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "cursor-ai-vulnerability-exposed-developer-devices",
+      "source": "SecurityWeek",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "53 DDoS Domains Taken Down by Law Enforcement",
+      "link": "https://www.securityweek.com/53-ddos-domains-taken-down-by-law-enforcement/",
+      "summary": "Authorities in 21 countries participated in a coordinated action against DDoS-for-hire services.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "53-ddos-domains-taken-down-by-law-enforcement",
+      "source": "SecurityWeek",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Government Can’t Win the Cyber War Without the Private Sector",
+      "link": "https://www.securityweek.com/government-cant-win-the-cyber-war-without-the-private-sector/",
+      "summary": "Securing national resilience now depends on faster, deeper partnerships with the private sector.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "government-cant-win-the-cyber-war-without-the-priv",
+      "source": "SecurityWeek",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
+      "summary": "CISA warned that attackers are now exploiting a high-severity Apache ActiveMQ vulnerability, which was patched earlier this month after going undetected for 13 years.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-flags-apache-activemq-flaw-as-actively-exploi",
+      "source": "BleepingComputer",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Microsoft: Some Windows servers enter reboot loops after April patches",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/",
+      "summary": "Microsoft warns that some Windows domain controllers are entering restart loops after installing the April 2026 security updates.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-some-windows-servers-enter-reboot-loops-",
+      "source": "BleepingComputer",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-17"
+    },
+    {
+      "title": "Man gets 30 months for selling thousands of hacked DraftKings accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/",
+      "summary": "23-year-old Kamerin Stokes of Memphis, Tennessee, was sentenced to 30 months in prison for selling access to tens of thousands of hacked DraftKings accounts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "man-gets-30-months-for-selling-thousands-of-hacked",
+      "source": "BleepingComputer",
+      "date": "2026-04-17"
+    }
+  ]
+}
