@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions</div><div class="ticker-item">Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts</div><div class="ticker-item">Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation</div><div class="ticker-item">Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic</div><div class="ticker-item">ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories</div><div class="ticker-item">[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment</div><div class="ticker-item">Recent Apache ActiveMQ Vulnerability Exploited in the Wild</div><div class="ticker-item">Two North Korean IT Worker Scheme Facilitators Jailed in the US</div><div class="ticker-item">ZionSiphon Malware Targets ICS in Water Facilities</div><div class="ticker-item">Cursor AI Vulnerability Exposed Developer Devices</div><div class="ticker-item">53 DDoS Domains Taken Down by Law Enforcement</div><div class="ticker-item">Government Can’t Win the Cyber War Without the Private Sector</div><div class="ticker-item">CISA flags Apache ActiveMQ flaw as actively exploited in attacks</div><div class="ticker-item">Microsoft: Some Windows servers enter reboot loops after April patches</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Man gets 30 months for selling thousands of hacked DraftKings accounts</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions</h3>
+                <p><strong>Summary:</strong> The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts</h3>
+                <p><strong>Summary:</strong> An international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation</h3>
+                <p><strong>Summary:</strong> A recently disclosed high-severity security flaw in Apache ActiveMQ Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA).  To th...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet dubbed PowMix  since at least December ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories</h3>
+                <p><strong>Summary:</strong> You know that feeling when you open your feed on a Thursday morning and it's just... a lot? Yeah. This week delivered. We've got hackers getting creative in ways that are almost impressive if you igno...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment</h3>
+                <p><strong>Summary:</strong> In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching.  For every em...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Recent Apache ActiveMQ Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> The remote code execution vulnerability tracked as CVE-2026-34197 came to light in early April.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-apache-activemq-vulnerability-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-apache-activemq-vulnerability-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Two North Korean IT Worker Scheme Facilitators Jailed in the US</h3>
+                <p><strong>Summary:</strong> Kejia Wang and Zhenxing Wang compromised the identities of dozens of US persons to help land jobs at over 100 companies.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/two-north-korean-it-worker-scheme-facilitators-jailed-in-the-us/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/two-north-korean-it-worker-scheme-facilitators-jailed-in-the-us/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ZionSiphon Malware Targets ICS in Water Facilities</h3>
+                <p><strong>Summary:</strong> The malware is configured to operate on systems associated with Israeli water treatment and desalination plants.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/zionsiphon-malware-targets-ics-in-water-facilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/zionsiphon-malware-targets-ics-in-water-facilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cursor AI Vulnerability Exposed Developer Devices</h3>
+                <p><strong>Summary:</strong> An indirect prompt injection could be chained with a sandbox bypass and Cursor’s remote tunnel feature for shell access to machines.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cursor-ai-vulnerability-exposed-developer-devices/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cursor-ai-vulnerability-exposed-developer-devices/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>53 DDoS Domains Taken Down by Law Enforcement</h3>
+                <p><strong>Summary:</strong> Authorities in 21 countries participated in a coordinated action against DDoS-for-hire services.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/53-ddos-domains-taken-down-by-law-enforcement/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/53-ddos-domains-taken-down-by-law-enforcement/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Government Can’t Win the Cyber War Without the Private Sector</h3>
+                <p><strong>Summary:</strong> Securing national resilience now depends on faster, deeper partnerships with the private sector.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/government-cant-win-the-cyber-war-without-the-private-sector/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/government-cant-win-the-cyber-war-without-the-private-sector/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA flags Apache ActiveMQ flaw as actively exploited in attacks</h3>
+                <p><strong>Summary:</strong> CISA warned that attackers are now exploiting a high-severity Apache ActiveMQ vulnerability, which was patched earlier this month after going undetected for 13 years.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft: Some Windows servers enter reboot loops after April patches</h3>
+                <p><strong>Summary:</strong> Microsoft warns that some Windows domain controllers are entering restart loops after installing the April 2026 security updates.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Man gets 30 months for selling thousands of hacked DraftKings accounts</h3>
+                <p><strong>Summary:</strong> 23-year-old Kamerin Stokes of Memphis, Tennessee, was sentenced to 30 months in prison for selling access to tens of thousands of hacked DraftKings accounts.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
