@@ -44,7 +44,7 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data</div><div class="ticker-item">$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims</div><div class="ticker-item">Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet</div><div class="ticker-item">Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched</div><div class="ticker-item">Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul</div><div class="ticker-item">NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions</div><div class="ticker-item">Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</div><div class="ticker-item">White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology</div><div class="ticker-item">CoChat Launches AI Collaboration Platform to Combat Shadow AI</div><div class="ticker-item">In Other News: Satellite Cybersecurity Act, $90K Chrome Flaw, Teen Hacker Arrested</div><div class="ticker-item">Another DraftKings Hacker Sentenced to Prison</div><div class="ticker-item">Lawmakers Gathered Quietly to Talk About AI. Angst and Fears of ‘Destruction’ Followed</div><div class="ticker-item">Critical flaw in Protobuf library enables JavaScript code execution</div><div class="ticker-item">Microsoft Teams right-click paste broken by Edge update bug</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data</div><div class="ticker-item">$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims</div><div class="ticker-item">Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet</div><div class="ticker-item">Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched</div><div class="ticker-item">Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul</div><div class="ticker-item">NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions</div><div class="ticker-item">White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology</div><div class="ticker-item">CoChat Launches AI Collaboration Platform to Combat Shadow AI</div><div class="ticker-item">In Other News: Satellite Cybersecurity Act, $90K Chrome Flaw, Teen Hacker Arrested</div><div class="ticker-item">Another DraftKings Hacker Sentenced to Prison</div><div class="ticker-item">Lawmakers Gathered Quietly to Talk About AI. Angst and Fears of ‘Destruction’ Followed</div><div class="ticker-item">Recent Apache ActiveMQ Vulnerability Exploited in the Wild</div><div class="ticker-item">Payouts King ransomware uses QEMU VMs to bypass endpoint security</div><div class="ticker-item">Grinex exchange blames "Western intelligence" for $13.7M crypto hack</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Inside an Underground Guide: How Threat Actors Vet Stolen Credit Card Shops</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
@@ -91,13 +91,6 @@
                 <a href="https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</h3>
-                <p><strong>Summary:</strong> Threat actors are reusing Tycoon 2FA tools across other phishing kits following the platform’s disruption.</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
                 <h3>White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology</h3>
                 <p><strong>Summary:</strong> A White House official said the administration is engaging with advanced AI labs about their models and the security of software.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/lawmakers-gathered-quietly-to-talk-about-ai-angst-and-fears-of-destruction-followed/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Critical flaw in Protobuf library enables JavaScript code execution</h3>
-                <p><strong>Summary:</strong> Proof-of-concept exploit code has been published for a critical remote code execution flaw in protobuf.js, a widely used JavaScript implementation of Google's Protocol Buffers.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Recent Apache ActiveMQ Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> The remote code execution vulnerability tracked as CVE-2026-34197 came to light in early April.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-apache-activemq-vulnerability-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-apache-activemq-vulnerability-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft Teams right-click paste broken by Edge update bug</h3>
-                <p><strong>Summary:</strong> Microsoft is warning that a recent Microsoft Edge browser update introduced a bug that breaks right-click paste in chats in the Microsoft Teams desktop client.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Payouts King ransomware uses QEMU VMs to bypass endpoint security</h3>
+                <p><strong>Summary:</strong> The Payouts King ransomware is using the QEMU emulator as a reverse SSH backdoor to run hidden virtual machines on compromised systems and bypass endpoint security.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Grinex exchange blames "Western intelligence" for $13.7M crypto hack</h3>
+                <p><strong>Summary:</strong> Kyrgyzstan-based cryptocurrency exchange Grinex has suspended its operations after suffering a $13.7 million hack attributed to Western intelligence agencies.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support</h3>
-                <p><strong>Summary:</strong> NAKIVO Inc. announced the general availability of NAKIVO Backup & Replication v11.2, focused on fast, reliable, and proactive data protection.</p>
-                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Inside an Underground Guide: How Threat Actors Vet Stolen Credit Card Shops</h3>
+                <p><strong>Summary:</strong> In cybercrime markets, trust isn't assumed, it's verified. Flare reveals how underground guides teach actors to evaluate carding shops based on data quality, reputation, and survivability.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
