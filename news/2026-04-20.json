@@ -1,0 +1,211 @@
+{
+  "date": "2026-04-20",
+  "items": [
+    {
+      "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
+      "link": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
+      "summary": "Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems.  The malware has been codenamed ZionSiphon  by Darktrace, highlighting its ability to set up persistence, tamper with local configuration files, and scan for operational technology (OT)-relevant services on the local subnet. According to details on VirusTotal, the sample was first detected  in the wild on June 29, 2025, right after the Twelve-Day War  between Iran and Israel that took place between June 13 and 24.  \"The malware combines privilege escalation, persistence, USB propagation, and ICS scanning with sabotage capabilities aimed at chlorine and pressure controls, highlighting growing experimentation with politically motivated critical infrastructure attacks against industrial operational technologies globally,\" the company said .  ZionSiphon, currently in an unfinished state, is characterized by it...",
+      "tags": [
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "researchers-detect-zionsiphon-malware-targeting-is",
+      "source": "The Hacker News",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
+      "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
+      "summary": "Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems.  The incident stemmed from the compromise of Context.ai, a third-party artificial intelligence (AI) tool, that was used by an employee at the company.  \"The attacker used that access to take over the employee's Vercel Google Workspace account, which enabled them to gain access to some Vercel environments and environment variables that were not marked as 'sensitive,'\" the company said  in a bulletin.  Vercel said environment variables marked as \"sensitive\" are stored in an encrypted manner that prevents them from being read, and that there is currently no evidence suggesting that those values were accessed by the attacker.   It described the threat actor behind the incident as \"sophisticated\" based on their \"operational velocity and detailed understanding of Vercel's syste...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "vercel-breach-tied-to-context-ai-hack-exposes-limi",
+      "source": "The Hacker News",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
+      "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+      "summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching.  For every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, and OAuth grants. When projects end or employees leave, most of these stay active. Fully privileged. Completely unmonitored.  Attackers don't need to break in. They just pick up the keys you left out.  Join our upcoming webinar  where we’ll show you how to find and eliminate these \"Ghost Identities\" before they become a back door for hackers.  AI agents and automated workflows are multiplying these credentials at a pace security teams can't manually track. Many carry admin-level access they never needed. One compromised token can give an attacker lateral movement across your entire environment, and the average dwell time fo...",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-eliminate-ghost-identities-before-they-exp",
+      "source": "The Hacker News",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
+      "link": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
+      "summary": "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned  by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack.  The exchange said it fell victim to what it described as a large-scale cyber attack that bore hallmarks of foreign intelligence agency involvement. This attack led to the theft of over 1 billion rubles in user funds.  \"Digital forensic evidence and the nature of the attack point to an unprecedented level of resources and technological sophistication – capabilities typically available exclusively to the agencies of hostile states,\" the company said  in a statement posted on its website. \"Preliminary findings suggest the attack was coordinated with the specific objective of inflicting direct damage upon Russia's financial sovereignty.\"   A spokesperson for the company went on to state that the exchange's infrastructure had been under attack since ...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "1374m-hack-shuts-down-sanctioned-grinex-exchange-a",
+      "source": "The Hacker News",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+      "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+      "summary": "Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai -botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Alto Networks Unit 42.  The attack targeting TBK DVR devices has been found to exploit CVE-2024-3721  (CVSS score: 6.3), a medium-severity command injection vulnerability affecting TBK DVR-4104 and DVR-4216 digital video recording devices, to deliver a Mirai variant called Nexcorium .  \"IoT devices are increasingly prime targets for large-scale attacks due to their widespread use, lack of patching, and often weak security settings,\" security researcher Vincent Li said . \"Threat actors continue exploiting known vulnerabilities to gain initial access and deploy malware that can persist, spread, and cause distributed denial-of-service (DDoS) attacks.\"   This is not the first time the vulnerability has been exploited in the wild. Over the past year, the ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mirai-variant-nexcorium-exploits-cve-2024-3721-to-",
+      "source": "The Hacker News",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
+      "link": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
+      "summary": "Huntress is warning  that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems.  The activity involves  the exploitation of three vulnerabilities that are codenamed BlueHammer  (requires GitHub sign-in), RedSun , and UnDefend , all of which were released as zero-days by a researcher known as Chaotic Eclipse (aka Nightmare-Eclipse) in response to Microsoft's handling of the vulnerability disclosure process.  While both BlueHammer and RedSun are local privilege escalation (LPE) flaws impacting Microsoft Defender, UnDefend can be used to trigger a denial-of-service (DoS) condition and effectively block definition updates.   Microsoft moved to address BlueHammer as part of its Patch Tuesday updates released earlier this week. The vulnerability is being tracked under the CVE identifier CVE-2026-33825 . However, the other flaws do not have a fix as of writing.  In a series of posts shared on X, Hunt...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "three-microsoft-defender-zero-days-actively-exploi",
+      "source": "The Hacker News",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Half of the 6 Million Internet-Facing FTP Servers Lack Encryption",
+      "link": "https://www.securityweek.com/half-of-the-6-million-internet-facing-ftp-servers-lack-encryption/",
+      "summary": "The continued use of the half-century-old protocol exposes enterprises and end users to various types of attacks.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "half-of-the-6-million-internet-facing-ftp-servers-",
+      "source": "SecurityWeek",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Next.js Creator Vercel Hacked",
+      "link": "https://www.securityweek.com/next-js-creator-vercel-hacked/",
+      "summary": "Vercel confirmed suffering a breach after a hacker claiming to be part of ShinyHunters offered to sell stolen data for $2 million.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "nextjs-creator-vercel-hacked",
+      "source": "SecurityWeek",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Hackers Fail to Exploit Flaw in Discontinued TP-Link Routers",
+      "link": "https://www.securityweek.com/hackers-fail-to-exploit-flaw-in-discontinued-tp-link-routers/",
+      "summary": "In-the-wild exploitation has been ongoing for a year, but no successful payload execution has been observed.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-fail-to-exploit-flaw-in-discontinued-tp-li",
+      "source": "SecurityWeek",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks",
+      "link": "https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/",
+      "summary": "Threat actors are reusing Tycoon 2FA tools across other phishing kits following the platform’s disruption.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-",
+      "source": "SecurityWeek",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology",
+      "link": "https://www.securityweek.com/white-house-chief-of-staff-to-meet-ith-anthropic-ceo-over-its-new-ai-technology/",
+      "summary": "A White House official said the administration is engaging with advanced AI labs about their models and the security of software.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "white-house-chief-of-staff-to-meet-with-anthropic-",
+      "source": "SecurityWeek",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "CoChat Launches AI Collaboration Platform to Combat Shadow AI",
+      "link": "https://www.securityweek.com/cochat-launches-ai-collaboration-platform-to-combat-shadow-ai/",
+      "summary": "CoChat is fundamentally an AI collaboration platform designed for teamwork and to bring visibility and governance into enterprise AI shadows.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cochat-launches-ai-collaboration-platform-to-comba",
+      "source": "SecurityWeek",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Microsoft pulls service update causing Teams launch failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/",
+      "summary": "Microsoft has reverted a recent service update that was preventing some customers from launching the Microsoft Teams desktop client.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-pulls-service-update-causing-teams-launc",
+      "source": "BleepingComputer",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Microsoft releases emergency updates to fix Windows Server issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-server-issues/",
+      "summary": "Microsoft has released out-of-band (OOB) updates to fix issues affecting Windows Server systems after installing the April 2026 security updates.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-releases-emergency-updates-to-fix-window",
+      "source": "BleepingComputer",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Vercel confirms breach as hackers claim to be selling stolen data",
+      "link": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "summary": "Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "vercel-confirms-breach-as-hackers-claim-to-be-sell",
+      "source": "BleepingComputer",
+      "date": "2026-04-20"
+    }
+  ]
+}

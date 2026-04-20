@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems</div><div class="ticker-item">Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials</div><div class="ticker-item">[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data</div><div class="ticker-item">$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims</div><div class="ticker-item">Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet</div><div class="ticker-item">Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched</div><div class="ticker-item">Half of the 6 Million Internet-Facing FTP Servers Lack Encryption</div><div class="ticker-item">Next.js Creator Vercel Hacked</div><div class="ticker-item">Hackers Fail to Exploit Flaw in Discontinued TP-Link Routers</div><div class="ticker-item">Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</div><div class="ticker-item">White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology</div><div class="ticker-item">CoChat Launches AI Collaboration Platform to Combat Shadow AI</div><div class="ticker-item">Microsoft pulls service update causing Teams launch failures</div><div class="ticker-item">Microsoft releases emergency updates to fix Windows Server issues</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Vercel confirms breach as hackers claim to be selling stolen data</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data</div><div class="ticker-item">$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims</div><div class="ticker-item">Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet</div><div class="ticker-item">Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched</div><div class="ticker-item">Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul</div><div class="ticker-item">NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions</div><div class="ticker-item">Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</div><div class="ticker-item">White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology</div><div class="ticker-item">CoChat Launches AI Collaboration Platform to Combat Shadow AI</div><div class="ticker-item">In Other News: Satellite Cybersecurity Act, $90K Chrome Flaw, Teen Hacker Arrested</div><div class="ticker-item">Another DraftKings Hacker Sentenced to Prison</div><div class="ticker-item">Lawmakers Gathered Quietly to Talk About AI. Angst and Fears of ‘Destruction’ Followed</div><div class="ticker-item">Critical flaw in Protobuf library enables JavaScript code execution</div><div class="ticker-item">Microsoft Teams right-click paste broken by Edge update bug</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems.  The malware has been codena...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials</h3>
-                <p><strong>Summary:</strong> Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to "certain" internal Vercel systems.  The incident stemmed from the compromise of...</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data</h3>
                 <p><strong>Summary:</strong> In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching.  For every em...</p>
@@ -91,25 +77,18 @@
                 <a href="https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Half of the 6 Million Internet-Facing FTP Servers Lack Encryption</h3>
-                <p><strong>Summary:</strong> The continued use of the half-century-old protocol exposes enterprises and end users to various types of attacks.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/half-of-the-6-million-internet-facing-ftp-servers-lack-encryption/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/half-of-the-6-million-internet-facing-ftp-servers-lack-encryption/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul</h3>
+                <p><strong>Summary:</strong> Google this week announced  a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally an...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Next.js Creator Vercel Hacked</h3>
-                <p><strong>Summary:</strong> Vercel confirmed suffering a breach after a hacker claiming to be part of ShinyHunters offered to sell stolen data for $2 million.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/next-js-creator-vercel-hacked/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/next-js-creator-vercel-hacked/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Hackers Fail to Exploit Flaw in Discontinued TP-Link Routers</h3>
-                <p><strong>Summary:</strong> In-the-wild exploitation has been ongoing for a year, but no successful payload execution has been observed.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackers-fail-to-exploit-flaw-in-discontinued-tp-link-routers/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/hackers-fail-to-exploit-flaw-in-discontinued-tp-link-routers/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions</h3>
+                <p><strong>Summary:</strong> The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</h3>
@@ -133,18 +112,39 @@
                 <a href="https://www.securityweek.com/cochat-launches-ai-collaboration-platform-to-combat-shadow-ai/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft pulls service update causing Teams launch failures</h3>
-                <p><strong>Summary:</strong> Microsoft has reverted a recent service update that was preventing some customers from launching the Microsoft Teams desktop client.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>In Other News: Satellite Cybersecurity Act, $90K Chrome Flaw, Teen Hacker Arrested</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: ShinyHunters targets Rockstar Games, ShowDoc vulnerability exploited in the wild, and EPA to boost cybersecurity budget to $19 million...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-satellite-cybersecurity-act-90k-chrome-flaw-teen-hacker-arrested/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-satellite-cybersecurity-act-90k-chrome-flaw-teen-hacker-arrested/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft releases emergency updates to fix Windows Server issues</h3>
-                <p><strong>Summary:</strong> Microsoft has released out-of-band (OOB) updates to fix issues affecting Windows Server systems after installing the April 2026 security updates.</p>
+                <h3>Another DraftKings Hacker Sentenced to Prison</h3>
+                <p><strong>Summary:</strong> Kamerin Stokes sold stolen credentials through an online marketplace even after pleading guilty to his role in the DraftKings attack.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/another-draftkings-hacker-sentenced-to-prison/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/another-draftkings-hacker-sentenced-to-prison/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Lawmakers Gathered Quietly to Talk About AI. Angst and Fears of ‘Destruction’ Followed</h3>
+                <p><strong>Summary:</strong> Thursday’s discussion comes as leaders on Capitol Hill grapple with the dizzying pace of global developments in which technology plays a central role.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-server-issues/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-server-issues/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/lawmakers-gathered-quietly-to-talk-about-ai-angst-and-fears-of-destruction-followed/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/lawmakers-gathered-quietly-to-talk-about-ai-angst-and-fears-of-destruction-followed/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical flaw in Protobuf library enables JavaScript code execution</h3>
+                <p><strong>Summary:</strong> Proof-of-concept exploit code has been published for a critical remote code execution flaw in protobuf.js, a widely used JavaScript implementation of Google's Protocol Buffers.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Teams right-click paste broken by Edge update bug</h3>
+                <p><strong>Summary:</strong> Microsoft is warning that a recent Microsoft Edge browser update introduced a bug that breaks right-click paste in chats in the Microsoft Teams desktop client.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Vercel confirms breach as hackers claim to be selling stolen data</h3>
-                <p><strong>Summary:</strong> Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support</h3>
+                <p><strong>Summary:</strong> NAKIVO Inc. announced the general availability of NAKIVO Backup & Replication v11.2, focused on fast, reliable, and proactive data protection.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
