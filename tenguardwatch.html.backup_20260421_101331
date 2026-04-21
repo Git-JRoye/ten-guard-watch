@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems</div><div class="ticker-item">Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials</div><div class="ticker-item">[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data</div><div class="ticker-item">$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims</div><div class="ticker-item">Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet</div><div class="ticker-item">Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched</div><div class="ticker-item">Half of the 6 Million Internet-Facing FTP Servers Lack Encryption</div><div class="ticker-item">Next.js Creator Vercel Hacked</div><div class="ticker-item">Hackers Fail to Exploit Flaw in Discontinued TP-Link Routers</div><div class="ticker-item">Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</div><div class="ticker-item">White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology</div><div class="ticker-item">CoChat Launches AI Collaboration Platform to Combat Shadow AI</div><div class="ticker-item">Microsoft pulls service update causing Teams launch failures</div><div class="ticker-item">Microsoft releases emergency updates to fix Windows Server issues</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">Vercel confirms breach as hackers claim to be selling stolen data</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems.  The malware has been codena...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials</h3>
+                <p><strong>Summary:</strong> Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to "certain" internal Vercel systems.  The incident stemmed from the compromise of...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data</h3>
+                <p><strong>Summary:</strong> In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching.  For every em...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims</h3>
+                <p><strong>Summary:</strong> Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned  by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 mil...</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet</h3>
+                <p><strong>Summary:</strong> Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai -botnet variants on compromised devices, according to findings from Fortinet FortiGua...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched</h3>
+                <p><strong>Summary:</strong> Huntress is warning  that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems.  The activity involves  the exp...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Half of the 6 Million Internet-Facing FTP Servers Lack Encryption</h3>
+                <p><strong>Summary:</strong> The continued use of the half-century-old protocol exposes enterprises and end users to various types of attacks.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/half-of-the-6-million-internet-facing-ftp-servers-lack-encryption/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/half-of-the-6-million-internet-facing-ftp-servers-lack-encryption/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Next.js Creator Vercel Hacked</h3>
+                <p><strong>Summary:</strong> Vercel confirmed suffering a breach after a hacker claiming to be part of ShinyHunters offered to sell stolen data for $2 million.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/next-js-creator-vercel-hacked/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/next-js-creator-vercel-hacked/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers Fail to Exploit Flaw in Discontinued TP-Link Routers</h3>
+                <p><strong>Summary:</strong> In-the-wild exploitation has been ongoing for a year, but no successful payload execution has been observed.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackers-fail-to-exploit-flaw-in-discontinued-tp-link-routers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hackers-fail-to-exploit-flaw-in-discontinued-tp-link-routers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</h3>
+                <p><strong>Summary:</strong> Threat actors are reusing Tycoon 2FA tools across other phishing kits following the platform’s disruption.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology</h3>
+                <p><strong>Summary:</strong> A White House official said the administration is engaging with advanced AI labs about their models and the security of software.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/white-house-chief-of-staff-to-meet-ith-anthropic-ceo-over-its-new-ai-technology/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/white-house-chief-of-staff-to-meet-ith-anthropic-ceo-over-its-new-ai-technology/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CoChat Launches AI Collaboration Platform to Combat Shadow AI</h3>
+                <p><strong>Summary:</strong> CoChat is fundamentally an AI collaboration platform designed for teamwork and to bring visibility and governance into enterprise AI shadows.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cochat-launches-ai-collaboration-platform-to-combat-shadow-ai/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cochat-launches-ai-collaboration-platform-to-combat-shadow-ai/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft pulls service update causing Teams launch failures</h3>
+                <p><strong>Summary:</strong> Microsoft has reverted a recent service update that was preventing some customers from launching the Microsoft Teams desktop client.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft releases emergency updates to fix Windows Server issues</h3>
+                <p><strong>Summary:</strong> Microsoft has released out-of-band (OOB) updates to fix issues affecting Windows Server systems after installing the April 2026 security updates.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-server-issues/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-server-issues/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vercel confirms breach as hackers claim to be selling stolen data</h3>
+                <p><strong>Summary:</strong> Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

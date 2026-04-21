@@ -1,0 +1,211 @@
+{
+  "date": "2026-04-21",
+  "items": [
+    {
+      "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
+      "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  eight new vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, including three flaws impacting Cisco Catalyst SD-WAN Manager, citing evidence of active exploitation.  The list of vulnerabilities is as follows -   CVE-2023-27351  (CVSS score: 8.2) - An improper authentication vulnerability in PaperCut NG/MF that could allow an attacker to bypass authentication on affected installations via the SecurityRequestFilter class.  CVE-2024-27199  (CVSS score: 7.3) - A relative path traversal vulnerability in JetBrains TeamCity that could allow an attacker to perform limited admin actions.  CVE-2025-2749  (CVSS score: 7.2) - A path traversal vulnerability in Kentico Xperience  that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.   CVE-2025-32975  (CVSS score: 10.0) - An improper authentication vulnerability in Quest KACE Systems Ma...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-adds-8-exploited-flaws-to-kev-sets-april-may-",
+      "source": "The Hacker News",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
+      "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
+      "summary": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems.  The vulnerability, tracked as CVE-2026-5760 , carries a CVSS score of 9.8 out of 10.0. It has been described as a case of command injection leading to the execution of arbitrary code.  SGLang  is a high-performance, open-source serving framework  for large language models and multimodal models. The official GitHub project has been forked over 5,500 times and starred 26,100 times.   According to the CERT Coordination Center (CERT/CC), the vulnerability impacts the reranking endpoint \"/v1/rerank,\" allowing an attacker to achieve arbitrary code execution in the context of the SGLang service by means of a specially crafted GPT-Generated Unified Format ( GGUF ) model file.   \"An attacker exploits this vulnerability by creating a malicious GPT Generated Unified Format (GGUF) model file with a crafted tokenizer.chat_temp...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "sglang-cve-2026-5760-cvss-98-enables-rce-via-malic",
+      "source": "The Hacker News",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
+      "summary": "Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Browser extensions act normally while pulling data and running code. Even update channels are used to push payloads. It’s not breaking systems—it’s bending trust.  There’s also a shift in how attacks run. Slower check-ins, multi-stage payloads, andmore code kept in memory. Attackers lean on real tools and normal workflows instead of custom builds. Some cases hint at supply-chain spread, where one weak link reaches further than expected.  Go through the whole recap. The pattern across access, execution, and control only shows up when you see it all together.  ⚡ Threat of the Week  Vercel Discloses Data Breach —Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems. The incident originated f...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "-weekly-recap-vercel-hack-push-fraud-qemu-abused-n",
+      "source": "The Hacker News",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Why Most AI Deployments Stall After the Demo",
+      "link": "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
+      "summary": "The fastest way to fall in love with an AI tool is to watch the demo.  Everything moves quickly. Prompts land cleanly. The system produces impressive outputs in seconds. It feels like the beginning of a new era for your team.  But most AI initiatives don't fail because of bad technology. They stall because what worked in the demo doesn't survive contact with real operations. The gap between a controlled demonstration and day-to-day reality is where teams run into trouble.  Most AI product demos are built to highlight potential, not friction. They use clean data, predictable inputs, carefully crafted prompts, and well-understood use cases. Production environments don't look like that. In real operations, data is messy, inputs are inconsistent, systems are fragmented, and context is incomplete. Latency matters. Edge cases quickly outnumber ideal ones. This is why teams often see an initial burst of enthusiasm followed by a slowdown once they try to deploy AI more broadly.  W...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "why-most-ai-deployments-stall-after-the-demo",
+      "source": "The Hacker News",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
+      "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
+      "summary": "Cybersecurity researchers have discovered a critical \"by design\" weakness in the Model Context Protocol's ( MCP ) architecture that could pave the way for remote code execution and have a cascading effect on the artificial intelligence (AI) supply chain.  \"This flaw enables Arbitrary Command Execution (RCE) on any system running a vulnerable MCP implementation, granting attackers direct access to sensitive user data, internal databases, API keys, and chat histories,\" OX Security researchers Moshe Siman Tov Bustan, Mustafa Naamnih, Nir Zadok, and Roni Bar said  in an analysis published last week.  The cybersecurity company said the systemic vulnerability is baked into Anthropic's official MCP software development kit (SDK) across any supported language, including Python, TypeScript, Java, and Rust. In all, it affects more than 7,000 publicly accessible servers and software packages totaling more than 150 million downloads.   At issue are unsafe defaults in...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "anthropic-mcp-design-vulnerability-enables-rce-thr",
+      "source": "The Hacker News",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
+      "link": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
+      "summary": "Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems.  The malware has been codenamed ZionSiphon  by Darktrace, highlighting its ability to set up persistence, tamper with local configuration files, and scan for operational technology (OT)-relevant services on the local subnet. According to details on VirusTotal, the sample was first detected  in the wild on June 29, 2025, right after the Twelve-Day War  between Iran and Israel that took place between June 13 and 24.  \"The malware combines privilege escalation, persistence, USB propagation, and ICS scanning with sabotage capabilities aimed at chlorine and pressure controls, highlighting growing experimentation with politically motivated critical infrastructure attacks against industrial operational technologies globally,\" the company said .  ZionSiphon, currently in an unfinished state, is characterized by it...",
+      "tags": [
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "researchers-detect-zionsiphon-malware-targeting-is",
+      "source": "The Hacker News",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "$290 Million Kelp DAO Crypto Heist Blamed on North Korea",
+      "link": "https://www.securityweek.com/290-million-kelp-dao-crypto-heist-blamed-on-north-korea/",
+      "summary": "The hackers targeted LayerZero’s DVN, compromising certain RPCs and DDoSing others to trigger failover to the poisoned infrastructure.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "290-million-kelp-dao-crypto-heist-blamed-on-north-",
+      "source": "SecurityWeek",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Serial-to-IP Converter Flaws Expose OT and Healthcare Systems to Hacking",
+      "link": "https://www.securityweek.com/serial-to-ip-converter-flaws-expose-ot-and-healthcare-systems-to-hacking/",
+      "summary": "Forescout researchers discovered 20 new vulnerabilities in Lantronix and Silex products and described theoretical attack scenarios.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "serial-to-ip-converter-flaws-expose-ot-and-healthc",
+      "source": "SecurityWeek",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "British Scattered Spider Hacker Pleads Guilty in the US",
+      "link": "https://www.securityweek.com/british-scattered-spider-hacker-pleads-guilty-in-the-us/",
+      "summary": "Tyler Buchanan admitted in court to hacking into various companies, defrauding them, and stealing cryptocurrency from multiple individuals.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "british-scattered-spider-hacker-pleads-guilty-in-t",
+      "source": "SecurityWeek",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Hackers Abuse QEMU for Defense Evasion",
+      "link": "https://www.securityweek.com/hackers-abuse-qemu-for-defense-evasion/",
+      "summary": "The machine emulator has been abused in at least two different campaigns distributing ransomware and remote access tools.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-abuse-qemu-for-defense-evasion",
+      "source": "SecurityWeek",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Bluesky Disrupted by Sophisticated DDoS Attack",
+      "link": "https://www.securityweek.com/bluesky-disrupted-by-sophisticated-ddos-attack/",
+      "summary": "A pro-Iran hacker group has taken credit for the attack on Bluesky, which appears to have lasted 24 hours.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "bluesky-disrupted-by-sophisticated-ddos-attack",
+      "source": "SecurityWeek",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Senate Extends Surveillance Powers Until April 30 After Chaotic Votes in House",
+      "link": "https://www.securityweek.com/senate-extends-surveillance-powers-until-april-30-after-chaotic-votes-in-house/",
+      "summary": "The Senate approved a short-term renewal until April 30 of a controversial surveillance program used by U.S. spy agencies.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "senate-extends-surveillance-powers-until-april-30-",
+      "source": "SecurityWeek",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
+      "summary": "41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023.",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "former-ransomware-negotiator-pleads-guilty-to-blac",
+      "source": "BleepingComputer",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "NGate Android malware uses HandyPay NFC app to steal card data",
+      "link": "https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/",
+      "summary": "A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "ngate-android-malware-uses-handypay-nfc-app-to-ste",
+      "source": "BleepingComputer",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen",
+      "link": "https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromised credentials and session hijacking.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "state-of-browser-attacks-learn-from-john-hammond-t",
+      "source": "BleepingComputer",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
+      "summary": "State-sponsored North Korean hackers are likely behind the $290 million crypto-heist that impacted the KelpDAO DeFi project on Saturday.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "kelpdao-suffers-290-million-heist-tied-to-lazarus-",
+      "source": "BleepingComputer",
+      "date": "2026-04-21"
+    }
+  ]
+}
