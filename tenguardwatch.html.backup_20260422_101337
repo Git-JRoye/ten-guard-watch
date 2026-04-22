@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines</div><div class="ticker-item">SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files</div><div class="ticker-item">⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More</div><div class="ticker-item">Why Most AI Deployments Stall After the Demo</div><div class="ticker-item">Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain</div><div class="ticker-item">Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems</div><div class="ticker-item">$290 Million Kelp DAO Crypto Heist Blamed on North Korea</div><div class="ticker-item">Serial-to-IP Converter Flaws Expose OT and Healthcare Systems to Hacking</div><div class="ticker-item">British Scattered Spider Hacker Pleads Guilty in the US</div><div class="ticker-item">Hackers Abuse QEMU for Defense Evasion</div><div class="ticker-item">Bluesky Disrupted by Sophisticated DDoS Attack</div><div class="ticker-item">Senate Extends Surveillance Powers Until April 30 After Chaotic Votes in House</div><div class="ticker-item">Former ransomware negotiator pleads guilty to BlackCat attacks</div><div class="ticker-item">NGate Android malware uses HandyPay NFC app to steal card data</div><div class="ticker-item">State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</div><div class="ticker-item">KelpDAO suffers $290 million heist tied to Lazarus hackers</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  eight new vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, including three flaws impacting Cisc...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files</h3>
+                <p><strong>Summary:</strong> A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems.  The vulnerability, tracked as CVE-2026-57...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More</h3>
+                <p><strong>Summary:</strong> Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Browser ex...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Why Most AI Deployments Stall After the Demo</h3>
+                <p><strong>Summary:</strong> The fastest way to fall in love with an AI tool is to watch the demo.  Everything moves quickly. Prompts land cleanly. The system produces impressive outputs in seconds. It feels like the beginning of...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a critical "by design" weakness in the Model Context Protocol's ( MCP ) architecture that could pave the way for remote code execution and have a cascading ef...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems.  The malware has been codena...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>$290 Million Kelp DAO Crypto Heist Blamed on North Korea</h3>
+                <p><strong>Summary:</strong> The hackers targeted LayerZero’s DVN, compromising certain RPCs and DDoSing others to trigger failover to the poisoned infrastructure.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/290-million-kelp-dao-crypto-heist-blamed-on-north-korea/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/290-million-kelp-dao-crypto-heist-blamed-on-north-korea/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Serial-to-IP Converter Flaws Expose OT and Healthcare Systems to Hacking</h3>
+                <p><strong>Summary:</strong> Forescout researchers discovered 20 new vulnerabilities in Lantronix and Silex products and described theoretical attack scenarios.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/serial-to-ip-converter-flaws-expose-ot-and-healthcare-systems-to-hacking/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/serial-to-ip-converter-flaws-expose-ot-and-healthcare-systems-to-hacking/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>British Scattered Spider Hacker Pleads Guilty in the US</h3>
+                <p><strong>Summary:</strong> Tyler Buchanan admitted in court to hacking into various companies, defrauding them, and stealing cryptocurrency from multiple individuals.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/british-scattered-spider-hacker-pleads-guilty-in-the-us/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/british-scattered-spider-hacker-pleads-guilty-in-the-us/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers Abuse QEMU for Defense Evasion</h3>
+                <p><strong>Summary:</strong> The machine emulator has been abused in at least two different campaigns distributing ransomware and remote access tools.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hackers-abuse-qemu-for-defense-evasion/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hackers-abuse-qemu-for-defense-evasion/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Bluesky Disrupted by Sophisticated DDoS Attack</h3>
+                <p><strong>Summary:</strong> A pro-Iran hacker group has taken credit for the attack on Bluesky, which appears to have lasted 24 hours.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/bluesky-disrupted-by-sophisticated-ddos-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/bluesky-disrupted-by-sophisticated-ddos-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Senate Extends Surveillance Powers Until April 30 After Chaotic Votes in House</h3>
+                <p><strong>Summary:</strong> The Senate approved a short-term renewal until April 30 of a controversial surveillance program used by U.S. spy agencies.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/senate-extends-surveillance-powers-until-april-30-after-chaotic-votes-in-house/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/senate-extends-surveillance-powers-until-april-30-after-chaotic-votes-in-house/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Former ransomware negotiator pleads guilty to BlackCat attacks</h3>
+                <p><strong>Summary:</strong> 41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>NGate Android malware uses HandyPay NFC app to steal card data</h3>
+                <p><strong>Summary:</strong> A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>State of Browser Attacks: Learn from John Hammond, Troy Hunt & Matt Johansen</h3>
+                <p><strong>Summary:</strong> Join Push Security's free three-part webinar series where top security researchers break down the browser-based attacks driving today's biggest breaches - from AiTM phishing and ConsentFix to compromi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/state-of-browser-security?utm_campaign=41073224-FY26Q2_webinar_state-of-browser-security&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>KelpDAO suffers $290 million heist tied to Lazarus hackers</h3>
+                <p><strong>Summary:</strong> State-sponsored North Korean hackers are likely behind the $290 million crypto-heist that impacted the KelpDAO DeFi project on Saturday.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

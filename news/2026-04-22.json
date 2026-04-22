@@ -1,0 +1,214 @@
+{
+  "date": "2026-04-22",
+  "items": [
+    {
+      "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
+      "link": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
+      "summary": "Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges.  The vulnerability, tracked as CVE-2026-40372 , carries a CVSS score of 9.1 out of 10.0. It's rated Important in severity. An anonymous researcher has been credited with discovering and reporting the flaw.  \"Improper verification of cryptographic signature in ASP.NET Core allows an unauthorized attacker to elevate privileges over a network,\" Microsoft said  in a Tuesday advisory. \"An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.\"  The tech giant said an attacker could abuse the vulnerability to disclose files and modify data, but emphasized that successful exploitation hinges on three prerequisites -   The application uses Microsoft.AspNetCore.DataProtection 10.0.6 from NuGet (either directly or through a package that depends on it, such as Microsoft.AspNetCore.DataProtection.S...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-critical-aspnet-core-cve-2026-40",
+      "source": "The Hacker News",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles",
+      "link": "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
+      "summary": "Cybersecurity researchers have discovered a new variant of a known malware called LOTUSLITE  that's distributed via a theme related to India's banking sector.  \"The backdoor communicates with a dynamic DNS-based command-and-control server over HTTPS and supports remote shell access, file operations, and session management, indicating a continued espionage-focused capability set rather than financially motivated objectives,\" Acronis researchers Subhajeet Singha and Santiago Pontiroli said  in an analysis.  The use of LOTUSLITE was previously observed  in spear-phishing attacks targeting U.S. government and policy entities using decoys associated with the geopolitical developments between the U.S. and Venezuela. The activity was attributed with medium confidence to a Chinese nation-state group tracked as Mustang Panda.   The latest activity flagged by Acronis involves deploying an evolved version of LOTUSLITE that demonstrates \"incremental improvements\" over ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mustang-pandas-new-lotuslite-variant-targets-india",
+      "source": "The Hacker News",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
+      "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
+      "summary": "A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium  that could result in arbitrary code execution.  The vulnerability, tracked as CVE-2026-5752 , is rated 9.3 on the CVSS scoring system.  \"Sandbox escape vulnerability in Terrarium allows arbitrary code execution with root privileges on a host process via JavaScript prototype chain traversal,\" according to a description  of the flaw in CVE.org.   Developed by Cohere AI as an open-source project, Terrarium is a Python sandbox that's used as a Docker-deployed container for running untrusted code written by users or generated with assistance from a large language model (LLM).  Notably, Terrarium runs on Pyodide, a Python distribution for the browser and Node.js, enabling it to support standard Python packages.  The project has been forked 56 times and starred 312 times.   According to the CERT Coordination Center (CERT/CC), the root cause relates  to a JavaScript prototype chain t...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cohere-ai-terrarium-sandbox-flaw-enables-root-code",
+      "source": "The Hacker News",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
+      "link": "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
+      "summary": "Threat actors associated with The Gentlemen ransomware‑as‑a‑service (RaaS) operation have been observed attempting to deploy a known proxy malware called SystemBC .  According to new research  published by Check Point, the command-and-control (C2 or C&C) server linked to SystemBC has led to the discovery of a botnet of more than 1,570 victims.  \"SystemBC establishes SOCKS5 network tunnels within the victim’s environment and connects to its C&C server using a custom RC4‑encrypted protocol,\" Check Point said. \"It can also download and execute additional malware, with payloads either written to disk or injected directly into memory.\"  Since its emergence in July 2025, The Gentlemen has quickly established itself as one of the most prolific ransomware groups, claiming more than 320 victims on its data leak site. Operating under a classic double-extortion model, the group is versatile as it's sophisticated, exhibiting capabilities to target Windows, Linux, N...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "systembc-c2-server-reveals-1570-victims-in-the-gen",
+      "source": "The Hacker News",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
+      "link": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
+      "summary": "Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamper with data exchanged by them.  The vulnerabilities have been collectively codenamed BRIDGE:BREAK  by Forescout Research Vedere Labs, which identified nearly 20,000 Serial-to-Ethernet converters exposed online globally.  \"Some of these vulnerabilities allow attackers to take full control of mission-critical devices connected via serial links,\" the cybersecurity company said in a report shared with The Hacker News.  Serial-to-IP converters are hardware devices that enable users to remotely access, control, and manage any serial device over an IP network or the internet by \"bridging\" legacy applications and industrial control systems (ICS) that operate over TCP/IP.   At a high level, as many as eight security flaws have been discovered in Lantronix products (EDS3000PS Seri...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "22-bridgebreak-flaws-expose-thousands-of-lantronix",
+      "source": "The Hacker News",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
+      "link": "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html",
+      "summary": "A third individual who was employed as a ransomware negotiator has pleaded guilty to conducting ransomware attacks against U.S. companies in 2023.  Angelo Martino , 41, of Land O'Lakes, Florida, teamed up with the operators of the BlackCat ransomware starting in April 2023 to assist the e-crime gang in extracting higher amounts as ransoms.  \"Working as a negotiator on behalf of five different ransomware victims, Martino provided BlackCat attackers with confidential information about the negotiating position and strategy of his company's clients without the clients' or his employer’s knowledge or permission,\" the U.S. Department of Justice (DoJ) said  in a Monday announcement.  The information, which included the victims' insurance policy limits and internal negotiation positions, maximized the ransoms they were required to pay. Martino was financially compensated in exchange for providing the details.  Martino, who was charged  last month, also admitted to co...",
+      "tags": [
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ransomware-negotiator-pleads-guilty-to-aiding-blac",
+      "source": "The Hacker News",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Google Antigravity in Crosshairs of Security Researchers, Cybercriminals",
+      "link": "https://www.securityweek.com/google-antigravity-in-crosshairs-of-security-researchers-cybercriminals/",
+      "summary": "Researchers discovered a remote code execution vulnerability and cybercriminals are using its reputation to deliver malware.",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "google-antigravity-in-crosshairs-of-security-resea",
+      "source": "SecurityWeek",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Oracle Patches 450 Vulnerabilities With April 2026 CPU",
+      "link": "https://www.securityweek.com/oracle-patches-450-vulnerabilities-with-april-2026-cpu/",
+      "summary": "The company released 481 new security patches across 28 product families, including over 300 fixes for remotely exploitable, unauthenticated flaws.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "oracle-patches-450-vulnerabilities-with-april-2026",
+      "source": "SecurityWeek",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Third US Security Expert Admits Helping Ransomware Gang",
+      "link": "https://www.securityweek.com/third-us-security-expert-admits-helping-ransomware-gang/",
+      "summary": "Angelo Martino of Florida has pleaded guilty to collaborating with the BlackCat cybercrime group while working as a ransomware negotiator.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "third-us-security-expert-admits-helping-ransomware",
+      "source": "SecurityWeek",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Dozens of Malicious Crypto Apps Land in Apple App Store",
+      "link": "https://www.securityweek.com/dozens-of-malicious-crypto-apps-land-in-apple-app-store/",
+      "summary": "Masquerading as popular cryptocurrency wallets, the apps can hijack recovery phrases and private keys.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "dozens-of-malicious-crypto-apps-land-in-apple-app-",
+      "source": "SecurityWeek",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Unsecured Perforce Servers Expose Sensitive Data From Major Orgs",
+      "link": "https://www.securityweek.com/unsecured-perforce-servers-expose-sensitive-data-from-major-orgs/",
+      "summary": "Things are improving, but a researcher has still identified over 1,500 Perforce P4 instances allowing attackers to read files on the server.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "unsecured-perforce-servers-expose-sensitive-data-f",
+      "source": "SecurityWeek",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Progress Patches Multiple Vulnerabilities in MOVEit WAF, LoadMaster",
+      "link": "https://www.securityweek.com/progress-patches-multiple-vulnerabilities-in-moveit-waf-loadmaster/",
+      "summary": "The security defects could be exploited for remote code execution, OS command injection, and WAF detection bypass.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "progress-patches-multiple-vulnerabilities-in-movei",
+      "source": "SecurityWeek",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
+      "summary": "A Linux variant of the GoGra backdoor uses legitimate Microsoft infrastructure, relying on an Outlook inbox for stealthy payload delivery.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-gogra-malware-for-linux-uses-microsoft-graph-a",
+      "source": "BleepingComputer",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Microsoft releases emergency patches for critical ASP.NET flaw",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/",
+      "summary": "Microsoft has released out-of-band (OOB) security updates to patch a critical ASP.NET Core privilege escalation vulnerability.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-releases-emergency-patches-for-critical-",
+      "source": "BleepingComputer",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
+      "summary": "Over 1,300 Microsoft SharePoint servers exposed online remain unpatched against a spoofing vulnerability that was exploited as a zero-day and is still being abused in ongoing attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "over-1300-microsoft-sharepoint-servers-vulnerable-",
+      "source": "BleepingComputer",
+      "date": "2026-04-22"
+    }
+  ]
+}
