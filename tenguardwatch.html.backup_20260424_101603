@@ -1,0 +1,188 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors</div><div class="ticker-item">Vercel Finds More Compromised Accounts in Context.ai-Linked Breach</div><div class="ticker-item">Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages</div><div class="ticker-item">Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain</div><div class="ticker-item">Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens</div><div class="ticker-item">Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API</div><div class="ticker-item">AI Can Autonomously Hack Cloud Systems With Minimal Oversight: Researchers</div><div class="ticker-item">Apple Patches iOS Flaw Allowing Recovery of Deleted Chats</div><div class="ticker-item">Recent Microsoft Defender Vulnerability Exploited as Zero-Day</div><div class="ticker-item">After Bluesky, Mastodon Targeted in DDoS Attack</div><div class="ticker-item">Most Serious Cyberattacks Against the UK Now From Russia, Iran and China, Cyber Chief Says</div><div class="ticker-item">New Wiper Malware Targeted Venezuelan Energy Sector Prior to US Intervention</div><div class="ticker-item">New Mirai campaign exploits RCE flaw in EoL D-Link routers</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">This refurbished 512GB EliteBook still feels premium at just $250</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors</h3>
+                <p><strong>Summary:</strong> Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper .  "The group wields a wide ar...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Vercel Finds More Compromised Accounts in Context.ai-Linked Breach</h3>
+                <p><strong>Summary:</strong> Vercel on Wednesday revealed that it has identified an additional set of customer accounts that were compromised as part of a security incident that enabled unauthorized access to its internal systems...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages</h3>
+                <p><strong>Summary:</strong> Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device.  The vulnerability, tracked as CVE-2026-2895...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have warned of malicious images pushed to the official " checkmarx/kics " Docker Hub repository.  In an alert published today, software supply chain security company Socket r...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a fresh set of packages that have been compromised by bad actors to deliver a self-propagating worm that spreads through stolen developer npm tokens.  The supply...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API</h3>
+                <p><strong>Summary:</strong> The threat actor known as Harvester has been attributed to a new Linux version of its GoGra  backdoor deployed as part of attacks likely targeting entities in South Asia.  "The malware uses the legiti...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Can Autonomously Hack Cloud Systems With Minimal Oversight: Researchers</h3>
+                <p><strong>Summary:</strong> Palo Alto Networks has developed Zealot, a multi-agent penetration testing PoC capable of reconnaissance, exploitation, and exfiltration.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ai-can-autonomously-hack-cloud-systems-with-minimal-oversight-researchers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ai-can-autonomously-hack-cloud-systems-with-minimal-oversight-researchers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Patches iOS Flaw Allowing Recovery of Deleted Chats</h3>
+                <p><strong>Summary:</strong> Apple rolled out the security patches for dozens of iPhone and iPad models and generations.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/apple-patches-ios-flaw-allowing-recovery-of-deleted-chats/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/apple-patches-ios-flaw-allowing-recovery-of-deleted-chats/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Recent Microsoft Defender Vulnerability Exploited as Zero-Day</h3>
+                <p><strong>Summary:</strong> The flaw allows attackers to access the SAM database, extract NTLM hashes, and gain System privileges.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-microsoft-defender-vulnerability-exploited-as-zero-day/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-microsoft-defender-vulnerability-exploited-as-zero-day/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>After Bluesky, Mastodon Targeted in DDoS Attack</h3>
+                <p><strong>Summary:</strong> The DDoS attack caused a major outage, but Mastodon mitigated it within a few hours.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/after-bluesky-mastodon-targeted-in-ddos-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/after-bluesky-mastodon-targeted-in-ddos-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Most Serious Cyberattacks Against the UK Now From Russia, Iran and China, Cyber Chief Says</h3>
+                <p><strong>Summary:</strong> British businesses need to prepare themselves to defend against cyberattacks because the U.K. could be targeted “at scale,” if it became involved in an international conflict.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/most-serious-cyberattacks-against-the-uk-now-from-russia-iran-and-china-cyber-chief-says/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/most-serious-cyberattacks-against-the-uk-now-from-russia-iran-and-china-cyber-chief-says/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Wiper Malware Targeted Venezuelan Energy Sector Prior to US Intervention</h3>
+                <p><strong>Summary:</strong> Dubbed Lotus Wiper, the malware targets recovery mechanisms, overwrites drives, and systematically deletes files.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-wiper-malware-targeted-venezuelan-energy-sector-prior-to-us-intervention/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-wiper-malware-targeted-venezuelan-energy-sector-prior-to-us-intervention/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Mirai campaign exploits RCE flaw in EoL D-Link routers</h3>
+                <p><strong>Summary:</strong> A new Mirai-based malware campaign is actively exploiting CVE-2025-29635, a high-severity command-injection vulnerability affecting D-Link DIR-823X routers, to enlist devices into the botnet.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>This refurbished 512GB EliteBook still feels premium at just $250</h3>
+                <p><strong>Summary:</strong> Finding a laptop that balances performance, portability, and price isn't always easy, but this Grade A refurbished HP EliteBook 840 G7 makes a strong case for itself. It's also on sale for 52% off the...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-refurbished-512gb-elitebook-still-feels-premium-at-just-250/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/this-refurbished-512gb-elitebook-still-feels-premium-at-just-250/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

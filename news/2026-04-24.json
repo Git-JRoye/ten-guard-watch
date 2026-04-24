@@ -1,0 +1,215 @@
+{
+  "date": "2026-04-24",
+  "items": [
+    {
+      "title": "Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2",
+      "link": "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
+      "summary": "Chinese-speaking individuals are the target of a new campaign that uses a trojanized version of SumatraPDF reader to deploy the AdaptixC2  Beacon post-exploitation agent and ultimately facilitate the abuse of Microsoft Visual Studio Code (VS Code) tunnels for remote access.  Zscaler ThreatLabz, which discovered the campaign last month, has attributed it with high confidence to Tropic Trooper  (aka APT23, Earth Centaur, KeyBoy, and Pirate Panda), a hacking group known for its targeting of various entities in Taiwan, Hong Kong, and the Philippines. It's assessed to be active since at least 2011.  \"The threat actors created a custom AdaptixC2 Beacon listener, leveraging GitHub as their command-and-control (C2) platform,\" security researcher Yin Hong Chang said  in an analysis.   It's believed that Chinese-speaking individuals in Taiwan, and individuals in South Korea and Japan, are the targets of the campaign. The starting point of the attack is a ZIP archive containing...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "tropic-trooper-uses-trojanized-sumatrapdf-and-gith",
+      "source": "The Hacker News",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
+      "summary": "A high-severity security flaw in LMDeploy , an open-source toolkit for compressing, deploying, and serving LLMs, has come under active exploitation in the wild less than 13 hours after its public disclosure.  The vulnerability, tracked as CVE-2026-33626  (CVSS score: 7.5), relates to a Server-Side Request Forgery (SSRF) vulnerability that could be exploited to access sensitive data.  \"A server-side request forgery (SSRF) vulnerability exists in LMDeploy's vision-language module,\" according to an advisory  published by the project maintainers last week. \"The load_image() function in lmdeploy/vl/utils.py fetches arbitrary URLs without validating internal/private IP addresses, allowing attackers to access cloud metadata services, internal networks, and sensitive resources.\"  The shortcoming affects all versions of the toolkit (0.12.0 and prior) with vision language support. Orca Security researcher Igor Stepansky has been credited with discovering and reporting th...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "lmdeploy-cve-2026-33626-flaw-exploited-within-13-h",
+      "source": "The Hacker News",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware",
+      "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
+      "summary": "A previously undocumented threat activity cluster known as UNC6692  has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.  \"As with many other intrusions in recent years, UNC6692 relied heavily on impersonating IT help desk employees, convincing their victim to accept a Microsoft Teams chat invitation from an account outside their organization,\" Google-owned Mandiant said  in a report published today.  UNC6692 has been attributed to a large email campaign that's designed to overwhelm a target's inbox with a flood of spam emails, creating a false sense of urgency. The threat actor then approaches the target over Microsoft Teams by sending a message claiming to be from the IT support team to offer assistance with the email bombing problem.  It's worth noting that this combination of bombarding a victim's email inbox followed by Microsoft Teams-based help desk impersonation has been a ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "unc6692-impersonates-it-help-desk-via-microsoft-te",
+      "source": "The Hacker News",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+      "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
+      "summary": "Bitwarden CLI  has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign , according to new findings from JFrog and Socket.  \"The affected package version appears to be @bitwarden/cli@2026.4.0 , and the malicious code was published in 'bw1.js,' a file included in the package contents,\" the application security company said .  \"The attack appears to have leveraged a compromised GitHub Action in Bitwarden's CI/CD pipeline, consistent with the pattern seen across other affected repositories in this campaign.\"  In a post on X, JFrog said  the rogue version of the package \"steals GitHub/npm tokens, .ssh, .env, shell history, GitHub Actions and cloud secrets, then exfiltrates the data to private domains and as GitHub commits.\"  Specifically, the malicious code is executed  by means of a preinstall hook, resulting in the theft of local, CI, GitHub, and cloud secrets. The data is exfiltrated to the domain \"a...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "bitwarden-cli-compromised-in-ongoing-checkmarx-sup",
+      "source": "The Hacker News",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
+      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
+      "summary": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes.  The supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work, giving attackers easy access.  AI tools are also part of the problem now. They trust bad input and take real actions, which makes the damage bigger. Then there are quieter issues. Apps take data they should not. Devices behave in strange ways. Attackers keep testing what they can get away with. No noise. Just ongoing damage.  Here is the list for this week’s ThreatsDay Bulletin.                        State-backed crypto heist             North Korea Likely Behind KelpDAP $290M Crypto Heist                  Inter-blockchain communication protocol LayerZero has revealed  that North Korean thr...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "threatsday-bulletin-290m-defi-hack-macos-lotl-abus",
+      "source": "The Hacker News",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
+      "link": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
+      "summary": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly.  Well, that world is already here.  Thanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window , and it means your standard patching routine is officially too slow.  If you are fighting AI-speed attacks with manual-speed defenses, your systems are at a breaking point. It’s time to rethink everything.  Join our highly anticipated webinar featuring expert guest Ofer Gayer, Vice President of Product at Miggo Security, and learn how to beat the bots at their own game: Mythos and the Collapsing Exploit Window: Rethink Vulnerability Prioritization at AI Speed .  Here is exactly what you will walk away with:   The Truth About Mythos:  We are cutting through the hype. Learn what Mythos actually represents and w...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-mythos-reality-check-beating-automated-exp",
+      "source": "The Hacker News",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Vulnerabilities Patched in CrowdStrike, Tenable Products",
+      "link": "https://www.securityweek.com/vulnerabilities-patched-in-crowdstrike-tenable-products/",
+      "summary": "CrowdStrike has fixed a critical LogScale vulnerability, while Tenable addressed a high-severity Nessus flaw.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "vulnerabilities-patched-in-crowdstrike-tenable-pro",
+      "source": "SecurityWeek",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Bitwarden NPM Package Hit in Supply Chain Attack",
+      "link": "https://www.securityweek.com/bitwarden-npm-package-hit-in-supply-chain-attack/",
+      "summary": "Tied to a fresh Checkmarx supply chain attack claimed by TeamPCP, the incident references the Shai-Hulud worm.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "bitwarden-npm-package-hit-in-supply-chain-attack",
+      "source": "SecurityWeek",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Copperhelm Raises $7 Million for Agentic Cloud Security Platform",
+      "link": "https://www.securityweek.com/copperhelm-raises-7-million-for-agentic-cloud-security-platform/",
+      "summary": "The Israel-based company, which just emerged from stealth mode, was founded by cloud and security experts from RSA, McAfee, and Unity.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "copperhelm-raises-7-million-for-agentic-cloud-secu",
+      "source": "SecurityWeek",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Cloudsmith Raises $72 Million in Series C Funding",
+      "link": "https://www.securityweek.com/cloudsmith-raises-72-million-in-series-c-funding/",
+      "summary": "The company will use the investment to accelerate product development and grow go-to-market efforts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cloudsmith-raises-72-million-in-series-c-funding",
+      "source": "SecurityWeek",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Chinese Cybersecurity Firm’s AI Hacking Claims Draw Comparisons to Claude Mythos",
+      "link": "https://www.securityweek.com/chinese-cybersecurity-firms-ai-hacking-claims-draw-comparisons-to-claude-mythos/",
+      "summary": "360 Digital Security Group claims to have uncovered 1,000 vulnerabilities using AI, including at the Tianfu Cup hacking contest.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-cybersecurity-firms-ai-hacking-claims-draw",
+      "source": "SecurityWeek",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Rilian Raises $17.5 Million for AI-Native Security Orchestration",
+      "link": "https://www.securityweek.com/rilian-raises-17-5-million-for-ai-native-security-orchestration/",
+      "summary": "The company will hire new talent and expand operations across the US and other allied countries.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "rilian-raises-175-million-for-ai-native-security-o",
+      "source": "SecurityWeek",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
+      "summary": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "hackers-exploit-file-upload-bug-in-breeze-cache-wo",
+      "source": "BleepingComputer",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Bitwarden CLI npm package compromised to steal developer credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
+      "summary": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "bitwarden-cli-npm-package-compromised-to-steal-dev",
+      "source": "BleepingComputer",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
+      "link": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
+      "summary": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trigona-ransomware-attacks-use-custom-exfiltration",
+      "source": "BleepingComputer",
+      "date": "2026-04-24"
+    }
+  ]
+}
