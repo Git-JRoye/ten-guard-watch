@@ -44,7 +44,7 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software</div><div class="ticker-item">CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline</div><div class="ticker-item">FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches</div><div class="ticker-item">NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software</div><div class="ticker-item">Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine</div><div class="ticker-item">26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases</div><div class="ticker-item">China-Linked APT GopherWhisper Abuses Legitimate Services in Government Attacks</div><div class="ticker-item">Pre-Stuxnet Sabotage Malware ‘Fast16’ Linked to US-Iran Cyber Tensions</div><div class="ticker-item">In Other News: Unauthorized Mythos Access, Plankey CISA Nomination Ends, New Display Security Device</div><div class="ticker-item">Why Cybersecurity Must Rethink Defense in the Age of Autonomous Agents</div><div class="ticker-item">Locked Shields 2026: 41 Nations Strengthen Cyber Resilience in World’s Biggest Exercise</div><div class="ticker-item">US Federal Agency’s Cisco Firewall Infected With ‘Firestarter’ Backdoor</div><div class="ticker-item">Microsoft rolls out revamped Windows Insider Program</div><div class="ticker-item">Threat actor uses Microsoft Teams to deploy new “Snow” malware</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Kill ads & trackers for just $15.97 in this AdGuard lifetime deal</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software</div><div class="ticker-item">CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline</div><div class="ticker-item">FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches</div><div class="ticker-item">NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software</div><div class="ticker-item">Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine</div><div class="ticker-item">26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases</div><div class="ticker-item">Pre-Stuxnet Sabotage Malware ‘Fast16’ Linked to US-Iran Cyber Tensions</div><div class="ticker-item">In Other News: Unauthorized Mythos Access, Plankey CISA Nomination Ends, New Display Security Device</div><div class="ticker-item">Why Cybersecurity Must Rethink Defense in the Age of Autonomous Agents</div><div class="ticker-item">Locked Shields 2026: 41 Nations Strengthen Cyber Resilience in World’s Biggest Exercise</div><div class="ticker-item">US Federal Agency’s Cisco Firewall Infected With ‘Firestarter’ Backdoor</div><div class="ticker-item">Trump Administration Vows Crackdown on Chinese Companies ‘Exploiting’ AI Models Made in US</div><div class="ticker-item">ADT confirms data breach after ShinyHunters leak threat</div><div class="ticker-item">Firestarter malware survives Cisco firewall updates, security patches</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Windows Update gets new controls to reduce forced restarts</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
@@ -91,13 +91,6 @@
                 <a href="https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>China-Linked APT GopherWhisper Abuses Legitimate Services in Government Attacks</h3>
-                <p><strong>Summary:</strong> Dubbed GopherWhisper, the group relies on multiple Go-based backdoors alongside custom loaders and injectors.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/china-linked-apt-gopherwhisper-abuses-legitimate-services-in-government-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/china-linked-apt-gopherwhisper-abuses-legitimate-services-in-government-attacks/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
                 <h3>Pre-Stuxnet Sabotage Malware ‘Fast16’ Linked to US-Iran Cyber Tensions</h3>
                 <p><strong>Summary:</strong> It targeted high-precision calculation software to tamper with results and packed a self-propagation mechanism.</p>
                 <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/us-federal-agencys-cisco-firewall-infected-with-firestarter-backdoor/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft rolls out revamped Windows Insider Program</h3>
-                <p><strong>Summary:</strong> Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Trump Administration Vows Crackdown on Chinese Companies ‘Exploiting’ AI Models Made in US</h3>
+                <p><strong>Summary:</strong> The Trump administration is vowing to crack down on foreign tech companies’ exploitation of U.S. artificial intelligence models.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/trump-administration-vows-crackdown-on-chinese-companies-exploiting-ai-models-made-in-us/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/trump-administration-vows-crackdown-on-chinese-companies-exploiting-ai-models-made-in-us/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Threat actor uses Microsoft Teams to deploy new “Snow” malware</h3>
-                <p><strong>Summary:</strong> A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor.</p>
+                <h3>ADT confirms data breach after ShinyHunters leak threat</h3>
+                <p><strong>Summary:</strong> Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Firestarter malware survives Cisco firewall updates, security patches</h3>
+                <p><strong>Summary:</strong> Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or...</p>
                 <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>New report: How browser-based attacks are bypassing your security controls</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Kill ads & trackers for just $15.97 in this AdGuard lifetime deal</h3>
-                <p><strong>Summary:</strong> This lifetime AdGuard Family Plan promotion offers a one-time purchase of $15.97 that covers up to 9 devices, making it less of a personal tool and more of a full household solution.</p>
+                <h3>Windows Update gets new controls to reduce forced restarts</h3>
+                <p><strong>Summary:</strong> Microsoft is rolling out Windows Update improvements that give users more control over how updates are installed while reducing disruption from frequent or poorly timed restarts.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/kill-ads-and-trackers-for-just-1597-in-this-adguard-lifetime-deal/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/kill-ads-and-trackers-for-just-1597-in-this-adguard-lifetime-deal/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/windows-update-gets-new-controls-to-reduce-forced-restarts/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/windows-update-gets-new-controls-to-reduce-forced-restarts/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
