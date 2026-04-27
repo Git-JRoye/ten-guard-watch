@@ -1,0 +1,211 @@
+{
+  "date": "2026-04-27",
+  "items": [
+    {
+      "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
+      "link": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
+      "summary": "Cybersecurity researchers have disclosed details of a telecommunications fraud campaign that uses fake CAPTCHA verification tricks to dupe unsuspecting users into sending international text messages that incur charges on their mobile bills, generating illicit revenue for the threat actors who lease the phone numbers.  According to a new report published by Infoblox, the operation is believed to have been active since at least June 2020, using methods like social engineering and back button hijacking  in web browsers. As many as 35 phone numbers spanning 17 countries have been observed as part of the international revenue share fraud ( IRSF ) campaign.  \"The fake CAPTCHA has multiple steps, and each message crafted by the site is preconfigured with over a dozen phone numbers, meaning the victim isn't charged for just a single message – they're charged for sending SMSs to over 50 international destinations,\" researchers David Brunsdon and Darby Wise said  in an analysi...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "fake-captcha-irsf-scam-and-120-keitaro-campaigns-d",
+      "source": "The Hacker News",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
+      "link": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
+      "summary": "Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment centrifuges.  According to a new report published by SentinelOne, the previously undocumented cyber sabotage framework dates back to 2005, primarily targeting high-precision calculation software to tamper with results. It has been codenamed fast16 .  \"By combining this payload with self-propagation mechanisms, the attackers aim to produce equivalent inaccurate calculations across an entire facility,\" researchers Vitaly Kamluk and Juan Andrés Guerrero-Saade said  in an exhaustive report published this week.  Fast16 is estimated to predate Stuxnet  – the world's first known digital weapon  designed for disruptive actions  – by at least five years. While Stuxnet is widely attributed to the U.S. and Israel and later served as the architectural foundation  for the Duqu  information-...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "researchers-uncover-pre-stuxnet-fast16-malware-tar",
+      "source": "The Hacker News",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
+      "link": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The list of vulnerabilities is below -   CVE-2024-57726  (CVSS score: 9.9) - A missing authorization vulnerability in SimpleHelp that could allow low-privileged technicians to create API keys with excessive permissions, which can then be used to escalate privileges to the server admin role.  CVE-2024-57728  (CVSS score: 7.2) - A path traversal vulnerability in SimpleHelp that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e., zip slip), which can be exploited to execute arbitrary code on the host in the context of the SimpleHelp server user.  CVE-2024-7399  (CVSS score: 8.8) - A path traversal vulnerability in Samsung MagicINFO 9 Server that cou...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-adds-4-exploited-flaws-to-kev-sets-may-2026-f",
+      "source": "The Hacker News",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
+      "link": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with a new malware called FIRESTARTER .  FIRESTARTER, per CISA and the U.K.'s National Cyber Security Centre (NCSC), is assessed  to be a backdoor designed for remote access and control. It's believed to be deployed as part of a \"widespread\" campaign orchestrated by an advanced persistent threat (APT) actor to obtain access to Cisco Adaptive Security Appliance (ASA) firmware by exploiting now-patched security flaws  such as -   CVE-2025-20333  (CVSS score: 9.9) - An improper validation of user-supplied input vulnerability that could allow an authenticated, remote attacker with valid VPN user credentials to execute arbitrary code as root on an affected device by sending crafted HTTP requests.  CVE-2025-20362  (CVSS score: 6.5) - An improper...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "firestarter-backdoor-hit-federal-cisco-firepower-d",
+      "source": "The Hacker News",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software",
+      "link": "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
+      "summary": "The Office of Inspector General (OIG) of the U.S. National Aeronautics and Space Administration (NASA) has revealed how a Chinese national posed as a U.S. researcher as part of a spear-phishing campaign to obtain sensitive information from the space agency, as well as from government entities, universities, and private companies, in violation of export control laws.  \"For years, NASA employees and research collaborators thought they were simply sharing software with colleagues,\" the OIG said  in a Thursday release. \"Instead, they were emailing sensitive defense technology to a Chinese national who was impersonating U.S. engineers.\"  The individual linked to the campaign was outed as Chinese national Song Wu in September 2024, when the U.S. Department of Justice (DoJ) announced  charges against him for orchestrating a multi-year phishing scheme that stretched from January 2017 to December 2021 and involved targeting dozens of U.S. professors, researchers, and engine...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "nasa-employees-duped-in-chinese-phishing-scheme-ta",
+      "source": "The Hacker News",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
+      "link": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
+      "summary": "The AI Agent Authority Gap - From Ungoverned to Delegation  As discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too narrowly.  The issue is not simply that agents are new actors. It is that agents are delegated actors. They do not emerge with independent authority. They are triggered, invoked, provisioned, or empowered by existing enterprise identities: human users, machine identities, bots, service accounts, and other non-human actors.  That makes Agent-AI fundamentally different from both people and software, while still being inseparable from both.   This is why the AI Agent Authority Gap is really a delegation gap. Enterprises are trying to govern an emerging actor without first governing the identities that delegate authority to it.  Traditional IAM was built to answer a narrower question: who has access. But once AI agents are introduced, the real question becomes: what authority is being delegated...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "bridging-the-ai-agent-authority-gap-continuous-obs",
+      "source": "The Hacker News",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "UNC6692 Uses Email Bombing, Social Engineering to Deploy ‘Snow’ Malware",
+      "link": "https://www.securityweek.com/unc6692-uses-email-bombing-social-engineering-to-deploy-snow-malware/",
+      "summary": "The threat actor infected victims with the Snow malware family – Snowbelt, Snowglaze, and Snowbasin – for persistent access.",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "unc6692-uses-email-bombing-social-engineering-to-d",
+      "source": "SecurityWeek",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Easily Exploitable ‘Pack2TheRoot’ Linux Vulnerability Leads to Root Access",
+      "link": "https://www.securityweek.com/easily-exploitable-pack2theroot-linux-vulnerability-leads-to-root-access/",
+      "summary": "A race condition in PackageKit allows unprivileged users to escalate privileges when installing packages.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "easily-exploitable-pack2theroot-linux-vulnerabilit",
+      "source": "SecurityWeek",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "US Launches Sweeping Crackdown on Southeast Asia Cyberscams and Sanctions Cambodian Senator",
+      "link": "https://www.securityweek.com/us-launches-sweeping-crackdown-on-southeast-asia-cyberscams-and-sanctions-cambodian-senator/",
+      "summary": "US conducts sweeping crackdown on Southeast Asian cyberscam operations as part of what officials say is a “new theater of war”.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "us-launches-sweeping-crackdown-on-southeast-asia-c",
+      "source": "SecurityWeek",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Firefox Vulnerability Allows Tor User Fingerprinting",
+      "link": "https://www.securityweek.com/firefox-vulnerability-allows-tor-user-fingerprinting/",
+      "summary": "The vulnerability is tracked as CVE-2026-6770 and it has been patched with the release of Firefox 150 and Tor 15.0.10.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "firefox-vulnerability-allows-tor-user-fingerprinti",
+      "source": "SecurityWeek",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "China-Linked APT GopherWhisper Abuses Legitimate Services in Government Attacks",
+      "link": "https://www.securityweek.com/china-linked-apt-gopherwhisper-abuses-legitimate-services-in-government-attacks/",
+      "summary": "Dubbed GopherWhisper, the group relies on multiple Go-based backdoors alongside custom loaders and injectors.",
+      "tags": [
+        "malware",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-apt-gopherwhisper-abuses-legitimate-s",
+      "source": "SecurityWeek",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Pre-Stuxnet Sabotage Malware ‘Fast16’ Linked to US-Iran Cyber Tensions",
+      "link": "https://www.securityweek.com/pre-stuxnet-sabotage-malware-fast16-linked-to-us-iran-cyber-tensions/",
+      "summary": "It targeted high-precision calculation software to tamper with results and packed a self-propagation mechanism.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "pre-stuxnet-sabotage-malware-fast16-linked-to-us-i",
+      "source": "SecurityWeek",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "American utility firm Itron discloses breach of internal IT network",
+      "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+      "summary": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "american-utility-firm-itron-discloses-breach-of-in",
+      "source": "BleepingComputer",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Get certified in 7 CompTIA disciplines with this $50 training bundle",
+      "link": "https://www.bleepingcomputer.com/offer/deals/get-certified-in-7-comptia-disciplines-with-this-50-training-bundle/",
+      "summary": "The Complete 2026 CompTIA Certification Training Bundle covers seven of the most in-demand cert tracks for just $49.99, down from $199.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "get-certified-in-7-comptia-disciplines-with-this-5",
+      "source": "BleepingComputer",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Microsoft rolls out revamped Windows Insider Program",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
+      "summary": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-rolls-out-revamped-windows-insider-progr",
+      "source": "BleepingComputer",
+      "date": "2026-04-27"
+    }
+  ]
+}
