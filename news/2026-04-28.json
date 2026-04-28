@@ -1,0 +1,211 @@
+{
+  "date": "2026-04-28",
+  "items": [
+    {
+      "title": "After Mythos: New Playbooks For a Zero-Window Era",
+      "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
+      "summary": "When patching isn’t fast enough, NDR helps contain the next era of threats.  If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to patch and protect after a vulnerability disclosure, is closing fast.  Anthropic’s new model,  Claude Mythos , and its Project Glasswing , showed that finding exploitable vulnerabilities and subtle cracks in your defenses in operating systems and browsers — work that once took experts weeks — can now be done in minutes with AI. As a result, the  patch window of opportunity is now near-zero . The situation is so critical that Treasury Secretary Scott Bessent and Federal Reserve Chair Jerome Powell  recently convened an urgent meeting  with the CEOs of major U.S. financial institutions to discuss the implied risks. The takeaway was straightforward: surging AI capabilities have upended risk profiles, with profound implications for institutional stability and integrity across industries.   ...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "after-mythos-new-playbooks-for-a-zero-window-era",
+      "source": "The Hacker News",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
+      "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
+      "summary": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited  to the U.S. from Italy.   Xu Zewei, 34, was arrested  in July 2025 by Italian authorities for his alleged links to the Chinese state-sponsored threat group and for orchestrating cyber attacks against American organizations and government agencies between February 2020 and June 2021, including breaking into systems at a Texas university to steal COVID-19 vaccine information.  He was charged with nine counts of wire fraud and conspiracy to cause damage to and obtain information by unauthorized access to protected computers, as well as committing aggravated identity theft.  Xu, along with co-defendant and Chinese national Zhang Yu, is said to have undertaken the attacks under directions issued by the Ministry of State Security's (MSS) Shanghai State Security Bureau (SSSB). Some of these attacks weaponized then zero-days in Microsoft Exchange Server, a threat activity cluster that Micro...",
+      "tags": [
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "chinese-silk-typhoon-hacker-extradited-to-us-over-",
+      "source": "The Hacker News",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+      "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+      "summary": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort .  Agent ID Administrator  is a privileged built-in role introduced by Microsoft as part of its agent identity platform  to handle all aspects of an AI agent's identity lifecycle operations in a tenant. The platform enables AI agents to authenticate securely and access necessary resources, as well as discover other agents.  However, the shortcoming discovered by the identity security platform meant that users assigned the Agent ID Administrator role could take over arbitrary service principals , including those beyond agent-related identities, by becoming an owner and then add their own credentials to authenticate as that principal.   \"That's full service principal takeover,\" security researcher Noa Ariel said . \"In tenants where high-privileged service principals...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "microsoft-patches-entra-id-role-flaw-that-enabled-",
+      "source": "The Hacker News",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+      "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+      "summary": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild.  The vulnerability in question is CVE-2026-32202  (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to access sensitive information. It was addressed as part of its Patch Tuesday update  for this month.  \"Protection mechanism failure in Windows Shell allows an unauthorized attacker to perform spoofing over a network,\" Microsoft noted  in an alert. \"An attacker would have to send the victim a malicious file that the victim would have to execute.\"  \"An attacker who successfully exploited the vulnerability could view some sensitive information (Confidentiality) but not all resources within the impacted component may be divulged to the attacker. The attacker cannot make changes to disclosed information (Integrity) or limit access to the resource (Availability).\"...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-confirms-active-exploitation-of-windows-",
+      "source": "The Hacker News",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
+      "link": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
+      "summary": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web.  \"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,\" the Israeli security company said .  It also emphasized that the GitHub repository is maintained separately from its customer production environment, adding that no customer data is stored in the repository. Checkmarx said its forensic probe into the incident is ongoing and that it's actively working to verify the nature and scope of the posted data.  Furthermore, the company said it has locked down access to the affected GitHub repository as part of its incident response efforts.  \"If we determine that customer information was involved in this incident, we will notify...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "checkmarx-confirms-github-repository-data-posted-o",
+      "source": "The Hacker News",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
+      "summary": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are.  Most of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same mess, cleaner packaging.  Coffee is cold. The vuln list is ugly. Let’s get into it.  ⚡ Threat of the Week  New fast16 Malware Was Developed Years Before Stuxnet —A new Lua-based malware called fast16, created years before the notorious Stuxnet worm, is designed to primarily target high-precision calculation software to tamper with results. The framework dates back to 2005. Analysis suggests that fast16 was active at least five years before the emergence of Stuxnet. Widely regarded as a joint U.S.-Israeli project, Stuxnet marked a turning point in cyber warfare as the first disruptive digital weap...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "-weekly-recap-fast16-malware-xchat-launch-federal-",
+      "source": "The Hacker News",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Germany Suspects Russia Is Behind Signal Phishing That Targeted Top Officials",
+      "link": "https://www.securityweek.com/germany-suspects-russia-is-behind-signal-phishing-that-targeted-top-officials/",
+      "summary": "Federal prosecutors have been conducting a preliminary investigation since mid-February 2026 into alleged cyberattacks on Signal accounts.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "germany-suspects-russia-is-behind-signal-phishing-",
+      "source": "SecurityWeek",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Spectrum Security Emerges From Stealth Mode With $19 Million",
+      "link": "https://www.securityweek.com/spectrum-security-emerges-from-stealth-mode-with-19-million/",
+      "summary": "The threat detection startup will invest in accelerating its engineering and go-to-market efforts.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "spectrum-security-emerges-from-stealth-mode-with-1",
+      "source": "SecurityWeek",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Medtronic Hack Confirmed After ShinyHunters Threatens Data Leak",
+      "link": "https://www.securityweek.com/medtronic-hack-confirmed-after-shinyhunters-threatens-data-leak/",
+      "summary": "The ShinyHunters cybercrime group claimed to have stolen 9 million records containing personal information from Medtronic.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "medtronic-hack-confirmed-after-shinyhunters-threat",
+      "source": "SecurityWeek",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Incomplete Windows Patch Opens Door to Zero-Click Attacks",
+      "link": "https://www.securityweek.com/incomplete-windows-patch-opens-door-to-zero-click-attacks/",
+      "summary": "The initial vulnerability was exploited by Russia-linked APT28 in attacks against Ukraine and EU countries.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "incomplete-windows-patch-opens-door-to-zero-click-",
+      "source": "SecurityWeek",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years",
+      "link": "https://www.securityweek.com/openssh-flaw-allowing-full-root-shell-access-lurked-for-15-years/",
+      "summary": "A code reuse issue enabled comma characters in certificate principals to be interpreted as list separators.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "openssh-flaw-allowing-full-root-shell-access-lurke",
+      "source": "SecurityWeek",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Malicious AI Prompt Injection Attacks Increasing, but Sophistication Still Low: Google",
+      "link": "https://www.securityweek.com/malicious-ai-prompt-injection-attacks-increasing-but-sophistication-still-low-google/",
+      "summary": "The tech giant found that many indirect prompt injection attempts are harmless, but some malicious exploits have also been identified.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "malicious-ai-prompt-injection-attacks-increasing-b",
+      "source": "SecurityWeek",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
+      "summary": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-new-remote-desktop-warnings-may-display-",
+      "source": "BleepingComputer",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
+      "summary": "After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail accounts via the default Mail app.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-asks-iphone-users-to-reauthenticate-afte",
+      "source": "BleepingComputer",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Robinhood account creation flaw abused to send phishing emails",
+      "link": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
+      "summary": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity.",
+      "tags": [
+        "vulnerability",
+        "phishing"
+      ],
+      "urgency": "Medium",
+      "slug": "robinhood-account-creation-flaw-abused-to-send-phi",
+      "source": "BleepingComputer",
+      "date": "2026-04-28"
+    }
+  ]
+}

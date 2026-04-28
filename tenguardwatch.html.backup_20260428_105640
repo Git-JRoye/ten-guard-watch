@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud</div><div class="ticker-item">Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software</div><div class="ticker-item">CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline</div><div class="ticker-item">FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches</div><div class="ticker-item">NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software</div><div class="ticker-item">Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine</div><div class="ticker-item">UNC6692 Uses Email Bombing, Social Engineering to Deploy ‘Snow’ Malware</div><div class="ticker-item">Easily Exploitable ‘Pack2TheRoot’ Linux Vulnerability Leads to Root Access</div><div class="ticker-item">US Launches Sweeping Crackdown on Southeast Asia Cyberscams and Sanctions Cambodian Senator</div><div class="ticker-item">Firefox Vulnerability Allows Tor User Fingerprinting</div><div class="ticker-item">China-Linked APT GopherWhisper Abuses Legitimate Services in Government Attacks</div><div class="ticker-item">Pre-Stuxnet Sabotage Malware ‘Fast16’ Linked to US-Iran Cyber Tensions</div><div class="ticker-item">American utility firm Itron discloses breach of internal IT network</div><div class="ticker-item">Get certified in 7 CompTIA disciplines with this $50 training bundle</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Microsoft rolls out revamped Windows Insider Program</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a telecommunications fraud campaign that uses fake CAPTCHA verification tricks to dupe unsuspecting users into sending international text messages t...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment centrif...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was co...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software</h3>
+                <p><strong>Summary:</strong> The Office of Inspector General (OIG) of the U.S. National Aeronautics and Space Administration (NASA) has revealed how a Chinese national posed as a U.S. researcher as part of a spear-phishing campai...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine</h3>
+                <p><strong>Summary:</strong> The AI Agent Authority Gap - From Ungoverned to Delegation  As discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too na...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UNC6692 Uses Email Bombing, Social Engineering to Deploy ‘Snow’ Malware</h3>
+                <p><strong>Summary:</strong> The threat actor infected victims with the Snow malware family – Snowbelt, Snowglaze, and Snowbasin – for persistent access.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/unc6692-uses-email-bombing-social-engineering-to-deploy-snow-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/unc6692-uses-email-bombing-social-engineering-to-deploy-snow-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Easily Exploitable ‘Pack2TheRoot’ Linux Vulnerability Leads to Root Access</h3>
+                <p><strong>Summary:</strong> A race condition in PackageKit allows unprivileged users to escalate privileges when installing packages.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/easily-exploitable-pack2theroot-linux-vulnerability-leads-to-root-access/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/easily-exploitable-pack2theroot-linux-vulnerability-leads-to-root-access/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US Launches Sweeping Crackdown on Southeast Asia Cyberscams and Sanctions Cambodian Senator</h3>
+                <p><strong>Summary:</strong> US conducts sweeping crackdown on Southeast Asian cyberscam operations as part of what officials say is a “new theater of war”.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/us-launches-sweeping-crackdown-on-southeast-asia-cyberscams-and-sanctions-cambodian-senator/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/us-launches-sweeping-crackdown-on-southeast-asia-cyberscams-and-sanctions-cambodian-senator/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Firefox Vulnerability Allows Tor User Fingerprinting</h3>
+                <p><strong>Summary:</strong> The vulnerability is tracked as CVE-2026-6770 and it has been patched with the release of Firefox 150 and Tor 15.0.10.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/firefox-vulnerability-allows-tor-user-fingerprinting/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/firefox-vulnerability-allows-tor-user-fingerprinting/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Linked APT GopherWhisper Abuses Legitimate Services in Government Attacks</h3>
+                <p><strong>Summary:</strong> Dubbed GopherWhisper, the group relies on multiple Go-based backdoors alongside custom loaders and injectors.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/china-linked-apt-gopherwhisper-abuses-legitimate-services-in-government-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/china-linked-apt-gopherwhisper-abuses-legitimate-services-in-government-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Pre-Stuxnet Sabotage Malware ‘Fast16’ Linked to US-Iran Cyber Tensions</h3>
+                <p><strong>Summary:</strong> It targeted high-precision calculation software to tamper with results and packed a self-propagation mechanism.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/pre-stuxnet-sabotage-malware-fast16-linked-to-us-iran-cyber-tensions/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/pre-stuxnet-sabotage-malware-fast16-linked-to-us-iran-cyber-tensions/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>American utility firm Itron discloses breach of internal IT network</h3>
+                <p><strong>Summary:</strong> Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Get certified in 7 CompTIA disciplines with this $50 training bundle</h3>
+                <p><strong>Summary:</strong> The Complete 2026 CompTIA Certification Training Bundle covers seven of the most in-demand cert tracks for just $49.99, down from $199.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/get-certified-in-7-comptia-disciplines-with-this-50-training-bundle/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/get-certified-in-7-comptia-disciplines-with-this-50-training-bundle/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft rolls out revamped Windows Insider Program</h3>
+                <p><strong>Summary:</strong> Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
