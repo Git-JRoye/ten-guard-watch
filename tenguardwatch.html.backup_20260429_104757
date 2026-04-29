@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">After Mythos: New Playbooks For a Zero-Window Era</div><div class="ticker-item">Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks</div><div class="ticker-item">Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover</div><div class="ticker-item">Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202</div><div class="ticker-item">Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack</div><div class="ticker-item">⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More</div><div class="ticker-item">Germany Suspects Russia Is Behind Signal Phishing That Targeted Top Officials</div><div class="ticker-item">Spectrum Security Emerges From Stealth Mode With $19 Million</div><div class="ticker-item">Medtronic Hack Confirmed After ShinyHunters Threatens Data Leak</div><div class="ticker-item">Incomplete Windows Patch Opens Door to Zero-Click Attacks</div><div class="ticker-item">OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years</div><div class="ticker-item">Malicious AI Prompt Injection Attacks Increasing, but Sophistication Still Low: Google</div><div class="ticker-item">Microsoft: New Remote Desktop warnings may display incorrectly</div><div class="ticker-item">Microsoft asks iPhone users to reauthenticate after Outlook outage</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Robinhood account creation flaw abused to send phishing emails</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>After Mythos: New Playbooks For a Zero-Window Era</h3>
+                <p><strong>Summary:</strong> When patching isn’t fast enough, NDR helps contain the next era of threats.  If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to p...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks</h3>
+                <p><strong>Summary:</strong> A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited  to the U.S. from Italy.   Xu Zewei, 34, was arrested  in July 2025 by Italian authorities for his al...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover</h3>
+                <p><strong>Summary:</strong> An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfor...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202</h3>
+                <p><strong>Summary:</strong> Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild.  The vulnerability in qu...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack</h3>
+                <p><strong>Summary:</strong> Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web.  "Based...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More</h3>
+                <p><strong>Summary:</strong> Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how e...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Germany Suspects Russia Is Behind Signal Phishing That Targeted Top Officials</h3>
+                <p><strong>Summary:</strong> Federal prosecutors have been conducting a preliminary investigation since mid-February 2026 into alleged cyberattacks on Signal accounts.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/germany-suspects-russia-is-behind-signal-phishing-that-targeted-top-officials/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/germany-suspects-russia-is-behind-signal-phishing-that-targeted-top-officials/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Spectrum Security Emerges From Stealth Mode With $19 Million</h3>
+                <p><strong>Summary:</strong> The threat detection startup will invest in accelerating its engineering and go-to-market efforts.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/spectrum-security-emerges-from-stealth-mode-with-19-million/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/spectrum-security-emerges-from-stealth-mode-with-19-million/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Medtronic Hack Confirmed After ShinyHunters Threatens Data Leak</h3>
+                <p><strong>Summary:</strong> The ShinyHunters cybercrime group claimed to have stolen 9 million records containing personal information from Medtronic.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/medtronic-hack-confirmed-after-shinyhunters-threatens-data-leak/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/medtronic-hack-confirmed-after-shinyhunters-threatens-data-leak/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Incomplete Windows Patch Opens Door to Zero-Click Attacks</h3>
+                <p><strong>Summary:</strong> The initial vulnerability was exploited by Russia-linked APT28 in attacks against Ukraine and EU countries.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/incomplete-windows-patch-opens-door-to-zero-click-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/incomplete-windows-patch-opens-door-to-zero-click-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years</h3>
+                <p><strong>Summary:</strong> A code reuse issue enabled comma characters in certificate principals to be interpreted as list separators.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/openssh-flaw-allowing-full-root-shell-access-lurked-for-15-years/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/openssh-flaw-allowing-full-root-shell-access-lurked-for-15-years/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious AI Prompt Injection Attacks Increasing, but Sophistication Still Low: Google</h3>
+                <p><strong>Summary:</strong> The tech giant found that many indirect prompt injection attempts are harmless, but some malicious exploits have also been identified.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/malicious-ai-prompt-injection-attacks-increasing-but-sophistication-still-low-google/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/malicious-ai-prompt-injection-attacks-increasing-but-sophistication-still-low-google/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft: New Remote Desktop warnings may display incorrectly</h3>
+                <p><strong>Summary:</strong> Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft asks iPhone users to reauthenticate after Outlook outage</h3>
+                <p><strong>Summary:</strong> After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail a...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Robinhood account creation flaw abused to send phishing emails</h3>
+                <p><strong>Summary:</strong> Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspici...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
