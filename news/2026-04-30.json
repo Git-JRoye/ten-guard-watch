@@ -1,0 +1,209 @@
+{
+  "date": "2026-04-30",
+  "items": [
+    {
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root.  The high-severity vulnerability tracked as CVE-2026-31431  (CVSS score: 7.8) has been codenamed Copy Fail  by Xint.io and Theori.  \"An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux system, and use that to gain root,\" the vulnerability research team at Xint.io and Theori said .  At its core, the vulnerability stems from a logic flaw in the Linux kernel's cryptographic subsystem, specifically within the algif_aead module. The issue was introduced in a source code commit  made in August 2017.   Successful exploitation of the shortcoming could allow a simple 732-byte Python script to edit a setuid binary and obtain root on essentially all Linux distributions shipped since 2017, including Amazon Linux, RHEL, SUSE, and Ubuntu. The Python exploit involves four ...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "new-linux-copy-fail-vulnerability-enables-root-acc",
+      "source": "The Hacker News",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
+      "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+      "summary": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary commands on host systems.  \"The vulnerability allowed an unprivileged external attacker to force their own malicious content to load as Gemini configuration,\" Novee Security said  in a Wednesday report. \"This triggered command execution directly on the host system, bypassing security before the agent’s sandbox even initialized.\"  The shortcoming, which does not have a CVE identifier, carries a CVSS score of 10.0. It affects the following versions -   @google/gemini-cli < 0.39.1  @google/gemini-cli < 0.40.0-preview.3  google-github-actions/run-gemini-cli < 0.1.22   In its advisory published  last week, Google said the impact is limited to workflows using Gemini CLI in headless mode, adding that any use of...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "google-fixes-cvss-10-gemini-cli-ci-rce-and-cursor-",
+      "source": "The Hacker News",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.  According to reports from Aikido Security , Onapsis , OX Security ,  SafeDep , Socket , StepSecurity , and Google-owned Wiz , the campaign – calling itself the mini Shai-Hulud  – has affected the following packages  associated with SAP's JavaScript and cloud application development ecosystem -   mbt@1.2.48  @cap-js/db-service@2.10.1  @cap-js/postgres@2.2.2  @cap-js/sqlite@2.2.2   \"The affected versions introduced new installation-time behavior that was not previously part of these packages' expected functionality,\" Socket said. \"The compromised releases added a preinstall script that acts as a runtime bootstrapper, downloading a platform-specific Bun ZIP from GitHub Releases, extracting it, and immediately executing the extracted Bun binary.\"   \"The implementation also follows HTTP redirects wit...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "sap-related-npm-packages-compromised-in-credential",
+      "source": "The Hacker News",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+      "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+      "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM).  The package in question is \" @validate-sdk/v2 ,\" which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real functionality is to plunder sensitive secrets from the compromised environment. The package, which shows signs of being vibe-coded using generative artificial intelligence (AI), was first uploaded to the repository in October 2025.  The malware campaign has been codenamed PromptMink  by ReversingLabs, which linked the activity as part of a broader campaign mounted by the North Korean threat actor known as Famous Chollima  (aka Shifty Corsair), which is behind the long-running Contagious Interview  campaign and the fraudulent IT Worker scam .  \"The new malware campaign [...] inv...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-wave-of-dprk-attacks-uses-ai-inserted-npm-malw",
+      "source": "The Hacker News",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "summary": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.  We aren't just talking about AI writing better phishing emails anymore. We’re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes.  The problem? Most defensive workflows still look like this: your CTI team finds a threat, they pass it to the Red Team to test, and eventually, the results reach the Blue Team for patching. This process is full of friction, silos, and delays.  The reality is simple: You cannot fight an AI adversary moving at machine speed when your defense moves at the speed of a calendar invite.  To bridge this gap, we’re hosting a technical deep dive with the team at Picus Security to unveil a new defensive paradigm: Autonomous Exposure Validation .       Register for the Webinar Here ➜    Leading this session are Kevin Cole  (VP of Produc...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-how-to-automate-exposure-validation-to-mat",
+      "source": "The Hacker News",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
+      "link": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
+      "summary": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\"  Crickets.  The room goes quiet because an honest answer requires context – which is something that patch counts and CVSS scores were never designed to provide. Exposure management was created to provide this context - to bridge the gap between remediation efforts and actual risk reduction. The market has responded with a flood of platforms  claiming to deliver it.  Yet the question security leaders are asking is: which exposure management platform actually does provide it?  In this article, I’ll break down the four dominant approaches to exposure management, explain what each one can and can't deliver, and lay out five evaluation criteria that help you separate platforms built to reduce risk to your unique business  and environment from platforms ...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "what-to-look-for-in-an-exposure-management-platfor",
+      "source": "The Hacker News",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "‘Copy Fail’ Logic Flaw in Linux Kernel Enables System Takeover",
+      "link": "https://www.securityweek.com/copy-fail-logic-flaw-in-linux-kernel-enables-system-takeover/",
+      "summary": "Affecting the kernel’s authencesn cryptographic template, the vulnerability was introduced in 2017 and impacts all distributions.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "copy-fail-logic-flaw-in-linux-kernel-enables-syste",
+      "source": "SecurityWeek",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Sandhills Medical Says Ransomware Breach Affects 170,000",
+      "link": "https://www.securityweek.com/sandhills-medical-says-ransomware-breach-affects-170000/",
+      "summary": "It took the healthcare organization nearly one year to publicly disclose a data breach after it was targeted by Inc Ransom.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "sandhills-medical-says-ransomware-breach-affects-1",
+      "source": "SecurityWeek",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Fresh LiteLLM Vulnerability Exploited Shortly After Disclosure",
+      "link": "https://www.securityweek.com/fresh-litellm-vulnerability-exploited-shortly-after-disclosure/",
+      "summary": "The vulnerability allows attackers to read data from a LiteLLM proxy’s database and potentially modify it.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fresh-litellm-vulnerability-exploited-shortly-afte",
+      "source": "SecurityWeek",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Hundreds of Internet-Facing VNC Servers Expose ICS/OT",
+      "link": "https://www.securityweek.com/hundreds-of-internet-facing-vnc-servers-expose-ics-ot/",
+      "summary": "Forescout has identified tens of thousands of exposed RDP and VNC servers that can be mapped to specific industries.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "hundreds-of-internet-facing-vnc-servers-expose-ics",
+      "source": "SecurityWeek",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Checkmarx Confirms Data Stolen in Supply Chain Attack",
+      "link": "https://www.securityweek.com/checkmarx-confirms-data-stolen-in-supply-chain-attack/",
+      "summary": "The hackers exfiltrated the data from Checkmarx’s GitHub environment on March 30, a week after publishing malicious code.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "checkmarx-confirms-data-stolen-in-supply-chain-att",
+      "source": "SecurityWeek",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Iranian Cyber Group Handala Targets US Troops in Bahrain",
+      "link": "https://www.securityweek.com/iranian-cyber-group-handala-targets-us-troops-in-bahrain/",
+      "summary": "US service members received WhatsApp messages claiming they would be targeted with drones and missiles.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "iranian-cyber-group-handala-targets-us-troops-in-b",
+      "source": "SecurityWeek",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "summary": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "official-sap-npm-packages-compromised-to-steal-cre",
+      "source": "BleepingComputer",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
+      "link": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "summary": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "popular-wordpress-redirect-plugin-hid-dormant-back",
+      "source": "BleepingComputer",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "New report: How browser-based attacks are bypassing your security controls",
+      "link": "https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad",
+      "summary": "Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.",
+      "tags": [
+        "phishing",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-report-how-browser-based-attacks-are-bypassing",
+      "source": "BleepingComputer",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
+      "summary": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-exploit-rce-flaws-in-qinglong-task-schedul",
+      "source": "BleepingComputer",
+      "date": "2026-04-30"
+    }
+  ]
+}
