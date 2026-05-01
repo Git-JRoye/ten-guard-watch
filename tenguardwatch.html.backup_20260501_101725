@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions</div><div class="ticker-item">Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution</div><div class="ticker-item">SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack</div><div class="ticker-item">New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs</div><div class="ticker-item">Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks</div><div class="ticker-item">What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)</div><div class="ticker-item">‘Copy Fail’ Logic Flaw in Linux Kernel Enables System Takeover</div><div class="ticker-item">Sandhills Medical Says Ransomware Breach Affects 170,000</div><div class="ticker-item">Fresh LiteLLM Vulnerability Exploited Shortly After Disclosure</div><div class="ticker-item">Hundreds of Internet-Facing VNC Servers Expose ICS/OT</div><div class="ticker-item">Checkmarx Confirms Data Stolen in Supply Chain Attack</div><div class="ticker-item">Iranian Cyber Group Handala Targets US Troops in Bahrain</div><div class="ticker-item">Official SAP npm packages compromised to steal credentials</div><div class="ticker-item">Popular WordPress redirect plugin hid dormant backdoor for years</div><div class="ticker-item">New report: How browser-based attacks are bypassing your security controls</div><div class="ticker-item">Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root.  The high-severity vulnerability tracked a...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution</h3>
+                <p><strong>Summary:</strong> Google has addressed a maximum severity security flaw in Gemini CLI -- the "@google/gemini-cli" npm package and the "google-github-actions/run-gemini-cli" GitHub Actions workflow -- that could have al...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.  According to reports from Aikido Securit...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM).  The package ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks</h3>
+                <p><strong>Summary:</strong> In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.  We aren't just talking...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)</h3>
+                <p><strong>Summary:</strong> Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: "So, a...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>‘Copy Fail’ Logic Flaw in Linux Kernel Enables System Takeover</h3>
+                <p><strong>Summary:</strong> Affecting the kernel’s authencesn cryptographic template, the vulnerability was introduced in 2017 and impacts all distributions.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/copy-fail-logic-flaw-in-linux-kernel-enables-system-takeover/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/copy-fail-logic-flaw-in-linux-kernel-enables-system-takeover/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Sandhills Medical Says Ransomware Breach Affects 170,000</h3>
+                <p><strong>Summary:</strong> It took the healthcare organization nearly one year to publicly disclose a data breach after it was targeted by Inc Ransom.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sandhills-medical-says-ransomware-breach-affects-170000/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sandhills-medical-says-ransomware-breach-affects-170000/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fresh LiteLLM Vulnerability Exploited Shortly After Disclosure</h3>
+                <p><strong>Summary:</strong> The vulnerability allows attackers to read data from a LiteLLM proxy’s database and potentially modify it.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fresh-litellm-vulnerability-exploited-shortly-after-disclosure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fresh-litellm-vulnerability-exploited-shortly-after-disclosure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hundreds of Internet-Facing VNC Servers Expose ICS/OT</h3>
+                <p><strong>Summary:</strong> Forescout has identified tens of thousands of exposed RDP and VNC servers that can be mapped to specific industries.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hundreds-of-internet-facing-vnc-servers-expose-ics-ot/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hundreds-of-internet-facing-vnc-servers-expose-ics-ot/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Checkmarx Confirms Data Stolen in Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> The hackers exfiltrated the data from Checkmarx’s GitHub environment on March 30, a week after publishing malicious code.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/checkmarx-confirms-data-stolen-in-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/checkmarx-confirms-data-stolen-in-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Iranian Cyber Group Handala Targets US Troops in Bahrain</h3>
+                <p><strong>Summary:</strong> US service members received WhatsApp messages claiming they would be targeted with drones and missiles.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/iranian-cyber-group-handala-targets-us-troops-in-bahrain/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/iranian-cyber-group-handala-targets-us-troops-in-bahrain/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Official SAP npm packages compromised to steal credentials</h3>
+                <p><strong>Summary:</strong> Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Popular WordPress redirect plugin hid dormant backdoor for years</h3>
+                <p><strong>Summary:</strong> The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New report: How browser-based attacks are bypassing your security controls</h3>
+                <p><strong>Summary:</strong> Browser-based attacks, from AITM phishing and ClickFix to malicious OAuth apps and session hijacking, are driving today's biggest breaches.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-attacks-report?utm_campaign=39413538-FY26Q1_whitepaper_browser-attacks-report&utm_source=bleeping-computer&utm_medium=sponsored-content&utm_content=in-index-ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining</h3>
+                <p><strong>Summary:</strong> Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
