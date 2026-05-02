@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks</div><div class="ticker-item">Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft</div><div class="ticker-item">PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials</div><div class="ticker-item">ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories</div><div class="ticker-item">New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials</div><div class="ticker-item">EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades</div><div class="ticker-item">Hugging Face, ClawHub Abused for Malware Distribution</div><div class="ticker-item">FBI Warns of Surge in Hacker-Enabled Cargo Theft</div><div class="ticker-item">1,800 Hit in Mini Shai-Hulud Attack on SAP, Lightning, Intercom</div><div class="ticker-item">Anthropic Unveils Claude Security to Counter AI-Powered Exploit Surge</div><div class="ticker-item">AI Fuels ‘Industrial’ Cybercrime as Time-to-Exploit Shrinks to Hours</div><div class="ticker-item">SonicWall Urges Immediate Patching of Firewall Vulnerabilities</div><div class="ticker-item">Windows 11 KB5083631 update released with 34 changes and fixes</div><div class="ticker-item">US ransomware negotiators get 4 years in prison over BlackCat attacks</div><div class="ticker-item">OAuth review checklist: 4 steps to assess risk [Free Guide]</div><div class="ticker-item">New Bluekit phishing service includes an AI assistant, 40 templates</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in ...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft</h3>
+                <p><strong>Summary:</strong> A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and S...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials</h3>
+                <p><strong>Summary:</strong> In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning  to push two malicious versions to conduct credential theft.  According to Ai...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories</h3>
+                <p><strong>Summary:</strong> The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into the...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR  that comes with capabilities to establish persistent access and harvest a wide range of...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades</h3>
+                <p><strong>Summary:</strong> Intro  A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accoun...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hugging Face, ClawHub Abused for Malware Distribution</h3>
+                <p><strong>Summary:</strong> Threat actors are relying on social engineering to lure users into downloading files containing malicious instructions.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hugging-face-clawhub-abused-for-malware-distribution/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hugging-face-clawhub-abused-for-malware-distribution/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FBI Warns of Surge in Hacker-Enabled Cargo Theft</h3>
+                <p><strong>Summary:</strong> A new alert from the FBI says criminal enterprises are hacking both brokers and carriers to steal cargo for resale.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fbi-warns-of-surge-in-hacker-enabled-cargo-theft/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fbi-warns-of-surge-in-hacker-enabled-cargo-theft/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>1,800 Hit in Mini Shai-Hulud Attack on SAP, Lightning, Intercom</h3>
+                <p><strong>Summary:</strong> The compromised Lightning and Intercom packages have a combined monthly download count of nearly 10 million.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/1800-hit-in-mini-shai-hulud-attack-on-sap-lightning-intercom/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/1800-hit-in-mini-shai-hulud-attack-on-sap-lightning-intercom/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Anthropic Unveils Claude Security to Counter AI-Powered Exploit Surge</h3>
+                <p><strong>Summary:</strong> With Mythos signaling a new era of near-instant exploitation, Anthropic positions Claude Security to help defenders keep pace.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/anthropic-unveils-claude-security-to-counter-ai-powered-exploit-surge/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/anthropic-unveils-claude-security-to-counter-ai-powered-exploit-surge/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Fuels ‘Industrial’ Cybercrime as Time-to-Exploit Shrinks to Hours</h3>
+                <p><strong>Summary:</strong> Industrialized cybercrime delivers attacks with greater scale, speed and success. Defenders must match this with use of AI and automation.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ai-fuels-industrial-cybercrime-as-time-to-exploit-shrinks-to-hours/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ai-fuels-industrial-cybercrime-as-time-to-exploit-shrinks-to-hours/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SonicWall Urges Immediate Patching of Firewall Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The bugs could be exploited to bypass security controls, access restricted services, and crash firewalls.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sonicwall-urges-immediate-patching-of-firewall-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sonicwall-urges-immediate-patching-of-firewall-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Windows 11 KB5083631 update released with 34 changes and fixes</h3>
+                <p><strong>Summary:</strong> Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, a...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US ransomware negotiators get 4 years in prison over BlackCat attacks</h3>
+                <p><strong>Summary:</strong> Two former employees of cybersecurity incident response companies Sygnia and DigitalMint were sentenced to four years in prison each for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OAuth review checklist: 4 steps to assess risk [Free Guide]</h3>
+                <p><strong>Summary:</strong> A compromised OAuth token resulted in the recent breach at Vercel. OAuth grants are the quiet back door of modern SaaS, and the rise of remote MCP servers is only making that back door wider. If you h...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Bluekit phishing service includes an AI assistant, 40 templates</h3>
+                <p><strong>Summary:</strong> A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
