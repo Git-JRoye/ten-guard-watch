@@ -1,0 +1,211 @@
+{
+  "date": "2026-05-03",
+  "items": [
+    {
+      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+      "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation in the wild.  The vulnerability, tracked as CVE-2026-31431  (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The nine-year-old flaw is also tracked as Copy Fail  by Theori and Xint. Fixes have been made available in Linux kernel versions 6.18.22, 6.19.12, and 7.0.  \"Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation,\" CISA said in an advisory.   In a write-up published earlier this week, the researchers said Copy Fail  is the result of a logic bug in the Linux kernel's authentication cryptographic template that allows an attacker to reliably trigger privilege escalation tri...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-actively-exploited-linux-root-access-bug",
+      "source": "The Hacker News",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+      "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+      "summary": "Cybersecurity company Trellix has announced  that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code.  It said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter.  Trellix did not disclose the exact nature of the data that may have been accessed by the attackers. However, it pointed out that there are no indications that its source code has been affected or exploited.   \"Based on our investigation to date, we have found no evidence that our source code release or distribution process was affected, or that our source code has been exploited,\" the company added.   The company did not share any details about who may be behind the incident, and for how long the attackers had access to its systems. Trellix noted that additional information will b...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trellix-confirms-source-code-breach-with-unauthori",
+      "source": "The Hacker News",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
+      "link": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
+      "summary": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts.  The activity has been codenamed AccountDumpling  by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are estimated to have been hacked as part of the campaign.  \"What we found wasn't a single phishing kit,\" security researcher Shaked Chen wrote  in a report shared with The Hacker News. \"It was a living operation with real-time operator panels, advanced evasion, continuous evolution and a criminal-commercial loop that quietly feeds on the same accounts it helps steal back.\"  The findings are just the latest example of how Vietnamese threat actors  continue to embrace various tactics  to gain unauthorized access to victims' Facebook accounts, which are then sold...",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "30000-facebook-accounts-hacked-via-google-appsheet",
+      "source": "The Hacker News",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+      "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+      "summary": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions.  The clusters, Cordial Spider  (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider  (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and extortion campaigns that share a remarkable degree of operational similarities. Both hacking groups are assessed to be active since at least October 2025, with the latter a native English-speaking crew sharing ties to the e-crime ecosystem known as The Com .  \"In most cases, these adversaries use voice phishing (vishing) to direct targeted users to malicious, SSO-themed adversary-in-the-middle (AiTM) pages, where they capture authentication data and pivot directly into SSO-integrated SaaS applications,\" CrowdStrike's Counter Adversary Operations said  in a report.   ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cybercrime-groups-using-vishing-and-sso-abuse-in-r",
+      "source": "The Hacker News",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
+      "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO.  Trend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053 . The adversarial collective is assessed to be active since at least December 2024, while sharing some level of network overlap with CL-STA-0049, Earth Alux, and REF7707 .  \"The group exploits N-day vulnerabilities in internet-facing Microsoft Exchange and Internet Information Services (IIS) servers (e.g., ProxyLogon  chain), then deploys web shells ( Godzilla ) for persistent access and stages ShadowPad  implants via DLL sideloading of legitimate signed executables,\" security researchers Daniel Lunghi and Lucas Silva said  in an analysis.  Targets of the campaigns include Pakistan, Thailand, Malaysia, India, Myanmar, Sri Lank...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "china-linked-hackers-target-asian-governments-nato",
+      "source": "The Hacker News",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
+      "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
+      "summary": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030 [1] , with cybersecurity being the fastest-growing sector [2] . Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs.  This execution gap is where most deals stall. MSPs often focus on frameworks and vulnerabilities, but their clients make decisions based on business outcomes: risk reduction, successful compliance audits, and business continuity. When sales messaging fails to bridge this divide, prospects tend to view cybersecurity as a cost center instead of a strategic investment. To win, MSPs must align security value with business priorities and translate complex offerings into compelling reasons for clients and prospects to act.  Cynomi  developed the GTM Academy Sales Kit  to address this challenge and provide a structured, outcome-driven approach to help MSP sale...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "top-five-sales-challenges-costing-msps-cybersecuri",
+      "source": "The Hacker News",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "New Bluekit Phishing Kit Features AI Assistant",
+      "link": "https://www.securityweek.com/new-bluekit-phishing-kit-features-ai-assistant/",
+      "summary": "Still under development, Bluekit provides users with automated domain registration and an AI Assistant.",
+      "tags": [
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "new-bluekit-phishing-kit-features-ai-assistant",
+      "source": "SecurityWeek",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "In Other News: Scattered Spider Hacker Arrested, SOC Effectiveness Metrics, NSA Tool Vulnerability",
+      "link": "https://www.securityweek.com/in-other-news-scattered-spider-hacker-arrested-soc-effectiveness-metrics-nsa-tool-vulnerability/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: OFAC hits Iranian central bank crypto reserves, ADT data leak, CISA guidance for zero trust in OT.",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "in-other-news-scattered-spider-hacker-arrested-soc",
+      "source": "SecurityWeek",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "Google Adjusts Bug Bounties: Chrome Payouts Drop as Android Rewards Rise Amid AI Surge",
+      "link": "https://www.securityweek.com/google-adjusts-bug-bounties-chrome-payouts-drop-as-android-rewards-rise-amid-ai-surge/",
+      "summary": "The maximum reward for a zero-click Pixel Titan M exploit with persistence has increased to $1.5 million.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "google-adjusts-bug-bounties-chrome-payouts-drop-as",
+      "source": "SecurityWeek",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "Two US Security Experts Sentenced to Prison for Helping Ransomware Gang",
+      "link": "https://www.securityweek.com/two-us-security-experts-sentenced-to-prison-for-helping-ransomware-gang/",
+      "summary": "Ryan Goldberg of Georgia and Kevin Martin of Texas were each sentenced to four years in prison.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "two-us-security-experts-sentenced-to-prison-for-he",
+      "source": "SecurityWeek",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "Sophisticated Deep#Door Backdoor Enables Espionage, Disruption",
+      "link": "https://www.securityweek.com/sophisticated-deepdoor-backdoor-enables-espionage-disruption/",
+      "summary": "The stealthy Python-based backdoor framework deploys a persistent Windows implant likely designed for espionage.",
+      "tags": [
+        "malware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "sophisticated-deepdoor-backdoor-enables-espionage-",
+      "source": "SecurityWeek",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "Cisco Releases Open Source Tool for AI Model Provenance",
+      "link": "https://www.securityweek.com/cisco-releases-open-source-tool-for-ai-model-provenance/",
+      "summary": "The new kit aims to address risks related to poisoned models, regulatory issues, supply chain integrity, and incident response.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cisco-releases-open-source-tool-for-ai-model-prove",
+      "source": "SecurityWeek",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
+      "summary": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "critrical-cpanel-flaw-mass-exploited-in-sorry-rans",
+      "source": "BleepingComputer",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
+      "link": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
+      "summary": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "consentfix-v3-attacks-target-azure-with-automated-",
+      "source": "BleepingComputer",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "OAuth review checklist: 4 steps to assess risk [Free Guide]",
+      "link": "https://www.bleepingcomputer.com/mgo/84/",
+      "summary": "A compromised OAuth token resulted in the recent breach at Vercel. OAuth grants are the quiet back door of modern SaaS, and the rise of remote MCP servers is only making that back door wider. If you haven't made OAuth grant reviews a regular part of your on-going security program, you should. This s...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "oauth-review-checklist-4-steps-to-assess-risk-free",
+      "source": "BleepingComputer",
+      "date": "2026-05-03"
+    },
+    {
+      "title": "This refurbished Dell laptop is a good buy for work and travel at just $390",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-refurbished-dell-laptop-is-a-good-buy-for-work-and-travel-at-just-390/",
+      "summary": "If your current laptop struggles once you open more than a few tabs—or slows down during video calls—it might be time for something built for actual work. This Grade A refurbished Dell Latitude 5420 (2021) is one of those machines. And at $389.99 (MSRP $719.99)",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "this-refurbished-dell-laptop-is-a-good-buy-for-wor",
+      "source": "BleepingComputer",
+      "date": "2026-05-03"
+    }
+  ]
+}

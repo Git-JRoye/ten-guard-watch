@@ -44,17 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV</div><div class="ticker-item">Trellix Confirms Source Code Breach With Unauthorized Repository Access</div><div class="ticker-item">30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign</div><div class="ticker-item">Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks</div><div class="ticker-item">China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists</div><div class="ticker-item">Top Five Sales Challenges Costing MSPs Cybersecurity Revenue</div><div class="ticker-item">New Bluekit Phishing Kit Features AI Assistant</div><div class="ticker-item">In Other News: Scattered Spider Hacker Arrested, SOC Effectiveness Metrics, NSA Tool Vulnerability</div><div class="ticker-item">Google Adjusts Bug Bounties: Chrome Payouts Drop as Android Rewards Rise Amid AI Surge</div><div class="ticker-item">Two US Security Experts Sentenced to Prison for Helping Ransomware Gang</div><div class="ticker-item">Sophisticated Deep#Door Backdoor Enables Espionage, Disruption</div><div class="ticker-item">Cisco Releases Open Source Tool for AI Model Provenance</div><div class="ticker-item">Critrical cPanel flaw mass-exploited in "Sorry" ransomware attacks</div><div class="ticker-item">ConsentFix v3 attacks target Azure with automated OAuth abuse</div><div class="ticker-item">OAuth review checklist: 4 steps to assess risk [Free Guide]</div><div class="ticker-item">This refurbished Dell laptop is a good buy for work and travel at just $390</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Trellix Confirms Source Code Breach With Unauthorized Repository Access</div><div class="ticker-item">30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign</div><div class="ticker-item">Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks</div><div class="ticker-item">China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists</div><div class="ticker-item">Top Five Sales Challenges Costing MSPs Cybersecurity Revenue</div><div class="ticker-item">Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks</div><div class="ticker-item">In Other News: Scattered Spider Hacker Arrested, SOC Effectiveness Metrics, NSA Tool Vulnerability</div><div class="ticker-item">Google Adjusts Bug Bounties: Chrome Payouts Drop as Android Rewards Rise Amid AI Surge</div><div class="ticker-item">Two US Security Experts Sentenced to Prison for Helping Ransomware Gang</div><div class="ticker-item">Sophisticated Deep#Door Backdoor Enables Espionage, Disruption</div><div class="ticker-item">Cisco Releases Open Source Tool for AI Model Provenance</div><div class="ticker-item">Hugging Face, ClawHub Abused for Malware Distribution</div><div class="ticker-item">Microsoft tests modern Windows Run, says it's faster than legacy dialog</div><div class="ticker-item">Edu tech firm Instructure discloses cyber incident, probes impact</div><div class="ticker-item">OAuth review checklist: 4 steps to assess risk [Free Guide]</div><div class="ticker-item">15-year-old detained over French govt agency data breach</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV</h3>
-                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities ( KEV ...</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Trellix Confirms Source Code Breach With Unauthorized Repository Access</h3>
                 <p><strong>Summary:</strong> Cybersecurity company Trellix has announced  that it suffered a breach that enabled unauthorized access to a "portion" of its source code.  It said it "recently identified" the compromise of its sourc...</p>
@@ -91,11 +84,11 @@
                 <a href="https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New Bluekit Phishing Kit Features AI Assistant</h3>
-                <p><strong>Summary:</strong> Still under development, Bluekit provides users with automated domain registration and an AI Assistant.</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-bluekit-phishing-kit-features-ai-assistant/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/new-bluekit-phishing-kit-features-ai-assistant/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in ...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: Scattered Spider Hacker Arrested, SOC Effectiveness Metrics, NSA Tool Vulnerability</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/cisco-releases-open-source-tool-for-ai-model-provenance/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Critrical cPanel flaw mass-exploited in "Sorry" ransomware attacks</h3>
-                <p><strong>Summary:</strong> A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in "Sorry" ransomware attacks.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Hugging Face, ClawHub Abused for Malware Distribution</h3>
+                <p><strong>Summary:</strong> Threat actors are relying on social engineering to lure users into downloading files containing malicious instructions.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hugging-face-clawhub-abused-for-malware-distribution/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hugging-face-clawhub-abused-for-malware-distribution/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>ConsentFix v3 attacks target Azure with automated OAuth abuse</h3>
-                <p><strong>Summary:</strong> A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Microsoft tests modern Windows Run, says it's faster than legacy dialog</h3>
+                <p><strong>Summary:</strong> Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Edu tech firm Instructure discloses cyber incident, probes impact</h3>
+                <p><strong>Summary:</strong> Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>OAuth review checklist: 4 steps to assess risk [Free Guide]</h3>
@@ -154,11 +154,11 @@
                 <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This refurbished Dell laptop is a good buy for work and travel at just $390</h3>
-                <p><strong>Summary:</strong> If your current laptop struggles once you open more than a few tabs—or slows down during video calls—it might be time for something built for actual work. This Grade A refurbished Dell Latitude 5420 (...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-refurbished-dell-laptop-is-a-good-buy-for-work-and-travel-at-just-390/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-refurbished-dell-laptop-is-a-good-buy-for-work-and-travel-at-just-390/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>15-year-old detained over French govt agency data breach</h3>
+                <p><strong>Summary:</strong> French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
