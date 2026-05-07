@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?</div><div class="ticker-item">Google's Android Apps Get Public Verification to Stop Supply Chain Attacks</div><div class="ticker-item">Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs</div><div class="ticker-item">Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution</div><div class="ticker-item">Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE</div><div class="ticker-item">DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware</div><div class="ticker-item">CISA: Critical Infrastructure Must Master Isolation, Recovery</div><div class="ticker-item">Sophisticated Quasar Linux RAT Targets Software Developers</div><div class="ticker-item">Government, Scientific Entities Hit via Daemon Tools Supply Chain Attack</div><div class="ticker-item">Oracle Debuts Monthly Critical Security Patch Updates</div><div class="ticker-item">Palo Alto Networks to Patch Zero-Day Exploited to Hack Firewalls</div><div class="ticker-item">Microsoft Warns of Sophisticated Phishing Campaign Targeting US Organizations</div><div class="ticker-item">Palo Alto Networks warns of firewall RCE zero-day exploited in attacks</div><div class="ticker-item">New stealthy Quasar Linux malware targets software developers</div><div class="ticker-item">OAuth review checklist: 4 steps to assess risk [Free Guide]</div><div class="ticker-item">Instructure hacker claims data theft from 8,800 schools, universities</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?</h3>
+                <p><strong>Summary:</strong> Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents,...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google's Android Apps Get Public Verification to Stop Supply Chain Attacks</h3>
+                <p><strong>Summary:</strong> Google has announced expanded Binary Transparency  for Android as a way to safeguard the ecosystem from supply chain attacks.  "This new public ledger ensures the Google apps on your device are exactl...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/android-apps-get-public-verification.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/android-apps-get-public-verification.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution</h3>
+                <p><strong>Summary:</strong> Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild.  The vulnerability, tracked as CVE-2026-0300 , ...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE</h3>
+                <p><strong>Summary:</strong> The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remot...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware</h3>
+                <p><strong>Summary:</strong> A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky.  "These installers are distrib...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA: Critical Infrastructure Must Master Isolation, Recovery</h3>
+                <p><strong>Summary:</strong> The agency has issued guidance to help critical infrastructure operators prepare for cyberattacks by foreign threat actors.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisa-critical-infrastructure-must-master-isolation-recovery/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisa-critical-infrastructure-must-master-isolation-recovery/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Sophisticated Quasar Linux RAT Targets Software Developers</h3>
+                <p><strong>Summary:</strong> The persistent, evasive implant provides remote access, surveillance, and credential exfiltration capabilities.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sophisticated-quasar-linux-rat-targets-software-developers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sophisticated-quasar-linux-rat-targets-software-developers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Government, Scientific Entities Hit via Daemon Tools Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> While trojanized Daemon Tools versions were installed worldwide, a sophisticated backdoor was dropped only on a dozen systems.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/government-scientific-entities-hit-via-daemon-tools-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/government-scientific-entities-hit-via-daemon-tools-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Oracle Debuts Monthly Critical Security Patch Updates</h3>
+                <p><strong>Summary:</strong> Containing fixes for critical-severity vulnerabilities, the monthly rollouts will focus on addressing priority issues faster.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/oracle-debuts-monthly-critical-security-patch-updates/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/oracle-debuts-monthly-critical-security-patch-updates/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Palo Alto Networks to Patch Zero-Day Exploited to Hack Firewalls</h3>
+                <p><strong>Summary:</strong> CVE-2026-0300 affects the Captive Portal service of PAN-OS software on PA and VM series firewalls.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/palo-alto-networks-to-patch-zero-day-exploited-to-hack-firewalls/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/palo-alto-networks-to-patch-zero-day-exploited-to-hack-firewalls/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Warns of Sophisticated Phishing Campaign Targeting US Organizations</h3>
+                <p><strong>Summary:</strong> The malicious emails claim to contain a conduct report and lure victims to a Microsoft phishing website that leverages AitM.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Palo Alto Networks warns of firewall RCE zero-day exploited in attacks</h3>
+                <p><strong>Summary:</strong> Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New stealthy Quasar Linux malware targets software developers</h3>
+                <p><strong>Summary:</strong> A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OAuth review checklist: 4 steps to assess risk [Free Guide]</h3>
+                <p><strong>Summary:</strong> A compromised OAuth token resulted in the recent breach at Vercel. OAuth grants are the quiet back door of modern SaaS, and the rise of remote MCP servers is only making that back door wider. If you h...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Instructure hacker claims data theft from 8,800 schools, universities</h3>
+                <p><strong>Summary:</strong> The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education p...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
