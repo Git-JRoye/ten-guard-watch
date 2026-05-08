@@ -1,0 +1,217 @@
+{
+  "date": "2026-05-08",
+  "items": [
+    {
+      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
+      "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa  that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\"  The backdoor is designed as a Pluggable Authentication Module ( PAM )-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination. It's also capable of harvesting credentials from all legitimate users who authenticate through the compromised system.  \"The tool, called PamDOORa, is a new PAM-based backdoor, designed to serve as a post-exploitation backdoor, enabling authentication to servers via OpenSSH,\" Flare.io researcher Assaf Morag said  in a technical report. \"Allegedly this would remain persistent on Linux systems (x86_64).\"  PamDOORa is the second Linux backdoor targeting the PAM stack after Plague . PAM is a security framework in Unix/Linux operating systems that grants syst...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-linux-pamdoora-backdoor-uses-pam-modules-to-st",
+      "source": "The Hacker News",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
+      "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+      "summary": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel.  Dubbed Dirty Frag , it has been described  as a successor to Copy Fail  (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers on April 30, 2026.  \"Dirty Frag is a vulnerability (class) that achieves root privileges on most Linux distributions by chaining the xfrm-ESP Page-Cache Write vulnerability and the RxRPC Page-Cache Write vulnerability,\" security researcher Hyunwoo Kim (@v4bel) said in a write-up.   \"Dirty Frag is a case that extends the bug class to which Dirty Pipe  and Copy Fail  belong. Because it is a deterministic logic bug that does not depend on a timing window, no race condition is required, the kernel does not panic when the exploit fails, and the success rate is very high.\"   T...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "linux-kernel-dirty-frag-lpe-exploit-enables-root-a",
+      "source": "The Hacker News",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
+      "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
+      "summary": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild.  The high-severity vulnerability, CVE-2026-6973  (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1.  It allows \"a remotely authenticated user with administrative access to achieve remote code execution,\" Ivanti said  in an advisory released today.  \"We are aware of a very limited number of customers exploited with CVE-2026-6973. Successful exploitation requires Admin authentication. If customers followed Ivanti's recommendation in January to rotate credentials if you were exploited with CVE-2026-1281 and CVE-2026-1340 , then your risk of exploitation from CVE-2026-6973 is significantly reduced.\"  It's currently not known who is behind the exploitation efforts, if any of those attacks were successful, and what the end goals of the attacks were.   The devel...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ivanti-epmm-cve-2026-6973-rce-under-active-exploit",
+      "source": "The Hacker News",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
+      "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack  that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP  from the environments.  \"The toolset harvests credentials from cloud, container, developer, productivity, and financial services, then exfiltrates the data through attacker-controlled infrastructure while attempting to spread to additional hosts,\" SentinelOne security researcher Alex Delamotte said  in a report published today.  PCPJack is specifically designed to target cloud services like Docker, Kubernetes, Redis, MongoDB, RayML, and vulnerable web applications, allowing the operators to spread in a worm-like fashion, aswell as move laterally within the compromised networks.  It's assessed that the end goal of the cloud attack campaign is to generate illicit revenue for the threat actors through credential theft, fraud, spam, extortion, or resale of stolen access. The    What makes thi...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "pcpjack-credential-stealer-exploits-5-cves-to-spre",
+      "source": "The Hacker News",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+      "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+      "summary": "The hardest part of cybersecurity isn't the technology, it’s the people.  Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection.  In 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down the whole company?   Register for the Webinar: The Patient Zero Playbook   What is \"Patient Zero\"?  In medicine, Patient Zero is the first person to carry a disease into a population. In cybersecurity, it’s the first device an attacker hits. Once they are \"in,\" they don't stay there—they move fast to find your data, your passwords, and your backups.  What You Will Learn  Thisisn't a boring lecture. It is a technical deep dive into how modern breaches start and how to kill them instantly. We are covering:   The AI Phish:  How attackers use gene...",
+      "tags": [
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "one-click-total-shutdown-the-patient-zero-webinar-",
+      "source": "The Hacker News",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
+      "link": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
+      "summary": "Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical security flaw as early as April 9, 2026.  The vulnerability in question is CVE-2026-0300  (CVSS score: 9.3/8.7), a buffer overflow vulnerability in the User-ID Authentication Portal service of Palo Alto Networks PAN-OS software that could allow an unauthenticated attacker to execute arbitrary code with root privileges by sending specially crafted packets.  While fixes are expected to be released starting May 13, 2026, customers are advised to secure access to the PAN-OS User-ID Authentication Portal by restricting access to trusted zones, or by disabling it entirely if it's not used.   As additional mitigation, the company is recommending that organizations disable Response Pages  in the Interface Management Profile  for any L3 interface where untrusted or internet traffic can ingress. Customers with Advanced Threat Prevention can also block exploitation a...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "pan-os-rce-exploit-under-active-use-enabling-root-",
+      "source": "The Hacker News",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "‘PCPJack’ Worm Removes TeamPCP Infections, Steals Credentials",
+      "link": "https://www.securityweek.com/pcpjack-worm-removes-teampcp-infections-steals-credentials/",
+      "summary": "The malware framework targets web applications and cloud environments, including AWS, Docker, Kubernetes, and more.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "pcpjack-worm-removes-teampcp-infections-steals-cre",
+      "source": "SecurityWeek",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Ransomware Group Takes Credit for Trellix Hack",
+      "link": "https://www.securityweek.com/ransomware-group-takes-credit-for-trellix-hack/",
+      "summary": "RansomHouse has published several screenshots to demonstrate access to internal Trellix services.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "ransomware-group-takes-credit-for-trellix-hack",
+      "source": "SecurityWeek",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Vulnerability in Claude Extension for Chrome Exposes AI Agent to Takeover",
+      "link": "https://www.securityweek.com/vulnerability-in-claude-extension-for-chrome-exposes-ai-agent-to-takeover/",
+      "summary": "Lax extension permissions and improper trust implementation allow attackers to inject prompts in the Claude Chrome extension.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "vulnerability-in-claude-extension-for-chrome-expos",
+      "source": "SecurityWeek",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Ivanti Patches EPMM Zero-Day Exploited in Targeted Attacks",
+      "link": "https://www.securityweek.com/ivanti-patches-epmm-zero-day-exploited-in-targeted-attacks/",
+      "summary": "CVE-2026-6973 is a high-severity vulnerability that allows an attacker who has admin privileges to execute arbitrary code.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ivanti-patches-epmm-zero-day-exploited-in-targeted",
+      "source": "SecurityWeek",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Worries About AI’s Risks to Humanity Loom Over the Trial Pitting Musk Against OpenAI’s Leaders",
+      "link": "https://www.securityweek.com/worries-about-ais-risks-to-humanity-loom-over-the-trial-pitting-musk-against-openais-leaders/",
+      "summary": "Musk said that he could have founded OpenAI as a for-profit company, just like the other companies he started or took over. “I deliberately chose this,” he said, “for the public good.”",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "worries-about-ais-risks-to-humanity-loom-over-the-",
+      "source": "SecurityWeek",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Palo Alto Zero-Day Exploited in Campaign Bearing Hallmarks of Chinese State Hacking",
+      "link": "https://www.securityweek.com/palo-alto-zero-day-exploited-in-campaign-bearing-hallmarks-of-chinese-state-hacking/",
+      "summary": "The cybersecurity firm has not explicitly accused China of being behind the attack, but the evidence suggests it was.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "palo-alto-zero-day-exploited-in-campaign-bearing-h",
+      "source": "SecurityWeek",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Former govt contractor convicted for wiping dozens of federal databases",
+      "link": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
+      "summary": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "former-govt-contractor-convicted-for-wiping-dozens",
+      "source": "BleepingComputer",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
+      "link": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
+      "summary": "A new Linux zero-day vulnerability, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "new-linux-dirty-frag-zero-day-gives-root-on-all-ma",
+      "source": "BleepingComputer",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Agentic AI is spreading fast. Here's how to find and secure it.",
+      "link": "https://www.bleepingcomputer.com/mgo/83/",
+      "summary": "Your workforce is saving time by connecting AI agents to email, file shares, and business workflows, with or without security's sign-off. This guide breaks down the risks and gives you four practical steps to build visibility, enforce least privilege, and extend the controls you already have.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "agentic-ai-is-spreading-fast-heres-how-to-find-and",
+      "source": "BleepingComputer",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
+      "summary": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities.",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "canvas-login-portals-hacked-in-mass-shinyhunters-e",
+      "source": "BleepingComputer",
+      "date": "2026-05-08"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Day Zero Readiness: The Operational Gaps That Break Incident Response</div><div class="ticker-item">PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux</div><div class="ticker-item">vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution</div><div class="ticker-item">Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks</div><div class="ticker-item">MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack</div><div class="ticker-item">The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open</div><div class="ticker-item">Gemini CLI Vulnerability Could Have Led to Code Execution, Supply Chain Attack</div><div class="ticker-item">Claude AI Guided Hackers Toward OT Assets During Water Utility Intrusion</div><div class="ticker-item">Autonomous Offensive Security Firm XBOW Raises $35 Million</div><div class="ticker-item">Herd Security Raises $3 Million for AI-Powered Training Platform</div><div class="ticker-item">Iranian APT Intrusion Masquerades as Chaos Ransomware Attack</div><div class="ticker-item">Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago</div><div class="ticker-item">Palo Alto Networks firewall zero-day exploited for nearly a month</div><div class="ticker-item">Fake Claude AI website delivers new 'Beagle' Windows malware</div><div class="ticker-item">OAuth review checklist: 4 steps to assess risk [Free Guide]</div><div class="ticker-item">Hackers abuse Google ads for GoDaddy ManageWP login phishing</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Day Zero Readiness: The Operational Gaps That Break Incident Response</h3>
+                <p><strong>Summary:</strong> Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operationa...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called  ZiChatBot on ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution</h3>
+                <p><strong>Summary:</strong> A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible sys...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have exposed a new Mirai -derived botnet that self-identifies as xlabs_v1  and targets internet-exposed devices running Android Debug Bridge ( ADB ) to enlist them in a netwo...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack</h3>
+                <p><strong>Summary:</strong> The Iranian state-sponsored hacking group known as MuddyWater  (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a "false flag...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open</h3>
+                <p><strong>Summary:</strong> For nearly 20 years, we at The Hacker News  have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats.  But behind every headline, there’s a quieter, better story.  ...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Gemini CLI Vulnerability Could Have Led to Code Execution, Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Attackers could inject prompts into a GitHub issue and take over the AI agent designed to automatically triage the issue.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/gemini-cli-vulnerability-could-have-led-to-code-execution-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/gemini-cli-vulnerability-could-have-led-to-code-execution-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Claude AI Guided Hackers Toward OT Assets During Water Utility Intrusion</h3>
+                <p><strong>Summary:</strong> Dragos has published a report describing how threat actors used Claude AI in an attack on a water and drainage utility in Mexico.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/claude-ai-guided-hackers-toward-ot-assets-during-water-utility-intrusion/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/claude-ai-guided-hackers-toward-ot-assets-during-water-utility-intrusion/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Autonomous Offensive Security Firm XBOW Raises $35 Million</h3>
+                <p><strong>Summary:</strong> The company raised another $35 million as an extension to its previously announced Series C funding round.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-35-million/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-35-million/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Herd Security Raises $3 Million for AI-Powered Training Platform</h3>
+                <p><strong>Summary:</strong> The startup will invest in expanding its training categories, optimizing video generation, and growing its partnership ecosystem.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/herd-security-raises-3-million-for-ai-powered-training-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/herd-security-raises-3-million-for-ai-powered-training-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Iranian APT Intrusion Masquerades as Chaos Ransomware Attack</h3>
+                <p><strong>Summary:</strong> Likely perpetrated by MuddyWater, the attack combined social engineering, persistence, credential harvesting, and data theft.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/iranian-apt-intrusion-masquerades-as-chaos-ransomware-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/iranian-apt-intrusion-masquerades-as-chaos-ransomware-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago</h3>
+                <p><strong>Summary:</strong> Gavril Sandu, 53, was indicted in 2017, but was arrested and extradited to the United States only in 2026.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/romanian-extradited-to-us-for-role-in-hacking-scheme-17-years-ago/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/romanian-extradited-to-us-for-role-in-hacking-scheme-17-years-ago/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Palo Alto Networks firewall zero-day exploited for nearly a month</h3>
+                <p><strong>Summary:</strong> Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake Claude AI website delivers new 'Beagle' Windows malware</h3>
+                <p><strong>Summary:</strong> A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OAuth review checklist: 4 steps to assess risk [Free Guide]</h3>
+                <p><strong>Summary:</strong> A compromised OAuth token resulted in the recent breach at Vercel. OAuth grants are the quiet back door of modern SaaS, and the rise of remote MCP servers is only making that back door wider. If you h...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers abuse Google ads for GoDaddy ManageWP login phishing</h3>
+                <p><strong>Summary:</strong> A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites.</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
