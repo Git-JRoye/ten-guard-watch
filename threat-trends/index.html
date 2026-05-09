@@ -34,7 +34,7 @@
             "name": "TenGuard Security",
             "url": "https://www.tenguardsecurity.com"
         },
-        "dateModified": "2026-05-08T10:48:09.781720",
+        "dateModified": "2026-05-09T10:01:30.517129",
         "isAccessibleForFree": true
     }
     </script>
@@ -418,7 +418,7 @@
     <section class="dashboard-section blue-tint" data-aos="fade-up" data-aos-once="true">
         <h1>🛡️ Threat Trends Dashboard</h1>
         <p style="font-size: 1.2em; margin-bottom: 10px;">Real-time cybersecurity intelligence powered by TenGuard Security</p>
-        <p class="update-info">Last updated: <strong>May 08, 2026 at 10:48 AM UTC</strong></p>
+        <p class="update-info">Last updated: <strong>May 09, 2026 at 10:01 AM UTC</strong></p>
         
         
         <!-- KPI Cards -->
@@ -760,16 +760,16 @@
                     
                     <tr>
                         <td>security</td>
-                        <td><strong>289</strong></td>
+                        <td><strong>290</strong></td>
                     </tr>
                     
                     <tr>
                         <td>vulnerability</td>
-                        <td><strong>180</strong></td>
+                        <td><strong>174</strong></td>
                     </tr>
                     
                     <tr>
-                        <td>attacks</td>
+                        <td>access</td>
                         <td><strong>135</strong></td>
                     </tr>
                     
@@ -779,33 +779,33 @@
                     </tr>
                     
                     <tr>
-                        <td>access</td>
-                        <td><strong>133</strong></td>
+                        <td>attacks</td>
+                        <td><strong>129</strong></td>
                     </tr>
                     
                     <tr>
                         <td>data</td>
-                        <td><strong>127</strong></td>
+                        <td><strong>129</strong></td>
                     </tr>
                     
                     <tr>
                         <td>microsoft</td>
-                        <td><strong>122</strong></td>
+                        <td><strong>119</strong></td>
                     </tr>
                     
                     <tr>
                         <td>code</td>
-                        <td><strong>117</strong></td>
+                        <td><strong>118</strong></td>
                     </tr>
                     
                     <tr>
                         <td>malware</td>
-                        <td><strong>113</strong></td>
+                        <td><strong>116</strong></td>
                     </tr>
                     
                     <tr>
                         <td>cybersecurity</td>
-                        <td><strong>109</strong></td>
+                        <td><strong>108</strong></td>
                     </tr>
                     
                     <tr>
@@ -824,13 +824,13 @@
                     </tr>
                     
                     <tr>
-                        <td>critical</td>
-                        <td><strong>95</strong></td>
+                        <td>phishing</td>
+                        <td><strong>92</strong></td>
                     </tr>
                     
                     <tr>
-                        <td>phishing</td>
-                        <td><strong>92</strong></td>
+                        <td>researchers</td>
+                        <td><strong>88</strong></td>
                     </tr>
                     
                 </tbody>
@@ -878,10 +878,10 @@
         new Chart(tagCtx, {
             type: 'bar',
             data: {
-                labels: ["attack", "vulnerability", "breach", "critical", "malware", "cybersecurity", "phishing", "apt", "ransomware"],
+                labels: ["attack", "vulnerability", "breach", "malware", "cybersecurity", "critical", "phishing", "apt", "ransomware"],
                 datasets: [{
                     label: 'Occurrences',
-                    data: [244, 171, 105, 98, 91, 91, 70, 52, 27],
+                    data: [240, 167, 107, 94, 91, 90, 70, 51, 28],
                     backgroundColor: chartColors.primary,
                     borderColor: chartColors.secondary,
                     borderWidth: 2
@@ -932,7 +932,7 @@
             data: {
                 labels: ['High', 'Medium', 'Low'],
                 datasets: [{
-                    data: [102, 223, 169],
+                    data: [94, 229, 171],
                     backgroundColor: [
                         chartColors.danger,
                         chartColors.warning,
@@ -968,10 +968,10 @@
         new Chart(dailyCtx, {
             type: 'line',
             data: {
-                labels: ["2026-04-09", "2026-04-10", "2026-04-11", "2026-04-12", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08"],
+                labels: ["2026-04-10", "2026-04-11", "2026-04-12", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09"],
                 datasets: [{
                     label: 'Threats per Day',
-                    data: [16, 16, 16, 16, 16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+                    data: [16, 16, 16, 16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
                     borderColor: chartColors.primary,
                     backgroundColor: 'rgba(16, 185, 129, 0.1)',
                     tension: 0.4,
@@ -1018,10 +1018,10 @@
         new Chart(keywordCtx, {
             type: 'bar',
             data: {
-                labels: ["security", "vulnerability", "attacks", "cve", "access", "data", "microsoft", "code", "malware", "cybersecurity"],
+                labels: ["security", "vulnerability", "access", "cve", "attacks", "data", "microsoft", "code", "malware", "cybersecurity"],
                 datasets: [{
                     label: 'Frequency',
-                    data: [289, 180, 135, 134, 133, 127, 122, 117, 113, 109],
+                    data: [290, 174, 135, 134, 129, 129, 119, 118, 116, 108],
                     backgroundColor: chartColors.secondary,
                     borderColor: chartColors.primary,
                     borderWidth: 2
