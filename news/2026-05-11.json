@@ -1,0 +1,207 @@
+{
+  "date": "2026-05-11",
+  "items": [
+    {
+      "title": "Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room",
+      "link": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+      "summary": "Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch waiting on a change-approval window that's longer than the exploitation window itself.  Nobody in that chain is incompetent . Every human is doing their job correctly. The problem is the system, its workflows, and its messy handoffs.  In contrast, the attacker's clock has nearly disappeared.   In 2024, the mean time from a CVE being published to a working exploit was 56 days. By 2025, it had shrunk to 23 days. So far in 2026, it’s sitting at roughly 10 hours across 3,532 CVE-exploit pairs from CISA KEV, VulnCheck KEV, and ExploitDB.  Figure 1. Today’s Vulnerability to Exploitation Windows is now 10 Hours  The minor piece of good news is that the defender's clock has accelerated to run in hours . The really bad news is that the attacker's clock has leapfrogged past it and now run...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "your-purple-team-isnt-purple-its-just-red-and-blue",
+      "source": "The Hacker News",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
+      "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+      "summary": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users.  The project, named Open-OSS/privacy-filter , masqueraded as its legitimate counterpart, released by OpenAI late last month ( openai/privacy-filter ), including copying the entire description verbatim to trick unsuspecting users into downloading it.Access to the malicious model has since been disabled by Hugging Face.  Privacy Filter was unveiled  in April 2026 by the artificial intelligence (AI) company as a way to detect and redact personally identifiable information (PII) in unstructured text with an aim to incorporate strong privacy and security protections into applications.  \"The repository had typosquatted OpenAI's legitimate Privacy Filter release, copied its model card nearly verbatim, and shipped a loader.py file that fetches and executes infostealer...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fake-openai-privacy-filter-repo-hits-1-on-hugging-",
+      "source": "The Hacker News",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+      "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+      "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama  that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory.  The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482  (CVSS score: 9.1). It has been codenamed   Bleeding Llama  by Cyera.  Ollama  is a popular open-source framework that allows large language models (LLMs) to be run locally instead of on the cloud. On GitHub, the project has more than 171,000 stars and has been forked over 16,100 times.  \"Ollama before 0.17.1  contains a heap out-of-bounds read vulnerability in the GGUF model loader,\" according to a description  of the flaw in CVE.org. \"The /api/create endpoint accepts an attacker-supplied GGUF file in which the declared tensor offset and size exceed the file's actual length; during quantization in fs/ggml/gguf.go and server/quantization.go (WriteTo()), the ser...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ollama-out-of-bounds-read-vulnerability-allows-rem",
+      "source": "The Hacker News",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
+      "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
+      "summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service.  The list of vulnerabilities is as follows -   CVE-2026-29201  (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result in an arbitrary file read.  CVE-2026-29202  (CVSS score: 8.8) - An insufficient input validation of the \"plugin\" parameter in the \"create_user API\" call that could result in arbitrary Perl code execution on behalf of the already authenticated account's system user.  CVE-2026-29203  (CVSS score: 8.8) - An unsafe symlink handling vulnerability that allows a user to modify access permissions of an arbitrary file using chmod, resulting in denial-of-service or possible privilege escalation.    The shortcomings have been patched in the following versions -   cPane...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "cpanel-whm-release-fixes-for-three-new-vulnerabili",
+      "source": "The Hacker News",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
+      "link": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
+      "summary": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER  that's capable of targeting 59 banking, fintech, and cryptocurrency platforms.  The activity is being tracked by Elastic Security Labs under the moniker REF3076 . The malware family is assessed to be a major update of the Maverick  family, which is known to leverage a worm called SORVEPOTEL to spread via WhatsApp Web to a victim's contacts. The Maverick campaign is attributed to a threat cluster that Trend Micro calls Water Saci.  At the core of the attack chain is a loader with robust anti-analysis capabilities that deploys two embedded modules: a full-featured banking trojan and a worm component that uses WhatsApp and Microsoft Outlook for propagation.  \"The observed infection chain bundles a malicious MSI installer inside a ZIP file,\" security researchers Jia Yu Chan, Daniel Stepanic, Seth Goodwin, and Terrance DeJesus said . \"These MSI installer packages are abus...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "tclbanker-banking-trojan-targets-financial-platfor",
+      "source": "The Hacker News",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
+      "link": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
+      "summary": "Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users into joining a subscription that provided fake data and incurred financial loss.  The 28 apps have collectively racked up more than 7.3 million downloads, with one of them alone accounting for over 3 million downloads, before they were taken down from the official app storefront.The activity, codenamed CallPhantom  by Slovakian cybersecurity company ESET, primarily targeted Android users in India and the broader Asia-Pacific region.  \"The offending apps, which we named CallPhantom based on their false claims, purport to provide access to call histories, SMS records, and even WhatsApp call logs for any phone number,\" ESET security researcher Lukáš Štefanko said  in a report shared with The Hacker News. \"To unlock this supposed feature, users are asked to pay -- but all they...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fake-call-history-apps-stole-payments-from-users-a",
+      "source": "The Hacker News",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Skoda Data Breach Hits Online Shop Customers",
+      "link": "https://www.securityweek.com/skoda-data-breach-hits-online-shop-customers/",
+      "summary": "Using a vulnerability in the portal, hackers accessed names, addresses, email addresses, and phone numbers.",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "skoda-data-breach-hits-online-shop-customers",
+      "source": "SecurityWeek",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Cloudflare Lays Off 1,100 Employees in AI-Driven Restructuring",
+      "link": "https://www.securityweek.com/cloudflare-lays-off-1100-employees-in-ai-driven-restructuring/",
+      "summary": "The company topped revenue and earnings forecasts for the first quarter of 2026, but its shares plunged more than 20%.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cloudflare-lays-off-1100-employees-in-ai-driven-re",
+      "source": "SecurityWeek",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "SailPoint Discloses GitHub Repository Hack",
+      "link": "https://www.securityweek.com/sailpoint-discloses-github-repository-hack/",
+      "summary": "The incident occurred on April 20 and did not affect customer data in the company’s production and staging environments.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "sailpoint-discloses-github-repository-hack",
+      "source": "SecurityWeek",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Checkmarx Jenkins AST Plugin Compromised in Supply Chain Attack",
+      "link": "https://www.securityweek.com/checkmarx-jenkins-ast-plugin-compromised-in-supply-chain-attack/",
+      "summary": "A malicious version of the plugin was published to the Jenkins Marketplace late last week.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "checkmarx-jenkins-ast-plugin-compromised-in-supply",
+      "source": "SecurityWeek",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Canvas System Is Online After a Cyberattack Disrupted Thousands of Schools",
+      "link": "https://www.securityweek.com/canvas-system-is-online-after-a-cyberattack-disrupted-thousands-of-schools/",
+      "summary": "Tens of thousands of students studying for final exams around the world have regained access to a key online learning system after a cyberattack had earlier knocked it offline.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "canvas-system-is-online-after-a-cyberattack-disrup",
+      "source": "SecurityWeek",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "New ‘Dirty Frag’ Linux Vulnerability Possibly Exploited in Attacks",
+      "link": "https://www.securityweek.com/new-dirty-frag-linux-vulnerability-possibly-exploited-in-attacks/",
+      "summary": "Also called Copy Fail 2 and tracked as CVE-2026-43284 and CVE-2026-43500, the exploit was disclosed before a patch was released.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-dirty-frag-linux-vulnerability-possibly-exploi",
+      "source": "SecurityWeek",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Home use is covered with this refurbished Lenovo Chromebook—just $80 today",
+      "link": "https://www.bleepingcomputer.com/offer/deals/home-use-is-covered-with-this-refurbished-lenovo-chromebook-just-80-today/",
+      "summary": "Not every laptop needs to be a powerful main machine. That's where something like this practical Chromebook makes sense. The Lenovo 300e Chromebook is priced at $79.99 (MSRP $284.99) with free shipping, and it's best suited as a secondary device you can grab without overthinking or worrying about me...",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "home-use-is-covered-with-this-refurbished-lenovo-c",
+      "source": "BleepingComputer",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "TrickMo Android banker adopts TON blockchain for covert comms",
+      "link": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
+      "summary": "A new variant of the TrickMo Android banking malware, delivered in campaigns targeting users across Europe, introduces new commands and uses The Open Network (TON) for stealthy command-and-control communications.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "trickmo-android-banker-adopts-ton-blockchain-for-c",
+      "source": "BleepingComputer",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Shadow AI Is Everywhere. Here's How to Find and Secure It.",
+      "link": "https://www.bleepingcomputer.com/mgo/85/",
+      "summary": "With MCP servers, AI agents, SaaS apps with AI-enabled features taking hold, shadow AI now extends far beyond purpose-built AI tools. Your discovery approach should too. This guide walks through commonly overlooked sources of shadow AI risks, DIY discovery methods using tools you already have, and t...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "shadow-ai-is-everywhere-heres-how-to-find-and-secu",
+      "source": "BleepingComputer",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+      "summary": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list claude.ai as the target website, but lead to instructions that install malware on their Mac.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-abuse-google-ads-claudeai-chats-to-push-ma",
+      "source": "BleepingComputer",
+      "date": "2026-05-11"
+    }
+  ]
+}

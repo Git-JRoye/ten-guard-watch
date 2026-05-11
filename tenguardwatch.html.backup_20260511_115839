@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now</div><div class="ticker-item">TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms</div><div class="ticker-item">Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads</div><div class="ticker-item">One Click, Total Shutdown: The "Patient Zero" Webinar on Killing Stealth Breaches</div><div class="ticker-item">Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise</div><div class="ticker-item">One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk</div><div class="ticker-item">In Other News: Train Hacker Arrested, PamDOORa Linux Backdoor, New CISA Director Frontrunner</div><div class="ticker-item">Polish Security Agency Reports ICS Breaches at Five Water Treatment Plants</div><div class="ticker-item">AI Firm Braintrust Prompts API Key Rotation After Data Breach</div><div class="ticker-item">Cyberattack Hits Canvas System Used by Thousands of Schools as Finals Loom</div><div class="ticker-item">‘PCPJack’ Worm Removes TeamPCP Infections, Steals Credentials</div><div class="ticker-item">Ransomware Group Takes Credit for Trellix Hack</div><div class="ticker-item">JDownloader site hacked to replace installers with Python RAT malware</div><div class="ticker-item">Fake OpenAI repository on Hugging Face pushes infostealer malware</div><div class="ticker-item">OAuth review checklist: 4 steps to assess risk [Free Guide]</div><div class="ticker-item">This Babbel deal shows how human-created language learning works better</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now</h3>
+                <p><strong>Summary:</strong> cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service.  The l...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms</h3>
+                <p><strong>Summary:</strong> Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER  that's capable of targeting 59 banking, fintech, and cryptocurrency platforms.  The activity is being t...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>One Click, Total Shutdown: The "Patient Zero" Webinar on Killing Stealth Breaches</h3>
+                <p><strong>Summary:</strong> The hardest part of cybersecurity isn't the technology, it’s the people.  Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one "Patient Zero...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise</h3>
+                <p><strong>Summary:</strong> A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX)  is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise functi...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk</h3>
+                <p><strong>Summary:</strong> The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report investi...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>In Other News: Train Hacker Arrested, PamDOORa Linux Backdoor, New CISA Director Frontrunner</h3>
+                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: US gov targets 72-hour patch cycles, malware uses Windows Phone Link to steal OTPs, spy operation targets Eurasian drone industry.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-train-hacker-arrested-pamdoora-linux-backdoor-new-cisa-director-frontrunner/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/in-other-news-train-hacker-arrested-pamdoora-linux-backdoor-new-cisa-director-frontrunner/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Polish Security Agency Reports ICS Breaches at Five Water Treatment Plants</h3>
+                <p><strong>Summary:</strong> The hackers gained the ability to modify equipment operational parameters, creating a direct risk to the public water supply.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/polish-security-agency-reports-ics-breaches-at-five-water-treatment-plants/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/polish-security-agency-reports-ics-breaches-at-five-water-treatment-plants/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI Firm Braintrust Prompts API Key Rotation After Data Breach</h3>
+                <p><strong>Summary:</strong> Hackers accessed one of the company’s AWS accounts and compromised AI provider secrets stored in Braintrust.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ai-firm-braintrust-prompts-api-key-rotation-after-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ai-firm-braintrust-prompts-api-key-rotation-after-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cyberattack Hits Canvas System Used by Thousands of Schools as Finals Loom</h3>
+                <p><strong>Summary:</strong> A system that thousands of schools and universities use went offline due to a cyberattack, creating chaos as students tried to study for finals.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cyberattack-hits-canvas-system-used-by-thousands-of-schools-as-finals-loom/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cyberattack-hits-canvas-system-used-by-thousands-of-schools-as-finals-loom/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>‘PCPJack’ Worm Removes TeamPCP Infections, Steals Credentials</h3>
+                <p><strong>Summary:</strong> The malware framework targets web applications and cloud environments, including AWS, Docker, Kubernetes, and more.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/pcpjack-worm-removes-teampcp-infections-steals-credentials/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/pcpjack-worm-removes-teampcp-infections-steals-credentials/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ransomware Group Takes Credit for Trellix Hack</h3>
+                <p><strong>Summary:</strong> RansomHouse has published several screenshots to demonstrate access to internal Trellix services.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ransomware-group-takes-credit-for-trellix-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ransomware-group-takes-credit-for-trellix-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>JDownloader site hacked to replace installers with Python RAT malware</h3>
+                <p><strong>Summary:</strong> The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake OpenAI repository on Hugging Face pushes infostealer malware</h3>
+                <p><strong>Summary:</strong> A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's "Privacy Filter" project to deliver information-stealing malware to Windows users.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OAuth review checklist: 4 steps to assess risk [Free Guide]</h3>
+                <p><strong>Summary:</strong> A compromised OAuth token resulted in the recent breach at Vercel. OAuth grants are the quiet back door of modern SaaS, and the rise of remote MCP servers is only making that back door wider. If you h...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/84/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>This Babbel deal shows how human-created language learning works better</h3>
+                <p><strong>Summary:</strong> There's no shortage of AI tools that can translate a sentence for you. But actually speaking a language? The Babbel platform takes a different approach to help you learn to speak your new language in ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-babbel-deal-shows-how-human-created-language-learning-works-better/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/this-babbel-deal-shows-how-human-created-language-learning-works-better/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
