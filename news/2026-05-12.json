@@ -1,0 +1,202 @@
+{
+  "date": "2026-05-12",
+  "items": [
+    {
+      "title": "Why Agentic AI Is Security's Next Blind Spot",
+      "link": "https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html",
+      "summary": "Agentic AI is already running in production environments across many organizations today. It is executing tasks, consuming data, and taking actions — most likely without meaningful involvement from the security team. The industry conversation has largely framed this as a question of policy: allow it, restrict it, or monitor it? However, that framing misses the point.   The more urgent question is whether security professionals actually understand what they are dealing with. In most organizations, they don't right now. And that gap is compounding by the week.  You cannot secure what you do not understand  The foundational principle of information security has not changed: genuine fluency in a technology must come before you can meaningfully defend it.  Think about firewalls. You cannot configure one well without understanding networking. When cloud computing arrived, organizations that skipped the foundational work ended up with environments they could not reason about — tools purc...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "why-agentic-ai-is-securitys-next-blind-spot",
+      "source": "The Hacker News",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
+      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
+      "summary": "TeamPCP , the threat actor behind the recent   supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fresh Mini Shai-Hulud campaign.  The affected npm packages have been modified to include an obfuscated JavaScript file (\"router_init.js\") that's designed to profile the execution environment and launch a comprehensive credential stealer capable of targeting cloud providers, cryptocurrency wallets, AI tools, messaging apps, and CI systems, including Github Actions, Aikido Security , Endor Labs , SafeDep , Socket , and StepSecurity  said. The data is exfiltrated to the \"filev2.getsession[.]org\" domain.  Using Session Protocol infrastructure is a deliberate attempt on the part of the attackers to evade detection, as the domain is unlikely to be blocked within enterprise environments, given that it belongs to a decentralized, privacy-focused messaging se...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "mini-shai-hulud-worm-compromises-tanstack-mistral-",
+      "source": "The Hacker News",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
+      "link": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
+      "summary": "American educational technology company Instructure, the parent company of Canvas, said  it reached an \"agreement\" with a decentralized cybercrime extortion group after it breached its network and threatened to leak stolen information from thousands of schools and universities.  In an update shared on Monday, the Utah-based firm said it \"reached an agreement with the unauthorized actor involved in this incident,\" citing \"concerns about the potential publication of data.\"  In taking the controversial decision to pay a ransom to avoid a leak, the company said the agreement covers all its impacted customers and that the pilfered data was returned to it, along with digital confirmation of data destruction. It also said it has been informed that none of the company's customers will be separately extorted as a result of the hack.   \"While there is never complete certainty when dealing with cyber criminals, we believe it was important to take every step...",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "instructure-reaches-ransom-agreement-with-shinyhun",
+      "source": "The Hacker News",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
+      "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
+      "summary": "OpenAI has launched Daybreak , a new cybersecurity initiative that brings together frontier artificial intelligence (AI) model capabilities and Codex Security  to help organizations identify and patch vulnerabilities before attackers find a way in using the same issues.  \"Daybreak combines the intelligence of OpenAI models, the extensibility of Codex as an agentic harness, and our partners across the security flywheel to help make the world safer for everyone,\" the AI upstart said . \"Defenders can bring secure code review, threat modeling, patch validation, dependency risk analysis, detection, and remediation guidance into the everyday development loop so software becomes more resilient from the start.\"  Like Anthropic's Mythos , the idea is to leverage AI to tilt the balance in favor of defenders and help detect and address security issues before they are found by bad actors. Access to the tooling remains tightly controlled for now, with OpenAI urging interest...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "openai-launches-daybreak-for-ai-powered-vulnerabil",
+      "source": "The Hacker News",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android",
+      "link": "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
+      "summary": "Apple on Monday officially released iOS 26.5 with support for end-to-end encryption (E2EE) to Rich Communication Services (RCS) in beta as part of a \"cross-industry effort\" to replace traditional SMS with a more secure alternative.  To that end, E2EE RCS messaging is rolling out to iPhone users running iOS 26.5 with supported carriers  and Android users on the latest version of Google Messages. The feature is enabled by default for both new and existing conversations in both platforms.  RCS is a modern, internet-based messaging protocol that allows Android and iPhone users to send high-resolution photos and videos, see typing indicators, and receive read receipts, features all typically present in instant messaging apps. It is built on an industry specification called the RCS Universal Profile .   \"When RCS messages are end-to-end encrypted, they can't be read while they're sent between devices,\" Apple said  in a statement. \"Users will know that a conv...",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Low",
+      "slug": "ios-265-brings-default-end-to-end-encrypted-rcs-me",
+      "source": "The Hacker News",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+      "summary": "Checkmarx has confirmed that a modified version of the Jenkins AST plugin  was published to the Jenkins Marketplace.  \"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously,\" the cybersecurity company said  in a statement over the weekend.  As of writing, Checkmarx has released 2.0.13-848.v76e89de8a_053 on both GitHub and the Jenkins Marketplace, although its incident update still notes that it's \"in the process of publishing a new version of this plugin.\" It did not disclose how the malicious plugin version was published.  The development is the latest attack orchestrated by TeamPCP targeting Checkmarx. It arrives a couple of weeks after the notorious cybercrime group was attributed  to the compromise of its KICS Docker image, two VS Code extensions, and a GitHub Actions workflow to push credential-stealing malware.  The breach, in turn, r...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "teampcp-compromises-checkmarx-jenkins-ast-plugin-w",
+      "source": "The Hacker News",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Is The SOC Obsolete, And We Just Haven’t Admitted It Yet?",
+      "link": "https://www.securityweek.com/is-the-soc-obsolete-and-we-just-havent-admitted-it-yet/",
+      "summary": "Many AI-first enterprises have already embraced sovereign architectures for general AI initiatives; cybersecurity—and the SOC—should be next.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "is-the-soc-obsolete-and-we-just-havent-admitted-it",
+      "source": "SecurityWeek",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "TanStack, Mistral AI, UiPath Hit in Fresh Supply Chain Attack",
+      "link": "https://www.securityweek.com/tanstack-mistral-ai-uipath-hit-in-fresh-supply-chain-attack/",
+      "summary": "Over 400 malicious versions of 170 packages were published as part of the new Mini Shai-Hulud campaign.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "tanstack-mistral-ai-uipath-hit-in-fresh-supply-cha",
+      "source": "SecurityWeek",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Frame Security Emerges From Stealth With $50M for Awareness and Training Platform",
+      "link": "https://www.securityweek.com/frame-security-emerges-from-stealth-with-50m-for-awareness-and-training-platform/",
+      "summary": "Team8, Index Ventures, Picture Capital, Elad Gil, Cerca Partners, and Tesonet invested in Frame Security.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "frame-security-emerges-from-stealth-with-50m-for-a",
+      "source": "SecurityWeek",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Build Application Firewalls Aim to Stop the Next Supply Chain Attack",
+      "link": "https://www.securityweek.com/build-application-firewalls-aim-to-stop-the-next-supply-chain-attack/",
+      "summary": "Rather than scanning code alone, Build Application Firewalls inspect runtime behavior inside the software build pipeline.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "build-application-firewalls-aim-to-stop-the-next-s",
+      "source": "SecurityWeek",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Google Detects First AI-Generated Zero-Day Exploit",
+      "link": "https://www.securityweek.com/google-detects-first-ai-generated-zero-day-exploit/",
+      "summary": "The zero-day was designed to bypass 2FA and it was developed by a prominent cybercrime group.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "google-detects-first-ai-generated-zero-day-exploit",
+      "source": "SecurityWeek",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Skoda Data Breach Hits Online Shop Customers",
+      "link": "https://www.securityweek.com/skoda-data-breach-hits-online-shop-customers/",
+      "summary": "Using a vulnerability in the portal, hackers accessed names, addresses, email addresses, and phone numbers.",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "skoda-data-breach-hits-online-shop-customers",
+      "source": "SecurityWeek",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Get rid of unwanted ads with AdGuard, now $11 through 5/17",
+      "link": "https://www.bleepingcomputer.com/offer/deals/get-rid-of-unwanted-ads-with-adguard-now-11-through-5-17/",
+      "summary": "The internet's gotten pretty bloated—half the time you're waiting on ads and trackers, not the actual page you clicked. You can get a lifetime subscription to AdGuard's Personal Plan on sale for $11 right now (reg. $79.99) through May 17.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "get-rid-of-unwanted-ads-with-adguard-now-11-throug",
+      "source": "BleepingComputer",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
+      "summary": "SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and the S/4HANA ERP suite.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "sap-fixes-critical-vulnerabilities-in-commerce-clo",
+      "source": "BleepingComputer",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Agentic AI is spreading fast. Here's how to find and secure it.",
+      "link": "https://www.bleepingcomputer.com/mgo/83/",
+      "summary": "Your workforce is saving time by connecting AI agents to email, file shares, and business workflows, with or without security's sign-off. This guide breaks down the risks and gives you four practical steps to build visibility, enforce least privilege, and extend the controls you already have.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "agentic-ai-is-spreading-fast-heres-how-to-find-and",
+      "source": "BleepingComputer",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
+      "link": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
+      "summary": "Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an \"agreement\" with the ShinyHunters extortion group to prevent the data stolen in a recent breach from being leaked online.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "instructure-reaches-agreement-with-shinyhunters-to",
+      "source": "BleepingComputer",
+      "date": "2026-05-12"
+    }
+  ]
+}

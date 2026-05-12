@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room</div><div class="ticker-item">Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads</div><div class="ticker-item">Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak</div><div class="ticker-item">cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now</div><div class="ticker-item">TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms</div><div class="ticker-item">Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads</div><div class="ticker-item">Skoda Data Breach Hits Online Shop Customers</div><div class="ticker-item">Cloudflare Lays Off 1,100 Employees in AI-Driven Restructuring</div><div class="ticker-item">SailPoint Discloses GitHub Repository Hack</div><div class="ticker-item">Checkmarx Jenkins AST Plugin Compromised in Supply Chain Attack</div><div class="ticker-item">Canvas System Is Online After a Cyberattack Disrupted Thousands of Schools</div><div class="ticker-item">New ‘Dirty Frag’ Linux Vulnerability Possibly Exploited in Attacks</div><div class="ticker-item">Home use is covered with this refurbished Lenovo Chromebook—just $80 today</div><div class="ticker-item">TrickMo Android banker adopts TON blockchain for covert comms</div><div class="ticker-item">Shadow AI Is Everywhere. Here's How to Find and Secure It.</div><div class="ticker-item">Hackers abuse Google ads, Claude.ai chats to push Mac malware</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room</h3>
+                <p><strong>Summary:</strong> Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch waitin...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads</h3>
+                <p><strong>Summary:</strong> A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Win...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed a critical security vulnerability in Ollama  that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory....</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now</h3>
+                <p><strong>Summary:</strong> cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service.  The l...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms</h3>
+                <p><strong>Summary:</strong> Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER  that's capable of targeting 59 banking, fintech, and cryptocurrency platforms.  The activity is being t...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Skoda Data Breach Hits Online Shop Customers</h3>
+                <p><strong>Summary:</strong> Using a vulnerability in the portal, hackers accessed names, addresses, email addresses, and phone numbers.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/skoda-data-breach-hits-online-shop-customers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/skoda-data-breach-hits-online-shop-customers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cloudflare Lays Off 1,100 Employees in AI-Driven Restructuring</h3>
+                <p><strong>Summary:</strong> The company topped revenue and earnings forecasts for the first quarter of 2026, but its shares plunged more than 20%.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cloudflare-lays-off-1100-employees-in-ai-driven-restructuring/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cloudflare-lays-off-1100-employees-in-ai-driven-restructuring/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SailPoint Discloses GitHub Repository Hack</h3>
+                <p><strong>Summary:</strong> The incident occurred on April 20 and did not affect customer data in the company’s production and staging environments.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/sailpoint-discloses-github-repository-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/sailpoint-discloses-github-repository-hack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Checkmarx Jenkins AST Plugin Compromised in Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> A malicious version of the plugin was published to the Jenkins Marketplace late last week.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/checkmarx-jenkins-ast-plugin-compromised-in-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/checkmarx-jenkins-ast-plugin-compromised-in-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Canvas System Is Online After a Cyberattack Disrupted Thousands of Schools</h3>
+                <p><strong>Summary:</strong> Tens of thousands of students studying for final exams around the world have regained access to a key online learning system after a cyberattack had earlier knocked it offline.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/canvas-system-is-online-after-a-cyberattack-disrupted-thousands-of-schools/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/canvas-system-is-online-after-a-cyberattack-disrupted-thousands-of-schools/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New ‘Dirty Frag’ Linux Vulnerability Possibly Exploited in Attacks</h3>
+                <p><strong>Summary:</strong> Also called Copy Fail 2 and tracked as CVE-2026-43284 and CVE-2026-43500, the exploit was disclosed before a patch was released.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/new-dirty-frag-linux-vulnerability-possibly-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/new-dirty-frag-linux-vulnerability-possibly-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Home use is covered with this refurbished Lenovo Chromebook—just $80 today</h3>
+                <p><strong>Summary:</strong> Not every laptop needs to be a powerful main machine. That's where something like this practical Chromebook makes sense. The Lenovo 300e Chromebook is priced at $79.99 (MSRP $284.99) with free shippin...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/home-use-is-covered-with-this-refurbished-lenovo-chromebook-just-80-today/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/home-use-is-covered-with-this-refurbished-lenovo-chromebook-just-80-today/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TrickMo Android banker adopts TON blockchain for covert comms</h3>
+                <p><strong>Summary:</strong> A new variant of the TrickMo Android banking malware, delivered in campaigns targeting users across Europe, introduces new commands and uses The Open Network (TON) for stealthy command-and-control com...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Shadow AI Is Everywhere. Here's How to Find and Secure It.</h3>
+                <p><strong>Summary:</strong> With MCP servers, AI agents, SaaS apps with AI-enabled features taking hold, shadow AI now extends far beyond purpose-built AI tools. Your discovery approach should too. This guide walks through commo...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/85/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/85/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers abuse Google ads, Claude.ai chats to push Mac malware</h3>
+                <p><strong>Summary:</strong> Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for "Claude mac download" may come across sponsored search results that list ...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
