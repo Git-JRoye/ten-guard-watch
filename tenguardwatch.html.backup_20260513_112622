@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Why Agentic AI Is Security's Next Blind Spot</div><div class="ticker-item">Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages</div><div class="ticker-item">Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak</div><div class="ticker-item">OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation</div><div class="ticker-item">iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android</div><div class="ticker-item">TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack</div><div class="ticker-item">Is The SOC Obsolete, And We Just Haven’t Admitted It Yet?</div><div class="ticker-item">TanStack, Mistral AI, UiPath Hit in Fresh Supply Chain Attack</div><div class="ticker-item">Frame Security Emerges From Stealth With $50M for Awareness and Training Platform</div><div class="ticker-item">Build Application Firewalls Aim to Stop the Next Supply Chain Attack</div><div class="ticker-item">Google Detects First AI-Generated Zero-Day Exploit</div><div class="ticker-item">Skoda Data Breach Hits Online Shop Customers</div><div class="ticker-item">Get rid of unwanted ads with AdGuard, now $11 through 5/17</div><div class="ticker-item">SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA</div><div class="ticker-item">Agentic AI is spreading fast. Here's how to find and secure it.</div><div class="ticker-item">Instructure reaches 'agreement' with ShinyHunters to stop data leak</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Why Agentic AI Is Security's Next Blind Spot</h3>
+                <p><strong>Summary:</strong> Agentic AI is already running in production environments across many organizations today. It is executing tasks, consuming data, and taking actions — most likely without meaningful involvement from th...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages</h3>
+                <p><strong>Summary:</strong> TeamPCP , the threat actor behind the recent   supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails A...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak</h3>
+                <p><strong>Summary:</strong> American educational technology company Instructure, the parent company of Canvas, said  it reached an "agreement" with a decentralized cybercrime extortion group after it breached its network and thr...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation</h3>
+                <p><strong>Summary:</strong> OpenAI has launched Daybreak , a new cybersecurity initiative that brings together frontier artificial intelligence (AI) model capabilities and Codex Security  to help organizations identify and patch...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android</h3>
+                <p><strong>Summary:</strong> Apple on Monday officially released iOS 26.5 with support for end-to-end encryption (E2EE) to Rich Communication Services (RCS) in beta as part of a "cross-industry effort" to replace traditional SMS ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Checkmarx has confirmed that a modified version of the Jenkins AST plugin  was published to the Jenkins Marketplace.  "If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are us...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Is The SOC Obsolete, And We Just Haven’t Admitted It Yet?</h3>
+                <p><strong>Summary:</strong> Many AI-first enterprises have already embraced sovereign architectures for general AI initiatives; cybersecurity—and the SOC—should be next.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/is-the-soc-obsolete-and-we-just-havent-admitted-it-yet/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/is-the-soc-obsolete-and-we-just-havent-admitted-it-yet/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TanStack, Mistral AI, UiPath Hit in Fresh Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Over 400 malicious versions of 170 packages were published as part of the new Mini Shai-Hulud campaign.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tanstack-mistral-ai-uipath-hit-in-fresh-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tanstack-mistral-ai-uipath-hit-in-fresh-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Frame Security Emerges From Stealth With $50M for Awareness and Training Platform</h3>
+                <p><strong>Summary:</strong> Team8, Index Ventures, Picture Capital, Elad Gil, Cerca Partners, and Tesonet invested in Frame Security.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/frame-security-emerges-from-stealth-with-50m-for-awareness-and-training-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/frame-security-emerges-from-stealth-with-50m-for-awareness-and-training-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Build Application Firewalls Aim to Stop the Next Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Rather than scanning code alone, Build Application Firewalls inspect runtime behavior inside the software build pipeline.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/build-application-firewalls-aim-to-stop-the-next-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/build-application-firewalls-aim-to-stop-the-next-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Detects First AI-Generated Zero-Day Exploit</h3>
+                <p><strong>Summary:</strong> The zero-day was designed to bypass 2FA and it was developed by a prominent cybercrime group.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-detects-first-ai-generated-zero-day-exploit/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-detects-first-ai-generated-zero-day-exploit/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Skoda Data Breach Hits Online Shop Customers</h3>
+                <p><strong>Summary:</strong> Using a vulnerability in the portal, hackers accessed names, addresses, email addresses, and phone numbers.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/skoda-data-breach-hits-online-shop-customers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/skoda-data-breach-hits-online-shop-customers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Get rid of unwanted ads with AdGuard, now $11 through 5/17</h3>
+                <p><strong>Summary:</strong> The internet's gotten pretty bloated—half the time you're waiting on ads and trackers, not the actual page you clicked. You can get a lifetime subscription to AdGuard's Personal Plan on sale for $11 r...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/get-rid-of-unwanted-ads-with-adguard-now-11-through-5-17/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/get-rid-of-unwanted-ads-with-adguard-now-11-through-5-17/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA</h3>
+                <p><strong>Summary:</strong> SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and the S...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Agentic AI is spreading fast. Here's how to find and secure it.</h3>
+                <p><strong>Summary:</strong> Your workforce is saving time by connecting AI agents to email, file shares, and business workflows, with or without security's sign-off. This guide breaks down the risks and gives you four practical ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/83/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/83/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Instructure reaches 'agreement' with ShinyHunters to stop data leak</h3>
+                <p><strong>Summary:</strong> Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an "agreement" with the ShinyHunters extortion group to prevent the data stolen in a recent...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
