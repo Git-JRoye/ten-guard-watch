@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws</div><div class="ticker-item">GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data</div><div class="ticker-item">Android Adds Intrusion Logging for Sophisticated Spyware Forensics</div><div class="ticker-item">New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution</div><div class="ticker-item">RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded</div><div class="ticker-item">New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots</div><div class="ticker-item">716,000 Impacted by OpenLoop Health Data Breach</div><div class="ticker-item">Microsoft Patches Critical Zero-Click Outlook Vulnerability Threatening Enterprises</div><div class="ticker-item">Fortinet, Ivanti Patch Critical Vulnerabilities</div><div class="ticker-item">Chipmaker Patch Tuesday: Intel and AMD Patch 70 Vulnerabilities</div><div class="ticker-item">Hundreds of Malicious Packages Force RubyGems to Suspend Registrations</div><div class="ticker-item">ICS Patch Tuesday: New Security Advisories From Siemens, Schneider, CISA</div><div class="ticker-item">If you need a reliable everyday laptop, this refurbished Dell 15 is now $307</div><div class="ticker-item">US govt seeks Instructure testimony on massive Canvas cyberattack</div><div class="ticker-item">Shadow AI Is Everywhere. Here's How to Find and Secure It.</div><div class="ticker-item">UK fines water supplier $1.3M for exposing data of 664k customers</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws</h3>
+                <p><strong>Summary:</strong> Microsoft on Tuesday released patches for 138 security vulnerabilities  spanning its product portfolio, although none of them have been listed as publicly known or under active attack.  Of the 138 fla...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are calling attention to a new campaign dubbed GemStuffer  that has targeted the RubyGems repository with more than 150 gems that use the registry as a data exfiltration chan...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Android Adds Intrusion Logging for Sophisticated Spyware Forensics</h3>
+                <p><strong>Summary:</strong> Google on Tuesday unveiled  a new opt-in Android feature called Intrusion Logging  for storing forensic logs to better analyze sophisticated spyware attacks.  Intrusion Logging, available as part of A...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution</h3>
+                <p><strong>Summary:</strong> Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution.  Exim  is an open-source Mail T...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded</h3>
+                <p><strong>Summary:</strong> RubyGems , the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a "major malicious attack."  "We're dealing with...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a new version of the TrickMo  Android banking trojan that uses The Open Network (TON) for command-and-control (C2).  The new variant, observed by ThreatFabric be...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>716,000 Impacted by OpenLoop Health Data Breach</h3>
+                <p><strong>Summary:</strong> The telehealth platform was hacked in January, and users’ personal information was exfiltrated from its systems.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/716000-impacted-by-openloop-health-data-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/716000-impacted-by-openloop-health-data-breach/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Patches Critical Zero-Click Outlook Vulnerability Threatening Enterprises</h3>
+                <p><strong>Summary:</strong> CVE-2026-40361 is similar to a vulnerability found a decade ago, BadWinmail, which at the time was dubbed an “enterprise killer”.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-patches-critical-zero-click-outlook-vulnerability-threatening-enterprises/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-patches-critical-zero-click-outlook-vulnerability-threatening-enterprises/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Fortinet, Ivanti Patch Critical Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Successful exploitation of these flaws could lead to arbitrary code execution and information disclosure.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fortinet-ivanti-patch-critical-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fortinet-ivanti-patch-critical-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Chipmaker Patch Tuesday: Intel and AMD Patch 70 Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The two chip giants have published over two dozen advisories describing recently identified security defects.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chipmaker-patch-tuesday-intel-and-amd-patch-70-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chipmaker-patch-tuesday-intel-and-amd-patch-70-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hundreds of Malicious Packages Force RubyGems to Suspend Registrations</h3>
+                <p><strong>Summary:</strong> More than 500 packages were pushed during the attack, but the target appears to have been RubyGems itself rather than users.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/hundreds-of-malicious-packages-force-rubygems-to-suspend-registrations/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/hundreds-of-malicious-packages-force-rubygems-to-suspend-registrations/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ICS Patch Tuesday: New Security Advisories From Siemens, Schneider, CISA</h3>
+                <p><strong>Summary:</strong> Many ICS vendors have not released new advisories for the May 2026 Patch Tuesday.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ics-patch-tuesday-new-security-advisories-from-siemens-schneider-cisa/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ics-patch-tuesday-new-security-advisories-from-siemens-schneider-cisa/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>If you need a reliable everyday laptop, this refurbished Dell 15 is now $307</h3>
+                <p><strong>Summary:</strong> Right now, this refurbished Dell 15.6-inch laptop is available for just $306.99 (MSRP: $349.99), offering the kind of everyday performance most people actually need without pushing you into premium ul...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/if-you-need-a-reliable-everyday-laptop-this-refurbished-dell-15-is-now-307/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/if-you-need-a-reliable-everyday-laptop-this-refurbished-dell-15-is-now-307/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>US govt seeks Instructure testimony on massive Canvas cyberattack</h3>
+                <p><strong>Summary:</strong> The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform, al...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Shadow AI Is Everywhere. Here's How to Find and Secure It.</h3>
+                <p><strong>Summary:</strong> With MCP servers, AI agents, SaaS apps with AI-enabled features taking hold, shadow AI now extends far beyond purpose-built AI tools. Your discovery approach should too. This guide walks through commo...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/85/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/85/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>UK fines water supplier $1.3M for exposing data of 664k customers</h3>
+                <p><strong>Summary:</strong> The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 66...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
