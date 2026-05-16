@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access</div><div class="ticker-item">Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence</div><div class="ticker-item">What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface</div><div class="ticker-item">TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates</div><div class="ticker-item">On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email</div><div class="ticker-item">CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits</div><div class="ticker-item">PoC Code Published for Critical NGINX Vulnerability</div><div class="ticker-item">In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws</div><div class="ticker-item">Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild</div><div class="ticker-item">American Lending Center Data Breach Affects 123,000 Individuals</div><div class="ticker-item">OpenAI Hit by TanStack Supply Chain Attack</div><div class="ticker-item">TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code</div><div class="ticker-item">Funnel Builder WordPress plugin bug exploited to steal credit cards</div><div class="ticker-item">Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own</div><div class="ticker-item">Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</div><div class="ticker-item">Popular node-ipc npm package compromised to steal credentials</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface</div><div class="ticker-item">TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates</div><div class="ticker-item">On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email</div><div class="ticker-item">CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits</div><div class="ticker-item">Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access</div><div class="ticker-item">Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets</div><div class="ticker-item">American Lending Center Data Breach Affects 123,000 Individuals</div><div class="ticker-item">OpenAI Hit by TanStack Supply Chain Attack</div><div class="ticker-item">TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code</div><div class="ticker-item">Chrome 148 Update Patches Critical Vulnerabilities</div><div class="ticker-item">Cisco Patches Another SD-WAN Zero-Day, the Sixth Exploited in 2026</div><div class="ticker-item">Enhancing Data Center Security Without Sacrificing Performance</div><div class="ticker-item">For those needing fast, portable storage, this tiny 1TB Samsung SSD is $270</div><div class="ticker-item">Microsoft warns of Exchange zero-day flaw exploited in attacks</div><div class="ticker-item">Shadow AI Is Everywhere. Here's How to Find and Secure It.</div><div class="ticker-item">TeamPCP hackers advertise Mistral AI code repos for sale</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access</h3>
-                <p><strong>Summary:</strong> The Russian state-sponsored hacking group known as        Turla       has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent a...</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence</h3>
-                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence.      The vulnerabilities, collecti...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface</h3>
                 <p><strong>Summary:</strong> In Your Biggest Security Risk Isn't Malware — It's What You Already Trust , we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks li...</p>
@@ -91,25 +77,18 @@
                 <a href="https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>PoC Code Published for Critical NGINX Vulnerability</h3>
-                <p><strong>Summary:</strong> Introduced in 2008, the critical-severity security defect was patched this week in NGINX Plus and NGINX open source.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws</h3>
-                <p><strong>Summary:</strong> Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas.</p>
-                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild</h3>
-                <p><strong>Summary:</strong> Microsoft has shared mitigations for CVE-2026-42897 until a permanent patch can be released for affected Exchange Server versions.</p>
+                <h3>Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access</h3>
+                <p><strong>Summary:</strong> Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks.  The vulnerability, tracked as CVE...</p>
                 <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-warns-of-exchange-server-zero-day-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/microsoft-warns-of-exchange-server-zero-day-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers are sounding the alarm about what has been described as "malicious activity" in newly published versions of node-ipc.  According to Socket  and StepSecurity , three different...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>American Lending Center Data Breach Affects 123,000 Individuals</h3>
@@ -133,32 +112,53 @@
                 <a href="https://www.securityweek.com/teampcp-ups-the-game-releases-shai-hulud-worms-source-code/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Funnel Builder WordPress plugin bug exploited to steal credit cards</h3>
-                <p><strong>Summary:</strong> A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages.</p>
+                <h3>Chrome 148 Update Patches Critical Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The refresh resolves critical-severity use-after-free and other types of bugs in various browser components.</p>
                 <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chrome-148-update-patches-critical-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chrome-148-update-patches-critical-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own</h3>
-                <p><strong>Summary:</strong> ​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft E...</p>
+                <h3>Cisco Patches Another SD-WAN Zero-Day, the Sixth Exploited in 2026</h3>
+                <p><strong>Summary:</strong> The zero-day, tracked as CVE-2026-20182, has been exploited in targeted attacks by a sophisticated threat actor identified as UAT-8616.</p>
                 <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisco-patches-another-sd-wan-zero-day-the-sixth-exploited-in-2026/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisco-patches-another-sd-wan-zero-day-the-sixth-exploited-in-2026/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</h3>
-                <p><strong>Summary:</strong> Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attac...</p>
-                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
-                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
-                <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Enhancing Data Center Security Without Sacrificing Performance</h3>
+                <p><strong>Summary:</strong> For AI data centers, where the stakes are the highest and performance constraints are the tightest, security and performance are no longer a zero-sum game.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/enhancing-data-center-security-without-sacrificing-performance/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/enhancing-data-center-security-without-sacrificing-performance/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Popular node-ipc npm package compromised to steal credentials</h3>
-                <p><strong>Summary:</strong> Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm.</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>For those needing fast, portable storage, this tiny 1TB Samsung SSD is $270</h3>
+                <p><strong>Summary:</strong> The Samsung T7 1TB Portable SSD is on sale for $269.99 (MSRP: $274.99), giving users a fast, compact way to offload files without relying entirely on cloud storage or constantly deleting things to fre...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/for-those-needing-fast-portable-storage-this-tiny-1tb-samsung-ssd-is-270/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/for-those-needing-fast-portable-storage-this-tiny-1tb-samsung-ssd-is-270/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft warns of Exchange zero-day flaw exploited in attacks</h3>
+                <p><strong>Summary:</strong> On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Shadow AI Is Everywhere. Here's How to Find and Secure It.</h3>
+                <p><strong>Summary:</strong> With MCP servers, AI agents, SaaS apps with AI-enabled features taking hold, shadow AI now extends far beyond purpose-built AI tools. Your discovery approach should too. This guide walks through commo...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/mgo/85/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/mgo/85/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>TeamPCP hackers advertise Mistral AI code repos for sale</h3>
+                <p><strong>Summary:</strong> The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->

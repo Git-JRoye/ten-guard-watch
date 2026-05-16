@@ -1,0 +1,219 @@
+{
+  "date": "2026-05-16",
+  "items": [
+    {
+      "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+      "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+      "summary": "The Russian state-sponsored hacking group known as        Turla       has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to compromised hosts.      Turla, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA), is assessed to be affiliated with Center 16 of Russia's Federal Security Service (FSB). It overlaps with activity traced by the broader cybersecurity community under the names ATG26, Blue Python, Iron Hunter, Pensive Ursa, Secret Blizzard (formerly Krypton), Snake, SUMMIT, Uroburos, Venomous Bear, Waterbug, and WRAITH.      The hacking group is known for its attacks targeting government, diplomatic, and defense sectors in Europe and Central Asia, as well as   endpoints previously breached by Aqua Blizzard    (aka Actinium and Gamaredon) to support the Kremlin's strategic objectives.      \"This upgrade aligns with Secret Blizzard's broader objective of gaini...",
+      "tags": [
+        "malware",
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "turla-turns-kazuar-backdoor-into-modular-p2p-botne",
+      "source": "The Hacker News",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+      "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+      "summary": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence.      The vulnerabilities, collectively dubbed        Claw Chain       by Cyera, can permit an attacker to establish a foothold, expose sensitive data, and plant backdoors. A brief description of the flaws is below -                  CVE-2026-44112           (CVSS score: 9.6/6.3) - A time-of-check/time-of-use (TOCTOU) race condition vulnerability in the     OpenShell      managed sandbox backend that allows attackers to bypass sandbox restrictions and redirect writes outside the intended mount root.                   CVE-2026-44113           (CVSS score: 7.7/6.3) - A TOCTOU race condition vulnerability in OpenShell that allows attackers to bypass sandbox restrictions and read files outside the intended mount root.                  CVE-2026-44115           (CVSS score: 8.8) - An incomplete list of disallowed inputs vuln...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "four-openclaw-flaws-enable-data-theft-privilege-es",
+      "source": "The Hacker News",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
+      "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
+      "summary": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust , we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks like administration. PowerShell, WMIC, netsh, Certutil, MSBuild — the same trusted utilities your IT team uses every day are also the preferred toolkit of modern threat actors. Bitdefender's analysis  of 700,000 high-severity incidents found legitimate-tool abuse in 84% of them .  The reaction we heard most was a fair one: We know. So what do we actually do about it?  That's what Bitdefender's complimentary Internal Attack Surface Assessment   is built to answer. It's a 45-day, low-effort engagement available to organizations with 250 or more employees that turns the abstract problem of \"living off the land\" into a specific, prioritized list of users, endpoints, and tools you can safely take away from attackers without breaking the business.  Why This, Why ...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "what-45-days-of-watching-your-own-tools-will-tell-",
+      "source": "The Hacker News",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+      "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+      "summary": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack  on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner.  \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to protect our systems,\" OpenAI said . \"We observed activity consistent with the malware's publicly described behavior, including unauthorized access and credential-focused exfiltration activity, in a limited subset of internal source code repositories to which the two impacted employees had access.\"  The artificial intelligence (AI) upstart said only limited credential material was successfully transferred from these code repositories, adding no other information or code was impacted.  Upon being alerted of the activity, OpenAI said it isolated impacted systems and identities...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "tanstack-supply-chain-attack-hits-two-openai-emplo",
+      "source": "The Hacker News",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
+      "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
+      "summary": "Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild.  The vulnerability, tracked as CVE-2026-42897  (CVSS score: 8.1), has been described as a spoofing bug stemming from a cross-site scripting flaw. An anonymous researcher has been credited with discovering and reporting the issue.  \"Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network,\" the tech giant said  in a Thursday advisory.  Microsoft, which tagged the vulnerability with an \"Exploitation Detected\" assessment, said an attacker could weaponize it by sending a crafted email to a user, which, when opened in Outlook Web Access and subject to other \"certain interaction conditions,\" can allow arbitrary JavaScript code to be executed in the context of the web brow...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "on-prem-microsoft-exchange-server-cve-2026-42897-e",
+      "source": "The Hacker News",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
+      "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
+      "summary": "The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to remediate the issue by May 17, 2026.  The vulnerability is a critical authentication bypass tracked as CVE-2026-20182 . It's rated 10.0 on the CVSS scoring system, indicating maximum severity.  \"Cisco Catalyst SD-WAN Controller and Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system,\" CISA said .  In a separate advisory, Cisco attributed  the active exploitation of CVE-2026-20182 with high confidence to UAT-8616 , the same cluster behind the weaponization of CVE-2026-20127 to gain unauthorized access to SD-WAN systems.  \"UAT-8616 performed similar post-compromise ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-cisco-sd-wan-cve-2026-20182-to-kev-after",
+      "source": "The Hacker News",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "PoC Code Published for Critical NGINX Vulnerability",
+      "link": "https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/",
+      "summary": "Introduced in 2008, the critical-severity security defect was patched this week in NGINX Plus and NGINX open source.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "poc-code-published-for-critical-nginx-vulnerabilit",
+      "source": "SecurityWeek",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws",
+      "link": "https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas.",
+      "tags": [
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-big-tech-vs-canada-encryption-bill-c",
+      "source": "SecurityWeek",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild",
+      "link": "https://www.securityweek.com/microsoft-warns-of-exchange-server-zero-day-exploited-in-the-wild/",
+      "summary": "Microsoft has shared mitigations for CVE-2026-42897 until a permanent patch can be released for affected Exchange Server versions.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-warns-of-exchange-server-zero-day-exploi",
+      "source": "SecurityWeek",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "American Lending Center Data Breach Affects 123,000 Individuals",
+      "link": "https://www.securityweek.com/american-lending-center-data-breach-affects-123000-individuals/",
+      "summary": "The non-bank lender discovered a ransomware attack nearly one year ago, but only recently completed its investigation.",
+      "tags": [
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "american-lending-center-data-breach-affects-123000",
+      "source": "SecurityWeek",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "OpenAI Hit by TanStack Supply Chain Attack",
+      "link": "https://www.securityweek.com/openai-hit-by-tanstack-supply-chain-attack/",
+      "summary": "Two employee devices were compromised in the attack, and credential material was stolen from OpenAI code repositories.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "openai-hit-by-tanstack-supply-chain-attack",
+      "source": "SecurityWeek",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code",
+      "link": "https://www.securityweek.com/teampcp-ups-the-game-releases-shai-hulud-worms-source-code/",
+      "summary": "The hacking group is encouraging miscreants to use the code in supply chain attacks, promising monetary rewards.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "teampcp-ups-the-game-releases-shai-hulud-worms-sou",
+      "source": "SecurityWeek",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
+      "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+      "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "funnel-builder-wordpress-plugin-bug-exploited-to-s",
+      "source": "BleepingComputer",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+      "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+      "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-exchange-windows-11-hacked-on-second-day",
+      "source": "BleepingComputer",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Popular node-ipc npm package compromised to steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+      "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm.",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "popular-node-ipc-npm-package-compromised-to-steal-",
+      "source": "BleepingComputer",
+      "date": "2026-05-16"
+    }
+  ]
+}
