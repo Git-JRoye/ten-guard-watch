@@ -1,0 +1,209 @@
+{
+  "date": "2026-05-20",
+  "items": [
+    {
+      "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
+      "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+      "summary": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum.   \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises, organizations, and repositories), we are closely monitoring our infrastructure for follow-on activity,\" the Microsoft-owned subsidiary said .   The company also noted that it will notify customers via established incident response and notification channels if any impact is discovered.   The development comes after TeamPCP, a threat actor behind a string of software supply chain attacks targeting open-source packages, listed GitHub's source code for sale for an asking price of no less than $50,000. The alleged data dump is said to include about 4,000 repositories.   ...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "github-breached-employee-device-hack-led-to-exfilt",
+      "source": "The Hacker News",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem",
+      "link": "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+      "summary": "AI-generated lookalike domains are now embedded inside the third-party scripts running on your web properties. Here's why your current stack can't see them, and what detection actually requires.  Download the CISO Expert Guide to Typosquatting in the AI Era →    TL;DR       Typosquatting is no longer a user problem. Attackers now embed lookalike domains inside legitimate third-party scripts. No mistyped URL required, no server breach needed.    AI broke the economics of defense. LLMs generate thousands of convincing domain variants in minutes; full campaign deployment takes under ten. Malicious package uploads jumped 156%  last year. Manual vetting is dead.    Your security stack can't see this. Firewalls, WAFs, EDR, and CSP have no visibility into what approved scripts do once they execute in the browser.    The Trust Wallet attack  proved it. $8.5M stolen in 48 hours through a trojanized Chrome extension. No alert fired, not because something failed, but because nothing...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "typosquatting-is-no-longer-a-user-problem-its-a-su",
+      "source": "The Hacker News",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+      "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "summary": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey  following its public disclosure last week.   The zero-day flaw, now tracked as CVE-2026-45585 , carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass.   \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the tech giant said  in an advisory. \"The proof of concept for this vulnerability has been made public, violating coordinated vulnerability best practices.\"   The issue impacts Windows 11 version 26H1 for x64-based Systems, Windows 11 Version 24H2 for x64-based Systems, Windows 11 Version 25H2 for x64-based Systems, Windows Server 2025, and Windows Server 2025 (Server Core installation).   YellowKey was disclosed by a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse). It essentially allows placing specially crafted 'FsTx' files on a USB drive ...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-releases-mitigation-for-yellowkey-bitloc",
+      "source": "The Hacker News",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+      "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+      "summary": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach  found no evidence of customer production systems or operations being compromised.   It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories.   \"After the initial assessment, we found that in addition to source code, the downloaded content included GitHub repositories that some Grafana Labs teams use to collaborate on and store internal operational information and other details about our business,\" it said .   \"This includes business contact names and email addresses that would be exchanged in a professional relationship context, not information pulled from or processed through the use of production systems or the Grafana Cloud platform.\"   The open-source visualization software maker also noted that the breach originated from the TanStack npm supply chain attack  orchestrated ...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "grafana-github-breach-exposes-source-code-via-tans",
+      "source": "The Hacker News",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
+      "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor  targeting Android device users.   The activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud.   \"Users unwittingly download a threat actor-owned app, often a utility-style app like a PDF viewer or device cleanup tool,\" researchers Louisa Abel, Ryan Joye, João Marques, João Santos, and Adam Sell detailed  in a report shared with The Hacker News.   \"These apps trigger malvertising campaigns that coerce users into downloading additional threat actor-owned apps. The secondary apps launch hidden WebViews, load threat actor-owned HTML5 domains, and request ads.\"   The campaign, the cybersecurity company added, is self-sustaining in that an organic app install turns into an illicit re...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "trapdoor-android-ad-fraud-scheme-hit-659-million-d",
+      "source": "The Hacker News",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+      "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+      "summary": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE).  Dubbed DirtyDecrypt  (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9, 2026, only to be informed by the maintainers that it was a duplicate of a vulnerability that had already been patched in the mainline.  \"It's a rxgk pagecache write due to missing COW  [copy-on-write] guard in rxgk_decrypt_skb,\" Zellic co-founder Luna Tong (aka cts and gf_256) said  in a description shared on GitHub.  Although the CVE identifier was not disclosed, the vulnerability in question is CVE-2026-31635  (CVSS score: 7.5) based on the fact that the NIST National Vulnerability Database (NVD) includes a link to the DirtyDecrypt PoC in its CVE record.  \"The specific fault sits in rxgk_decrypt_skb(), the function that decrypts an incoming sk_buff (socket buffer) on th...",
+      "tags": [
+        "vulnerability",
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "dirtydecrypt-poc-released-for-linux-kernel-cve-202",
+      "source": "The Hacker News",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Over 320 NPM Packages Hit by Fresh Mini Shai-Hulud Supply Chain Attack",
+      "link": "https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/",
+      "summary": "A compromised maintainer account was used to publish malicious package versions across the @antv namespace.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "over-320-npm-packages-hit-by-fresh-mini-shai-hulud",
+      "source": "SecurityWeek",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Caught Off Guard: Securing AI After It Hits Production",
+      "link": "https://www.securityweek.com/caught-off-guard-securing-ai-after-it-hits-production/",
+      "summary": "As enterprises rush AI projects into production, security teams are increasingly being forced into reactive mode.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "caught-off-guard-securing-ai-after-it-hits-product",
+      "source": "SecurityWeek",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Real-World ICS Security Tales From the Trenches",
+      "link": "https://www.securityweek.com/real-world-ics-security-tales-from-the-trenches/",
+      "summary": "SecurityWeek spoke with several ICS security experts and companies about their most memorable experiences in the field.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "real-world-ics-security-tales-from-the-trenches",
+      "source": "SecurityWeek",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Virtual Event Today: Threat Detection & Incident Response Summit",
+      "link": "https://www.securityweek.com/virtual-event-today-threat-detection-incident-response-summit/",
+      "summary": "Don’t miss this virtual event as we explore how to cut through alert fatigue, leverage AI and unified platforms to accelerate investigations, and apply actionable threat intelligence.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "virtual-event-today-threat-detection-incident-resp",
+      "source": "SecurityWeek",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "GitHub Confirms Hack Impacting 3,800 Internal Repositories",
+      "link": "https://www.securityweek.com/github-confirms-hack-impacting-3800-internal-repositories/",
+      "summary": "The TeamPCP hacking group accessed the repositories after a GitHub employee installed a poisoned VS Code extension.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "github-confirms-hack-impacting-3800-internal-repos",
+      "source": "SecurityWeek",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector",
+      "link": "https://www.securityweek.com/verizon-dbir-2026-vulnerability-exploitation-overtakes-credential-theft-as-top-breach-vector/",
+      "summary": "Verizon’s 2026 DBIR finds vulnerability exploitation has overtaken credential abuse as the leading breach vector, as AI accelerates attacks, patching delays worsen, and ransomware and third-party compromises continue to surge.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "verizon-dbir-2026-vulnerability-exploitation-overt",
+      "source": "SecurityWeek",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Ditch monthly fees and get this PDF editor for life for $35",
+      "link": "https://www.bleepingcomputer.com/offer/deals/ditch-monthly-fees-and-get-this-pdf-editor-for-life-for-35/",
+      "summary": "Managing PDFs can be more complicated than it needs to be, especially when different tools are required just to edit text, convert files, or add signatures. For users looking for a better option than monthly subscriptions, PDF Agile's Lifetime Subscription bundles a wide range of PDF tools into a si...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ditch-monthly-fees-and-get-this-pdf-editor-for-lif",
+      "source": "BleepingComputer",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
+      "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
+      "summary": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local attackers to gain root privileges on Arch Linux systems.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "exploit-released-for-new-pintheft-arch-linux-root-",
+      "source": "BleepingComputer",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-05-20"
+    },
+    {
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "summary": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "github-confirms-breach-of-3800-repos-via-malicious",
+      "source": "BleepingComputer",
+      "date": "2026-05-20"
+    }
+  ]
+}
