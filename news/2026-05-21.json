@@ -1,0 +1,215 @@
+{
+  "date": "2026-05-21",
+  "items": [
+    {
+      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
+      "summary": "This week starts small.   A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust.   That is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI does not make the attacks magic. It just helps people try more things, faster.   Here's what showed up this week.                     47 zero-days exposed             47 0-Days Discovered in Pwn2Own Berlin 2026                  The Pwn2Own Berlin 2026  hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws in various products from Windows, Linux, VMware, and NVIDIA. DEVCORE won the event with 50.5 Master of Pwn points and $505,000 in rewards throughout the three-day contest after hacking Microsoft SharePoint, Microsoft E...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "threatsday-bulletin-linux-rootkits-router-0-day-ai",
+      "source": "The Hacker News",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
+      "link": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
+      "summary": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.   The former, tracked as CVE-2026-41091 , is rated 7.8 on the CVSS scoring system. Successful exploitation of the flaw could allow an attacker to gain SYSTEM privileges.   \"Improper link resolution before file access ('link following') in Microsoft Defender allows an authorized attacker to elevate privileges locally,\" Microsoft said in an advisory.   The second vulnerability under exploitation is CVE-2026-45498  (CVSS score: 4.0), a denial-of-service bug impacting Defender. The two vulnerabilities have been addressed in Microsoft Defender Antimalware Platform versions 1.1.26040.8 and 4.18.26040.7, respectively.   The tech giant noted that systems that have disabled Microsoft Defender are not susceptible to the vulnerability, adding that no action is required to install the update since it automatically updates malware definition...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-warns-of-two-actively-exploited-defender",
+      "source": "The Hacker News",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "When Identity is the Attack Path",
+      "link": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
+      "summary": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud environment - nearly every critical workload the business depended on.   This real-world exposure was caught before an attacker could use it. But the takeaway is clear: identity itself, and every permission it carries, has become the attack path.  Your environment runs on identity. Active Directory, cloud identity providers, service accounts, machine identities, and AI agents - all of these carry permissions that span systems and trust boundaries. A single stolen credential hands the attacker a legitimate identity - along with every permission attached to it.   Despite this, most security pro...",
+      "tags": [
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "when-identity-is-the-attack-path",
+      "source": "The Hacker News",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros",
+      "link": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
+      "summary": "Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years.   The vulnerability, tracked as CVE-2026-46333  (CVSS score: 5.5), is a case of improper privilege management that could permit an unprivileged local user to disclose sensitive files and execute arbitrary commands as root on default installations of several major distributions like Debian, Fedora, and Ubuntu. It's also codenamed ssh-keysign-pwn.   According to Qualys, which discovered the flaw, the problem is rooted in the kernel's __ptrace_may_access() function and was introduced in November 2016.   \"The primitive is reliable and turns any local shell into a path to root or to sensitive credential material,\" Saeed Abbasi, senior manager of Threat Research Unit at Qualys, said .   Successful exploitation of the flaw could permit a local attacker to disclose /etc/shadow and host private keys under /etc/ssh/*_key, as well as execute arbitrary...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "9-year-old-linux-kernel-flaw-enables-root-command-",
+      "source": "The Hacker News",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
+      "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+      "summary": "GitHub on Wednesday officially confirmed that the breach of its internal repositories  was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension.    The development comes as the Nx team revealed that the extension, nrwl.angular-console , was breached after one of its developers' systems was hacked in the wake of the recent TanStack  supply chain attack. Other companies that were impacted by the TanStack compromise include OpenAI, Mistral AI , and Grafana Labs .   \"We have no evidence of impact to customer information stored outside of GitHub's internal repositories, such as our customer's own enterprises, organizations, and repositories,\" Alexis Wales, Chief Information Security Officer of GitHub, said  in a statement.   \"Some of GitHub's internal repositories contain information from customers, for example, excerpts of support interactions. If any impact is discov...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "github-internal-repositories-breached-via-maliciou",
+      "source": "The Hacker News",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
+      "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+      "summary": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure.  The vulnerability, now tracked as CVE-2026-9082 , carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is used in Drupal Core to validate queries and ensure they are sanitized against SQL injection attacks.  \"A vulnerability in this API allows an attacker to send specially crafted requests, resulting in arbitrary SQL injection for sites using PostgreSQL databases,\" it said . \"This can lead to information disclosure, and in some cases privilege escalation, remote code execution, or other attacks.\"  Drupal noted the security flaw can be exploited by anonymous users, and impacts only sites that use PostgreSQL. The following versions address the issue -   Drupal 11.3.10 ...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "highly-critical-drupal-core-flaw-exposes-postgresq",
+      "source": "The Hacker News",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Cisco Patches Critical Vulnerability in Secure Workload",
+      "link": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/",
+      "summary": "Insufficient validation and authentication in the Secure Workload’s REST APIs provide remote attackers with Site Admin privileges.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-patches-critical-vulnerability-in-secure-wor",
+      "source": "SecurityWeek",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Ocean Emerges From Stealth With $28M for Agentic Email Security Platform",
+      "link": "https://www.securityweek.com/ocean-emerges-from-stealth-with-28m-for-agentic-email-security-platform/",
+      "summary": "The company has developed a platform that uses specialized AI agents to inspect every incoming message.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ocean-emerges-from-stealth-with-28m-for-agentic-em",
+      "source": "SecurityWeek",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Apple Rejected 2 Million App Store Submissions in 2025 for Security and Fraud Prevention",
+      "link": "https://www.securityweek.com/apple-rejected-2-million-app-store-submissions-in-2025-for-security-and-fraud-prevention/",
+      "summary": "The company blocked over 1.1 billion accounts and $2.2 billion in potentially fraudulent transactions.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "apple-rejected-2-million-app-store-submissions-in-",
+      "source": "SecurityWeek",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking",
+      "link": "https://www.securityweek.com/drupal-patches-highly-critical-vulnerability-exposing-websites-to-hacking/",
+      "summary": "CVE-2026-9082 can be exploited without authentication for information disclosure, privilege escalation, and remote code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "drupal-patches-highly-critical-vulnerability-expos",
+      "source": "SecurityWeek",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Socket Raises $60 Million at $1 Billion Valuation",
+      "link": "https://www.securityweek.com/socket-raises-60-million-at-1-billion-valuation/",
+      "summary": "The company will invest in its firewall, certified patches, protection extensions, new products, and team expansion.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "socket-raises-60-million-at-1-billion-valuation",
+      "source": "SecurityWeek",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Microsoft Patches Exploited UnDefend and RedSun Defender Zero-Days",
+      "link": "https://www.securityweek.com/microsoft-patches-exploited-undefend-and-redsun-defender-zero-days/",
+      "summary": "The bugs could be exploited to elevate privileges to System or create a denial-of-service (DoS) condition.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-patches-exploited-undefend-and-redsun-de",
+      "source": "SecurityWeek",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Upgrade your audio with open-box Beats Solo 4 headphones for just $88 right now",
+      "link": "https://www.bleepingcomputer.com/offer/deals/upgrade-your-audio-with-open-box-beats-solo-4-headphones-for-just-88-right-now/",
+      "summary": "There's a certain satisfaction in finding a genuinely good tech deal. That's kind of the situation with these open-box Beats Solo 4 headphones. For just $87.97 through May 31 (MSRP $199.99), you're getting modern Beats hardware with upgraded sound, huge battery life, and premium features.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "upgrade-your-audio-with-open-box-beats-solo-4-head",
+      "source": "BleepingComputer",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Flipper One project needs community help to build open Linux platform",
+      "link": "https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/",
+      "summary": "Flipper Devices, the maker of the Flipper Zero pentesting tool, is asking the community to help build Flipper One, an open Linux platform for connected devices.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "flipper-one-project-needs-community-help-to-build-",
+      "source": "BleepingComputer",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Microsoft warns of new Defender zero-days exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
+      "summary": "On Wednesday, Microsoft started rolling out security patches for two Defender vulnerabilities that have been exploited in zero-day attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-warns-of-new-defender-zero-days-exploite",
+      "source": "BleepingComputer",
+      "date": "2026-05-21"
+    }
+  ]
+}
