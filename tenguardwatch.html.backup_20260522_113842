@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories</div><div class="ticker-item">Microsoft Warns of Two Actively Exploited Defender Vulnerabilities</div><div class="ticker-item">When Identity is the Attack Path</div><div class="ticker-item">9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros</div><div class="ticker-item">GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension</div><div class="ticker-item">Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks</div><div class="ticker-item">Cisco Patches Critical Vulnerability in Secure Workload</div><div class="ticker-item">Ocean Emerges From Stealth With $28M for Agentic Email Security Platform</div><div class="ticker-item">Apple Rejected 2 Million App Store Submissions in 2025 for Security and Fraud Prevention</div><div class="ticker-item">Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking</div><div class="ticker-item">Socket Raises $60 Million at $1 Billion Valuation</div><div class="ticker-item">Microsoft Patches Exploited UnDefend and RedSun Defender Zero-Days</div><div class="ticker-item">Upgrade your audio with open-box Beats Solo 4 headphones for just $88 right now</div><div class="ticker-item">Flipper One project needs community help to build open Linux platform</div><div class="ticker-item">Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</div><div class="ticker-item">Microsoft warns of new Defender zero-days exploited in attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories</h3>
+                <p><strong>Summary:</strong> This week starts small.   A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not al...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Warns of Two Actively Exploited Defender Vulnerabilities</h3>
+                <p><strong>Summary:</strong> Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.   The former, tracked as CVE-2026-41091 , is rated 7.8 on t...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>When Identity is the Attack Path</h3>
+                <p><strong>Summary:</strong> Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one mis...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/when-identity-is-attack-path.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/when-identity-is-attack-path.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years.   The vulnerability, tracked as CVE-2026-46333  (CVSS score: 5.5), is a...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension</h3>
+                <p><strong>Summary:</strong> GitHub on Wednesday officially confirmed that the breach of its internal repositories  was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Vis...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/github-internal-repositories-breached.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/github-internal-repositories-breached.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks</h3>
+                <p><strong>Summary:</strong> Drupal has released security updates for a "highly critical" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or infor...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cisco Patches Critical Vulnerability in Secure Workload</h3>
+                <p><strong>Summary:</strong> Insufficient validation and authentication in the Secure Workload’s REST APIs provide remote attackers with Site Admin privileges.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ocean Emerges From Stealth With $28M for Agentic Email Security Platform</h3>
+                <p><strong>Summary:</strong> The company has developed a platform that uses specialized AI agents to inspect every incoming message.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/ocean-emerges-from-stealth-with-28m-for-agentic-email-security-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/ocean-emerges-from-stealth-with-28m-for-agentic-email-security-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Rejected 2 Million App Store Submissions in 2025 for Security and Fraud Prevention</h3>
+                <p><strong>Summary:</strong> The company blocked over 1.1 billion accounts and $2.2 billion in potentially fraudulent transactions.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/apple-rejected-2-million-app-store-submissions-in-2025-for-security-and-fraud-prevention/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/apple-rejected-2-million-app-store-submissions-in-2025-for-security-and-fraud-prevention/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking</h3>
+                <p><strong>Summary:</strong> CVE-2026-9082 can be exploited without authentication for information disclosure, privilege escalation, and remote code execution.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/drupal-patches-highly-critical-vulnerability-exposing-websites-to-hacking/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/drupal-patches-highly-critical-vulnerability-exposing-websites-to-hacking/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Socket Raises $60 Million at $1 Billion Valuation</h3>
+                <p><strong>Summary:</strong> The company will invest in its firewall, certified patches, protection extensions, new products, and team expansion.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/socket-raises-60-million-at-1-billion-valuation/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/socket-raises-60-million-at-1-billion-valuation/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Patches Exploited UnDefend and RedSun Defender Zero-Days</h3>
+                <p><strong>Summary:</strong> The bugs could be exploited to elevate privileges to System or create a denial-of-service (DoS) condition.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-patches-exploited-undefend-and-redsun-defender-zero-days/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-patches-exploited-undefend-and-redsun-defender-zero-days/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Upgrade your audio with open-box Beats Solo 4 headphones for just $88 right now</h3>
+                <p><strong>Summary:</strong> There's a certain satisfaction in finding a genuinely good tech deal. That's kind of the situation with these open-box Beats Solo 4 headphones. For just $87.97 through May 31 (MSRP $199.99), you're ge...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/upgrade-your-audio-with-open-box-beats-solo-4-headphones-for-just-88-right-now/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/upgrade-your-audio-with-open-box-beats-solo-4-headphones-for-just-88-right-now/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Flipper One project needs community help to build open Linux platform</h3>
+                <p><strong>Summary:</strong> Flipper Devices, the maker of the Flipper Zero pentesting tool, is asking the community to help build Flipper One, an open Linux platform for connected devices.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</h3>
+                <p><strong>Summary:</strong> Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attac...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft warns of new Defender zero-days exploited in attacks</h3>
+                <p><strong>Summary:</strong> On Wednesday, Microsoft started rolling out security patches for two Defender vulnerabilities that have been exploited in zero-day attacks.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,209 @@
+{
+  "date": "2026-05-22",
+  "items": [
+    {
+      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+      "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+      "summary": "1 Introduction   This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The methodology presented here should help anyone determine whether a particular Windows kernel mode driver vulnerability remains reachable - and thus potentially exploitable - even in the absence of the hardware the driver was developed for.   The reader is expected to have basic Windows driver knowledge, especially regarding device objects. The rest of this article is written with the assumption that the reader is already familiar with the concepts described in the introduction article: Anatomy of Access: Windows Device Objects from a Security Perspective .   Just like the introduction article, this resou...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "making-vulnerable-drivers-exploitable-without-hard",
+      "source": "The Hacker News",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
+      "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
+      "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf .   In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the development and operation of the botnet. Kimwolf is assessed to be a variant of AISURU.   \"Kimwolf targeted infected devices which were traditionally 'firewalled' from the rest of the internet, such as digital photo frames and web cameras,\" the DoJ said . \"The infected devices were enslaved by the botnet operators.\"   \"The operators then used a 'cybercrime-as-a-service' model to sell access to the infected devices to other cybercriminals. The operators and their customers forced the victim devices to participate in DDoS attacks, targeting computers and servers located throughout the world, including Department of Defense Information Network (DoDIN) IP ad...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "kimwolf-ddos-botnet-operator-arrested-in-canada-ov",
+      "source": "The Hacker News",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
+      "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.   The vulnerabilities in question are listed below -      CVE-2025-34291  (CVSS score: 9.4) - An origin validation error vulnerability in Langflow that could allow an attacker to execute arbitrary code and achieve full system compromise.    CVE-2026-34926  (CVSS score: 6.7) - A directory traversal vulnerability in on-premise versions of Trend Micro Apex One that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.   In a report published in December 2025, Obsidian Security said CVE-2025-34291 exploits three combined weaknesses: overly Permissive CORS, lack of cross-site request forgery (CSRF) protection, and an endpoint that allows code execution...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisa-adds-exploited-langflow-and-trend-micro-apex-",
+      "source": "The Hacker News",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
+      "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
+      "summary": "Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data.   Tracked as CVE-2026-20223  (CVSS score: 10.0), the vulnerability arises from insufficient validation and authentication when accessing REST API endpoints.   \"An attacker could exploit this vulnerability if they are able to send a crafted API request to an affected endpoint,\" Cisco said . \"A successful exploit could allow the attacker to read sensitive information and make configuration changes across tenant boundaries with the privileges of the Site Admin user.\"   The shortcoming impacts Cisco Secure Workload Cluster Software on SaaS and on-prem deployments, regardless of device configuration. Cisco said there are no workarounds that address the vulnerability.   The issue has been addressed in the following versions -      Cisco Secure Workload Release 3.9 and earlier (Migrate to a fixed releas...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisco-patches-cvss-100-secure-workload-rest-api-fl",
+      "source": "The Hacker News",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor",
+      "link": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat  that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022.   \"Showboat is a modular post-exploitation framework designed for Linux systems, capable of spawning a remote shell, transferring files, and functioning as a SOCKS5 proxy,\" Lumen Technologies Black Lotus Labs said  in a report shared with The Hacker News.   It's assessed that the malware has been employed by at least one, and possibly more, threat activity clusters affiliated with China, with correlations identified between command-and-control (C2) nodes and IP addresses geolocated to Chengdu, the capital city of the Chinese province of Sichuan.   One such threat actor is Calypso  (aka Bronze Medley and Red Lamassu), which is known to be active since at least September 2016, targeting state institutions in Brazil, India, Kazakhstan, Russia, Thailand, and Turkey. ...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "showboat-linux-malware-hits-middle-east-telecom-wi",
+      "source": "The Hacker News",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
+      "summary": "This week starts small.   A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust.   That is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI does not make the attacks magic. It just helps people try more things, faster.   Here's what showed up this week.                     47 zero-days exposed             47 0-Days Discovered in Pwn2Own Berlin 2026                  The Pwn2Own Berlin 2026  hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws in various products from Windows, Linux, VMware, and NVIDIA. DEVCORE won the event with 50.5 Master of Pwn points and $505,000 in rewards throughout the three-day contest after hacking Microsoft SharePoint, Microsoft E...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "threatsday-bulletin-linux-rootkits-router-0-day-ai",
+      "source": "The Hacker News",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested",
+      "link": "https://www.securityweek.com/first-vpn-cybercrime-service-disrupted-administrator-arrested/",
+      "summary": "The FBI says First VPN has been used by dozens of ransomware groups for network reconnaissance and intrusions.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "first-vpn-cybercrime-service-disrupted-administrat",
+      "source": "SecurityWeek",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "TrendAI Patches Apex One Zero-Day Exploited in the Wild",
+      "link": "https://www.securityweek.com/trendai-patches-apex-one-zero-day-exploited-in-the-wild/",
+      "summary": "CVE-2026-34926 is a directory traversal flaw that can be exploited against the on-premise version of Apex One.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trendai-patches-apex-one-zero-day-exploited-in-the",
+      "source": "SecurityWeek",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack",
+      "link": "https://www.securityweek.com/grafana-says-codebase-and-other-data-stolen-via-tanstack-supply-chain-attack/",
+      "summary": "Hackers accessed Grafana’s GitHub repositories after a token compromised in the TanStack attack was not rotated.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "grafana-says-codebase-and-other-data-stolen-via-ta",
+      "source": "SecurityWeek",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Cisco Patches Critical Vulnerability in Secure Workload",
+      "link": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/",
+      "summary": "Insufficient validation and authentication in the Secure Workload’s REST APIs provide remote attackers with Site Admin privileges.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-patches-critical-vulnerability-in-secure-wor",
+      "source": "SecurityWeek",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Ocean Emerges From Stealth With $28M for Agentic Email Security Platform",
+      "link": "https://www.securityweek.com/ocean-emerges-from-stealth-with-28m-for-agentic-email-security-platform/",
+      "summary": "The company has developed a platform that uses specialized AI agents to inspect every incoming message.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "ocean-emerges-from-stealth-with-28m-for-agentic-em",
+      "source": "SecurityWeek",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Apple Rejected 2 Million App Store Submissions in 2025 for Security and Fraud Prevention",
+      "link": "https://www.securityweek.com/apple-rejected-2-million-app-store-submissions-in-2025-for-security-and-fraud-prevention/",
+      "summary": "The company blocked over 1.1 billion accounts and $2.2 billion in potentially fraudulent transactions.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "apple-rejected-2-million-app-store-submissions-in-",
+      "source": "SecurityWeek",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "This refurbished ASUS Chromebook 2-in-1 is 59% off right now",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-refurbished-asus-chromebook-2-in-1-is-59-percent-off-right-now/",
+      "summary": "Not everyone needs a powerhouse laptop. Right now, this ASUS Chromebook CM30 (2024) Detachable Touchscreen is down to $149.99 from its regular price of $369.99, a 59% discount on a Grade A-certified refurbished unit.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "this-refurbished-asus-chromebook-2-in-1-is-59-off-",
+      "source": "BleepingComputer",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
+      "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
+      "summary": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "us-and-canada-arrest-and-charge-suspected-kimwolf-",
+      "source": "BleepingComputer",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Google accidentally exposed details of unfixed Chromium flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
+      "summary": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "google-accidentally-exposed-details-of-unfixed-chr",
+      "source": "BleepingComputer",
+      "date": "2026-05-22"
+    }
+  ]
+}
