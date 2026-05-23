@@ -1,0 +1,215 @@
+{
+  "date": "2026-05-23",
+  "items": [
+    {
+      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+      "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+      "summary": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to  Laravel-Lang to deliver a comprehensive credential-stealing framework.   The affected packages include -      laravel-lang/lang    laravel-lang/http-statuses    laravel-lang/attributes    laravel-lang/actions   \"The timing and pattern of the newly published tags point to a broader compromise of the Laravel Lang organization's release process, rather than a single malicious package version,\" Socket said . \"The tags were published in rapid succession on May 22 and May 23, 2026, with many versions appearing only seconds apart.\"   More than 700 versions associated with these packages have been identified, indicating automated mass tagging or republishing. It's suspected that the attacker may have managed to obtain access to organization-level credentials, repository automation, or release infrastructure.   The core malicious...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "laravel-lang-php-packages-compromised-to-deliver-c",
+      "source": "The Hacker News",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+      "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+      "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild.   The flaw, tracked as CVE-2026-48172  (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions.   \"Any cPanel user (including an attacker or a compromised account) may exploit the lsws.redisAble function to execute arbitrary scripts as root,\" LiteSpeed said .   The vulnerability impacts all versions of the plugin between 2.3 and 2.4.4. LiteSpeed's WHM plugin is not impacted. The issue has been addressed in version 2.4.5. Security researcher David Strydom has been credited with discovering and reporting the flaw.   LiteSpeed noted that the \"vulnerability is being actively exploited,\" but refrained from sharing additional details. It has provided the following indicator of compromise -    grep -rE \"cpanel_jsonapi_func=redisAble...",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "litespeed-cpanel-plugin-cve-2026-48172-exploited-t",
+      "source": "The Hacker News",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+      "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added  a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation.   The vulnerability in question is CVE-2026-9082  (CVSS score: 6.5), an SQL injection vulnerability affecting all supported versions of Drupal Core.   \"Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API,\" CISA said.   News of exploitation arrives less than two days after Drupal released fixes for the flaw. It's currently not known how the vulnerability is being exploited, and what the end goals of those attacks are.   Patches are available for the following versions -      Drupal 11.3.10    Drupal 11.2.12    Drupal 11.1.10    Drupal 10.6.9    Drupal 10.5.10    Drupal 10.4.10    Drupal 9.5 (Manual patch...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "drupal-core-sql-injection-bug-actively-exploited-a",
+      "source": "The Hacker News",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
+      "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
+      "summary": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks.   Codenamed Operation Saffron, the  disruption  of First VPN Service was led by France and the Netherlands, with several other nations supporting the investigation since December 2021, including Luxembourg, Romania, Switzerland, Ukraine, the U.K., Canada, Germany, the U.S., Spain, Sweden, Denmark, Estonia, Latvia, Lithuania, Poland, and Portugal.   First VPN, per Europol , offered services designed specifically for criminal use, allowing anonymous payments and a hidden infrastructure that enabled paying customers to hide their identities when carrying out ransomware attacks, large-scale fraud, and data theft. It was promoted on Russian-speaking cybercrime forums such as Exploit[.]in and XSS[.]is as a tool to evade law enforcement.   The inte...",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "first-vpn-dismantled-in-global-takedown-over-use-b",
+      "source": "The Hacker News",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
+      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+      "summary": "The Belarus-aligned threat actor known as Ghostwriter  (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country.   The activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government entities using compromised accounts. It's been active since the spring of 2026.   \"Typically, the email contains a PDF attachment with a link that, when clicked, leads to the download of a ZIP archive containing a JavaScript file,\" the agency said  in a Thursday report.   The JavaScript file, dubbed OYSTERFRESH, is designed to display a decoy document as a distraction mechanism, while stealthily writing an obfuscated and encrypted payload called OYSTERBLUES to the Windows Registry, as well as downloading and launching OYSTERSHUCK, which is responsible for decoding OYSTERBLUES.",
+      "tags": [
+        "malware",
+        "phishing",
+        "breach",
+        "apt"
+      ],
+      "urgency": "High",
+      "slug": "ghostwriter-targets-ukraine-government-entities-wi",
+      "source": "The Hacker News",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+      "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon  that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window.   \"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI secrets, cloud credentials, SSH keys, OIDC tokens, and source code secrets to a C2 server at 216.126.225[.]129:8443,\" SafeDep said  in a report.   The complete list of data harvested by the malware is below -      CI environment variables, /proc/*/environ, and PID 1 environment    Amazon Web Services (AWS) credentials    Google Cloud access tokens    Instance role credentials obtained by querying AWS IMDSv2, Google Cloud metadata, and Microsoft Azure Instance Metadata Service (IMDS) endpoints    SSH private keys    Docker and Kubernetes configurations    Vault tokens    Terraform crede...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "megalodon-github-attack-targets-5561-repos-with-ma",
+      "source": "The Hacker News",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure",
+      "link": "https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/",
+      "summary": "Drupal is warning users that it has already seen attempts to exploit CVE-2026-9082 and security firms are seeing attacks against thousands of websites.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "drupal-vulnerability-in-hacker-crosshairs-shortly-",
+      "source": "SecurityWeek",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking",
+      "link": "https://www.securityweek.com/in-other-news-industrial-router-exploitation-cisa-kev-nomination-form-gas-station-hacking/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: CISA contractor exposes credentials, Mythos testing and new features, Huawei router flaw triggered telecom blackout.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-industrial-router-exploitation-cisa-",
+      "source": "SecurityWeek",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Canadian Man Arrested for Operating Kimwolf Botnet",
+      "link": "https://www.securityweek.com/canadian-man-arrested-for-operating-kimwolf-botnet/",
+      "summary": "Jacob Butler, 23, has been arrested in Canada and US authorities are seeking his extradition on computer hacking charges.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "canadian-man-arrested-for-operating-kimwolf-botnet",
+      "source": "SecurityWeek",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested",
+      "link": "https://www.securityweek.com/first-vpn-cybercrime-service-disrupted-administrator-arrested/",
+      "summary": "The FBI says First VPN has been used by dozens of ransomware groups for network reconnaissance and intrusions.",
+      "tags": [
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "first-vpn-cybercrime-service-disrupted-administrat",
+      "source": "SecurityWeek",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "TrendAI Patches Apex One Zero-Day Exploited in the Wild",
+      "link": "https://www.securityweek.com/trendai-patches-apex-one-zero-day-exploited-in-the-wild/",
+      "summary": "CVE-2026-34926 is a directory traversal flaw that can be exploited against the on-premise version of Apex One.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trendai-patches-apex-one-zero-day-exploited-in-the",
+      "source": "SecurityWeek",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack",
+      "link": "https://www.securityweek.com/grafana-says-codebase-and-other-data-stolen-via-tanstack-supply-chain-attack/",
+      "summary": "Hackers accessed Grafana’s GitHub repositories after a token compromised in the TanStack attack was not rotated.",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "grafana-says-codebase-and-other-data-stolen-via-ta",
+      "source": "SecurityWeek",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
+      "summary": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation campaigns.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "netherlands-seizes-800-servers-of-hosting-firm-ena",
+      "source": "BleepingComputer",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Former US execs plead guilty to aiding tech support scammers",
+      "link": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+      "summary": "Two former executives of a call-tracking and analytics company pleaded guilty to concealing a years-long tech support fraud scheme that victimized individuals worldwide.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "former-us-execs-plead-guilty-to-aiding-tech-suppor",
+      "source": "BleepingComputer",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
+      "summary": "Japanese cybersecurity software company Trend Micro has addressed an Apex One zero-day vulnerability exploited in attacks targeting Windows systems.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "trend-micro-warns-of-apex-one-zero-day-exploited-i",
+      "source": "BleepingComputer",
+      "date": "2026-05-23"
+    }
+  ]
+}
