@@ -44,31 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks</div><div class="ticker-item">Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware</div><div class="ticker-item">Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software</div><div class="ticker-item">Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer</div><div class="ticker-item">LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root</div><div class="ticker-item">Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV</div><div class="ticker-item">‘Underminr’ Vulnerability Lets Attackers Hide Malicious Connections Behind Trusted Domains</div><div class="ticker-item">Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure</div><div class="ticker-item">In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking</div><div class="ticker-item">Canadian Man Arrested for Operating Kimwolf Botnet</div><div class="ticker-item">‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested</div><div class="ticker-item">TrendAI Patches Apex One Zero-Day Exploited in the Wild</div><div class="ticker-item">Laravel Lang packages hijacked to deploy credential-stealing malware</div><div class="ticker-item">Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes</div><div class="ticker-item">Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</div><div class="ticker-item">Skip the small talk—learn new languages in this Babbel app deal</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer</div><div class="ticker-item">LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root</div><div class="ticker-item">Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV</div><div class="ticker-item">First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups</div><div class="ticker-item">Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware</div><div class="ticker-item">Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows</div><div class="ticker-item">Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure</div><div class="ticker-item">In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking</div><div class="ticker-item">Canadian Man Arrested for Operating Kimwolf Botnet</div><div class="ticker-item">‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested</div><div class="ticker-item">TrendAI Patches Apex One Zero-Day Exploited in the Wild</div><div class="ticker-item">Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack</div><div class="ticker-item">Netherlands seizes 800 servers of hosting firm enabling cyberattacks</div><div class="ticker-item">Former US execs plead guilty to aiding tech support scammers</div><div class="ticker-item">Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</div><div class="ticker-item">Trend Micro warns of Apex One zero-day exploited in the wild</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks</h3>
-                <p><strong>Summary:</strong> GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly ...</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware</h3>
-                <p><strong>Summary:</strong> A new "coordinated" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL.   "Although the ...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software</h3>
-                <p><strong>Summary:</strong> Anthropic on Friday disclosed  that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most "systemically" important software across th...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer</h3>
                 <p><strong>Summary:</strong> Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to  Laravel-Lang to deliver a comprehensive credential-stealing f...</p>
@@ -91,11 +70,25 @@
                 <a href="https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>‘Underminr’ Vulnerability Lets Attackers Hide Malicious Connections Behind Trusted Domains</h3>
-                <p><strong>Summary:</strong> The stealthy vulnerability impacts roughly 88 million domains and can be exploited to bypass DNS filtering and hide command-and-control traffic.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/underminr-vulnerability-lets-attackers-hide-malicious-connections-behind-trusted-domains/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups</h3>
+                <p><strong>Summary:</strong> Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data th...</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware</h3>
+                <p><strong>Summary:</strong> The Belarus-aligned threat actor known as Ghostwriter  (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organi...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon  that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window.   "Using t...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/trendai-patches-apex-one-zero-day-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Laravel Lang packages hijacked to deploy credential-stealing malware</h3>
-                <p><strong>Summary:</strong> A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to dist...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Hackers accessed Grafana’s GitHub repositories after a token compromised in the TanStack attack was not rotated.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/grafana-says-codebase-and-other-data-stolen-via-tanstack-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/grafana-says-codebase-and-other-data-stolen-via-tanstack-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes</h3>
-                <p><strong>Summary:</strong> Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, including Netflix, Disney+, and Spotify.</p>
+                <h3>Netherlands seizes 800 servers of hosting firm enabling cyberattacks</h3>
+                <p><strong>Summary:</strong> Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation c...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Former US execs plead guilty to aiding tech support scammers</h3>
+                <p><strong>Summary:</strong> Two former executives of a call-tracking and analytics company pleaded guilty to concealing a years-long tech support fraud scheme that victimized individuals worldwide.</p>
                 <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Skip the small talk—learn new languages in this Babbel app deal</h3>
-                <p><strong>Summary:</strong> If you've been meaning to learn a language—or several—Babbel offers a structured, expert-backed way to finally make it stick. Get lifetime access to all of Babbel's languages for a one-time $159 payme...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/skip-the-small-talk-learn-new-languages-in-this-babbel-app-deal/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/skip-the-small-talk-learn-new-languages-in-this-babbel-app-deal/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Trend Micro warns of Apex One zero-day exploited in the wild</h3>
+                <p><strong>Summary:</strong> Japanese cybersecurity software company Trend Micro has addressed an Apex One zero-day vulnerability exploited in attacks targeting Windows systems.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
