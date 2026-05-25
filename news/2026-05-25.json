@@ -1,0 +1,206 @@
+{
+  "date": "2026-05-25",
+  "items": [
+    {
+      "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
+      "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
+      "summary": "Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix  attacks.   According to QiAnXin XLab, the activity involves the exploitation of CVE-2026-26980  (CVSS score: 9.4), an SQL injection vulnerability  in Ghost's Content API that could allow an unauthenticated attacker to read arbitrary data from the database. The security flaw was addressed in February 2026 in version 6.19.1. The vulnerability was discovered  by Anthropic using Claude.   What makes the vulnerability severe is that it allows an attacker to gain access to a site's admin API key  without permission, granting them the ability to poison the site by injecting malicious code. The admin API key can be used to invoke the admin API and can directly modify articles published on the content management system.   The threat actor leveraged the security flaw to \"obtain the target site's Admin API Key without authorizati...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ghost-cms-cve-2026-26980-exploited-to-hijack-700-s",
+      "source": "The Hacker News",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "The Alert Firehose Finally Meets Its Match",
+      "link": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
+      "summary": "Ask a cybersecurity pro about Network Detection and Response (NDR) and you might still hear \"Noisy,\" \"Too much data.\" But ask the teams running NDR that includes agentic AI capabilities and you'll hear they're actually using it to catch threats earlier, triage faster, and chase fewer false positives. The old complaint lingers in part because reputations are sticky, and because NDR has evolved faster than the narrative.   The origins of noise   NDR deployments have always given analysts deep visibility into network traffic, encrypted session behavior, and protocol anomalies. But visibility often came as raw material, not finished intelligence.   Some systems required extensive manual tuning during deployment to prevent SIEM overload. Organizations that couldn't invest that time (or didn't know how important it was) helped cement NDR's \"alert firehose\" or \"noisy\" reputation.   NDR with agentic AI turns noise into narrative   A...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "the-alert-firehose-finally-meets-its-match",
+      "source": "The Hacker News",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
+      "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
+      "summary": "Cybersecurity researchers have shed light on a cross-platform malware called RemotePE  that has been put to use by the North Korea-linked Lazarus Group in attacks targeting financial and cryptocurrency organizations.   RemotePE, per NCC Group subsidiary Fox-IT, is part of a multi-stage attack chain that involves two loaders tracked as DPAPILoader and RemotePELoader.   \"DPAPILoader decrypts and loads RemotePELoader from disk using the Windows Data Protection API ( DPAPI ),\" security researchers Yun Zheng Hu and Mick Koomen said . \"RemotePELoader beacons to a C2 server and waits until it receives the next stage: RemotePE, a RAT executed entirely in memory and never written to disk, leaving no filesystem artifacts.\"   RemotePE was first highlighted  by the security vendor in September 2025 in connection with an attack targeting an unnamed organization in the decentralized finance (DeFi) sector, leading to the deployment of three malware families, including PondRAT, Th...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "lazarus-deploys-remotepe-memory-only-rat-against-f",
+      "source": "The Hacker News",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+      "link": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+      "summary": "A new coordinated cross-ecosystem software supply chain attack campaign has targeted npm, PyPI, and Crates.io to distribute credential-stealing malware.   The campaign, codenamed TrapDoor , spans more than 34 malicious packages across over 384 versions. The earliest activity was recorded on May 22, 2026, at 8:20 p.m. UTC, with new packages published to the ecosystems in waves from a cluster of accounts in quick succession.   \"TrapDoor targets developers in crypto, DeFi, Solana, and AI communities,\" Socket said. \"The malicious packages are designed to steal developer secrets, crypto wallets, SSH keys, cloud credentials, browser data, and environment variables.\"   \"Several npm packages also deploy a shared payload, trap-core.js, that scans for credentials, validates AWS and GitHub tokens, attempts SSH-based lateral movement, and plants persistence through .cursorrules, CLAUDE.md, Git hooks, shell hooks, systemd, cron, and SSH.\"   It's worth noting tha...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "trapdoor-supply-chain-attack-spreads-credential-st",
+      "source": "The Hacker News",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+      "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+      "summary": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation.   Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve a package before it is pushed to the npmjs[.]com.   \"Instead of a direct publish that immediately makes a package version available to consumers, the prebuilt tarball is uploaded to a stage queue where a maintainer must explicitly approve it before it becomes installable,\" GitHub said .   The Microsoft-owned subsidiary said the change ensures \"proof of presence\" for every publish, including those that come from non-interactive CI/CD workflows and trusted publishing with OpenID Connect (OIDC) authentication.   Before using staged publishing , package maintainers have to meet...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "npm-adds-2fa-gated-publishing-and-package-install-",
+      "source": "The Hacker News",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+      "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+      "summary": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL.   \"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said . \"Instead, it was inserted into package.json, targeting projects that ship JavaScript build tooling alongside PHP code.\"   This \"cross-ecosystem placement\" makes the activity stand out because developers and security teams scanning PHP dependencies may only focus on Composer-related metadata, while skipping package.json lifecycle hooks that are bundled within the package. The malicious versions have since been removed from Packagist.   An analysis of the packages has uncovered that their upstream repositories have been modified to include a postinstall script that attempts to download a Linux binary from a GitHub Releases URL (\"github[...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "packagist-supply-chain-attack-infects-8-packages-u",
+      "source": "The Hacker News",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Oncology Institute Discloses Data Breach",
+      "link": "https://www.securityweek.com/oncology-institute-discloses-third-party-data-breach/",
+      "summary": "The affected third-party vendor has not been named, but one possible candidate is TriZetto.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "oncology-institute-discloses-data-breach",
+      "source": "SecurityWeek",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "266,000 Affected by Data Breach at Radiology Associates of Richmond",
+      "link": "https://www.securityweek.com/266000-affected-by-data-breach-at-radiology-associates-of-richmond/",
+      "summary": "Threat actors stole files containing names and protected health information from the healthcare organization’s systems.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "266000-affected-by-data-breach-at-radiology-associ",
+      "source": "SecurityWeek",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across 1,000 OSS Projects",
+      "link": "https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects/",
+      "summary": "Many findings have been confirmed to be critical or high-severity vulnerabilities and the number will continue to increase.",
+      "tags": [
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "anthropic-mythos-detected-23000-potential-vulnerab",
+      "source": "SecurityWeek",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Laravel-Lang Packages Poisoned for Malware Delivery",
+      "link": "https://www.securityweek.com/laravel-lang-packages-poisoned-for-malware-delivery/",
+      "summary": "Published within a 15-minute window, the malicious tags introduced backdoors to exfiltrate CI secrets.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "laravel-lang-packages-poisoned-for-malware-deliver",
+      "source": "SecurityWeek",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "DocketWise Data Breach Impacts 143,000",
+      "link": "https://www.securityweek.com/docketwise-data-breach-impacts-143000/",
+      "summary": "Hackers accessed names, addresses, Social Security numbers, financial information, and medical data from third-party partner repositories.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "docketwise-data-breach-impacts-143000",
+      "source": "SecurityWeek",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Over 5,500 GitHub Repositories Infected in ‘Megalodon’ Supply Chain Attack",
+      "link": "https://www.securityweek.com/over-5500-github-repositories-infected-in-megalodon-supply-chain-attack/",
+      "summary": "Fake automated commits injected GitHub Actions workflows containing payloads to steal credentials, CI secrets, keys, and tokens.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "over-5500-github-repositories-infected-in-megalodo",
+      "source": "SecurityWeek",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "This $20 CISSP exam prep bundle covers all 8 domains",
+      "link": "https://www.bleepingcomputer.com/offer/deals/this-20-cissp-exam-prep-bundle-covers-all-8-domains/",
+      "summary": "This CISSP Security & Risk Management Training bundle can give you a good base of knowledge for only $19.99, with lifetime access to all of its content (MSRP $424). It covers all 8 domains with over 21 hours of content and 240+ lectures, to help you walk into the exam with confidence.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "this-20-cissp-exam-prep-bundle-covers-all-8-domain",
+      "source": "BleepingComputer",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+      "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ghost-cms-sql-injection-flaw-exploited-in-large-sc",
+      "source": "BleepingComputer",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "AdGuard’s lifetime ad blocker for nine devices is just $16",
+      "link": "https://www.bleepingcomputer.com/offer/deals/adguards-lifetime-ad-blocker-for-nine-devices-is-just-16/",
+      "summary": "AdGuard has over 1,400 five-star reviews, and it can clear out ads across your mobile and desktop devices for life. Through May 31, you can grab a Liftime Family Plan that covers nine devices for just $15.97 (regularly $169.99).",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "adguards-lifetime-ad-blocker-for-nine-devices-is-j",
+      "source": "BleepingComputer",
+      "date": "2026-05-25"
+    }
+  ]
+}
