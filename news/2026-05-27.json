@@ -1,0 +1,208 @@
+{
+  "date": "2026-05-27",
+  "items": [
+    {
+      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
+      "link": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+      "summary": "CrowdStrike, in partnership with Google and the Shadowserver Foundation, has announced the simultaneous disruption of all command-and-control (C2) channels associated with GlassWorm , a persistent software chain campaign  targeting software developers through malicious packages and extensions.   \"Since at least early 2025, GlassWorm  operators have systematically targeted software developers, a population with access to source code repositories, cloud platforms, CI/CD pipelines, and package registries,\" CrowdStrike said .   The development comes as developers have increasingly become lucrative targets for pulling off software supply chain attacks, enabling attackers to leverage a single compromised workstation to impact thousands of downstream organizations and users at once.   GlassWorm, since its emergence last year, has conducted  a \"multi-pronged campaign\" using trojanized VS Code extensions published on both the Microsoft VS Code Marketplace and Open VSX, ther...",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "glassworm-malware-takedown-disrupts-developer-supp",
+      "source": "The Hacker News",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+      "link": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
+      "summary": "When an employee installs an AI writing assistant, connects a coding copilot to their IDE, or starts summarizing meetings with a new browser tool, they are doing exactly what a productive employee should do: finding faster ways to work.   Across most organizations today, employees are running three to five AI tools on any given day. Most were never reviewed by IT. A significant portion connects to corporate data through OAuth tokens or browser sessions, giving them access to shared drives, emails, and internal documents the employee never specifically intended to expose. Security teams often have no visibility into any of it.   This is the shadow AI gap, and it is widening fast. Most security tools were built to monitor email and network traffic flowing through the corporate network. A browser-based AI tool that connects to company data through a quick login approval bypasses those controls entirely, because it never passes through the corporate network at all. According to Gartner , ...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "5-steps-to-managing-shadow-ai-tools-without-slowin",
+      "source": "The Hacker News",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
+      "link": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
+      "summary": "Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version control, that allows unauthenticated remote attackers to pull private container images from Gitea deployments without requiring an account, password, or other credentials.   The vulnerability, tracked as CVE-2026-27771 (CVSS score: N/A), affects all versions of Gitea prior to 1.26.2 , which addresses the issue.   According to Noscope, the security defect likely impacts more than 30,000 deployments across over 30 countries and went undetected for close to four years. The vast majority of the exposures are in China, the U.S., Germany, France, and the U.K. Affected organizations span healthcare providers, aerospace manufacturers, retail infrastructure, and internet service providers.   \"On affected versions, the private designation on a container repository did not deliver the protection operators reasonably expected it to,\" Noscope said .   \"Gitea's cont...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "gitea-vulnerability-exposes-private-container-imag",
+      "source": "The Hacker News",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
+      "link": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
+      "summary": "Microsoft has warned of an active cryptojacking campaign that makes use of artificial intelligence (AI) chatbot interactions as a mechanism for surfacing malicious download sites.   \"This emerging delivery technique extends social engineering beyond conventional search results and increases the visibility of malicious software recommendations,\" Microsoft Defender Experts and the Microsoft Defender Security Research Team said  in a report published Tuesday.   The activity, per the tech giant, impersonates legitimate system utilities like CrystalDiskInfo, HWMonitor, Display Driver Uninstaller, FurMark, K-Lite Codec Pack, and PDFgear, likely in an attempt to target users who own high-performance GPUs. The idea is to focus on compromising systems with higher mining value than indiscriminately infecting a large number of machines, it added.   The goals of the campaign are not merely financially motivated. The threat actors have also been found to establish persistent remote acce...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "ai-chatbot-recommendations-redirect-users-to-crypt",
+      "source": "The Hacker News",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
+      "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+      "summary": "The Iranian hacking group known as MuddyWater  has been linked to a new campaign affecting at least nine organizations across nine countries on four continents in the first quarter of 2026.   The activity targeted industrial and electronics manufacturing, education and public-sector bodies, financial services, and professional services, per the Threat Hunter Team from Symantec and Carbon Black. Among the victims is a major South Korean electronics manufacturer, with the attackers spending a week inside its network in February 2026.   Also singled as part of the sprawling espionage effort were an international airport in the Middle East, Southeast Asian industrial manufacturers, and a Latin American financial-services provider.   \"The attackers relied heavily on DLL side-loading using legitimately signed Fortemedia (fmapp.exe) and SentinelOne (sentinelmemoryscanner.exe) binaries to execute malicious DLLs while masquerading as benign software,\" Broadcom's cybersecurity t...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "muddywater-uses-dll-side-loading-in-espionage-camp",
+      "source": "The Hacker News",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
+      "link": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+      "summary": "Every single day, hackers are finding new ways to crash websites and steal data.   But right now, something has changed. Hackers are no longer working alone. They are now using powerful Artificial Intelligence (AI) tools to make their attacks faster, stronger, and much harder to stop.   According to recent updates from The Hacker News , bad actors are using AI to find weak spots in systems and launch massive \"DDoS attacks\" that can take your business offline in seconds.   If your website goes down, you lose money, you lose customer trust, and you spend days trying to fix the mess.   👉 Save Your Free Webinar Seat   The Old Way of Protection Doesn't Work Anymore   In the past, you could set up a simple firewall, update your software, and feel safe.   Not anymore. AI-assisted attacks can think and adapt. They don't just hit your front door; they look for hidden entry points, smart APIs, and tiny mistakes in your cloud setup. They do in minutes what used to take human h...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "thn-webinar-new-ai-ddos-attacks-are-smarter-learn-",
+      "source": "The Hacker News",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "RevEng.AI Raises $15 Million to Hunt for Flaws and Backdoors in Software Binaries",
+      "link": "https://www.securityweek.com/reveng-ai-raises-15-million-to-hunt-for-flaws-and-backdoors-in-software-binaries/",
+      "summary": "Using an AI model called BinNet, RevEng hunts vulnerabilities and backdoors in released software binaries.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "revengai-raises-15-million-to-hunt-for-flaws-and-b",
+      "source": "SecurityWeek",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Romanian Hacker Sentenced to Prison in US for Selling Access to State Network",
+      "link": "https://www.securityweek.com/romanian-hacker-sentenced-to-prison-in-us-for-selling-access-to-state-network/",
+      "summary": "Catalin Dragomir previously pleaded guilty to selling access to an Oregon state government office’s network.",
+      "tags": [
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "romanian-hacker-sentenced-to-prison-in-us-for-sell",
+      "source": "SecurityWeek",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Lastwall Raises $11.5 Million for Quantum-Resilient Identity Platform",
+      "link": "https://www.securityweek.com/lastwall-raises-11-5-million-for-quantum-resilient-identity-platform/",
+      "summary": "The new funding, led by BDC Capital’s StrongNorth Fund, will accelerate Lastwall’s North American expansion.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "lastwall-raises-115-million-for-quantum-resilient-",
+      "source": "SecurityWeek",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "The Credential Crisis: How Stolen Credentials Defeat Modern Security",
+      "link": "https://www.securityweek.com/the-credential-crisis-how-stolen-credentials-defeat-modern-security/",
+      "summary": "As AI accelerates phishing, session hijacking, and credential abuse, security teams are racing to close the gap between attacker speed and defensive response.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-credential-crisis-how-stolen-credentials-defea",
+      "source": "SecurityWeek",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "‘SymJack’ Attack Turns AI Coding Agents Into Supply Chain Attack Delivery Systems",
+      "link": "https://www.securityweek.com/symjack-attack-turns-ai-coding-agents-into-supply-chain-attack-delivery-systems/",
+      "summary": "Malicious repositories and disguised symlinks can trick AI coding agents into silently installing attacker-controlled MCP servers capable of stealing secrets, compromising CI pipelines, and deploying malicious code.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "symjack-attack-turns-ai-coding-agents-into-supply-",
+      "source": "SecurityWeek",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "GlassWorm Botnet Disrupted",
+      "link": "https://www.securityweek.com/glassworm-botnet-disrupted/",
+      "summary": "Security firms took down all four command-and-control (C&C) channels used by the GlassWorm malware.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "glassworm-botnet-disrupted",
+      "source": "SecurityWeek",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "FBI warns of in-person data theft attacks from extortion gang",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-silent-ransom-group-in-person-data-theft-attacks/",
+      "summary": "The FBI warned on Tuesday that the Silent Ransom Group (SRG) extortion gang is now targeting U.S.-based law firms in in-person data theft attacks.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fbi-warns-of-in-person-data-theft-attacks-from-ext",
+      "source": "BleepingComputer",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Your grocery routine’s easiest upgrade is a Sam’s Club membership for just $25",
+      "link": "https://www.bleepingcomputer.com/offer/deals/your-grocery-routines-easiest-upgrade-is-a-sams-club-membership-for-just-25/",
+      "summary": "Buying in bulk gets the attention, but convenience is what keeps people coming back. A 1-year Sam's Club Membership for $25 (MSRP $60) makes it easy to test the theory—and a surprisingly practical case for rethinking how you shop.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "your-grocery-routines-easiest-upgrade-is-a-sams-cl",
+      "source": "BleepingComputer",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "CISA gives feds 4 days to patch actively exploited cPanel plugin flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. federal agencies four days to secure their servers against a critical vulnerability in the LiteSpeed cPanel user-end plugin, which is actively being exploited in attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-gives-feds-4-days-to-patch-actively-exploited",
+      "source": "BleepingComputer",
+      "date": "2026-05-27"
+    }
+  ]
+}
