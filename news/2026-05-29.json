@@ -1,0 +1,209 @@
+{
+  "date": "2026-05-29",
+  "items": [
+    {
+      "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+      "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
+      "summary": "A previously undocumented threat actor dubbed GREYVIBE  has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025.   GREYVIBE, per WithSecure, is assessed to be a Russian-speaking group operating broadly in the Russian time zone, with the activities aligning with Kremlin state interests, specifically when it comes to intelligence gathering efforts aimed at Ukraine in the context of the ongoing Russo-Ukrainian war.   \"The group has leveraged multiple attack vectors, including spear-phishing e-mails, fake captcha pages, and fraudulent Ukrainian adult club websites, to deliver malware to a diverse set of victims,\" WithSecure researcher Mohammad Kazem Hassan Nejad said  in an analysis. \"Across these campaigns, the group has relied on custom-developed obfuscators, loaders, and malware.\"   The victimology footprint spans military, government, civilian, and business-related organizations. GREYVIBE, its ...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-russian-linked-greyvibe-targets-ukraine-with-a",
+      "source": "The Hacker News",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
+      "link": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
+      "summary": "Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into production systems, and publishing them on the open internet. Without Security or IT in the loop.   The artifact moved from a prompt to a product. The risk surface moved with it.   In The Shadow Builders  report ( get it here ), a new category-level investigation covered in May by Axios, WIRED, and VentureBeat, Red Access identified more than 380,000 publicly accessible web assets across the leading vibe-coding platforms.   Roughly 5,000 looked corporate. More than 2,000 of those held sensitive corporate, operational, or personal data - sitting on the open web, deployed without basic access controls, often granting admin access by default to anyone who reached the URL. Six continents. Every industry is examined. No exploitation required.   Inside organizations, passing their audits while these exposures were live...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "what-2000-exposed-vibe-coded-apps-reveal-about-the",
+      "source": "The Hacker News",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
+      "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+      "summary": "Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon client IDs and PFX certificates.   According to Socket , versions 2.0.0 through 2.0.4 of \" Sicoob.Sdk \" contain functionality to exfiltrate sensitive information, including PFX certificates that are used to authenticate businesses with the Sicoob banking network in order to automate banking operations, such as processing instant payments and generating dynamic Pix QR codes. The package is estimated to have been downloaded nearly 500 times.   \"When a developer instantiates SicoobClient with a client ID, a PFX file path, and a PFX password, the package reads the PFX file from disk, Base64-encodes its contents, and sends the supplied client ID, PFX password, and encoded PFX data to a hardcoded third-party Sentry endpoint,\" security researcher Kirill Boychenko said.   In ad...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "malicious-sicoob-nuget-steals-banking-credentials-",
+      "source": "The Hacker News",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+      "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+      "summary": "The North Korean state-sponsored threat actor known as Kimsuky  (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026.   \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule,\" ENKI said  in an analysis published this week.   The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor  has consistently  adopted  since 2023.   In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "kimsuky-deploys-httpspy-expands-arsenal-with-hello",
+      "source": "The Hacker News",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
+      "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
+      "summary": "A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions.   The security flaw, per Rapid7, is rated 9.4 on the CVSS scoring system. It does not have a CVE identifier.   \"The vulnerability allows any authenticated user to achieve remote code execution (RCE) on the server by creating a pull request with a malicious branch name that injects the --exec flag into git rebase during the 'Rebase before merging' merge operation,\" security researcher Jonah Burgess said .   Rebasing  is a Git action that's used to take a sequence of commits from one feature branch and replay them on top of another base branch to create a linear project history. While \"git rebase\" solves the same problem as \"git merge\" -- i.e., integrating changes from one branch into another -- the former rewrites the project history by creating new c...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-gogs-rce-vulnerability-lets-any-authentic",
+      "source": "The Hacker News",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
+      "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "summary": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver credential-stealing malware.   \"The campaign abused trusted endpoint management infrastructure to deliver malware across managed endpoints,\" Arctic Wolf said . \"Threat actors disguised the credential stealer payload as a Fortinet endpoint update, silently executing the malicious executable through PowerShell.\"   The activity, observed by the cybersecurity company in May 2026, involves the exploitation of CVE-2026-35616  (CVSS score: 9.1), a critical pre-authentication API access bypass leading to privilege escalation. The issue was addressed by Fortinet in FortiClient EMS 7.4.7 and later.   A successful compromise is followed by the threat actor taking steps to modify configurations to defer firmware upgrade reminders, as well as modifying a Remote Access Profile configuration and endpoint policy to insert a mal...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "threat-actors-exploit-critical-forticlient-ems-fla",
+      "source": "The Hacker News",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "California Sues 23andMe, Alleging It Failed to Protect User Data in 2023 Breach",
+      "link": "https://www.securityweek.com/california-sues-23andme-alleging-it-failed-to-protect-user-data-in-2023-breach/",
+      "summary": "Attorney General Rob Bonta filed the lawsuit against Chrome Holding Co., which 23andMe rebranded under after filing for bankruptcy last March.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "california-sues-23andme-alleging-it-failed-to-prot",
+      "source": "SecurityWeek",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Chrome 148 Update Patches 151 Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-148-update-patches-151-vulnerabilities/",
+      "summary": "The browser update resolves critical-severity security defects that could potentially lead to remote code execution.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "chrome-148-update-patches-151-vulnerabilities",
+      "source": "SecurityWeek",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Russia-Linked ‘GreyVibe’ Attackers Use AI to Supercharge Cyberattacks",
+      "link": "https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercharge-cyberattacks/",
+      "summary": "Researchers warn GreyVibe’s extensive use of ChatGPT, Gemini, and other AI tools offers a glimpse into how future cybercriminal and state-aligned groups will operate.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "russia-linked-greyvibe-attackers-use-ai-to-superch",
+      "source": "SecurityWeek",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Geordie Raises $30 Million for AI Security and Governance Platform",
+      "link": "https://www.securityweek.com/geordie-raises-30-million-for-ai-security-and-governance-platform/",
+      "summary": "The funding round was led by Balderton Capital, with additional support from Crosspoint Capital and previous investors General Catalyst and Ten Eleven Ventures.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "geordie-raises-30-million-for-ai-security-and-gove",
+      "source": "SecurityWeek",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Carnival Data Breach Exposed 6 Million People",
+      "link": "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/",
+      "summary": "Data breach leaves nearly 6 million Carnival customers navigating identity theft risks.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "carnival-data-breach-exposed-6-million-people",
+      "source": "SecurityWeek",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "New BTMOB Android Malware Enables Full Device Takeover",
+      "link": "https://www.securityweek.com/new-btmob-android-malware-enables-full-device-takeover/",
+      "summary": "Delivered via phishing lures, the malware combines financial theft with data exfiltration and remote access.",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "urgency": "Low",
+      "slug": "new-btmob-android-malware-enables-full-device-take",
+      "source": "SecurityWeek",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Google Chrome adds session cookie theft protection for all users",
+      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
+      "summary": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-chrome-adds-session-cookie-theft-protection",
+      "source": "BleepingComputer",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Learn to hack, build security tools, and more for $70 in this course deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/learn-to-hack-build-security-tools-and-more-for-70-in-this-course-deal/",
+      "summary": "Most candidates studying for IT certification exams lean heavily on video courses and practice tests, then sit down for the real thing and find the format isn't what they expected. CoursesDigest, ExamsDigest, and LabsDigest address all three stages of that preparation properly, and lifetime access t...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "learn-to-hack-build-security-tools-and-more-for-70",
+      "source": "BleepingComputer",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Man sent to prison for selling data of 7 millions elderly Americans",
+      "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
+      "summary": "A North Carolina man was sentenced to more than 10 years in prison for selling the personal information of over 7 million elderly Americans to Jamaican scammers.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "man-sent-to-prison-for-selling-data-of-7-millions-",
+      "source": "BleepingComputer",
+      "date": "2026-05-29"
+    }
+  ]
+}
