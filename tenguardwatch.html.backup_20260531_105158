@@ -44,7 +44,7 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation</div><div class="ticker-item">ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface</div><div class="ticker-item">Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit</div><div class="ticker-item">New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks</div><div class="ticker-item">What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks</div><div class="ticker-item">Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets</div><div class="ticker-item">Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say</div><div class="ticker-item">Exploit Code Published for Critical Flowise RCE Vulnerability</div><div class="ticker-item">In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks</div><div class="ticker-item">Charter Communications Data Breach Could Impact Nearly 5 Million</div><div class="ticker-item">MokN Raises $15 Million for Phish-Back Platform</div><div class="ticker-item">Gogs Zero-Day Exposes Servers to Remote Code Execution</div><div class="ticker-item">Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks</div><div class="ticker-item">New CIFSwitch Linux flaw gives root on multiple distributions</div><div class="ticker-item">Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</div><div class="ticker-item">One more day to grab AdGuard’s VPN + ad blocker package for just $40</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation</div><div class="ticker-item">ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface</div><div class="ticker-item">Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit</div><div class="ticker-item">New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks</div><div class="ticker-item">What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks</div><div class="ticker-item">Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets</div><div class="ticker-item">In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks</div><div class="ticker-item">Charter Communications Data Breach Could Impact Nearly 5 Million</div><div class="ticker-item">MokN Raises $15 Million for Phish-Back Platform</div><div class="ticker-item">Gogs Zero-Day Exposes Servers to Remote Code Execution</div><div class="ticker-item">California Sues 23andMe, Alleging It Failed to Protect User Data in 2023 Breach</div><div class="ticker-item">Chrome 148 Update Patches 151 Vulnerabilities</div><div class="ticker-item">ChatGPT share links abused to host fake outage pages to deliver malware</div><div class="ticker-item">California AG sues 23andMe over 2023 breach exposing health data</div><div class="ticker-item">Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</div><div class="ticker-item">From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
@@ -91,20 +91,6 @@
                 <a href="https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say</h3>
-                <p><strong>Summary:</strong> Moscow’s agents are building fake companies, recruiting middlemen and deploying cyber spies and hackers who gather information that could be used to attack key infrastructure.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Exploit Code Published for Critical Flowise RCE Vulnerability</h3>
-                <p><strong>Summary:</strong> The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow.</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
                 <h3>In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks</h3>
                 <p><strong>Summary:</strong> Noteworthy stories that might have slipped under the radar: Trump Mobile exposes customer data, phishers target the 2026 FIFA World Cup, CISA responds to recent supply chain attacks.</p>
                 <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
@@ -133,18 +119,32 @@
                 <a href="https://www.securityweek.com/gogs-zero-day-exposes-servers-to-remote-code-execution/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks</h3>
-                <p><strong>Summary:</strong> Palo Alto Networks is warning that hackers are now exploiting a PAN-OS GlobalProtect authentication bypass flaw, tracked as CVE-2026-0257, in attacks attempting to breach corporate networks.</p>
-                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>California Sues 23andMe, Alleging It Failed to Protect User Data in 2023 Breach</h3>
+                <p><strong>Summary:</strong> Attorney General Rob Bonta filed the lawsuit against Chrome Holding Co., which 23andMe rebranded under after filing for bankruptcy last March.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/california-sues-23andme-alleging-it-failed-to-protect-user-data-in-2023-breach/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/california-sues-23andme-alleging-it-failed-to-protect-user-data-in-2023-breach/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New CIFSwitch Linux flaw gives root on multiple distributions</h3>
-                <p><strong>Summary:</strong> A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request m...</p>
-                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Chrome 148 Update Patches 151 Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The browser update resolves critical-severity security defects that could potentially lead to remote code execution.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chrome-148-update-patches-151-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chrome-148-update-patches-151-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>ChatGPT share links abused to host fake outage pages to deliver malware</h3>
+                <p><strong>Summary:</strong> Threat actors are abusing ChatGPT's content-sharing feature to display fake OpenAI outage pages that direct users to download malware disguised as the ChatGPT desktop application.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>California AG sues 23andMe over 2023 breach exposing health data</h3>
+                <p><strong>Summary:</strong> California Attorney General Rob Bonta filed a lawsuit against 23andMe, now Chrome Holding Co., over the company's failure to protect sensitive customer genetic and personal information.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>One more day to grab AdGuard’s VPN + ad blocker package for just $40</h3>
-                <p><strong>Summary:</strong> Get the AdGuard VPN + Ad Blocker Family Security Suite for a one-time payment of $39.97 (MSRP $439.39) through May 31 at 11:59 p.m. PT.</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/one-more-day-to-grab-adguards-vpn-plus-ad-blocker-package-for-just-40/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/one-more-day-to-grab-adguards-vpn-plus-ad-blocker-package-for-just-40/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market</h3>
+                <p><strong>Summary:</strong> DDoS attacks are increasingly being sold like subscription services, complete with pricing tiers, support, and reseller programs. Flare explores how the DDoS-as-a-Service market has evolved from scatt...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
