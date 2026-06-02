@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More</div><div class="ticker-item">China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan</div><div class="ticker-item">The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools</div><div class="ticker-item">OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack</div><div class="ticker-item">Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts</div><div class="ticker-item">Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices</div><div class="ticker-item">Dragos Acquires xIoT Security Firm Phosphorus</div><div class="ticker-item">As the Pentagon Pushes for Battlefield AI, Some Military Leaders Urge Caution</div><div class="ticker-item">19-Year-Old Linux Kernel Vulnerability Exposes Systems to Root Access</div><div class="ticker-item">Recent Palo Alto Networks Vulnerability Exploited for Weeks</div><div class="ticker-item">Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say</div><div class="ticker-item">Exploit Code Published for Critical Flowise RCE Vulnerability</div><div class="ticker-item">Microsoft investigates Office Apps, Teams file access issues</div><div class="ticker-item">Race Against Time: Why Faster Vulnerability Alerts Matter</div><div class="ticker-item">Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</div><div class="ticker-item">Critical Windows Netlogon RCE flaw now exploited in attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More</h3>
+                <p><strong>Summary:</strong> Monday hit like a cron job with anger issues.   A busted auth path here, a repo-side faceplant there, some "patched-ish" thing already getting chewed on in the wild, and then the usual bonus round: po...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan</h3>
+                <p><strong>Summary:</strong> A new cyber espionage campaign codenamed Operation Dragon Weave  has been observed targeting officials and citizens in the Czech Republic and Taiwan to deliver an AdaptixC2  agent.   According to Seqr...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools</h3>
+                <p><strong>Summary:</strong> Three years ago, the practical question for an MSP building a cybersecurity practice was which "vCISO platform" to buy. The term was good shorthand for the work at the time: assessments, advisory, rep...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI.   The tool, named c...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts</h3>
+                <p><strong>Summary:</strong> Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro , a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious administra...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices</h3>
+                <p><strong>Summary:</strong> Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks.   The ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dragos Acquires xIoT Security Firm Phosphorus</h3>
+                <p><strong>Summary:</strong> Dragos said customers will soon gain expanded asset visibility and integrated device intelligence, with automated remediation workflows and a unified platform experience to follow.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dragos-acquires-xiot-security-firm-phosphorus/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dragos-acquires-xiot-security-firm-phosphorus/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>As the Pentagon Pushes for Battlefield AI, Some Military Leaders Urge Caution</h3>
+                <p><strong>Summary:</strong> AI’s use in the military is part of the administration’s larger push to grow the capability it sees as a unique American advantage.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/as-the-pentagon-pushes-for-battlefield-ai-some-military-leaders-urge-caution/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/as-the-pentagon-pushes-for-battlefield-ai-some-military-leaders-urge-caution/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>19-Year-Old Linux Kernel Vulnerability Exposes Systems to Root Access</h3>
+                <p><strong>Summary:</strong> Proof-of-concept (PoC) exploit code has been released for the CIFSwitch flaw, which allows low-privileged users to escalate to root on vulnerable Linux systems.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/19-year-old-linux-kernel-vulnerability-exposes-systems-to-root-access/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/19-year-old-linux-kernel-vulnerability-exposes-systems-to-root-access/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Recent Palo Alto Networks Vulnerability Exploited for Weeks</h3>
+                <p><strong>Summary:</strong> Hackers began exploiting CVE-2026-0257, an authentication bypass in Palo Alto Networks PAN-OS, four days after public disclosure.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/recent-palo-alto-networks-vulnerability-exploited-for-weeks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/recent-palo-alto-networks-vulnerability-exploited-for-weeks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say</h3>
+                <p><strong>Summary:</strong> Moscow’s agents are building fake companies, recruiting middlemen and deploying cyber spies and hackers who gather information that could be used to attack key infrastructure.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Exploit Code Published for Critical Flowise RCE Vulnerability</h3>
+                <p><strong>Summary:</strong> The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft investigates Office Apps, Teams file access issues</h3>
+                <p><strong>Summary:</strong> Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and free Office for the web cloud-based productivity suite from opening files.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Race Against Time: Why Faster Vulnerability Alerts Matter</h3>
+                <p><strong>Summary:</strong> Attackers are exploiting vulnerabilities faster than many organizations can identify and patch them. SecAlerts explains why faster vulnerability alerts can help reduce exposure and improve response ti...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</h3>
+                <p><strong>Summary:</strong> Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attac...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Windows Netlogon RCE flaw now exploited in attacks</h3>
+                <p><strong>Summary:</strong> The Centre for Cybersecurity Belgium (CCB), the country's national authority for cybersecurity, warned on Friday that threat actors are now exploiting a recently patched critical Windows Netlogon vuln...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

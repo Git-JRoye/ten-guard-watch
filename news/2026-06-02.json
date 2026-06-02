@@ -1,0 +1,211 @@
+{
+  "date": "2026-06-02",
+  "items": [
+    {
+      "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
+      "link": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+      "summary": "AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days.   The industry's main answer has largely been: patch faster.   Regulators say it, boards expect it, and executives demand it. But for most enterprises, it is not a button defenders can press. Patching is a controlled process shaped by uptime requirements, stability testing, change windows, business approvals, compliance obligations, and the reality that production systems cannot be broken in the name of urgency.   While patching is still essential, patching alone or even faster patching is no longer a complete answer to this \"new normal\" and influx of disclosed vulnerabilities. Anthropic's Proj...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "ai-driven-exploitation-is-destroying-vulnerability",
+      "source": "The Hacker News",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
+      "link": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
+      "summary": "Most organizations now recognize that endpoint protection alone is no longer sufficient.   That's why adoption of endpoint detection and response (EDR) has accelerated rapidly in recent years. Organizations understand that modern attacks move faster, evade traditional prevention controls, and require continuous visibility into suspicious activity across the environment.   But owning EDR capabilities does not automatically create operational cyber resilience.   Many mid-sized organizations have invested in advanced endpoint security platforms and now have access to valuable detection and response functionality. Yet despite this investment, they often struggle to fully operationalize these capabilities.   Lean security teams remain overwhelmed by alert volumes, investigations take too long, and response capacity is stretched thin. As threats become faster, more AI-enabled, and increasingly abuse legitimate tools to evade detection, organizations are realizing an important truth: vis...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "how-leading-organizations-are-turning-edr-into-ope",
+      "source": "The Hacker News",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
+      "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
+      "summary": "Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy  group targeting Afghanistan's Ministry of Finance with an open-source remote access trojan called Xeno RAT .   \"The campaign opens with a spear phishing delivery - a ZIP archive containing a malicious LNK file bearing a carefully crafted Pashto-language filename,\" Seqrite Labs researcher Dixit Panchal said  in a technical breakdown of the activity.   Also targeted as part of the campaign are provincial revenue and finance directorates, Pashto-speaking government officials, and provincial-level government employees. The campaign has been codenamed Operation XENOFISCAL.   The choice of Pashto for the lure file is a deliberate choice on the part of the attacker, as it's the main language spoken in the Afghan government circles. This aspect reflects the attacker's familiarity with the target environment.   SideCopy is the name given to a P...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "pakistan-linked-sidecopy-targets-afghanistan-finan",
+      "source": "The Hacker News",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+      "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+      "summary": "Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack  launched by an unknown party.   On May 31, 2026, the company said  an \"external\" threat actor launched a brute-force attack against certain Dashlane user accounts with the aim of breaking two-factor authentication (2FA) protections and allowing them to register new devices on existing user accounts.   Exactly how many users  were targeted  remains unknown, but Dashlane said the high volume of attempts on those accounts triggered temporary account suspensions and authentication issues due to its built-in security controls.   Although access to the accounts has since been restored, the company has now revealed that the attackers were successful in a handful of cases, enabling them to download a copy of the encrypted vaults belonging to less than 20 personal plan users.   \"We have directly notif...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "dashlane-discloses-brute-force-attack-encrypted-va",
+      "source": "The Hacker News",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+      "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "summary": "A new Mini Shai-Hulud  supply chain attack campaign, codenamed Miasma , has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propagating worm.   \"This is effectively a Mini Shai-Hulud campaign: it uses the same core tactics of install-time execution, credential harvesting, CI/CD targeting, encrypted exfiltration, and potential downstream propagation,\" Socket said .   Exactly who is behind the attack activity is presently unknown given that TeamPCP (aka Replicating Marauder, TGR-CRI-1135, and UNC6780), an infamous cybercrime group, has open-sourced the attack tools linked to the Shai-Hulud worm, opening the door for other threat actors to pull off similar attacks and making definitive attribution harder.   The names of some of the affected packages are listed below -      @redhat-cloud-services/vulnerabilities-client    @redhat-cloud-services/tsc-transform-imports    @redhat-cloud-services/topological-inv...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "miasma-supply-chain-attack-compromises-red-hat-npm",
+      "source": "The Hacker News",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
+      "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+      "summary": "Monday hit like a cron job with anger issues.   A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round: poisoned dev tools, sketchy forum chatter, phishing kits pretending to be productivity, and AI lowering the bar for people who already thought 'curl | sh' had a personality.   The vibe is simple: old bugs, new wrappers, faster abuse. Patch the obvious crap first. Then read the rest.   ⚡ Threat of the Week   PAN-OS GlobalProtect Authentication Bypass Under Exploitation  - Palo Alto Networks warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections. The issue specifically affects firewalls with GlobalProtect portal or gate...",
+      "tags": [
+        "vulnerability",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "-weekly-recap-new-linux-flaw-pan-os-exploit-ai-pow",
+      "source": "The Hacker News",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "The Zero-Knowledge Threat Actor and the End of Responsible Disclosure",
+      "link": "https://www.securityweek.com/the-zero-knowledge-threat-actor-and-the-end-of-responsible-disclosure/",
+      "summary": "AI can help attackers generate malware, create malicious payloads, bypass simple security checks, and convert vague malicious intent into functional code.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-zero-knowledge-threat-actor-and-the-end-of-res",
+      "source": "SecurityWeek",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Critical Vulnerability in HP VoIP Phones Enables Enterprise Network Breaches",
+      "link": "https://www.securityweek.com/critical-vulnerability-in-hp-voip-phones-enables-enterprise-network-breaches/",
+      "summary": "A stack-based buffer overflow bug can be exploited for remote code execution on a vulnerable device.",
+      "tags": [
+        "vulnerability",
+        "breach",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-vulnerability-in-hp-voip-phones-enables-e",
+      "source": "SecurityWeek",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Oracle WebLogic Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/oracle-weblogic-vulnerability-exploited-in-the-wild/",
+      "summary": "The vulnerability is CVE-2024-21182 and it can be exploited without authentication to hack affected WebLogic servers.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "oracle-weblogic-vulnerability-exploited-in-the-wil",
+      "source": "SecurityWeek",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Meta AI Hands Over High-Profile Instagram Accounts to Hackers",
+      "link": "https://www.securityweek.com/meta-ai-hands-over-high-profile-instagram-accounts-to-hackers/",
+      "summary": "Exploiting a confused deputy weakness, the hackers simply asked the chatbot to link the account to a new email address.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "meta-ai-hands-over-high-profile-instagram-accounts",
+      "source": "SecurityWeek",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Supply Chain Attack Hits 32 Red Hat NPM Packages",
+      "link": "https://www.securityweek.com/supply-chain-attack-hits-32-red-hat-npm-packages/",
+      "summary": "Hackers published 96 malicious package versions, injected with a credential-stealing worm similar to Mini Shai-Hulud.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "supply-chain-attack-hits-32-red-hat-npm-packages",
+      "source": "SecurityWeek",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Dashlane Brute-Force Attack Leads to Limited Encrypted Vault Downloads",
+      "link": "https://www.securityweek.com/dashlane-brute-force-attack-leads-to-limited-encrypted-vault-downloads/",
+      "summary": "Dashlane’s security systems automatically locked accounts to protect them against the hacking attempts.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "dashlane-brute-force-attack-leads-to-limited-encry",
+      "source": "SecurityWeek",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Babbel may be the most useful app on your phone before vacation",
+      "link": "https://www.bleepingcomputer.com/offer/deals/babbel-may-be-the-most-useful-app-on-your-phone-before-vacation/",
+      "summary": "Right now, new users in the U.S. can get a Babbel Language Learning Lifetime Subscription for $159 through June 11 using the exclusive StackSocial code LEARN through June 11.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "babbel-may-be-the-most-useful-app-on-your-phone-be",
+      "source": "BleepingComputer",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+      "summary": "Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "google-fixes-one-actively-exploited-android-zero-d",
+      "source": "BleepingComputer",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]",
+      "link": "https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content",
+      "summary": "Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attacks Matrix maps every technique in one open-source framework.",
+      "tags": [
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "browser-identity-attacks-matrix-map-your-exposure-",
+      "source": "BleepingComputer",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+      "summary": "A threat actor tracked as DriveSurge has been operating large-scale malware distribution campaigns using ClickFix and FakeUpdates techniques on compromised sites.",
+      "tags": [
+        "malware",
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-hijack-thousands-of-sites-for-clickfix-and",
+      "source": "BleepingComputer",
+      "date": "2026-06-02"
+    }
+  ]
+}
