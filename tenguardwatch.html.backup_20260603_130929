@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.</div><div class="ticker-item">How Leading Organizations Are Turning EDR Into Operational Resilience</div><div class="ticker-item">Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT</div><div class="ticker-item">Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded</div><div class="ticker-item">Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm</div><div class="ticker-item">⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More</div><div class="ticker-item">The Zero-Knowledge Threat Actor and the End of Responsible Disclosure</div><div class="ticker-item">Critical Vulnerability in HP VoIP Phones Enables Enterprise Network Breaches</div><div class="ticker-item">Oracle WebLogic Vulnerability Exploited in the Wild</div><div class="ticker-item">Meta AI Hands Over High-Profile Instagram Accounts to Hackers</div><div class="ticker-item">Supply Chain Attack Hits 32 Red Hat NPM Packages</div><div class="ticker-item">Dashlane Brute-Force Attack Leads to Limited Encrypted Vault Downloads</div><div class="ticker-item">Babbel may be the most useful app on your phone before vacation</div><div class="ticker-item">Google fixes one actively exploited Android zero-day, 124 flaws</div><div class="ticker-item">Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</div><div class="ticker-item">Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.</h3>
+                <p><strong>Summary:</strong> AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of en...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>How Leading Organizations Are Turning EDR Into Operational Resilience</h3>
+                <p><strong>Summary:</strong> Most organizations now recognize that endpoint protection alone is no longer sufficient.   That's why adoption of endpoint detection and response (EDR) has accelerated rapidly in recent years. Organiz...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy  group targeting Afghanistan's Ministry of Finance with an open-source ...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded</h3>
+                <p><strong>Summary:</strong> Password manager Dashlane has disclosed that "fewer than" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack  launched by an unknown party....</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm</h3>
+                <p><strong>Summary:</strong> A new Mini Shai-Hulud  supply chain attack campaign, codenamed Miasma , has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-prop...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More</h3>
+                <p><strong>Summary:</strong> Monday hit like a cron job with anger issues.   A busted auth path here, a repo-side faceplant there, some "patched-ish" thing already getting chewed on in the wild, and then the usual bonus round: po...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Zero-Knowledge Threat Actor and the End of Responsible Disclosure</h3>
+                <p><strong>Summary:</strong> AI can help attackers generate malware, create malicious payloads, bypass simple security checks, and convert vague malicious intent into functional code.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/the-zero-knowledge-threat-actor-and-the-end-of-responsible-disclosure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/the-zero-knowledge-threat-actor-and-the-end-of-responsible-disclosure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Critical Vulnerability in HP VoIP Phones Enables Enterprise Network Breaches</h3>
+                <p><strong>Summary:</strong> A stack-based buffer overflow bug can be exploited for remote code execution on a vulnerable device.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/critical-vulnerability-in-hp-voip-phones-enables-enterprise-network-breaches/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/critical-vulnerability-in-hp-voip-phones-enables-enterprise-network-breaches/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Oracle WebLogic Vulnerability Exploited in the Wild</h3>
+                <p><strong>Summary:</strong> The vulnerability is CVE-2024-21182 and it can be exploited without authentication to hack affected WebLogic servers.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/oracle-weblogic-vulnerability-exploited-in-the-wild/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/oracle-weblogic-vulnerability-exploited-in-the-wild/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Meta AI Hands Over High-Profile Instagram Accounts to Hackers</h3>
+                <p><strong>Summary:</strong> Exploiting a confused deputy weakness, the hackers simply asked the chatbot to link the account to a new email address.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/meta-ai-hands-over-high-profile-instagram-accounts-to-hackers/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/meta-ai-hands-over-high-profile-instagram-accounts-to-hackers/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Supply Chain Attack Hits 32 Red Hat NPM Packages</h3>
+                <p><strong>Summary:</strong> Hackers published 96 malicious package versions, injected with a credential-stealing worm similar to Mini Shai-Hulud.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/supply-chain-attack-hits-32-red-hat-npm-packages/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/supply-chain-attack-hits-32-red-hat-npm-packages/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Dashlane Brute-Force Attack Leads to Limited Encrypted Vault Downloads</h3>
+                <p><strong>Summary:</strong> Dashlane’s security systems automatically locked accounts to protect them against the hacking attempts.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/dashlane-brute-force-attack-leads-to-limited-encrypted-vault-downloads/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/dashlane-brute-force-attack-leads-to-limited-encrypted-vault-downloads/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Babbel may be the most useful app on your phone before vacation</h3>
+                <p><strong>Summary:</strong> Right now, new users in the U.S. can get a Babbel Language Learning Lifetime Subscription for $159 through June 11 using the exclusive StackSocial code LEARN through June 11.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/babbel-may-be-the-most-useful-app-on-your-phone-before-vacation/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/babbel-may-be-the-most-useful-app-on-your-phone-before-vacation/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google fixes one actively exploited Android zero-day, 124 flaws</h3>
+                <p><strong>Summary:</strong> Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Browser & Identity Attacks Matrix: Map your exposure to 51 identity attack techniques [Free Resource]</h3>
+                <p><strong>Summary:</strong> Check out the open-source matrix for browser-based attack techniques. AiTM phishing, ClickFix, device code phishing, ConsentFix, malicious browser extensions — Push Security's Browser & Identity Attac...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/resources/browser-identity-attacks-matrix/?utm_campaign=44159766-FY26_bleeping-computer&utm_source=bleeping-computer&utm_medium=sponsored-content" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks</h3>
+                <p><strong>Summary:</strong> A threat actor tracked as DriveSurge has been operating large-scale malware distribution campaigns using ClickFix and FakeUpdates techniques on compromised sites.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
