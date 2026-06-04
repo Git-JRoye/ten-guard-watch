@@ -1,0 +1,214 @@
+{
+  "date": "2026-06-04",
+  "items": [
+    {
+      "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
+      "link": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
+      "summary": "Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell .   According to Palo Alto Networks Unit 42, the campaign is said to be the next stage of a previously reported activity cluster dubbed JSCoreRunner  (aka FileRipple ) in late August 2025. The cybercrime group behind the two attack chains is being tracked under the moniker CL-CRI-1089. The attackers are assessed to be active since at least 2023.   \"Built using the Flutter framework, FlutterShell infects targets with adware via malicious desktop applications,\" Unit 42 said . \"In addition to its adware functionality, the payload possesses backdoor capabilities, including shell command execution and file system manipulation.\"   Operations attributed to CL-CRI-1089 also include Recipe Lister  and Calendaromatic , both of which fall under a broader designation known as TamperedChef  (aka EvilAI ), an ongoing series ...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fluttershell-backdoor-spreads-to-macos-via-malicio",
+      "source": "The Hacker News",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
+      "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
+      "summary": "Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliver malware families like Remus Stealer, AnimateClipper, and the SessionGate framework.   \"The sites are well-designed and often look like legitimate project portals at a glance, sometimes referencing real upstream resources,\" Check Point security researcher Alexey Bukhteyev said  in a breakdown of the campaign. \"The deception is not in the page content alone, it's in what happens when a user interacts.\"   \"These pages load a CloudFront-hosted JavaScript staging layer that converts a click on a 'download' button/link into a handoff to a Traffic Distribution System (TDS). The TDS enforces strict gating: first-visit state, mandatory click confirmation, anti-bot/anti-analysis logic, VPN/datacenter filtering, and frequency capping.\"   It's suspected t...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "fake-sites-mimicking-open-source-tools-rank-high-o",
+      "source": "The Hacker News",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
+      "link": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
+      "summary": "Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through Dropbox and OneDrive so the traffic blended into normal cloud activity.   Symantec and Carbon Black's Threat Hunter Team reported the campaign  this week. This points to espionage, not a money grab: Symantec said the commands indicate intelligence collection, not theft for profit.   Neither the executive nor the exchange was named. The value is plain enough: an exchange executive's inbox can hold non-public listing details, enforcement matters, deal terms, market-moving plans, plus the executive's calendar and contacts.   Five months of quiet access handed the attacker a detailed read on the executive's dealings and where the organization was heading, without needing broad access to other business systems.   The first malicious activity showed up on October 10, 2025. By th...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-spied-on-a-stock-exchange-executives-outlo",
+      "source": "The Hacker News",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
+      "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.   The vulnerability, tracked as CVE-2026-45247  (CVSS score: 9.8), is a case of deserialization of untrusted data that could be exploited to execute arbitrary PHP code on an affected server.   \"Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie,\" CISA said .   The shortcoming impacts all versions of the extension prior to version 1.11.12. Patches for the were released on May 25, 2026.   The addition of CVE-2026-45247 to the KEV catalog comes days after Sansec said the PHP object injection vulnerability could...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-exploited-magento-rce-flaw-cve-2026-4524",
+      "source": "The Hacker News",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
+      "link": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
+      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans.   The \"Disruption Week\" operation began May 18, 2026, leading to the takedown of millions of social media, email, and internet access accounts used by transnational cybercrime groups in Southeast Asia to defraud victims. Private sector entities voluntarily froze over $3.8 million in cryptocurrency involved in the laundering of funds stolen from Americans.   \"Cyber-enabled and crypto investment fraud is devastating Main Street Americans, wiping out life savings and preying on some of our most vulnerable citizens,\" said  U.S. Attorney Jeanine Ferris Pirro for the District of Columbia.   The efforts are part of an ongoing U.S. government initiative called Scam Center Strike Force, which aims to dismantle transnational criminal organizations ru...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "doj-disrupts-southeast-asia-crypto-fraud-networks-",
+      "source": "The Hacker News",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+      "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
+      "summary": "A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram, or Messenger could have hijacked Google Gemini's voice assistant on Android and made it open a victim's connected windows, fake a message from their boss, push the phone into a Zoom call, or quietly poison its long-term memory.   No malicious app on the phone is required. The assistant just had to treat a hostile notification as useful context.   The research, published  by SafeBreach's Or Yair, follows the team's earlier \" Invitation Is All You Need \" work, which pulled off similar tricks through malicious Google Calendar invites. After that, Google hardened Gemini  against indirect prompt injection.   Yair found a way around the new defenses. Google has since patched it, SafeBreach lists no CVE for the issue, and there is no evidence that the technique was ever used in the wild.   On Android, Gemini's Utilities feature  can read and reply to your notifications, including ones ...",
+      "tags": [
+        "vulnerability",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "whatsapp-slack-notifications-could-hijack-google-g",
+      "source": "The Hacker News",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Chinese Cybercrime Group in Spotlight for Record Campaign Pace",
+      "link": "https://www.securityweek.com/chinese-cybercrime-group-ta4922-in-spotlight-for-record-campaign-pace/",
+      "summary": "Relying on social engineering, the hacking group engages in credential phishing, malware distribution, and fraud activities.",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "chinese-cybercrime-group-in-spotlight-for-record-c",
+      "source": "SecurityWeek",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown",
+      "link": "https://www.securityweek.com/over-1-4-million-accounts-disrupted-in-cybercrime-crackdown/",
+      "summary": "Law enforcement and tech companies disrupted infrastructure linked to scammers operating across Southeast Asia.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "over-14-million-accounts-disrupted-in-cybercrime-c",
+      "source": "SecurityWeek",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Cisco Warns of Available PoC for Critical Unified CM Vulnerability",
+      "link": "https://www.securityweek.com/cisco-warns-of-available-poc-for-critical-unified-cm-vulnerability/",
+      "summary": "The high-severity flaw can be exploited remotely, without authentication, in server-side request forgery (SSRF) attacks.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-warns-of-available-poc-for-critical-unified-",
+      "source": "SecurityWeek",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "VS Code Vulnerability Allows One-Click GitHub Token Theft",
+      "link": "https://www.securityweek.com/vs-code-vulnerability-allows-one-click-github-token-theft/",
+      "summary": "A researcher has disclosed the full details of the vulnerability and released a PoC without notifying Microsoft in advance.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "vs-code-vulnerability-allows-one-click-github-toke",
+      "source": "SecurityWeek",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Coralogix Raises $200M at $1.6B Valuation to Scale AI Observability Platform",
+      "link": "https://www.securityweek.com/coralogix-raises-200m-at-1-6b-valuation-to-scale-ai-observability-platform/",
+      "summary": "Coralogix offers a full-stack observability platform that unifies logs, metrics, traces, security, and AI observability.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "coralogix-raises-200m-at-16b-valuation-to-scale-ai",
+      "source": "SecurityWeek",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Kirki, Burst Statistics WordPress Plugin Flaws in Attackers’ Crosshairs",
+      "link": "https://www.securityweek.com/kirki-burst-statistics-wordpress-plugin-flaws-in-attackers-crosshairs/",
+      "summary": "Threat actors are exploiting vulnerable Kirki and Burst Statistics deployments to elevate privileges and take over websites.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "kirki-burst-statistics-wordpress-plugin-flaws-in-a",
+      "source": "SecurityWeek",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Get GPT, Claude, Gemini, image tools, & more in one $60 lifetime app— only through 6/14",
+      "link": "https://www.bleepingcomputer.com/offer/deals/get-gpt-claude-gemini-image-tools-and-more-in-one-60-lifetime-app-only-through-6-14/",
+      "summary": "At a certain point, using AI starts feeling less like easy productivity and more like managing a small collection of overlapping subscriptions. For a one-time $59.97 (MSRP $540), you get access to a massive all-in-one AI platform powered by models from OpenAI, Anthropic, Google, Meta, Cohere, Mistra...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "get-gpt-claude-gemini-image-tools-more-in-one-60-l",
+      "source": "BleepingComputer",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Cisco warns of critical Unified CM flaw with PoC exploit code",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/",
+      "summary": "Cisco has released security updates to patch a critical-severity Unified Communications Manager (Unified CM) flaw that allows attackers to gain root privileges.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-warns-of-critical-unified-cm-flaw-with-poc-e",
+      "source": "BleepingComputer",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next",
+      "link": "https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Luke Jennings for attacker-side demos and a breakdown of the kits and campaigns we're tracking in the ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-device-code-phishing-in-2026-live-demos-re",
+      "source": "BleepingComputer",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
+      "summary": "A Chinese-speaking cybercrime group has expanded its targeting to the European space, deploying previously undocumented malware and the Atlas backdoor.",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "chinese-hackers-use-new-atlas-rat-malware-in-europ",
+      "source": "BleepingComputer",
+      "date": "2026-06-04"
+    }
+  ]
+}
