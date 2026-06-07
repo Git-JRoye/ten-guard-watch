@@ -1,0 +1,209 @@
+{
+  "date": "2026-06-07",
+  "items": [
+    {
+      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+      "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+      "summary": "OpenAI has begun rolling out a new Lockdown Mode  to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks .   The feature is primarily designed for people and organizations that handle sensitive data and require stricter protection guarantees. Lockdown Mode is available to logged-in users across Free, Go, Plus, and Pro, and self-serve ChatGPT Business plans.   \"Lockdown Mode is an optional advanced security setting that limits many tools and capabilities in OpenAI products that can connect to the web or external services,\" OpenAI said .   \"It is designed to reduce the risk of data exfiltration from prompt injection attacks by limiting outbound network requests, at the expense of disabling or limiting some useful features.\"   The safeguards are aimed at hardening the attack surface against prompt injections, which continues to be a \"frontier\" problem impacting all large language models (LLMs...",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-chatgpt-lockdown-mode-limits-tools-that-could-",
+      "source": "The Hacker News",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+      "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+      "summary": "A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that relay web-scraping traffic for a data business Bright Data markets heavily to the AI industry.   The company, the successor to Luminati, operates what it calls the largest residential proxy network in the world, advertised at more than 400 million residential IPs. Part of that supply comes from this SDK, shipped inside free apps behind an opt-in screen and described as a consent-sourced pool of 150 million-plus IPs.   The findings, published June 5 by Include Security  and independent researcher Buchodi, matter because the scraping comes from the user's home IP, not the customer's. The immediate risk is not a hacked account or stolen data; it is that a home connection and its bandwidth get used as someone else's scraping infrastructure.   A connected TV is close to ideal for that: usually plugged i...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "free-apps-are-quietly-turning-smart-tvs-into-web-s",
+      "source": "The Hacker News",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+      "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added  a high-severity security flaw impacting SolarWinds Serv-U  multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.   The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition.   \"SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate,\" SolarWinds said  in an advisory released earlier this week.   The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing \"content-encoding\" since the vulnerable service does not r...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-adds-actively-exploited-solarwinds-serv-u-dos",
+      "source": "The Hacker News",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
+      "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+      "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all of them found by an autonomous AI agent.   The same week, Google shipped Chrome 149  with patches for 429 security bugs, the most ever in a single release.   Only the FFmpeg bugs were found by AI. Chrome's record landed after Google overhauled its bounty program to cope with a flood of AI-generated reports. The mechanisms differ, but the pressure is the same: AI is putting more vulnerabilities in front of the people who have to deal with them, and faster than before.   The FFmpeg findings come from depthfirst , whose autonomous security agent scanned the project's roughly 1.5 million lines of C and produced 21 confirmed zero-days, each with a reproducible proof-of-concept input.   The company puts the cost of the run at around $1,000. Several of the bugs had been latent for 15 to 2...",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "ai-agent-uncovers-21-zero-days-in-ffmpeg-chrome-pa",
+      "source": "The Hacker News",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+      "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma  self-replicating supply chain attack campaign.   The incident impacted 73 Microsoft repositories across four of its GitHub organizations, including Azure, Azure-Samples, Microsoft, and MicrosoftDocs, per OpenSourceMalware . The development has GitHub to disable access to those repositories.   \"Access to this repository has been disabled by GitHub Staff due to a violation of GitHub's terms of service,\" reads the message when attempting to access the \" Azure/azure-functions-host \" repository. \"If you are the owner of the repository, you may reach out to GitHub Support for more information.\"   According to OpenSourceMalware, some of the repositories impacted by the incident are listed below -      azure-search-openai-demo-purviewdatasecurity    Connectors-NET-LSP    Connectors-NET-SDK    durabletask    durabletask-dotnet    durabletask-go    durabletask-js   ...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "miasma-worm-hits-73-microsoft-github-repositories-",
+      "source": "The Hacker News",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
+      "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+      "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation.   The vulnerability, tracked as CVE-2026-20245 , carries a CVSS score of 7.8 out of a maximum of 10.0. It affects the following deployment types -      On-Prem Deployment    Cisco SD-WAN Cloud-Pro    Cisco SD-WAN Cloud (Cisco Managed)    Cisco SD-WAN for Government (FedRAMP)   \"A vulnerability in the CLI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system,\" Cisco said  in an advisory.   The network security company said the vulnerability is the result of insufficient validation of user-supplied input, which an attacker could exploit by uploading a crafted file to the affected system. This, in turn, could permit the attacker to perform command injection attacks and elevate their privileges as the root user.   \"To...",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-catalyst-sd-wan-manager-cve-2026-20245-flaw-",
+      "source": "The Hacker News",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Opal Security Raises $23 Million for AI-Native Identity Governance",
+      "link": "https://www.securityweek.com/opal-security-raises-23-million-for-ai-native-identity-governance/",
+      "summary": "Raising $59 million to date, Opal also announced five senior leadership appointments.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "opal-security-raises-23-million-for-ai-native-iden",
+      "source": "SecurityWeek",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "OWASP Incubator Project Helps Developers Find and Fix Vulnerable Dependencies in Seconds",
+      "link": "https://www.securityweek.com/owasp-incubator-project-helps-developers-find-and-fix-vulnerable-dependencies-in-seconds/",
+      "summary": "CVE Lite CLI is a free, open-source command line tool that scans your projects in seconds and tells you exactly which included packages contain a vulnerability.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "owasp-incubator-project-helps-developers-find-and-",
+      "source": "SecurityWeek",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA",
+      "link": "https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Ultrahuman data leak, The Gentlemen ransomware analysis, Hola Browser bundles miner.",
+      "tags": [
+        "vulnerability",
+        "ransomware",
+        "breach"
+      ],
+      "urgency": "Medium",
+      "slug": "in-other-news-anthropic-maps-ai-threats-unpatched-",
+      "source": "SecurityWeek",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Hackers Leak DentaQuest Information Impacting 2.6 Million",
+      "link": "https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/",
+      "summary": "The ShinyHunters extortion group leaked roughly 234 GB of data allegedly stolen from the dental benefits administrator.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "hackers-leak-dentaquest-information-impacting-26-m",
+      "source": "SecurityWeek",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Chrome 149 Patches 429 Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-149-patches-429-vulnerabilities/",
+      "summary": "Over 100 bugs are critical or high-severity, mainly use-after-free and insufficient validation of untrusted input flaws.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "chrome-149-patches-429-vulnerabilities",
+      "source": "SecurityWeek",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Industry Reactions to New Trump AI Cybersecurity Executive Order: Feedback Friday",
+      "link": "https://www.securityweek.com/industry-reactions-to-new-trump-ai-cybersecurity-executive-order-feedback-friday/",
+      "summary": "Experts commented on the EO’s voluntary nature, the balance between innovation and security, and potential implementation gaps.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "industry-reactions-to-new-trump-ai-cybersecurity-e",
+      "source": "SecurityWeek",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-everest-forms-pro-flaw-exploited-to-take-",
+      "source": "BleepingComputer",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Replace your AI subs: 5 years of GPT, Claude & Gemini for only $90.99",
+      "link": "https://www.bleepingcomputer.com/offer/deals/replace-your-ai-subs-5-years-of-gpt-claude-and-gemini-for-only-9099/",
+      "summary": "Don't miss getting a 5-year subscription to the ChatOn AI Multi-AI Assistant Premium Plan for a one-time $90.99 (MSRP $199.99) through June 14 with code CHAT35.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "replace-your-ai-subs-5-years-of-gpt-claude-gemini-",
+      "source": "BleepingComputer",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next",
+      "link": "https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Luke Jennings for attacker-side demos and a breakdown of the kits and campaigns we're tracking in the ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-device-code-phishing-in-2026-live-demos-re",
+      "source": "BleepingComputer",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
+      "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
+      "summary": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "suspicious-polyfill-login-prompts-pop-up-on-toshib",
+      "source": "BleepingComputer",
+      "date": "2026-06-07"
+    }
+  ]
+}
