@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">The Hidden Security Risk in Modern Networks: The Work Between Tools</div><div class="ticker-item">New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing</div><div class="ticker-item">Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer</div><div class="ticker-item">LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE</div><div class="ticker-item">One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public</div><div class="ticker-item">Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order</div><div class="ticker-item">Over 100 NPM, PyPI Packages Hit in New Shai-Hulud Supply Chain Attacks</div><div class="ticker-item">Will AI Kill the Bug Bounty Industry?</div><div class="ticker-item">Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks</div><div class="ticker-item">Google Patches 5th Chrome Zero-Day Exploited in 2026</div><div class="ticker-item">A Security Raises $37 Million for Autonomous Offensive Security Platform</div><div class="ticker-item">Everybody Is Vibe Coding But Nobody Told the Security Team</div><div class="ticker-item">Mac users, PDF Expert is just $70 for life through June 14</div><div class="ticker-item">French govt messaging service breached in account hijacking attack</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div><div class="ticker-item">CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Hidden Security Risk in Modern Networks: The Work Between Tools</h3>
+                <p><strong>Summary:</strong> Organizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with routine tasks and reduce...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing</h3>
+                <p><strong>Summary:</strong> A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST , needs no native code, no extension, ...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer</h3>
+                <p><strong>Summary:</strong> The Miasma  supply chain campaign has sparked a fresh attack wave called Hades , this time involving 37 malicious wheel artifacts across 19 packages in the Python Package Index (PyPI) registry, as the...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public</h3>
+                <p><strong>Summary:</strong> Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container.   The flaw, CVE-20...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order</h3>
+                <p><strong>Summary:</strong> Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group .   In addition, the tech giant said it's filing a federal court contempt order against t...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Over 100 NPM, PyPI Packages Hit in New Shai-Hulud Supply Chain Attacks</h3>
+                <p><strong>Summary:</strong> The most recent variants of the self-propagating attacks are named Miasma and Hades.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/over-100-npm-pypi-packages-hit-in-new-shai-hulud-supply-chain-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/over-100-npm-pypi-packages-hit-in-new-shai-hulud-supply-chain-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Will AI Kill the Bug Bounty Industry?</h3>
+                <p><strong>Summary:</strong> Anthropic’s Mythos is accelerating vulnerability discovery to machine speed, forcing the bug bounty industry and offensive security teams to adapt to a future where finding flaws is no longer the hard...</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/will-ai-kill-the-bug-bounty-industry/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/will-ai-kill-the-bug-bounty-industry/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks</h3>
+                <p><strong>Summary:</strong> The authentication bypass vulnerability allows attackers to establish VPN connections without a valid password.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Patches 5th Chrome Zero-Day Exploited in 2026</h3>
+                <p><strong>Summary:</strong> The vulnerability is tracked as CVE-2026-11645 and it was reported in late April by an anonymous researcher.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>A Security Raises $37 Million for Autonomous Offensive Security Platform</h3>
+                <p><strong>Summary:</strong> The company founded by Yossi Torati, Omer Gull, and Yuval Itzchakov has emerged from stealth mode.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/a-security-raises-37-million-for-autonomous-offensive-security-platform/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/a-security-raises-37-million-for-autonomous-offensive-security-platform/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Everybody Is Vibe Coding But Nobody Told the Security Team</h3>
+                <p><strong>Summary:</strong> AI-driven development is not something organizations can or should block. But it must be governed.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/everybody-is-vibe-coding-but-nobody-told-the-security-team/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/everybody-is-vibe-coding-but-nobody-told-the-security-team/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Mac users, PDF Expert is just $70 for life through June 14</h3>
+                <p><strong>Summary:</strong> PDF Expert Premium Plan has become a great utility for Mac users who deal with PDF documents regularly—it handles the annoying stuff quickly and cleanly, without turning every PDF into a project. Don'...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/mac-users-pdf-expert-is-just-70-for-life-through-june-14/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/mac-users-pdf-expert-is-just-70-for-life-through-june-14/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>French govt messaging service breached in account hijacking attack</h3>
+                <p><strong>Summary:</strong> DINUM, the digital affairs directorate of the French government, warned that hackers used a hijacked user account to breach Tchap, the French government's encrypted messaging platform.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</h3>
+                <p><strong>Summary:</strong> 18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Lu...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day</h3>
+                <p><strong>Summary:</strong> CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
