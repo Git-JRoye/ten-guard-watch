@@ -44,17 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication</div><div class="ticker-item">U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals</div><div class="ticker-item">Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit</div><div class="ticker-item">Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing</div><div class="ticker-item">China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade</div><div class="ticker-item">Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code</div><div class="ticker-item">NPM 12 Will Change Script Execution Behavior to Prevent Supply Chain Attacks</div><div class="ticker-item">Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls</div><div class="ticker-item">In Other News: Google Security Layoffs, AudiA6 Takedown, $400 Million Coupang Fine</div><div class="ticker-item">Industry Reactions to Claude Fable 5: Feedback Friday</div><div class="ticker-item">Iranian Cyber Group Handala Claims Cal Water Hack</div><div class="ticker-item">Ivanti Sentry Exploitation Attempts Hitting Honeypots</div><div class="ticker-item">Ex-school district employee jailed for hacks on former employer</div><div class="ticker-item">Chinese hackers hijack auth flow, spy on isolated network for a decade</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div><div class="ticker-item">Lifetime access to 1,000+ pro courses is just $20 through tomorrow</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals</div><div class="ticker-item">Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit</div><div class="ticker-item">Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing</div><div class="ticker-item">China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade</div><div class="ticker-item">Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code</div><div class="ticker-item">Rethinking MDR as Attackers and Defenders Embrace AI</div><div class="ticker-item">Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls</div><div class="ticker-item">In Other News: Google Security Layoffs, AudiA6 Takedown, $400 Million Coupang Fine</div><div class="ticker-item">Industry Reactions to Claude Fable 5: Feedback Friday</div><div class="ticker-item">Iranian Cyber Group Handala Claims Cal Water Hack</div><div class="ticker-item">Ivanti Sentry Exploitation Attempts Hitting Honeypots</div><div class="ticker-item">Chrome 149 Update Patches 28 Vulnerabilities</div><div class="ticker-item">US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos</div><div class="ticker-item">Maine disables data breach notification portal after fake disclosures</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div><div class="ticker-item">phpBB forum fixes auth bypass bug lurking for a decade</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication</h3>
-                <p><strong>Summary:</strong> Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution.   The v...</p>
-                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals</h3>
                 <p><strong>Summary:</strong> Anthropic said  on Friday it will "abruptly disable" its most advanced artificial intelligence (AI) models, Claude Fable 5  and Mythos 5 , for all users after the U.S. government ordered it to suspend...</p>
@@ -91,11 +84,11 @@
                 <a href="https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>NPM 12 Will Change Script Execution Behavior to Prevent Supply Chain Attacks</h3>
-                <p><strong>Summary:</strong> By default, npm install will no longer execute scripts from dependencies, unless explicitly allowed.</p>
+                <h3>Rethinking MDR as Attackers and Defenders Embrace AI</h3>
+                <p><strong>Summary:</strong> For most of the past decade, managed detection and response was the answer to a real problem. Security teams couldn't staff around the clock, couldn't hire enough analysts, and needed someone else to ...</p>
                 <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/" target="_blank" class="button-link">Read Full Article</a>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls</h3>
@@ -133,18 +126,25 @@
                 <a href="https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Ex-school district employee jailed for hacks on former employer</h3>
-                <p><strong>Summary:</strong> A former  IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former employer that disrupted classroom operations, deleted ...</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Chrome 149 Update Patches 28 Vulnerabilities</h3>
+                <p><strong>Summary:</strong> The browser refresh resolved critical and high-severity security defects, including a dozen use-after-free bugs.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Chinese hackers hijack auth flow, spy on isolated network for a decade</h3>
-                <p><strong>Summary:</strong> Chinese hackers took control of a target organization's authentication stack and maintained persistence for 10 years, with full visibility into the administrative activity.</p>
-                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos</h3>
+                <p><strong>Summary:</strong> The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide. Anthropic is complying but disputes th...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Maine disables data breach notification portal after fake disclosures</h3>
+                <p><strong>Summary:</strong> Maine has taken its public data breach reporting portal offline after fraudulent breach disclosures were published on the state's website, prompting a review of procedures to prevent abuse in the futu...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</h3>
@@ -154,11 +154,11 @@
                 <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Lifetime access to 1,000+ pro courses is just $20 through tomorrow</h3>
-                <p><strong>Summary:</strong> Most people don't have the time—or patience—for rigid schedules, expensive programs, or subscriptions that never seem to end. That's what makes EDU Unlimited by StackSkills such an appealing option. F...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/lifetime-access-to-1-000-plus-pro-courses-is-just-20-through-tomorrow/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/lifetime-access-to-1-000-plus-pro-courses-is-just-20-through-tomorrow/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>phpBB forum fixes auth bypass bug lurking for a decade</h3>
+                <p><strong>Summary:</strong> A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administrators.</p>
+                <p><strong>Impact:</strong> Security vulnerability affecting systems and requiring patching.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
