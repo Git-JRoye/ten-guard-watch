@@ -1,0 +1,209 @@
+{
+  "date": "2026-06-16",
+  "items": [
+    {
+      "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
+      "link": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+      "summary": "Security researchers at Zimperium's zLabs have documented a new Android banking trojan, Rokarolla , that targets 217 banking and cryptocurrency apps and packs 137 remote commands.   Together, they give an operator near-total control of an infected phone: it lifts lock-screen PINs, reads and sends SMS, rewrites the clipboard to redirect crypto payments, and switches off Google Play Protect.   Rokarolla , named after its command-and-control servers, spreads through malicious websites posing as well-known apps such as TikTok and Chrome.   The first thing a victim installs is a dropper that pretends to be Google Play Protect. It uses that disguise to get the payload installed and grab Accessibility access. Once the malware is running, one of its commands turns Play Protect off.   The theft runs through overlays. Rokarolla pulls a target list from its server, and for each app flagged active, it downloads a fake HTML login page and stores it in a local database. When the victim ope...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "new-rokarolla-android-malware-steals-pins-sms-code",
+      "source": "The Hacker News",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
+      "link": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
+      "summary": "Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence from a growing ecosystem of vendors and platforms.   Yet despite this abundance of information, many organizations continue to face a fundamental challenge: sifting through the noise to understand who is behind an IP  and what action should follow .   Case in point: a recent industry study of more than 200 security practitioners  conducted by Spur Intelligence found that anonymizing infrastructure - including VPNs and residential proxy networks - now appears in nearly every security incident.   At the same time, the study showed that many organizations admit they lack the visibility, context, and operational workflows needed to make effective decisions based on that IP data.   The findings support a broader industry trend: a reactive approach to managing IP-based risks.   The Rise of Anonymized Infrastructure...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "survey-94-of-incidents-involve-anonymized-infrastr",
+      "source": "The Hacker News",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
+      "link": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+      "summary": "Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.   In a post shared  on X, the company said it has observed exploitation of CVE-2026-39813, CVE-2026-39808 , and CVE-2026-25089  over the past 24 hours.   CVE-2026-39813 (CVSS score: 9.1) refers to a path traversal vulnerability in FortiSandbox JRPC API that could allow an unauthenticated attacker to bypass authentication via specially crafted HTTP requests.   The second flaw, CVE-2026-39808 (CVSS score: 9.1), is a case of operating system command injection that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests. Both vulnerabilities were patched by Fortinet in April 2026.   CVE-2026-25089 (CVSS score: 9.1), on the other hand, was fixed last week, with Fortinet describing it as an operating system command injection impacting FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI that co...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "attackers-exploit-three-fortinet-fortisandbox-flaw",
+      "source": "The Hacker News",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
+      "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+      "summary": "Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS .   \"The Windows variants discovered are internally marked as WIN_DRV and WIN_PLUS,\" ESET said  in a report shared with The Hacker News. \"Both come with a hard-coded C&C [command-and-control] configuration and support communication over TCP, UDP, and WebSocket protocols.\"   Like its Linux counterpart, the Windows versions support more than 30 commands to facilitate system information collection, process enumeration, service management, and file system operations. WIN_DRV has also been found to utilize kernel drivers to conceal the malware's network connections, processes, files, and registry keys.   In addition, the variant enables TCP traffic diversion that allows the malware operators to send commands to the backdoor through a random TCP port on the victim's device without exposing the backdoor's act...",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "china-linked-sprysocks-backdoor-expands-to-windows",
+      "source": "The Hacker News",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+      "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "summary": "The North Korean state-sponsored hacking group known as ScarCruft  (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT .   \"The attack email contained a message impersonating an MS account security alert,\" the Genians Security Center (GSC) said . \"It was designed to create concern over possible account compromise and OTP abuse, thereby inducing the recipient to execute the attachment.\"   \"The email body instructed the recipient to refer to the attached advisory. However, the actual attachment was not an HWP [Hangul Word Processor] document, but a ZIP archive that contained a malicious LNK file.\"   The email message claims \"abnormal activity\" related to repeated generation of one-time passwords, passing it off as a phishing attempt aimed at the target's Microsoft Account by a third-party, and urging them to change their password. The end goal o...",
+      "tags": [
+        "malware",
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "fake-microsoft-alerts-used-to-deploy-north-korean-",
+      "source": "The Hacker News",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
+      "link": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+      "summary": "Cisco has released security updates for a medium-severity security flaw in Catalyst SD-WAN Manager that has come under active exploitation in the wild.   The vulnerability, tracked as CVE-2026-20262 , carries a CVSS score of 6.5 out of 10.0.   \"A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system,\" Cisco said  in an advisory.   The issue, the networking equipment company added, stems from inadequate validation of user-supplied input during a file upload process. An attacker could exploit this behavior to create or overwrite any file on the underlying operating system by sending crafted HTTP requests to an affected API endpoint.   This, in turn, could be weaponized to elevate to the root. However, successful exploitation hinges on the attacker already having valid credentials with at least write access.   The vulnerab...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-releases-security-updates-for-actively-explo",
+      "source": "The Hacker News",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "AI and Cybersecurity – Everything You Wanted to Know, But Were Afraid to Ask",
+      "link": "https://www.securityweek.com/ai-and-cybersecurity-everything-you-wanted-to-know-but-were-afraid-to-ask/",
+      "summary": "From defending networks to enabling attacks, artificial intelligence is changing every aspect of cybersecurity. Here’s what dozens of experts say security leaders need to understand now.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "ai-and-cybersecurity-everything-you-wanted-to-know",
+      "source": "SecurityWeek",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Endpoint Security Startup Ent Emerges From Stealth With $100 Million Seed Round",
+      "link": "https://www.securityweek.com/endpoint-security-startup-ent-emerges-from-stealth-with-100-million-seed-round/",
+      "summary": "Ent has developed an intent-aware platform designed to interpret user and agent behavior before risky actions are carried out.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "endpoint-security-startup-ent-emerges-from-stealth",
+      "source": "SecurityWeek",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Cybercrime Group Claims Novo Nordisk Hack",
+      "link": "https://www.securityweek.com/cybercrime-group-claims-novo-nordisk-hack/",
+      "summary": "The hack-and-leak group FulcrumSec claims to have stolen 1.3TB of data from the pharmaceutical giant.",
+      "tags": [
+        "breach"
+      ],
+      "urgency": "Low",
+      "slug": "cybercrime-group-claims-novo-nordisk-hack",
+      "source": "SecurityWeek",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Can CISOs Trust Their Applications? TrustCloud Wants to Replace the Questionnaire",
+      "link": "https://www.securityweek.com/can-cisos-trust-their-applications-trustcloud-wants-to-replace-the-questionnaire/",
+      "summary": "By continuously analyzing security, infrastructure, and governance data, TrustCloud aims to give CISOs a real-time view of application risk and board-ready assurance.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "can-cisos-trust-their-applications-trustcloud-want",
+      "source": "SecurityWeek",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Cal Water Investigating Iranian Hackers’ Claims",
+      "link": "https://www.securityweek.com/cal-water-investigating-iranian-hackers-claims/",
+      "summary": "California Water Service says there is no indication of operational disruptions to its water and wastewater systems.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "cal-water-investigating-iranian-hackers-claims",
+      "source": "SecurityWeek",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "White House Issues Memo to Bolster NSS Cybersecurity",
+      "link": "https://www.securityweek.com/white-house-issues-memo-to-bolster-nss-cybersecurity/",
+      "summary": "NSPM-12 establishes a clear structure for NSS cybersecurity governance and accountability and reestablishes CNSS.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "white-house-issues-memo-to-bolster-nss-cybersecuri",
+      "source": "SecurityWeek",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Windows & Mac users—get a feature-rich lifetime PDF editor for $30",
+      "link": "https://www.bleepingcomputer.com/offer/deals/windows-and-mac-users-get-a-feature-rich-lifetime-pdf-editor-for-30/",
+      "summary": "For a one-time payment of $29.97 (MSRP $119), you get lifetime access to an all-in-one PDF editor for Windows and Mac. Instead of juggling multiple apps for editing, converting, signing, annotating, and organizing PDFs, PDF Agile brings everything together into a single streamlined workspace.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "windows-mac-usersget-a-feature-rich-lifetime-pdf-e",
+      "source": "BleepingComputer",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. government agencies three days to secure their servers against an actively exploited vulnerability (CVE-2026-54420) in the LiteSpeed cPanel user-end plugin.",
+      "tags": [
+        "vulnerability",
+        "apt",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-warns-of-another-cpanel-plugin-flaw-exploited",
+      "source": "BleepingComputer",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next",
+      "link": "https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Luke Jennings for attacker-side demos and a breakdown of the kits and campaigns we're tracking in the ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-device-code-phishing-in-2026-live-demos-re",
+      "source": "BleepingComputer",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
+      "summary": "DragonForce ransomware used a custom malware named 'Backdoor.Turn' to hide command-and-control traffic inside Microsoft Teams relay infrastructure.",
+      "tags": [
+        "malware",
+        "ransomware"
+      ],
+      "urgency": "Medium",
+      "slug": "ransomware-gang-abuses-microsoft-teams-relays-to-h",
+      "source": "BleepingComputer",
+      "date": "2026-06-16"
+    }
+  ]
+}
