@@ -1,0 +1,215 @@
+{
+  "date": "2026-06-18",
+  "items": [
+    {
+      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
+      "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+      "summary": "If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?   For most enterprises, the answer is a simple no .   The rush to adopt internal AI tools has left a massive trail of administrative debt: orphaned agents  (AI tools left running after their creator leaves the company) and standing privileges  (AI that retains permanent, unrestricted access it no longer needs).   When an employee moves on, the automated tools they built stay active—often keeping unmonitored access to sensitive databases and source code long after the human’s credentials are revoked.   To help security teams bridge this line of accountability, The Hacker News  is hosting a technical briefing. Secure your spot today for the live webinar: Orphaned Agents & Standing Privileges: The Hidden Access Risks of Internal AI .   Why Existing Security Tools Miss the Signal   Traditional access tools treat AI like stand...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "orphaned-ai-agents-how-to-find-hidden-access-risks",
+      "source": "The Hacker News",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
+      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+      "summary": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →   When a customer types their card number into your checkout, their browser is running far more than your code. Analytics tags, a tag manager, a support widget, a payment iframe: a modern checkout loads dozens of third-party scripts, and any one of them can be turned into a skimmer.   This is how Magecart works.  Sansec has counted more than 100,000 sites  hit by web skimming and supply-chain attacks. The  2018 British Airways breach  alone exposed 380,000 transactions and a fine that started at £183 million.   The dangerous part: the malicious code usually arrives through a script you already approved. Attackers compromise a third-party vendor, and the payload rides in on a script you have run for months. Nothing looks new. What changed is the script's behavior, not its presence on the page.   PCI DSS v4.0.1 closes that gap with two requirements, now...",
+      "tags": [
+        "breach",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "the-scripts-on-your-checkout-page-are-now-a-pci-ds",
+      "source": "The Hacker News",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
+      "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
+      "summary": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research.   The threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a cluster of accounts that engage in coordinated activity on VirusTotal with the intent to misclassify malicious files as safe.   \"To push a malicious 'tool,' a single threat actor borrowed the same playbook legitimate brands use to build buzz: inflated download counts, coordinated five-star reviews, influencer-style tutorial videos, and promotion on platforms people instinctively trust,\" Check Point said  in a report shared with The Hacker News. \"The result is a fake reputation economy spanning every platform a curious victim might check before they click 'download.'...",
+      "tags": [
+        "malware",
+        "phishing",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "crypto-clipper-campaign-abuses-fake-reviews-ai-nar",
+      "source": "The Hacker News",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
+      "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
+      "summary": "Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet .   The vulnerability has now been assigned the CVE identifier CVE-2026-50656  (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw.   \"Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender, publicly referred to as 'RoguePlanet,'\" the company said. \"We are working to provide a high-quality security update that addresses this vulnerability.\"    The development comes nearly a week after a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse) released RoguePlanet, calling the exploit a case of a race condition that grants attackers a shell with SYSTEM-level privileges.   \"The exploit is a race condition, so it's a hit or miss,\" the researcher noted. \"I have managed to get a 100% success rate on some machines while it...",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "microsoft-confirms-rogueplanet-defender-zero-day-s",
+      "source": "The Hacker News",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
+      "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+      "summary": "A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials.   Ordinary stuff, until one move near the end.   Before his command-and-control server went dark, he installed OpenSSH and Tailscale on a victim's machine, building a way back in that did not run through the C2 at all. When the Havoc server went offline the next day, his access did not. Eighteen days later, the C2 came back, his agents reconnected on their own, and he carried on.   Cato Networks captured the whole operation command by command, 339 of them over 33 days, after the operator left his SSH keys and a step-by-step playbook in an open storage bucket. The write-up, published Tuesday by Cato CTRL researcher Vitaly Simonovich, is a rare view of an intrusion from the operator's keyboard rather than the forensic leftovers.   Researchers' lesson is blunt: pulling a C2 server offline is not remediation if the attacker has already built a...",
+      "tags": [
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "junior-hacker-used-tailscale-and-openssh-to-keep-a",
+      "source": "The Hacker News",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
+      "link": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
+      "summary": "For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain.   The problem is no longer visibility. It's validation. Security teams must decide which findings warrant action while operating under constant pressure and incomplete information. Increasingly, the challenge is not discovering potential risks. It is determining which risks deserve attention first.   Visibility Got Us Here. Validation Moves Us Forward.   The security industry has spent the better part of a decade improving visibility. Vulnerability scanners, cloud security posture tools, endpoint detection, attack surface platforms, code analysis, and threat intelligence feeds all contribute to a more complete understanding of the attack surface. The investment has been enormous, and it has largely worked. Modern enterprises can see their environments in ways that would have seemed remarkable ten years ago.   Yet improved visibility has not automatically transla...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "adversarial-exposure-validation-turns-security-vis",
+      "source": "The Hacker News",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Dream Raises $260 Million at $3 Billion Valuation",
+      "link": "https://www.securityweek.com/dream-raises-260-million-at-3-billion-valuation/",
+      "summary": "The Israeli startup provides sovereign AI and cyber defenses for governments and critical infrastructure.",
+      "tags": [
+        "apt",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "dream-raises-260-million-at-3-billion-valuation",
+      "source": "SecurityWeek",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Atlassian, Splunk Patch Critical Vulnerabilities",
+      "link": "https://www.securityweek.com/atlassian-splunk-patch-critical-vulnerabilities/",
+      "summary": "Splunk patched an OS command injection in AI Toolkit, while Atlassian fixed dozens of flaws in third-party dependencies.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "atlassian-splunk-patch-critical-vulnerabilities",
+      "source": "SecurityWeek",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Rokarolla Banking Trojan Targets 200 Applications",
+      "link": "https://www.securityweek.com/rokarolla-banking-trojan-targets-200-applications/",
+      "summary": "The Android malware allows its operators to take control of infected devices and harvest sensitive information.",
+      "tags": [
+        "malware"
+      ],
+      "urgency": "Low",
+      "slug": "rokarolla-banking-trojan-targets-200-applications",
+      "source": "SecurityWeek",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Critical Command Execution Vulnerability Patched in Cisco ISE",
+      "link": "https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/",
+      "summary": "Insufficient validation of user input allows an attacker to gain access to the underlying OS and elevate their privileges to root.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "critical-command-execution-vulnerability-patched-i",
+      "source": "SecurityWeek",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "F5 Patches Critical, High-Severity NGINX Vulnerabilities",
+      "link": "https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/",
+      "summary": "Critical flaws in NGINX could allow remote, unauthenticated attackers to cause a restart and potentially execute arbitrary code.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "f5-patches-critical-high-severity-nginx-vulnerabil",
+      "source": "SecurityWeek",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "SailPoint to Acquire Entro in Reported $200 Million Deal",
+      "link": "https://www.securityweek.com/sailpoint-to-acquire-entro-in-reported-200-million-deal/",
+      "summary": "Israel-based Entro specializes in non-human identity and credential security solutions, and it will enable SailPoint to enhance its products.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "sailpoint-to-acquire-entro-in-reported-200-million",
+      "source": "SecurityWeek",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "summary": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems.",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "f5-issues-out-of-band-patches-for-critical-nginx-v",
+      "source": "BleepingComputer",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Compare ChatGPT, Claude & more for $55 with this AI platform deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/compare-chatgpt-claude-and-more-for-55-with-this-ai-platform-deal/",
+      "summary": "Switching between ChatGPT, Claude, Gemini, and DeepSeek to compare outputs is time-consuming. ChatPlayground AI solves that by bringing 20+ models into a single interface, letting you run a single prompt and see every response at once. Get this ChatPlayground AI: Lifetime Subscription (Unlimited Pla...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "compare-chatgpt-claude-more-for-55-with-this-ai-pl",
+      "source": "BleepingComputer",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next",
+      "link": "https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Luke Jennings for attacker-side demos and a breakdown of the kits and campaigns we're tracking in the ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-device-code-phishing-in-2026-live-demos-re",
+      "source": "BleepingComputer",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Microsoft fixes Windows Server 2016 security update failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
+      "summary": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "microsoft-fixes-windows-server-2016-security-updat",
+      "source": "BleepingComputer",
+      "date": "2026-06-18"
+    }
+  ]
+}

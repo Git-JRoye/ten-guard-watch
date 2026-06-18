@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization</div><div class="ticker-item">The Top 10 Attack Surface Exposures in 2026</div><div class="ticker-item">Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats</div><div class="ticker-item">144 Mastra npm Packages Compromised via Hijacked Contributor Account</div><div class="ticker-item">CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution</div><div class="ticker-item">Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting</div><div class="ticker-item">1Password Acquires Apono in Reported $250M-$300M Deal</div><div class="ticker-item">Tenet Security Emerges From Stealth With $6 Million Seed Funding</div><div class="ticker-item">Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software</div><div class="ticker-item">Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack</div><div class="ticker-item">Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day</div><div class="ticker-item">Oracle’s Second Monthly Security Updates Deliver 245 Patches</div><div class="ticker-item">Microsoft confirms Office apps launch issues after June updates</div><div class="ticker-item">Surfshark One+ with Incogni is $95 for a year of full privacy coverage</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div><div class="ticker-item">CISA orders feds to patch max severity Joomla plugin flaw by Friday</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization</h3>
+                <p><strong>Summary:</strong> For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain.   The problem is no longer visibility. It's validation. Security teams must dec...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>The Top 10 Attack Surface Exposures in 2026</h3>
+                <p><strong>Summary:</strong> Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier thi...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats</h3>
+                <p><strong>Summary:</strong> Cybersecurity researchers have flagged a "coordinated malware campaign" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligenc...</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>144 Mastra npm Packages Compromised via Hijacked Contributor Account</h3>
+                <p><strong>Summary:</strong> As many as 144 npm packages associated with the Mastra  namespace ("@mastra/*"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, have ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerab...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting</h3>
+                <p><strong>Summary:</strong> A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastr...</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>1Password Acquires Apono in Reported $250M-$300M Deal</h3>
+                <p><strong>Summary:</strong> Apono specializes in just-in-time access governance technology for humans, machines, and AI agents.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/1password-acquires-apono-in-reported-250m-300m-deal/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/1password-acquires-apono-in-reported-250m-300m-deal/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Tenet Security Emerges From Stealth With $6 Million Seed Funding</h3>
+                <p><strong>Summary:</strong> Tenet aims to detect and stop dangerous AI agentic behavior in real time.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/tenet-security-emerges-from-stealth-with-6-million-seed-funding/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/tenet-security-emerges-from-stealth-with-6-million-seed-funding/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software</h3>
+                <p><strong>Summary:</strong> The industrial automation giant has fixed security holes in Logix, CompactLogix, Flex, RSLinx, and FactoryTalk products.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/rockwell-automation-patches-vulnerabilities-in-ics-controllers-and-software/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/rockwell-automation-patches-vulnerabilities-in-ics-controllers-and-software/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack</h3>
+                <p><strong>Summary:</strong> The attackers deployed a new Go-based backdoor that uses Microsoft Teams servers for command-and-control.</p>
+                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-teams-relay-servers-abused-in-dragonforce-ransomware-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-teams-relay-servers-abused-in-dragonforce-ransomware-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day</h3>
+                <p><strong>Summary:</strong> The public PoC code exploits a race condition in Microsoft Defender to spawn a command prompt with System privileges.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/microsoft-working-on-patch-for-rogueplanet-zero-day/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/microsoft-working-on-patch-for-rogueplanet-zero-day/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Oracle’s Second Monthly Security Updates Deliver 245 Patches</h3>
+                <p><strong>Summary:</strong> Oracle has released its June 2026 Critical Security Patch Update to fix vulnerabilities in Communications, EBS, Enterprise Manager and other products.</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/oracles-second-monthly-security-updates-deliver-245-patches/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/oracles-second-monthly-security-updates-deliver-245-patches/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft confirms Office apps launch issues after June updates</h3>
+                <p><strong>Summary:</strong> Microsoft is investigating a new issue preventing third-party applications from launching Microsoft Office applications or opening documents on up-to-date Windows systems.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Surfshark One+ with Incogni is $95 for a year of full privacy coverage</h3>
+                <p><strong>Summary:</strong> Surfshark One+ with Incogni addresses online privacy concerns most people think about, as well as the personal data already sitting on data broker sites that most people ignore. Get this Surfshark One...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/surfshark-one-plus-with-incogni-is-95-for-a-year-of-full-privacy-coverage/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/surfshark-one-plus-with-incogni-is-95-for-a-year-of-full-privacy-coverage/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</h3>
+                <p><strong>Summary:</strong> 18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Lu...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA orders feds to patch max severity Joomla plugin flaw by Friday</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity flaw in the Widget Factory Joomla Content Editor (JCE) plugin that is being ac...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
