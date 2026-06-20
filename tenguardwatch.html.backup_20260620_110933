@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+        <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+        <link rel="apple-touch-icon" href="/assets/newlogo.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Weekly Cyber News - TenGuard Security</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles_v5.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
+                    <li><a href="threat-trends/">Threat Trends</a></li>
+                    <li><a href="cmmc/">CMMC</a></li>
+                </ul>
+                <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            </nav>
+        </header>
+        
+        <!-- News Ticker Section -->
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">From Assistive to Agentic: The AI Shift That's Redefining Threat Management</div><div class="ticker-item">Forget Data Leakage: Shadow AI's Real Threat Is Access Control</div><div class="ticker-item">Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data</div><div class="ticker-item">Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone</div><div class="ticker-item">F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution</div><div class="ticker-item">Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network</div><div class="ticker-item">CryptoBandits Malware Doubles as a Backdoor, Abuses Tor</div><div class="ticker-item">FortiBleed: 86,000 Fortinet Device Credentials Compromised</div><div class="ticker-item">Cybersecurity Firms Impacted by Klue Supply Chain Attack</div><div class="ticker-item">Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC</div><div class="ticker-item">15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown</div><div class="ticker-item">Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure</div><div class="ticker-item">Webinar: How attackers bypass MFA and how defenders can respond</div><div class="ticker-item">Microsoft: June 2026 Windows updates break Recycle Bin prompts</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div><div class="ticker-item">Keep your files, lose the charges—1TB of lifetime storage is just $130</div></div></div></section>
+
+        <!-- Blog Section -->
+        <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
+            <div class="service-card" data-aos="fade-up">
+                <h3>From Assistive to Agentic: The AI Shift That's Redefining Threat Management</h3>
+                <p><strong>Summary:</strong> Introduction   The average enterprise security team has 40 or more security tools, giving a lot of visibility into internal telemetry and asset data. But often, these tools are working in siloes, gene...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Forget Data Leakage: Shadow AI's Real Threat Is Access Control</h3>
+                <p><strong>Summary:</strong> The first wave of enterprise AI concern was straightforward. It was simply employees pasting sensitive data into public AI tools. Security teams responded with usage policies, domain blocks, and data ...</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data</h3>
+                <p><strong>Summary:</strong> Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026.   ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/salesforce-disables-klue-app.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/salesforce-disables-klue-app.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone</h3>
+                <p><strong>Summary:</strong> Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users.   The vulnerability, tracked as CVE-202...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution</h3>
+                <p><strong>Summary:</strong> F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems.   The vulnerabilities are listed bel...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network</h3>
+                <p><strong>Summary:</strong> If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?   For most enterprises, the answer is a si...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CryptoBandits Malware Doubles as a Backdoor, Abuses Tor</h3>
+                <p><strong>Summary:</strong> CryptoBandits uses a local SOCKS5 proxy for traffic routing, blending data theft with remote code execution.</p>
+                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>FortiBleed: 86,000 Fortinet Device Credentials Compromised</h3>
+                <p><strong>Summary:</strong> The large-scale credential theft campaign hit roughly half of the internet-accessible Fortinet firewalls and VPNs.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cybersecurity Firms Impacted by Klue Supply Chain Attack</h3>
+                <p><strong>Summary:</strong> The hackers exfiltrated data from Salesforce instances of Klue customers, such as Huntress and Recorded Future.</p>
+                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC</h3>
+                <p><strong>Summary:</strong> WideField will accelerate Agentic SOC capabilities by expanding the lens on threat investigation to include identity, credentials, sessions, and blast radius.</p>
+                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/cisco-to-acquire-widefield-security-to-boost-splunks-agentic-soc/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/cisco-to-acquire-widefield-security-to-boost-splunks-agentic-soc/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown</h3>
+                <p><strong>Summary:</strong> Law enforcement and private partners took down 106 SocGholish C&C servers and domains as part of Operation Endgame.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure</h3>
+                <p><strong>Summary:</strong> CISA has given federal agencies only three days to patch CVE-2026-20253, which can be exploited for unauthenticated remote code execution.</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Webinar: How attackers bypass MFA and how defenders can respond</h3>
+                <p><strong>Summary:</strong> Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavioral...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Microsoft: June 2026 Windows updates break Recycle Bin prompts</h3>
+                <p><strong>Summary:</strong> Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Recycle Bin.</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</h3>
+                <p><strong>Summary:</strong> 18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Lu...</p>
+                <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
+                <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
+                <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Keep your files, lose the charges—1TB of lifetime storage is just $130</h3>
+                <p><strong>Summary:</strong> For a limited time, you can get a Koofr Cloud Storage Lifetime Subscription with 1TB of storage for just $129.97 (MSRP $810). Instead of adding another monthly charge to your budget, you're making a o...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/keep-your-files-lose-the-charges-1tb-of-lifetime-storage-is-just-130/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/offer/deals/keep-your-files-lose-the-charges-1tb-of-lifetime-storage-is-just-130/" target="_blank" class="button-link">Read Full Article</a>
+            </div></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+            <div class="footer-line"></div>
+            <a href="index.html" class="button-link">Return Home</a>
+        </footer>
+
+        <!-- Initialize Ticker Script and AOS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tickerWrapper = document.querySelector(".ticker-wrapper");
+            const items = document.querySelectorAll(".ticker-item");
+
+            // Clone items for seamless scrolling
+            items.forEach((item) => {
+                const clone = item.cloneNode(true);
+                tickerWrapper.appendChild(clone);
+            });
+        });
+
+        // Initialize AOS
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000, /* Animation duration in milliseconds */
+                once: true, /* Only animate on first scroll */
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
