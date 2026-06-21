@@ -44,7 +44,7 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys</div><div class="ticker-item">Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain</div><div class="ticker-item">The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes</div><div class="ticker-item">AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution</div><div class="ticker-item">Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites</div><div class="ticker-item">CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices</div><div class="ticker-item">French President Urges US to Share Cutting-Edge AI and Democracies to Cooperate on Regulation</div><div class="ticker-item">In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum</div><div class="ticker-item">CryptoBandits Malware Doubles as a Backdoor, Abuses Tor</div><div class="ticker-item">FortiBleed: 86,000 Fortinet Device Credentials Compromised</div><div class="ticker-item">Cybersecurity Firms Impacted by Klue Supply Chain Attack</div><div class="ticker-item">Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC</div><div class="ticker-item">New Prinz Eugen ransomware prioritizes recent files for encryption</div><div class="ticker-item">Microsoft links Mastra AI supply chain attack to North Korean hackers</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div><div class="ticker-item">This tool puts ChatGPT, Claude & more in one place for $70</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys</div><div class="ticker-item">Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain</div><div class="ticker-item">The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes</div><div class="ticker-item">AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution</div><div class="ticker-item">Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites</div><div class="ticker-item">CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices</div><div class="ticker-item">French President Urges US to Share Cutting-Edge AI and Democracies to Cooperate on Regulation</div><div class="ticker-item">In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum</div><div class="ticker-item">CryptoBandits Malware Doubles as a Backdoor, Abuses Tor</div><div class="ticker-item">FortiBleed: 86,000 Fortinet Device Credentials Compromised</div><div class="ticker-item">Cybersecurity Firms Impacted by Klue Supply Chain Attack</div><div class="ticker-item">Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC</div><div class="ticker-item">Klue OAuth breach victim list grows as Icarus hackers claim attack</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div><div class="ticker-item">Texas govt data breach exposes over 3 million driver’s licenses</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
@@ -133,18 +133,11 @@
                 <a href="https://www.securityweek.com/cisco-to-acquire-widefield-security-to-boost-splunks-agentic-soc/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>New Prinz Eugen ransomware prioritizes recent files for encryption</h3>
-                <p><strong>Summary:</strong> A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system.</p>
-                <p><strong>Impact:</strong> Ransomware attack campaign targeting organizations for financial gain.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Microsoft links Mastra AI supply chain attack to North Korean hackers</h3>
-                <p><strong>Summary:</strong> Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff.</p>
-                <p><strong>Impact:</strong> Cyber attack campaign targeting organizations and individuals.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Klue OAuth breach victim list grows as Icarus hackers claim attack</h3>
+                <p><strong>Summary:</strong> Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new "...</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</h3>
@@ -154,11 +147,11 @@
                 <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>This tool puts ChatGPT, Claude & more in one place for $70</h3>
-                <p><strong>Summary:</strong> AI is great. Managing a dozen different AI tools? Not so much. Get lifetime access to the 1min.AI Advanced Business Plan Lifetime Subscription for a one-time $69.97 (MSRP $540).</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/this-tool-puts-chatgpt-claude-and-more-in-one-place-for-70/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/this-tool-puts-chatgpt-claude-and-more-in-one-place-for-70/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Texas govt data breach exposes over 3 million driver’s licenses</h3>
+                <p><strong>Summary:</strong> The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
