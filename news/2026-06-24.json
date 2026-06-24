@@ -1,0 +1,208 @@
+{
+  "date": "2026-06-24",
+  "items": [
+    {
+      "title": "Dawn of the Apex Agentic Adversary",
+      "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+      "summary": "We are standing at the end of an era we never thought to mourn: the era of human-speed threats .   For years, cybersecurity moved to a rhythm organizations could follow. A researcher found a bug, a CVE was cataloged, a vendor navigated a patch cycle, and weeks or even months later, a fix was deployed. In this era, dwell time was measured in days, sometimes weeks. We are now approaching an inflection point in the threat timeline unlike any that came before it.   The trigger was the emergence of frontier agentic models in early 2026: AI entities that no longer just suggested code, but actively tested it. These models don't merely accelerate the offensive lifecycle; they radically compress the time between discovery and weaponization.   The predator wearing a productivity badge   There is a reason the old saying warns about the wolf in sheep’s clothing. In the scramble to stay competitive, organizations have handed AI the keys to the deepest layers of their infrastructure: granting L...",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "dawn-of-the-apex-agentic-adversary",
+      "source": "The Hacker News",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+      "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced  the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury unveiled fresh sanctions against nine individuals and 26 entities linked to Prince Group .   \"These subsidiaries are alleged to have assisted individuals and organizations in transferring proceeds of cryptocurrency investment frauds, cyber scams, and other criminal activities on cryptocurrency blockchains and allowing for the conversion of the proceeds of these schemes to the legitimate banking sector undetected,\" the DoJ said.   The seized account, the Justice Department added, hosted backend infrastructure for the subsidiaries, including HuiOne Guarantee  (aka Haowang Guarantee), which operated an illicit Telegram-based marketplace that engaged in transactions with billions of dollars between 2021 and 2025 by peddling a wide range of crimeware tools.   These included personal an...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "doj-seizes-huione-cloud-account-tied-to-cyber-scam",
+      "source": "The Hacker News",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+      "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+      "summary": "Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME).   The vulnerability, tracked as CVE-2026-20230  (CVSS score: 8.6), is a case of improper input validation for specific HTTP requests that could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device.   \"An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device,\" Cisco said in an advisory released earlier this month. \"A successful exploit could allow the attacker to write files to the underlying operating system that could be used later to elevate to root.\"   In a post shared on X earlier this week, Defused Cyber said  it observed active exploitation of the vulnerability in attacks. \"This is currently being exploited from a single sourc...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-unified-cm-flaw-exploited-after-poc-reveals-",
+      "source": "The Hacker News",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
+      "link": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
+      "summary": "A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed  that has targeted over 430,000 FortiGate firewalls globally.   The campaign , active since February 2026, involves collecting credential lists, searching for exposed services, brute-forcing accessible systems, and deploying bespoke sniffers on compromised firewalls.   \"Once deployed, these sniffers capture cleartext and hashed credentials from traffic passing through compromised devices,\" SOCRadar said  [PDF] in a fresh report. \"The actors then crack, validate, and reuse the credentials against Active Directory domains and other exposed services.\"   Central to the operation is a Golang-based tool called FortigateSniffer that takes advantage of the FortiOS built-in diagnostic command -diagnose sniffer packet to passively capture authentication traffic from the infected appliances. Appearing in both Window...",
+      "tags": [
+        "breach",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Low",
+      "slug": "fortibleed-targeted-fortigate-firewalls-in-110-mil",
+      "source": "The Hacker News",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
+      "link": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+      "summary": "Security firm AIR built a fake AI agent skill, pushed it through a popular skill marketplace and an Instagram ad, and says it reached roughly 26,000 agents, including some on corporate accounts.   Every skill security scanner the firm tested it against marked it safe. The payload was harmless by design: it collected the user's email address and did nothing else.   The point was to show that none of the signals people lean on to trust a skill caught it: not the scanners, not the GitHub stars, not the open-source reputation.   A skill is a bundle of instructions an agent loads into its own context and follows with roughly the authority of a user prompt. That trust is the whole problem, and it is the reason skill-scanning tools exist in the first place.   The skill, named  brand-landingpage , claimed to build a landing page using Google's Stitch design tool, aimed squarely at non-technical users.   To make it look credible, AIR went after two trust signals: GitHub stars an...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "fake-ai-agent-skill-passed-security-scans-and-repo",
+      "source": "The Hacker News",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
+      "link": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+      "summary": "President Trump signed an  executive order on June 22  setting hard deadlines for federal agencies to move high-value assets and high-impact systems to post-quantum cryptography.   Key establishment must move by December 31, 2030; digital signatures by December 31, 2031. EO 14409 leaves national security systems on a separate track.   The deadlines matter because of a threat that does not need a working quantum computer today. Adversaries can collect encrypted U.S. data now and decrypt it later, once a large-scale quantum machine exists, the risk is known as  \"harvest now, decrypt later\" .   The order describes that risk directly and pulls the government's PQC timeline forward by four to five years. The prior government-wide target, set by the 2022 National Security Memorandum 10, ran to 2035.   The two deadlines line up with the standards NIST  finalized in August 2024 . Key establishment uses FIPS 203, the ML-KEM algorithm formerly called CRYSTALS-Kyber.   D...",
+      "tags": [
+        "ransomware",
+        "apt"
+      ],
+      "urgency": "Low",
+      "slug": "trump-order-sets-2030-deadline-for-federal-post-qu",
+      "source": "The Hacker News",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking",
+      "link": "https://www.securityweek.com/exploitable-ci-cd-vulnerabilities-expose-millions-of-repositories-to-hijacking/",
+      "summary": "The security defects allow unauthenticated users to take control of the open source software supply chain.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "exploitable-cicd-vulnerabilities-expose-millions-o",
+      "source": "SecurityWeek",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "BeyondTrust, LastPass Impacted by Klue-Salesforce Incident",
+      "link": "https://www.securityweek.com/beyondtrust-lastpass-impacted-by-klue-salesforce-incident/",
+      "summary": "Over a dozen Klue customers have confirmed that hackers stole data from their Salesforce instances.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "beyondtrust-lastpass-impacted-by-klue-salesforce-i",
+      "source": "SecurityWeek",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Webinar Today: Modern Exposure Validation in the AI Era",
+      "link": "https://www.securityweek.com/webinar-today-modern-exposure-validation-in-the-ai-era/",
+      "summary": "The exploit timeline collapsed. Make sure your validation didn’t.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-today-modern-exposure-validation-in-the-ai",
+      "source": "SecurityWeek",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Hackers Exploiting Cisco Unified CM Vulnerability",
+      "link": "https://www.securityweek.com/hackers-exploiting-cisco-unified-cm-vulnerability/",
+      "summary": "Cisco noted that a PoC had been available for CVE-2026-20230 when it announced patches in early June.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Medium",
+      "slug": "hackers-exploiting-cisco-unified-cm-vulnerability",
+      "source": "SecurityWeek",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Anthropic’s Mythos Model Found Vulnerabilities in Classified US Government Systems, Official Says",
+      "link": "https://www.securityweek.com/anthropics-mythos-model-found-vulnerabilities-in-classified-us-government-systems-official-says/",
+      "summary": "Come vulnerabilities were found within hours, but that does not mean the model was able to exploit them within that time, the official said.",
+      "tags": [
+        "vulnerability",
+        "apt"
+      ],
+      "urgency": "Medium",
+      "slug": "anthropics-mythos-model-found-vulnerabilities-in-c",
+      "source": "SecurityWeek",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Dragos Unveils AI for OT Security",
+      "link": "https://www.securityweek.com/dragos-unveils-ai-for-ot-security/",
+      "summary": "Named EmberAI, the new capability is built on Dragos’ massive operational technology cybersecurity dataset.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "dragos-unveils-ai-for-ot-security",
+      "source": "SecurityWeek",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Skip the Adobe fees with this lifetime PDF editor deal",
+      "link": "https://www.bleepingcomputer.com/offer/deals/skip-the-adobe-fees-with-this-lifetime-pdf-editor-deal/",
+      "summary": "Adobe Acrobat subscriptions can run well over $100 a year, and for most people, that cost is hard to justify when all they need is reliable PDF editing without the recurring bill. This PDNob Pro PDF Editor: Lifetime Subscription offers a capable alternative at a fraction of that price, currently dow...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "skip-the-adobe-fees-with-this-lifetime-pdf-editor-",
+      "source": "BleepingComputer",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
+      "link": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+      "summary": "A new backdoor dubbed Mistic has been observed in financially motivated attacks targeting organizations in the insurance, education, IT, and professional services sectors.",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "stealthy-mistic-backdoor-linked-to-ransomware-acce",
+      "source": "BleepingComputer",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next",
+      "link": "https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Luke Jennings for attacker-side demos and a breakdown of the kits and campaigns we're tracking in the ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-device-code-phishing-in-2026-live-demos-re",
+      "source": "BleepingComputer",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
+      "summary": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "cisco-unified-cm-flaw-cve-2026-20230-now-exploited",
+      "source": "BleepingComputer",
+      "date": "2026-06-24"
+    }
+  ]
+}
