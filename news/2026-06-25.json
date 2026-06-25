@@ -1,0 +1,211 @@
+{
+  "date": "2026-06-25",
+  "items": [
+    {
+      "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
+      "link": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
+      "summary": "Despite the abundance of telemetry at analysts’ disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What evidence do we have? How do we know we’re seeing it all, in context?   Answering these questions requires teams to go beyond alerts, the most common basis for initial triage. But investigations (and their outcomes) require defensible evidence, not assumptions, which is what alerts tend to offer.    Alerts are becoming less useful as vulnerability discovery accelerates (a.k.a., the Mythos Era). Most organizations can’t investigate the volume of new findings with existing workflows. Even with increased automation, SecOps teams need validated evidence of active exploit and exposure, not more raw telemetry.   As AI expedites both attacks and defense, security teams need to lay the groundwork that allows them to validate findings, understand attacker behavior, and stop suspicious traffic before it results in...",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "surviving-the-mythos-era-richard-bejtlich-on-the-c",
+      "source": "The Hacker News",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+      "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+      "summary": "A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intelligence (AI) tools and trick it into aborting or refusing an analysis of the artifact.   The malware has been codenamed Gaslight  owing to this deceptive behavior. It's been assessed with high confidence that the tool is the work of North Korea-aligned threat actors.   \"Its most notable feature is an embedded cascade of fabricated system-failure messages, designed to make an LLM-assisted triage agent doubt its own session,\" SentinelOne researcher Phil Stokes said  in a technical report. \"It attacks the agent's perception, rather than the sandbox it runs in.\"   Central to the malware's architecture is a Telegram bot API based command-and-control (C2) channel that enters into a polling loop, allowing the operator to issue instructions over an interactive shell and return the...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-gaslight-macos-malware-uses-prompt-injection-t",
+      "source": "The Hacker News",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
+      "link": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
+      "summary": "A new, stealthy backdoor named Mistic  has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional services sectors since April 2026.   According to Symantec and Carbon Black's Threat Hunter Team, the backdoor, also tracked as MLTBackdoor, is said to be linked to an initial access broker (IAB) named KongTuke (aka 404 TDS, Chaya_002, LandUpdate808, TAG-124, and Woodgnat), and dropped along with ModeloRAT, a Python remote access trojan (RAT) previously attributed to the group.   \"The backdoor runs payloads in memory with no file written to disk and includes a kill switch that lets it delete itself, which are features consistent with an operator seeking long-term, low-visibility access,\" Broadcom's cybersecurity teams said  in a report shared with The Hacker News.   ModeloRAT was first flagged  by Huntress in January 2026 in connection with a variant of a ClickFix campaign dub...",
+      "tags": [
+        "malware",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "new-mistic-backdoor-linked-to-kongtuke-in-clickfix",
+      "source": "The Hacker News",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+      "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+      "summary": "An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new findings from Google-owned Mandiant.   The vulnerability, tracked as CVE-2026-20245  (CVSS score: 7.8), allows an authenticated, local attacker to execute arbitrary commands with elevated privileges  by supplying a crafted file to the affected system by taking advantage of the device's insufficient validation of user-supplied input.   Earlier this month, Cisco acknowledged that it became aware of exploitation of this vulnerability, adding that a malicious actor must have netadmin privileges on an affected system to pull off a successful attack.   \"Throughout the intrusion, to maintain operational security and avoid detection, the threat actor consistently employed anti-forensic techniques, selectively deleting and restoring system configuration files that were modified during the...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-catalyst-sd-wan-zero-day-cve-2026-20245-expl",
+      "source": "The Hacker News",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
+      "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned  of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, urging Federal Civilian Executive Branch (FCEB) agencies to apply the fixes  by June 26, 2026.   The vulnerability in question is CVE-2025-67038  (CVSS score: 9.8), a code injection flaw  that could result in the execution of arbitrary commands with elevated privileges.   \"The HTTP RPC module executes a shell command to write logs when the user's authentication fails,\" according to the vulnerability's description on CVE.org. \"The username is directly concatenated with the command without any sanitization. This allows attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.\"   The security flaw was disclosed by Forescout Research Vedere Labs in April 2026 as part of a broader set of vulnerabilities collectively cod...",
+      "tags": [
+        "vulnerability",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisa-warns-critical-lantronix-eds5000-flaw-is-bein",
+      "source": "The Hacker News",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+      "link": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+      "summary": "A coordinated law enforcement operation, in partnership with private sector companies, including Bitdefender, Bitsight, ESET, and Microsoft, has resulted in the takedown of criminal infrastructure powering Amadey and StealC.   \"The main common goal was to disrupt the 'assembly lines' cybercriminals use to launch ransomware, financial fraud, and attacks on critical infrastructure,\" Europol said  in a statement.   The development comes days after authorities from the Netherlands, Canada, Germany, and the U.S. disrupted  malicious infrastructure associated with SocGholish  and cleaned up nearly 15,000 infected WordPress websites.   As part of the two-week-long action, cryptocurrency assets of criminal origin valued at more than $47 million have been identified, flagged, and restricted from use. In addition, as many as 27 million stolen login credentials have been recovered, and the malware distribution network has been hindered by dismantling 326 servers and 142 domains...",
+      "tags": [
+        "malware",
+        "ransomware",
+        "attack",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "amadey-and-stealc-malware-network-disrupted-27m-st",
+      "source": "The Hacker News",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning",
+      "link": "https://www.securityweek.com/lantronix-serial-to-ip-converter-flaw-exploited-in-attacks-after-ot-threat-warning/",
+      "summary": "The exploited flaw, CVE-2025-67038, is one of the vulnerabilities disclosed in April as part of the BRIDGE:BREAK research project.",
+      "tags": [
+        "vulnerability",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "lantronix-serial-to-ip-converter-flaw-exploited-in",
+      "source": "SecurityWeek",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "GitLab Patches Code Execution, Information Disclosure Vulnerabilities",
+      "link": "https://www.securityweek.com/gitlab-patches-code-execution-information-disclosure-vulnerabilities/",
+      "summary": "The latest GitLab CE/EE updates address 13 vulnerabilities, including three high-severity defects.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "gitlab-patches-code-execution-information-disclosu",
+      "source": "SecurityWeek",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "25-Year-Old Vulnerability Patched in Curl",
+      "link": "https://www.securityweek.com/25-year-old-vulnerability-patched-in-curl/",
+      "summary": "The latest version of the open source data transfer tool resolves 18 medium and low-severity vulnerabilities.",
+      "tags": [
+        "vulnerability"
+      ],
+      "urgency": "Low",
+      "slug": "25-year-old-vulnerability-patched-in-curl",
+      "source": "SecurityWeek",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "NIST Opens Updated IoT Security Guidance to Public Review",
+      "link": "https://www.securityweek.com/nist-opens-updated-iot-security-guidance-to-public-review/",
+      "summary": "The guidance aims to establish product cybersecurity requirements for IoT devices integrated into federal agencies’ networks.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "nist-opens-updated-iot-security-guidance-to-public",
+      "source": "SecurityWeek",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Chrome 149 Update Resolves 18 Severe Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-149-update-resolves-18-severe-vulnerabilities/",
+      "summary": "More than half of the bugs are use-after-free defects, which can potentially lead to remote code execution.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "chrome-149-update-resolves-18-severe-vulnerabiliti",
+      "source": "SecurityWeek",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Cisco SD-WAN Zero-Day Exploited Months Before Patching",
+      "link": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/",
+      "summary": "CVE-2026-20245, the 7th Cisco SD-WAN vulnerability exploited in 2026, was used for months prior to its disclosure and patching.",
+      "tags": [
+        "vulnerability",
+        "critical"
+      ],
+      "urgency": "High",
+      "slug": "cisco-sd-wan-zero-day-exploited-months-before-patc",
+      "source": "SecurityWeek",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "NordVPN is $30 right now & includes dark web monitoring",
+      "link": "https://www.bleepingcomputer.com/offer/deals/nordvpn-is-30-right-now-and-includes-dark-web-monitoring/",
+      "summary": "Most people don't think about online privacy until something goes wrong. That's what makes this NordVPN Standard offer worth a look. For a limited time, a one-year subscription is available for just $29.99 (reg. $69.99) with code SECURE, giving users protection for up to 10 devices under a single ac...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "nordvpn-is-30-right-now-includes-dark-web-monitori",
+      "source": "BleepingComputer",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Google releases new privacy controls for activity history, personalization",
+      "link": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
+      "summary": "Google is rolling out new privacy controls for Search services and Google Play, giving you more control over saved history and personalized recommendations.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "urgency": "Low",
+      "slug": "google-releases-new-privacy-controls-for-activity-",
+      "source": "BleepingComputer",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next",
+      "link": "https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad",
+      "summary": "18 kits, a 37x spike in detections, and every major AiTM vendor adding it to their platform: device code phishing has gone from espionage-grade to criminal commodity. Join Push Security's VP of R&D Luke Jennings for attacker-side demos and a breakdown of the kits and campaigns we're tracking in the ...",
+      "tags": [
+        "phishing",
+        "apt",
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "webinar-device-code-phishing-in-2026-live-demos-re",
+      "source": "BleepingComputer",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
+      "summary": "A 21-year-old using the alias \"Snoopy\" was sentenced to 18 months in prison for his role in hacking DraftKings accounts in the November 2022 cyberattack.",
+      "tags": [
+        "attack"
+      ],
+      "urgency": "Medium",
+      "slug": "draftkings-hacker-snoopy-sentenced-to-18-months-in",
+      "source": "BleepingComputer",
+      "date": "2026-06-25"
+    }
+  ]
+}
