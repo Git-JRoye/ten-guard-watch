@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background -->
+  <rect width="100" height="100" rx="16" fill="#0f172a"/>
+  <!-- Shield shape -->
+  <path d="M50 12 L78 24 L78 50 C78 66 65 78 50 88 C35 78 22 66 22 50 L22 24 Z" fill="#10b981"/>
+  <!-- TG text -->
+  <text x="50" y="57" font-family="Arial, sans-serif" font-weight="700" font-size="28" fill="#0f172a" text-anchor="middle">TG</text>
+</svg>
