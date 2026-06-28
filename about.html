@@ -3,139 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - TenGuard Security</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+    <link rel="apple-touch-icon" href="/assets/newlogo.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>About TenGuard Security - Lead CCA, CISSP-Certified CMMC Assessor</title>
+    <meta name="title" content="About TenGuard Security - Lead CCA, CISSP-Certified CMMC Assessor">
+    <meta name="description" content="Meet Johnny Roye, Lead Certified CMMC Assessor (Lead CCA), CCA, CCP, CISSP certified. TenGuard Security specializes in CMMC compliance for small and mid-sized defense contractors.">
+    <meta name="keywords" content="CMMC Lead Assessor, Lead CCA, CCA, CCP, CISSP, CMMC certification, defense contractor compliance, about TenGuard Security">
+    <meta name="author" content="TenGuard Security">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.tenguardsecurity.com/about.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tenguardsecurity.com/about.html">
+    <meta property="og:title" content="About TenGuard Security - Lead CCA, CISSP-Certified CMMC Assessor">
+    <meta property="og:description" content="Meet Johnny Roye, Lead Certified CMMC Assessor helping defense contractors achieve CMMC compliance.">
+    <meta property="og:image" content="https://www.tenguardsecurity.com/assets/newlogo.png">
+    <meta property="og:site_name" content="TenGuard Security">
+
+    <meta name="theme-color" content="#1e40af">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles_v5.css">
-    <!-- AOS Library CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-    <!-- AOS Library JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <style>
+        .cmmc-cert-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 25px 0;
+        }
+        .cmmc-cert-card {
+            background: rgba(16, 185, 129, 0.1);
+            border: 2px solid rgba(16, 185, 129, 0.4);
+            border-radius: 12px;
+            padding: 25px 20px;
+            text-align: center;
+        }
+        .cmmc-cert-card .cert-abbr {
+            font-size: 1.6em;
+            font-weight: 700;
+            color: #10b981;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .cmmc-cert-card .cert-name {
+            font-size: 0.88em;
+            color: #c9d1d9;
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+        .cmmc-cert-card .cert-body {
+            font-size: 0.78em;
+            color: #95a5a6;
+        }
+        @media (max-width: 768px) {
+            .cmmc-cert-grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
     <header>
-           <nav>
+        <nav>
             <div class="logo">
                 <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
             </div>
-            <!-- Hamburger Icon -->
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <!-- Navigation Links -->
             <ul class="nav-links" id="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
+                <li><a href="cmmc.html">CMMC</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="tenguardwatch.html" class="active">TenGuard Watch</a></li>
             </ul>
-			<!-- Secure Your Consultation Button -->
-        <a href="contact.html" class="button-link consult-button">Secure Your Consultation</a>
+            <a href="contact.html" class="button-link consult-button">Free Consultation</a>
         </nav>
     </header>
 
     <!-- About Section -->
-<section class="about blue-tint" data-aos="fade-up" data-aos-once="true">
-    <h1>About TenGuard Security</h1>
-    <p data-aos="fade-left">
-        At TenGuard Security, we deliver exceptional IT security solutions tailored to the unique needs of businesses and families. By embracing emerging technologies and innovative strategies, we stay at the forefront of cybersecurity to protect against evolving threats. Built on a foundation of trust, reliability, and expert support, our mission is to create a safer digital future. These guiding principles form the foundation of our Core Values:
-    </p>
+    <section class="about blue-tint" data-aos="fade-up" data-aos-once="true">
+        <h1>About TenGuard Security</h1>
+        <p data-aos="fade-left">
+            TenGuard Security exists to help defense contractors navigate CMMC compliance with confidence. The Defense Industrial Base (DIB) is under increasing pressure to protect Controlled Unclassified Information (CUI) — and the consequences of non-compliance are real: lost contracts, lost revenue, and national security risk. We bring the certifications, the process knowledge, and the practical expertise to help your organization get compliant and stay compliant.
+        </p>
 
-    <div class="core-values" data-aos="fade-up">
-        <div class="value" data-aos="fade-right">
-            <img src="assets/handshake.png" alt="Trust">
-            <h3>Trust</h3>
-            <p>Your security is our commitment, built on a foundation of trust and reliability.</p>
-        </div>
-        <div class="value" data-aos="fade-left">
-            <img src="assets/lightbulb.png" alt="Innovation">
-            <h3>Innovation</h3>
-            <p>We embrace emerging technologies and innovative strategies to stay ahead of evolving cyber threats.</p>
-        </div>
-        <div class="value" data-aos="fade-up">
-            <img src="assets/headset1.png" alt="Support">
-            <h3>Support</h3>
-            <p>Always here to provide personalized guidance and reliable assistance.</p>
-        </div>
-    </div>
-
-    <!-- Transition Paragraph -->
-    <p data-aos="fade-left">
-        Upholding these core values requires expertise, vigilance, and a dedication to excellence. At TenGuard Security, our industry-leading certifications, including <strong>CISSP</strong>, <strong>CASP+</strong>, and <strong>Security+</strong>, demonstrate our commitment to staying ahead of evolving cyber threats and providing cutting-edge solutions for our clients. These certifications are a testament to our knowledge and expertise in the field of cybersecurity.
-    </p>
-
-    <!-- Certifications Section -->
-    <div class="certifications" data-aos="fade-up">
-        <h2>Industry Certifications</h2>
-        <div class="core-values">
+        <div class="core-values" data-aos="fade-up">
             <div class="value" data-aos="fade-right">
-                <img src="assets/cissp.png" alt="CISSP Badge">
-                <h3>CISSP</h3>
-                <p>Certified Information Systems Security Professional - globally recognized for advanced cybersecurity expertise.</p>
+                <img src="assets/handshake.png" alt="Trust">
+                <h3>Trust</h3>
+                <p>We operate with full transparency. You'll always know where you stand, what's required, and what it will take to get there — no hidden complexity, no surprises.</p>
             </div>
             <div class="value" data-aos="fade-left">
-                <img src="assets/securityX.png" alt="CASP+ Badge">
-                <h3>SecurityX</h3>
-                <p>CompTIA SecurityX - validating advanced level cybersecurity technical skills.</p>
+                <img src="assets/lightbulb.png" alt="Expertise">
+                <h3>Expertise</h3>
+                <p>We hold the top CMMC credentials available, backed by deep technical cybersecurity knowledge. Our guidance is grounded in real-world assessment experience, not theory.</p>
             </div>
             <div class="value" data-aos="fade-up">
-                <img src="assets/securityplus.png" alt="Security+ Badge">
-                <h3>Security+</h3>
-                <p>CompTIA Security+ - foundational certification for core cybersecurity skills.</p>
+                <img src="assets/headset1.png" alt="Support">
+                <h3>Support</h3>
+                <p>CMMC compliance is a journey, not a one-time event. We're here throughout — from gap analysis and remediation to assessment and ongoing maintenance.</p>
             </div>
         </div>
 
-        <!-- Why These Certifications Matter Section -->
-        <div class="certification-importance">
-            <p>Our certifications reflect our dedication to staying ahead in the cybersecurity landscape:</p>
-            <ul>
-                <li><strong>CISSP:</strong> Recognized as the gold standard for security professionals worldwide.</li>
-                <li><strong>SecurityX:</strong> Demonstrates expertise in enterprise-level security solutions and risk management.</li>
-                <li><strong>Security+:</strong> Ensures foundational knowledge of cybersecurity threats and best practices.</li>
-            </ul>
+        <!-- Founder Section -->
+        <div class="team" data-aos="fade-up">
+            <h2>Meet Our Founder</h2>
+            <div class="team-member" data-aos="fade-right">
+                <img src="assets/profile.png" alt="Johnny Roye">
+                <h3>Johnny Roye</h3>
+                <p>Founder &amp; Lead Certified CMMC Assessor (Lead CCA)</p>
+                <p>
+                    Johnny Roye is a Lead Certified CMMC Assessor, Certified CMMC Assessor (CCA), and Certified CMMC Professional (CCP) — credentials issued by the Cyber Accreditation Body (Cyber AB) that authorize him to conduct official CMMC Level 2 assessments. He also holds the CISSP, CASP+/SecurityX, and CompTIA Security+ certifications, representing elite-tier cybersecurity expertise.
+                </p>
+                <p>
+                    Having worked extensively in cybersecurity and compliance, Johnny founded TenGuard Security to bring the kind of straightforward, qualified CMMC guidance that small and mid-sized defense contractors actually need — without the complexity and cost typically associated with large consulting firms.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <!-- Founder Section -->
-    <div class="team" data-aos="fade-up">
-        <h2>Meet Our Founder</h2>
-        <div class="team-member" data-aos="fade-right">
-            <img src="assets/profile.png" alt="Johnny Roye">
-            <h3>Johnny Roye</h3>
-            <p>Founder & CEO</p>
-            <p>With a vision for providing top-notch IT security and solutions, Johnny is dedicated to protecting businesses and safeguarding families in the digital age.</p>
+        <!-- CMMC Certifications -->
+        <div class="certifications" data-aos="fade-up">
+            <h2>CMMC Credentials (Cyber AB)</h2>
+            <p>The following credentials are issued by the <strong>CMMC Accreditation Body (Cyber AB)</strong> — the official body that certifies individuals to assess and support CMMC compliance in the Defense Industrial Base.</p>
+            <div class="cmmc-cert-grid">
+                <div class="cmmc-cert-card" data-aos="fade-right">
+                    <span class="cert-abbr">Lead CCA</span>
+                    <div class="cert-name">Lead Certified CMMC Assessor</div>
+                    <div class="cert-body">Authorized to lead official CMMC Level 2 assessments as part of a C3PAO assessment team. The highest CMMC assessor credential.</div>
+                </div>
+                <div class="cmmc-cert-card" data-aos="fade-up">
+                    <span class="cert-abbr">CCA</span>
+                    <div class="cert-name">Certified CMMC Assessor</div>
+                    <div class="cert-body">Credentialed to conduct CMMC assessments as an authorized assessor within C3PAO-led assessment teams.</div>
+                </div>
+                <div class="cmmc-cert-card" data-aos="fade-left">
+                    <span class="cert-abbr">CCP</span>
+                    <div class="cert-name">Certified CMMC Professional</div>
+                    <div class="cert-body">Demonstrates knowledge and competency to advise organizations on CMMC requirements and help them prepare for certification.</div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
 
+        <!-- Industry Certifications -->
+        <div class="certifications" data-aos="fade-up">
+            <h2>Industry Cybersecurity Certifications</h2>
+            <p>
+                In addition to CMMC credentials, our team holds elite cybersecurity certifications that demonstrate deep technical knowledge across all domains covered by CMMC — including access control, incident response, risk management, and system hardening.
+            </p>
+            <div class="core-values">
+                <div class="value" data-aos="fade-right">
+                    <img src="assets/cissp.png" alt="CISSP Badge">
+                    <h3>CISSP</h3>
+                    <p>Certified Information Systems Security Professional — the gold standard for senior cybersecurity expertise, recognized globally.</p>
+                </div>
+                <div class="value" data-aos="fade-left">
+                    <img src="assets/securityX.png" alt="SecurityX / CASP+ Badge">
+                    <h3>SecurityX (CASP+)</h3>
+                    <p>CompTIA SecurityX — validates advanced enterprise security skills including risk management, cryptography, and security architecture.</p>
+                </div>
+                <div class="value" data-aos="fade-up">
+                    <img src="assets/securityplus.png" alt="Security+ Badge">
+                    <h3>Security+</h3>
+                    <p>CompTIA Security+ — foundational certification covering core security concepts, threat detection, and incident response.</p>
+                </div>
+            </div>
+
+            <div class="certification-importance">
+                <p>Why these certifications matter for CMMC work:</p>
+                <ul>
+                    <li><strong>CISSP:</strong> Validates expertise across all 8 CISSP domains, aligning directly with the 17 CMMC Level 2 practice domains.</li>
+                    <li><strong>SecurityX (CASP+):</strong> Demonstrates hands-on ability to implement and assess the advanced security controls required by CMMC Level 2.</li>
+                    <li><strong>Security+:</strong> Establishes baseline knowledge of the foundational practices required at CMMC Level 1 and above.</li>
+                </ul>
+            </div>
+        </div>
 
         <div class="cta" data-aos="fade-up" data-aos-once="true">
-    <p>Ready to secure your business and family?</p>
-    <a href="services.html" class="button-link">Explore Our Services</a>
-    <a href="contact.html" class="button-link glowing-effect">Secure Your Consultation</a>
-</div>
+            <p>Ready to start your CMMC compliance journey?</p>
+            <a href="services.html" class="button-link">Explore Our Services</a>
+            <a href="contact.html" class="button-link glowing-effect">Schedule a Free Consultation</a>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 TenGuard Security. All Rights Reserved.</p>
+        <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
         <div class="footer-line"></div>
-		<a href="index.html" class="button-link">Return Home</a>
+        <a href="index.html" class="button-link">Return Home</a>
     </footer>
 
     <!-- Initialize AOS -->
     <script>
         AOS.init({
-            duration: 1000, /* Animation duration in milliseconds */
-            once: true, /* Only animate on first scroll */
+            duration: 1000,
+            once: true,
         });
-	
-	</script>
+    </script>
 
     <script src="script.js"></script>
-
 </body>
 </html>
