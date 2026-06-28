@@ -44,24 +44,10 @@
         </header>
         
         <!-- News Ticker Section -->
-        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials</div><div class="ticker-item">OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards</div><div class="ticker-item">FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys</div><div class="ticker-item">New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks</div><div class="ticker-item">Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign</div><div class="ticker-item">New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries</div><div class="ticker-item">Chinese Framework Powers 200,000 Scam Sites</div><div class="ticker-item">Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories</div><div class="ticker-item">More Klue Breach Victims Identified as Hackers Get Hacked</div><div class="ticker-item">In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs</div><div class="ticker-item">Nebulock Raises $25 Million for AI-Native Contextual Security</div><div class="ticker-item">Linux Foundation Unveils New Open Source Security Project Akrites</div><div class="ticker-item">Clean GitHub repo tricks AI coding agents into running malware</div><div class="ticker-item">Get a durable, refurbished Lenovo Chromebook for $55</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div></div></div></section>
+        <section class="ticker-section"><div class="news-ticker"><div class="ticker-wrapper"><div class="ticker-item">FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys</div><div class="ticker-item">New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks</div><div class="ticker-item">Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign</div><div class="ticker-item">New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries</div><div class="ticker-item">Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs</div><div class="ticker-item">CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue</div><div class="ticker-item">Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories</div><div class="ticker-item">More Klue Breach Victims Identified as Hackers Get Hacked</div><div class="ticker-item">In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs</div><div class="ticker-item">Nebulock Raises $25 Million for AI-Native Contextual Security</div><div class="ticker-item">Linux Foundation Unveils New Open Source Security Project Akrites</div><div class="ticker-item">$3 Million Reportedly Stolen in Polymarket Hack</div><div class="ticker-item">CISA sets urgent deadline to fix Cisco flaw exploited in attacks</div><div class="ticker-item">[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</div><div class="ticker-item">Polymarket customers lose $3 million in supply-chain attack</div></div></div></section>
 
         <!-- Blog Section -->
         <section class="cyber-news" data-aos="fade-up"><h1>Daily Cyber News</h1><p>Stay informed with the latest trends and developments in cybersecurity.</p><p class="disclaimer">Disclaimer: TenGuard Watch provides curated summaries of articles from trusted sources like The Hacker News, SecurityWeek, and BleepingComputer. For full content, visit the original publication by following the provided links.</p>
-            <div class="service-card" data-aos="fade-up">
-                <h3>Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials</h3>
-                <p><strong>Summary:</strong> The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence services to break in...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
-            <div class="service-card" data-aos="fade-up">
-                <h3>OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards</h3>
-                <p><strong>Summary:</strong> OpenAI on Friday released three versions of GPT-5.6 , called Sol, Terra, and Luna , as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government.   Whi...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html" target="_blank">Read Full Article</a></p>
-                <a href="https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html" target="_blank" class="button-link">Read Full Article</a>
-            </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys</h3>
                 <p><strong>Summary:</strong> The FBI and CISA have updated  their March warning  about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their Signal Backu...</p>
@@ -91,11 +77,18 @@
                 <a href="https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Chinese Framework Powers 200,000 Scam Sites</h3>
-                <p><strong>Summary:</strong> Threat actors are selling investment scam templates created using the legitimate DCloud Uni-App toolkit.</p>
-                <p><strong>Impact:</strong> Emerging threat affecting cybersecurity landscape and requiring awareness.</p>
-                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs</h3>
+                <p><strong>Summary:</strong> A high-severity flaw in Amazon Q Developer let a malicious repository run commands and steal a developer's cloud credentials. The path was short: a developer opens the repo, trusts the workspace, and ...</p>
+                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product Da...</p>
+                <p><strong>Impact:</strong> Critical vulnerability requiring immediate attention and patching.</p>
+                <p>Source: The Hacker News - <a href="https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html" target="_blank">Read Full Article</a></p>
+                <a href="https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories</h3>
@@ -133,18 +126,18 @@
                 <a href="https://www.securityweek.com/linux-foundation-unveils-new-open-source-security-project-akrites/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Clean GitHub repo tricks AI coding agents into running malware</h3>
-                <p><strong>Summary:</strong> An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisible to security scanners, AI agents, and human revie...</p>
-                <p><strong>Impact:</strong> Malicious software campaign targeting users and organizations.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>$3 Million Reportedly Stolen in Polymarket Hack</h3>
+                <p><strong>Summary:</strong> The decentralized prediction market said hackers targeted some of its users through a compromise of a third-party vendor.</p>
+                <p><strong>Impact:</strong> Unauthorized access campaign targeting systems and data.</p>
+                <p>Source: SecurityWeek - <a href="https://www.securityweek.com/3-million-reportedly-stolen-in-polymarket-hack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.securityweek.com/3-million-reportedly-stolen-in-polymarket-hack/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
-                <h3>Get a durable, refurbished Lenovo Chromebook for $55</h3>
-                <p><strong>Summary:</strong> If you primarily use a computer to browse the web, check emails, stream video, or work inside Google Docs, this refurbished Lenovo 100e Gen 2 Chromebook for $54.97 (reg. $199.99) may be what you are l...</p>
-                <p><strong>Impact:</strong> Cybersecurity development requiring attention and monitoring.</p>
-                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/offer/deals/get-a-durable-refurbished-lenovo-chromebook-for-55/" target="_blank">Read Full Article</a></p>
-                <a href="https://www.bleepingcomputer.com/offer/deals/get-a-durable-refurbished-lenovo-chromebook-for-55/" target="_blank" class="button-link">Read Full Article</a>
+                <h3>CISA sets urgent deadline to fix Cisco flaw exploited in attacks</h3>
+                <p><strong>Summary:</strong> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively ...</p>
+                <p><strong>Impact:</strong> Active exploitation observed in the wild, requiring immediate defensive measures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/" target="_blank" class="button-link">Read Full Article</a>
             </div>
             <div class="service-card" data-aos="fade-up">
                 <h3>[Webinar] Device code phishing in 2026: live demos, real kits, and where it's headed next</h3>
@@ -152,6 +145,13 @@
                 <p><strong>Impact:</strong> Social engineering campaign targeting users with fraudulent communications.</p>
                 <p>Source: BleepingComputer - <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank">Read Full Article</a></p>
                 <a href="https://pushsecurity.com/webinar/device-code-phishing?utm_source=bleeping-computer&utm_medium=sponsored-content&utm_term=ad" target="_blank" class="button-link">Read Full Article</a>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <h3>Polymarket customers lose $3 million in supply-chain attack</h3>
+                <p><strong>Summary:</strong> Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's frontend following a breach at a third-party vendor.</p>
+                <p><strong>Impact:</strong> Data breach affecting organizations and requiring incident response procedures.</p>
+                <p>Source: BleepingComputer - <a href="https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/" target="_blank">Read Full Article</a></p>
+                <a href="https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/" target="_blank" class="button-link">Read Full Article</a>
             </div></section>
 
         <!-- Footer -->
