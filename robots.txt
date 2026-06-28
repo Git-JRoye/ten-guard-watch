@@ -4,12 +4,7 @@ Allow: /
 # Sitemap
 Sitemap: https://www.tenguardsecurity.com/sitemap.xml
 
-# Disallow access to backup files and logs
-Disallow: /*.backup*
-Disallow: /*.log
-Disallow: /news_updater.log
-
-# Allow all other content
+# Allow all content
 Allow: /assets/
 Allow: /*.html
 Allow: /*.css
@@ -17,7 +12,6 @@ Allow: /*.js
 Allow: /*.png
 Allow: /*.jpg
 Allow: /*.jpeg
-Allow: /*.gif
 Allow: /*.svg
 Allow: /*.webp
 Allow: /*.ico

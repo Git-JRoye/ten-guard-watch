@@ -11,40 +11,36 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Primary SEO Meta Tags -->
-    <title>Free Cybersecurity Assessment - Test Your Security Posture | TenGuard Security</title>
-    <meta name="title" content="Free Cybersecurity Assessment - Test Your Security Posture | TenGuard Security">
-    <meta name="description" content="Take our free cybersecurity assessment to evaluate your security posture. Get personalized recommendations and discover vulnerabilities in your current setup. CISSP certified experts ready to help.">
-    <meta name="keywords" content="cybersecurity assessment, security evaluation, free security test, security posture, vulnerability assessment, cybersecurity quiz, security score, TenGuard Security">
+    <title>CMMC Readiness Check - Are You Ready for CMMC Certification? | TenGuard Security</title>
+    <meta name="title" content="CMMC Readiness Check - Are You Ready for CMMC Certification? | TenGuard Security">
+    <meta name="description" content="Take our free CMMC readiness check to see how prepared your organization is for CMMC Level 2 certification. Get a personalized readiness score and actionable next steps.">
+    <meta name="keywords" content="CMMC readiness, CMMC readiness check, CMMC Level 2 readiness, defense contractor CMMC, CMMC self-assessment, CMMC preparation, TenGuard Security">
     <meta name="author" content="TenGuard Security">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.tenguardsecurity.com/self-assessment.html">
-    
-    <!-- Open Graph / Facebook -->
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.tenguardsecurity.com/self-assessment.html">
-    <meta property="og:title" content="Free Cybersecurity Assessment - Test Your Security Posture | TenGuard Security">
-    <meta property="og:description" content="Take our free cybersecurity assessment to evaluate your security posture. Get personalized recommendations and discover vulnerabilities in your current setup.">
+    <meta property="og:title" content="CMMC Readiness Check - Are You Ready for CMMC Certification?">
+    <meta property="og:description" content="Take our free CMMC readiness check to see how prepared your organization is for CMMC Level 2 certification.">
     <meta property="og:image" content="https://www.tenguardsecurity.com/assets/newlogo.png">
     <meta property="og:site_name" content="TenGuard Security">
-    <meta property="og:locale" content="en_US">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.tenguardsecurity.com/self-assessment.html">
-    <meta property="twitter:title" content="Free Cybersecurity Assessment - Test Your Security Posture | TenGuard Security">
-    <meta property="twitter:description" content="Take our free cybersecurity assessment to evaluate your security posture. Get personalized recommendations and discover vulnerabilities in your current setup.">
-    <meta property="twitter:image" content="https://www.tenguardsecurity.com/assets/newlogo.png">
+
+    <meta name="theme-color" content="#1e40af">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles_v5.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <style>
         .assessment-container {
-            max-width: 600px;
+            max-width: 680px;
             margin: 0 auto;
             padding: 20px;
         }
-        
+
         #progress-bar {
             background: rgba(255, 255, 255, 0.1);
             border-radius: 25px;
@@ -53,15 +49,15 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         #progress-fill {
             background: linear-gradient(90deg, #10b981, #059669);
             height: 100%;
-            width: 20%;
+            width: 10%;
             border-radius: 25px;
             transition: width 0.5s ease;
         }
-        
+
         #progress-text {
             position: absolute;
             top: 50%;
@@ -71,134 +67,165 @@
             font-weight: 600;
             font-size: 14px;
         }
-        
+
         .assessment-box {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.08);
             border-radius: 15px;
             padding: 40px;
-            border: 2px solid #10b981;
+            border: 2px solid rgba(16, 185, 129, 0.3);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            min-height: 400px;
+            min-height: 360px;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
-        
-        #question-title {
+
+        .question-area {
+            font-size: 0.8em;
             color: #10b981;
-            font-size: 1.8em;
-            margin-bottom: 20px;
-            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
         }
-        
+
         #question-text {
-            font-size: 1.2em;
-            margin-bottom: 30px;
-            text-align: center;
+            font-size: 1.15em;
+            margin-bottom: 28px;
             line-height: 1.6;
+            color: #e5e7eb;
         }
-        
+
         .option-button {
             display: block;
             width: 100%;
-            padding: 15px 20px;
-            margin: 10px 0;
+            padding: 14px 18px;
+            margin: 9px 0;
             background: rgba(255, 255, 255, 0.05);
-            border: 2px solid rgba(16, 185, 129, 0.3);
+            border: 2px solid rgba(16, 185, 129, 0.25);
             border-radius: 10px;
-            color: white;
+            color: #c9d1d9;
             cursor: pointer;
             transition: all 0.3s ease;
             text-align: left;
-            font-size: 16px;
+            font-size: 0.95em;
+            font-family: 'Poppins', sans-serif;
         }
-        
+
         .option-button:hover {
             background: rgba(16, 185, 129, 0.1);
             border-color: #10b981;
-            transform: translateY(-2px);
+            color: #e5e7eb;
         }
-        
+
         .option-button.selected {
             background: rgba(16, 185, 129, 0.2);
             border-color: #10b981;
-            box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+            color: #e5e7eb;
+            box-shadow: 0 0 12px rgba(16, 185, 129, 0.25);
         }
-        
+
         .assessment-buttons {
             text-align: center;
-            margin-top: 30px;
+            margin-top: 28px;
         }
-        
+
         .assessment-buttons button {
             padding: 12px 30px;
-            font-size: 16px;
-            margin: 0 10px;
+            font-size: 1em;
+            margin: 0 8px;
         }
-        
+
         #assessment-results {
             display: none;
             margin-top: 30px;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .results-box {
+            background: rgba(255, 255, 255, 0.08);
             border-radius: 15px;
+            padding: 38px;
             border: 2px solid #10b981;
             text-align: center;
         }
-        
-        #score-display {
-            margin: 20px 0;
+
+        .score-circle {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 6px solid #10b981;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            background: rgba(255,255,255,0.05);
         }
-        
-        #score-display h3 {
+
+        .score-circle .score-num {
             font-size: 2.5em;
-            color: #10b981;
-            margin-bottom: 15px;
+            font-weight: 700;
+            color: white;
         }
-        
-        #score-display p {
-            font-size: 1.2em;
-            margin-bottom: 20px;
+
+        .score-circle .score-lbl {
+            font-size: 0.8em;
+            color: #c9d1d9;
         }
-        
+
+        #score-message {
+            font-size: 1.1em;
+            margin: 15px 0 25px;
+            color: #e5e7eb;
+        }
+
         #recommendations {
             text-align: left;
             background: rgba(255, 255, 255, 0.05);
-            padding: 20px;
+            padding: 22px 26px;
             border-radius: 10px;
             margin: 20px 0;
         }
-        
+
         #recommendations h3 {
             color: #10b981;
-            margin-bottom: 15px;
+            margin-bottom: 14px;
+            font-size: 1.05em;
         }
-        
+
         #recommendations ul {
             list-style: none;
             padding: 0;
         }
-        
+
         #recommendations li {
-            padding: 8px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 9px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            color: #c9d1d9;
+            font-size: 0.95em;
+            line-height: 1.5;
         }
-        
-        #recommendations li:before {
-            content: "🔒 ";
-            margin-right: 10px;
+
+        #recommendations li:last-child { border-bottom: none; }
+
+        #recommendations li::before {
+            content: "→ ";
+            color: #10b981;
+            font-weight: 700;
         }
-        
+
+        .results-cta {
+            margin-top: 28px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
         @media (max-width: 768px) {
-            .assessment-box {
-                padding: 20px;
-                margin: 0 10px;
-            }
-            
-            .option-button {
-                padding: 12px 15px;
-                font-size: 14px;
-            }
+            .assessment-box { padding: 22px; }
+            .results-box { padding: 24px; }
+            .option-button { padding: 12px 14px; font-size: 0.9em; }
         }
     </style>
 </head>
@@ -209,56 +236,65 @@
             <div class="logo">
                 <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
             </div>
-            <!-- Hamburger Icon -->
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <!-- Navigation Links -->
             <ul class="nav-links" id="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
+                <li><a href="cmmc.html">CMMC</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="tenguardwatch.html">TenGuard Watch</a></li>
-                <li><a href="threat-trends/">Threat Trends</a></li>
-                <li><a href="cmmc/">CMMC</a></li>
             </ul>
+            <a href="contact.html" class="button-link consult-button">Free Consultation</a>
         </nav>
     </header>
 
-    <!-- Security Assessment Section -->
+    <!-- Assessment Section -->
     <section class="hero blue-tint" data-aos="fade-up" data-aos-once="true">
-        <h1>Are You Protected? Security Assessment</h1>
+        <h1>CMMC Readiness Check</h1>
         <p>
-            Take our comprehensive security assessment to identify potential vulnerabilities in your current setup. This quick evaluation will help you understand your security posture and identify areas for improvement.
+            Answer 10 quick questions to get a sense of where your organization stands on the path to CMMC Level 2 compliance. This readiness check covers the most common gaps we see in defense contractors — and helps you understand what to focus on first.
         </p>
-        
+
         <div class="assessment-container" data-aos="fade-up">
             <div id="progress-bar">
                 <div id="progress-fill"></div>
-                <span id="progress-text">Question 1 of 5</span>
+                <span id="progress-text">Question 1 of 10</span>
             </div>
-            
+
             <div class="assessment-box" id="assessment-box">
                 <div id="question-container">
-                    <h2 id="question-title">Security Assessment</h2>
-                    <p id="question-text">Let's evaluate your cybersecurity posture with a few quick questions.</p>
+                    <div class="question-area" id="question-domain">CMMC Readiness</div>
+                    <p id="question-text">Loading...</p>
                     <div id="question-options"></div>
                     <div class="assessment-buttons">
                         <button id="next-btn" class="button-link" style="display: none;">Next Question</button>
-                        <button id="finish-btn" class="button-link" style="display: none;">Get My Security Score</button>
+                        <button id="finish-btn" class="button-link" style="display: none;">See My Results</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="assessment-results" style="display: none;">
-            <h2>Your Security Assessment Results</h2>
-            <div id="score-display"></div>
-            <div id="recommendations"></div>
-            <a href="contact.html" class="button-link">Get Professional Security Consultation</a>
+        <div id="assessment-results">
+            <div class="results-box">
+                <h2>Your CMMC Readiness Results</h2>
+                <div class="score-circle" id="score-circle">
+                    <span class="score-num" id="score-num">0%</span>
+                    <span class="score-lbl">Ready</span>
+                </div>
+                <p id="score-message"></p>
+                <div id="recommendations"></div>
+                <div class="results-cta">
+                    <a href="cmmc/index.html" class="button-link">Full CMMC Self-Assessment Tool</a>
+                    <a href="contact.html" class="button-link">Talk to an Assessor</a>
+                </div>
+                <p style="margin-top: 20px; font-size: 0.82em; color: #95a5a6; font-style: italic;">
+                    This readiness check is for informational purposes and is not an official CMMC assessment. Contact us for a professional gap analysis.
+                </p>
+            </div>
         </div>
     </section>
 
@@ -268,48 +304,107 @@
         <div class="footer-line"></div>
     </footer>
 
-    <!-- Assessment Script -->
     <script>
         const questions = [
             {
-                question: "Do you have antivirus software installed and updated?",
+                domain: "Scoping & CUI",
+                question: "Has your organization identified and documented all Controlled Unclassified Information (CUI) that you receive, generate, or store as part of DoD contracts?",
                 options: [
-                    { text: "Yes, regularly updated", value: "yes" },
-                    { text: "No", value: "no" },
-                    { text: "Sometimes updated", value: "sometimes" }
-                ]
+                    { text: "Yes — we have a CUI inventory and know exactly where it lives", value: 2 },
+                    { text: "Partially — we know roughly what CUI we have but haven't formally documented it", value: 1 },
+                    { text: "No — we haven't formally identified our CUI", value: 0 }
+                ],
+                recommendation: "Identify and document all CUI — this is the foundation of your CMMC program. You cannot scope your assessment boundary without it."
             },
             {
-                question: "Do you use strong, unique passwords for all accounts?",
+                domain: "System Security Plan",
+                question: "Does your organization have a documented System Security Plan (SSP) that describes how you protect CUI and which security controls are in place?",
                 options: [
-                    { text: "Yes, all unique and strong", value: "yes" },
-                    { text: "No, I reuse passwords", value: "no" },
-                    { text: "Some are strong, some aren't", value: "sometimes" }
-                ]
+                    { text: "Yes — we have a current, detailed SSP", value: 2 },
+                    { text: "Partially — we have some documentation but it is incomplete", value: 1 },
+                    { text: "No — we do not have an SSP", value: 0 }
+                ],
+                recommendation: "Develop a comprehensive System Security Plan (SSP). This is a mandatory artifact for CMMC Level 2 and the central document assessors will review."
             },
             {
-                question: "Do you have two-factor authentication enabled?",
+                domain: "Access Control",
+                question: "Are user accounts limited so that employees can only access the systems and data required for their specific job role (least privilege principle)?",
                 options: [
-                    { text: "Yes, on all important accounts", value: "yes" },
-                    { text: "No", value: "no" },
-                    { text: "On some accounts", value: "some" }
-                ]
+                    { text: "Yes — role-based access is documented and enforced", value: 2 },
+                    { text: "Partially — we have some separation but not consistently enforced", value: 1 },
+                    { text: "No — most users have broad or admin-level access", value: 0 }
+                ],
+                recommendation: "Implement and document least-privilege access controls. Restrict user access to only what their job requires and conduct regular access reviews."
             },
             {
-                question: "Do you regularly update your software and operating system?",
+                domain: "Multi-Factor Authentication",
+                question: "Is multi-factor authentication (MFA) required for all privileged accounts and for any remote access to systems that contain CUI?",
                 options: [
-                    { text: "Yes, automatically", value: "yes" },
-                    { text: "No, rarely", value: "no" },
-                    { text: "Sometimes", value: "sometimes" }
-                ]
+                    { text: "Yes — MFA is in place for all privileged and remote access", value: 2 },
+                    { text: "Partially — MFA is used in some cases but not consistently", value: 1 },
+                    { text: "No — we rely on passwords alone", value: 0 }
+                ],
+                recommendation: "Implement MFA for all privileged accounts and all remote access. This is one of the most critical CMMC Level 2 controls and one of the most commonly non-compliant."
             },
             {
-                question: "Do you have a backup strategy for your important data?",
+                domain: "Incident Response",
+                question: "Does your organization have a documented incident response plan that defines how you detect, report, and respond to cybersecurity incidents involving CUI?",
                 options: [
-                    { text: "Yes, automated backups", value: "yes" },
-                    { text: "No backup strategy", value: "no" },
-                    { text: "Manual backups occasionally", value: "manual" }
-                ]
+                    { text: "Yes — we have a documented and tested incident response plan", value: 2 },
+                    { text: "Partially — we have informal procedures but nothing formally documented", value: 1 },
+                    { text: "No — we do not have an incident response plan", value: 0 }
+                ],
+                recommendation: "Develop and document an incident response plan. CMMC Level 2 requires defined procedures for detecting, reporting, and recovering from security incidents."
+            },
+            {
+                domain: "Configuration Management",
+                question: "Does your organization maintain a baseline configuration for its information systems and track changes to that baseline?",
+                options: [
+                    { text: "Yes — we have documented baselines and a change management process", value: 2 },
+                    { text: "Partially — we have some standards but don't formally track changes", value: 1 },
+                    { text: "No — we don't have documented system baselines", value: 0 }
+                ],
+                recommendation: "Establish and document configuration baselines for all systems in scope. Implement a formal change management process to track and authorize changes."
+            },
+            {
+                domain: "Audit & Accountability",
+                question: "Are audit logs enabled and retained for systems that process or store CUI, so that you can reconstruct events if a security incident occurs?",
+                options: [
+                    { text: "Yes — logging is enabled, retained, and reviewed regularly", value: 2 },
+                    { text: "Partially — logging is enabled but retention or review is inconsistent", value: 1 },
+                    { text: "No — audit logging is not configured on our systems", value: 0 }
+                ],
+                recommendation: "Enable audit logging on all systems in scope. Define retention periods, protect logs from tampering, and establish a regular review process."
+            },
+            {
+                domain: "Training & Awareness",
+                question: "Do all employees who handle CUI receive security awareness training that covers CUI handling requirements, phishing recognition, and reporting obligations?",
+                options: [
+                    { text: "Yes — we conduct documented annual security training for all staff", value: 2 },
+                    { text: "Partially — some training happens but it isn't formal or tracked", value: 1 },
+                    { text: "No — we don't have a security awareness training program", value: 0 }
+                ],
+                recommendation: "Implement a formal security awareness training program. Training must cover CUI handling, insider threats, phishing, and incident reporting — and must be documented."
+            },
+            {
+                domain: "Risk Assessment",
+                question: "Has your organization conducted a formal risk assessment to identify threats and vulnerabilities to systems containing CUI?",
+                options: [
+                    { text: "Yes — we conduct periodic risk assessments and document results", value: 2 },
+                    { text: "Partially — we've done some informal risk evaluation", value: 1 },
+                    { text: "No — we haven't conducted a formal risk assessment", value: 0 }
+                ],
+                recommendation: "Conduct and document a formal risk assessment. This is a required CMMC practice and should drive your security improvement priorities."
+            },
+            {
+                domain: "Plan of Action & Milestones",
+                question: "Does your organization have a Plan of Action & Milestones (POA&M) that documents known security gaps and tracks progress on remediation?",
+                options: [
+                    { text: "Yes — we maintain an active POA&M with milestones and owners", value: 2 },
+                    { text: "Partially — we track some issues informally but have no formal POA&M", value: 1 },
+                    { text: "No — we don't have a POA&M", value: 0 }
+                ],
+                recommendation: "Create and maintain a formal POA&M. This document demonstrates to assessors that you are actively managing your compliance gaps with defined timelines and accountability."
             }
         ];
 
@@ -322,36 +417,28 @@
         });
 
         function showQuestion() {
-            const question = questions[currentQuestion];
+            const q = questions[currentQuestion];
             const progress = ((currentQuestion + 1) / questions.length) * 100;
-            
-            // Update progress bar
+
             document.getElementById('progress-fill').style.width = progress + '%';
-            document.getElementById('progress-text').textContent = `Question ${currentQuestion + 1} of ${questions.length}`;
-            
-            // Update question content
-            document.getElementById('question-text').textContent = question.question;
-            
-            // Create option buttons
-            const optionsContainer = document.getElementById('question-options');
-            optionsContainer.innerHTML = '';
-            
-            question.options.forEach((option, index) => {
-                const button = document.createElement('button');
-                button.className = 'option-button';
-                button.textContent = option.text;
-                button.dataset.value = option.value;
-                
-                button.addEventListener('click', function() {
-                    // Remove selected class from all buttons
-                    document.querySelectorAll('.option-button').forEach(btn => btn.classList.remove('selected'));
-                    // Add selected class to clicked button
-                    this.classList.add('selected');
-                    
-                    // Store answer
-                    answers[currentQuestion] = option.value;
-                    
-                    // Show appropriate button
+            document.getElementById('progress-text').textContent = 'Question ' + (currentQuestion + 1) + ' of ' + questions.length;
+            document.getElementById('question-domain').textContent = q.domain;
+            document.getElementById('question-text').textContent = q.question;
+
+            const container = document.getElementById('question-options');
+            container.innerHTML = '';
+
+            q.options.forEach(function(option) {
+                const btn = document.createElement('button');
+                btn.className = 'option-button';
+                btn.textContent = option.text;
+                btn.dataset.value = option.value;
+
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.option-button').forEach(function(b) { b.classList.remove('selected'); });
+                    btn.classList.add('selected');
+                    answers[currentQuestion] = parseInt(btn.dataset.value);
+
                     if (currentQuestion === questions.length - 1) {
                         document.getElementById('finish-btn').style.display = 'inline-block';
                         document.getElementById('next-btn').style.display = 'none';
@@ -360,9 +447,12 @@
                         document.getElementById('finish-btn').style.display = 'none';
                     }
                 });
-                
-                optionsContainer.appendChild(button);
+
+                container.appendChild(btn);
             });
+
+            document.getElementById('next-btn').style.display = 'none';
+            document.getElementById('finish-btn').style.display = 'none';
         }
 
         document.getElementById('next-btn').addEventListener('click', function() {
@@ -374,83 +464,63 @@
         });
 
         document.getElementById('finish-btn').addEventListener('click', function() {
-            calculateScore();
+            calculateResults();
         });
 
-        function calculateScore() {
-            let score = 0;
-            let totalQuestions = questions.length;
-            
-            // Calculate score
-            answers.forEach(answer => {
-                if (answer === 'yes') score += 2;
-                else if (answer === 'sometimes' || answer === 'some' || answer === 'manual') score += 1;
-            });
-            
-            const percentage = Math.round((score / (totalQuestions * 2)) * 100);
-            
-            console.log('Answers:', answers);
-            console.log('Score:', score);
-            console.log('Percentage:', percentage);
-            
-            // Hide assessment box and show results
+        function calculateResults() {
+            const maxScore = questions.length * 2;
+            const total = answers.reduce(function(sum, v) { return sum + (v || 0); }, 0);
+            const pct = Math.round((total / maxScore) * 100);
+
             document.getElementById('assessment-box').style.display = 'none';
             document.getElementById('progress-bar').style.display = 'none';
-            
-            // Display results
-            document.getElementById('score-display').innerHTML = `
-                <h3>Security Score: ${percentage}%</h3>
-                <p>${getScoreMessage(percentage)}</p>
-            `;
-            
-            document.getElementById('recommendations').innerHTML = getRecommendations();
-            
-            // Force show results
-            const resultsElement = document.getElementById('assessment-results');
-            resultsElement.style.display = 'block';
-            resultsElement.style.visibility = 'visible';
-            
-            // Scroll to results
-            resultsElement.scrollIntoView({ behavior: 'smooth' });
-        }
-        
-        function getScoreMessage(percentage) {
-            if (percentage >= 80) return "Excellent! You have strong security practices.";
-            else if (percentage >= 60) return "Good security practices, but there's room for improvement.";
-            else if (percentage >= 40) return "Your security needs attention in several areas.";
-            else return "Your security posture needs significant improvement.";
-        }
-        
-        function getRecommendations() {
-            let recommendations = "<h3>🔒 Security Recommendations:</h3><ul>";
-            
-            if (answers[0] !== 'yes') {
-                recommendations += "<li>Install and regularly update antivirus software</li>";
-            }
-            if (answers[1] !== 'yes') {
-                recommendations += "<li>Use a password manager to create and store unique passwords</li>";
-            }
-            if (answers[2] !== 'yes') {
-                recommendations += "<li>Enable two-factor authentication on all important accounts</li>";
-            }
-            if (answers[3] !== 'yes') {
-                recommendations += "<li>Enable automatic software updates</li>";
-            }
-            if (answers[4] !== 'yes') {
-                recommendations += "<li>Implement automated backup solutions</li>";
-            }
-            
-            recommendations += "</ul>";
-            return recommendations;
-        }
-    </script>
 
-    <!-- Initialize AOS -->
-    <script>
-        AOS.init({
-            duration: 1000,
-            once: true,
-        });
+            const circle = document.getElementById('score-circle');
+            if (pct >= 70) {
+                circle.style.borderColor = '#10b981';
+            } else if (pct >= 40) {
+                circle.style.borderColor = '#f39c12';
+            } else {
+                circle.style.borderColor = '#e74c3c';
+            }
+
+            document.getElementById('score-num').textContent = pct + '%';
+            document.getElementById('score-message').textContent = getScoreMessage(pct);
+
+            // Build recommendations for any question not answered with 2
+            const gaps = [];
+            answers.forEach(function(answer, idx) {
+                if (answer < 2) {
+                    gaps.push(questions[idx].recommendation);
+                }
+            });
+
+            let recHtml = '<h3>Priority Actions for Your Organization:</h3>';
+            if (gaps.length === 0) {
+                recHtml += '<p style="color:#10b981;">Strong readiness indicators across all areas. A formal gap analysis will confirm your compliance posture and identify any remaining issues before assessment.</p>';
+            } else {
+                recHtml += '<ul>';
+                gaps.forEach(function(rec) {
+                    recHtml += '<li>' + rec + '</li>';
+                });
+                recHtml += '</ul>';
+            }
+
+            document.getElementById('recommendations').innerHTML = recHtml;
+
+            const results = document.getElementById('assessment-results');
+            results.style.display = 'block';
+            results.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function getScoreMessage(pct) {
+            if (pct >= 80) return "Your organization shows strong CMMC readiness. A professional gap analysis will confirm your status and identify any remaining gaps before formal assessment.";
+            if (pct >= 60) return "You have foundational practices in place, but several key areas need attention before you'll be ready for a CMMC Level 2 assessment. The priority actions below are a good starting point.";
+            if (pct >= 40) return "Significant gaps exist across multiple CMMC requirement areas. A structured remediation effort will be needed. Starting now gives you the time to get it right before contracts require certification.";
+            return "Your organization has considerable work ahead to achieve CMMC Level 2 compliance. The good news: starting with a professional gap analysis will give you a clear, prioritized roadmap. Most organizations in this position can achieve compliance within 12-18 months with the right guidance.";
+        }
+
+        AOS.init({ duration: 1000, once: true });
     </script>
 
     <script src="script.js"></script>

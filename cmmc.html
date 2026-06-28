@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/svglogo.svg">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/newlogo.png">
+    <link rel="apple-touch-icon" href="/assets/newlogo.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>What is CMMC? Cybersecurity Maturity Model Certification Explained | TenGuard Security</title>
+    <meta name="title" content="What is CMMC? Cybersecurity Maturity Model Certification Explained | TenGuard Security">
+    <meta name="description" content="CMMC explained: what it is, who needs it, the three levels, what assessors look for, and your path to certification. Expert guidance from a Lead Certified CMMC Assessor.">
+    <meta name="keywords" content="what is CMMC, CMMC explained, CMMC Level 1, CMMC Level 2, CMMC Level 3, CMMC requirements, defense contractor compliance, NIST 800-171, CUI, FCI, C3PAO, CMMC assessment process">
+    <meta name="author" content="TenGuard Security">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.tenguardsecurity.com/cmmc.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tenguardsecurity.com/cmmc.html">
+    <meta property="og:title" content="What is CMMC? Cybersecurity Maturity Model Certification Explained">
+    <meta property="og:description" content="CMMC explained: what it is, who needs it, the three levels, and your path to certification. Expert guidance from a Lead Certified CMMC Assessor.">
+    <meta property="og:image" content="https://www.tenguardsecurity.com/assets/newlogo.png">
+    <meta property="og:site_name" content="TenGuard Security">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.tenguardsecurity.com/cmmc.html">
+    <meta property="twitter:title" content="What is CMMC? Cybersecurity Maturity Model Certification Explained">
+    <meta property="twitter:description" content="CMMC explained: levels, requirements, who needs it, and your path to certification.">
+    <meta property="twitter:image" content="https://www.tenguardsecurity.com/assets/newlogo.png">
+
+    <meta name="theme-color" content="#1e40af">
+
+    <!-- Structured Data - FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is CMMC?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "CMMC (Cybersecurity Maturity Model Certification) is the Department of Defense's framework requiring defense contractors to implement and verify cybersecurity practices that protect Federal Contract Information (FCI) and Controlled Unclassified Information (CUI)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Who needs CMMC certification?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Any company that works on DoD contracts involving Federal Contract Information (FCI) or Controlled Unclassified Information (CUI) must meet CMMC requirements. This includes prime contractors, subcontractors, and suppliers in the Defense Industrial Base."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between CMMC Level 1, Level 2, and Level 3?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "CMMC Level 1 requires 17 foundational practices for companies handling FCI. Level 2 requires 110 practices aligned with NIST SP 800-171 for companies handling CUI. Level 3 adds additional practices for companies working on the most sensitive programs, assessed by the government."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need a third-party assessor for CMMC?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It depends on your level. Level 1 allows annual self-assessment. Level 2 requires either self-assessment or a third-party assessment by a C3PAO (CMMC Third-Party Assessment Organization), depending on the sensitivity of the programs you support. Level 3 requires a government-led assessment."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_v5.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <style>
+        .cmmc-page-section {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .level-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+            margin: 30px 0;
+        }
+
+        .level-card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            border-radius: 14px;
+            padding: 28px 22px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .level-card:hover {
+            border-color: #10b981;
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.2);
+        }
+
+        .level-card .level-badge {
+            display: inline-block;
+            padding: 5px 16px;
+            border-radius: 20px;
+            font-size: 0.82em;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        .level-card.level-1 .level-badge { background: rgba(16, 185, 129, 0.2); color: #10b981; }
+        .level-card.level-2 .level-badge { background: rgba(56, 189, 248, 0.2); color: #38bdf8; }
+        .level-card.level-3 .level-badge { background: rgba(168, 85, 247, 0.2); color: #a855f7; }
+
+        .level-card h3 {
+            font-size: 1.15em;
+            margin-bottom: 10px;
+            color: #e5e7eb;
+        }
+
+        .level-card p {
+            color: #c9d1d9;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        .level-card .level-detail {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.83em;
+            color: #95a5a6;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+            margin: 25px 0;
+        }
+
+        .process-step {
+            background: rgba(255, 255, 255, 0.07);
+            border-left: 4px solid #10b981;
+            border-radius: 0 10px 10px 0;
+            padding: 20px 22px;
+        }
+
+        .process-step .step-num {
+            font-size: 0.8em;
+            color: #10b981;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .process-step h4 {
+            color: #e5e7eb;
+            font-size: 1em;
+            margin-bottom: 7px;
+        }
+
+        .process-step p {
+            color: #c9d1d9;
+            font-size: 0.88em;
+            line-height: 1.5;
+        }
+
+        .domain-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin: 22px 0;
+        }
+
+        .domain-tag {
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 8px;
+            padding: 12px 14px;
+            font-size: 0.88em;
+            color: #c9d1d9;
+        }
+
+        .domain-tag strong {
+            display: block;
+            color: #10b981;
+            font-size: 0.78em;
+            margin-bottom: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-block {
+            background: rgba(255, 255, 255, 0.07);
+            border-radius: 12px;
+            padding: 28px 32px;
+            margin: 20px 0;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .info-block h3 {
+            color: #10b981;
+            font-size: 1.15em;
+            margin-bottom: 12px;
+        }
+
+        .info-block p {
+            color: #c9d1d9;
+            line-height: 1.7;
+            font-size: 0.97em;
+        }
+
+        .info-block ul {
+            color: #c9d1d9;
+            line-height: 1.8;
+            font-size: 0.95em;
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        .cui-fci-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 22px 0;
+        }
+
+        .cui-card {
+            background: rgba(255,255,255,0.07);
+            border-radius: 12px;
+            padding: 22px;
+            border: 2px solid rgba(56,189,248,0.25);
+        }
+
+        .fci-card {
+            background: rgba(255,255,255,0.07);
+            border-radius: 12px;
+            padding: 22px;
+            border: 2px solid rgba(16,185,129,0.25);
+        }
+
+        .cui-card h4 { color: #38bdf8; margin-bottom: 8px; }
+        .fci-card h4 { color: #10b981; margin-bottom: 8px; }
+
+        .cui-card p, .fci-card p {
+            color: #c9d1d9;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .level-cards { grid-template-columns: 1fr; }
+            .process-steps { grid-template-columns: 1fr; }
+            .domain-grid { grid-template-columns: repeat(2, 1fr); }
+            .cui-fci-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/svglogo.svg" alt="TenGuard Security Logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="cmmc.html">CMMC</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="button-link consult-button">Free Consultation</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero blue-tint" data-aos="fade-up" data-aos-once="true">
+        <h1>What is CMMC?</h1>
+        <p>
+            The <strong>Cybersecurity Maturity Model Certification (CMMC)</strong> is the Department of Defense's mandatory framework for verifying that defense contractors adequately protect sensitive government information. If your company holds or works on DoD contracts, CMMC is not optional — it is a contract requirement that is actively being enforced.
+        </p>
+        <a href="cmmc/index.html" class="button-link">Take the CMMC Assessment Tool</a>
+        <a href="contact.html" class="button-link">Talk to an Assessor</a>
+    </section>
+
+    <!-- Main Content -->
+    <section class="values blue-tint">
+        <div class="cmmc-page-section">
+
+            <!-- Why CMMC Exists -->
+            <div data-aos="fade-up">
+                <h2 style="font-size: 1.7em; margin-bottom: 20px;">Why Does CMMC Exist?</h2>
+                <div class="info-block">
+                    <p>
+                        For years, the DoD relied on defense contractors to self-certify that they were following cybersecurity requirements under DFARS clause 252.204-7012 and NIST SP 800-171. The problem: self-certification created no accountability, and adversaries — most notably nation-state actors — were actively exploiting unprotected contractors to steal sensitive defense technology, program data, and technical specifications.
+                    </p>
+                    <p style="margin-top: 12px;">
+                        CMMC was developed to solve this. Under CMMC 2.0, contractors must demonstrate compliance through verified assessments — not just sign a document saying they comply. The program requires contractors to be assessed by credentialed third-party organizations and assessors, ensuring that protections are actually in place.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FCI vs CUI -->
+            <div data-aos="fade-up" style="margin-top: 40px;">
+                <h2 style="font-size: 1.7em; margin-bottom: 20px;">Two Types of Sensitive Information</h2>
+                <p style="color: #c9d1d9; margin-bottom: 18px;">Which CMMC level applies to you depends on what type of information your organization handles:</p>
+                <div class="cui-fci-grid">
+                    <div class="fci-card">
+                        <h4>FCI — Federal Contract Information</h4>
+                        <p>Information provided by or generated for the Government under a contract to develop or deliver a product or service. If you handle FCI, you need at minimum <strong>CMMC Level 1</strong>.</p>
+                        <p style="margin-top: 10px; font-size: 0.85em; color: #95a5a6;">Examples: Contract deliverables, procurement data, pricing information</p>
+                    </div>
+                    <div class="cui-card">
+                        <h4>CUI — Controlled Unclassified Information</h4>
+                        <p>Government-created or government-handled information that requires safeguarding under law or policy, but is not classified. If you handle CUI, you need <strong>CMMC Level 2 or Level 3</strong>.</p>
+                        <p style="margin-top: 10px; font-size: 0.85em; color: #95a5a6;">Examples: Technical specifications, export-controlled data, DoD program information, engineering drawings</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CMMC Levels -->
+            <div data-aos="fade-up" style="margin-top: 40px;">
+                <h2 style="font-size: 1.7em; margin-bottom: 10px;">The Three CMMC Levels</h2>
+                <p style="color: #c9d1d9; margin-bottom: 22px;">CMMC 2.0 simplified the original five-level model into three levels, each with distinct requirements and assessment methods.</p>
+                <div class="level-cards">
+                    <div class="level-card level-1" data-aos="fade-up">
+                        <span class="level-badge">LEVEL 1</span>
+                        <h3>Foundational</h3>
+                        <p>17 basic cybersecurity practices from FAR 52.204-21, focused on protecting Federal Contract Information (FCI).</p>
+                        <div class="level-detail">
+                            Assessment: Annual self-assessment<br>
+                            Handles: FCI only<br>
+                            Practices: 17
+                        </div>
+                    </div>
+                    <div class="level-card level-2" data-aos="fade-up" data-aos-delay="100">
+                        <span class="level-badge">LEVEL 2</span>
+                        <h3>Advanced</h3>
+                        <p>110 security practices fully aligned with NIST SP 800-171, protecting Controlled Unclassified Information (CUI).</p>
+                        <div class="level-detail">
+                            Assessment: Self-assessment or C3PAO<br>
+                            Handles: CUI<br>
+                            Practices: 110
+                        </div>
+                    </div>
+                    <div class="level-card level-3" data-aos="fade-up" data-aos-delay="200">
+                        <span class="level-badge">LEVEL 3</span>
+                        <h3>Expert</h3>
+                        <p>110+ practices including NIST SP 800-172 requirements, for the most critical DoD programs facing advanced persistent threats.</p>
+                        <div class="level-detail">
+                            Assessment: Government-led (DCSA)<br>
+                            Handles: CUI on critical programs<br>
+                            Practices: 110+
+                        </div>
+                    </div>
+                </div>
+                <p style="color: #95a5a6; font-size: 0.88em; text-align: center;">The vast majority of DIB contractors will require <strong style="color: #38bdf8;">CMMC Level 2</strong>. This is the level TenGuard Security specializes in.</p>
+            </div>
+
+            <!-- CMMC Level 2 Domains -->
+            <div data-aos="fade-up" style="margin-top: 40px;">
+                <h2 style="font-size: 1.7em; margin-bottom: 10px;">The 17 CMMC Level 2 Domains</h2>
+                <p style="color: #c9d1d9; margin-bottom: 18px;">CMMC Level 2's 110 practices are organized across 17 domains derived from NIST SP 800-171:</p>
+                <div class="domain-grid">
+                    <div class="domain-tag"><strong>AC</strong> Access Control</div>
+                    <div class="domain-tag"><strong>AT</strong> Awareness &amp; Training</div>
+                    <div class="domain-tag"><strong>AU</strong> Audit &amp; Accountability</div>
+                    <div class="domain-tag"><strong>CM</strong> Configuration Management</div>
+                    <div class="domain-tag"><strong>IA</strong> Identification &amp; Authentication</div>
+                    <div class="domain-tag"><strong>IR</strong> Incident Response</div>
+                    <div class="domain-tag"><strong>MA</strong> Maintenance</div>
+                    <div class="domain-tag"><strong>MP</strong> Media Protection</div>
+                    <div class="domain-tag"><strong>PE</strong> Physical Protection</div>
+                    <div class="domain-tag"><strong>PS</strong> Personnel Security</div>
+                    <div class="domain-tag"><strong>RA</strong> Risk Assessment</div>
+                    <div class="domain-tag"><strong>CA</strong> Security Assessment</div>
+                    <div class="domain-tag"><strong>SC</strong> System &amp; Comms Protection</div>
+                    <div class="domain-tag"><strong>SI</strong> System &amp; Info Integrity</div>
+                    <div class="domain-tag"><strong>PM</strong> Program Management</div>
+                    <div class="domain-tag"><strong>PL</strong> Planning</div>
+                    <div class="domain-tag"><strong>SA</strong> System &amp; Services Acquisition</div>
+                </div>
+            </div>
+
+            <!-- Who Needs CMMC -->
+            <div data-aos="fade-up" style="margin-top: 40px;">
+                <h2 style="font-size: 1.7em; margin-bottom: 20px;">Who Needs CMMC?</h2>
+                <div class="info-block">
+                    <h3>If your company does any of the following, CMMC likely applies to you:</h3>
+                    <ul>
+                        <li>Holds a prime contract or subcontract with the Department of Defense</li>
+                        <li>Receives, processes, stores, or transmits technical data or CUI as part of a DoD contract</li>
+                        <li>Provides products, services, or IT infrastructure that touches DoD information systems</li>
+                        <li>Is a supplier in the defense supply chain, even several tiers down</li>
+                        <li>Works on programs involving export-controlled data, engineering specs, or DoD program information</li>
+                    </ul>
+                    <p style="margin-top: 15px;">
+                        CMMC requirements flow down through the supply chain. Even if you are a subcontractor or sub-tier supplier, if the prime's contract requires CMMC and you handle FCI or CUI, you must comply. Primes are responsible for ensuring their subcontractors meet CMMC requirements.
+                    </p>
+                </div>
+            </div>
+
+            <!-- The Assessment Process -->
+            <div data-aos="fade-up" style="margin-top: 40px;">
+                <h2 style="font-size: 1.7em; margin-bottom: 10px;">The CMMC Assessment Process</h2>
+                <p style="color: #c9d1d9; margin-bottom: 20px;">For Level 2 organizations requiring a third-party assessment, here is how the process typically works:</p>
+                <div class="process-steps">
+                    <div class="process-step" data-aos="fade-right">
+                        <div class="step-num">Step 1</div>
+                        <h4>Scoping &amp; CUI Identification</h4>
+                        <p>Define your assessment boundary — which systems, people, and locations handle CUI — and document your CUI data flows.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-left">
+                        <div class="step-num">Step 2</div>
+                        <h4>Gap Analysis</h4>
+                        <p>Evaluate your current security practices against all 110 CMMC Level 2 requirements. Identify what is compliant, partially compliant, or missing.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-right">
+                        <div class="step-num">Step 3</div>
+                        <h4>Remediation &amp; Documentation</h4>
+                        <p>Implement required controls, develop your System Security Plan (SSP), and create a Plan of Action &amp; Milestones (POA&amp;M) for any remaining gaps.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-left">
+                        <div class="step-num">Step 4</div>
+                        <h4>Third-Party Assessment (C3PAO)</h4>
+                        <p>A CMMC Third-Party Assessment Organization conducts the official assessment. The Lead Assessor reviews your documentation, interviews staff, and tests controls.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-right">
+                        <div class="step-num">Step 5</div>
+                        <h4>Cyber AB Submission</h4>
+                        <p>Assessment results are submitted to the Cyber AB's CMMC Enterprise Mission Assurance Support Service (eMASS). Upon approval, your certification is issued.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-left">
+                        <div class="step-num">Step 6</div>
+                        <h4>Ongoing Compliance</h4>
+                        <p>CMMC Level 2 certification is valid for three years. You must maintain your controls and documentation continuously and prepare for your next assessment cycle.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline -->
+            <div data-aos="fade-up" style="margin-top: 40px;">
+                <h2 style="font-size: 1.7em; margin-bottom: 20px;">CMMC Timeline &amp; Enforcement</h2>
+                <div class="info-block">
+                    <h3>CMMC 2.0 Is Being Phased In Now</h3>
+                    <p>
+                        CMMC 2.0 was finalized as a federal rule and is being phased into DoD contracts. The phased rollout means that contract clauses are appearing in new solicitations and renewals at increasing frequency. The DoD has communicated a clear trajectory: CMMC requirements will be universal across all applicable defense contracts.
+                    </p>
+                    <p style="margin-top: 12px;">
+                        Many contractors are already seeing CMMC requirements appear in their RFPs and contract renewals. If you are waiting for "your contract" to require it, you may find yourself without time to prepare when it does.
+                    </p>
+                    <p style="margin-top: 12px; color: #10b981; font-weight: 600;">
+                        The typical timeline to achieve CMMC Level 2 compliance from scratch is 6 to 18 months. Starting now protects your ability to compete for contracts.
+                    </p>
+                </div>
+            </div>
+
+            <!-- How TenGuard Helps -->
+            <div data-aos="fade-up" style="margin-top: 40px; margin-bottom: 20px;">
+                <h2 style="font-size: 1.7em; margin-bottom: 20px;">How TenGuard Security Can Help</h2>
+                <div class="info-block">
+                    <p>
+                        TenGuard Security provides end-to-end CMMC support — from understanding where your organization stands today to achieving formal certification. As a <strong>Lead Certified CMMC Assessor (Lead CCA)</strong>, Johnny Roye brings both the authority to conduct official assessments and the consulting expertise to help you prepare for them.
+                    </p>
+                    <p style="margin-top: 12px;">
+                        Whether you need a gap analysis to understand your compliance gaps, help developing your SSP and POA&amp;M, guidance on scoping your CUI environment, or a pre-assessment review before your formal C3PAO assessment — TenGuard provides qualified, straightforward support tailored to small and mid-sized defense contractors.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div style="text-align: center; margin: 40px 0 20px;" data-aos="fade-up">
+                <a href="cmmc/index.html" class="button-link" style="margin-right: 15px;">Take the CMMC Self-Assessment Tool</a>
+                <a href="contact.html" class="button-link">Schedule a Free Consultation</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 TenGuard Security. All Rights Reserved.</p>
+        <div class="footer-line"></div>
+        <a href="index.html" class="button-link">Return Home</a>
+    </footer>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
